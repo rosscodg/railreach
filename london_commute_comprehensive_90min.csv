@@ -1,0 +1,202 @@
+Terminal,StationName,fastest_minutes,direct_or_indirect,CRS,lat,lng
+Liverpool Street,Bethnal Green,5,direct,BET,51.5244,-0.0598
+Liverpool Street,Cambridge Heath,7,direct,CBH,51.5352,-0.0567
+Liverpool Street,London Fields,8,direct,LOF,51.5424,-0.0539
+Liverpool Street,Hackney Downs,10,direct,HAC,51.5474,-0.0557
+Liverpool Street,Clapton,12,direct,CPT,51.5602,-0.0579
+Liverpool Street,St James Street,15,direct,SJS,51.5813,-0.0322
+Liverpool Street,Walthamstow Central,17,direct,WHC,51.5831,-0.0197
+Liverpool Street,Wood Street,19,direct,WST,51.5988,-0.0147
+Liverpool Street,Highams Park,21,direct,HIP,51.6127,-0.0030
+Liverpool Street,Chingford,26,direct,CHI,51.6331,0.0099
+Liverpool Street,Rectory Road,13,direct,REC,51.5580,-0.0707
+Liverpool Street,Stoke Newington,15,direct,SKW,51.5650,-0.0743
+Liverpool Street,Stamford Hill,17,direct,SMH,51.5737,-0.0738
+Liverpool Street,Seven Sisters,12,direct,SVS,51.5823,-0.0750
+Liverpool Street,Bruce Grove,14,direct,BRU,51.5914,-0.0696
+Liverpool Street,White Hart Lane,16,direct,WHL,51.6011,-0.0640
+Liverpool Street,Silver Street,18,direct,SLV,51.6146,-0.0547
+Liverpool Street,Edmonton Green,20,direct,EDM,51.6216,-0.0502
+Liverpool Street,Bush Hill Park,22,direct,BHP,51.6404,-0.0682
+Liverpool Street,Enfield Town,25,direct,ENF,51.6520,-0.0793
+Liverpool Street,Southbury,23,direct,SBU,51.6504,-0.0589
+Liverpool Street,Turkey Street,25,direct,TUR,51.6696,-0.0423
+Liverpool Street,Theobalds Grove,27,direct,THE,51.6869,-0.0329
+Liverpool Street,Cheshunt,28,direct,CHN,51.7024,-0.0243
+Liverpool Street,Broxbourne,32,direct,BXB,51.7460,-0.0179
+Liverpool Street,Rye House,35,direct,RYH,51.7686,-0.0097
+Liverpool Street,St Margarets (Herts),37,direct,SMT,51.7987,-0.0443
+Liverpool Street,Ware,40,direct,WAR,51.8098,-0.0330
+Liverpool Street,Hertford East,45,direct,HFE,51.7990,-0.0729
+Liverpool Street,Roydon,37,direct,RYN,51.7786,0.0189
+Liverpool Street,Harlow Town,30,direct,HWN,51.7715,0.0914
+Liverpool Street,Harlow Mill,32,direct,HWM,51.7745,0.1161
+Liverpool Street,Sawbridgeworth,37,direct,SAW,51.8144,0.1604
+Liverpool Street,Bishops Stortford,37,direct,BIS,51.8674,0.1586
+Liverpool Street,Stansted Mountfitchet,43,direct,SST,51.8989,0.1967
+Liverpool Street,Stansted Airport,47,direct,SSD,51.8886,0.2608
+Liverpool Street,Elsenham,51,direct,ESM,51.9237,0.2682
+Liverpool Street,Newport (Essex),55,direct,NWE,51.9790,0.2195
+Liverpool Street,Audley End,58,direct,AUD,52.0103,0.2273
+Liverpool Street,Great Chesterford,62,direct,GRC,52.0515,0.1939
+Liverpool Street,Whittlesford Parkway,66,direct,WLF,52.0992,0.1707
+Liverpool Street,Shelford,70,direct,SED,52.1406,0.1386
+Liverpool Street,Cambridge,65,direct,CBG,52.1941,0.1375
+Liverpool Street,Tottenham Hale,12,direct,THB,51.5883,-0.0584
+Liverpool Street,Stratford,7,direct,SRA,51.5419,-0.0034
+Liverpool Street,Maryland,10,direct,MYL,51.5488,0.0172
+Liverpool Street,Forest Gate,12,direct,FOG,51.5499,0.0252
+Liverpool Street,Manor Park,14,direct,MNP,51.5522,0.0455
+Liverpool Street,Ilford,16,direct,IFD,51.5586,0.0681
+Liverpool Street,Seven Kings,18,direct,SVK,51.5643,0.0992
+Liverpool Street,Goodmayes,20,direct,GMY,51.5650,0.1121
+Liverpool Street,Chadwell Heath,22,direct,CTH,51.5682,0.1277
+Liverpool Street,Romford,17,direct,RMF,51.5755,0.1812
+Liverpool Street,Gidea Park,20,direct,GDP,51.5866,0.2083
+Liverpool Street,Harold Wood,24,direct,HRO,51.5928,0.2332
+Liverpool Street,Brentwood,26,direct,BRE,51.6134,0.2995
+Liverpool Street,Shenfield,24,direct,SNF,51.6316,0.3284
+Liverpool Street,Ingatestone,30,direct,INT,51.6694,0.3864
+Liverpool Street,Chelmsford,30,direct,CHM,51.7369,0.4686
+Liverpool Street,Hatfield Peverel,38,direct,HAP,51.7785,0.5924
+Liverpool Street,Witham,40,direct,WTM,51.8060,0.6392
+Liverpool Street,White Notley,45,direct,WNY,51.8434,0.6623
+Liverpool Street,Cressing,47,direct,CSG,51.8719,0.6070
+Liverpool Street,Braintree Freeport,50,direct,BTP,51.8670,0.5796
+Liverpool Street,Braintree,52,direct,BTR,51.8754,0.5567
+Liverpool Street,Kelvedon,45,direct,KEL,51.8373,0.6857
+Liverpool Street,Marks Tey,50,direct,MKT,51.8810,0.7619
+Liverpool Street,Colchester,45,direct,COL,51.9007,0.8926
+Liverpool Street,Colchester Town,48,direct,CET,51.8895,0.9106
+Liverpool Street,Hythe,52,direct,HYH,51.9135,1.0035
+Liverpool Street,Wivenhoe,55,direct,WIV,51.8591,0.9597
+Liverpool Street,Alresford (Essex),58,direct,ALR,51.8540,0.9975
+Liverpool Street,Great Bentley,62,direct,GRB,51.8463,1.0774
+Liverpool Street,Weeley,66,direct,WEE,51.8334,1.1379
+Liverpool Street,Thorpe-le-Soken,70,direct,TLS,51.8546,1.1627
+Liverpool Street,Kirby Cross,73,direct,KBX,51.8473,1.2094
+Liverpool Street,Frinton-on-Sea,77,direct,FRI,51.8326,1.2458
+Liverpool Street,Walton-on-the-Naze,80,direct,WON,51.8456,1.2706
+Liverpool Street,Clacton-on-Sea,80,indirect,CLT,51.7903,1.1498
+Liverpool Street,Manningtree,58,direct,MNG,51.9459,1.0606
+Liverpool Street,Mistley,62,direct,MIS,51.9444,1.0855
+Liverpool Street,Wrabness,65,direct,WRB,51.9401,1.1440
+Liverpool Street,Harwich International,72,direct,HPQ,51.9450,1.2428
+Liverpool Street,Dovercourt,73,direct,DVC,51.9388,1.2735
+Liverpool Street,Harwich Town,75,direct,HWC,51.9443,1.2893
+Liverpool Street,Ipswich,62,direct,IPS,52.0506,1.1445
+Liverpool Street,Billericay,33,direct,BIC,51.6289,0.4187
+Liverpool Street,Wickford,38,direct,WIC,51.6119,0.5231
+Liverpool Street,Rayleigh,42,direct,RLG,51.5864,0.6056
+Liverpool Street,Hockley,46,direct,HOC,51.6013,0.6416
+Liverpool Street,Rochford,48,direct,ROE,51.5820,0.7042
+Liverpool Street,Southend Airport,52,direct,SIA,51.5715,0.6956
+Liverpool Street,Prittlewell,54,direct,PRI,51.5441,0.7042
+Liverpool Street,Southend Victoria,55,direct,SOV,51.5415,0.7115
+Liverpool Street,Southend Central,60,indirect,SOC,51.5371,0.7118
+Liverpool Street,Southend East,62,indirect,SOE,51.5392,0.7290
+Euston,South Hampstead,8,direct,SOH,51.5412,-0.1818
+Euston,Kilburn High Road,10,direct,KBN,51.5470,-0.1952
+Euston,Queens Park,12,direct,QPK,51.5341,-0.2045
+Euston,Kensal Green,14,direct,KNL,51.5304,-0.2251
+Euston,Willesden Junction,16,direct,WIJ,51.5324,-0.2438
+Euston,Harlesden,18,direct,HSD,51.5379,-0.2585
+Euston,Stonebridge Park,20,direct,SBP,51.5442,-0.2759
+Euston,Wembley Central,22,direct,WMB,51.5520,-0.2965
+Euston,North Wembley,24,direct,NWB,51.5622,-0.3047
+Euston,South Kenton,26,direct,SOK,51.5703,-0.3085
+Euston,Kenton,28,direct,KEN,51.5815,-0.3167
+Euston,Harrow & Wealdstone,30,direct,HRW,51.5925,-0.3357
+Euston,Headstone Lane,32,direct,HDL,51.6028,-0.3561
+Euston,Hatch End,35,direct,HTE,51.6130,-0.3753
+Euston,Carpenders Park,37,direct,CPK,51.6278,-0.3862
+Euston,Bushey,40,direct,BSH,51.6449,-0.3844
+Euston,Watford High Street,42,direct,WFH,51.6535,-0.3922
+Euston,Watford Junction,16,direct,WFJ,51.6635,-0.3965
+Euston,Kings Langley,23,direct,KGL,51.7069,-0.4431
+Euston,Apsley,26,direct,APS,51.7325,-0.4629
+Euston,Hemel Hempstead,28,direct,HML,51.7490,-0.4713
+Euston,Berkhamsted,31,direct,BKM,51.7611,-0.5604
+Euston,Tring,36,direct,TRI,51.7945,-0.6590
+Euston,Cheddington,40,direct,CED,51.8473,-0.6582
+Euston,Leighton Buzzard,32,direct,LBZ,51.9169,-0.6615
+Euston,Bletchley,38,direct,BLY,51.9975,-0.7344
+Euston,Fenny Stratford,40,direct,FEN,52.0069,-0.7285
+Euston,Bow Brickhill,42,direct,BWB,52.0198,-0.6878
+Euston,Woburn Sands,44,direct,WOB,52.0175,-0.6496
+Euston,Aspley Guise,46,direct,APG,52.0212,-0.6323
+Euston,Ridgmont,48,direct,RID,52.0244,-0.5956
+Euston,Lidlington,50,direct,LID,52.0367,-0.5480
+Euston,Millbrook,52,direct,MBK,52.0480,-0.5148
+Euston,Stewartby,54,direct,SWT,52.0636,-0.5090
+Euston,Kempston Hardwick,56,direct,KMH,52.0794,-0.5044
+Euston,Bedford,60,direct,BDF,52.1363,-0.4789
+Euston,Milton Keynes Central,30,direct,MKC,52.0343,-0.7741
+Euston,Northampton,49,direct,NMP,52.2375,-0.9066
+Euston,Long Buckby,58,direct,LBK,52.3097,-1.0413
+Euston,Rugby,52,direct,RUG,52.3791,-1.2505
+Euston,Coventry,58,direct,COV,52.4008,-1.5135
+Euston,Birmingham International,69,direct,BHI,52.4503,-1.7284
+Euston,Birmingham New Street,74,direct,BHM,52.4778,-1.9002
+Euston,Wembley Stadium,20,indirect,WCX,51.5563,-0.2795
+Marylebone,Wembley Stadium,10,direct,WCX,51.5563,-0.2795
+Marylebone,Sudbury Hill Harrow,12,direct,SDH,51.5569,-0.3357
+Marylebone,Sudbury & Harrow Road,14,direct,SUD,51.5544,-0.3154
+Marylebone,Northolt Park,18,direct,NLT,51.5486,-0.3683
+Marylebone,South Ruislip,20,direct,SRU,51.5570,-0.3991
+Marylebone,West Ruislip,22,direct,WRU,51.5692,-0.4373
+Marylebone,Denham Golf Club,25,direct,DGC,51.5847,-0.5083
+Marylebone,Denham,18,direct,DNM,51.5789,-0.4927
+Marylebone,Gerrards Cross,21,direct,GER,51.5890,-0.5553
+Marylebone,Seer Green & Jordans,25,direct,SRG,51.6147,-0.5863
+Marylebone,Beaconsfield,24,direct,BCF,51.6113,-0.6438
+Marylebone,High Wycombe,27,direct,HWY,51.6296,-0.7454
+Marylebone,Saunderton,32,direct,SDR,51.6876,-0.8176
+Marylebone,Princes Risborough,37,direct,PRR,51.7179,-0.8439
+Marylebone,Monks Risborough,39,direct,MRS,51.7384,-0.8307
+Marylebone,Little Kimble,42,direct,LTK,51.7502,-0.8118
+Marylebone,Aylesbury,58,direct,AYS,51.8139,-0.8151
+Marylebone,Aylesbury Vale Parkway,62,direct,AVP,51.8312,-0.8602
+Marylebone,Stoke Mandeville,56,direct,SKM,51.7962,-0.7791
+Marylebone,Wendover,50,direct,WND,51.7636,-0.7428
+Marylebone,Great Missenden,46,direct,GMN,51.7030,-0.7124
+Marylebone,Chalfont & Latimer,32,direct,CFO,51.6685,-0.5611
+Marylebone,Amersham,40,direct,AMR,51.6742,-0.6076
+Marylebone,Haddenham & Thame Parkway,48,direct,HDP,51.7685,-0.9346
+Marylebone,Bicester Village,60,direct,BIT,51.8997,-1.1503
+Marylebone,Islip,65,direct,ISP,51.8295,-1.2334
+Marylebone,Oxford Parkway,72,direct,OXP,51.8090,-1.2797
+Marylebone,Bicester North,49,direct,BCS,51.9002,-1.1491
+Marylebone,Kings Sutton,63,direct,KGS,52.0279,-1.2957
+Marylebone,Banbury,58,direct,BAN,52.0603,-1.3281
+Marylebone,Leamington Spa,82,direct,LMS,52.2891,-1.5352
+Marylebone,Warwick,85,direct,WRW,52.2861,-1.6134
+Marylebone,Warwick Parkway,82,direct,WRP,52.2932,-1.6179
+Marylebone,Hatton,88,direct,HTN,52.2808,-1.6778
+Marylebone,Lapworth,90,indirect,LAP,52.3015,-1.7380
+Marylebone,Dorridge,90,indirect,DDG,52.3670,-1.7533
+Fenchurch Street,Limehouse,5,direct,LHS,51.5121,-0.0395
+Fenchurch Street,West Ham,6,direct,WEH,51.5284,0.0059
+Fenchurch Street,Barking,10,direct,BKG,51.5395,0.0809
+Fenchurch Street,Dagenham Dock,14,direct,DDK,51.5185,0.1483
+Fenchurch Street,Rainham,17,direct,RNM,51.5167,0.1907
+Fenchurch Street,Purfleet,22,direct,PUR,51.4870,0.2374
+Fenchurch Street,Chafford Hundred,25,direct,CFD,51.4849,0.2788
+Fenchurch Street,Grays,27,direct,GRY,51.4762,0.3219
+Fenchurch Street,Tilbury Town,30,direct,TIL,51.4627,0.3589
+Fenchurch Street,East Tilbury,33,direct,ETL,51.4718,0.4083
+Fenchurch Street,Stanford-le-Hope,35,direct,SFO,51.5165,0.4216
+Fenchurch Street,Ockendon,20,direct,OCK,51.5220,0.2905
+Fenchurch Street,Upminster,18,direct,UPM,51.5591,0.2509
+Fenchurch Street,West Horndon,24,direct,WHR,51.5679,0.3407
+Fenchurch Street,Laindon,30,direct,LAI,51.5714,0.4182
+Fenchurch Street,Basildon,33,direct,BSO,51.5702,0.4573
+Fenchurch Street,Pitsea,38,direct,PSE,51.5655,0.5109
+Fenchurch Street,Benfleet,42,direct,BEF,51.5432,0.5619
+Fenchurch Street,Leigh-on-Sea,47,direct,LES,51.5403,0.6534
+Fenchurch Street,Chalkwell,49,direct,CHW,51.5380,0.6854
+Fenchurch Street,Westcliff,51,direct,WCF,51.5398,0.7003
+Fenchurch Street,Southend Central,52,direct,SOC,51.5371,0.7118
+Fenchurch Street,Southend East,55,direct,SOE,51.5392,0.7290
+Fenchurch Street,Thorpe Bay,58,direct,TPB,51.5375,0.7556
+Fenchurch Street,Shoeburyness,63,direct,SRY,51.5314,0.7951

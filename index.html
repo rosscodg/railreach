@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>London Commute Map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+#map { width: 100vw; height: 100vh; }
+#ad-banner {
+  position: fixed; bottom: 0; left: 0; right: 0; z-index: 1001;
+  height: 90px; display: flex; align-items: center; justify-content: center;
+  pointer-events: none;
+}
+#ad-slot-1 {
+  width: 728px; height: 90px; border-radius: 6px; overflow: hidden;
+  box-shadow: 0 -2px 16px rgba(0,0,0,0.25);
+  pointer-events: auto; cursor: pointer; text-decoration: none; display: flex;
+}
+.ad-connells {
+  display: flex; width: 100%; height: 100%; background: linear-gradient(135deg, #c8102e 0%, #a00d24 100%);
+  font-family: 'Segoe UI', Arial, sans-serif; color: white; align-items: center;
+}
+.ad-connells .ad-logo {
+  padding: 0 20px; font-size: 28px; font-weight: 700; letter-spacing: -0.5px;
+  line-height: 1.1; border-right: 1px solid rgba(255,255,255,0.25); white-space: nowrap;
+}
+.ad-connells .ad-logo span { font-size: 11px; font-weight: 400; display: block; letter-spacing: 1px; opacity: 0.85; text-transform: uppercase; margin-top: 2px; }
+.ad-connells .ad-body {
+  flex: 1; padding: 0 20px; display: flex; flex-direction: column; justify-content: center;
+}
+.ad-connells .ad-headline { font-size: 16px; font-weight: 600; margin-bottom: 3px; }
+.ad-connells .ad-sub { font-size: 12px; opacity: 0.9; }
+.ad-connells .ad-cta {
+  margin: 0 18px; padding: 8px 18px; background: white; color: #c8102e;
+  border-radius: 4px; font-size: 13px; font-weight: 700; white-space: nowrap;
+  text-transform: uppercase; letter-spacing: 0.5px;
+}
+@media (max-width: 768px) {
+  #ad-banner { height: 50px; }
+  #ad-slot-1 { width: 320px; height: 50px; border-radius: 4px; }
+  .ad-connells .ad-logo { padding: 0 10px; font-size: 16px; }
+  .ad-connells .ad-logo span { font-size: 8px; }
+  .ad-connells .ad-body { padding: 0 8px; }
+  .ad-connells .ad-headline { font-size: 11px; margin-bottom: 1px; }
+  .ad-connells .ad-sub { font-size: 9px; }
+  .ad-connells .ad-cta { margin: 0 8px; padding: 5px 10px; font-size: 10px; }
+}
+.controls {
+  position: absolute; top: 12px; left: 60px; z-index: 1000;
+  background: white; border-radius: 10px; padding: 10px 14px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.2); display: flex; gap: 8px; align-items: center; flex-wrap: wrap;
+}
+.controls label { font-size: 13px; font-weight: 600; color: #333; white-space: nowrap; }
+.terminal-btn {
+  padding: 6px 12px; border: 2px solid #ddd; border-radius: 6px;
+  background: white; cursor: pointer; font-size: 12px; font-weight: 500;
+  transition: all 0.15s;
+}
+.terminal-btn:hover { border-color: #888; }
+.terminal-btn.active { background: #2563eb; color: white; border-color: #2563eb; }
+.legend {
+  position: absolute; bottom: 102px; right: 12px; z-index: 1000;
+  background: white; border-radius: 10px; padding: 12px 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.2); font-size: 13px;
+}
+.legend h4 { margin-bottom: 8px; font-size: 13px; }
+.legend-item { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
+.legend-dot { width: 14px; height: 14px; border-radius: 50%; border: 2px solid rgba(0,0,0,0.3); }
+.station-count {
+  position: absolute; bottom: 102px; left: 60px; z-index: 1000;
+  background: white; border-radius: 10px; padding: 10px 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.2); font-size: 13px; color: #555;
+}
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div class="controls">
+  <label>Destination:</label>
+  <div id="terminal-buttons"></div>
+</div>
+<div class="legend">
+  <h4>Journey Time</h4>
+  <div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div> Under 30 min</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div> 30 – 60 min</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div> 60 – 90 min</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#7c3aed"></div> London Terminal</div>
+</div>
+<div class="station-count" id="station-count"></div>
+<div id="ad-banner">
+  <a id="ad-slot-1" href="https://www.connells.co.uk/" target="_blank" rel="noopener">
+    <div class="ad-connells">
+      <div class="ad-logo">Connells<span>Est. 1936</span></div>
+      <div class="ad-body">
+        <div class="ad-headline">Found your perfect commute? Now find your perfect home.</div>
+        <div class="ad-sub">Over 150 branches nationwide &bull; Free online valuations &bull; Expert local knowledge</div>
+      </div>
+      <div class="ad-cta">Search Now</div>
+    </div>
+  </a>
+</div>
+
+<script>
+const TERMINALS = {
+  KGX: { name: "Kings Cross", lat: 51.5320, lng: -0.1240 },
+  WAT: { name: "Waterloo", lat: 51.5031, lng: -0.1132 },
+  PAD: { name: "Paddington", lat: 51.5154, lng: -0.1755 },
+  LBG: { name: "London Bridge", lat: 51.5052, lng: -0.0862 },
+  VIC: { name: "Victoria", lat: 51.4952, lng: -0.1439 },
+  LST: { name: "Liverpool Street", lat: 51.5178, lng: -0.0823 },
+  EUS: { name: "Euston", lat: 51.5284, lng: -0.1338 },
+  MYB: { name: "Marylebone", lat: 51.5225, lng: -0.1634 },
+  FST: { name: "Fenchurch Street", lat: 51.5115, lng: -0.0791 }
+};
+
+// Station data: each station has journeys keyed by terminal code
+// Journey times are fastest typical services based on National Rail timetable data (2026)
+// Sources: Trainline, GWR, SWR, Southeastern, Southern, Greater Anglia, LNER, Thameslink, c2c, Chiltern Railways
+const STATIONS = [
+  // === KINGS CROSS / ST PANCRAS (LNER, Great Northern, Thameslink) ===
+  // -- Great Northern suburban --
+  { name: "Finsbury Park", lat: 51.5648, lng: -0.1057, journeys: { KGX: { mins: 5, direct: true } } },
+  { name: "Hornsey", lat: 51.5865, lng: -0.1118, journeys: { KGX: { mins: 9, direct: true } } },
+  { name: "Alexandra Palace", lat: 51.5982, lng: -0.1199, journeys: { KGX: { mins: 12, direct: true } } },
+  { name: "New Barnet", lat: 51.6494, lng: -0.1729, journeys: { KGX: { mins: 20, direct: true } } },
+  { name: "Oakleigh Park", lat: 51.6263, lng: -0.1651, journeys: { KGX: { mins: 17, direct: true } } },
+  { name: "Hadley Wood", lat: 51.6684, lng: -0.1764, journeys: { KGX: { mins: 22, direct: true } } },
+  { name: "Potters Bar", lat: 51.6970, lng: -0.1940, journeys: { KGX: { mins: 18, direct: true } } },
+  { name: "Brookmans Park", lat: 51.7210, lng: -0.2050, journeys: { KGX: { mins: 24, direct: true } } },
+  { name: "Welham Green", lat: 51.7360, lng: -0.2090, journeys: { KGX: { mins: 26, direct: true } } },
+  { name: "Hatfield", lat: 51.7639, lng: -0.2156, journeys: { KGX: { mins: 23, direct: true } } },
+  { name: "Welwyn Garden City", lat: 51.8010, lng: -0.2050, journeys: { KGX: { mins: 25, direct: true } } },
+  { name: "Welwyn North", lat: 51.8194, lng: -0.1967, journeys: { KGX: { mins: 29, direct: true } } },
+  { name: "Knebworth", lat: 51.8661, lng: -0.1822, journeys: { KGX: { mins: 28, direct: true } } },
+  { name: "Stevenage", lat: 51.9020, lng: -0.2070, journeys: { KGX: { mins: 20, direct: true } } },
+  { name: "Hitchin", lat: 51.9490, lng: -0.2630, journeys: { KGX: { mins: 29, direct: true } } },
+  { name: "Letchworth Garden City", lat: 51.9810, lng: -0.2280, journeys: { KGX: { mins: 35, direct: true } } },
+  { name: "Baldock", lat: 51.9920, lng: -0.1930, journeys: { KGX: { mins: 37, direct: true } } },
+  { name: "Ashwell & Morden", lat: 52.0310, lng: -0.1100, journeys: { KGX: { mins: 45, direct: true } } },
+  { name: "Royston", lat: 52.0480, lng: -0.0230, journeys: { KGX: { mins: 42, direct: true } } },
+  { name: "Meldreth", lat: 52.0910, lng: 0.0090, journeys: { KGX: { mins: 50, direct: true } } },
+  { name: "Shepreth", lat: 52.1030, lng: 0.0270, journeys: { KGX: { mins: 52, direct: true } } },
+  { name: "Foxton", lat: 52.1190, lng: 0.0560, journeys: { KGX: { mins: 55, direct: true } } },
+  { name: "Arlesey", lat: 52.0140, lng: -0.2660, journeys: { KGX: { mins: 38, direct: true } } },
+  { name: "Biggleswade", lat: 52.0850, lng: -0.2610, journeys: { KGX: { mins: 40, direct: true } } },
+  { name: "Sandy", lat: 52.1247, lng: -0.2812, journeys: { KGX: { mins: 45, direct: true } } },
+  { name: "St Neots", lat: 52.2301, lng: -0.2651, journeys: { KGX: { mins: 46, direct: true } } },
+  { name: "Huntingdon", lat: 52.3290, lng: -0.1920, journeys: { KGX: { mins: 52, direct: true } } },
+  { name: "Peterborough", lat: 52.5750, lng: -0.2498, journeys: { KGX: { mins: 44, direct: true } } },
+  { name: "Cambridge", lat: 52.1941, lng: 0.1376, journeys: { KGX: { mins: 49, direct: true }, LST: { mins: 65, direct: true } } },
+  { name: "Grantham", lat: 52.9065, lng: -0.6425, journeys: { KGX: { mins: 67, direct: true } } },
+  { name: "Newark Northgate", lat: 53.0819, lng: -0.8001, journeys: { KGX: { mins: 75, direct: true } } },
+  // -- Hertford Loop (Great Northern) --
+  { name: "Enfield Chase", lat: 51.6527, lng: -0.0908, journeys: { KGX: { mins: 22, direct: true } } },
+  { name: "Gordon Hill", lat: 51.6630, lng: -0.0948, journeys: { KGX: { mins: 25, direct: true } } },
+  { name: "Crews Hill", lat: 51.6844, lng: -0.1069, journeys: { KGX: { mins: 28, direct: true } } },
+  { name: "Cuffley", lat: 51.7090, lng: -0.1100, journeys: { KGX: { mins: 32, direct: true } } },
+  { name: "Bayford", lat: 51.7580, lng: -0.0960, journeys: { KGX: { mins: 36, direct: true } } },
+  { name: "Hertford North", lat: 51.7990, lng: -0.0920, journeys: { KGX: { mins: 41, direct: true } } },
+  // -- Thameslink via St Pancras --
+  { name: "Kentish Town", lat: 51.5506, lng: -0.1404, journeys: { KGX: { mins: 4, direct: true } } },
+  { name: "West Hampstead Thameslink", lat: 51.5487, lng: -0.1916, journeys: { KGX: { mins: 8, direct: true } } },
+  { name: "Cricklewood", lat: 51.5577, lng: -0.2127, journeys: { KGX: { mins: 12, direct: true } } },
+  { name: "Mill Hill Broadway", lat: 51.6131, lng: -0.2495, journeys: { KGX: { mins: 17, direct: true } } },
+  { name: "Elstree & Borehamwood", lat: 51.6527, lng: -0.2795, journeys: { KGX: { mins: 21, direct: true } } },
+  { name: "Radlett", lat: 51.6854, lng: -0.3170, journeys: { KGX: { mins: 24, direct: true } } },
+  { name: "St Albans City", lat: 51.7500, lng: -0.3270, journeys: { KGX: { mins: 20, direct: true } } },
+  { name: "Harpenden", lat: 51.8150, lng: -0.3510, journeys: { KGX: { mins: 28, direct: true } } },
+  { name: "Luton Airport Parkway", lat: 51.8724, lng: -0.3962, journeys: { KGX: { mins: 23, direct: true } } },
+  { name: "Luton", lat: 51.8824, lng: -0.4148, journeys: { KGX: { mins: 25, direct: true } } },
+  { name: "Flitwick", lat: 52.0040, lng: -0.4950, journeys: { KGX: { mins: 41, direct: true } } },
+  { name: "Bedford", lat: 52.1352, lng: -0.4743, journeys: { KGX: { mins: 39, direct: true } } },
+
+  // === WATERLOO (South Western Railway) ===
+  // -- Main line --
+  { name: "Vauxhall", lat: 51.4863, lng: -0.1225, journeys: { WAT: { mins: 4, direct: true } } },
+  { name: "Clapham Junction", lat: 51.4642, lng: -0.1703, journeys: { WAT: { mins: 7, direct: true }, VIC: { mins: 5, direct: true } } },
+  { name: "Earlsfield", lat: 51.4419, lng: -0.1884, journeys: { WAT: { mins: 10, direct: true } } },
+  { name: "Wimbledon", lat: 51.4207, lng: -0.2060, journeys: { WAT: { mins: 13, direct: true } } },
+  { name: "Raynes Park", lat: 51.4093, lng: -0.2300, journeys: { WAT: { mins: 16, direct: true } } },
+  { name: "New Malden", lat: 51.4034, lng: -0.2561, journeys: { WAT: { mins: 19, direct: true } } },
+  { name: "Surbiton", lat: 51.3869, lng: -0.3016, journeys: { WAT: { mins: 17, direct: true } } },
+  { name: "Esher", lat: 51.3799, lng: -0.3533, journeys: { WAT: { mins: 21, direct: true } } },
+  { name: "Walton-on-Thames", lat: 51.3810, lng: -0.4052, journeys: { WAT: { mins: 26, direct: true } } },
+  { name: "Weybridge", lat: 51.3663, lng: -0.4638, journeys: { WAT: { mins: 28, direct: true } } },
+  { name: "Byfleet & New Haw", lat: 51.3494, lng: -0.4833, journeys: { WAT: { mins: 30, direct: true } } },
+  { name: "West Byfleet", lat: 51.3390, lng: -0.5063, journeys: { WAT: { mins: 26, direct: true } } },
+  { name: "Woking", lat: 51.3160, lng: -0.5568, journeys: { WAT: { mins: 23, direct: true } } },
+  { name: "Brookwood", lat: 51.3040, lng: -0.6280, journeys: { WAT: { mins: 29, direct: true } } },
+  { name: "Farnborough (Main)", lat: 51.2966, lng: -0.7557, journeys: { WAT: { mins: 36, direct: true } } },
+  { name: "Fleet", lat: 51.2906, lng: -0.8308, journeys: { WAT: { mins: 42, direct: true } } },
+  { name: "Winchfield", lat: 51.2720, lng: -0.9310, journeys: { WAT: { mins: 47, direct: true } } },
+  { name: "Hook", lat: 51.2796, lng: -0.9619, journeys: { WAT: { mins: 50, direct: true } } },
+  { name: "Basingstoke", lat: 51.2684, lng: -1.0872, journeys: { WAT: { mins: 44, direct: true } } },
+  { name: "Overton", lat: 51.2540, lng: -1.2591, journeys: { WAT: { mins: 55, direct: true } } },
+  { name: "Whitchurch (Hants)", lat: 51.2350, lng: -1.3410, journeys: { WAT: { mins: 60, direct: true } } },
+  { name: "Andover", lat: 51.2115, lng: -1.4922, journeys: { WAT: { mins: 65, direct: true } } },
+  { name: "Grateley", lat: 51.1703, lng: -1.6195, journeys: { WAT: { mins: 72, direct: true } } },
+  { name: "Winchester", lat: 51.0671, lng: -1.3194, journeys: { WAT: { mins: 59, direct: true } } },
+  { name: "Southampton Central", lat: 50.9071, lng: -1.4134, journeys: { WAT: { mins: 76, direct: true } } },
+  { name: "Salisbury", lat: 51.0688, lng: -1.7936, journeys: { WAT: { mins: 83, direct: true } } },
+  // -- Richmond / Kingston loop --
+  { name: "Putney", lat: 51.4613, lng: -0.2165, journeys: { WAT: { mins: 14, direct: true } } },
+  { name: "Barnes", lat: 51.4680, lng: -0.2440, journeys: { WAT: { mins: 16, direct: true } } },
+  { name: "Richmond", lat: 51.4604, lng: -0.3030, journeys: { WAT: { mins: 18, direct: true } } },
+  { name: "Twickenham", lat: 51.4411, lng: -0.3267, journeys: { WAT: { mins: 22, direct: true } } },
+  { name: "Strawberry Hill", lat: 51.4397, lng: -0.3396, journeys: { WAT: { mins: 25, direct: true } } },
+  { name: "Teddington", lat: 51.4247, lng: -0.3325, journeys: { WAT: { mins: 28, direct: true } } },
+  { name: "Hampton Wick", lat: 51.4142, lng: -0.3124, journeys: { WAT: { mins: 30, direct: true } } },
+  { name: "Kingston", lat: 51.4055, lng: -0.3022, journeys: { WAT: { mins: 25, direct: true } } },
+  { name: "Norbiton", lat: 51.4120, lng: -0.2841, journeys: { WAT: { mins: 23, direct: true } } },
+  // -- Hounslow Loop --
+  { name: "Brentford", lat: 51.4878, lng: -0.3091, journeys: { WAT: { mins: 25, direct: true } } },
+  { name: "Isleworth", lat: 51.4747, lng: -0.3369, journeys: { WAT: { mins: 28, direct: true } } },
+  { name: "Hounslow", lat: 51.4625, lng: -0.3618, journeys: { WAT: { mins: 30, direct: true } } },
+  { name: "Feltham", lat: 51.4478, lng: -0.4098, journeys: { WAT: { mins: 33, direct: true } } },
+  // -- Staines / Windsor --
+  { name: "Staines", lat: 51.4383, lng: -0.5175, journeys: { WAT: { mins: 34, direct: true } } },
+  { name: "Egham", lat: 51.4296, lng: -0.5494, journeys: { WAT: { mins: 38, direct: true } } },
+  { name: "Virginia Water", lat: 51.4017, lng: -0.5619, journeys: { WAT: { mins: 42, direct: true } } },
+  // -- Guildford via Cobham --
+  { name: "Hinchley Wood", lat: 51.3788, lng: -0.3439, journeys: { WAT: { mins: 27, direct: true } } },
+  { name: "Claygate", lat: 51.3607, lng: -0.3482, journeys: { WAT: { mins: 29, direct: true } } },
+  { name: "Oxshott", lat: 51.3380, lng: -0.3720, journeys: { WAT: { mins: 32, direct: true } } },
+  { name: "Cobham & Stoke d'Abernon", lat: 51.3198, lng: -0.3894, journeys: { WAT: { mins: 35, direct: true } } },
+  { name: "Effingham Junction", lat: 51.2915, lng: -0.4195, journeys: { WAT: { mins: 40, direct: true } } },
+  { name: "Horsley", lat: 51.2791, lng: -0.4343, journeys: { WAT: { mins: 43, direct: true } } },
+  { name: "Clandon", lat: 51.2638, lng: -0.5036, journeys: { WAT: { mins: 48, direct: true } } },
+  { name: "Guildford", lat: 51.2370, lng: -0.5804, journeys: { WAT: { mins: 33, direct: true } } },
+  // -- Epsom / Dorking --
+  { name: "Worcester Park", lat: 51.3811, lng: -0.2431, journeys: { WAT: { mins: 22, direct: true } } },
+  { name: "Stoneleigh", lat: 51.3634, lng: -0.2487, journeys: { WAT: { mins: 24, direct: true } } },
+  { name: "Ewell West", lat: 51.3494, lng: -0.2567, journeys: { WAT: { mins: 27, direct: true } } },
+  { name: "Epsom", lat: 51.3344, lng: -0.2688, journeys: { WAT: { mins: 32, direct: true } } },
+  { name: "Ashtead", lat: 51.3087, lng: -0.2997, journeys: { WAT: { mins: 37, direct: true } } },
+  { name: "Leatherhead", lat: 51.2984, lng: -0.3332, journeys: { WAT: { mins: 42, direct: true } } },
+  { name: "Box Hill & Westhumble", lat: 51.2534, lng: -0.3291, journeys: { WAT: { mins: 48, direct: true } } },
+  { name: "Dorking", lat: 51.2334, lng: -0.3315, journeys: { WAT: { mins: 52, direct: true } } },
+  // -- Portsmouth Direct via Haslemere --
+  { name: "Farncombe", lat: 51.1976, lng: -0.6045, journeys: { WAT: { mins: 42, direct: true } } },
+  { name: "Godalming", lat: 51.1861, lng: -0.6192, journeys: { WAT: { mins: 45, direct: true } } },
+  { name: "Milford", lat: 51.1720, lng: -0.6380, journeys: { WAT: { mins: 49, direct: true } } },
+  { name: "Witley", lat: 51.1510, lng: -0.6640, journeys: { WAT: { mins: 52, direct: true } } },
+  { name: "Haslemere", lat: 51.0878, lng: -0.7128, journeys: { WAT: { mins: 50, direct: true } } },
+  { name: "Liphook", lat: 51.0712, lng: -0.8010, journeys: { WAT: { mins: 55, direct: true } } },
+  { name: "Liss", lat: 51.0443, lng: -0.8930, journeys: { WAT: { mins: 60, direct: true } } },
+  { name: "Petersfield", lat: 51.0020, lng: -0.9390, journeys: { WAT: { mins: 62, direct: true } } },
+  { name: "Havant", lat: 50.8544, lng: -0.9816, journeys: { WAT: { mins: 78, direct: true } } },
+  // -- Alton line --
+  { name: "Ash Vale", lat: 51.2700, lng: -0.7290, journeys: { WAT: { mins: 43, direct: true } } },
+  { name: "Aldershot", lat: 51.2462, lng: -0.7607, journeys: { WAT: { mins: 48, direct: true } } },
+  { name: "Farnham", lat: 51.2114, lng: -0.7931, journeys: { WAT: { mins: 48, direct: true } } },
+  { name: "Bentley", lat: 51.1810, lng: -0.8780, journeys: { WAT: { mins: 54, direct: true } } },
+  { name: "Alton", lat: 51.1519, lng: -0.9677, journeys: { WAT: { mins: 58, direct: true } } },
+  // -- Chessington branch --
+  { name: "Motspur Park", lat: 51.3944, lng: -0.2387, journeys: { WAT: { mins: 20, direct: true } } },
+  { name: "Chessington South", lat: 51.3565, lng: -0.3081, journeys: { WAT: { mins: 35, direct: true } } },
+  // -- Hampton Court branch --
+  { name: "Thames Ditton", lat: 51.3903, lng: -0.3299, journeys: { WAT: { mins: 30, direct: true } } },
+  { name: "Hampton Court", lat: 51.4025, lng: -0.3423, journeys: { WAT: { mins: 33, direct: true } } },
+  // -- Shepperton branch --
+  { name: "Shepperton", lat: 51.3971, lng: -0.4475, journeys: { WAT: { mins: 48, direct: true } } },
+  // -- Ascot line --
+  { name: "Ascot", lat: 51.4060, lng: -0.6733, journeys: { WAT: { mins: 52, direct: true } } },
+
+  // === PADDINGTON (GWR, Elizabeth Line) ===
+  // -- Elizabeth Line suburban --
+  { name: "Acton Main Line", lat: 51.5172, lng: -0.2670, journeys: { PAD: { mins: 7, direct: true } } },
+  { name: "Ealing Broadway", lat: 51.5148, lng: -0.3017, journeys: { PAD: { mins: 10, direct: true } } },
+  { name: "Hanwell", lat: 51.5128, lng: -0.3382, journeys: { PAD: { mins: 13, direct: true } } },
+  { name: "Southall", lat: 51.5064, lng: -0.3784, journeys: { PAD: { mins: 14, direct: true } } },
+  { name: "Hayes & Harlington", lat: 51.5031, lng: -0.4207, journeys: { PAD: { mins: 17, direct: true } } },
+  { name: "West Drayton", lat: 51.5093, lng: -0.4721, journeys: { PAD: { mins: 20, direct: true } } },
+  { name: "Iver", lat: 51.5084, lng: -0.5086, journeys: { PAD: { mins: 22, direct: true } } },
+  { name: "Langley", lat: 51.5097, lng: -0.5421, journeys: { PAD: { mins: 19, direct: true } } },
+  { name: "Slough", lat: 51.5113, lng: -0.5906, journeys: { PAD: { mins: 15, direct: true } } },
+  { name: "Burnham", lat: 51.5235, lng: -0.6464, journeys: { PAD: { mins: 22, direct: true } } },
+  { name: "Taplow", lat: 51.5239, lng: -0.6812, journeys: { PAD: { mins: 25, direct: true } } },
+  { name: "Maidenhead", lat: 51.5219, lng: -0.7262, journeys: { PAD: { mins: 19, direct: true } } },
+  { name: "Twyford", lat: 51.4754, lng: -0.8616, journeys: { PAD: { mins: 24, direct: true } } },
+  { name: "Reading", lat: 51.4587, lng: -0.9715, journeys: { PAD: { mins: 23, direct: true } } },
+  // -- Main line west of Reading --
+  { name: "Tilehurst", lat: 51.4711, lng: -1.0316, journeys: { PAD: { mins: 30, direct: true } } },
+  { name: "Pangbourne", lat: 51.4870, lng: -1.0873, journeys: { PAD: { mins: 35, direct: true } } },
+  { name: "Goring & Streatley", lat: 51.5215, lng: -1.1330, journeys: { PAD: { mins: 39, direct: true } } },
+  { name: "Cholsey", lat: 51.5702, lng: -1.1580, journeys: { PAD: { mins: 45, direct: true } } },
+  { name: "Didcot Parkway", lat: 51.6110, lng: -1.2429, journeys: { PAD: { mins: 40, direct: true } } },
+  // -- Newbury / Berks & Hants line --
+  { name: "Theale", lat: 51.4374, lng: -1.0763, journeys: { PAD: { mins: 33, direct: true } } },
+  { name: "Thatcham", lat: 51.4040, lng: -1.2634, journeys: { PAD: { mins: 45, direct: true } } },
+  { name: "Newbury", lat: 51.4011, lng: -1.3219, journeys: { PAD: { mins: 39, direct: true } } },
+  { name: "Kintbury", lat: 51.3954, lng: -1.4490, journeys: { PAD: { mins: 55, direct: true } } },
+  { name: "Hungerford", lat: 51.4152, lng: -1.5172, journeys: { PAD: { mins: 48, direct: true } } },
+  { name: "Bedwyn", lat: 51.3785, lng: -1.5854, journeys: { PAD: { mins: 56, direct: true } } },
+  { name: "Pewsey", lat: 51.3467, lng: -1.7645, journeys: { PAD: { mins: 63, direct: true } } },
+  // -- Oxford line --
+  { name: "Oxford", lat: 51.7537, lng: -1.2697, journeys: { PAD: { mins: 45, direct: true } } },
+  // -- Cotswold line --
+  { name: "Hanborough", lat: 51.8252, lng: -1.3735, journeys: { PAD: { mins: 62, direct: true } } },
+  { name: "Charlbury", lat: 51.8724, lng: -1.4897, journeys: { PAD: { mins: 72, direct: true } } },
+  { name: "Kingham", lat: 51.8929, lng: -1.6350, journeys: { PAD: { mins: 79, direct: true } } },
+  { name: "Moreton-in-Marsh", lat: 51.9896, lng: -1.7000, journeys: { PAD: { mins: 85, direct: true } } },
+  // -- Swindon / Bath / Bristol --
+  { name: "Swindon", lat: 51.5657, lng: -1.7854, journeys: { PAD: { mins: 50, direct: true } } },
+  { name: "Chippenham", lat: 51.4582, lng: -2.1160, journeys: { PAD: { mins: 62, direct: true } } },
+  { name: "Bath Spa", lat: 51.3777, lng: -2.3570, journeys: { PAD: { mins: 73, direct: true } } },
+  { name: "Bristol Temple Meads", lat: 51.4491, lng: -2.5813, journeys: { PAD: { mins: 82, direct: true } } },
+  // -- Branch lines --
+  { name: "Windsor & Eton Central", lat: 51.4835, lng: -0.6108, journeys: { PAD: { mins: 25, direct: false } } },
+  { name: "Henley-on-Thames", lat: 51.5362, lng: -0.9030, journeys: { PAD: { mins: 50, direct: false } } },
+  { name: "Marlow", lat: 51.5719, lng: -0.7769, journeys: { PAD: { mins: 48, direct: false } } },
+
+  // === VICTORIA (Southeastern, Southern, Gatwick Express) ===
+  { name: "Battersea Park", lat: 51.4772, lng: -0.1486, journeys: { VIC: { mins: 4, direct: true } } },
+  { name: "Wandsworth Common", lat: 51.4462, lng: -0.1634, journeys: { VIC: { mins: 8, direct: true } } },
+  { name: "Balham", lat: 51.4431, lng: -0.1528, journeys: { VIC: { mins: 10, direct: true } } },
+  { name: "Denmark Hill", lat: 51.4686, lng: -0.0891, journeys: { VIC: { mins: 10, direct: true } } },
+  { name: "Peckham Rye", lat: 51.4695, lng: -0.0696, journeys: { VIC: { mins: 13, direct: true } } },
+  { name: "East Croydon", lat: 51.3758, lng: -0.0925, journeys: { VIC: { mins: 15, direct: true }, LBG: { mins: 14, direct: true } } },
+  { name: "Bromley South", lat: 51.4001, lng: 0.0173, journeys: { VIC: { mins: 18, direct: true } } },
+  { name: "Bickley", lat: 51.3975, lng: 0.0446, journeys: { VIC: { mins: 20, direct: true } } },
+  { name: "Orpington", lat: 51.3731, lng: 0.0988, journeys: { VIC: { mins: 22, direct: true }, LBG: { mins: 24, direct: true } } },
+  { name: "Swanley", lat: 51.3921, lng: 0.1702, journeys: { VIC: { mins: 28, direct: true }, LBG: { mins: 30, direct: true } } },
+  { name: "Sevenoaks", lat: 51.2730, lng: 0.1859, journeys: { VIC: { mins: 30, direct: true }, LBG: { mins: 23, direct: true } } },
+  { name: "Otford", lat: 51.3095, lng: 0.1937, journeys: { VIC: { mins: 35, direct: true } } },
+  { name: "Bat & Ball", lat: 51.2873, lng: 0.1914, journeys: { VIC: { mins: 38, direct: true } } },
+  { name: "Hildenborough", lat: 51.2146, lng: 0.2384, journeys: { VIC: { mins: 38, direct: true } } },
+  { name: "Tonbridge", lat: 51.1889, lng: 0.2742, journeys: { VIC: { mins: 40, direct: true }, LBG: { mins: 36, direct: true } } },
+  { name: "Paddock Wood", lat: 51.1829, lng: 0.3913, journeys: { VIC: { mins: 48, direct: true } } },
+  { name: "Marden", lat: 51.1741, lng: 0.4884, journeys: { VIC: { mins: 55, direct: true } } },
+  { name: "Staplehurst", lat: 51.1698, lng: 0.5553, journeys: { VIC: { mins: 60, direct: true } } },
+  { name: "Headcorn", lat: 51.1665, lng: 0.6285, journeys: { VIC: { mins: 66, direct: true } } },
+  { name: "Pluckley", lat: 51.1527, lng: 0.7469, journeys: { VIC: { mins: 72, direct: true } } },
+  { name: "Maidstone East", lat: 51.2722, lng: 0.5257, journeys: { VIC: { mins: 58, direct: true } } },
+  { name: "Ashford International", lat: 51.1439, lng: 0.8745, journeys: { VIC: { mins: 80, direct: true } } },
+  // -- Brighton Main Line --
+  { name: "Purley", lat: 51.3377, lng: -0.1152, journeys: { VIC: { mins: 22, direct: true }, LBG: { mins: 20, direct: true } } },
+  { name: "Coulsdon South", lat: 51.3193, lng: -0.1383, journeys: { VIC: { mins: 26, direct: true } } },
+  { name: "Merstham", lat: 51.2659, lng: -0.1548, journeys: { VIC: { mins: 30, direct: true } } },
+  { name: "Gatwick Airport", lat: 51.1565, lng: -0.1613, journeys: { VIC: { mins: 30, direct: true }, LBG: { mins: 32, direct: true } } },
+  { name: "Three Bridges", lat: 51.1170, lng: -0.1520, journeys: { VIC: { mins: 36, direct: true } } },
+  { name: "Crawley", lat: 51.1094, lng: -0.1630, journeys: { VIC: { mins: 38, direct: true } } },
+  { name: "Balcombe", lat: 51.0560, lng: -0.1397, journeys: { VIC: { mins: 43, direct: true } } },
+  { name: "Haywards Heath", lat: 50.9970, lng: -0.1037, journeys: { VIC: { mins: 42, direct: true }, LBG: { mins: 44, direct: true } } },
+  { name: "Wivelsfield", lat: 50.9570, lng: -0.1199, journeys: { VIC: { mins: 48, direct: true } } },
+  { name: "Burgess Hill", lat: 50.9525, lng: -0.1361, journeys: { VIC: { mins: 48, direct: true } } },
+  { name: "Hassocks", lat: 50.9218, lng: -0.1433, journeys: { VIC: { mins: 50, direct: true } } },
+  { name: "Preston Park", lat: 50.8440, lng: -0.1549, journeys: { VIC: { mins: 55, direct: true } } },
+  { name: "Brighton", lat: 50.8291, lng: -0.1411, journeys: { VIC: { mins: 58, direct: true }, LBG: { mins: 60, direct: true } } },
+  { name: "Hove", lat: 50.8354, lng: -0.1712, journeys: { VIC: { mins: 61, direct: true } } },
+  // -- Arun Valley / West Coastway --
+  { name: "Horsham", lat: 51.0629, lng: -0.3263, journeys: { VIC: { mins: 54, direct: true }, LBG: { mins: 56, direct: true } } },
+  { name: "Worthing", lat: 50.8197, lng: -0.3722, journeys: { VIC: { mins: 70, direct: true } } },
+  { name: "Lancing", lat: 50.8284, lng: -0.3249, journeys: { VIC: { mins: 68, direct: true } } },
+  { name: "Shoreham-by-Sea", lat: 50.8310, lng: -0.2747, journeys: { VIC: { mins: 65, direct: true } } },
+  { name: "Portslade", lat: 50.8398, lng: -0.2108, journeys: { VIC: { mins: 63, direct: true } } },
+  { name: "Littlehampton", lat: 50.8102, lng: -0.5415, journeys: { VIC: { mins: 85, direct: true } } },
+  { name: "Angmering", lat: 50.8173, lng: -0.4903, journeys: { VIC: { mins: 78, direct: true } } },
+  // -- Oxted / East Grinstead line --
+  { name: "Oxted", lat: 51.2593, lng: -0.0026, journeys: { VIC: { mins: 38, direct: true } } },
+  { name: "Hurst Green", lat: 51.2481, lng: 0.0049, journeys: { VIC: { mins: 40, direct: true } } },
+  { name: "Lingfield", lat: 51.1787, lng: -0.0113, journeys: { VIC: { mins: 50, direct: true } } },
+  { name: "East Grinstead", lat: 51.1256, lng: -0.0189, journeys: { VIC: { mins: 57, direct: true } } },
+  // -- Sutton loop --
+  { name: "Sutton", lat: 51.3596, lng: -0.1949, journeys: { VIC: { mins: 30, direct: true } } },
+  { name: "West Croydon", lat: 51.3787, lng: -0.1027, journeys: { VIC: { mins: 20, direct: true } } },
+
+  // === LONDON BRIDGE (Southeastern, Southern, Thameslink) ===
+  { name: "New Cross", lat: 51.4762, lng: -0.0325, journeys: { LBG: { mins: 5, direct: true } } },
+  { name: "Lewisham", lat: 51.4657, lng: -0.0143, journeys: { LBG: { mins: 8, direct: true } } },
+  { name: "Blackheath", lat: 51.4662, lng: 0.0108, journeys: { LBG: { mins: 12, direct: true } } },
+  { name: "Hither Green", lat: 51.4527, lng: 0.0016, journeys: { LBG: { mins: 10, direct: true } } },
+  { name: "Grove Park", lat: 51.4311, lng: 0.0225, journeys: { LBG: { mins: 14, direct: true } } },
+  { name: "Eltham", lat: 51.4491, lng: 0.0527, journeys: { LBG: { mins: 18, direct: true } } },
+  { name: "Kidbrooke", lat: 51.4620, lng: 0.0271, journeys: { LBG: { mins: 14, direct: true } } },
+  { name: "Woolwich Arsenal", lat: 51.4906, lng: 0.0694, journeys: { LBG: { mins: 18, direct: true } } },
+  { name: "Plumstead", lat: 51.4900, lng: 0.0870, journeys: { LBG: { mins: 21, direct: true } } },
+  { name: "Abbey Wood", lat: 51.4914, lng: 0.1203, journeys: { LBG: { mins: 23, direct: true } } },
+  { name: "Erith", lat: 51.4822, lng: 0.1756, journeys: { LBG: { mins: 28, direct: true } } },
+  { name: "Slade Green", lat: 51.4657, lng: 0.1908, journeys: { LBG: { mins: 30, direct: true } } },
+  { name: "Dartford", lat: 51.4465, lng: 0.2180, journeys: { LBG: { mins: 33, direct: true } } },
+  { name: "Gravesend", lat: 51.4414, lng: 0.3706, journeys: { LBG: { mins: 41, direct: true } } },
+  // -- North Kent via Medway --
+  { name: "Strood", lat: 51.3972, lng: 0.5013, journeys: { LBG: { mins: 40, direct: true } } },
+  { name: "Rochester", lat: 51.3887, lng: 0.5051, journeys: { LBG: { mins: 38, direct: true } } },
+  { name: "Chatham", lat: 51.3818, lng: 0.5278, journeys: { LBG: { mins: 42, direct: true } } },
+  { name: "Gillingham", lat: 51.3860, lng: 0.5487, journeys: { LBG: { mins: 47, direct: true } } },
+  { name: "Rainham (Kent)", lat: 51.3663, lng: 0.6108, journeys: { LBG: { mins: 52, direct: true } } },
+  { name: "Sittingbourne", lat: 51.3406, lng: 0.7354, journeys: { LBG: { mins: 58, direct: true } } },
+  { name: "Faversham", lat: 51.3151, lng: 0.8910, journeys: { LBG: { mins: 68, direct: true } } },
+  // -- Bexleyheath line --
+  { name: "Welling", lat: 51.4616, lng: 0.1008, journeys: { LBG: { mins: 25, direct: true } } },
+  { name: "Bexleyheath", lat: 51.4595, lng: 0.1356, journeys: { LBG: { mins: 28, direct: true } } },
+  { name: "Barnehurst", lat: 51.4601, lng: 0.1599, journeys: { LBG: { mins: 32, direct: true } } },
+  // -- Sidcup line --
+  { name: "New Eltham", lat: 51.4376, lng: 0.0478, journeys: { LBG: { mins: 18, direct: true } } },
+  { name: "Sidcup", lat: 51.4265, lng: 0.1030, journeys: { LBG: { mins: 24, direct: true } } },
+  // -- Via Sevenoaks / Tonbridge --
+  { name: "Petts Wood", lat: 51.3874, lng: 0.0747, journeys: { LBG: { mins: 20, direct: true } } },
+  { name: "Chislehurst", lat: 51.4047, lng: 0.0571, journeys: { LBG: { mins: 18, direct: true } } },
+  { name: "Tunbridge Wells", lat: 51.1310, lng: 0.2632, journeys: { LBG: { mins: 47, direct: true } } },
+  // -- Redhill / Reigate --
+  { name: "Redhill", lat: 51.2401, lng: -0.1708, journeys: { LBG: { mins: 28, direct: true } } },
+  { name: "Earlswood", lat: 51.2282, lng: -0.1699, journeys: { LBG: { mins: 32, direct: true } } },
+  { name: "Salfords", lat: 51.2066, lng: -0.1706, journeys: { LBG: { mins: 35, direct: true } } },
+  { name: "Horley", lat: 51.1703, lng: -0.1636, journeys: { LBG: { mins: 38, direct: true } } },
+  { name: "Reigate", lat: 51.2372, lng: -0.2070, journeys: { LBG: { mins: 40, direct: false } } },
+  // -- Catford loop --
+  { name: "Catford", lat: 51.4439, lng: -0.0205, journeys: { LBG: { mins: 15, direct: true } } },
+  { name: "Bellingham", lat: 51.4325, lng: -0.0189, journeys: { LBG: { mins: 16, direct: true } } },
+  { name: "Beckenham Hill", lat: 51.4247, lng: -0.0164, journeys: { LBG: { mins: 18, direct: true } } },
+
+  // === LIVERPOOL STREET (Greater Anglia, Elizabeth Line) ===
+  { name: "Stratford", lat: 51.5414, lng: -0.0037, journeys: { LST: { mins: 7, direct: true } } },
+  { name: "Tottenham Hale", lat: 51.5885, lng: -0.0603, journeys: { LST: { mins: 12, direct: true } } },
+  // -- Great Eastern Main Line --
+  { name: "Romford", lat: 51.5747, lng: 0.1826, journeys: { LST: { mins: 17, direct: true } } },
+  { name: "Shenfield", lat: 51.6301, lng: 0.3290, journeys: { LST: { mins: 24, direct: true } } },
+  { name: "Brentwood", lat: 51.6136, lng: 0.2996, journeys: { LST: { mins: 26, direct: true } } },
+  { name: "Ingatestone", lat: 51.6670, lng: 0.3843, journeys: { LST: { mins: 30, direct: true } } },
+  { name: "Chelmsford", lat: 51.7364, lng: 0.4686, journeys: { LST: { mins: 30, direct: true } } },
+  { name: "Hatfield Peverel", lat: 51.7765, lng: 0.5918, journeys: { LST: { mins: 38, direct: true } } },
+  { name: "Witham", lat: 51.8024, lng: 0.6360, journeys: { LST: { mins: 40, direct: true } } },
+  { name: "Kelvedon", lat: 51.8372, lng: 0.7073, journeys: { LST: { mins: 46, direct: true } } },
+  { name: "Marks Tey", lat: 51.8782, lng: 0.7818, journeys: { LST: { mins: 48, direct: true } } },
+  { name: "Colchester", lat: 51.9007, lng: 0.8926, journeys: { LST: { mins: 45, direct: true } } },
+  { name: "Manningtree", lat: 51.9491, lng: 1.0453, journeys: { LST: { mins: 58, direct: true } } },
+  { name: "Ipswich", lat: 52.0506, lng: 1.1445, journeys: { LST: { mins: 56, direct: true } } },
+  // -- Braintree branch --
+  { name: "Braintree", lat: 51.8754, lng: 0.5567, journeys: { LST: { mins: 58, direct: false } } },
+  // -- Southend Victoria line --
+  { name: "Billericay", lat: 51.6346, lng: 0.4194, journeys: { LST: { mins: 32, direct: true } } },
+  { name: "Wickford", lat: 51.6117, lng: 0.5228, journeys: { LST: { mins: 38, direct: true } } },
+  { name: "Rayleigh", lat: 51.5800, lng: 0.6046, journeys: { LST: { mins: 42, direct: true } } },
+  { name: "Hockley", lat: 51.5690, lng: 0.6465, journeys: { LST: { mins: 47, direct: true } } },
+  { name: "Rochford", lat: 51.5756, lng: 0.7028, journeys: { LST: { mins: 50, direct: true } } },
+  { name: "Southend Victoria", lat: 51.5416, lng: 0.7150, journeys: { LST: { mins: 55, direct: true } } },
+  // -- West Anglia (Cambridge line) --
+  { name: "Cheshunt", lat: 51.7028, lng: -0.0253, journeys: { LST: { mins: 22, direct: true } } },
+  { name: "Broxbourne", lat: 51.7471, lng: -0.0106, journeys: { LST: { mins: 27, direct: true } } },
+  { name: "Hertford East", lat: 51.7996, lng: -0.0793, journeys: { LST: { mins: 38, direct: true } } },
+  { name: "Harlow Town", lat: 51.7811, lng: 0.0952, journeys: { LST: { mins: 30, direct: true } } },
+  { name: "Harlow Mill", lat: 51.7882, lng: 0.1252, journeys: { LST: { mins: 35, direct: true } } },
+  { name: "Sawbridgeworth", lat: 51.8133, lng: 0.1524, journeys: { LST: { mins: 38, direct: true } } },
+  { name: "Bishops Stortford", lat: 51.8667, lng: 0.1649, journeys: { LST: { mins: 37, direct: true } } },
+  { name: "Stansted Mountfitchet", lat: 51.8996, lng: 0.2064, journeys: { LST: { mins: 44, direct: true } } },
+  { name: "Stansted Airport", lat: 51.8899, lng: 0.2617, journeys: { LST: { mins: 47, direct: true } } },
+  { name: "Elsenham", lat: 51.9181, lng: 0.2244, journeys: { LST: { mins: 50, direct: true } } },
+  { name: "Audley End", lat: 52.0062, lng: 0.2348, journeys: { LST: { mins: 52, direct: true } } },
+  { name: "Whittlesford Parkway", lat: 52.1066, lng: 0.1609, journeys: { LST: { mins: 58, direct: true } } },
+
+  // === EUSTON (Avanti West Coast, London Northwestern, West Midlands Trains) ===
+  { name: "Harrow & Wealdstone", lat: 51.5923, lng: -0.3352, journeys: { EUS: { mins: 12, direct: true } } },
+  { name: "Bushey", lat: 51.6455, lng: -0.3645, journeys: { EUS: { mins: 14, direct: true } } },
+  { name: "Watford Junction", lat: 51.6635, lng: -0.3965, journeys: { EUS: { mins: 16, direct: true } } },
+  { name: "Kings Langley", lat: 51.7073, lng: -0.4428, journeys: { EUS: { mins: 22, direct: true } } },
+  { name: "Apsley", lat: 51.7314, lng: -0.4708, journeys: { EUS: { mins: 24, direct: true } } },
+  { name: "Hemel Hempstead", lat: 51.7423, lng: -0.4908, journeys: { EUS: { mins: 26, direct: true } } },
+  { name: "Berkhamsted", lat: 51.7631, lng: -0.5620, journeys: { EUS: { mins: 31, direct: true } } },
+  { name: "Tring", lat: 51.7961, lng: -0.6559, journeys: { EUS: { mins: 36, direct: true } } },
+  { name: "Cheddington", lat: 51.8520, lng: -0.6715, journeys: { EUS: { mins: 38, direct: true } } },
+  { name: "Leighton Buzzard", lat: 51.9163, lng: -0.6770, journeys: { EUS: { mins: 32, direct: true } } },
+  { name: "Bletchley", lat: 51.9953, lng: -0.7363, journeys: { EUS: { mins: 38, direct: true } } },
+  { name: "Milton Keynes Central", lat: 52.0343, lng: -0.7741, journeys: { EUS: { mins: 30, direct: true } } },
+  { name: "Northampton", lat: 52.2405, lng: -0.9027, journeys: { EUS: { mins: 49, direct: true } } },
+  { name: "Long Buckby", lat: 52.2977, lng: -1.0823, journeys: { EUS: { mins: 56, direct: true } } },
+  { name: "Rugby", lat: 52.3709, lng: -1.2508, journeys: { EUS: { mins: 52, direct: true } } },
+  { name: "Coventry", lat: 52.4008, lng: -1.5135, journeys: { EUS: { mins: 58, direct: true } } },
+  { name: "Birmingham International", lat: 52.4508, lng: -1.7258, journeys: { EUS: { mins: 70, direct: true } } },
+  { name: "Birmingham New Street", lat: 52.4778, lng: -1.9002, journeys: { EUS: { mins: 76, direct: true } } },
+
+  // === MARYLEBONE (Chiltern Railways) ===
+  { name: "Denham", lat: 51.5788, lng: -0.4974, journeys: { MYB: { mins: 18, direct: true } } },
+  { name: "Denham Golf Club", lat: 51.5764, lng: -0.5116, journeys: { MYB: { mins: 20, direct: true } } },
+  { name: "Gerrards Cross", lat: 51.5890, lng: -0.5553, journeys: { MYB: { mins: 21, direct: true } } },
+  { name: "Seer Green & Jordans", lat: 51.6032, lng: -0.5994, journeys: { MYB: { mins: 23, direct: true } } },
+  { name: "Beaconsfield", lat: 51.6113, lng: -0.6438, journeys: { MYB: { mins: 24, direct: true } } },
+  { name: "High Wycombe", lat: 51.6296, lng: -0.7454, journeys: { MYB: { mins: 27, direct: true } } },
+  { name: "Saunderton", lat: 51.6875, lng: -0.8066, journeys: { MYB: { mins: 32, direct: true } } },
+  { name: "Princes Risborough", lat: 51.7172, lng: -0.8273, journeys: { MYB: { mins: 37, direct: true } } },
+  { name: "Monks Risborough", lat: 51.7362, lng: -0.8252, journeys: { MYB: { mins: 40, direct: true } } },
+  { name: "Little Kimble", lat: 51.7628, lng: -0.8253, journeys: { MYB: { mins: 43, direct: true } } },
+  { name: "Stoke Mandeville", lat: 51.7850, lng: -0.8027, journeys: { MYB: { mins: 47, direct: true } } },
+  { name: "Aylesbury", lat: 51.8139, lng: -0.8151, journeys: { MYB: { mins: 58, direct: true } } },
+  { name: "Aylesbury Vale Parkway", lat: 51.8312, lng: -0.8602, journeys: { MYB: { mins: 62, direct: true } } },
+  { name: "Great Missenden", lat: 51.7043, lng: -0.7083, journeys: { MYB: { mins: 38, direct: true } } },
+  { name: "Haddenham & Thame Parkway", lat: 51.7709, lng: -0.9421, journeys: { MYB: { mins: 48, direct: true } } },
+  { name: "Bicester North", lat: 51.9035, lng: -1.1504, journeys: { MYB: { mins: 49, direct: true } } },
+  { name: "Kings Sutton", lat: 52.0152, lng: -1.2768, journeys: { MYB: { mins: 55, direct: true } } },
+  { name: "Banbury", lat: 52.0603, lng: -1.3281, journeys: { MYB: { mins: 58, direct: true } } },
+  { name: "Leamington Spa", lat: 52.2855, lng: -1.5374, journeys: { MYB: { mins: 72, direct: true } } },
+  { name: "Warwick", lat: 52.2837, lng: -1.5843, journeys: { MYB: { mins: 85, direct: true } } },
+  { name: "Warwick Parkway", lat: 52.2863, lng: -1.6111, journeys: { MYB: { mins: 78, direct: true } } },
+
+  // === FENCHURCH STREET (c2c) ===
+  { name: "Limehouse", lat: 51.5126, lng: -0.0400, journeys: { FST: { mins: 4, direct: true } } },
+  { name: "West Ham", lat: 51.5285, lng: 0.0053, journeys: { FST: { mins: 6, direct: true } } },
+  { name: "Barking", lat: 51.5396, lng: 0.0808, journeys: { FST: { mins: 10, direct: true } } },
+  { name: "Upminster", lat: 51.5587, lng: 0.2511, journeys: { FST: { mins: 18, direct: true } } },
+  { name: "West Horndon", lat: 51.5686, lng: 0.3354, journeys: { FST: { mins: 24, direct: true } } },
+  { name: "Laindon", lat: 51.5647, lng: 0.4254, journeys: { FST: { mins: 30, direct: true } } },
+  { name: "Basildon", lat: 51.5681, lng: 0.4568, journeys: { FST: { mins: 33, direct: true } } },
+  { name: "Pitsea", lat: 51.5634, lng: 0.5053, journeys: { FST: { mins: 38, direct: true } } },
+  { name: "Benfleet", lat: 51.5439, lng: 0.5617, journeys: { FST: { mins: 42, direct: true } } },
+  { name: "Leigh-on-Sea", lat: 51.5413, lng: 0.6404, journeys: { FST: { mins: 47, direct: true } } },
+  { name: "Chalkwell", lat: 51.5369, lng: 0.6738, journeys: { FST: { mins: 49, direct: true } } },
+  { name: "Westcliff", lat: 51.5366, lng: 0.6898, journeys: { FST: { mins: 50, direct: true } } },
+  { name: "Southend Central", lat: 51.5357, lng: 0.7070, journeys: { FST: { mins: 52, direct: true } } },
+  // -- via Tilbury --
+  { name: "Grays", lat: 51.4762, lng: 0.3219, journeys: { FST: { mins: 27, direct: true } } },
+  { name: "Tilbury Town", lat: 51.4627, lng: 0.3642, journeys: { FST: { mins: 30, direct: true } } },
+  { name: "East Tilbury", lat: 51.4854, lng: 0.4208, journeys: { FST: { mins: 34, direct: true } } },
+  { name: "Stanford-le-Hope", lat: 51.5139, lng: 0.4238, journeys: { FST: { mins: 35, direct: true } } },
+  // -- Ockendon loop --
+  { name: "Ockendon", lat: 51.5222, lng: 0.2954, journeys: { FST: { mins: 25, direct: true } } },
+  { name: "Chafford Hundred", lat: 51.4855, lng: 0.2882, journeys: { FST: { mins: 22, direct: true } } },
+  { name: "Purfleet", lat: 51.4811, lng: 0.2377, journeys: { FST: { mins: 20, direct: true } } },
+  { name: "Rainham (Essex)", lat: 51.5186, lng: 0.1888, journeys: { FST: { mins: 17, direct: true } } },
+  { name: "Dagenham Dock", lat: 51.5253, lng: 0.1468, journeys: { FST: { mins: 14, direct: true } } }
+];
+
+// Map setup
+const map = L.map('map').setView([52.0, -0.7], 7);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; OpenStreetMap contributors',
+  maxZoom: 18
+}).addTo(map);
+
+let markers = [];
+let terminalMarkers = [];
+let selectedTerminal = 'KGX';
+
+function getColor(mins) {
+  if (mins < 30) return '#22c55e';
+  if (mins < 60) return '#f59e0b';
+  return '#ef4444';
+}
+
+function createCircleMarker(station, journey, terminalName) {
+  const color = getColor(journey.mins);
+  const marker = L.circleMarker([station.lat, station.lng], {
+    radius: 7,
+    fillColor: color,
+    color: '#fff',
+    weight: 2,
+    opacity: 1,
+    fillOpacity: 0.85
+  });
+  marker.bindPopup(
+    `<strong>${station.name}</strong><br>` +
+    `To ${terminalName}: <strong>${journey.mins} min</strong><br>` +
+    `${journey.direct ? 'Direct train' : 'Requires change'}`
+  );
+  return marker;
+}
+
+function showTerminalMarkers() {
+  terminalMarkers.forEach(m => map.removeLayer(m));
+  terminalMarkers = [];
+  Object.entries(TERMINALS).forEach(([code, t]) => {
+    const m = L.circleMarker([t.lat, t.lng], {
+      radius: 10,
+      fillColor: '#7c3aed',
+      color: '#fff',
+      weight: 2,
+      opacity: 1,
+      fillOpacity: 0.9
+    });
+    m.bindPopup(`<strong>${t.name}</strong><br>London Terminal`);
+    m.addTo(map);
+    terminalMarkers.push(m);
+  });
+}
+
+function updateMap() {
+  markers.forEach(m => map.removeLayer(m));
+  markers = [];
+  const terminal = TERMINALS[selectedTerminal];
+  let count = 0;
+
+  STATIONS.forEach(station => {
+    const journey = station.journeys[selectedTerminal];
+    if (journey && journey.mins <= 90) {
+      const m = createCircleMarker(station, journey, terminal.name);
+      m.addTo(map);
+      markers.push(m);
+      count++;
+    }
+  });
+
+  document.getElementById('station-count').textContent = `${count} stations within 90 min of ${terminal.name}`;
+
+  // Update button states
+  document.querySelectorAll('.terminal-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.code === selectedTerminal);
+  });
+}
+
+// Create terminal buttons
+const btnContainer = document.getElementById('terminal-buttons');
+Object.entries(TERMINALS).forEach(([code, t]) => {
+  const btn = document.createElement('button');
+  btn.className = 'terminal-btn';
+  btn.dataset.code = code;
+  btn.textContent = t.name;
+  btn.addEventListener('click', () => {
+    selectedTerminal = code;
+    updateMap();
+  });
+  btnContainer.appendChild(btn);
+});
+
+showTerminalMarkers();
+updateMap();
+</script>
+</body>
+</html>
