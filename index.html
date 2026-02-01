@@ -51,10 +51,6 @@ body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Robo
   .promo-connells .promo-headline { font-size: 11px; margin-bottom: 1px; }
   .promo-connells .promo-sub { font-size: 9px; }
   .promo-connells .promo-cta { margin: 0 8px; padding: 5px 10px; font-size: 10px; }
-  .controls { left: 50% !important; transform: translateX(-50%); right: auto; padding: 6px 8px; }
-  .controls label { display: none; }
-  #terminal-buttons { display: none !important; }
-  #terminal-select { display: block; min-width: 200px; }
 }
 .controls {
   position: absolute; top: 12px; left: 60px; z-index: 1000;
@@ -104,6 +100,12 @@ body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Robo
 }
 .leaflet-popup-content { font-size: 13px !important; line-height: 1.5 !important; color: #18181b !important; }
 .leaflet-popup-tip { box-shadow: none !important; }
+@media (max-width: 768px) {
+  .controls { left: 50% !important; transform: translateX(-50%); right: auto; padding: 6px 8px; }
+  .controls label { display: none; }
+  #terminal-buttons { display: none; }
+  #terminal-select { display: block; min-width: 200px; }
+}
 </style>
 </head>
 <body>
