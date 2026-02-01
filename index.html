@@ -615,9 +615,9 @@ function updateMap() {
   });
 }
 
-// Create terminal buttons
+// Create terminal buttons (A-Z)
 const btnContainer = document.getElementById('terminal-buttons');
-Object.entries(TERMINALS).forEach(([code, t]) => {
+Object.entries(TERMINALS).sort((a, b) => a[1].name.localeCompare(b[1].name)).forEach(([code, t]) => {
   const btn = document.createElement('button');
   btn.className = 'terminal-btn';
   btn.dataset.code = code;
