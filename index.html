@@ -10,44 +10,44 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
 #map { width: 100vw; height: 100vh; }
-#ad-banner {
+#promo-banner {
   position: fixed; bottom: 0; left: 0; right: 0; z-index: 1001;
   height: 90px; display: flex; align-items: center; justify-content: center;
   pointer-events: none;
 }
-#ad-slot-1 {
+#promo-slot-1 {
   width: 728px; height: 90px; border-radius: 6px; overflow: hidden;
   box-shadow: 0 -2px 16px rgba(0,0,0,0.25);
   pointer-events: auto; cursor: pointer; text-decoration: none; display: flex;
 }
-.ad-connells {
+.promo-connells {
   display: flex; width: 100%; height: 100%; background: linear-gradient(135deg, #c8102e 0%, #a00d24 100%);
   font-family: 'Segoe UI', Arial, sans-serif; color: white; align-items: center;
 }
-.ad-connells .ad-logo {
+.promo-connells .promo-logo {
   padding: 0 20px; font-size: 28px; font-weight: 700; letter-spacing: -0.5px;
   line-height: 1.1; border-right: 1px solid rgba(255,255,255,0.25); white-space: nowrap;
 }
-.ad-connells .ad-logo span { font-size: 11px; font-weight: 400; display: block; letter-spacing: 1px; opacity: 0.85; text-transform: uppercase; margin-top: 2px; }
-.ad-connells .ad-body {
+.promo-connells .promo-logo span { font-size: 11px; font-weight: 400; display: block; letter-spacing: 1px; opacity: 0.85; text-transform: uppercase; margin-top: 2px; }
+.promo-connells .promo-body {
   flex: 1; padding: 0 20px; display: flex; flex-direction: column; justify-content: center;
 }
-.ad-connells .ad-headline { font-size: 16px; font-weight: 600; margin-bottom: 3px; }
-.ad-connells .ad-sub { font-size: 12px; opacity: 0.9; }
-.ad-connells .ad-cta {
+.promo-connells .promo-headline { font-size: 16px; font-weight: 600; margin-bottom: 3px; }
+.promo-connells .promo-sub { font-size: 12px; opacity: 0.9; }
+.promo-connells .promo-cta {
   margin: 0 18px; padding: 8px 18px; background: white; color: #c8102e;
   border-radius: 4px; font-size: 13px; font-weight: 700; white-space: nowrap;
   text-transform: uppercase; letter-spacing: 0.5px;
 }
 @media (max-width: 768px) {
-  #ad-banner { height: 50px; }
-  #ad-slot-1 { width: 320px; height: 50px; border-radius: 4px; }
-  .ad-connells .ad-logo { padding: 0 10px; font-size: 16px; }
-  .ad-connells .ad-logo span { font-size: 8px; }
-  .ad-connells .ad-body { padding: 0 8px; }
-  .ad-connells .ad-headline { font-size: 11px; margin-bottom: 1px; }
-  .ad-connells .ad-sub { font-size: 9px; }
-  .ad-connells .ad-cta { margin: 0 8px; padding: 5px 10px; font-size: 10px; }
+  #promo-banner { height: 50px; }
+  #promo-slot-1 { width: 320px; height: 50px; border-radius: 4px; }
+  .promo-connells .promo-logo { padding: 0 10px; font-size: 16px; }
+  .promo-connells .promo-logo span { font-size: 8px; }
+  .promo-connells .promo-body { padding: 0 8px; }
+  .promo-connells .promo-headline { font-size: 11px; margin-bottom: 1px; }
+  .promo-connells .promo-sub { font-size: 9px; }
+  .promo-connells .promo-cta { margin: 0 8px; padding: 5px 10px; font-size: 10px; }
 }
 .controls {
   position: absolute; top: 12px; left: 60px; z-index: 1000;
@@ -91,15 +91,15 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
   <div class="legend-item"><div class="legend-dot" style="background:#7c3aed"></div> London Terminal</div>
 </div>
 <div class="station-count" id="station-count"></div>
-<div id="ad-banner">
-  <a id="ad-slot-1" href="https://www.connells.co.uk/" target="_blank" rel="noopener">
-    <div class="ad-connells">
-      <div class="ad-logo">Connells<span>Est. 1936</span></div>
-      <div class="ad-body">
-        <div class="ad-headline">Found your perfect commute? Now find your perfect home.</div>
-        <div class="ad-sub">Over 150 branches nationwide &bull; Free online valuations &bull; Expert local knowledge</div>
+<div id="promo-banner">
+  <a id="promo-slot-1" href="https://www.connells.co.uk/" target="_blank" rel="noopener">
+    <div class="promo-connells">
+      <div class="promo-logo">Connells<span>Est. 1936</span></div>
+      <div class="promo-body">
+        <div class="promo-headline">Found your perfect commute? Now find your perfect home.</div>
+        <div class="promo-sub">Over 150 branches nationwide &bull; Free online valuations &bull; Expert local knowledge</div>
       </div>
-      <div class="ad-cta">Search Now</div>
+      <div class="promo-cta">Search Now</div>
     </div>
   </a>
 </div>
