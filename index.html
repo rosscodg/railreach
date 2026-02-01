@@ -4,11 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>London Commute Map</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
 #map { width: 100vw; height: 100vh; }
 #promo-banner {
   position: fixed; bottom: 12px; left: 0; right: 0; z-index: 1001;
@@ -51,30 +54,42 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
 }
 .controls {
   position: absolute; top: 12px; left: 60px; z-index: 1000;
-  background: white; border-radius: 10px; padding: 10px 14px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.2); display: flex; gap: 8px; align-items: center; flex-wrap: wrap;
+  background: rgba(255,255,255,0.82); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  border-radius: 16px; padding: 10px 16px;
+  border: 1px solid rgba(0,0,0,0.06);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06); display: flex; gap: 6px; align-items: center; flex-wrap: wrap;
 }
-.controls label { font-size: 13px; font-weight: 600; color: #333; white-space: nowrap; }
+.controls label { font-size: 12px; font-weight: 500; color: #71717a; white-space: nowrap; letter-spacing: 0.01em; }
 .terminal-btn {
-  padding: 6px 12px; border: 2px solid #ddd; border-radius: 6px;
-  background: white; cursor: pointer; font-size: 12px; font-weight: 500;
-  transition: all 0.15s;
+  padding: 6px 14px; border: 1px solid transparent; border-radius: 20px;
+  background: #f4f4f5; cursor: pointer; font-size: 12px; font-weight: 500; color: #3f3f46;
+  font-family: 'Inter', sans-serif; transition: all 0.2s ease;
 }
-.terminal-btn:hover { border-color: #888; }
-.terminal-btn.active { background: #2563eb; color: white; border-color: #2563eb; }
+.terminal-btn:hover { background: #e4e4e7; }
+.terminal-btn.active { background: #18181b; color: white; border-color: #18181b; }
 .legend {
   position: absolute; bottom: 12px; right: 12px; z-index: 1000;
-  background: white; border-radius: 10px; padding: 12px 16px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.2); font-size: 13px;
+  background: rgba(255,255,255,0.82); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  border-radius: 14px; padding: 14px 18px;
+  border: 1px solid rgba(0,0,0,0.06);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06); font-size: 12px; color: #3f3f46;
 }
-.legend h4 { margin-bottom: 8px; font-size: 13px; }
-.legend-item { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
-.legend-dot { width: 14px; height: 14px; border-radius: 50%; border: 2px solid rgba(0,0,0,0.3); }
+.legend h4 { margin-bottom: 8px; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: #71717a; }
+.legend-item { display: flex; align-items: center; gap: 8px; margin-bottom: 5px; }
+.legend-dot { width: 10px; height: 10px; border-radius: 50%; border: none; }
 .station-count {
   position: absolute; bottom: 12px; left: 60px; z-index: 1000;
-  background: white; border-radius: 10px; padding: 10px 16px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.2); font-size: 13px; color: #555;
+  background: rgba(255,255,255,0.82); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  border-radius: 14px; padding: 10px 16px;
+  border: 1px solid rgba(0,0,0,0.06);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06); font-size: 12px; color: #71717a;
 }
+.leaflet-popup-content-wrapper {
+  border-radius: 12px !important; font-family: 'Inter', sans-serif !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important; border: 1px solid rgba(0,0,0,0.06) !important;
+}
+.leaflet-popup-content { font-size: 13px !important; line-height: 1.5 !important; color: #18181b !important; }
+.leaflet-popup-tip { box-shadow: none !important; }
 </style>
 </head>
 <body>
