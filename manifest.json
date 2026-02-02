@@ -1,0 +1,14 @@
+{
+  "name": "RailReach — Train Journey Times to London",
+  "short_name": "RailReach",
+  "description": "Interactive map showing train journey times from 350+ stations to all London terminals.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#1e293b",
+  "icons": [
+    { "src": "/favicon.svg", "type": "image/svg+xml", "sizes": "any" },
+    { "src": "/favicon.ico", "type": "image/x-icon", "sizes": "32x32" },
+    { "src": "/apple-touch-icon.png", "type": "image/png", "sizes": "180x180" }
+  ]
+}

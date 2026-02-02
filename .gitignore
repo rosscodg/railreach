@@ -1,0 +1,5 @@
+# macOS
+.DS_Store
+
+# Build artifacts (keep out of deployed site)
+# Note: these files are useful locally but shouldn't be served publicly

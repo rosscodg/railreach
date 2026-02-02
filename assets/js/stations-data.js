@@ -1,3 +1,10 @@
+      </div>
+      <div class="promo-cta">Search Now</div>
+    </div>
+  </a>
+</div>
+
+<script>
 const TERMINALS = {
   KGX: { name: "Kings Cross", lat: 51.5320, lng: -0.1240 },
   WAT: { name: "Waterloo", lat: 51.5031, lng: -0.1132 },
@@ -408,10 +415,3 @@ const STATIONS = [
   { name: "Tilbury Town", lat: 51.4627, lng: 0.3642, journeys: { FST: { mins: 30, direct: true } } },
   { name: "East Tilbury", lat: 51.4854, lng: 0.4208, journeys: { FST: { mins: 34, direct: true } } },
   { name: "Stanford-le-Hope", lat: 51.5139, lng: 0.4238, journeys: { FST: { mins: 35, direct: true } } },
-  // -- Ockendon loop --
-  { name: "Ockendon", lat: 51.5222, lng: 0.2954, journeys: { FST: { mins: 25, direct: true } } },
-  { name: "Chafford Hundred", lat: 51.4855, lng: 0.2882, journeys: { FST: { mins: 22, direct: true } } },
-  { name: "Purfleet", lat: 51.4811, lng: 0.2377, journeys: { FST: { mins: 20, direct: true } } },
-  { name: "Rainham (Essex)", lat: 51.5186, lng: 0.1888, journeys: { FST: { mins: 17, direct: true } } },
-  { name: "Dagenham Dock", lat: 51.5253, lng: 0.1468, journeys: { FST: { mins: 14, direct: true } } }
-];
