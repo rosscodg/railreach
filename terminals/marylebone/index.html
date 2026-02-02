@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marylebone Train Times | Journey Times to London Marylebone | RailReach</title>
+<meta name="description" content="Train journey times to London Marylebone from 21+ stations. Interactive map — Denham (18 min), Denham Golf Club (20 min), Gerrards Cross (21 min). Free 2026 timetable data.">
+<link rel="canonical" href="https://railreach.co.uk/terminals/marylebone/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://railreach.co.uk/terminals/marylebone/">
+<meta property="og:title" content="Marylebone Train Times | RailReach">
+<meta property="og:description" content="Interactive map showing train times to Marylebone from 21+ stations.">
+<meta property="og:site_name" content="RailReach">
+<meta name="twitter:card" content="summary_large_image">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HKGQBJT0D3"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-HKGQBJT0D3');</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<link rel="stylesheet" href="../../assets/css/shared.css">
+</head>
+<body>
+<header class="site-header">
+<nav aria-label="Breadcrumb"><ol class="breadcrumb"><li><a href="/">RailReach</a></li><li>Marylebone Train Times</li></ol></nav>
+</header>
+<div id="map" role="application" aria-label="Map of train journey times to Marylebone"></div>
+<div class="legend">
+  <h4>Journey Time</h4>
+  <div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div> Under 30 min</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div> 30–60 min</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div> 60–90 min</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#7c3aed"></div> London Terminal</div>
+</div>
+<div class="station-count" id="station-count"></div>
+<div id="promo-banner">
+  <a id="promo-slot-1" href="https://www.connells.co.uk/" target="_blank" rel="noopener">
+    <div class="promo-connells">
+      <div class="promo-logo">Connells<span>Est. 1936</span></div>
+      <div class="promo-body">
+        <div class="promo-headline">Found your perfect commute? Now find your perfect home.</div>
+        <div class="promo-sub">Over 150 branches nationwide &bull; Free online valuations &bull; Expert local knowledge</div>
+      </div>
+      <div class="promo-cta">Search Now</div>
+    </div>
+  </a>
+</div>
+<button class="toggle-content" onclick="document.querySelector('.spoke-content').classList.toggle('open');this.textContent=this.textContent==='Show Details'?'Hide Details':'Show Details'">Show Details</button>
+<div class="spoke-content">
+<h1>Train Journey Times to Marylebone</h1>
+<p>Marylebone is served by Chiltern Railways. 21+ stations connect to Marylebone within 90 minutes. Key commuter towns include Denham, Denham Golf Club, Gerrards Cross, Seer Green & Jordans, Beaconsfield.</p>
+<h2>Other London Terminals</h2>
+<div class="terminal-nav"><a href="/terminals/kings-cross/">Kings Cross</a>
+<a href="/terminals/waterloo/">Waterloo</a>
+<a href="/terminals/paddington/">Paddington</a>
+<a href="/terminals/london-bridge/">London Bridge</a>
+<a href="/terminals/victoria/">Victoria</a>
+<a href="/terminals/liverpool-street/">Liverpool Street</a>
+<a href="/terminals/euston/">Euston</a>
+<a class="current" href="/terminals/marylebone/">Marylebone</a>
+<a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
+<h2>Frequently Asked Questions</h2>
+<h3>What is the fastest train to Marylebone?</h3>
+<p>The fastest connection is from Denham at just 18 minutes. Services are operated by Chiltern Railways.</p>
+<h3>Which commuter towns are within 30 minutes of Marylebone?</h3>
+<p>Stations reachable within 30 minutes include Denham, Denham Golf Club, Gerrards Cross, Seer Green & Jordans, Beaconsfield. These are popular choices for London commuters seeking shorter journey times.</p>
+<h3>How many stations connect to Marylebone?</h3>
+<p>21 stations have services to London Marylebone within 90 minutes. The terminal is served by Chiltern Railways.</p>
+<h3>What areas does Marylebone serve?</h3>
+<p>London Marylebone primarily serves the Chiltern hills and Buckinghamshire. Key destinations include Denham, Denham Golf Club, Gerrards Cross, Seer Green & Jordans, Beaconsfield.</p>
+<h3>Is Marylebone a good commuter terminal?</h3>
+<p>Yes. With 21 stations within 90 minutes and frequent peak-hour services, Marylebone is one of London&#39;s busiest commuter terminals. Top commuter stations include Denham, Denham Golf Club, Gerrards Cross, Seer Green & Jordans, Beaconsfield.</p>
+<h2>All Stations to Marylebone</h2>
+<table><thead><tr><th>Station</th><th>Time</th><th>Direct?</th></tr></thead><tbody>
+<tr><td>Denham</td><td>18 min</td><td>Yes</td></tr>
+<tr><td>Denham Golf Club</td><td>20 min</td><td>Yes</td></tr>
+<tr><td>Gerrards Cross</td><td>21 min</td><td>Yes</td></tr>
+<tr><td>Seer Green &amp; Jordans</td><td>23 min</td><td>Yes</td></tr>
+<tr><td>Beaconsfield</td><td>24 min</td><td>Yes</td></tr>
+<tr><td>High Wycombe</td><td>27 min</td><td>Yes</td></tr>
+<tr><td>Saunderton</td><td>32 min</td><td>Yes</td></tr>
+<tr><td>Princes Risborough</td><td>37 min</td><td>Yes</td></tr>
+<tr><td>Great Missenden</td><td>38 min</td><td>Yes</td></tr>
+<tr><td>Monks Risborough</td><td>40 min</td><td>Yes</td></tr>
+<tr><td>Little Kimble</td><td>43 min</td><td>Yes</td></tr>
+<tr><td>Stoke Mandeville</td><td>47 min</td><td>Yes</td></tr>
+<tr><td>Haddenham &amp; Thame Parkway</td><td>48 min</td><td>Yes</td></tr>
+<tr><td>Bicester North</td><td>49 min</td><td>Yes</td></tr>
+<tr><td>Kings Sutton</td><td>55 min</td><td>Yes</td></tr>
+<tr><td>Aylesbury</td><td>58 min</td><td>Yes</td></tr>
+<tr><td>Banbury</td><td>58 min</td><td>Yes</td></tr>
+<tr><td>Aylesbury Vale Parkway</td><td>62 min</td><td>Yes</td></tr>
+<tr><td>Leamington Spa</td><td>72 min</td><td>Yes</td></tr>
+<tr><td>Warwick Parkway</td><td>78 min</td><td>Yes</td></tr>
+<tr><td>Warwick</td><td>85 min</td><td>Yes</td></tr>
+</tbody></table>
+</div>
+
+<script type="application/ld+json">{
+"@context": "https://schema.org",
+"@type": "BreadcrumbList",
+"itemListElement": [
+{
+"@type": "ListItem",
+"position": 1,
+"name": "RailReach",
+"item": "https://railreach.co.uk/"
+},
+{
+"@type": "ListItem",
+"position": 2,
+"name": "Marylebone Train Times",
+"item": "https://railreach.co.uk/terminals/marylebone/"
+}
+]
+}</script>
+<script type="application/ld+json">{
+"@context": "https://schema.org",
+"@type": "FAQPage",
+"mainEntity": [
+{
+"@type": "Question",
+"name": "What is the fastest train to Marylebone?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "The fastest connection is from Denham at just 18 minutes. Services are operated by Chiltern Railways."
+}
+},
+{
+"@type": "Question",
+"name": "Which commuter towns are within 30 minutes of Marylebone?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Stations reachable within 30 minutes include Denham, Denham Golf Club, Gerrards Cross, Seer Green & Jordans, Beaconsfield. These are popular choices for London commuters seeking shorter journey times."
+}
+},
+{
+"@type": "Question",
+"name": "How many stations connect to Marylebone?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "21 stations have services to London Marylebone within 90 minutes. The terminal is served by Chiltern Railways."
+}
+},
+{
+"@type": "Question",
+"name": "What areas does Marylebone serve?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "London Marylebone primarily serves the Chiltern hills and Buckinghamshire. Key destinations include Denham, Denham Golf Club, Gerrards Cross, Seer Green & Jordans, Beaconsfield."
+}
+},
+{
+"@type": "Question",
+"name": "Is Marylebone a good commuter terminal?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Yes. With 21 stations within 90 minutes and frequent peak-hour services, Marylebone is one of London&#39;s busiest commuter terminals. Top commuter stations include Denham, Denham Golf Club, Gerrards Cross, Seer Green & Jordans, Beaconsfield."
+}
+}
+]
+}</script>
+
+<script src="../../assets/js/stations-data.js"></script>
+<script>
+const code='MYB';
+const t=TERMINALS[code];
+const map=L.map('map').setView([t.lat,t.lng],8);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap contributors',maxZoom:18}).addTo(map);
+L.circleMarker([t.lat,t.lng],{radius:12,fillColor:'#7c3aed',color:'#fff',weight:3,opacity:1,fillOpacity:0.9}).bindPopup('<strong>'+t.name+'</strong><br>London Terminal').addTo(map);
+function getColor(m){if(m<30)return'#22c55e';if(m<60)return'#f59e0b';return'#ef4444'}
+let count=0;
+STATIONS.forEach(s=>{const j=s.journeys[code];if(j&&j.mins<=90){L.circleMarker([s.lat,s.lng],{radius:7,fillColor:getColor(j.mins),color:'#fff',weight:2,opacity:1,fillOpacity:0.85}).bindPopup('<strong>'+s.name+'</strong><br>To '+t.name+': <strong>'+j.mins+' min</strong><br>'+(j.direct?'Direct train':'Requires change')).addTo(map);count++}});
+document.getElementById('station-count').textContent=count+' stations within 90 min of '+t.name;
+</script>
+</body></html>

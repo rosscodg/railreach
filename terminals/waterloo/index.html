@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Waterloo Train Times | Journey Times to London Waterloo | RailReach</title>
+<meta name="description" content="Train journey times to London Waterloo from 78+ stations. Interactive map — Vauxhall (4 min), Clapham Junction (7 min), Earlsfield (10 min). Free 2026 timetable data.">
+<link rel="canonical" href="https://railreach.co.uk/terminals/waterloo/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://railreach.co.uk/terminals/waterloo/">
+<meta property="og:title" content="Waterloo Train Times | RailReach">
+<meta property="og:description" content="Interactive map showing train times to Waterloo from 78+ stations.">
+<meta property="og:site_name" content="RailReach">
+<meta name="twitter:card" content="summary_large_image">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HKGQBJT0D3"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-HKGQBJT0D3');</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<link rel="stylesheet" href="../../assets/css/shared.css">
+</head>
+<body>
+<header class="site-header">
+<nav aria-label="Breadcrumb"><ol class="breadcrumb"><li><a href="/">RailReach</a></li><li>Waterloo Train Times</li></ol></nav>
+</header>
+<div id="map" role="application" aria-label="Map of train journey times to Waterloo"></div>
+<div class="legend">
+  <h4>Journey Time</h4>
+  <div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div> Under 30 min</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div> 30–60 min</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div> 60–90 min</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#7c3aed"></div> London Terminal</div>
+</div>
+<div class="station-count" id="station-count"></div>
+<div id="promo-banner">
+  <a id="promo-slot-1" href="https://www.connells.co.uk/" target="_blank" rel="noopener">
+    <div class="promo-connells">
+      <div class="promo-logo">Connells<span>Est. 1936</span></div>
+      <div class="promo-body">
+        <div class="promo-headline">Found your perfect commute? Now find your perfect home.</div>
+        <div class="promo-sub">Over 150 branches nationwide &bull; Free online valuations &bull; Expert local knowledge</div>
+      </div>
+      <div class="promo-cta">Search Now</div>
+    </div>
+  </a>
+</div>
+<button class="toggle-content" onclick="document.querySelector('.spoke-content').classList.toggle('open');this.textContent=this.textContent==='Show Details'?'Hide Details':'Show Details'">Show Details</button>
+<div class="spoke-content">
+<h1>Train Journey Times to Waterloo</h1>
+<p>Waterloo is served by South Western Railway. 78+ stations connect to Waterloo within 90 minutes. Key commuter towns include Vauxhall, Clapham Junction, Earlsfield, Wimbledon, Putney.</p>
+<h2>Other London Terminals</h2>
+<div class="terminal-nav"><a href="/terminals/kings-cross/">Kings Cross</a>
+<a class="current" href="/terminals/waterloo/">Waterloo</a>
+<a href="/terminals/paddington/">Paddington</a>
+<a href="/terminals/london-bridge/">London Bridge</a>
+<a href="/terminals/victoria/">Victoria</a>
+<a href="/terminals/liverpool-street/">Liverpool Street</a>
+<a href="/terminals/euston/">Euston</a>
+<a href="/terminals/marylebone/">Marylebone</a>
+<a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
+<h2>Frequently Asked Questions</h2>
+<h3>What is the fastest train to Waterloo?</h3>
+<p>The fastest connection is from Vauxhall at just 4 minutes. Services are operated by South Western Railway.</p>
+<h3>Which commuter towns are within 30 minutes of Waterloo?</h3>
+<p>Stations reachable within 30 minutes include Vauxhall, Clapham Junction, Earlsfield, Wimbledon, Putney. These are popular choices for London commuters seeking shorter journey times.</p>
+<h3>How many stations connect to Waterloo?</h3>
+<p>78 stations have services to London Waterloo within 90 minutes. The terminal is served by South Western Railway.</p>
+<h3>What areas does Waterloo serve?</h3>
+<p>London Waterloo primarily serves the west and southwest. Key destinations include Vauxhall, Clapham Junction, Earlsfield, Wimbledon, Putney.</p>
+<h3>Is Waterloo a good commuter terminal?</h3>
+<p>Yes. With 78 stations within 90 minutes and frequent peak-hour services, Waterloo is one of London&#39;s busiest commuter terminals. Top commuter stations include Vauxhall, Clapham Junction, Earlsfield, Wimbledon, Putney.</p>
+<h2>All Stations to Waterloo</h2>
+<table><thead><tr><th>Station</th><th>Time</th><th>Direct?</th></tr></thead><tbody>
+<tr><td>Vauxhall</td><td>4 min</td><td>Yes</td></tr>
+<tr><td>Clapham Junction</td><td>7 min</td><td>Yes</td></tr>
+<tr><td>Earlsfield</td><td>10 min</td><td>Yes</td></tr>
+<tr><td>Wimbledon</td><td>13 min</td><td>Yes</td></tr>
+<tr><td>Putney</td><td>14 min</td><td>Yes</td></tr>
+<tr><td>Raynes Park</td><td>16 min</td><td>Yes</td></tr>
+<tr><td>Barnes</td><td>16 min</td><td>Yes</td></tr>
+<tr><td>Surbiton</td><td>17 min</td><td>Yes</td></tr>
+<tr><td>Richmond</td><td>18 min</td><td>Yes</td></tr>
+<tr><td>New Malden</td><td>19 min</td><td>Yes</td></tr>
+<tr><td>Motspur Park</td><td>20 min</td><td>Yes</td></tr>
+<tr><td>Esher</td><td>21 min</td><td>Yes</td></tr>
+<tr><td>Twickenham</td><td>22 min</td><td>Yes</td></tr>
+<tr><td>Worcester Park</td><td>22 min</td><td>Yes</td></tr>
+<tr><td>Woking</td><td>23 min</td><td>Yes</td></tr>
+<tr><td>Norbiton</td><td>23 min</td><td>Yes</td></tr>
+<tr><td>Stoneleigh</td><td>24 min</td><td>Yes</td></tr>
+<tr><td>Strawberry Hill</td><td>25 min</td><td>Yes</td></tr>
+<tr><td>Kingston</td><td>25 min</td><td>Yes</td></tr>
+<tr><td>Brentford</td><td>25 min</td><td>Yes</td></tr>
+<tr><td>Walton-on-Thames</td><td>26 min</td><td>Yes</td></tr>
+<tr><td>West Byfleet</td><td>26 min</td><td>Yes</td></tr>
+<tr><td>Hinchley Wood</td><td>27 min</td><td>Yes</td></tr>
+<tr><td>Ewell West</td><td>27 min</td><td>Yes</td></tr>
+<tr><td>Weybridge</td><td>28 min</td><td>Yes</td></tr>
+<tr><td>Teddington</td><td>28 min</td><td>Yes</td></tr>
+<tr><td>Isleworth</td><td>28 min</td><td>Yes</td></tr>
+<tr><td>Brookwood</td><td>29 min</td><td>Yes</td></tr>
+<tr><td>Claygate</td><td>29 min</td><td>Yes</td></tr>
+<tr><td>Byfleet &amp; New Haw</td><td>30 min</td><td>Yes</td></tr>
+<tr><td>Hampton Wick</td><td>30 min</td><td>Yes</td></tr>
+<tr><td>Hounslow</td><td>30 min</td><td>Yes</td></tr>
+<tr><td>Thames Ditton</td><td>30 min</td><td>Yes</td></tr>
+<tr><td>Oxshott</td><td>32 min</td><td>Yes</td></tr>
+<tr><td>Epsom</td><td>32 min</td><td>Yes</td></tr>
+<tr><td>Feltham</td><td>33 min</td><td>Yes</td></tr>
+<tr><td>Guildford</td><td>33 min</td><td>Yes</td></tr>
+<tr><td>Hampton Court</td><td>33 min</td><td>Yes</td></tr>
+<tr><td>Staines</td><td>34 min</td><td>Yes</td></tr>
+<tr><td>Cobham &amp; Stoke d&#39;Abernon</td><td>35 min</td><td>Yes</td></tr>
+<tr><td>Chessington South</td><td>35 min</td><td>Yes</td></tr>
+<tr><td>Farnborough (Main)</td><td>36 min</td><td>Yes</td></tr>
+<tr><td>Ashtead</td><td>37 min</td><td>Yes</td></tr>
+<tr><td>Egham</td><td>38 min</td><td>Yes</td></tr>
+<tr><td>Effingham Junction</td><td>40 min</td><td>Yes</td></tr>
+<tr><td>Fleet</td><td>42 min</td><td>Yes</td></tr>
+<tr><td>Virginia Water</td><td>42 min</td><td>Yes</td></tr>
+<tr><td>Leatherhead</td><td>42 min</td><td>Yes</td></tr>
+<tr><td>Farncombe</td><td>42 min</td><td>Yes</td></tr>
+<tr><td>Horsley</td><td>43 min</td><td>Yes</td></tr>
+<tr><td>Ash Vale</td><td>43 min</td><td>Yes</td></tr>
+<tr><td>Basingstoke</td><td>44 min</td><td>Yes</td></tr>
+<tr><td>Godalming</td><td>45 min</td><td>Yes</td></tr>
+<tr><td>Winchfield</td><td>47 min</td><td>Yes</td></tr>
+<tr><td>Clandon</td><td>48 min</td><td>Yes</td></tr>
+<tr><td>Box Hill &amp; Westhumble</td><td>48 min</td><td>Yes</td></tr>
+<tr><td>Aldershot</td><td>48 min</td><td>Yes</td></tr>
+<tr><td>Farnham</td><td>48 min</td><td>Yes</td></tr>
+<tr><td>Shepperton</td><td>48 min</td><td>Yes</td></tr>
+<tr><td>Milford</td><td>49 min</td><td>Yes</td></tr>
+<tr><td>Hook</td><td>50 min</td><td>Yes</td></tr>
+<tr><td>Haslemere</td><td>50 min</td><td>Yes</td></tr>
+<tr><td>Dorking</td><td>52 min</td><td>Yes</td></tr>
+<tr><td>Witley</td><td>52 min</td><td>Yes</td></tr>
+<tr><td>Ascot</td><td>52 min</td><td>Yes</td></tr>
+<tr><td>Bentley</td><td>54 min</td><td>Yes</td></tr>
+<tr><td>Overton</td><td>55 min</td><td>Yes</td></tr>
+<tr><td>Liphook</td><td>55 min</td><td>Yes</td></tr>
+<tr><td>Alton</td><td>58 min</td><td>Yes</td></tr>
+<tr><td>Winchester</td><td>59 min</td><td>Yes</td></tr>
+<tr><td>Whitchurch (Hants)</td><td>60 min</td><td>Yes</td></tr>
+<tr><td>Liss</td><td>60 min</td><td>Yes</td></tr>
+<tr><td>Petersfield</td><td>62 min</td><td>Yes</td></tr>
+<tr><td>Andover</td><td>65 min</td><td>Yes</td></tr>
+<tr><td>Grateley</td><td>72 min</td><td>Yes</td></tr>
+<tr><td>Southampton Central</td><td>76 min</td><td>Yes</td></tr>
+<tr><td>Havant</td><td>78 min</td><td>Yes</td></tr>
+<tr><td>Salisbury</td><td>83 min</td><td>Yes</td></tr>
+</tbody></table>
+</div>
+
+<script type="application/ld+json">{
+"@context": "https://schema.org",
+"@type": "BreadcrumbList",
+"itemListElement": [
+{
+"@type": "ListItem",
+"position": 1,
+"name": "RailReach",
+"item": "https://railreach.co.uk/"
+},
+{
+"@type": "ListItem",
+"position": 2,
+"name": "Waterloo Train Times",
+"item": "https://railreach.co.uk/terminals/waterloo/"
+}
+]
+}</script>
+<script type="application/ld+json">{
+"@context": "https://schema.org",
+"@type": "FAQPage",
+"mainEntity": [
+{
+"@type": "Question",
+"name": "What is the fastest train to Waterloo?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "The fastest connection is from Vauxhall at just 4 minutes. Services are operated by South Western Railway."
+}
+},
+{
+"@type": "Question",
+"name": "Which commuter towns are within 30 minutes of Waterloo?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Stations reachable within 30 minutes include Vauxhall, Clapham Junction, Earlsfield, Wimbledon, Putney. These are popular choices for London commuters seeking shorter journey times."
+}
+},
+{
+"@type": "Question",
+"name": "How many stations connect to Waterloo?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "78 stations have services to London Waterloo within 90 minutes. The terminal is served by South Western Railway."
+}
+},
+{
+"@type": "Question",
+"name": "What areas does Waterloo serve?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "London Waterloo primarily serves the west and southwest. Key destinations include Vauxhall, Clapham Junction, Earlsfield, Wimbledon, Putney."
+}
+},
+{
+"@type": "Question",
+"name": "Is Waterloo a good commuter terminal?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Yes. With 78 stations within 90 minutes and frequent peak-hour services, Waterloo is one of London&#39;s busiest commuter terminals. Top commuter stations include Vauxhall, Clapham Junction, Earlsfield, Wimbledon, Putney."
+}
+}
+]
+}</script>
+
+<script src="../../assets/js/stations-data.js"></script>
+<script>
+const code='WAT';
+const t=TERMINALS[code];
+const map=L.map('map').setView([t.lat,t.lng],8);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap contributors',maxZoom:18}).addTo(map);
+L.circleMarker([t.lat,t.lng],{radius:12,fillColor:'#7c3aed',color:'#fff',weight:3,opacity:1,fillOpacity:0.9}).bindPopup('<strong>'+t.name+'</strong><br>London Terminal').addTo(map);
+function getColor(m){if(m<30)return'#22c55e';if(m<60)return'#f59e0b';return'#ef4444'}
+let count=0;
+STATIONS.forEach(s=>{const j=s.journeys[code];if(j&&j.mins<=90){L.circleMarker([s.lat,s.lng],{radius:7,fillColor:getColor(j.mins),color:'#fff',weight:2,opacity:1,fillOpacity:0.85}).bindPopup('<strong>'+s.name+'</strong><br>To '+t.name+': <strong>'+j.mins+' min</strong><br>'+(j.direct?'Direct train':'Requires change')).addTo(map);count++}});
+document.getElementById('station-count').textContent=count+' stations within 90 min of '+t.name;
+</script>
+</body></html>

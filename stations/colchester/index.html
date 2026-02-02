@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Colchester to London Train Times | Journey Times from Colchester | RailReach</title>
+<meta name="description" content="Train times from Colchester to London — Liverpool Street (45 min). Interactive map with direct and indirect routes. Free 2026 timetable data.">
+<link rel="canonical" href="https://railreach.co.uk/stations/colchester/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://railreach.co.uk/stations/colchester/">
+<meta property="og:title" content="Colchester to London Train Times | RailReach">
+<meta property="og:description" content="Journey times from Colchester to London terminals. Liverpool Street in 45 min.">
+<meta property="og:site_name" content="RailReach">
+<meta name="twitter:card" content="summary_large_image">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HKGQBJT0D3"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-HKGQBJT0D3');</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<link rel="stylesheet" href="../../assets/css/shared.css">
+</head>
+<body>
+<header class="site-header">
+<nav aria-label="Breadcrumb"><ol class="breadcrumb"><li><a href="/">RailReach</a></li><li>Colchester to London</li></ol></nav>
+</header>
+<div id="map" role="application" aria-label="Map showing train routes from Colchester to London"></div>
+<div class="legend">
+  <h4>Journey Time</h4>
+  <div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div> Under 30 min</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div> 30–60 min</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div> 60–90 min</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#3b82f6"></div> This Station</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#7c3aed"></div> London Terminal</div>
+</div>
+<div class="station-count" id="station-count"></div>
+<div id="promo-banner">
+  <a id="promo-slot-1" href="https://www.connells.co.uk/" target="_blank" rel="noopener">
+    <div class="promo-connells">
+      <div class="promo-logo">Connells<span>Est. 1936</span></div>
+      <div class="promo-body">
+        <div class="promo-headline">Found your perfect commute? Now find your perfect home.</div>
+        <div class="promo-sub">Over 150 branches nationwide &bull; Free online valuations &bull; Expert local knowledge</div>
+      </div>
+      <div class="promo-cta">Search Now</div>
+    </div>
+  </a>
+</div>
+<button class="toggle-content" onclick="document.querySelector('.spoke-content').classList.toggle('open');this.textContent=this.textContent==='Show Details'?'Hide Details':'Show Details'">Show Details</button>
+<div class="spoke-content">
+<h1>Train Times from Colchester to London</h1>
+<p>Colchester connects to 1 London terminal. The fastest route is to Liverpool Street in 45 minutes (direct).</p>
+<h2>Journey Comparison</h2>
+<table><thead><tr><th>London Terminal</th><th>Time</th><th>Direct?</th></tr></thead><tbody>
+<tr><td><a href="/terminals/liverpool-street/">Liverpool Street</a></td><td>45 min</td><td>Yes</td></tr>
+</tbody></table>
+<h2>London Terminals</h2>
+<div class="terminal-nav"><a href="/terminals/kings-cross/">Kings Cross</a>
+<a href="/terminals/waterloo/">Waterloo</a>
+<a href="/terminals/paddington/">Paddington</a>
+<a href="/terminals/london-bridge/">London Bridge</a>
+<a href="/terminals/victoria/">Victoria</a>
+<a href="/terminals/liverpool-street/">Liverpool Street</a>
+<a href="/terminals/euston/">Euston</a>
+<a href="/terminals/marylebone/">Marylebone</a>
+<a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
+<h2>Frequently Asked Questions</h2>
+<h3>How long does it take to get from Colchester to London?</h3>
+<p>The fastest train from Colchester reaches London Liverpool Street in 45 minutes. Colchester connects to 1 London terminal: Liverpool Street.</p>
+<h3>Which London station should I travel to from Colchester?</h3>
+<p>The quickest route is to Liverpool Street (45 min, direct). Direct services are available to Liverpool Street.</p>
+<h3>Is Colchester a good commuter town for London?</h3>
+<p>With a fastest journey time of 45 minutes to London Liverpool Street, Colchester offers a reasonable commute under an hour. Direct trains make the commute straightforward.</p>
+<h3>What are the nearest stations to Colchester?</h3>
+<p>Nearby stations include Marks Tey, Manningtree, Kelvedon. These offer alternative routes into London from the Colchester area.</p>
+<h2>Nearby Stations</h2>
+<ul>
+<li>Marks Tey (8 km away)</li>
+<li>Manningtree (12 km away)</li>
+<li>Kelvedon (15 km away)</li>
+<li>Witham (21 km away)</li>
+<li>Braintree (23 km away)</li>
+</ul>
+</div>
+
+<script type="application/ld+json">{
+"@context": "https://schema.org",
+"@type": "BreadcrumbList",
+"itemListElement": [
+{
+"@type": "ListItem",
+"position": 1,
+"name": "RailReach",
+"item": "https://railreach.co.uk/"
+},
+{
+"@type": "ListItem",
+"position": 2,
+"name": "Colchester to London",
+"item": "https://railreach.co.uk/stations/colchester/"
+}
+]
+}</script>
+<script type="application/ld+json">{
+"@context": "https://schema.org",
+"@type": "FAQPage",
+"mainEntity": [
+{
+"@type": "Question",
+"name": "How long does it take to get from Colchester to London?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "The fastest train from Colchester reaches London Liverpool Street in 45 minutes. Colchester connects to 1 London terminal: Liverpool Street."
+}
+},
+{
+"@type": "Question",
+"name": "Which London station should I travel to from Colchester?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "The quickest route is to Liverpool Street (45 min, direct). Direct services are available to Liverpool Street."
+}
+},
+{
+"@type": "Question",
+"name": "Is Colchester a good commuter town for London?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "With a fastest journey time of 45 minutes to London Liverpool Street, Colchester offers a reasonable commute under an hour. Direct trains make the commute straightforward."
+}
+},
+{
+"@type": "Question",
+"name": "What are the nearest stations to Colchester?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Nearby stations include Marks Tey, Manningtree, Kelvedon. These offer alternative routes into London from the Colchester area."
+}
+}
+]
+}</script>
+
+<script src="../../assets/js/stations-data.js"></script>
+<script>
+function getColor(m){if(m<30)return'#22c55e';if(m<60)return'#f59e0b';return'#ef4444'}
+const map=L.map('map').setView([51.9007,0.8926],9);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap contributors',maxZoom:18}).addTo(map);
+// Station marker (blue)
+L.circleMarker([51.9007,0.8926],{radius:12,fillColor:'#3b82f6',color:'#fff',weight:3,opacity:1,fillOpacity:0.9}).bindPopup('<strong>Colchester</strong>').addTo(map);
+// Terminal markers
+L.circleMarker([51.5178,-0.0823],{radius:12,fillColor:'#7c3aed',color:'#fff',weight:3,opacity:1,fillOpacity:0.9}).bindPopup('<strong>Liverpool Street</strong><br>45 min from Colchester<br>Direct').addTo(map);
+// Polylines
+L.polyline([[51.9007,0.8926],[51.5178,-0.0823]],{color:getColor(45),weight:3,opacity:0.7,}).addTo(map);
+document.getElementById('station-count').textContent='Colchester — 1 London terminal';
+</script>
+</body></html>
