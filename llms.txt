@@ -1,0 +1,45 @@
+# RailReach
+
+> RailReach is a free interactive map showing train journey times from 350+ UK stations to 9 London main line terminals. Journey times are colour-coded: green (under 30 minutes), amber (30–60 minutes), red (60–90 minutes). All data is sourced from National Rail timetables (2026) and covers the fastest typical services, both direct and indirect, within 90 minutes of central London.
+
+## Key Pages
+
+- https://railreach.co.uk/ : Interactive commute map with journey times to all London terminals
+
+## London Terminals Covered
+
+- Kings Cross / St Pancras — LNER, Great Northern, Thameslink services to Cambridge, Peterborough, Stevenage, Bedford, Hertford
+- Waterloo — South Western Railway to Woking, Basingstoke, Winchester, Guildford, Southampton, Salisbury, Portsmouth
+- Paddington — GWR and Elizabeth Line to Reading, Oxford, Swindon, Newbury, Slough, Bath, Bristol
+- London Bridge — Southeastern and Southern to Dartford, Medway towns, Sevenoaks, Tonbridge, Tunbridge Wells, Redhill, Brighton
+- Victoria — Southeastern, Southern, Gatwick Express to Bromley, Gatwick, Brighton, Horsham, Ashford, East Grinstead
+- Liverpool Street — Greater Anglia to Chelmsford, Colchester, Ipswich, Cambridge, Stansted, Bishops Stortford, Southend
+- Euston — Avanti West Coast and London Northwestern to Watford, Milton Keynes, Northampton, Rugby, Coventry, Birmingham
+- Marylebone — Chiltern Railways to High Wycombe, Aylesbury, Bicester, Banbury, Leamington Spa
+- Fenchurch Street — c2c to Basildon, Southend Central, Grays, Tilbury
+
+## Data Summary
+
+- 350+ stations across all major routes and branch lines
+- 9 London terminals
+- Journey times represent fastest typical services from 2026 timetables
+- Covers both direct trains and services requiring one change
+- Maximum journey time: 90 minutes
+- Colour coding: green (<30 min), amber (30–60 min), red (60–90 min)
+
+## Example Journey Times
+
+- Finsbury Park to Kings Cross: 5 minutes (direct)
+- Reading to Paddington: 23 minutes (direct)
+- Cambridge to Kings Cross: 49 minutes (direct)
+- Brighton to Victoria: 58 minutes (direct)
+- Woking to Waterloo: 23 minutes (direct)
+- Chelmsford to Liverpool Street: 30 minutes (direct)
+- Milton Keynes to Euston: 30 minutes (direct)
+- High Wycombe to Marylebone: 27 minutes (direct)
+- Basildon to Fenchurch Street: 33 minutes (direct)
+- Oxford to Paddington: 45 minutes (direct)
+
+## Contact
+
+- Website: https://railreach.co.uk
