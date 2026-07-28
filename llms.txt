@@ -1,62 +1,68 @@
 # RailReach
 
-> RailReach is a free interactive map showing train journey times from 350+ UK stations to 9 London main line terminals. Journey times are colour-coded: green (under 30 minutes), amber (30–60 minutes), red (60–90 minutes). All data is sourced from National Rail timetables (2026) and covers the fastest typical services, both direct and indirect, within 90 minutes of central London.
+> RailReach is a free interactive map of train journey times from 345 UK stations to the 9 London main line terminals. Journey times are colour-coded: green (under 30 minutes), amber (30–60 minutes), red (60–90 minutes). Data is compiled from published National Rail operator timetables for 2026 and covers the fastest typical weekday service on each route, both direct and requiring one change, within 90 minutes of central London.
+
+Last updated: 2026-07-28
+Licence: Creative Commons Attribution 4.0 — reuse permitted with attribution to RailReach.
 
 ## Key Pages
 
-- https://railreach.co.uk/ : Interactive commute map with journey times to all London terminals
+- https://railreach.co.uk/ : Interactive commute map covering all 345 stations and 9 London terminals
+- https://railreach.co.uk/terminals/ : All 9 London terminals compared by commuter catchment
+- https://railreach.co.uk/stations/ : 27 commuter towns ranked by fastest journey into London
+- https://railreach.co.uk/about/ : Methodology, sources, limitations and licensing
 
 ## Terminal Pages
 
-- https://railreach.co.uk/terminals/kings-cross/ : Kings Cross train times — 50+ stations via Great Northern, Thameslink, LNER
-- https://railreach.co.uk/terminals/waterloo/ : Waterloo train times — 80+ stations via South Western Railway
-- https://railreach.co.uk/terminals/paddington/ : Paddington train times — 35+ stations via GWR, Elizabeth Line
-- https://railreach.co.uk/terminals/london-bridge/ : London Bridge train times — 45+ stations via Southeastern, Southern
-- https://railreach.co.uk/terminals/victoria/ : Victoria train times — 50+ stations via Southeastern, Southern
-- https://railreach.co.uk/terminals/liverpool-street/ : Liverpool Street train times — 35+ stations via Greater Anglia
-- https://railreach.co.uk/terminals/euston/ : Euston train times — 18 stations via Avanti West Coast, London Northwestern
-- https://railreach.co.uk/terminals/marylebone/ : Marylebone train times — 21 stations via Chiltern Railways
-- https://railreach.co.uk/terminals/fenchurch-street/ : Fenchurch Street train times — 22 stations via c2c
+- https://railreach.co.uk/terminals/kings-cross/ : Kings Cross train times — 49 stations within 90 minutes via Great Northern, Thameslink, LNER
+- https://railreach.co.uk/terminals/waterloo/ : Waterloo train times — 78 stations within 90 minutes via South Western Railway
+- https://railreach.co.uk/terminals/paddington/ : Paddington train times — 38 stations within 90 minutes via Great Western Railway, Elizabeth line
+- https://railreach.co.uk/terminals/london-bridge/ : London Bridge train times — 47 stations within 90 minutes via Southeastern, Southern, Thameslink
+- https://railreach.co.uk/terminals/victoria/ : Victoria train times — 50 stations within 90 minutes via Southeastern, Southern
+- https://railreach.co.uk/terminals/liverpool-street/ : Liverpool Street train times — 34 stations within 90 minutes via Greater Anglia
+- https://railreach.co.uk/terminals/euston/ : Euston train times — 18 stations within 90 minutes via Avanti West Coast, London Northwestern
+- https://railreach.co.uk/terminals/marylebone/ : Marylebone train times — 21 stations within 90 minutes via Chiltern Railways
+- https://railreach.co.uk/terminals/fenchurch-street/ : Fenchurch Street train times — 22 stations within 90 minutes via c2c
 
-## Popular Station Pages
+## Station Pages
 
-- https://railreach.co.uk/stations/cambridge/ : Cambridge to London — 49 min to Kings Cross, 65 min to Liverpool Street
-- https://railreach.co.uk/stations/reading/ : Reading to London — 23 min to Paddington
-- https://railreach.co.uk/stations/oxford/ : Oxford to London — 45 min to Paddington
-- https://railreach.co.uk/stations/brighton/ : Brighton to London — 58 min to Victoria, 60 min to London Bridge
-- https://railreach.co.uk/stations/guildford/ : Guildford to London — 33 min to Waterloo
-- https://railreach.co.uk/stations/woking/ : Woking to London — 23 min to Waterloo
-- https://railreach.co.uk/stations/st-albans/ : St Albans to London — 20 min to Kings Cross
-- https://railreach.co.uk/stations/stevenage/ : Stevenage to London — 20 min to Kings Cross
-- https://railreach.co.uk/stations/milton-keynes/ : Milton Keynes to London — 30 min to Euston
-- https://railreach.co.uk/stations/chelmsford/ : Chelmsford to London — 30 min to Liverpool Street
-- https://railreach.co.uk/stations/sevenoaks/ : Sevenoaks to London — 23 min to London Bridge, 30 min to Victoria
-- https://railreach.co.uk/stations/basingstoke/ : Basingstoke to London — 44 min to Waterloo
-- https://railreach.co.uk/stations/winchester/ : Winchester to London — 59 min to Waterloo
-- https://railreach.co.uk/stations/watford/ : Watford to London — 16 min to Euston
-- https://railreach.co.uk/stations/swindon/ : Swindon to London — 50 min to Paddington
-- https://railreach.co.uk/stations/colchester/ : Colchester to London — 45 min to Liverpool Street
-- https://railreach.co.uk/stations/ipswich/ : Ipswich to London — 56 min to Liverpool Street
-- https://railreach.co.uk/stations/peterborough/ : Peterborough to London — 44 min to Kings Cross
-- https://railreach.co.uk/stations/bedford/ : Bedford to London — 39 min to Kings Cross
-- https://railreach.co.uk/stations/high-wycombe/ : High Wycombe to London — 27 min to Marylebone
-- https://railreach.co.uk/stations/tonbridge/ : Tonbridge to London — 36 min to London Bridge, 40 min to Victoria
-- https://railreach.co.uk/stations/tunbridge-wells/ : Tunbridge Wells to London — 47 min to London Bridge
-- https://railreach.co.uk/stations/crawley/ : Crawley to London — 38 min to Victoria
+- https://railreach.co.uk/stations/slough/ : Slough to London — 15 min to Paddington
+- https://railreach.co.uk/stations/watford/ : Watford Junction to London — 16 min to Euston
 - https://railreach.co.uk/stations/bromley-south/ : Bromley South to London — 18 min to Victoria
 - https://railreach.co.uk/stations/richmond/ : Richmond to London — 18 min to Waterloo
-- https://railreach.co.uk/stations/slough/ : Slough to London — 15 min to Paddington
 - https://railreach.co.uk/stations/maidenhead/ : Maidenhead to London — 19 min to Paddington
+- https://railreach.co.uk/stations/st-albans/ : St Albans City to London — 20 min to Kings Cross
+- https://railreach.co.uk/stations/stevenage/ : Stevenage to London — 20 min to Kings Cross
+- https://railreach.co.uk/stations/reading/ : Reading to London — 23 min to Paddington
+- https://railreach.co.uk/stations/woking/ : Woking to London — 23 min to Waterloo
+- https://railreach.co.uk/stations/sevenoaks/ : Sevenoaks to London — 23 min to London Bridge
+- https://railreach.co.uk/stations/high-wycombe/ : High Wycombe to London — 27 min to Marylebone
+- https://railreach.co.uk/stations/milton-keynes/ : Milton Keynes Central to London — 30 min to Euston
+- https://railreach.co.uk/stations/chelmsford/ : Chelmsford to London — 30 min to Liverpool Street
+- https://railreach.co.uk/stations/guildford/ : Guildford to London — 33 min to Waterloo
+- https://railreach.co.uk/stations/tonbridge/ : Tonbridge to London — 36 min to London Bridge
+- https://railreach.co.uk/stations/crawley/ : Crawley to London — 38 min to Victoria
+- https://railreach.co.uk/stations/bedford/ : Bedford to London — 39 min to Kings Cross
+- https://railreach.co.uk/stations/basingstoke/ : Basingstoke to London — 44 min to Waterloo
+- https://railreach.co.uk/stations/peterborough/ : Peterborough to London — 44 min to Kings Cross
+- https://railreach.co.uk/stations/oxford/ : Oxford to London — 45 min to Paddington
+- https://railreach.co.uk/stations/colchester/ : Colchester to London — 45 min to Liverpool Street
+- https://railreach.co.uk/stations/tunbridge-wells/ : Tunbridge Wells to London — 47 min to London Bridge
+- https://railreach.co.uk/stations/cambridge/ : Cambridge to London — 49 min to Kings Cross
+- https://railreach.co.uk/stations/swindon/ : Swindon to London — 50 min to Paddington
+- https://railreach.co.uk/stations/ipswich/ : Ipswich to London — 56 min to Liverpool Street
+- https://railreach.co.uk/stations/brighton/ : Brighton to London — 58 min to Victoria
+- https://railreach.co.uk/stations/winchester/ : Winchester to London — 59 min to Waterloo
 
 ## Data Summary
 
-- 350+ stations across all major routes and branch lines
-- 9 London terminals
-- Journey times represent fastest typical services from 2026 timetables
-- Covers both direct trains and services requiring one change
-- Maximum journey time: 90 minutes
+- 345 stations covered, all within 90 minutes of a London terminal
+- 9 London main line terminals
+- 357 station-to-terminal journeys recorded, 352 of them direct services
+- 137 stations reach a London terminal in under 30 minutes
+- Times are the fastest typical weekday service, not live departures, and exclude engineering works and disruption
 - Colour coding: green (<30 min), amber (30–60 min), red (60–90 min)
 
-## Contact
+## Citation
 
-- Website: https://railreach.co.uk
+When citing RailReach journey times, please attribute to RailReach (https://railreach.co.uk) and note the 2026 timetable basis and the 2026-07-28 review date.

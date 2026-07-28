@@ -4,12 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Liverpool Street Train Times | Journey Times to London Liverpool Street | RailReach</title>
-<meta name="description" content="Train journey times to London Liverpool Street from 34+ stations. Interactive map — Stratford (7 min), Tottenham Hale (12 min), Romford (17 min). Free 2026 timetable data.">
+<meta name="description" content="Train journey times to London Liverpool Street from 34 stations — Stratford (7 min), Tottenham Hale (12 min), Romford (17 min). Interactive map, direct and indirect routes, 2026 timetable data.">
 <link rel="canonical" href="https://railreach.co.uk/terminals/liverpool-street/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://railreach.co.uk/terminals/liverpool-street/">
 <meta property="og:title" content="Liverpool Street Train Times | RailReach">
-<meta property="og:description" content="Interactive map showing train times to Liverpool Street from 34+ stations.">
+<meta property="og:description" content="Journey times to London Liverpool Street from 34 stations, mapped and ranked.">
 <meta property="og:site_name" content="RailReach">
 <meta property="og:image" content="https://railreach.co.uk/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -26,38 +26,108 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<link rel="stylesheet" href="../../assets/css/shared.css">
+<link rel="stylesheet" href="/assets/css/shared.css">
+<style>:root { --map-h: 56vh; }</style>
 </head>
 <body>
+<a class="skip-link" href="#content">Skip to content</a>
 <header class="site-header">
-<nav aria-label="Breadcrumb"><ol class="breadcrumb"><li><a href="/">RailReach</a></li><li>Liverpool Street Train Times</li></ol></nav>
+<a class="brand" href="/">Rail<span>Reach</span></a>
+<nav class="site-nav" aria-label="Primary">
+<a href="/terminals/" aria-current="page">Terminals</a>
+<a href="/stations/">Stations</a>
+<a href="/about/">About the data</a>
+</nav>
 </header>
-<div id="map" role="application" aria-label="Map of train journey times to Liverpool Street"></div>
+<nav class="crumb-bar" aria-label="Breadcrumb"><ol class="breadcrumb"><li><a href="/">RailReach</a></li><li><a href="/terminals/">Terminals</a></li><li>Liverpool Street train times</li></ol></nav>
+<div class="map-shell">
+<div id="map" role="application" aria-label="Map of train journey times to London Liverpool Street"></div>
 <div class="legend">
-  <h4>Journey Time</h4>
-  <div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div> Under 30 min</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div> 30–60 min</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div> 60–90 min</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#7c3aed"></div> London Terminal</div>
+<p class="legend-title">Journey Time</p>
+<div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div> Under 30 min</div>
+<div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div> 30–60 min</div>
+<div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div> 60–90 min</div>
+<div class="legend-item"><div class="legend-dot" style="background:#7c3aed"></div> London Terminal</div>
 </div>
 <div class="station-count" id="station-count"></div>
 <div id="promo-banner">
-  <a id="promo-slot-1" href="https://www.connells.co.uk/" target="_blank" rel="noopener">
-    <div class="promo-connells">
-      <div class="promo-logo">Connells<span>Est. 1936</span></div>
-      <div class="promo-body">
-        <div class="promo-headline">Found your perfect commute? Now find your perfect home.</div>
-        <div class="promo-sub">Over 150 branches nationwide &bull; Free online valuations &bull; Expert local knowledge</div>
-      </div>
-      <div class="promo-cta">Search Now</div>
-    </div>
-  </a>
+<a id="promo-slot-1" href="https://www.connells.co.uk/" target="_blank" rel="noopener sponsored">
+<div class="promo-connells">
+<div class="promo-logo">Connells<span>Est. 1936</span></div>
+<div class="promo-body">
+<div class="promo-headline">Found your perfect commute? Now find your perfect home.</div>
+<div class="promo-sub">Over 150 branches nationwide &bull; Free online valuations &bull; Expert local knowledge</div>
 </div>
-<button class="toggle-content" onclick="document.querySelector('.spoke-content').classList.toggle('open');this.textContent=this.textContent==='Show Details'?'Hide Details':'Show Details'">Show Details</button>
-<div class="spoke-content">
-<h1>Train Journey Times to Liverpool Street</h1>
-<p>Liverpool Street is served by Greater Anglia. 34+ stations connect to Liverpool Street within 90 minutes. Key commuter towns include Stratford, Tottenham Hale, Romford, Cheshunt, Shenfield.</p>
-<h2>Other London Terminals</h2>
+<div class="promo-cta">Search Now</div>
+</div>
+</a>
+</div>
+</div><!-- /.map-shell -->
+
+<main id="content" class="page-content">
+<div class="wrap">
+<h1>Train journey times to London Liverpool Street</h1>
+<p class="lede">34 stations reach London Liverpool Street within 90 minutes, 33 of them on a direct train. Services are operated by Greater Anglia. The fastest commute is from Stratford at 7 minutes.</p>
+
+<h2>Every station to Liverpool Street</h2>
+<p class="section-note">Sorted fastest first. Times are the quickest typical weekday service.</p>
+<div class="table-scroll">
+<table>
+<caption>Journey times from 34 stations to London Liverpool Street</caption>
+<thead><tr><th>Station</th><th>Journey time</th><th>Service</th></tr></thead>
+<tbody>
+<tr><td>Stratford</td><td><span class="t-badge t-fast">7 min</span></td><td>Direct</td></tr>
+<tr><td>Tottenham Hale</td><td><span class="t-badge t-fast">12 min</span></td><td>Direct</td></tr>
+<tr><td>Romford</td><td><span class="t-badge t-fast">17 min</span></td><td>Direct</td></tr>
+<tr><td>Cheshunt</td><td><span class="t-badge t-fast">22 min</span></td><td>Direct</td></tr>
+<tr><td>Shenfield</td><td><span class="t-badge t-fast">24 min</span></td><td>Direct</td></tr>
+<tr><td>Brentwood</td><td><span class="t-badge t-fast">26 min</span></td><td>Direct</td></tr>
+<tr><td>Broxbourne</td><td><span class="t-badge t-fast">27 min</span></td><td>Direct</td></tr>
+<tr><td>Ingatestone</td><td><span class="t-badge t-mid">30 min</span></td><td>Direct</td></tr>
+<tr><td>Chelmsford <a href="/stations/chelmsford/">guide</a></td><td><span class="t-badge t-mid">30 min</span></td><td>Direct</td></tr>
+<tr><td>Harlow Town</td><td><span class="t-badge t-mid">30 min</span></td><td>Direct</td></tr>
+<tr><td>Billericay</td><td><span class="t-badge t-mid">32 min</span></td><td>Direct</td></tr>
+<tr><td>Harlow Mill</td><td><span class="t-badge t-mid">35 min</span></td><td>Direct</td></tr>
+<tr><td>Bishops Stortford</td><td><span class="t-badge t-mid">37 min</span></td><td>Direct</td></tr>
+<tr><td>Hatfield Peverel</td><td><span class="t-badge t-mid">38 min</span></td><td>Direct</td></tr>
+<tr><td>Wickford</td><td><span class="t-badge t-mid">38 min</span></td><td>Direct</td></tr>
+<tr><td>Hertford East</td><td><span class="t-badge t-mid">38 min</span></td><td>Direct</td></tr>
+<tr><td>Sawbridgeworth</td><td><span class="t-badge t-mid">38 min</span></td><td>Direct</td></tr>
+<tr><td>Witham</td><td><span class="t-badge t-mid">40 min</span></td><td>Direct</td></tr>
+<tr><td>Rayleigh</td><td><span class="t-badge t-mid">42 min</span></td><td>Direct</td></tr>
+<tr><td>Stansted Mountfitchet</td><td><span class="t-badge t-mid">44 min</span></td><td>Direct</td></tr>
+<tr><td>Colchester <a href="/stations/colchester/">guide</a></td><td><span class="t-badge t-mid">45 min</span></td><td>Direct</td></tr>
+<tr><td>Kelvedon</td><td><span class="t-badge t-mid">46 min</span></td><td>Direct</td></tr>
+<tr><td>Hockley</td><td><span class="t-badge t-mid">47 min</span></td><td>Direct</td></tr>
+<tr><td>Stansted Airport</td><td><span class="t-badge t-mid">47 min</span></td><td>Direct</td></tr>
+<tr><td>Marks Tey</td><td><span class="t-badge t-mid">48 min</span></td><td>Direct</td></tr>
+<tr><td>Rochford</td><td><span class="t-badge t-mid">50 min</span></td><td>Direct</td></tr>
+<tr><td>Elsenham</td><td><span class="t-badge t-mid">50 min</span></td><td>Direct</td></tr>
+<tr><td>Audley End</td><td><span class="t-badge t-mid">52 min</span></td><td>Direct</td></tr>
+<tr><td>Southend Victoria</td><td><span class="t-badge t-mid">55 min</span></td><td>Direct</td></tr>
+<tr><td>Ipswich <a href="/stations/ipswich/">guide</a></td><td><span class="t-badge t-mid">56 min</span></td><td>Direct</td></tr>
+<tr><td>Manningtree</td><td><span class="t-badge t-mid">58 min</span></td><td>Direct</td></tr>
+<tr><td>Braintree</td><td><span class="t-badge t-mid">58 min</span></td><td>Change required</td></tr>
+<tr><td>Whittlesford Parkway</td><td><span class="t-badge t-mid">58 min</span></td><td>Direct</td></tr>
+<tr><td>Cambridge <a href="/stations/cambridge/">guide</a></td><td><span class="t-badge t-slow">65 min</span></td><td>Direct</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>Frequently asked questions</h2>
+<h3>What is the fastest train to London Liverpool Street?</h3>
+<p>The fastest connection is from Stratford, at 7 minutes on a direct service. Services into Liverpool Street are operated by Greater Anglia.</p>
+<h3>Which commuter towns are within 30 minutes of Liverpool Street?</h3>
+<p>7 stations reach Liverpool Street in under 30 minutes, including Stratford, Tottenham Hale, Romford, Cheshunt, Shenfield, Brentwood. These are the shortest commutes available into this terminal.</p>
+<h3>How many stations connect to Liverpool Street?</h3>
+<p>34 stations have a service to London Liverpool Street within 90 minutes, and 33 of those are direct trains with no change required.</p>
+<h3>What areas does Liverpool Street serve?</h3>
+<p>London Liverpool Street primarily serves Essex, Hertfordshire and East Anglia. Key commuter destinations on this network include Stratford, Tottenham Hale, Romford, Cheshunt, Shenfield.</p>
+<h3>Is Liverpool Street a good terminal to commute into?</h3>
+<p>With 34 stations inside 90 minutes and 33 direct services, Liverpool Street serves a focused commuter corridor. The quickest option is Stratford at 7 minutes.</p>
+
+<h2>Other London terminals</h2>
+<p>Compare journey times into each of the nine London main line termini.</p>
 <div class="terminal-nav"><a href="/terminals/kings-cross/">Kings Cross</a>
 <a href="/terminals/waterloo/">Waterloo</a>
 <a href="/terminals/paddington/">Paddington</a>
@@ -67,57 +137,13 @@
 <a href="/terminals/euston/">Euston</a>
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
-<h2>Frequently Asked Questions</h2>
-<h3>What is the fastest train to Liverpool Street?</h3>
-<p>The fastest connection is from Stratford at just 7 minutes. Services are operated by Greater Anglia.</p>
-<h3>Which commuter towns are within 30 minutes of Liverpool Street?</h3>
-<p>Stations reachable within 30 minutes include Stratford, Tottenham Hale, Romford, Cheshunt, Shenfield. These are popular choices for London commuters seeking shorter journey times.</p>
-<h3>How many stations connect to Liverpool Street?</h3>
-<p>34 stations have services to London Liverpool Street within 90 minutes. The terminal is served by Greater Anglia.</p>
-<h3>What areas does Liverpool Street serve?</h3>
-<p>London Liverpool Street primarily serves East Anglia and Essex. Key destinations include Stratford, Tottenham Hale, Romford, Cheshunt, Shenfield.</p>
-<h3>Is Liverpool Street a good commuter terminal?</h3>
-<p>Yes. With 34 stations within 90 minutes and frequent peak-hour services, Liverpool Street is one of London&#39;s busiest commuter terminals. Top commuter stations include Stratford, Tottenham Hale, Romford, Cheshunt, Shenfield.</p>
-<h2>All Stations to Liverpool Street</h2>
-<table><thead><tr><th>Station</th><th>Time</th><th>Direct?</th></tr></thead><tbody>
-<tr><td>Stratford</td><td>7 min</td><td>Yes</td></tr>
-<tr><td>Tottenham Hale</td><td>12 min</td><td>Yes</td></tr>
-<tr><td>Romford</td><td>17 min</td><td>Yes</td></tr>
-<tr><td>Cheshunt</td><td>22 min</td><td>Yes</td></tr>
-<tr><td>Shenfield</td><td>24 min</td><td>Yes</td></tr>
-<tr><td>Brentwood</td><td>26 min</td><td>Yes</td></tr>
-<tr><td>Broxbourne</td><td>27 min</td><td>Yes</td></tr>
-<tr><td>Ingatestone</td><td>30 min</td><td>Yes</td></tr>
-<tr><td>Chelmsford</td><td>30 min</td><td>Yes</td></tr>
-<tr><td>Harlow Town</td><td>30 min</td><td>Yes</td></tr>
-<tr><td>Billericay</td><td>32 min</td><td>Yes</td></tr>
-<tr><td>Harlow Mill</td><td>35 min</td><td>Yes</td></tr>
-<tr><td>Bishops Stortford</td><td>37 min</td><td>Yes</td></tr>
-<tr><td>Hatfield Peverel</td><td>38 min</td><td>Yes</td></tr>
-<tr><td>Wickford</td><td>38 min</td><td>Yes</td></tr>
-<tr><td>Hertford East</td><td>38 min</td><td>Yes</td></tr>
-<tr><td>Sawbridgeworth</td><td>38 min</td><td>Yes</td></tr>
-<tr><td>Witham</td><td>40 min</td><td>Yes</td></tr>
-<tr><td>Rayleigh</td><td>42 min</td><td>Yes</td></tr>
-<tr><td>Stansted Mountfitchet</td><td>44 min</td><td>Yes</td></tr>
-<tr><td>Colchester</td><td>45 min</td><td>Yes</td></tr>
-<tr><td>Kelvedon</td><td>46 min</td><td>Yes</td></tr>
-<tr><td>Hockley</td><td>47 min</td><td>Yes</td></tr>
-<tr><td>Stansted Airport</td><td>47 min</td><td>Yes</td></tr>
-<tr><td>Marks Tey</td><td>48 min</td><td>Yes</td></tr>
-<tr><td>Rochford</td><td>50 min</td><td>Yes</td></tr>
-<tr><td>Elsenham</td><td>50 min</td><td>Yes</td></tr>
-<tr><td>Audley End</td><td>52 min</td><td>Yes</td></tr>
-<tr><td>Southend Victoria</td><td>55 min</td><td>Yes</td></tr>
-<tr><td>Ipswich</td><td>56 min</td><td>Yes</td></tr>
-<tr><td>Manningtree</td><td>58 min</td><td>Yes</td></tr>
-<tr><td>Braintree</td><td>58 min</td><td>No</td></tr>
-<tr><td>Whittlesford Parkway</td><td>58 min</td><td>Yes</td></tr>
-<tr><td>Cambridge</td><td>65 min</td><td>Yes</td></tr>
-</tbody></table>
-</div>
 
-<script type="application/ld+json">{
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-07-28. <a href="/about/">Read the full methodology &rarr;</a></div>
+</div>
+</main>
+
+<script type="application/ld+json">[
+{
 "@context": "https://schema.org",
 "@type": "BreadcrumbList",
 "itemListElement": [
@@ -130,21 +156,27 @@
 {
 "@type": "ListItem",
 "position": 2,
-"name": "Liverpool Street Train Times",
+"name": "Terminals",
+"item": "https://railreach.co.uk/terminals/"
+},
+{
+"@type": "ListItem",
+"position": 3,
+"name": "Liverpool Street train times",
 "item": "https://railreach.co.uk/terminals/liverpool-street/"
 }
 ]
-}</script>
-<script type="application/ld+json">{
+},
+{
 "@context": "https://schema.org",
 "@type": "FAQPage",
 "mainEntity": [
 {
 "@type": "Question",
-"name": "What is the fastest train to Liverpool Street?",
+"name": "What is the fastest train to London Liverpool Street?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "The fastest connection is from Stratford at just 7 minutes. Services are operated by Greater Anglia."
+"text": "The fastest connection is from Stratford, at 7 minutes on a direct service. Services into Liverpool Street are operated by Greater Anglia."
 }
 },
 {
@@ -152,7 +184,7 @@
 "name": "Which commuter towns are within 30 minutes of Liverpool Street?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "Stations reachable within 30 minutes include Stratford, Tottenham Hale, Romford, Cheshunt, Shenfield. These are popular choices for London commuters seeking shorter journey times."
+"text": "7 stations reach Liverpool Street in under 30 minutes, including Stratford, Tottenham Hale, Romford, Cheshunt, Shenfield, Brentwood. These are the shortest commutes available into this terminal."
 }
 },
 {
@@ -160,7 +192,7 @@
 "name": "How many stations connect to Liverpool Street?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "34 stations have services to London Liverpool Street within 90 minutes. The terminal is served by Greater Anglia."
+"text": "34 stations have a service to London Liverpool Street within 90 minutes, and 33 of those are direct trains with no change required."
 }
 },
 {
@@ -168,31 +200,51 @@
 "name": "What areas does Liverpool Street serve?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "London Liverpool Street primarily serves East Anglia and Essex. Key destinations include Stratford, Tottenham Hale, Romford, Cheshunt, Shenfield."
+"text": "London Liverpool Street primarily serves Essex, Hertfordshire and East Anglia. Key commuter destinations on this network include Stratford, Tottenham Hale, Romford, Cheshunt, Shenfield."
 }
 },
 {
 "@type": "Question",
-"name": "Is Liverpool Street a good commuter terminal?",
+"name": "Is Liverpool Street a good terminal to commute into?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "Yes. With 34 stations within 90 minutes and frequent peak-hour services, Liverpool Street is one of London&#39;s busiest commuter terminals. Top commuter stations include Stratford, Tottenham Hale, Romford, Cheshunt, Shenfield."
+"text": "With 34 stations inside 90 minutes and 33 direct services, Liverpool Street serves a focused commuter corridor. The quickest option is Stratford at 7 minutes."
 }
 }
 ]
-}</script>
+}
+]</script>
 
-<script src="../../assets/js/stations-data.js"></script>
+<script src="/assets/js/stations-data.js"></script>
+<script src="/assets/js/map-core.js"></script>
 <script>
 const code='LST';
 const t=TERMINALS[code];
-const map=L.map('map').setView([t.lat,t.lng],8);
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap contributors',maxZoom:18}).addTo(map);
-L.circleMarker([t.lat,t.lng],{radius:12,fillColor:'#7c3aed',color:'#fff',weight:3,opacity:1,fillOpacity:0.9}).bindPopup('<strong>'+t.name+'</strong><br>London Terminal').addTo(map);
-function getColor(m){if(m<30)return'#22c55e';if(m<60)return'#f59e0b';return'#ef4444'}
+const map=initMap(t.lat,t.lng,8);
+createTerminalMarker(map,t.lat,t.lng,'<strong>'+t.name+'</strong><br>London terminal');
 let count=0;
-STATIONS.forEach(s=>{const j=s.journeys[code];if(j&&j.mins<=90){L.circleMarker([s.lat,s.lng],{radius:7,fillColor:getColor(j.mins),color:'#fff',weight:2,opacity:1,fillOpacity:0.85}).bindPopup('<strong>'+s.name+'</strong><br>To '+t.name+': <strong>'+j.mins+' min</strong><br>'+(j.direct?'Direct train':'Requires change')).addTo(map);count++}});
+STATIONS.forEach(s=>{
+  const j=s.journeys[code];
+  if(j&&j.mins<=90){
+    createStationMarker(map,s.lat,s.lng,j.mins,'<strong>'+s.name+'</strong><br>To '+t.name+': <strong>'+j.mins+' min</strong><br>'+(j.direct?'Direct train':'Requires a change'));
+    count++;
+  }
+});
 document.getElementById('station-count').textContent=count+' stations within 90 min of '+t.name;
 </script>
+<footer class="site-footer">
+<div class="wrap">
+<div>
+<p><strong>RailReach</strong> — free UK train commute time data.</p>
+<p>Journey times from 345 stations to 9 London main line terminals, sourced from National Rail operator timetables for 2026.</p>
+</div>
+<div class="footer-links">
+<a href="/">Map</a>
+<a href="/terminals/">Terminals</a>
+<a href="/stations/">Stations</a>
+<a href="/about/">About the data</a>
+</div>
+</div>
+</footer>
 <script>if('serviceWorker' in navigator)navigator.serviceWorker.register('/sw.js');</script>
 </body></html>

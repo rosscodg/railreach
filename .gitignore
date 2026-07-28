@@ -1,5 +1,27 @@
 # macOS
 .DS_Store
+._*
 
-# Build artifacts (keep out of deployed site)
-# Note: these files are useful locally but shouldn't be served publicly
+# Editor / tooling
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jekyll build output (GitHub Pages builds this remotely)
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Local scratch
+*.log
+tmp/
+
+# Build tooling lives in _build/ — it is committed but NOT served.
+# Jekyll excludes underscore-prefixed directories from the published site,
+# and _config.yml excludes it explicitly as well.

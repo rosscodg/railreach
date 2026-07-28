@@ -1,5 +1,5 @@
-// RailReach Service Worker v1
-const CACHE_NAME = 'railreach-v1';
+// RailReach Service Worker — cache name is stamped per build by _build/generate-pages.py
+const CACHE_NAME = 'railreach-4035edd764';
 const PRECACHE = [
   '/',
   '/assets/css/shared.css',
@@ -16,36 +16,50 @@ self.addEventListener('install', e => {
 
 self.addEventListener('activate', e => {
   e.waitUntil(
-    caches.keys().then(keys =>
-      Promise.all(keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k)))
-    )
+    caches.keys()
+      .then(keys => Promise.all(keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k))))
+      .then(() => self.clients.claim())
   );
-  self.clients.claim();
 });
 
 self.addEventListener('fetch', e => {
   const url = new URL(e.request.url);
-  // Cache map tiles aggressively
-  if (url.hostname.includes('tile.openstreetmap.org')) {
+  if (e.request.method !== 'GET') return;
+
+  // Map tiles: cache-first, they never change
+  if (url.hostname.endsWith('tile.openstreetmap.org')) {
     e.respondWith(
-      caches.match(e.request).then(cached => cached ||
-        fetch(e.request).then(resp => {
-          const clone = resp.clone();
-          caches.open(CACHE_NAME).then(c => c.put(e.request, clone));
-          return resp;
-        })
-      )
+      caches.match(e.request).then(cached => cached || fetch(e.request).then(resp => {
+        const clone = resp.clone();
+        caches.open(CACHE_NAME).then(c => c.put(e.request, clone));
+        return resp;
+      }))
     );
     return;
   }
-  // Network-first for HTML, cache-first for assets
+
+  // Leave third-party requests (fonts, unpkg, analytics) to the browser
+  if (url.origin !== self.location.origin) return;
+
+  // HTML: network-first so content updates land immediately
   if (e.request.destination === 'document') {
     e.respondWith(
       fetch(e.request).catch(() => caches.match(e.request).then(r => r || caches.match('/')))
     );
-  } else {
-    e.respondWith(
-      caches.match(e.request).then(cached => cached || fetch(e.request))
-    );
+    return;
   }
+
+  // Own assets: stale-while-revalidate — fast, but never stale for more than one visit
+  e.respondWith(
+    caches.match(e.request).then(cached => {
+      const network = fetch(e.request).then(resp => {
+        if (resp && resp.ok) {
+          const clone = resp.clone();
+          caches.open(CACHE_NAME).then(c => c.put(e.request, clone));
+        }
+        return resp;
+      }).catch(() => cached);
+      return cached || network;
+    })
+  );
 });

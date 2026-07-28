@@ -4,12 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Euston Train Times | Journey Times to London Euston | RailReach</title>
-<meta name="description" content="Train journey times to London Euston from 18+ stations. Interactive map — Harrow & Wealdstone (12 min), Bushey (14 min), Watford Junction (16 min). Free 2026 timetable data.">
+<meta name="description" content="Train journey times to London Euston from 18 stations — Harrow & Wealdstone (12 min), Bushey (14 min), Watford Junction (16 min). Interactive map, direct and indirect routes, 2026 timetable data.">
 <link rel="canonical" href="https://railreach.co.uk/terminals/euston/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://railreach.co.uk/terminals/euston/">
 <meta property="og:title" content="Euston Train Times | RailReach">
-<meta property="og:description" content="Interactive map showing train times to Euston from 18+ stations.">
+<meta property="og:description" content="Journey times to London Euston from 18 stations, mapped and ranked.">
 <meta property="og:site_name" content="RailReach">
 <meta property="og:image" content="https://railreach.co.uk/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -26,38 +26,92 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<link rel="stylesheet" href="../../assets/css/shared.css">
+<link rel="stylesheet" href="/assets/css/shared.css">
+<style>:root { --map-h: 56vh; }</style>
 </head>
 <body>
+<a class="skip-link" href="#content">Skip to content</a>
 <header class="site-header">
-<nav aria-label="Breadcrumb"><ol class="breadcrumb"><li><a href="/">RailReach</a></li><li>Euston Train Times</li></ol></nav>
+<a class="brand" href="/">Rail<span>Reach</span></a>
+<nav class="site-nav" aria-label="Primary">
+<a href="/terminals/" aria-current="page">Terminals</a>
+<a href="/stations/">Stations</a>
+<a href="/about/">About the data</a>
+</nav>
 </header>
-<div id="map" role="application" aria-label="Map of train journey times to Euston"></div>
+<nav class="crumb-bar" aria-label="Breadcrumb"><ol class="breadcrumb"><li><a href="/">RailReach</a></li><li><a href="/terminals/">Terminals</a></li><li>Euston train times</li></ol></nav>
+<div class="map-shell">
+<div id="map" role="application" aria-label="Map of train journey times to London Euston"></div>
 <div class="legend">
-  <h4>Journey Time</h4>
-  <div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div> Under 30 min</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div> 30–60 min</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div> 60–90 min</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#7c3aed"></div> London Terminal</div>
+<p class="legend-title">Journey Time</p>
+<div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div> Under 30 min</div>
+<div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div> 30–60 min</div>
+<div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div> 60–90 min</div>
+<div class="legend-item"><div class="legend-dot" style="background:#7c3aed"></div> London Terminal</div>
 </div>
 <div class="station-count" id="station-count"></div>
 <div id="promo-banner">
-  <a id="promo-slot-1" href="https://www.connells.co.uk/" target="_blank" rel="noopener">
-    <div class="promo-connells">
-      <div class="promo-logo">Connells<span>Est. 1936</span></div>
-      <div class="promo-body">
-        <div class="promo-headline">Found your perfect commute? Now find your perfect home.</div>
-        <div class="promo-sub">Over 150 branches nationwide &bull; Free online valuations &bull; Expert local knowledge</div>
-      </div>
-      <div class="promo-cta">Search Now</div>
-    </div>
-  </a>
+<a id="promo-slot-1" href="https://www.connells.co.uk/" target="_blank" rel="noopener sponsored">
+<div class="promo-connells">
+<div class="promo-logo">Connells<span>Est. 1936</span></div>
+<div class="promo-body">
+<div class="promo-headline">Found your perfect commute? Now find your perfect home.</div>
+<div class="promo-sub">Over 150 branches nationwide &bull; Free online valuations &bull; Expert local knowledge</div>
 </div>
-<button class="toggle-content" onclick="document.querySelector('.spoke-content').classList.toggle('open');this.textContent=this.textContent==='Show Details'?'Hide Details':'Show Details'">Show Details</button>
-<div class="spoke-content">
-<h1>Train Journey Times to Euston</h1>
-<p>Euston is served by Avanti West Coast, London Northwestern. 18+ stations connect to Euston within 90 minutes. Key commuter towns include Harrow & Wealdstone, Bushey, Watford Junction, Kings Langley, Apsley.</p>
-<h2>Other London Terminals</h2>
+<div class="promo-cta">Search Now</div>
+</div>
+</a>
+</div>
+</div><!-- /.map-shell -->
+
+<main id="content" class="page-content">
+<div class="wrap">
+<h1>Train journey times to London Euston</h1>
+<p class="lede">18 stations reach London Euston within 90 minutes, 18 of them on a direct train. Services are operated by Avanti West Coast, London Northwestern. The fastest commute is from Harrow & Wealdstone at 12 minutes.</p>
+
+<h2>Every station to Euston</h2>
+<p class="section-note">Sorted fastest first. Times are the quickest typical weekday service.</p>
+<div class="table-scroll">
+<table>
+<caption>Journey times from 18 stations to London Euston</caption>
+<thead><tr><th>Station</th><th>Journey time</th><th>Service</th></tr></thead>
+<tbody>
+<tr><td>Harrow &amp; Wealdstone</td><td><span class="t-badge t-fast">12 min</span></td><td>Direct</td></tr>
+<tr><td>Bushey</td><td><span class="t-badge t-fast">14 min</span></td><td>Direct</td></tr>
+<tr><td>Watford Junction <a href="/stations/watford/">guide</a></td><td><span class="t-badge t-fast">16 min</span></td><td>Direct</td></tr>
+<tr><td>Kings Langley</td><td><span class="t-badge t-fast">22 min</span></td><td>Direct</td></tr>
+<tr><td>Apsley</td><td><span class="t-badge t-fast">24 min</span></td><td>Direct</td></tr>
+<tr><td>Hemel Hempstead</td><td><span class="t-badge t-fast">26 min</span></td><td>Direct</td></tr>
+<tr><td>Milton Keynes Central <a href="/stations/milton-keynes/">guide</a></td><td><span class="t-badge t-mid">30 min</span></td><td>Direct</td></tr>
+<tr><td>Berkhamsted</td><td><span class="t-badge t-mid">31 min</span></td><td>Direct</td></tr>
+<tr><td>Leighton Buzzard</td><td><span class="t-badge t-mid">32 min</span></td><td>Direct</td></tr>
+<tr><td>Tring</td><td><span class="t-badge t-mid">36 min</span></td><td>Direct</td></tr>
+<tr><td>Cheddington</td><td><span class="t-badge t-mid">38 min</span></td><td>Direct</td></tr>
+<tr><td>Bletchley</td><td><span class="t-badge t-mid">38 min</span></td><td>Direct</td></tr>
+<tr><td>Northampton</td><td><span class="t-badge t-mid">49 min</span></td><td>Direct</td></tr>
+<tr><td>Rugby</td><td><span class="t-badge t-mid">52 min</span></td><td>Direct</td></tr>
+<tr><td>Long Buckby</td><td><span class="t-badge t-mid">56 min</span></td><td>Direct</td></tr>
+<tr><td>Coventry</td><td><span class="t-badge t-mid">58 min</span></td><td>Direct</td></tr>
+<tr><td>Birmingham International</td><td><span class="t-badge t-slow">70 min</span></td><td>Direct</td></tr>
+<tr><td>Birmingham New Street</td><td><span class="t-badge t-slow">76 min</span></td><td>Direct</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>Frequently asked questions</h2>
+<h3>What is the fastest train to London Euston?</h3>
+<p>The fastest connection is from Harrow & Wealdstone, at 12 minutes on a direct service. Services into Euston are operated by Avanti West Coast, London Northwestern.</p>
+<h3>Which commuter towns are within 30 minutes of Euston?</h3>
+<p>6 stations reach Euston in under 30 minutes, including Harrow & Wealdstone, Bushey, Watford Junction, Kings Langley, Apsley, Hemel Hempstead. These are the shortest commutes available into this terminal.</p>
+<h3>How many stations connect to Euston?</h3>
+<p>18 stations have a service to London Euston within 90 minutes, and 18 of those are direct trains with no change required.</p>
+<h3>What areas does Euston serve?</h3>
+<p>London Euston primarily serves the West Coast Main Line, Buckinghamshire and the Midlands. Key commuter destinations on this network include Harrow & Wealdstone, Bushey, Watford Junction, Kings Langley, Apsley.</p>
+<h3>Is Euston a good terminal to commute into?</h3>
+<p>With 18 stations inside 90 minutes and 18 direct services, Euston serves a focused commuter corridor. The quickest option is Harrow & Wealdstone at 12 minutes.</p>
+
+<h2>Other London terminals</h2>
+<p>Compare journey times into each of the nine London main line termini.</p>
 <div class="terminal-nav"><a href="/terminals/kings-cross/">Kings Cross</a>
 <a href="/terminals/waterloo/">Waterloo</a>
 <a href="/terminals/paddington/">Paddington</a>
@@ -67,41 +121,13 @@
 <a class="current" href="/terminals/euston/">Euston</a>
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
-<h2>Frequently Asked Questions</h2>
-<h3>What is the fastest train to Euston?</h3>
-<p>The fastest connection is from Harrow & Wealdstone at just 12 minutes. Services are operated by Avanti West Coast, London Northwestern.</p>
-<h3>Which commuter towns are within 30 minutes of Euston?</h3>
-<p>Stations reachable within 30 minutes include Harrow & Wealdstone, Bushey, Watford Junction, Kings Langley, Apsley. These are popular choices for London commuters seeking shorter journey times.</p>
-<h3>How many stations connect to Euston?</h3>
-<p>18 stations have services to London Euston within 90 minutes. The terminal is served by Avanti West Coast, London Northwestern.</p>
-<h3>What areas does Euston serve?</h3>
-<p>London Euston primarily serves the north and east of England. Key destinations include Harrow & Wealdstone, Bushey, Watford Junction, Kings Langley, Apsley.</p>
-<h3>Is Euston a good commuter terminal?</h3>
-<p>Yes. With 18 stations within 90 minutes and frequent peak-hour services, Euston is one of London&#39;s busiest commuter terminals. Top commuter stations include Harrow & Wealdstone, Bushey, Watford Junction, Kings Langley, Apsley.</p>
-<h2>All Stations to Euston</h2>
-<table><thead><tr><th>Station</th><th>Time</th><th>Direct?</th></tr></thead><tbody>
-<tr><td>Harrow &amp; Wealdstone</td><td>12 min</td><td>Yes</td></tr>
-<tr><td>Bushey</td><td>14 min</td><td>Yes</td></tr>
-<tr><td>Watford Junction</td><td>16 min</td><td>Yes</td></tr>
-<tr><td>Kings Langley</td><td>22 min</td><td>Yes</td></tr>
-<tr><td>Apsley</td><td>24 min</td><td>Yes</td></tr>
-<tr><td>Hemel Hempstead</td><td>26 min</td><td>Yes</td></tr>
-<tr><td>Milton Keynes Central</td><td>30 min</td><td>Yes</td></tr>
-<tr><td>Berkhamsted</td><td>31 min</td><td>Yes</td></tr>
-<tr><td>Leighton Buzzard</td><td>32 min</td><td>Yes</td></tr>
-<tr><td>Tring</td><td>36 min</td><td>Yes</td></tr>
-<tr><td>Cheddington</td><td>38 min</td><td>Yes</td></tr>
-<tr><td>Bletchley</td><td>38 min</td><td>Yes</td></tr>
-<tr><td>Northampton</td><td>49 min</td><td>Yes</td></tr>
-<tr><td>Rugby</td><td>52 min</td><td>Yes</td></tr>
-<tr><td>Long Buckby</td><td>56 min</td><td>Yes</td></tr>
-<tr><td>Coventry</td><td>58 min</td><td>Yes</td></tr>
-<tr><td>Birmingham International</td><td>70 min</td><td>Yes</td></tr>
-<tr><td>Birmingham New Street</td><td>76 min</td><td>Yes</td></tr>
-</tbody></table>
-</div>
 
-<script type="application/ld+json">{
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-07-28. <a href="/about/">Read the full methodology &rarr;</a></div>
+</div>
+</main>
+
+<script type="application/ld+json">[
+{
 "@context": "https://schema.org",
 "@type": "BreadcrumbList",
 "itemListElement": [
@@ -114,21 +140,27 @@
 {
 "@type": "ListItem",
 "position": 2,
-"name": "Euston Train Times",
+"name": "Terminals",
+"item": "https://railreach.co.uk/terminals/"
+},
+{
+"@type": "ListItem",
+"position": 3,
+"name": "Euston train times",
 "item": "https://railreach.co.uk/terminals/euston/"
 }
 ]
-}</script>
-<script type="application/ld+json">{
+},
+{
 "@context": "https://schema.org",
 "@type": "FAQPage",
 "mainEntity": [
 {
 "@type": "Question",
-"name": "What is the fastest train to Euston?",
+"name": "What is the fastest train to London Euston?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "The fastest connection is from Harrow & Wealdstone at just 12 minutes. Services are operated by Avanti West Coast, London Northwestern."
+"text": "The fastest connection is from Harrow & Wealdstone, at 12 minutes on a direct service. Services into Euston are operated by Avanti West Coast, London Northwestern."
 }
 },
 {
@@ -136,7 +168,7 @@
 "name": "Which commuter towns are within 30 minutes of Euston?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "Stations reachable within 30 minutes include Harrow & Wealdstone, Bushey, Watford Junction, Kings Langley, Apsley. These are popular choices for London commuters seeking shorter journey times."
+"text": "6 stations reach Euston in under 30 minutes, including Harrow & Wealdstone, Bushey, Watford Junction, Kings Langley, Apsley, Hemel Hempstead. These are the shortest commutes available into this terminal."
 }
 },
 {
@@ -144,7 +176,7 @@
 "name": "How many stations connect to Euston?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "18 stations have services to London Euston within 90 minutes. The terminal is served by Avanti West Coast, London Northwestern."
+"text": "18 stations have a service to London Euston within 90 minutes, and 18 of those are direct trains with no change required."
 }
 },
 {
@@ -152,31 +184,51 @@
 "name": "What areas does Euston serve?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "London Euston primarily serves the north and east of England. Key destinations include Harrow & Wealdstone, Bushey, Watford Junction, Kings Langley, Apsley."
+"text": "London Euston primarily serves the West Coast Main Line, Buckinghamshire and the Midlands. Key commuter destinations on this network include Harrow & Wealdstone, Bushey, Watford Junction, Kings Langley, Apsley."
 }
 },
 {
 "@type": "Question",
-"name": "Is Euston a good commuter terminal?",
+"name": "Is Euston a good terminal to commute into?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "Yes. With 18 stations within 90 minutes and frequent peak-hour services, Euston is one of London&#39;s busiest commuter terminals. Top commuter stations include Harrow & Wealdstone, Bushey, Watford Junction, Kings Langley, Apsley."
+"text": "With 18 stations inside 90 minutes and 18 direct services, Euston serves a focused commuter corridor. The quickest option is Harrow & Wealdstone at 12 minutes."
 }
 }
 ]
-}</script>
+}
+]</script>
 
-<script src="../../assets/js/stations-data.js"></script>
+<script src="/assets/js/stations-data.js"></script>
+<script src="/assets/js/map-core.js"></script>
 <script>
 const code='EUS';
 const t=TERMINALS[code];
-const map=L.map('map').setView([t.lat,t.lng],8);
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap contributors',maxZoom:18}).addTo(map);
-L.circleMarker([t.lat,t.lng],{radius:12,fillColor:'#7c3aed',color:'#fff',weight:3,opacity:1,fillOpacity:0.9}).bindPopup('<strong>'+t.name+'</strong><br>London Terminal').addTo(map);
-function getColor(m){if(m<30)return'#22c55e';if(m<60)return'#f59e0b';return'#ef4444'}
+const map=initMap(t.lat,t.lng,8);
+createTerminalMarker(map,t.lat,t.lng,'<strong>'+t.name+'</strong><br>London terminal');
 let count=0;
-STATIONS.forEach(s=>{const j=s.journeys[code];if(j&&j.mins<=90){L.circleMarker([s.lat,s.lng],{radius:7,fillColor:getColor(j.mins),color:'#fff',weight:2,opacity:1,fillOpacity:0.85}).bindPopup('<strong>'+s.name+'</strong><br>To '+t.name+': <strong>'+j.mins+' min</strong><br>'+(j.direct?'Direct train':'Requires change')).addTo(map);count++}});
+STATIONS.forEach(s=>{
+  const j=s.journeys[code];
+  if(j&&j.mins<=90){
+    createStationMarker(map,s.lat,s.lng,j.mins,'<strong>'+s.name+'</strong><br>To '+t.name+': <strong>'+j.mins+' min</strong><br>'+(j.direct?'Direct train':'Requires a change'));
+    count++;
+  }
+});
 document.getElementById('station-count').textContent=count+' stations within 90 min of '+t.name;
 </script>
+<footer class="site-footer">
+<div class="wrap">
+<div>
+<p><strong>RailReach</strong> — free UK train commute time data.</p>
+<p>Journey times from 345 stations to 9 London main line terminals, sourced from National Rail operator timetables for 2026.</p>
+</div>
+<div class="footer-links">
+<a href="/">Map</a>
+<a href="/terminals/">Terminals</a>
+<a href="/stations/">Stations</a>
+<a href="/about/">About the data</a>
+</div>
+</div>
+</footer>
 <script>if('serviceWorker' in navigator)navigator.serviceWorker.register('/sw.js');</script>
 </body></html>

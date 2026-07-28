@@ -4,12 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kings Cross Train Times | Journey Times to London Kings Cross | RailReach</title>
-<meta name="description" content="Train journey times to London Kings Cross from 49+ stations. Interactive map — Kentish Town (4 min), Finsbury Park (5 min), West Hampstead Thameslink (8 min). Free 2026 timetable data.">
+<meta name="description" content="Train journey times to London Kings Cross from 49 stations — Kentish Town (4 min), Finsbury Park (5 min), West Hampstead Thameslink (8 min). Interactive map, direct and indirect routes, 2026 timetable data.">
 <link rel="canonical" href="https://railreach.co.uk/terminals/kings-cross/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://railreach.co.uk/terminals/kings-cross/">
 <meta property="og:title" content="Kings Cross Train Times | RailReach">
-<meta property="og:description" content="Interactive map showing train times to Kings Cross from 49+ stations.">
+<meta property="og:description" content="Journey times to London Kings Cross from 49 stations, mapped and ranked.">
 <meta property="og:site_name" content="RailReach">
 <meta property="og:image" content="https://railreach.co.uk/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -26,38 +26,123 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<link rel="stylesheet" href="../../assets/css/shared.css">
+<link rel="stylesheet" href="/assets/css/shared.css">
+<style>:root { --map-h: 56vh; }</style>
 </head>
 <body>
+<a class="skip-link" href="#content">Skip to content</a>
 <header class="site-header">
-<nav aria-label="Breadcrumb"><ol class="breadcrumb"><li><a href="/">RailReach</a></li><li>Kings Cross Train Times</li></ol></nav>
+<a class="brand" href="/">Rail<span>Reach</span></a>
+<nav class="site-nav" aria-label="Primary">
+<a href="/terminals/" aria-current="page">Terminals</a>
+<a href="/stations/">Stations</a>
+<a href="/about/">About the data</a>
+</nav>
 </header>
-<div id="map" role="application" aria-label="Map of train journey times to Kings Cross"></div>
+<nav class="crumb-bar" aria-label="Breadcrumb"><ol class="breadcrumb"><li><a href="/">RailReach</a></li><li><a href="/terminals/">Terminals</a></li><li>Kings Cross train times</li></ol></nav>
+<div class="map-shell">
+<div id="map" role="application" aria-label="Map of train journey times to London Kings Cross"></div>
 <div class="legend">
-  <h4>Journey Time</h4>
-  <div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div> Under 30 min</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div> 30–60 min</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div> 60–90 min</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#7c3aed"></div> London Terminal</div>
+<p class="legend-title">Journey Time</p>
+<div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div> Under 30 min</div>
+<div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div> 30–60 min</div>
+<div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div> 60–90 min</div>
+<div class="legend-item"><div class="legend-dot" style="background:#7c3aed"></div> London Terminal</div>
 </div>
 <div class="station-count" id="station-count"></div>
 <div id="promo-banner">
-  <a id="promo-slot-1" href="https://www.connells.co.uk/" target="_blank" rel="noopener">
-    <div class="promo-connells">
-      <div class="promo-logo">Connells<span>Est. 1936</span></div>
-      <div class="promo-body">
-        <div class="promo-headline">Found your perfect commute? Now find your perfect home.</div>
-        <div class="promo-sub">Over 150 branches nationwide &bull; Free online valuations &bull; Expert local knowledge</div>
-      </div>
-      <div class="promo-cta">Search Now</div>
-    </div>
-  </a>
+<a id="promo-slot-1" href="https://www.connells.co.uk/" target="_blank" rel="noopener sponsored">
+<div class="promo-connells">
+<div class="promo-logo">Connells<span>Est. 1936</span></div>
+<div class="promo-body">
+<div class="promo-headline">Found your perfect commute? Now find your perfect home.</div>
+<div class="promo-sub">Over 150 branches nationwide &bull; Free online valuations &bull; Expert local knowledge</div>
 </div>
-<button class="toggle-content" onclick="document.querySelector('.spoke-content').classList.toggle('open');this.textContent=this.textContent==='Show Details'?'Hide Details':'Show Details'">Show Details</button>
-<div class="spoke-content">
-<h1>Train Journey Times to Kings Cross</h1>
-<p>Kings Cross is served by Great Northern, Thameslink, LNER. 49+ stations connect to Kings Cross within 90 minutes. Key commuter towns include Kentish Town, Finsbury Park, West Hampstead Thameslink, Hornsey, Alexandra Palace.</p>
-<h2>Other London Terminals</h2>
+<div class="promo-cta">Search Now</div>
+</div>
+</a>
+</div>
+</div><!-- /.map-shell -->
+
+<main id="content" class="page-content">
+<div class="wrap">
+<h1>Train journey times to London Kings Cross</h1>
+<p class="lede">49 stations reach London Kings Cross within 90 minutes, 49 of them on a direct train. Services are operated by Great Northern, Thameslink, LNER. The fastest commute is from Kentish Town at 4 minutes.</p>
+
+<h2>Every station to Kings Cross</h2>
+<p class="section-note">Sorted fastest first. Times are the quickest typical weekday service.</p>
+<div class="table-scroll">
+<table>
+<caption>Journey times from 49 stations to London Kings Cross</caption>
+<thead><tr><th>Station</th><th>Journey time</th><th>Service</th></tr></thead>
+<tbody>
+<tr><td>Kentish Town</td><td><span class="t-badge t-fast">4 min</span></td><td>Direct</td></tr>
+<tr><td>Finsbury Park</td><td><span class="t-badge t-fast">5 min</span></td><td>Direct</td></tr>
+<tr><td>West Hampstead Thameslink</td><td><span class="t-badge t-fast">8 min</span></td><td>Direct</td></tr>
+<tr><td>Hornsey</td><td><span class="t-badge t-fast">9 min</span></td><td>Direct</td></tr>
+<tr><td>Alexandra Palace</td><td><span class="t-badge t-fast">12 min</span></td><td>Direct</td></tr>
+<tr><td>Cricklewood</td><td><span class="t-badge t-fast">12 min</span></td><td>Direct</td></tr>
+<tr><td>Oakleigh Park</td><td><span class="t-badge t-fast">17 min</span></td><td>Direct</td></tr>
+<tr><td>Mill Hill Broadway</td><td><span class="t-badge t-fast">17 min</span></td><td>Direct</td></tr>
+<tr><td>Potters Bar</td><td><span class="t-badge t-fast">18 min</span></td><td>Direct</td></tr>
+<tr><td>New Barnet</td><td><span class="t-badge t-fast">20 min</span></td><td>Direct</td></tr>
+<tr><td>Stevenage <a href="/stations/stevenage/">guide</a></td><td><span class="t-badge t-fast">20 min</span></td><td>Direct</td></tr>
+<tr><td>St Albans City <a href="/stations/st-albans/">guide</a></td><td><span class="t-badge t-fast">20 min</span></td><td>Direct</td></tr>
+<tr><td>Elstree &amp; Borehamwood</td><td><span class="t-badge t-fast">21 min</span></td><td>Direct</td></tr>
+<tr><td>Hadley Wood</td><td><span class="t-badge t-fast">22 min</span></td><td>Direct</td></tr>
+<tr><td>Enfield Chase</td><td><span class="t-badge t-fast">22 min</span></td><td>Direct</td></tr>
+<tr><td>Hatfield</td><td><span class="t-badge t-fast">23 min</span></td><td>Direct</td></tr>
+<tr><td>Luton Airport Parkway</td><td><span class="t-badge t-fast">23 min</span></td><td>Direct</td></tr>
+<tr><td>Brookmans Park</td><td><span class="t-badge t-fast">24 min</span></td><td>Direct</td></tr>
+<tr><td>Radlett</td><td><span class="t-badge t-fast">24 min</span></td><td>Direct</td></tr>
+<tr><td>Welwyn Garden City</td><td><span class="t-badge t-fast">25 min</span></td><td>Direct</td></tr>
+<tr><td>Gordon Hill</td><td><span class="t-badge t-fast">25 min</span></td><td>Direct</td></tr>
+<tr><td>Luton</td><td><span class="t-badge t-fast">25 min</span></td><td>Direct</td></tr>
+<tr><td>Welham Green</td><td><span class="t-badge t-fast">26 min</span></td><td>Direct</td></tr>
+<tr><td>Knebworth</td><td><span class="t-badge t-fast">28 min</span></td><td>Direct</td></tr>
+<tr><td>Crews Hill</td><td><span class="t-badge t-fast">28 min</span></td><td>Direct</td></tr>
+<tr><td>Harpenden</td><td><span class="t-badge t-fast">28 min</span></td><td>Direct</td></tr>
+<tr><td>Welwyn North</td><td><span class="t-badge t-fast">29 min</span></td><td>Direct</td></tr>
+<tr><td>Hitchin</td><td><span class="t-badge t-fast">29 min</span></td><td>Direct</td></tr>
+<tr><td>Cuffley</td><td><span class="t-badge t-mid">32 min</span></td><td>Direct</td></tr>
+<tr><td>Letchworth Garden City</td><td><span class="t-badge t-mid">35 min</span></td><td>Direct</td></tr>
+<tr><td>Bayford</td><td><span class="t-badge t-mid">36 min</span></td><td>Direct</td></tr>
+<tr><td>Baldock</td><td><span class="t-badge t-mid">37 min</span></td><td>Direct</td></tr>
+<tr><td>Arlesey</td><td><span class="t-badge t-mid">38 min</span></td><td>Direct</td></tr>
+<tr><td>Bedford <a href="/stations/bedford/">guide</a></td><td><span class="t-badge t-mid">39 min</span></td><td>Direct</td></tr>
+<tr><td>Biggleswade</td><td><span class="t-badge t-mid">40 min</span></td><td>Direct</td></tr>
+<tr><td>Hertford North</td><td><span class="t-badge t-mid">41 min</span></td><td>Direct</td></tr>
+<tr><td>Flitwick</td><td><span class="t-badge t-mid">41 min</span></td><td>Direct</td></tr>
+<tr><td>Royston</td><td><span class="t-badge t-mid">42 min</span></td><td>Direct</td></tr>
+<tr><td>Peterborough <a href="/stations/peterborough/">guide</a></td><td><span class="t-badge t-mid">44 min</span></td><td>Direct</td></tr>
+<tr><td>Ashwell &amp; Morden</td><td><span class="t-badge t-mid">45 min</span></td><td>Direct</td></tr>
+<tr><td>Sandy</td><td><span class="t-badge t-mid">45 min</span></td><td>Direct</td></tr>
+<tr><td>St Neots</td><td><span class="t-badge t-mid">46 min</span></td><td>Direct</td></tr>
+<tr><td>Cambridge <a href="/stations/cambridge/">guide</a></td><td><span class="t-badge t-mid">49 min</span></td><td>Direct</td></tr>
+<tr><td>Meldreth</td><td><span class="t-badge t-mid">50 min</span></td><td>Direct</td></tr>
+<tr><td>Shepreth</td><td><span class="t-badge t-mid">52 min</span></td><td>Direct</td></tr>
+<tr><td>Huntingdon</td><td><span class="t-badge t-mid">52 min</span></td><td>Direct</td></tr>
+<tr><td>Foxton</td><td><span class="t-badge t-mid">55 min</span></td><td>Direct</td></tr>
+<tr><td>Grantham</td><td><span class="t-badge t-slow">67 min</span></td><td>Direct</td></tr>
+<tr><td>Newark Northgate</td><td><span class="t-badge t-slow">75 min</span></td><td>Direct</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>Frequently asked questions</h2>
+<h3>What is the fastest train to London Kings Cross?</h3>
+<p>The fastest connection is from Kentish Town, at 4 minutes on a direct service. Services into Kings Cross are operated by Great Northern, Thameslink, LNER.</p>
+<h3>Which commuter towns are within 30 minutes of Kings Cross?</h3>
+<p>28 stations reach Kings Cross in under 30 minutes, including Kentish Town, Finsbury Park, West Hampstead Thameslink, Hornsey, Alexandra Palace, Cricklewood. These are the shortest commutes available into this terminal.</p>
+<h3>How many stations connect to Kings Cross?</h3>
+<p>49 stations have a service to London Kings Cross within 90 minutes, and 49 of those are direct trains with no change required.</p>
+<h3>What areas does Kings Cross serve?</h3>
+<p>London Kings Cross primarily serves the north and east of England. Key commuter destinations on this network include Kentish Town, Finsbury Park, West Hampstead Thameslink, Hornsey, Alexandra Palace.</p>
+<h3>Is Kings Cross a good terminal to commute into?</h3>
+<p>With 49 stations inside 90 minutes and 49 direct services, Kings Cross offers unusually broad commuter coverage. The quickest option is Kentish Town at 4 minutes.</p>
+
+<h2>Other London terminals</h2>
+<p>Compare journey times into each of the nine London main line termini.</p>
 <div class="terminal-nav"><a class="current" href="/terminals/kings-cross/">Kings Cross</a>
 <a href="/terminals/waterloo/">Waterloo</a>
 <a href="/terminals/paddington/">Paddington</a>
@@ -67,72 +152,13 @@
 <a href="/terminals/euston/">Euston</a>
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
-<h2>Frequently Asked Questions</h2>
-<h3>What is the fastest train to Kings Cross?</h3>
-<p>The fastest connection is from Kentish Town at just 4 minutes. Services are operated by Great Northern, Thameslink, LNER.</p>
-<h3>Which commuter towns are within 30 minutes of Kings Cross?</h3>
-<p>Stations reachable within 30 minutes include Kentish Town, Finsbury Park, West Hampstead Thameslink, Hornsey, Alexandra Palace. These are popular choices for London commuters seeking shorter journey times.</p>
-<h3>How many stations connect to Kings Cross?</h3>
-<p>49 stations have services to London Kings Cross within 90 minutes. The terminal is served by Great Northern, Thameslink, LNER.</p>
-<h3>What areas does Kings Cross serve?</h3>
-<p>London Kings Cross primarily serves the north and east of England. Key destinations include Kentish Town, Finsbury Park, West Hampstead Thameslink, Hornsey, Alexandra Palace.</p>
-<h3>Is Kings Cross a good commuter terminal?</h3>
-<p>Yes. With 49 stations within 90 minutes and frequent peak-hour services, Kings Cross is one of London&#39;s busiest commuter terminals. Top commuter stations include Kentish Town, Finsbury Park, West Hampstead Thameslink, Hornsey, Alexandra Palace.</p>
-<h2>All Stations to Kings Cross</h2>
-<table><thead><tr><th>Station</th><th>Time</th><th>Direct?</th></tr></thead><tbody>
-<tr><td>Kentish Town</td><td>4 min</td><td>Yes</td></tr>
-<tr><td>Finsbury Park</td><td>5 min</td><td>Yes</td></tr>
-<tr><td>West Hampstead Thameslink</td><td>8 min</td><td>Yes</td></tr>
-<tr><td>Hornsey</td><td>9 min</td><td>Yes</td></tr>
-<tr><td>Alexandra Palace</td><td>12 min</td><td>Yes</td></tr>
-<tr><td>Cricklewood</td><td>12 min</td><td>Yes</td></tr>
-<tr><td>Oakleigh Park</td><td>17 min</td><td>Yes</td></tr>
-<tr><td>Mill Hill Broadway</td><td>17 min</td><td>Yes</td></tr>
-<tr><td>Potters Bar</td><td>18 min</td><td>Yes</td></tr>
-<tr><td>New Barnet</td><td>20 min</td><td>Yes</td></tr>
-<tr><td>Stevenage</td><td>20 min</td><td>Yes</td></tr>
-<tr><td>St Albans City</td><td>20 min</td><td>Yes</td></tr>
-<tr><td>Elstree &amp; Borehamwood</td><td>21 min</td><td>Yes</td></tr>
-<tr><td>Hadley Wood</td><td>22 min</td><td>Yes</td></tr>
-<tr><td>Enfield Chase</td><td>22 min</td><td>Yes</td></tr>
-<tr><td>Hatfield</td><td>23 min</td><td>Yes</td></tr>
-<tr><td>Luton Airport Parkway</td><td>23 min</td><td>Yes</td></tr>
-<tr><td>Brookmans Park</td><td>24 min</td><td>Yes</td></tr>
-<tr><td>Radlett</td><td>24 min</td><td>Yes</td></tr>
-<tr><td>Welwyn Garden City</td><td>25 min</td><td>Yes</td></tr>
-<tr><td>Gordon Hill</td><td>25 min</td><td>Yes</td></tr>
-<tr><td>Luton</td><td>25 min</td><td>Yes</td></tr>
-<tr><td>Welham Green</td><td>26 min</td><td>Yes</td></tr>
-<tr><td>Knebworth</td><td>28 min</td><td>Yes</td></tr>
-<tr><td>Crews Hill</td><td>28 min</td><td>Yes</td></tr>
-<tr><td>Harpenden</td><td>28 min</td><td>Yes</td></tr>
-<tr><td>Welwyn North</td><td>29 min</td><td>Yes</td></tr>
-<tr><td>Hitchin</td><td>29 min</td><td>Yes</td></tr>
-<tr><td>Cuffley</td><td>32 min</td><td>Yes</td></tr>
-<tr><td>Letchworth Garden City</td><td>35 min</td><td>Yes</td></tr>
-<tr><td>Bayford</td><td>36 min</td><td>Yes</td></tr>
-<tr><td>Baldock</td><td>37 min</td><td>Yes</td></tr>
-<tr><td>Arlesey</td><td>38 min</td><td>Yes</td></tr>
-<tr><td>Bedford</td><td>39 min</td><td>Yes</td></tr>
-<tr><td>Biggleswade</td><td>40 min</td><td>Yes</td></tr>
-<tr><td>Hertford North</td><td>41 min</td><td>Yes</td></tr>
-<tr><td>Flitwick</td><td>41 min</td><td>Yes</td></tr>
-<tr><td>Royston</td><td>42 min</td><td>Yes</td></tr>
-<tr><td>Peterborough</td><td>44 min</td><td>Yes</td></tr>
-<tr><td>Ashwell &amp; Morden</td><td>45 min</td><td>Yes</td></tr>
-<tr><td>Sandy</td><td>45 min</td><td>Yes</td></tr>
-<tr><td>St Neots</td><td>46 min</td><td>Yes</td></tr>
-<tr><td>Cambridge</td><td>49 min</td><td>Yes</td></tr>
-<tr><td>Meldreth</td><td>50 min</td><td>Yes</td></tr>
-<tr><td>Shepreth</td><td>52 min</td><td>Yes</td></tr>
-<tr><td>Huntingdon</td><td>52 min</td><td>Yes</td></tr>
-<tr><td>Foxton</td><td>55 min</td><td>Yes</td></tr>
-<tr><td>Grantham</td><td>67 min</td><td>Yes</td></tr>
-<tr><td>Newark Northgate</td><td>75 min</td><td>Yes</td></tr>
-</tbody></table>
-</div>
 
-<script type="application/ld+json">{
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-07-28. <a href="/about/">Read the full methodology &rarr;</a></div>
+</div>
+</main>
+
+<script type="application/ld+json">[
+{
 "@context": "https://schema.org",
 "@type": "BreadcrumbList",
 "itemListElement": [
@@ -145,21 +171,27 @@
 {
 "@type": "ListItem",
 "position": 2,
-"name": "Kings Cross Train Times",
+"name": "Terminals",
+"item": "https://railreach.co.uk/terminals/"
+},
+{
+"@type": "ListItem",
+"position": 3,
+"name": "Kings Cross train times",
 "item": "https://railreach.co.uk/terminals/kings-cross/"
 }
 ]
-}</script>
-<script type="application/ld+json">{
+},
+{
 "@context": "https://schema.org",
 "@type": "FAQPage",
 "mainEntity": [
 {
 "@type": "Question",
-"name": "What is the fastest train to Kings Cross?",
+"name": "What is the fastest train to London Kings Cross?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "The fastest connection is from Kentish Town at just 4 minutes. Services are operated by Great Northern, Thameslink, LNER."
+"text": "The fastest connection is from Kentish Town, at 4 minutes on a direct service. Services into Kings Cross are operated by Great Northern, Thameslink, LNER."
 }
 },
 {
@@ -167,7 +199,7 @@
 "name": "Which commuter towns are within 30 minutes of Kings Cross?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "Stations reachable within 30 minutes include Kentish Town, Finsbury Park, West Hampstead Thameslink, Hornsey, Alexandra Palace. These are popular choices for London commuters seeking shorter journey times."
+"text": "28 stations reach Kings Cross in under 30 minutes, including Kentish Town, Finsbury Park, West Hampstead Thameslink, Hornsey, Alexandra Palace, Cricklewood. These are the shortest commutes available into this terminal."
 }
 },
 {
@@ -175,7 +207,7 @@
 "name": "How many stations connect to Kings Cross?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "49 stations have services to London Kings Cross within 90 minutes. The terminal is served by Great Northern, Thameslink, LNER."
+"text": "49 stations have a service to London Kings Cross within 90 minutes, and 49 of those are direct trains with no change required."
 }
 },
 {
@@ -183,31 +215,51 @@
 "name": "What areas does Kings Cross serve?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "London Kings Cross primarily serves the north and east of England. Key destinations include Kentish Town, Finsbury Park, West Hampstead Thameslink, Hornsey, Alexandra Palace."
+"text": "London Kings Cross primarily serves the north and east of England. Key commuter destinations on this network include Kentish Town, Finsbury Park, West Hampstead Thameslink, Hornsey, Alexandra Palace."
 }
 },
 {
 "@type": "Question",
-"name": "Is Kings Cross a good commuter terminal?",
+"name": "Is Kings Cross a good terminal to commute into?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "Yes. With 49 stations within 90 minutes and frequent peak-hour services, Kings Cross is one of London&#39;s busiest commuter terminals. Top commuter stations include Kentish Town, Finsbury Park, West Hampstead Thameslink, Hornsey, Alexandra Palace."
+"text": "With 49 stations inside 90 minutes and 49 direct services, Kings Cross offers unusually broad commuter coverage. The quickest option is Kentish Town at 4 minutes."
 }
 }
 ]
-}</script>
+}
+]</script>
 
-<script src="../../assets/js/stations-data.js"></script>
+<script src="/assets/js/stations-data.js"></script>
+<script src="/assets/js/map-core.js"></script>
 <script>
 const code='KGX';
 const t=TERMINALS[code];
-const map=L.map('map').setView([t.lat,t.lng],8);
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap contributors',maxZoom:18}).addTo(map);
-L.circleMarker([t.lat,t.lng],{radius:12,fillColor:'#7c3aed',color:'#fff',weight:3,opacity:1,fillOpacity:0.9}).bindPopup('<strong>'+t.name+'</strong><br>London Terminal').addTo(map);
-function getColor(m){if(m<30)return'#22c55e';if(m<60)return'#f59e0b';return'#ef4444'}
+const map=initMap(t.lat,t.lng,8);
+createTerminalMarker(map,t.lat,t.lng,'<strong>'+t.name+'</strong><br>London terminal');
 let count=0;
-STATIONS.forEach(s=>{const j=s.journeys[code];if(j&&j.mins<=90){L.circleMarker([s.lat,s.lng],{radius:7,fillColor:getColor(j.mins),color:'#fff',weight:2,opacity:1,fillOpacity:0.85}).bindPopup('<strong>'+s.name+'</strong><br>To '+t.name+': <strong>'+j.mins+' min</strong><br>'+(j.direct?'Direct train':'Requires change')).addTo(map);count++}});
+STATIONS.forEach(s=>{
+  const j=s.journeys[code];
+  if(j&&j.mins<=90){
+    createStationMarker(map,s.lat,s.lng,j.mins,'<strong>'+s.name+'</strong><br>To '+t.name+': <strong>'+j.mins+' min</strong><br>'+(j.direct?'Direct train':'Requires a change'));
+    count++;
+  }
+});
 document.getElementById('station-count').textContent=count+' stations within 90 min of '+t.name;
 </script>
+<footer class="site-footer">
+<div class="wrap">
+<div>
+<p><strong>RailReach</strong> — free UK train commute time data.</p>
+<p>Journey times from 345 stations to 9 London main line terminals, sourced from National Rail operator timetables for 2026.</p>
+</div>
+<div class="footer-links">
+<a href="/">Map</a>
+<a href="/terminals/">Terminals</a>
+<a href="/stations/">Stations</a>
+<a href="/about/">About the data</a>
+</div>
+</div>
+</footer>
 <script>if('serviceWorker' in navigator)navigator.serviceWorker.register('/sw.js');</script>
 </body></html>

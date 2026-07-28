@@ -1,0 +1,11 @@
+# GitHub Pages / Jekyll configuration for RailReach.
+#
+# The site is plain static HTML — Jekyll only copies files through. This file
+# exists to keep build tooling and source data out of the published site.
+# Underscore-prefixed directories are excluded by Jekyll anyway; listing
+# _build here makes the intent explicit and survives a move to another host.
+
+exclude:
+  - _build
+  - .gitignore
+  - README.md

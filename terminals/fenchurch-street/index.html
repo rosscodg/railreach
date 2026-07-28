@@ -4,12 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Fenchurch Street Train Times | Journey Times to London Fenchurch Street | RailReach</title>
-<meta name="description" content="Train journey times to London Fenchurch Street from 22+ stations. Interactive map — Limehouse (4 min), West Ham (6 min), Barking (10 min). Free 2026 timetable data.">
+<meta name="description" content="Train journey times to London Fenchurch Street from 22 stations — Limehouse (4 min), West Ham (6 min), Barking (10 min). Interactive map, direct and indirect routes, 2026 timetable data.">
 <link rel="canonical" href="https://railreach.co.uk/terminals/fenchurch-street/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://railreach.co.uk/terminals/fenchurch-street/">
 <meta property="og:title" content="Fenchurch Street Train Times | RailReach">
-<meta property="og:description" content="Interactive map showing train times to Fenchurch Street from 22+ stations.">
+<meta property="og:description" content="Journey times to London Fenchurch Street from 22 stations, mapped and ranked.">
 <meta property="og:site_name" content="RailReach">
 <meta property="og:image" content="https://railreach.co.uk/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -26,38 +26,96 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<link rel="stylesheet" href="../../assets/css/shared.css">
+<link rel="stylesheet" href="/assets/css/shared.css">
+<style>:root { --map-h: 56vh; }</style>
 </head>
 <body>
+<a class="skip-link" href="#content">Skip to content</a>
 <header class="site-header">
-<nav aria-label="Breadcrumb"><ol class="breadcrumb"><li><a href="/">RailReach</a></li><li>Fenchurch Street Train Times</li></ol></nav>
+<a class="brand" href="/">Rail<span>Reach</span></a>
+<nav class="site-nav" aria-label="Primary">
+<a href="/terminals/" aria-current="page">Terminals</a>
+<a href="/stations/">Stations</a>
+<a href="/about/">About the data</a>
+</nav>
 </header>
-<div id="map" role="application" aria-label="Map of train journey times to Fenchurch Street"></div>
+<nav class="crumb-bar" aria-label="Breadcrumb"><ol class="breadcrumb"><li><a href="/">RailReach</a></li><li><a href="/terminals/">Terminals</a></li><li>Fenchurch Street train times</li></ol></nav>
+<div class="map-shell">
+<div id="map" role="application" aria-label="Map of train journey times to London Fenchurch Street"></div>
 <div class="legend">
-  <h4>Journey Time</h4>
-  <div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div> Under 30 min</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div> 30–60 min</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div> 60–90 min</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#7c3aed"></div> London Terminal</div>
+<p class="legend-title">Journey Time</p>
+<div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div> Under 30 min</div>
+<div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div> 30–60 min</div>
+<div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div> 60–90 min</div>
+<div class="legend-item"><div class="legend-dot" style="background:#7c3aed"></div> London Terminal</div>
 </div>
 <div class="station-count" id="station-count"></div>
 <div id="promo-banner">
-  <a id="promo-slot-1" href="https://www.connells.co.uk/" target="_blank" rel="noopener">
-    <div class="promo-connells">
-      <div class="promo-logo">Connells<span>Est. 1936</span></div>
-      <div class="promo-body">
-        <div class="promo-headline">Found your perfect commute? Now find your perfect home.</div>
-        <div class="promo-sub">Over 150 branches nationwide &bull; Free online valuations &bull; Expert local knowledge</div>
-      </div>
-      <div class="promo-cta">Search Now</div>
-    </div>
-  </a>
+<a id="promo-slot-1" href="https://www.connells.co.uk/" target="_blank" rel="noopener sponsored">
+<div class="promo-connells">
+<div class="promo-logo">Connells<span>Est. 1936</span></div>
+<div class="promo-body">
+<div class="promo-headline">Found your perfect commute? Now find your perfect home.</div>
+<div class="promo-sub">Over 150 branches nationwide &bull; Free online valuations &bull; Expert local knowledge</div>
 </div>
-<button class="toggle-content" onclick="document.querySelector('.spoke-content').classList.toggle('open');this.textContent=this.textContent==='Show Details'?'Hide Details':'Show Details'">Show Details</button>
-<div class="spoke-content">
-<h1>Train Journey Times to Fenchurch Street</h1>
-<p>Fenchurch Street is served by c2c. 22+ stations connect to Fenchurch Street within 90 minutes. Key commuter towns include Limehouse, West Ham, Barking, Dagenham Dock, Rainham (Essex).</p>
-<h2>Other London Terminals</h2>
+<div class="promo-cta">Search Now</div>
+</div>
+</a>
+</div>
+</div><!-- /.map-shell -->
+
+<main id="content" class="page-content">
+<div class="wrap">
+<h1>Train journey times to London Fenchurch Street</h1>
+<p class="lede">22 stations reach London Fenchurch Street within 90 minutes, 22 of them on a direct train. Services are operated by c2c. The fastest commute is from Limehouse at 4 minutes.</p>
+
+<h2>Every station to Fenchurch Street</h2>
+<p class="section-note">Sorted fastest first. Times are the quickest typical weekday service.</p>
+<div class="table-scroll">
+<table>
+<caption>Journey times from 22 stations to London Fenchurch Street</caption>
+<thead><tr><th>Station</th><th>Journey time</th><th>Service</th></tr></thead>
+<tbody>
+<tr><td>Limehouse</td><td><span class="t-badge t-fast">4 min</span></td><td>Direct</td></tr>
+<tr><td>West Ham</td><td><span class="t-badge t-fast">6 min</span></td><td>Direct</td></tr>
+<tr><td>Barking</td><td><span class="t-badge t-fast">10 min</span></td><td>Direct</td></tr>
+<tr><td>Dagenham Dock</td><td><span class="t-badge t-fast">14 min</span></td><td>Direct</td></tr>
+<tr><td>Rainham (Essex)</td><td><span class="t-badge t-fast">17 min</span></td><td>Direct</td></tr>
+<tr><td>Upminster</td><td><span class="t-badge t-fast">18 min</span></td><td>Direct</td></tr>
+<tr><td>Purfleet</td><td><span class="t-badge t-fast">20 min</span></td><td>Direct</td></tr>
+<tr><td>Chafford Hundred</td><td><span class="t-badge t-fast">22 min</span></td><td>Direct</td></tr>
+<tr><td>West Horndon</td><td><span class="t-badge t-fast">24 min</span></td><td>Direct</td></tr>
+<tr><td>Ockendon</td><td><span class="t-badge t-fast">25 min</span></td><td>Direct</td></tr>
+<tr><td>Grays</td><td><span class="t-badge t-fast">27 min</span></td><td>Direct</td></tr>
+<tr><td>Laindon</td><td><span class="t-badge t-mid">30 min</span></td><td>Direct</td></tr>
+<tr><td>Tilbury Town</td><td><span class="t-badge t-mid">30 min</span></td><td>Direct</td></tr>
+<tr><td>Basildon</td><td><span class="t-badge t-mid">33 min</span></td><td>Direct</td></tr>
+<tr><td>East Tilbury</td><td><span class="t-badge t-mid">34 min</span></td><td>Direct</td></tr>
+<tr><td>Stanford-le-Hope</td><td><span class="t-badge t-mid">35 min</span></td><td>Direct</td></tr>
+<tr><td>Pitsea</td><td><span class="t-badge t-mid">38 min</span></td><td>Direct</td></tr>
+<tr><td>Benfleet</td><td><span class="t-badge t-mid">42 min</span></td><td>Direct</td></tr>
+<tr><td>Leigh-on-Sea</td><td><span class="t-badge t-mid">47 min</span></td><td>Direct</td></tr>
+<tr><td>Chalkwell</td><td><span class="t-badge t-mid">49 min</span></td><td>Direct</td></tr>
+<tr><td>Westcliff</td><td><span class="t-badge t-mid">50 min</span></td><td>Direct</td></tr>
+<tr><td>Southend Central</td><td><span class="t-badge t-mid">52 min</span></td><td>Direct</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>Frequently asked questions</h2>
+<h3>What is the fastest train to London Fenchurch Street?</h3>
+<p>The fastest connection is from Limehouse, at 4 minutes on a direct service. Services into Fenchurch Street are operated by c2c.</p>
+<h3>Which commuter towns are within 30 minutes of Fenchurch Street?</h3>
+<p>11 stations reach Fenchurch Street in under 30 minutes, including Limehouse, West Ham, Barking, Dagenham Dock, Rainham (Essex), Upminster. These are the shortest commutes available into this terminal.</p>
+<h3>How many stations connect to Fenchurch Street?</h3>
+<p>22 stations have a service to London Fenchurch Street within 90 minutes, and 22 of those are direct trains with no change required.</p>
+<h3>What areas does Fenchurch Street serve?</h3>
+<p>London Fenchurch Street primarily serves East London and South Essex. Key commuter destinations on this network include Limehouse, West Ham, Barking, Dagenham Dock, Rainham (Essex).</p>
+<h3>Is Fenchurch Street a good terminal to commute into?</h3>
+<p>With 22 stations inside 90 minutes and 22 direct services, Fenchurch Street serves a focused commuter corridor. The quickest option is Limehouse at 4 minutes.</p>
+
+<h2>Other London terminals</h2>
+<p>Compare journey times into each of the nine London main line termini.</p>
 <div class="terminal-nav"><a href="/terminals/kings-cross/">Kings Cross</a>
 <a href="/terminals/waterloo/">Waterloo</a>
 <a href="/terminals/paddington/">Paddington</a>
@@ -67,45 +125,13 @@
 <a href="/terminals/euston/">Euston</a>
 <a href="/terminals/marylebone/">Marylebone</a>
 <a class="current" href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
-<h2>Frequently Asked Questions</h2>
-<h3>What is the fastest train to Fenchurch Street?</h3>
-<p>The fastest connection is from Limehouse at just 4 minutes. Services are operated by c2c.</p>
-<h3>Which commuter towns are within 30 minutes of Fenchurch Street?</h3>
-<p>Stations reachable within 30 minutes include Limehouse, West Ham, Barking, Dagenham Dock, Rainham (Essex). These are popular choices for London commuters seeking shorter journey times.</p>
-<h3>How many stations connect to Fenchurch Street?</h3>
-<p>22 stations have services to London Fenchurch Street within 90 minutes. The terminal is served by c2c.</p>
-<h3>What areas does Fenchurch Street serve?</h3>
-<p>London Fenchurch Street primarily serves East Anglia and Essex. Key destinations include Limehouse, West Ham, Barking, Dagenham Dock, Rainham (Essex).</p>
-<h3>Is Fenchurch Street a good commuter terminal?</h3>
-<p>Yes. With 22 stations within 90 minutes and frequent peak-hour services, Fenchurch Street is one of London&#39;s busiest commuter terminals. Top commuter stations include Limehouse, West Ham, Barking, Dagenham Dock, Rainham (Essex).</p>
-<h2>All Stations to Fenchurch Street</h2>
-<table><thead><tr><th>Station</th><th>Time</th><th>Direct?</th></tr></thead><tbody>
-<tr><td>Limehouse</td><td>4 min</td><td>Yes</td></tr>
-<tr><td>West Ham</td><td>6 min</td><td>Yes</td></tr>
-<tr><td>Barking</td><td>10 min</td><td>Yes</td></tr>
-<tr><td>Dagenham Dock</td><td>14 min</td><td>Yes</td></tr>
-<tr><td>Rainham (Essex)</td><td>17 min</td><td>Yes</td></tr>
-<tr><td>Upminster</td><td>18 min</td><td>Yes</td></tr>
-<tr><td>Purfleet</td><td>20 min</td><td>Yes</td></tr>
-<tr><td>Chafford Hundred</td><td>22 min</td><td>Yes</td></tr>
-<tr><td>West Horndon</td><td>24 min</td><td>Yes</td></tr>
-<tr><td>Ockendon</td><td>25 min</td><td>Yes</td></tr>
-<tr><td>Grays</td><td>27 min</td><td>Yes</td></tr>
-<tr><td>Laindon</td><td>30 min</td><td>Yes</td></tr>
-<tr><td>Tilbury Town</td><td>30 min</td><td>Yes</td></tr>
-<tr><td>Basildon</td><td>33 min</td><td>Yes</td></tr>
-<tr><td>East Tilbury</td><td>34 min</td><td>Yes</td></tr>
-<tr><td>Stanford-le-Hope</td><td>35 min</td><td>Yes</td></tr>
-<tr><td>Pitsea</td><td>38 min</td><td>Yes</td></tr>
-<tr><td>Benfleet</td><td>42 min</td><td>Yes</td></tr>
-<tr><td>Leigh-on-Sea</td><td>47 min</td><td>Yes</td></tr>
-<tr><td>Chalkwell</td><td>49 min</td><td>Yes</td></tr>
-<tr><td>Westcliff</td><td>50 min</td><td>Yes</td></tr>
-<tr><td>Southend Central</td><td>52 min</td><td>Yes</td></tr>
-</tbody></table>
-</div>
 
-<script type="application/ld+json">{
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-07-28. <a href="/about/">Read the full methodology &rarr;</a></div>
+</div>
+</main>
+
+<script type="application/ld+json">[
+{
 "@context": "https://schema.org",
 "@type": "BreadcrumbList",
 "itemListElement": [
@@ -118,21 +144,27 @@
 {
 "@type": "ListItem",
 "position": 2,
-"name": "Fenchurch Street Train Times",
+"name": "Terminals",
+"item": "https://railreach.co.uk/terminals/"
+},
+{
+"@type": "ListItem",
+"position": 3,
+"name": "Fenchurch Street train times",
 "item": "https://railreach.co.uk/terminals/fenchurch-street/"
 }
 ]
-}</script>
-<script type="application/ld+json">{
+},
+{
 "@context": "https://schema.org",
 "@type": "FAQPage",
 "mainEntity": [
 {
 "@type": "Question",
-"name": "What is the fastest train to Fenchurch Street?",
+"name": "What is the fastest train to London Fenchurch Street?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "The fastest connection is from Limehouse at just 4 minutes. Services are operated by c2c."
+"text": "The fastest connection is from Limehouse, at 4 minutes on a direct service. Services into Fenchurch Street are operated by c2c."
 }
 },
 {
@@ -140,7 +172,7 @@
 "name": "Which commuter towns are within 30 minutes of Fenchurch Street?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "Stations reachable within 30 minutes include Limehouse, West Ham, Barking, Dagenham Dock, Rainham (Essex). These are popular choices for London commuters seeking shorter journey times."
+"text": "11 stations reach Fenchurch Street in under 30 minutes, including Limehouse, West Ham, Barking, Dagenham Dock, Rainham (Essex), Upminster. These are the shortest commutes available into this terminal."
 }
 },
 {
@@ -148,7 +180,7 @@
 "name": "How many stations connect to Fenchurch Street?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "22 stations have services to London Fenchurch Street within 90 minutes. The terminal is served by c2c."
+"text": "22 stations have a service to London Fenchurch Street within 90 minutes, and 22 of those are direct trains with no change required."
 }
 },
 {
@@ -156,31 +188,51 @@
 "name": "What areas does Fenchurch Street serve?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "London Fenchurch Street primarily serves East Anglia and Essex. Key destinations include Limehouse, West Ham, Barking, Dagenham Dock, Rainham (Essex)."
+"text": "London Fenchurch Street primarily serves East London and South Essex. Key commuter destinations on this network include Limehouse, West Ham, Barking, Dagenham Dock, Rainham (Essex)."
 }
 },
 {
 "@type": "Question",
-"name": "Is Fenchurch Street a good commuter terminal?",
+"name": "Is Fenchurch Street a good terminal to commute into?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "Yes. With 22 stations within 90 minutes and frequent peak-hour services, Fenchurch Street is one of London&#39;s busiest commuter terminals. Top commuter stations include Limehouse, West Ham, Barking, Dagenham Dock, Rainham (Essex)."
+"text": "With 22 stations inside 90 minutes and 22 direct services, Fenchurch Street serves a focused commuter corridor. The quickest option is Limehouse at 4 minutes."
 }
 }
 ]
-}</script>
+}
+]</script>
 
-<script src="../../assets/js/stations-data.js"></script>
+<script src="/assets/js/stations-data.js"></script>
+<script src="/assets/js/map-core.js"></script>
 <script>
 const code='FST';
 const t=TERMINALS[code];
-const map=L.map('map').setView([t.lat,t.lng],8);
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap contributors',maxZoom:18}).addTo(map);
-L.circleMarker([t.lat,t.lng],{radius:12,fillColor:'#7c3aed',color:'#fff',weight:3,opacity:1,fillOpacity:0.9}).bindPopup('<strong>'+t.name+'</strong><br>London Terminal').addTo(map);
-function getColor(m){if(m<30)return'#22c55e';if(m<60)return'#f59e0b';return'#ef4444'}
+const map=initMap(t.lat,t.lng,8);
+createTerminalMarker(map,t.lat,t.lng,'<strong>'+t.name+'</strong><br>London terminal');
 let count=0;
-STATIONS.forEach(s=>{const j=s.journeys[code];if(j&&j.mins<=90){L.circleMarker([s.lat,s.lng],{radius:7,fillColor:getColor(j.mins),color:'#fff',weight:2,opacity:1,fillOpacity:0.85}).bindPopup('<strong>'+s.name+'</strong><br>To '+t.name+': <strong>'+j.mins+' min</strong><br>'+(j.direct?'Direct train':'Requires change')).addTo(map);count++}});
+STATIONS.forEach(s=>{
+  const j=s.journeys[code];
+  if(j&&j.mins<=90){
+    createStationMarker(map,s.lat,s.lng,j.mins,'<strong>'+s.name+'</strong><br>To '+t.name+': <strong>'+j.mins+' min</strong><br>'+(j.direct?'Direct train':'Requires a change'));
+    count++;
+  }
+});
 document.getElementById('station-count').textContent=count+' stations within 90 min of '+t.name;
 </script>
+<footer class="site-footer">
+<div class="wrap">
+<div>
+<p><strong>RailReach</strong> — free UK train commute time data.</p>
+<p>Journey times from 345 stations to 9 London main line terminals, sourced from National Rail operator timetables for 2026.</p>
+</div>
+<div class="footer-links">
+<a href="/">Map</a>
+<a href="/terminals/">Terminals</a>
+<a href="/stations/">Stations</a>
+<a href="/about/">About the data</a>
+</div>
+</div>
+</footer>
 <script>if('serviceWorker' in navigator)navigator.serviceWorker.register('/sw.js');</script>
 </body></html>

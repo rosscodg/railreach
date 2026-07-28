@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>High Wycombe to London Train Times | Journey Times from High Wycombe | RailReach</title>
-<meta name="description" content="Train times from High Wycombe to London — Marylebone (27 min). Interactive map with direct and indirect routes. Free 2026 timetable data.">
+<meta name="description" content="Train times from High Wycombe to London — Marylebone (27 min). Direct and indirect routes compared on an interactive map. 2026 timetable data.">
 <link rel="canonical" href="https://railreach.co.uk/stations/high-wycombe/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://railreach.co.uk/stations/high-wycombe/">
@@ -26,43 +26,85 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<link rel="stylesheet" href="../../assets/css/shared.css">
+<link rel="stylesheet" href="/assets/css/shared.css">
+<style>:root { --map-h: 56vh; }</style>
 </head>
 <body>
+<a class="skip-link" href="#content">Skip to content</a>
 <header class="site-header">
-<nav aria-label="Breadcrumb"><ol class="breadcrumb"><li><a href="/">RailReach</a></li><li>High Wycombe to London</li></ol></nav>
+<a class="brand" href="/">Rail<span>Reach</span></a>
+<nav class="site-nav" aria-label="Primary">
+<a href="/terminals/">Terminals</a>
+<a href="/stations/" aria-current="page">Stations</a>
+<a href="/about/">About the data</a>
+</nav>
 </header>
-<div id="map" role="application" aria-label="Map showing train routes from High Wycombe to London"></div>
+<nav class="crumb-bar" aria-label="Breadcrumb"><ol class="breadcrumb"><li><a href="/">RailReach</a></li><li><a href="/stations/">Stations</a></li><li>High Wycombe to London</li></ol></nav>
+<div class="map-shell">
+<div id="map" role="application" aria-label="Map of train routes from High Wycombe to London"></div>
 <div class="legend">
-  <h4>Journey Time</h4>
-  <div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div> Under 30 min</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div> 30–60 min</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div> 60–90 min</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#3b82f6"></div> This Station</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#7c3aed"></div> London Terminal</div>
+<p class="legend-title">Journey Time</p>
+<div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div> Under 30 min</div>
+<div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div> 30–60 min</div>
+<div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div> 60–90 min</div>
+<div class="legend-item"><div class="legend-dot" style="background:#3b82f6"></div> This station</div>
+<div class="legend-item"><div class="legend-dot" style="background:#7c3aed"></div> London Terminal</div>
 </div>
 <div class="station-count" id="station-count"></div>
 <div id="promo-banner">
-  <a id="promo-slot-1" href="https://www.connells.co.uk/" target="_blank" rel="noopener">
-    <div class="promo-connells">
-      <div class="promo-logo">Connells<span>Est. 1936</span></div>
-      <div class="promo-body">
-        <div class="promo-headline">Found your perfect commute? Now find your perfect home.</div>
-        <div class="promo-sub">Over 150 branches nationwide &bull; Free online valuations &bull; Expert local knowledge</div>
-      </div>
-      <div class="promo-cta">Search Now</div>
-    </div>
-  </a>
+<a id="promo-slot-1" href="https://www.connells.co.uk/" target="_blank" rel="noopener sponsored">
+<div class="promo-connells">
+<div class="promo-logo">Connells<span>Est. 1936</span></div>
+<div class="promo-body">
+<div class="promo-headline">Found your perfect commute? Now find your perfect home.</div>
+<div class="promo-sub">Over 150 branches nationwide &bull; Free online valuations &bull; Expert local knowledge</div>
 </div>
-<button class="toggle-content" onclick="document.querySelector('.spoke-content').classList.toggle('open');this.textContent=this.textContent==='Show Details'?'Hide Details':'Show Details'">Show Details</button>
-<div class="spoke-content">
-<h1>Train Times from High Wycombe to London</h1>
-<p>High Wycombe connects to 1 London terminal. The fastest route is to Marylebone in 27 minutes (direct).</p>
-<h2>Journey Comparison</h2>
-<table><thead><tr><th>London Terminal</th><th>Time</th><th>Direct?</th></tr></thead><tbody>
-<tr><td><a href="/terminals/marylebone/">Marylebone</a></td><td>27 min</td><td>Yes</td></tr>
-</tbody></table>
-<h2>London Terminals</h2>
+<div class="promo-cta">Search Now</div>
+</div>
+</a>
+</div>
+</div><!-- /.map-shell -->
+
+<main id="content" class="page-content">
+<div class="wrap">
+<h1>Train times from High Wycombe to London</h1>
+<p class="lede">High Wycombe connects to 1 London terminal. The fastest route is Marylebone in 27 minutes on a direct train.</p>
+
+<h2>High Wycombe to each London terminal</h2>
+<div class="table-scroll">
+<table>
+<caption>Journey times from High Wycombe to London terminals</caption>
+<thead><tr><th>London terminal</th><th>Journey time</th><th>Service</th><th>Operator</th></tr></thead>
+<tbody>
+<tr><td><a href="/terminals/marylebone/">Marylebone</a></td><td><span class="t-badge t-fast">27 min</span></td><td>Direct</td><td>Chiltern Railways</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>Frequently asked questions</h2>
+<h3>How long does the train from High Wycombe to London take?</h3>
+<p>The fastest train from High Wycombe reaches London Marylebone in 27 minutes. High Wycombe connects to 1 London terminal: Marylebone.</p>
+<h3>Which London station should I travel to from High Wycombe?</h3>
+<p>Marylebone is the quickest at 27 minutes, on a direct service. Direct trains run to Marylebone.</p>
+<h3>Is High Wycombe a good commuter town for London?</h3>
+<p>At 27 minutes to London Marylebone, High Wycombe is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.</p>
+<h3>Are there direct trains from High Wycombe to London?</h3>
+<p>Yes — direct services run to Marylebone.</p>
+<h3>What are the nearest stations to High Wycombe?</h3>
+<p>The closest alternatives are Marlow, Beaconsfield, Saunderton. These can offer a faster or cheaper route into London depending on where you live.</p>
+
+<h2>Nearby stations</h2>
+<p>Alternative departure points close to High Wycombe.</p>
+<ul class="link-grid">
+<li><span class="card"><span class="card-title">Marlow</span><span class="card-meta"><span class="t-badge t-mid">48 min</span> fastest to London &middot; 7 km away</span></span></li>
+<li><span class="card"><span class="card-title">Beaconsfield</span><span class="card-meta"><span class="t-badge t-fast">24 min</span> fastest to London &middot; 7 km away</span></span></li>
+<li><span class="card"><span class="card-title">Saunderton</span><span class="card-meta"><span class="t-badge t-mid">32 min</span> fastest to London &middot; 8 km away</span></span></li>
+<li><span class="card"><span class="card-title">Great Missenden</span><span class="card-meta"><span class="t-badge t-mid">38 min</span> fastest to London &middot; 9 km away</span></span></li>
+<li><span class="card"><span class="card-title">Seer Green &amp; Jordans</span><span class="card-meta"><span class="t-badge t-fast">23 min</span> fastest to London &middot; 10 km away</span></span></li>
+<li><span class="card"><span class="card-title">Princes Risborough</span><span class="card-meta"><span class="t-badge t-mid">37 min</span> fastest to London &middot; 11 km away</span></span></li>
+</ul>
+
+<h2>All London terminals</h2>
 <div class="terminal-nav"><a href="/terminals/kings-cross/">Kings Cross</a>
 <a href="/terminals/waterloo/">Waterloo</a>
 <a href="/terminals/paddington/">Paddington</a>
@@ -72,26 +114,13 @@
 <a href="/terminals/euston/">Euston</a>
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
-<h2>Frequently Asked Questions</h2>
-<h3>How long does it take to get from High Wycombe to London?</h3>
-<p>The fastest train from High Wycombe reaches London Marylebone in 27 minutes. High Wycombe connects to 1 London terminal: Marylebone.</p>
-<h3>Which London station should I travel to from High Wycombe?</h3>
-<p>The quickest route is to Marylebone (27 min, direct). Direct services are available to Marylebone.</p>
-<h3>Is High Wycombe a good commuter town for London?</h3>
-<p>With a fastest journey time of 27 minutes to London Marylebone, High Wycombe is an excellent commuter choice with a sub-30-minute journey. Direct trains make the commute straightforward.</p>
-<h3>What are the nearest stations to High Wycombe?</h3>
-<p>Nearby stations include Marlow, Beaconsfield, Saunderton. These offer alternative routes into London from the High Wycombe area.</p>
-<h2>Nearby Stations</h2>
-<ul>
-<li>Marlow (7 km away)</li>
-<li>Beaconsfield (7 km away)</li>
-<li>Saunderton (8 km away)</li>
-<li>Great Missenden (9 km away)</li>
-<li>Seer Green &amp; Jordans (10 km away)</li>
-</ul>
-</div>
 
-<script type="application/ld+json">{
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-07-28. <a href="/about/">Read the full methodology &rarr;</a></div>
+</div>
+</main>
+
+<script type="application/ld+json">[
+{
 "@context": "https://schema.org",
 "@type": "BreadcrumbList",
 "itemListElement": [
@@ -104,18 +133,24 @@
 {
 "@type": "ListItem",
 "position": 2,
+"name": "Stations",
+"item": "https://railreach.co.uk/stations/"
+},
+{
+"@type": "ListItem",
+"position": 3,
 "name": "High Wycombe to London",
 "item": "https://railreach.co.uk/stations/high-wycombe/"
 }
 ]
-}</script>
-<script type="application/ld+json">{
+},
+{
 "@context": "https://schema.org",
 "@type": "FAQPage",
 "mainEntity": [
 {
 "@type": "Question",
-"name": "How long does it take to get from High Wycombe to London?",
+"name": "How long does the train from High Wycombe to London take?",
 "acceptedAnswer": {
 "@type": "Answer",
 "text": "The fastest train from High Wycombe reaches London Marylebone in 27 minutes. High Wycombe connects to 1 London terminal: Marylebone."
@@ -126,7 +161,7 @@
 "name": "Which London station should I travel to from High Wycombe?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "The quickest route is to Marylebone (27 min, direct). Direct services are available to Marylebone."
+"text": "Marylebone is the quickest at 27 minutes, on a direct service. Direct trains run to Marylebone."
 }
 },
 {
@@ -134,7 +169,15 @@
 "name": "Is High Wycombe a good commuter town for London?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "With a fastest journey time of 27 minutes to London Marylebone, High Wycombe is an excellent commuter choice with a sub-30-minute journey. Direct trains make the commute straightforward."
+"text": "At 27 minutes to London Marylebone, High Wycombe is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple."
+}
+},
+{
+"@type": "Question",
+"name": "Are there direct trains from High Wycombe to London?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Yes \u2014 direct services run to Marylebone."
 }
 },
 {
@@ -142,24 +185,35 @@
 "name": "What are the nearest stations to High Wycombe?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "Nearby stations include Marlow, Beaconsfield, Saunderton. These offer alternative routes into London from the High Wycombe area."
+"text": "The closest alternatives are Marlow, Beaconsfield, Saunderton. These can offer a faster or cheaper route into London depending on where you live."
 }
 }
 ]
-}</script>
+}
+]</script>
 
-<script src="../../assets/js/stations-data.js"></script>
+<script src="/assets/js/stations-data.js"></script>
+<script src="/assets/js/map-core.js"></script>
 <script>
-function getColor(m){if(m<30)return'#22c55e';if(m<60)return'#f59e0b';return'#ef4444'}
-const map=L.map('map').setView([51.6296,-0.7454],9);
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap contributors',maxZoom:18}).addTo(map);
-// Station marker (blue)
+const map=initMap(51.6296,-0.7454,9);
 L.circleMarker([51.6296,-0.7454],{radius:12,fillColor:'#3b82f6',color:'#fff',weight:3,opacity:1,fillOpacity:0.9}).bindPopup('<strong>High Wycombe</strong>').addTo(map);
-// Terminal markers
-L.circleMarker([51.5225,-0.1634],{radius:12,fillColor:'#7c3aed',color:'#fff',weight:3,opacity:1,fillOpacity:0.9}).bindPopup('<strong>Marylebone</strong><br>27 min from High Wycombe<br>Direct').addTo(map);
-// Polylines
+createTerminalMarker(map,51.5225,-0.1634,'<strong>Marylebone</strong><br>27 min from High Wycombe<br>Direct');
 L.polyline([[51.6296,-0.7454],[51.5225,-0.1634]],{color:getColor(27),weight:3,opacity:0.7,}).addTo(map);
 document.getElementById('station-count').textContent='High Wycombe — 1 London terminal';
 </script>
+<footer class="site-footer">
+<div class="wrap">
+<div>
+<p><strong>RailReach</strong> — free UK train commute time data.</p>
+<p>Journey times from 345 stations to 9 London main line terminals, sourced from National Rail operator timetables for 2026.</p>
+</div>
+<div class="footer-links">
+<a href="/">Map</a>
+<a href="/terminals/">Terminals</a>
+<a href="/stations/">Stations</a>
+<a href="/about/">About the data</a>
+</div>
+</div>
+</footer>
 <script>if('serviceWorker' in navigator)navigator.serviceWorker.register('/sw.js');</script>
 </body></html>
