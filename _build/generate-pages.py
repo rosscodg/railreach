@@ -121,9 +121,64 @@ def breadcrumb_ld(trail):
     }, indent=0)
 
 
+
+# ── GEO helpers ────────────────────────────────────────────────────────────
+def key_facts(pairs):
+    """A compact, dated fact block.
+
+    Language models quote short attributable statements far more readily than
+    prose, so the headline numbers are stated once, plainly, with a date.
+    """
+    rows = '\n'.join(f'<div class="fact"><dt>{k}</dt><dd>{v}</dd></div>' for k, v in pairs)
+    return (f'<dl class="key-facts">\n{rows}\n'
+            f'<div class="fact"><dt>Data reviewed</dt><dd>{BUILD_DATE}</dd></div>\n</dl>')
+
+
+def train_station_ld(name, lat, lng, description, url):
+    return {
+        "@context": "https://schema.org",
+        "@type": "TrainStation",
+        "name": name,
+        "description": description,
+        "url": url,
+        "geo": {"@type": "GeoCoordinates", "latitude": lat, "longitude": lng},
+        "containedInPlace": {"@type": "Country", "name": "United Kingdom"},
+    }
+
+
+def webpage_ld(name, description, url, about_name):
+    return {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": name,
+        "description": description,
+        "url": url,
+        "inLanguage": "en-GB",
+        "dateModified": BUILD_DATE,
+        "isPartOf": {"@type": "WebSite", "name": "RailReach", "url": SITE + "/"},
+        "about": {"@type": "Thing", "name": about_name},
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "isAccessibleForFree": True,
+    }
+
+
+def write_markdown(rel_dir, text):
+    """Plain-text alternate.
+
+    Files without YAML front matter are copied verbatim by Jekyll, so these
+    are served as-is rather than rendered into HTML.
+    """
+    outdir = os.path.join(BASE, rel_dir)
+    os.makedirs(outdir, exist_ok=True)
+    with open(os.path.join(outdir, 'index.md'), 'w') as f:
+        f.write(text)
+
+
 # ── Shared chrome ──────────────────────────────────────────────────────────
-def head(title, desc, canonical, og_title, og_desc, map_h=None, leaflet=True):
+def head(title, desc, canonical, og_title, og_desc, map_h=None, leaflet=True, md=True):
     mapvar = f'\n<style>:root {{ --map-h: {map_h}; }}</style>' if map_h else ''
+    md_tag = (f'\n<link rel="alternate" type="text/markdown" href="{canonical}index.md">'
+              if md else '')
     leaflet_tags = ('<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">\n'
                     '<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>\n') if leaflet else ''
     return f'''<!DOCTYPE html>
@@ -133,7 +188,7 @@ def head(title, desc, canonical, og_title, og_desc, map_h=None, leaflet=True):
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{title}</title>
 <meta name="description" content="{desc}">
-<link rel="canonical" href="{canonical}">
+<link rel="canonical" href="{canonical}">{md_tag}
 <meta property="og:type" content="website">
 <meta property="og:url" content="{canonical}">
 <meta property="og:title" content="{og_title}">
@@ -362,11 +417,26 @@ def generate_terminal_page(code, terminals, stations, total):
 <h3>Is {name} a good terminal to commute into?</h3>
 <p>With {count} stations inside 90 minutes and {direct_count} direct services, {name} {breadth}. The quickest option is {fastest[0]} at {fastest[1]} minutes.</p>"""
 
+    page_url = f"{SITE}/terminals/{slug}/"
+    page_desc = (f"{count} stations reach London {name} within 90 minutes, "
+                 f"{direct_count} of them directly. Fastest: {fastest[0]} at {fastest[1]} minutes.")
     ld = json.dumps([
         json.loads(breadcrumb_ld([("RailReach", "/"), ("Terminals", "/terminals/"),
                                   (f"{name} train times", f"/terminals/{slug}/")])),
+        webpage_ld(f"London {name} train times", page_desc, page_url,
+                   f"Train journey times to London {name}"),
+        train_station_ld(f"London {name}", t['lat'], t['lng'], page_desc, page_url),
         json.loads(faq_ld_from_html(faqs_html)),
     ], indent=0)
+
+    facts = key_facts([
+        ("Stations within 90 minutes", str(count)),
+        ("Direct services", f"{direct_count} of {count}"),
+        ("Stations under 30 minutes", str(len(under30))),
+        ("Fastest station", f"{fastest[0]} — {fastest[1]} minutes"),
+        ("Operators", operators),
+        ("Source", "National Rail timetables, 2026"),
+    ])
 
     body = f'''<body>
 {site_header('terminals')}
@@ -382,6 +452,7 @@ def generate_terminal_page(code, terminals, stations, total):
 <div class="wrap">
 <h1>Train journey times to London {name}</h1>
 <p class="lede">{count} stations reach London {name} within 90 minutes, {direct_count} of them on a direct train. Services are operated by {operators}. The fastest commute is from {fastest[0]} at {fastest[1]} minutes.</p>
+{facts}
 
 <h2>Every station to {name}</h2>
 <p class="section-note">Sorted fastest first. Times are the quickest typical weekday service.</p>
@@ -440,6 +511,45 @@ document.getElementById('station-count').textContent=count+' stations within 90 
     os.makedirs(outdir, exist_ok=True)
     with open(os.path.join(outdir, 'index.html'), 'w') as f:
         f.write(html)
+
+    md_rows = '\n'.join(
+        f"| {n} | {m} min | {'Direct' if d else 'Change required'} |"
+        for n, m, d in serving)
+    md_faq = re.sub(r'<h3>(.*?)</h3>\s*<p>(.*?)</p>',
+                    lambda mm: f"### {re.sub(r'<[^>]+>', '', mm.group(1))}\n\n"
+                               f"{re.sub(r'<[^>]+>', '', mm.group(2))}\n",
+                    faqs_html, flags=re.DOTALL)
+    write_markdown(f'terminals/{slug}', f'''# Train journey times to London {name}
+
+{count} stations reach London {name} within 90 minutes, {direct_count} of them on a
+direct train. Services are operated by {operators}.
+
+- Stations within 90 minutes: {count}
+- Direct services: {direct_count} of {count}
+- Stations under 30 minutes: {len(under30)}
+- Fastest station: {fastest[0]} - {fastest[1]} minutes
+- Operators: {operators}
+- Source: National Rail timetables, 2026
+- Data reviewed: {BUILD_DATE}
+
+## Every station to {name}
+
+| Station | Journey time | Service |
+| --- | --- | --- |
+{md_rows}
+
+## Frequently asked questions
+
+{md_faq}
+## About this data
+
+Journey times are the fastest typical weekday service, compiled from published
+National Rail operator timetables for 2026. They are not live departure times and
+exclude engineering works and disruption. Full methodology: {SITE}/about/
+
+Source: RailReach - {page_url}
+Licence: CC BY 4.0. Please attribute RailReach and link to {SITE}/
+''')
     return count
 
 
@@ -511,11 +621,25 @@ def generate_station_page(station_name, slug, terminals, stations, total):
 <h3>What are the nearest stations to {station_name}?</h3>
 <p>The closest alternatives are {', '.join(n[0] for n in dists[:3])}. These can offer a faster or cheaper route into London depending on where you live.</p>"""
 
+    page_url = f"{SITE}/stations/{slug}/"
+    page_desc = (f"{station_name} reaches London {fastest_name} in {fastest_j['mins']} minutes, "
+                 f"the fastest of {n_terms} London terminal{plural} it serves.")
     ld = json.dumps([
         json.loads(breadcrumb_ld([("RailReach", "/"), ("Stations", "/stations/"),
                                   (f"{station_name} to London", f"/stations/{slug}/")])),
+        webpage_ld(f"{station_name} to London train times", page_desc, page_url,
+                   f"Train journey times from {station_name} to London"),
+        train_station_ld(station_name, sdata['lat'], sdata['lng'], page_desc, page_url),
         json.loads(faq_ld_from_html(faqs_html)),
     ], indent=0)
+
+    facts = key_facts([
+        ("Fastest journey to London", f"{fastest_j['mins']} minutes to {fastest_name}"),
+        ("Direct service", "Yes" if fastest_j['direct'] else "No — one change required"),
+        ("London terminals served", f"{n_terms} ({terminal_list})"),
+        ("Operator", TERMINAL_META[fastest_code]['operators']),
+        ("Source", "National Rail timetables, 2026"),
+    ])
 
     polylines = '\n'.join(
         "L.polyline([[{},{}],[{},{}]],{{color:getColor({}),weight:3,opacity:0.7,{}}}).addTo(map);".format(
@@ -565,6 +689,7 @@ def generate_station_page(station_name, slug, terminals, stations, total):
 <div class="wrap">
 <h1>Train times from {station_name} to London</h1>
 <p class="lede">{station_name} connects to {n_terms} London terminal{plural}. The fastest route is {fastest_name} in {fastest_j['mins']} minutes{" on a direct train" if fastest_j['direct'] else ", with one change"}.</p>
+{facts}
 
 <h2>{station_name} to each London terminal</h2>
 <div class="table-scroll">
@@ -620,6 +745,46 @@ document.getElementById('station-count').textContent='{json_esc(station_name)} �
     os.makedirs(outdir, exist_ok=True)
     with open(os.path.join(outdir, 'index.html'), 'w') as f:
         f.write(html)
+
+    md_rows = '\n'.join(
+        f"| {TERMINAL_META[c]['name']} | {j['mins']} min | "
+        f"{'Direct' if j['direct'] else 'Change required'} | {TERMINAL_META[c]['operators']} |"
+        for c, j in sorted_journeys)
+    md_faq = re.sub(r'<h3>(.*?)</h3>\s*<p>(.*?)</p>',
+                    lambda m: f"### {re.sub(r'<[^>]+>', '', m.group(1))}\n\n"
+                              f"{re.sub(r'<[^>]+>', '', m.group(2))}\n",
+                    faqs_html, flags=re.DOTALL)
+    write_markdown(f'stations/{slug}', f'''# Train times from {station_name} to London
+
+{station_name} connects to {n_terms} London terminal{plural}. The fastest route is \
+{fastest_name} in {fastest_j['mins']} minutes\
+{" on a direct train" if fastest_j['direct'] else ", with one change"}.
+
+- Fastest journey to London: {fastest_j['mins']} minutes to {fastest_name}
+- Direct service: {"Yes" if fastest_j['direct'] else "No - one change required"}
+- London terminals served: {n_terms} ({terminal_list})
+- Operator: {TERMINAL_META[fastest_code]['operators']}
+- Source: National Rail timetables, 2026
+- Data reviewed: {BUILD_DATE}
+
+## {station_name} to each London terminal
+
+| London terminal | Journey time | Service | Operator |
+| --- | --- | --- | --- |
+{md_rows}
+
+## Frequently asked questions
+
+{md_faq}
+## About this data
+
+Journey times are the fastest typical weekday service, compiled from published
+National Rail operator timetables for 2026. They are not live departure times and
+exclude engineering works and disruption. Full methodology: {SITE}/about/
+
+Source: RailReach - {page_url}
+Licence: CC BY 4.0. Please attribute RailReach and link to {SITE}/
+''')
     return fastest_j['mins'], fastest_name
 
 
@@ -667,6 +832,7 @@ def generate_terminal_hub(stations, counts, total):
         canonical=f"{SITE}/terminals/",
         og_title="London Rail Terminals | RailReach",
         og_desc="All 9 London main line terminals compared by commuter catchment.",
+        md=False,
         leaflet=False,
     ) + f'''
 <body>
@@ -752,6 +918,7 @@ def generate_station_hub(page_info, total):
         canonical=f"{SITE}/stations/",
         og_title="Commuter Stations to London | RailReach",
         og_desc="London commuter towns ranked by fastest train journey time.",
+        md=False,
         leaflet=False,
     ) + f'''
 <body>
@@ -843,6 +1010,7 @@ def generate_about(stations, counts, total, n_station_pages):
         canonical=f"{SITE}/about/",
         og_title="About the RailReach Data | Methodology",
         og_desc="Sources, methodology and limitations behind RailReach journey times.",
+        md=False,
         leaflet=False,
     ) + f'''
 <body>
@@ -965,6 +1133,85 @@ When citing RailReach journey times, please attribute to RailReach ({SITE}) and 
     with open(os.path.join(BASE, 'llms.txt'), 'w') as f:
         f.write(txt)
     print(f"  wrote llms.txt ({len(TERMINAL_META)} terminals, {len(page_info)} stations)")
+
+
+
+def generate_llms_full(terminals, stations, counts, total):
+    """A single self-contained file carrying the whole dataset.
+
+    llms.txt is a map of the site; this is the data itself, so a model can
+    answer from one fetch instead of crawling 358 pages.
+    """
+    blocks = []
+    for code, meta in TERMINAL_META.items():
+        serving = sorted(((s['name'], s['journeys'][code]) for s in stations
+                          if code in s['journeys']),
+                         key=lambda x: x[1]['mins'])
+        direct = sum(1 for _, j in serving if j['direct'])
+        under30 = [n for n, j in serving if j['mins'] < 30]
+        lines = '\n'.join(
+            f"- {n}: {j['mins']} min, {'direct' if j['direct'] else 'one change'}"
+            for n, j in serving)
+        blocks.append(f"""## London {meta['name']}
+
+Operators: {meta['operators']}
+Serves: {meta['region']}
+Stations within 90 minutes: {len(serving)} ({direct} direct, {len(under30)} under 30 minutes)
+Fastest station: {serving[0][0]} at {serving[0][1]['mins']} minutes
+Page: {SITE}/terminals/{meta['slug']}/
+
+{lines}""")
+
+    pairs = sum(len(s['journeys']) for s in stations)
+    direct_total = sum(1 for s in stations for j in s['journeys'].values() if j['direct'])
+    fastest_overall = sorted(
+        ((s['name'], TERMINAL_META[c]['name'], j['mins'])
+         for s in stations for c, j in s['journeys'].items()),
+        key=lambda x: x[2])[:10]
+    fastest_lines = '\n'.join(f"- {n} to {t}: {m} min" for n, t, m in fastest_overall)
+
+    txt = f"""# RailReach — complete dataset
+
+Train journey times from {total} UK stations to the 9 London main line terminals.
+
+Source: published National Rail operator timetables, 2026
+Basis: fastest typical weekday service on each route
+Threshold: journeys of 90 minutes or less
+Last reviewed: {BUILD_DATE}
+Licence: CC BY 4.0 — reuse permitted with attribution to RailReach ({SITE}/)
+Machine-readable: {SITE}/data/journey-times.json and {SITE}/data/journey-times.csv
+
+## What this data is and is not
+
+These are planning figures, not live departures. Each number is the quickest journey a
+commuter could expect on a normal weekday — not an average, and not a record time.
+Off-peak, evening and weekend services are frequently slower. Engineering works, strike
+action and day-to-day disruption are not reflected. Where no direct service exists, the
+figure is the quickest routing with one change, including a realistic interchange
+allowance, and is marked as such.
+
+## Summary
+
+- Stations covered: {total}
+- London terminals: 9
+- Station-to-terminal journeys recorded: {pairs} ({direct_total} direct)
+- Every station has a page at {SITE}/stations/<slug>/
+- Every terminal has a page at {SITE}/terminals/<slug>/
+
+## Fastest journeys in the dataset
+
+{fastest_lines}
+
+{chr(10).join(blocks)}
+
+## Citation
+
+RailReach, "UK train journey times to London terminals" ({BUILD_DATE}).
+{SITE}/ — CC BY 4.0.
+"""
+    with open(os.path.join(BASE, 'llms-full.txt'), 'w') as f:
+        f.write(txt)
+    print(f"  wrote llms-full.txt ({pairs} journeys, {len(txt)//1024} KB)")
 
 
 # ── Service worker ─────────────────────────────────────────────────────────
@@ -1232,6 +1479,7 @@ def main():
     generate_sw()
     generate_sitemap()
     generate_llms(stations, counts, page_info, total)
+    generate_llms_full(terminals, stations, counts, total)
     export_dataset(terminals, stations)
 
     print(f"\nDone — {9 + len(page_info) + 3} pages generated.")

@@ -4,13 +4,48 @@ Allow: /
 User-agent: GPTBot
 Allow: /
 
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
 User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
 Allow: /
 
 User-agent: PerplexityBot
 Allow: /
 
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
 User-agent: GoogleOther
 Allow: /
 
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
 Sitemap: https://railreach.co.uk/sitemap.xml
+
+# Machine-readable summaries of this site and its dataset:
+#   https://railreach.co.uk/llms.txt              site map for language models
+#   https://railreach.co.uk/llms-full.txt         the full journey time dataset
+#   https://railreach.co.uk/data/journey-times.json
+#   https://railreach.co.uk/data/journey-times.csv
+# Every page also has a plain-text alternate at <page-url>index.md
+# Data is CC BY 4.0 — reuse permitted with attribution to RailReach.
