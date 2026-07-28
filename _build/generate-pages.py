@@ -3,15 +3,18 @@
 
 Outputs:
   /terminals/<slug>/   9 terminal pages
-  /stations/<slug>/    station pages
+  /stations/<slug>/    one page per station
   /terminals/          terminal hub
   /stations/           station hub
   /about/              methodology + provenance
   /sitemap.xml         regenerated with a real lastmod
   /assets/js/*.js
 
-Data is still parsed out of index.html; Phase 2 moves it to a canonical
-JSON file. Run from anywhere:  python3 _build/generate-pages.py
+Reads the canonical dataset at _build/data/stations.json and rewrites the
+generated regions of index.html from it, so the homepage and the spoke pages
+can no longer drift apart.
+
+Run from anywhere:  python3 _build/generate-pages.py
 """
 
 import os
@@ -46,20 +49,19 @@ TERMINAL_META = {
             'region': 'East London and South Essex'},
 }
 
-STATION_SLUGS = {
-    'Cambridge': 'cambridge', 'Reading': 'reading', 'Oxford': 'oxford',
-    'Brighton': 'brighton', 'Guildford': 'guildford', 'Woking': 'woking',
-    'St Albans City': 'st-albans', 'Stevenage': 'stevenage',
-    'Milton Keynes Central': 'milton-keynes', 'Chelmsford': 'chelmsford',
-    'Sevenoaks': 'sevenoaks', 'Basingstoke': 'basingstoke',
-    'Winchester': 'winchester', 'Watford Junction': 'watford',
-    'Swindon': 'swindon', 'Colchester': 'colchester', 'Ipswich': 'ipswich',
-    'Peterborough': 'peterborough', 'Bedford': 'bedford',
-    'High Wycombe': 'high-wycombe', 'Tonbridge': 'tonbridge',
-    'Tunbridge Wells': 'tunbridge-wells', 'Crawley': 'crawley',
-    'Bromley South': 'bromley-south', 'Richmond': 'richmond',
-    'Slough': 'slough', 'Maidenhead': 'maidenhead',
-}
+# The 27 towns that had hand-built pages first. They keep prominent placement
+# on the homepage and station hub; slugs for all stations come from the data.
+FEATURED = [
+    'Cambridge', 'Reading', 'Oxford', 'Brighton', 'Guildford', 'Woking',
+    'St Albans City', 'Stevenage', 'Milton Keynes Central', 'Chelmsford',
+    'Sevenoaks', 'Basingstoke', 'Winchester', 'Watford Junction', 'Swindon',
+    'Colchester', 'Ipswich', 'Peterborough', 'Bedford', 'High Wycombe',
+    'Tonbridge', 'Tunbridge Wells', 'Crawley', 'Bromley South', 'Richmond',
+    'Slough', 'Maidenhead',
+]
+
+# Populated from the dataset in main(); every station gets a page.
+STATION_SLUGS = {}
 
 
 # ── Helpers ────────────────────────────────────────────────────────────────
@@ -74,6 +76,14 @@ def json_esc(s):
 
 def band(mins):
     return 't-fast' if mins < 30 else 't-mid' if mins < 60 else 't-slow'
+
+
+def ordinal(n):
+    if 10 <= n % 100 <= 20:
+        suffix = 'th'
+    else:
+        suffix = {1: 'st', 2: 'nd', 3: 'rd'}.get(n % 10, 'th')
+    return f"{n}{suffix}"
 
 
 def badge(mins):
@@ -216,33 +226,49 @@ def site_footer(total):
 </body></html>'''
 
 
-# ── Parse stations data from index.html ────────────────────────────────────
-def parse_index():
-    with open(os.path.join(BASE, 'index.html')) as f:
-        html = f.read()
+# ── Data source ────────────────────────────────────────────────────────────
+DATA_PATH = os.path.join(BASE, '_build', 'data', 'stations.json')
 
-    tmatch = re.search(r'const TERMINALS = \{(.*?)\n\};', html, re.DOTALL)
-    smatch = re.search(r'const STATIONS = \[(.*?)\n\];', html, re.DOTALL)
 
-    terminals = {}
-    for m in re.finditer(r'(\w+):\s*\{\s*name:\s*"([^"]+)",\s*lat:\s*([\d.-]+),\s*lng:\s*([\d.-]+)\s*\}',
-                         tmatch.group(1)):
-        terminals[m.group(1)] = {'name': m.group(2), 'lat': float(m.group(3)), 'lng': float(m.group(4))}
+def load_data():
+    """Load the canonical dataset.
 
-    stations = []
-    pattern = (r'\{\s*name:\s*"([^"]+)",\s*lat:\s*([\d.-]+),\s*lng:\s*([\d.-]+),'
-               r'\s*journeys:\s*\{((?:[^{}]|\{[^}]*\})*)\}\s*\}')
-    for m in re.finditer(pattern, smatch.group(1)):
-        journeys = {}
-        for jm in re.finditer(r'(\w+):\s*\{\s*mins:\s*(\d+),\s*direct:\s*(true|false)\s*\}', m.group(4)):
-            journeys[jm.group(1)] = {'mins': int(jm.group(2)), 'direct': jm.group(3) == 'true'}
-        stations.append({'name': m.group(1), 'lat': float(m.group(2)),
-                         'lng': float(m.group(3)), 'journeys': journeys})
+    This replaces the old approach of regex-scraping index.html by hardcoded
+    line numbers, which silently produced a stations-data.js full of HTML.
+    """
+    with open(DATA_PATH) as f:
+        data = json.load(f)
+    terminals = data['terminals']
+    stations = data['stations']
+    for s in stations:
+        assert s['journeys'], f"{s['name']} has no journeys"
+    return terminals, stations
 
-    # The data block, reused verbatim by every spoke page
-    start = html.index('const TERMINALS = {')
-    end = html.index('\n];', html.index('const STATIONS = [')) + 3
-    return terminals, stations, html[start:end]
+
+def js_data_block(terminals, stations):
+    """Render the dataset as the JS both index.html and spoke pages consume."""
+    tlines = ',\n'.join(
+        f'  {code}: {{ name: "{t["name"]}", lat: {t["lat"]}, lng: {t["lng"]} }}'
+        for code, t in terminals.items())
+
+    slines = []
+    for s in stations:
+        j = ', '.join(f'{c}: {{ mins: {v["mins"]}, direct: {str(v["direct"]).lower()} }}'
+                      for c, v in sorted(s['journeys'].items(), key=lambda kv: kv[1]['mins']))
+        slines.append(f'  {{ name: "{s["name"]}", lat: {s["lat"]}, lng: {s["lng"]}, '
+                      f'slug: "{s["slug"]}", journeys: {{ {j} }} }}')
+
+    return ('const TERMINALS = {\n' + tlines + '\n};\n\nconst STATIONS = [\n'
+            + ',\n'.join(slines) + '\n];')
+
+
+def replace_marked(html, tag, replacement, comment='html'):
+    open_m, close_m = (f'<!-- GEN:{tag} -->', f'<!-- /GEN:{tag} -->') if comment == 'html' \
+        else (f'/* GEN:{tag} */', f'/* /GEN:{tag} */')
+    pattern = re.escape(open_m) + r'.*?' + re.escape(close_m)
+    out, n = re.subn(pattern, open_m + '\n' + replacement + '\n' + close_m, html, count=1, flags=re.DOTALL)
+    assert n == 1, f"marker '{tag}' not found in index.html"
+    return out
 
 
 MAP_CORE_JS = '''// Shared map utilities for RailReach spoke pages
@@ -307,11 +333,14 @@ def generate_terminal_page(code, terminals, stations, total):
     direct_count = sum(1 for _, _, d in serving if d)
 
     row_parts = []
-    for n, m, d in serving:
-        link = (f' <a href="/stations/{STATION_SLUGS[n]}/">guide</a>'
-                if n in STATION_SLUGS else '')
-        row_parts.append(f'<tr><td>{esc(n)}{link}</td><td>{badge(m)}</td>'
-                         f'<td>{"Direct" if d else "Change required"}</td></tr>')
+    for st_name, st_mins, st_direct in serving:
+        # NOTE: do not name these `slug`/`m` — `slug` is this terminal's own
+        # slug and is used below to pick the output directory.
+        st_slug = STATION_SLUGS.get(st_name)
+        cell = (f'<a href="/stations/{st_slug}/">{esc(st_name)}</a>'
+                if st_slug else esc(st_name))
+        row_parts.append(f'<tr><td>{cell}</td><td>{badge(st_mins)}</td>'
+                         f'<td>{"Direct" if st_direct else "Change required"}</td></tr>')
     rows = '\n'.join(row_parts)
 
     terminal_nav = '\n'.join(
@@ -399,7 +428,7 @@ document.getElementById('station-count').textContent=count+' stations within 90 
 {site_footer(total)}'''
 
     html = head(
-        title=f"{name} Train Times | Journey Times to London {name} | RailReach",
+        title=f"London {name} Train Times &amp; Journey Map | RailReach",
         desc=f"Train journey times to London {name} from {count} stations — {top3}. Interactive map, direct and indirect routes, 2026 timetable data.",
         canonical=f"{SITE}/terminals/{slug}/",
         og_title=f"{name} Train Times | RailReach",
@@ -500,6 +529,25 @@ def generate_station_page(station_name, slug, terminals, stations, total):
             j['mins'], json_esc(station_name), "Direct" if j['direct'] else "Requires a change")
         for c, j in sorted_journeys)
 
+    # One section per route, so the page answers "<station> to <terminal>"
+    # directly. Separate route pages would be near-duplicates: 345 stations
+    # share only 357 journeys, so most towns serve a single terminal.
+    route_parts = []
+    for c, j in sorted_journeys:
+        tm = TERMINAL_META[c]
+        peers = sorted((s2['journeys'][c]['mins'] for s2 in stations if c in s2['journeys']))
+        rank = peers.index(j['mins']) + 1
+        service = ('a direct train with no change'
+                   if j['direct'] else 'one change of train en route')
+        route_parts.append(
+            f'<h2>{station_name} to {tm["name"]}</h2>\n'
+            f'<p>The fastest train from {station_name} to London {tm["name"]} takes '
+            f'<strong>{j["mins"]} minutes</strong> and involves {service}. '
+            f'The route is operated by {tm["operators"]}. '
+            f'That makes {station_name} the {ordinal(rank)} quickest of the {len(peers)} '
+            f'stations with a service into {tm["name"]} inside 90 minutes.</p>')
+    route_sections = '\n'.join(route_parts)
+
     this_station_legend = ('<div class="legend-item"><div class="legend-dot" '
                            'style="background:#3b82f6"></div> This station</div>\n')
 
@@ -529,6 +577,7 @@ def generate_station_page(station_name, slug, terminals, stations, total):
 </table>
 </div>
 
+{route_sections}
 <h2>Frequently asked questions</h2>
 {faqs_html}
 
@@ -559,7 +608,7 @@ document.getElementById('station-count').textContent='{json_esc(station_name)} �
 {site_footer(total)}'''
 
     html = head(
-        title=f"{station_name} to London Train Times | Journey Times from {station_name} | RailReach",
+        title=f"{station_name} to London Train Times | RailReach",
         desc=f"Train times from {station_name} to London — {times_desc}. Direct and indirect routes compared on an interactive map. 2026 timetable data.",
         canonical=f"{SITE}/stations/{slug}/",
         og_title=f"{station_name} to London Train Times | RailReach",
@@ -663,11 +712,13 @@ def generate_terminal_hub(stations, counts, total):
 def generate_station_hub(page_info, total):
     """page_info: {station_name: (fastest_mins, fastest_terminal)}"""
     ordered = sorted(page_info.items(), key=lambda kv: kv[1][0])
+    featured = sorted(((n, v) for n, v in page_info.items() if n in FEATURED),
+                      key=lambda kv: kv[1][0])
     cards = '\n'.join(
         f'<li><a class="card" href="/stations/{STATION_SLUGS[name]}/">'
-        f'<span class="card-title">{esc(name)}</span>'
+        f'<span class="card-title">{esc(short_name(name))}</span>'
         f'<span class="card-meta">{badge(mins)} to {term}</span></a></li>'
-        for name, (mins, term) in ordered)
+        for name, (mins, term) in featured)
 
     rows = '\n'.join(
         f'<tr><td><a href="/stations/{STATION_SLUGS[name]}/">{esc(name)}</a></td>'
@@ -682,7 +733,7 @@ def generate_station_hub(page_info, total):
 <h3>How do I compare two commuter towns?</h3>
 <p>Each station page lists every London terminal that town can reach, the journey time, whether the train is direct, and the operator — so two towns can be compared on identical measures.</p>
 <h3>Does RailReach cover every UK station?</h3>
-<p>The dataset covers {total} stations that reach a London terminal within 90 minutes. Detailed guides currently exist for {len(ordered)} of the most searched commuter towns, and the interactive map covers all {total}.</p>"""
+<p>RailReach covers the {total} stations that reach a London main line terminal within 90 minutes — every one has its own journey guide. Stations beyond that threshold are outside a practical daily commute and are not included.</p>"""
 
     ld = json.dumps([
         json.loads(breadcrumb_ld([("RailReach", "/"), ("Stations", "/stations/")])),
@@ -697,7 +748,7 @@ def generate_station_hub(page_info, total):
 
     html = head(
         title="Commuter Stations to London | Journey Times by Town | RailReach",
-        desc=f"Compare {len(ordered)} London commuter towns by train journey time — fastest terminal, direct services and nearby alternatives for each.",
+        desc=f"Every one of {len(ordered)} stations within 90 minutes of London, ranked by journey time — fastest terminal, direct services and nearby alternatives.",
         canonical=f"{SITE}/stations/",
         og_title="Commuter Stations to London | RailReach",
         og_desc="London commuter towns ranked by fastest train journey time.",
@@ -709,14 +760,16 @@ def generate_station_hub(page_info, total):
 <main id="content" class="page-content">
 <div class="wrap">
 <h1>London commuter stations</h1>
-<p class="lede">Detailed journey guides for {len(ordered)} of the most searched commuter towns, ranked by their fastest route into London. The <a href="/">interactive map</a> covers all {total} stations in the dataset.</p>
+<p class="lede">A journey guide for every one of the {len(ordered)} stations that reach a London terminal within 90 minutes, ranked by fastest route. The <a href="/">interactive map</a> shows the same data geographically.</p>
 
-<h2>Stations by fastest journey</h2>
+<h2>Popular commuter towns</h2>
+<p>The most searched destinations, ranked by fastest journey into London.</p>
 <ul class="link-grid">
 {cards}
 </ul>
 
-<h2>Full comparison</h2>
+<h2>Every station, ranked</h2>
+<p class="section-note">All {len(ordered)} stations with a journey into London under 90 minutes.</p>
 <div class="table-scroll">
 <table>
 <caption>Commuter towns ranked by fastest journey into London</caption>
@@ -819,7 +872,7 @@ def generate_about(stations, counts, total, n_station_pages):
 </tbody>
 </table>
 </div>
-<p>Detailed guides currently exist for {n_station_pages} of the most searched commuter towns, with the remaining stations covered on the <a href="/">interactive map</a> and the <a href="/terminals/">terminal pages</a>.</p>
+<p>Every one of these {n_station_pages} stations has its own journey guide, listed on the <a href="/stations/">stations index</a> and plotted on the <a href="/">interactive map</a>.</p>
 
 <h2>Limitations</h2>
 <ul>
@@ -1020,16 +1073,141 @@ def generate_sitemap():
     print(f"  wrote sitemap.xml ({len(urls)} URLs, lastmod {BUILD_DATE})")
 
 
+# ── index.html sync ────────────────────────────────────────────────────────
+def sync_index(terminals, stations, counts, total, data_js):
+    """Rewrite the generated regions of index.html from the dataset."""
+    path = os.path.join(BASE, 'index.html')
+    with open(path) as f:
+        html = f.read()
+
+    lede = (f'<p class="lede">RailReach maps the fastest weekday train journey from '
+            f'<strong>{total} stations</strong> to all <strong>9 London main line terminals</strong> '
+            f'— every station within 90 minutes of central London, colour-coded by journey time. '
+            f'Free to use, no sign-up.</p>')
+
+    terminal_cards = '<ul class="link-grid">\n' + '\n'.join(
+        f'<li><a class="card" href="/terminals/{m["slug"]}/">'
+        f'<span class="card-title">{m["name"]}</span>'
+        f'<span class="card-meta">{counts[c]} stations within 90 min<br>{m["operators"]}</span></a></li>'
+        for c, m in TERMINAL_META.items()) + '\n</ul>'
+
+    by_name = {s['name']: s for s in stations}
+    featured = []
+    for name in FEATURED:
+        s = by_name.get(name)
+        if not s:
+            continue
+        code, j = min(s['journeys'].items(), key=lambda kv: kv[1]['mins'])
+        featured.append((name, s['slug'], j['mins'], TERMINAL_META[code]['name']))
+    featured.sort(key=lambda x: x[2])
+
+    station_cards = '<ul class="link-grid">\n' + '\n'.join(
+        f'<li><a class="card" href="/stations/{slug}/">'
+        f'<span class="card-title">{esc(short_name(name))}</span>'
+        f'<span class="card-meta">{badge(mins)} to {term}</span></a></li>'
+        for name, slug, mins, term in featured) + '\n</ul>'
+
+    # Full data table, grouped by terminal, every station linked to its page
+    sections = []
+    for code, m in TERMINAL_META.items():
+        rows = sorted(((s['name'], s['slug'], s['journeys'][code])
+                       for s in stations if code in s['journeys']),
+                      key=lambda x: x[2]['mins'])
+        body = '\n'.join(
+            f'<tr><td><a href="/stations/{slug}/">{esc(nm)}</a></td><td>{m["name"]}</td>'
+            f'<td>{badge(j["mins"])}</td><td>{"Yes" if j["direct"] else "No"}</td></tr>'
+            for nm, slug, j in rows)
+        sections.append(
+            f'<thead><tr><th colspan="4">{m["name"]}</th></tr></thead>\n'
+            f'<thead><tr><th>Station</th><th>Terminal</th><th>Journey time</th><th>Direct</th></tr></thead>\n'
+            f'<tbody>\n{body}\n</tbody>')
+
+    table = ('<div class="table-scroll">\n<table>\n'
+             '<caption>Train journey times from all stations to London terminals</caption>\n'
+             + '\n'.join(sections) + '\n</table>\n</div>')
+
+    html = replace_marked(html, 'lede', lede)
+    html = replace_marked(html, 'terminal-cards', terminal_cards)
+    html = replace_marked(html, 'station-cards', station_cards)
+    html = replace_marked(html, 'data-table', table)
+    html = replace_marked(html, 'map-data', data_js, comment='js')
+
+    with open(path, 'w') as f:
+        f.write(html)
+    print(f"  synced index.html ({len(featured)} featured, {total} rows in data table)")
+
+
+def short_name(name):
+    """Trim station suffixes that add nothing in a card title."""
+    for suffix in (' Central', ' City', ' Junction', ' (Main)'):
+        if name.endswith(suffix) and name not in ('Milton Keynes Central',):
+            return name[: -len(suffix)]
+    return name.replace('Milton Keynes Central', 'Milton Keynes')
+
+
+# ── Dataset exports ────────────────────────────────────────────────────────
+def export_dataset(terminals, stations):
+    """Publish the dataset as citable CSV and JSON downloads."""
+    import csv
+    outdir = os.path.join(BASE, 'data')
+    os.makedirs(outdir, exist_ok=True)
+
+    rows = []
+    for s in stations:
+        for code, j in sorted(s['journeys'].items(), key=lambda kv: kv[1]['mins']):
+            rows.append({
+                'station': s['name'],
+                'station_slug': s['slug'],
+                'latitude': s['lat'],
+                'longitude': s['lng'],
+                'london_terminal': TERMINAL_META[code]['name'],
+                'terminal_code': code,
+                'fastest_minutes': j['mins'],
+                'direct': 'yes' if j['direct'] else 'no',
+                'operators': TERMINAL_META[code]['operators'],
+            })
+    rows.sort(key=lambda r: (r['london_terminal'], r['fastest_minutes']))
+
+    csv_path = os.path.join(outdir, 'journey-times.csv')
+    with open(csv_path, 'w', newline='') as f:
+        w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+        w.writeheader()
+        w.writerows(rows)
+
+    json_path = os.path.join(outdir, 'journey-times.json')
+    with open(json_path, 'w') as f:
+        json.dump({
+            'name': 'UK train journey times to London terminals',
+            'source': 'National Rail operator timetables, 2026',
+            'basis': 'fastest typical weekday service',
+            'maxMinutes': 90,
+            'lastReviewed': BUILD_DATE,
+            'licence': 'CC BY 4.0',
+            'attribution': f'RailReach ({SITE}/)',
+            'terminals': {c: {**terminals[c], 'slug': TERMINAL_META[c]['slug'],
+                              'operators': TERMINAL_META[c]['operators']}
+                          for c in TERMINAL_META},
+            'journeys': rows,
+        }, f, indent=2, ensure_ascii=False)
+        f.write('\n')
+
+    print(f"  wrote data/journey-times.csv and .json ({len(rows)} journeys)")
+
+
 # ── Main ───────────────────────────────────────────────────────────────────
 def main():
-    print("Parsing index.html...")
-    terminals, stations, data_js = parse_index()
+    print("Loading dataset...")
+    terminals, stations = load_data()
+    STATION_SLUGS.update({s['name']: s['slug'] for s in stations})
     total = len(stations)
     counts = {c: sum(1 for s in stations if c in s['journeys'] and s['journeys'][c]['mins'] <= 90)
               for c in TERMINAL_META}
-    print(f"  {total} stations, {len(terminals)} terminals")
+    print(f"  {total} stations, {len(terminals)} terminals, "
+          f"{sum(len(s['journeys']) for s in stations)} journeys")
 
-    print("\nShared assets...")
+    print("\nSyncing index.html and shared assets from the dataset...")
+    data_js = js_data_block(terminals, stations)
+    sync_index(terminals, stations, counts, total, data_js)
     write_shared_js(data_js)
 
     print("\nTerminal pages...")
@@ -1039,10 +1217,10 @@ def main():
 
     print("\nStation pages...")
     page_info = {}
-    for station_name, slug in STATION_SLUGS.items():
-        res = generate_station_page(station_name, slug, terminals, stations, total)
+    for s in stations:
+        res = generate_station_page(s['name'], s['slug'], terminals, stations, total)
         if res:
-            page_info[station_name] = res
+            page_info[s['name']] = res
     print(f"  {len(page_info)} station pages")
 
     print("\nHub and about pages...")
@@ -1050,10 +1228,11 @@ def main():
     generate_station_hub(page_info, total)
     generate_about(stations, counts, total, len(page_info))
 
-    print("\nService worker, sitemap and llms.txt...")
+    print("\nService worker, sitemap, llms.txt and dataset exports...")
     generate_sw()
     generate_sitemap()
     generate_llms(stations, counts, page_info, total)
+    export_dataset(terminals, stations)
 
     print(f"\nDone — {9 + len(page_info) + 3} pages generated.")
 
