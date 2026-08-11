@@ -41,14 +41,15 @@
 </nav>
 </header>
 <nav class="crumb-bar" aria-label="Breadcrumb"><ol class="breadcrumb"><li><a href="/">RailReach</a></li><li><a href="/terminals/">Terminals</a></li><li>Marylebone train times</li></ol></nav>
-<div class="map-shell">
-<div id="map" role="application" aria-label="Map of train journey times to London Marylebone"></div>
+<div class="map-shell" role="region" aria-label="Map of train journey times to London Marylebone">
+<a class="skip-map" href="#all-stations">Skip the map and read the journey times as a table</a>
+<div id="map"></div>
 <div class="legend">
 <p class="legend-title">Journey Time</p>
-<div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div> Under 30 min</div>
-<div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div> 30–60 min</div>
-<div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div> 60–90 min</div>
-<div class="legend-item"><div class="legend-dot" style="background:#7c3aed"></div> London Terminal</div>
+<div class="legend-item"><div class="legend-dot" style="background:#0072B2"></div> Under 30 min</div>
+<div class="legend-item"><div class="legend-dot" style="background:#E69F00"></div> 30 to 60 min</div>
+<div class="legend-item"><div class="legend-dot" style="background:#D55E00"></div> 60 to 90 min</div>
+<div class="legend-item"><div class="legend-dot" style="background:#111827"></div> London Terminal</div>
 </div>
 <div class="station-count" id="station-count"></div>
 <div id="promo-banner">
@@ -79,7 +80,7 @@
 <div class="fact"><dt>Data reviewed</dt><dd>2026-07-28</dd></div>
 </dl>
 
-<h2>Every station to Marylebone</h2>
+<h2 id="all-stations">Every station to Marylebone</h2>
 <p class="section-note">Sorted fastest first. Times are the quickest typical weekday service.</p>
 <div class="table-scroll">
 <table>
@@ -249,21 +250,24 @@
 ]</script>
 
 <script src="/assets/js/stations-data.js"></script>
-<script src="/assets/js/map-core.js"></script>
+<script src="/assets/js/map-ui.js"></script>
 <script>
 const code='MYB';
 const t=TERMINALS[code];
-const map=initMap(t.lat,t.lng,8);
-createTerminalMarker(map,t.lat,t.lng,'<strong>'+t.name+'</strong><br>London terminal');
+const map=RR.createMap('map');
+const pts=[[t.lat,t.lng]];
+RR.terminalMarker(map,t.lat,t.lng,'<strong>London '+RR.esc(t.name)+'</strong><br>London terminal');
 let count=0;
-STATIONS.forEach(s=>{
+STATIONS.forEach(function(s){
   const j=s.journeys[code];
   if(j&&j.mins<=90){
-    createStationMarker(map,s.lat,s.lng,j.mins,'<strong>'+s.name+'</strong><br>To '+t.name+': <strong>'+j.mins+' min</strong><br>'+(j.direct?'Direct train':'Requires a change'));
+    RR.stationMarker(map,s,j.mins,RR.stationPopup(s,t.name,j));
+    pts.push([s.lat,s.lng]);
     count++;
   }
 });
 document.getElementById('station-count').textContent=count+' stations within 90 min of '+t.name;
+RR.fit(map,pts,{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

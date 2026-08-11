@@ -41,15 +41,16 @@
 </nav>
 </header>
 <nav class="crumb-bar" aria-label="Breadcrumb"><ol class="breadcrumb"><li><a href="/">RailReach</a></li><li><a href="/stations/">Stations</a></li><li>Sawbridgeworth to London</li></ol></nav>
-<div class="map-shell">
-<div id="map" role="application" aria-label="Map of train routes from Sawbridgeworth to London"></div>
+<div class="map-shell" role="region" aria-label="Map of train routes from Sawbridgeworth to London">
+<a class="skip-map" href="#journey-comparison">Skip the map and read the journey times as a table</a>
+<div id="map"></div>
 <div class="legend">
 <p class="legend-title">Journey Time</p>
-<div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div> Under 30 min</div>
-<div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div> 30–60 min</div>
-<div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div> 60–90 min</div>
-<div class="legend-item"><div class="legend-dot" style="background:#3b82f6"></div> This station</div>
-<div class="legend-item"><div class="legend-dot" style="background:#7c3aed"></div> London Terminal</div>
+<div class="legend-item"><div class="legend-dot" style="background:#0072B2"></div> Under 30 min</div>
+<div class="legend-item"><div class="legend-dot" style="background:#E69F00"></div> 30 to 60 min</div>
+<div class="legend-item"><div class="legend-dot" style="background:#D55E00"></div> 60 to 90 min</div>
+<div class="legend-item"><div class="legend-dot" style="background:#7c3aed"></div> This station</div>
+<div class="legend-item"><div class="legend-dot" style="background:#111827"></div> London Terminal</div>
 </div>
 <div class="station-count" id="station-count"></div>
 <div id="promo-banner">
@@ -79,7 +80,7 @@
 <div class="fact"><dt>Data reviewed</dt><dd>2026-07-28</dd></div>
 </dl>
 
-<h2>Sawbridgeworth to each London terminal</h2>
+<h2 id="journey-comparison">Sawbridgeworth to each London terminal</h2>
 <div class="table-scroll">
 <table>
 <caption>Journey times from Sawbridgeworth to London terminals</caption>
@@ -240,13 +241,15 @@
 ]</script>
 
 <script src="/assets/js/stations-data.js"></script>
-<script src="/assets/js/map-core.js"></script>
+<script src="/assets/js/map-ui.js"></script>
 <script>
-const map=initMap(51.8133,0.1524,9);
-L.circleMarker([51.8133,0.1524],{radius:12,fillColor:'#3b82f6',color:'#fff',weight:3,opacity:1,fillOpacity:0.9}).bindPopup('<strong>Sawbridgeworth</strong>').addTo(map);
-createTerminalMarker(map,51.5178,-0.0823,'<strong>Liverpool Street</strong><br>38 min from Sawbridgeworth<br>Direct');
-L.polyline([[51.8133,0.1524],[51.5178,-0.0823]],{color:getColor(38),weight:3,opacity:0.7,}).addTo(map);
+const map=RR.createMap('map');
+L.circleMarker([51.8133,0.1524],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Sawbridgeworth</strong><br>This station').addTo(map);
+RR.terminalMarker(map,51.5178,-0.0823,'<strong>London Liverpool Street</strong><br>38 min from Sawbridgeworth<br>Direct<br><a class="popup-link" href="/terminals/liverpool-street/">Terminal guide &rarr;</a>');
+L.polyline([[51.8133,0.1524],[51.5178,-0.0823]],{color:RR.colour(38),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Sawbridgeworth: 1 London terminal';
+// Fixes the 182 of 357 routes whose destination fell off a 375px screen.
+RR.fit(map,[[51.8133,0.1524],[51.5178,-0.0823]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

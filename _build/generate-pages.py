@@ -243,12 +243,15 @@ def crumbs(trail):
 
 
 def legend(extra=''):
+    # Okabe-Ito. The old green/amber/red collapsed under deuteranopia (green vs
+    # red: RGB distance 244 normal, 44 simulated). This set tests at 69 worst
+    # case across deuteranopia, protanopia and tritanopia.
     return f'''<div class="legend">
 <p class="legend-title">Journey Time</p>
-<div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div> Under 30 min</div>
-<div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div> 30–60 min</div>
-<div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div> 60–90 min</div>
-{extra}<div class="legend-item"><div class="legend-dot" style="background:#7c3aed"></div> London Terminal</div>
+<div class="legend-item"><div class="legend-dot" style="background:#0072B2"></div> Under 30 min</div>
+<div class="legend-item"><div class="legend-dot" style="background:#E69F00"></div> 30 to 60 min</div>
+<div class="legend-item"><div class="legend-dot" style="background:#D55E00"></div> 60 to 90 min</div>
+{extra}<div class="legend-item"><div class="legend-dot" style="background:#111827"></div> London Terminal</div>
 </div>'''
 
 
@@ -335,38 +338,27 @@ def replace_marked(html, tag, replacement, comment='html'):
     return out
 
 
-MAP_CORE_JS = '''// Shared map utilities for RailReach spoke pages
-function getColor(mins) {
-  if (mins < 30) return '#22c55e';
-  if (mins < 60) return '#f59e0b';
-  return '#ef4444';
-}
+MAP_CORE_JS = """// Deprecated: superseded by map-ui.js. Kept as a thin shim so that any page
+// still held in an older service-worker cache continues to work.
+function getColor(mins) { return window.RR ? RR.colour(mins) : '#0072B2'; }
 
 function initMap(lat, lng, zoom) {
-  const map = L.map('map').setView([lat, lng], zoom);
+  if (window.RR) return RR.createMap('map', { center: [lat, lng], zoom: zoom });
+  var map = L.map('map').setView([lat, lng], zoom);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; OpenStreetMap contributors', maxZoom: 18
   }).addTo(map);
   return map;
 }
 
-// NOTE: keep these names stable. Visitors carrying an older service-worker
-// cache may be served a stale copy of this file against fresh HTML; renaming
-// an exported function would break every map on the site for them.
 function createTerminalMarker(map, lat, lng, popupHtml) {
-  return L.circleMarker([lat, lng], {
-    radius: 12, fillColor: '#7c3aed', color: '#fff',
-    weight: 3, opacity: 1, fillOpacity: 0.9
-  }).bindPopup(popupHtml).addTo(map);
+  return RR.terminalMarker(map, lat, lng, popupHtml);
 }
 
 function createStationMarker(map, lat, lng, mins, popupHtml) {
-  return L.circleMarker([lat, lng], {
-    radius: 7, fillColor: getColor(mins), color: '#fff',
-    weight: 2, opacity: 1, fillOpacity: 0.85
-  }).bindPopup(popupHtml).addTo(map);
+  return RR.stationMarker(map, { lat: lat, lng: lng, name: '' }, mins, popupHtml);
 }
-'''
+"""
 
 
 def write_shared_js(data_js):
@@ -450,8 +442,9 @@ def generate_terminal_page(code, terminals, stations, total):
     body = f'''<body>
 {site_header('terminals')}
 {crumbs([("RailReach", "/"), ("Terminals", "/terminals/"), (f"{name} train times", None)])}
-<div class="map-shell">
-<div id="map" role="application" aria-label="Map of train journey times to London {name}"></div>
+<div class="map-shell" role="region" aria-label="Map of train journey times to London {name}">
+<a class="skip-map" href="#all-stations">Skip the map and read the journey times as a table</a>
+<div id="map"></div>
 {legend()}
 <div class="station-count" id="station-count"></div>
 {PROMO}
@@ -463,7 +456,7 @@ def generate_terminal_page(code, terminals, stations, total):
 <p class="lede">{count} stations reach London {name} within 90 minutes, {direct_count} of them on a direct train. Services are operated by {operators}. The fastest commute is from {fastest[0]} at {fastest[1]} minutes.</p>
 {facts}
 
-<h2>Every station to {name}</h2>
+<h2 id="all-stations">Every station to {name}</h2>
 <p class="section-note">Sorted fastest first. Times are the quickest typical weekday service.</p>
 <div class="table-scroll">
 <table>
@@ -489,21 +482,24 @@ def generate_terminal_page(code, terminals, stations, total):
 <script type="application/ld+json">{ld}</script>
 
 <script src="/assets/js/stations-data.js"></script>
-<script src="/assets/js/map-core.js"></script>
+<script src="/assets/js/map-ui.js"></script>
 <script>
 const code='{code}';
 const t=TERMINALS[code];
-const map=initMap(t.lat,t.lng,8);
-createTerminalMarker(map,t.lat,t.lng,'<strong>'+t.name+'</strong><br>London terminal');
+const map=RR.createMap('map');
+const pts=[[t.lat,t.lng]];
+RR.terminalMarker(map,t.lat,t.lng,'<strong>London '+RR.esc(t.name)+'</strong><br>London terminal');
 let count=0;
-STATIONS.forEach(s=>{{
+STATIONS.forEach(function(s){{
   const j=s.journeys[code];
   if(j&&j.mins<=90){{
-    createStationMarker(map,s.lat,s.lng,j.mins,'<strong>'+s.name+'</strong><br>To '+t.name+': <strong>'+j.mins+' min</strong><br>'+(j.direct?'Direct train':'Requires a change'));
+    RR.stationMarker(map,s,j.mins,RR.stationPopup(s,t.name,j));
+    pts.push([s.lat,s.lng]);
     count++;
   }}
 }});
 document.getElementById('station-count').textContent=count+' stations within 90 min of '+t.name;
+RR.fit(map,pts,{{animate:false}});
 </script>
 {site_footer(total)}'''
 
@@ -651,16 +647,24 @@ def generate_station_page(station_name, slug, terminals, stations, total):
     ])
 
     polylines = '\n'.join(
-        "L.polyline([[{},{}],[{},{}]],{{color:getColor({}),weight:3,opacity:0.7,{}}}).addTo(map);".format(
+        "L.polyline([[{},{}],[{},{}]],{{color:RR.colour({}),weight:3,opacity:0.75,{}}}).addTo(map);".format(
             sdata['lat'], sdata['lng'], terminals[c]['lat'], terminals[c]['lng'], j['mins'],
             "" if j['direct'] else "dashArray:'8,6',")
         for c, j in sorted_journeys)
 
     term_markers = '\n'.join(
-        "createTerminalMarker(map,{},{},'<strong>{}</strong><br>{} min from {}<br>{}');".format(
+        "RR.terminalMarker(map,{},{},'<strong>London {}</strong><br>{} min from {}<br>{}"
+        "<br><a class=\"popup-link\" href=\"/terminals/{}/\">Terminal guide &rarr;</a>');".format(
             terminals[c]['lat'], terminals[c]['lng'], json_esc(TERMINAL_META[c]['name']),
-            j['mins'], json_esc(station_name), "Direct" if j['direct'] else "Requires a change")
+            j['mins'], json_esc(station_name),
+            "Direct" if j['direct'] else "Requires a change", TERMINAL_META[c]['slug'])
         for c, j in sorted_journeys)
+
+    # Every point the map must frame: the station plus each terminal it reaches.
+    fit_points = '[[{},{}],{}]'.format(
+        sdata['lat'], sdata['lng'],
+        ','.join('[{},{}]'.format(terminals[c]['lat'], terminals[c]['lng'])
+                 for c, _ in sorted_journeys))
 
     # One section per route, so the page answers "<station> to <terminal>"
     # directly. Separate route pages would be near-duplicates: 345 stations
@@ -682,13 +686,14 @@ def generate_station_page(station_name, slug, terminals, stations, total):
     route_sections = '\n'.join(route_parts)
 
     this_station_legend = ('<div class="legend-item"><div class="legend-dot" '
-                           'style="background:#3b82f6"></div> This station</div>\n')
+                           'style="background:#7c3aed"></div> This station</div>\n')
 
     body = f'''<body>
 {site_header('stations')}
 {crumbs([("RailReach", "/"), ("Stations", "/stations/"), (f"{station_name} to London", None)])}
-<div class="map-shell">
-<div id="map" role="application" aria-label="Map of train routes from {station_name} to London"></div>
+<div class="map-shell" role="region" aria-label="Map of train routes from {station_name} to London">
+<a class="skip-map" href="#journey-comparison">Skip the map and read the journey times as a table</a>
+<div id="map"></div>
 {legend(this_station_legend)}
 <div class="station-count" id="station-count"></div>
 {PROMO}
@@ -700,7 +705,7 @@ def generate_station_page(station_name, slug, terminals, stations, total):
 <p class="lede">{station_name} connects to {n_terms} London terminal{plural}. The fastest route is {fastest_name} in {fastest_j['mins']} minutes{" on a direct train" if fastest_j['direct'] else ", with one change"}.</p>
 {facts}
 
-<h2>{station_name} to each London terminal</h2>
+<h2 id="journey-comparison">{station_name} to each London terminal</h2>
 <div class="table-scroll">
 <table>
 <caption>Journey times from {station_name} to London terminals</caption>
@@ -731,13 +736,15 @@ def generate_station_page(station_name, slug, terminals, stations, total):
 <script type="application/ld+json">{ld}</script>
 
 <script src="/assets/js/stations-data.js"></script>
-<script src="/assets/js/map-core.js"></script>
+<script src="/assets/js/map-ui.js"></script>
 <script>
-const map=initMap({sdata['lat']},{sdata['lng']},9);
-L.circleMarker([{sdata['lat']},{sdata['lng']}],{{radius:12,fillColor:'#3b82f6',color:'#fff',weight:3,opacity:1,fillOpacity:0.9}}).bindPopup('<strong>{json_esc(station_name)}</strong>').addTo(map);
+const map=RR.createMap('map');
+L.circleMarker([{sdata['lat']},{sdata['lng']}],{{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}}).bindPopup('<strong>{json_esc(station_name)}</strong><br>This station').addTo(map);
 {term_markers}
 {polylines}
 document.getElementById('station-count').textContent='{json_esc(station_name)}: {n_terms} London terminal{plural}';
+// Fixes the 182 of 357 routes whose destination fell off a 375px screen.
+RR.fit(map,{fit_points},{{animate:false}});
 </script>
 {site_footer(total)}'''
 
@@ -1235,7 +1242,8 @@ def generate_sw():
     """
     import hashlib
     h = hashlib.sha256()
-    for rel in ('assets/css/shared.css', 'assets/js/stations-data.js', 'assets/js/map-core.js'):
+    for rel in ('assets/css/shared.css', 'assets/js/stations-data.js',
+                'assets/js/map-core.js', 'assets/js/map-ui.js', 'assets/js/home-map.js'):
         with open(os.path.join(BASE, rel), 'rb') as f:
             h.update(f.read())
     version = h.hexdigest()[:10]
@@ -1246,6 +1254,8 @@ const PRECACHE = [
   '/',
   '/assets/css/shared.css',
   '/assets/js/stations-data.js',
+  '/assets/js/map-ui.js',
+  '/assets/js/home-map.js',
   '/assets/js/map-core.js',
   '/favicon.svg',
   '/manifest.json'
