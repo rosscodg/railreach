@@ -31,7 +31,7 @@ At 22 minutes to London Fenchurch Street, Chafford Hundred is an excellent commu
 
 ### Are there direct trains from Chafford Hundred to London?
 
-Yes — direct services run to Fenchurch Street.
+Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to Chafford Hundred?
 

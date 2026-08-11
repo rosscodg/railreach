@@ -31,7 +31,7 @@ At 47 minutes to London Fenchurch Street, Leigh-on-Sea is a practical commuter c
 
 ### Are there direct trains from Leigh-on-Sea to London?
 
-Yes — direct services run to Fenchurch Street.
+Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to Leigh-on-Sea?
 

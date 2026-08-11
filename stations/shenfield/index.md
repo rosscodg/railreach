@@ -31,7 +31,7 @@ At 24 minutes to London Liverpool Street, Shenfield is an excellent commuter bas
 
 ### Are there direct trains from Shenfield to London?
 
-Yes — direct services run to Liverpool Street.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Shenfield?
 

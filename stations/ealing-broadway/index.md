@@ -31,7 +31,7 @@ At 10 minutes to London Paddington, Ealing Broadway is an excellent commuter bas
 
 ### Are there direct trains from Ealing Broadway to London?
 
-Yes — direct services run to Paddington.
+Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Ealing Broadway?
 

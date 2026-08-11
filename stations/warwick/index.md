@@ -31,7 +31,7 @@ At 85 minutes to London Marylebone, Warwick is a longer commute, typically trade
 
 ### Are there direct trains from Warwick to London?
 
-Yes — direct services run to Marylebone.
+Yes. Direct services run to Marylebone.
 
 ### What are the nearest stations to Warwick?
 

@@ -31,7 +31,7 @@ At 18 minutes to London London Bridge, Beckenham Hill is an excellent commuter b
 
 ### Are there direct trains from Beckenham Hill to London?
 
-Yes — direct services run to London Bridge.
+Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Beckenham Hill?
 

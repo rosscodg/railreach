@@ -31,7 +31,7 @@ At 55 minutes to London Liverpool Street, Southend Victoria is a practical commu
 
 ### Are there direct trains from Southend Victoria to London?
 
-Yes — direct services run to Liverpool Street.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Southend Victoria?
 

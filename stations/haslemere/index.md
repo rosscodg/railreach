@@ -31,7 +31,7 @@ At 50 minutes to London Waterloo, Haslemere is a practical commuter choice, with
 
 ### Are there direct trains from Haslemere to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Haslemere?
 

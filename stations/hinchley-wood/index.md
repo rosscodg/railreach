@@ -31,7 +31,7 @@ At 27 minutes to London Waterloo, Hinchley Wood is an excellent commuter base, w
 
 ### Are there direct trains from Hinchley Wood to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Hinchley Wood?
 

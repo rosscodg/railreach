@@ -31,7 +31,7 @@ At 42 minutes to London Waterloo, Farncombe is a practical commuter choice, with
 
 ### Are there direct trains from Farncombe to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Farncombe?
 

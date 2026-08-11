@@ -31,7 +31,7 @@ At 16 minutes to London Waterloo, Raynes Park is an excellent commuter base, wit
 
 ### Are there direct trains from Raynes Park to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Raynes Park?
 

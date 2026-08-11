@@ -31,7 +31,7 @@ At 62 minutes to London Paddington, Chippenham is a longer commute, typically tr
 
 ### Are there direct trains from Chippenham to London?
 
-Yes — direct services run to Paddington.
+Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Chippenham?
 

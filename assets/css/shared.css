@@ -302,22 +302,31 @@ a:focus-visible, button:focus-visible, select:focus-visible {
   :root { --map-h: 62vh; }
   .site-header { gap: 10px; padding: 0 14px; }
   .site-nav a { padding: 5px 9px; font-size: 12px; }
-  #promo-banner { height: 50px; bottom: 20px; }
-  #promo-slot-1 { width: 320px; height: 50px; border-radius: 4px; }
-  .promo-connells .promo-logo { padding: 0 10px; font-size: 16px; }
-  .promo-connells .promo-logo span { font-size: 8px; }
+  /* Taller than the desktop-derived 50px: the headline needs the room, and
+     truncating advertiser copy mid-sentence is worse than 14 extra pixels. */
+  #promo-banner { height: 64px; bottom: 20px; }
+  #promo-slot-1 { width: 320px; height: 64px; border-radius: 4px; }
+  .promo-connells .promo-logo { padding: 0 8px; font-size: 14px; }
+  .promo-connells .promo-logo span { font-size: 7px; letter-spacing: 0.5px; }
   .promo-connells .promo-body { padding: 0 8px; }
-  .promo-connells .promo-headline { font-size: 11px; margin-bottom: 1px; }
-  .promo-connells .promo-sub { font-size: 9px; }
-  .promo-connells .promo-cta { margin: 0 8px; padding: 5px 10px; font-size: 10px; }
+  /* The slot clips with overflow:hidden, and the headline had only 109px of
+     width once the logo and CTA took their share. The sub line is dropped and
+     the logo/CTA tightened so the full headline fits without truncation. */
+  .promo-connells .promo-headline { font-size: 11px; line-height: 1.25; margin-bottom: 0; }
+  .promo-connells .promo-sub { display: none; }
+  .promo-connells .promo-cta { margin: 0 6px; padding: 5px 8px; font-size: 9px; letter-spacing: 0.3px; }
   .controls { left: 50% !important; transform: translateX(-50%); right: auto; padding: 6px 8px; }
   .controls label { display: none; }
   #terminal-buttons { display: none; }
   #terminal-select { display: block; min-width: 200px; }
+  /* Wrap rather than overflow: at 375px the four items measured 404px wide,
+     which was the page's only source of horizontal scroll. */
   .legend {
-    bottom: 72px; right: auto; left: 50%; transform: translateX(-50%);
-    padding: 8px 14px; border-radius: var(--radius-pill);
-    display: flex; flex-direction: row; align-items: center; gap: 10px;
+    bottom: 96px; right: auto; left: 50%; transform: translateX(-50%);
+    padding: 8px 12px; border-radius: var(--radius);
+    display: flex; flex-flow: row wrap; align-items: center;
+    justify-content: center; gap: 4px 12px;
+    max-width: calc(100vw - 20px);
   }
   .legend .legend-title, .legend h4 { display: none; }
   .legend-item { margin-bottom: 0; font-size: 11px; white-space: nowrap; }

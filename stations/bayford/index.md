@@ -31,7 +31,7 @@ At 36 minutes to London Kings Cross, Bayford is a practical commuter choice, wit
 
 ### Are there direct trains from Bayford to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Bayford?
 

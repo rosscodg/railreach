@@ -31,7 +31,7 @@ At 55 minutes to London Marylebone, Kings Sutton is a practical commuter choice,
 
 ### Are there direct trains from Kings Sutton to London?
 
-Yes — direct services run to Marylebone.
+Yes. Direct services run to Marylebone.
 
 ### What are the nearest stations to Kings Sutton?
 

@@ -31,7 +31,7 @@ At 15 minutes to London Paddington, Slough is an excellent commuter base, with a
 
 ### Are there direct trains from Slough to London?
 
-Yes — direct services run to Paddington.
+Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Slough?
 

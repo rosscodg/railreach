@@ -31,7 +31,7 @@ At 24 minutes to London Kings Cross, Radlett is an excellent commuter base, with
 
 ### Are there direct trains from Radlett to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Radlett?
 

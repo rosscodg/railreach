@@ -31,7 +31,7 @@ At 30 minutes to London Waterloo, Byfleet & New Haw is a practical commuter choi
 
 ### Are there direct trains from Byfleet & New Haw to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Byfleet & New Haw?
 

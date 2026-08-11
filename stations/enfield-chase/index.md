@@ -31,7 +31,7 @@ At 22 minutes to London Kings Cross, Enfield Chase is an excellent commuter base
 
 ### Are there direct trains from Enfield Chase to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Enfield Chase?
 

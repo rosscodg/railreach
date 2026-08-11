@@ -31,7 +31,7 @@ At 37 minutes to London Kings Cross, Baldock is a practical commuter choice, wit
 
 ### Are there direct trains from Baldock to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Baldock?
 

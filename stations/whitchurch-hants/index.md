@@ -31,7 +31,7 @@ At 60 minutes to London Waterloo, Whitchurch (Hants) is a longer commute, typica
 
 ### Are there direct trains from Whitchurch (Hants) to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Whitchurch (Hants)?
 

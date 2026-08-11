@@ -31,7 +31,7 @@ At 76 minutes to London Waterloo, Southampton Central is a longer commute, typic
 
 ### Are there direct trains from Southampton Central to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Southampton Central?
 

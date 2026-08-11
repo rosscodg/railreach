@@ -31,7 +31,7 @@ At 23 minutes to London Kings Cross, Luton Airport Parkway is an excellent commu
 
 ### Are there direct trains from Luton Airport Parkway to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Luton Airport Parkway?
 

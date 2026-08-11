@@ -31,7 +31,7 @@ At 12 minutes to London Liverpool Street, Tottenham Hale is an excellent commute
 
 ### Are there direct trains from Tottenham Hale to London?
 
-Yes — direct services run to Liverpool Street.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Tottenham Hale?
 

@@ -31,7 +31,7 @@ At 32 minutes to London Waterloo, Oxshott is a practical commuter choice, with t
 
 ### Are there direct trains from Oxshott to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Oxshott?
 

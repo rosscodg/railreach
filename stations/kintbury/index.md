@@ -31,7 +31,7 @@ At 55 minutes to London Paddington, Kintbury is a practical commuter choice, wit
 
 ### Are there direct trains from Kintbury to London?
 
-Yes — direct services run to Paddington.
+Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Kintbury?
 

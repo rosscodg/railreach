@@ -31,7 +31,7 @@ At 33 minutes to London Fenchurch Street, Basildon is a practical commuter choic
 
 ### Are there direct trains from Basildon to London?
 
-Yes — direct services run to Fenchurch Street.
+Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to Basildon?
 

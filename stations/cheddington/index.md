@@ -31,7 +31,7 @@ At 38 minutes to London Euston, Cheddington is a practical commuter choice, with
 
 ### Are there direct trains from Cheddington to London?
 
-Yes — direct services run to Euston.
+Yes. Direct services run to Euston.
 
 ### What are the nearest stations to Cheddington?
 

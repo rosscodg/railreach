@@ -31,7 +31,7 @@ At 47 minutes to London Liverpool Street, Stansted Airport is a practical commut
 
 ### Are there direct trains from Stansted Airport to London?
 
-Yes — direct services run to Liverpool Street.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Stansted Airport?
 

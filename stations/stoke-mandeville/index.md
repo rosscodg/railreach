@@ -31,7 +31,7 @@ At 47 minutes to London Marylebone, Stoke Mandeville is a practical commuter cho
 
 ### Are there direct trains from Stoke Mandeville to London?
 
-Yes — direct services run to Marylebone.
+Yes. Direct services run to Marylebone.
 
 ### What are the nearest stations to Stoke Mandeville?
 

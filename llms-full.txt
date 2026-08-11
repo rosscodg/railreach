@@ -1,4 +1,4 @@
-# RailReach — complete dataset
+# RailReach: complete dataset
 
 Train journey times from 345 UK stations to the 9 London main line terminals.
 
@@ -6,13 +6,13 @@ Source: published National Rail operator timetables, 2026
 Basis: fastest typical weekday service on each route
 Threshold: journeys of 90 minutes or less
 Last reviewed: 2026-07-28
-Licence: CC BY 4.0 — reuse permitted with attribution to RailReach (https://railreach.co.uk/)
+Licence: CC BY 4.0. Reuse permitted with attribution to RailReach (https://railreach.co.uk/)
 Machine-readable: https://railreach.co.uk/data/journey-times.json and https://railreach.co.uk/data/journey-times.csv
 
 ## What this data is and is not
 
 These are planning figures, not live departures. Each number is the quickest journey a
-commuter could expect on a normal weekday — not an average, and not a record time.
+commuter could expect on a normal weekday, not an average and not a record time.
 Off-peak, evening and weekend services are frequently slower. Engineering works, strike
 action and day-to-day disruption are not reflected. Where no direct service exists, the
 figure is the quickest routing with one change, including a realistic interchange
@@ -472,4 +472,4 @@ Page: https://railreach.co.uk/terminals/fenchurch-street/
 ## Citation
 
 RailReach, "UK train journey times to London terminals" (2026-07-28).
-https://railreach.co.uk/ — CC BY 4.0.
+https://railreach.co.uk/ (CC BY 4.0).

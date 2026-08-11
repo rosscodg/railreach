@@ -31,7 +31,7 @@ At 30 minutes to London Liverpool Street, Harlow Town is a practical commuter ch
 
 ### Are there direct trains from Harlow Town to London?
 
-Yes — direct services run to Liverpool Street.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Harlow Town?
 

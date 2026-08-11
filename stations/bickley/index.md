@@ -31,7 +31,7 @@ At 20 minutes to London Victoria, Bickley is an excellent commuter base, with a 
 
 ### Are there direct trains from Bickley to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Bickley?
 

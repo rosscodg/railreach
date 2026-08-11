@@ -31,7 +31,7 @@ At 23 minutes to London London Bridge, Abbey Wood is an excellent commuter base,
 
 ### Are there direct trains from Abbey Wood to London?
 
-Yes — direct services run to London Bridge.
+Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Abbey Wood?
 

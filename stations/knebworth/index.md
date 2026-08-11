@@ -31,7 +31,7 @@ At 28 minutes to London Kings Cross, Knebworth is an excellent commuter base, wi
 
 ### Are there direct trains from Knebworth to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Knebworth?
 

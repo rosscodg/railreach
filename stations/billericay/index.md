@@ -31,7 +31,7 @@ At 32 minutes to London Liverpool Street, Billericay is a practical commuter cho
 
 ### Are there direct trains from Billericay to London?
 
-Yes — direct services run to Liverpool Street.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Billericay?
 

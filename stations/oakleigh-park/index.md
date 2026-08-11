@@ -31,7 +31,7 @@ At 17 minutes to London Kings Cross, Oakleigh Park is an excellent commuter base
 
 ### Are there direct trains from Oakleigh Park to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Oakleigh Park?
 

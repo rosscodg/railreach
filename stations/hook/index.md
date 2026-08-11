@@ -31,7 +31,7 @@ At 50 minutes to London Waterloo, Hook is a practical commuter choice, with the 
 
 ### Are there direct trains from Hook to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Hook?
 

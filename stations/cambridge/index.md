@@ -32,7 +32,7 @@ At 49 minutes to London Kings Cross, Cambridge is a practical commuter choice, w
 
 ### Are there direct trains from Cambridge to London?
 
-Yes — direct services run to Kings Cross, Liverpool Street.
+Yes. Direct services run to Kings Cross, Liverpool Street.
 
 ### What are the nearest stations to Cambridge?
 

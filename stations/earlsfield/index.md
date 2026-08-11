@@ -31,7 +31,7 @@ At 10 minutes to London Waterloo, Earlsfield is an excellent commuter base, with
 
 ### Are there direct trains from Earlsfield to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Earlsfield?
 

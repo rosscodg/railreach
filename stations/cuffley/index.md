@@ -31,7 +31,7 @@ At 32 minutes to London Kings Cross, Cuffley is a practical commuter choice, wit
 
 ### Are there direct trains from Cuffley to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Cuffley?
 

@@ -31,7 +31,7 @@ At 56 minutes to London Paddington, Bedwyn is a practical commuter choice, with 
 
 ### Are there direct trains from Bedwyn to London?
 
-Yes — direct services run to Paddington.
+Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Bedwyn?
 

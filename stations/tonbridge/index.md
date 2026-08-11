@@ -32,7 +32,7 @@ At 36 minutes to London London Bridge, Tonbridge is a practical commuter choice,
 
 ### Are there direct trains from Tonbridge to London?
 
-Yes — direct services run to London Bridge, Victoria.
+Yes. Direct services run to London Bridge, Victoria.
 
 ### What are the nearest stations to Tonbridge?
 

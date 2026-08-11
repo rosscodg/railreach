@@ -31,7 +31,7 @@ At 70 minutes to London Victoria, Worthing is a longer commute, typically traded
 
 ### Are there direct trains from Worthing to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Worthing?
 

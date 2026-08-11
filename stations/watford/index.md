@@ -31,7 +31,7 @@ At 16 minutes to London Euston, Watford Junction is an excellent commuter base, 
 
 ### Are there direct trains from Watford Junction to London?
 
-Yes — direct services run to Euston.
+Yes. Direct services run to Euston.
 
 ### What are the nearest stations to Watford Junction?
 

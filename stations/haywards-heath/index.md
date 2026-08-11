@@ -32,7 +32,7 @@ At 42 minutes to London Victoria, Haywards Heath is a practical commuter choice,
 
 ### Are there direct trains from Haywards Heath to London?
 
-Yes — direct services run to Victoria, London Bridge.
+Yes. Direct services run to Victoria, London Bridge.
 
 ### What are the nearest stations to Haywards Heath?
 

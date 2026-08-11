@@ -1,5 +1,5 @@
-// RailReach Service Worker — cache name is stamped per build by _build/generate-pages.py
-const CACHE_NAME = 'railreach-c471f25cac';
+// RailReach Service Worker. Cache name is stamped per build by _build/generate-pages.py
+const CACHE_NAME = 'railreach-8c04e6f348';
 const PRECACHE = [
   '/',
   '/assets/css/shared.css',
@@ -49,7 +49,7 @@ self.addEventListener('fetch', e => {
     return;
   }
 
-  // Own assets: stale-while-revalidate — fast, but never stale for more than one visit
+  // Own assets: stale-while-revalidate, fast but never stale for more than one visit
   e.respondWith(
     caches.match(e.request).then(cached => {
       const network = fetch(e.request).then(resp => {

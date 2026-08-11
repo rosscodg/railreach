@@ -31,7 +31,7 @@ At 38 minutes to London Liverpool Street, Sawbridgeworth is a practical commuter
 
 ### Are there direct trains from Sawbridgeworth to London?
 
-Yes — direct services run to Liverpool Street.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Sawbridgeworth?
 

@@ -31,7 +31,7 @@ At 33 minutes to London Paddington, Theale is a practical commuter choice, with 
 
 ### Are there direct trains from Theale to London?
 
-Yes — direct services run to Paddington.
+Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Theale?
 

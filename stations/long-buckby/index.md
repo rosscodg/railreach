@@ -31,7 +31,7 @@ At 56 minutes to London Euston, Long Buckby is a practical commuter choice, with
 
 ### Are there direct trains from Long Buckby to London?
 
-Yes — direct services run to Euston.
+Yes. Direct services run to Euston.
 
 ### What are the nearest stations to Long Buckby?
 

@@ -31,7 +31,7 @@ At 66 minutes to London Victoria, Headcorn is a longer commute, typically traded
 
 ### Are there direct trains from Headcorn to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Headcorn?
 

@@ -31,7 +31,7 @@ At 57 minutes to London Victoria, East Grinstead is a practical commuter choice,
 
 ### Are there direct trains from East Grinstead to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to East Grinstead?
 

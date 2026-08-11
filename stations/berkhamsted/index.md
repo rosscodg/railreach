@@ -31,7 +31,7 @@ At 31 minutes to London Euston, Berkhamsted is a practical commuter choice, with
 
 ### Are there direct trains from Berkhamsted to London?
 
-Yes — direct services run to Euston.
+Yes. Direct services run to Euston.
 
 ### What are the nearest stations to Berkhamsted?
 

@@ -31,7 +31,7 @@ At 58 minutes to London Waterloo, Alton is a practical commuter choice, with the
 
 ### Are there direct trains from Alton to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Alton?
 

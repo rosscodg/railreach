@@ -31,7 +31,7 @@ At 40 minutes to London Marylebone, Monks Risborough is a practical commuter cho
 
 ### Are there direct trains from Monks Risborough to London?
 
-Yes — direct services run to Marylebone.
+Yes. Direct services run to Marylebone.
 
 ### What are the nearest stations to Monks Risborough?
 

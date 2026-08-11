@@ -31,7 +31,7 @@ At 37 minutes to London Liverpool Street, Bishops Stortford is a practical commu
 
 ### Are there direct trains from Bishops Stortford to London?
 
-Yes — direct services run to Liverpool Street.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Bishops Stortford?
 

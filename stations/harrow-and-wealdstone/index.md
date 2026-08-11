@@ -31,7 +31,7 @@ At 12 minutes to London Euston, Harrow & Wealdstone is an excellent commuter bas
 
 ### Are there direct trains from Harrow & Wealdstone to London?
 
-Yes — direct services run to Euston.
+Yes. Direct services run to Euston.
 
 ### What are the nearest stations to Harrow & Wealdstone?
 

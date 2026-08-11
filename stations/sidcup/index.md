@@ -31,7 +31,7 @@ At 24 minutes to London London Bridge, Sidcup is an excellent commuter base, wit
 
 ### Are there direct trains from Sidcup to London?
 
-Yes — direct services run to London Bridge.
+Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Sidcup?
 

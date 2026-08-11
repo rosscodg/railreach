@@ -31,7 +31,7 @@ At 78 minutes to London Victoria, Angmering is a longer commute, typically trade
 
 ### Are there direct trains from Angmering to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Angmering?
 

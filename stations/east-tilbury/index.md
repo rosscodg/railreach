@@ -31,7 +31,7 @@ At 34 minutes to London Fenchurch Street, East Tilbury is a practical commuter c
 
 ### Are there direct trains from East Tilbury to London?
 
-Yes — direct services run to Fenchurch Street.
+Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to East Tilbury?
 

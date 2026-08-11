@@ -31,7 +31,7 @@ At 47 minutes to London Waterloo, Winchfield is a practical commuter choice, wit
 
 ### Are there direct trains from Winchfield to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Winchfield?
 

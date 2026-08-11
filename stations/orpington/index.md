@@ -32,7 +32,7 @@ At 22 minutes to London Victoria, Orpington is an excellent commuter base, with 
 
 ### Are there direct trains from Orpington to London?
 
-Yes — direct services run to Victoria, London Bridge.
+Yes. Direct services run to Victoria, London Bridge.
 
 ### What are the nearest stations to Orpington?
 

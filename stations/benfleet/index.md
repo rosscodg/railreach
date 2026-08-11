@@ -31,7 +31,7 @@ At 42 minutes to London Fenchurch Street, Benfleet is a practical commuter choic
 
 ### Are there direct trains from Benfleet to London?
 
-Yes — direct services run to Fenchurch Street.
+Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to Benfleet?
 

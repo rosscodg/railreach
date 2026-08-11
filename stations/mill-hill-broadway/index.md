@@ -31,7 +31,7 @@ At 17 minutes to London Kings Cross, Mill Hill Broadway is an excellent commuter
 
 ### Are there direct trains from Mill Hill Broadway to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Mill Hill Broadway?
 

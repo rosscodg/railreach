@@ -31,7 +31,7 @@ At 35 minutes to London Victoria, Otford is a practical commuter choice, with th
 
 ### Are there direct trains from Otford to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Otford?
 

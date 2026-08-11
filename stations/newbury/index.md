@@ -31,7 +31,7 @@ At 39 minutes to London Paddington, Newbury is a practical commuter choice, with
 
 ### Are there direct trains from Newbury to London?
 
-Yes — direct services run to Paddington.
+Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Newbury?
 

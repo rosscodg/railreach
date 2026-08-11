@@ -31,7 +31,7 @@ At 12 minutes to London London Bridge, Blackheath is an excellent commuter base,
 
 ### Are there direct trains from Blackheath to London?
 
-Yes — direct services run to London Bridge.
+Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Blackheath?
 

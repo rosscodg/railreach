@@ -31,7 +31,7 @@ At 32 minutes to London Waterloo, Epsom is a practical commuter choice, with the
 
 ### Are there direct trains from Epsom to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Epsom?
 

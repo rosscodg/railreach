@@ -31,7 +31,7 @@ At 36 minutes to London Waterloo, Farnborough (Main) is a practical commuter cho
 
 ### Are there direct trains from Farnborough (Main) to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Farnborough (Main)?
 

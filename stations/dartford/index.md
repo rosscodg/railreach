@@ -31,7 +31,7 @@ At 33 minutes to London London Bridge, Dartford is a practical commuter choice, 
 
 ### Are there direct trains from Dartford to London?
 
-Yes — direct services run to London Bridge.
+Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Dartford?
 

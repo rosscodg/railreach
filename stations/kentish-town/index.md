@@ -31,7 +31,7 @@ At 4 minutes to London Kings Cross, Kentish Town is an excellent commuter base, 
 
 ### Are there direct trains from Kentish Town to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Kentish Town?
 

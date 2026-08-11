@@ -31,7 +31,7 @@ At 23 minutes to London Waterloo, Norbiton is an excellent commuter base, with a
 
 ### Are there direct trains from Norbiton to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Norbiton?
 

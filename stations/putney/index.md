@@ -31,7 +31,7 @@ At 14 minutes to London Waterloo, Putney is an excellent commuter base, with a s
 
 ### Are there direct trains from Putney to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Putney?
 

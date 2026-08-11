@@ -31,7 +31,7 @@ At 30 minutes to London Euston, Milton Keynes Central is a practical commuter ch
 
 ### Are there direct trains from Milton Keynes Central to London?
 
-Yes — direct services run to Euston.
+Yes. Direct services run to Euston.
 
 ### What are the nearest stations to Milton Keynes Central?
 

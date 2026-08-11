@@ -31,7 +31,7 @@ At 63 minutes to London Victoria, Portslade is a longer commute, typically trade
 
 ### Are there direct trains from Portslade to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Portslade?
 

@@ -31,7 +31,7 @@ At 22 minutes to London Kings Cross, Hadley Wood is an excellent commuter base, 
 
 ### Are there direct trains from Hadley Wood to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Hadley Wood?
 

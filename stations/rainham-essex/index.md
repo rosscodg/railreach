@@ -31,7 +31,7 @@ At 17 minutes to London Fenchurch Street, Rainham (Essex) is an excellent commut
 
 ### Are there direct trains from Rainham (Essex) to London?
 
-Yes — direct services run to Fenchurch Street.
+Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to Rainham (Essex)?
 

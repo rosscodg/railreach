@@ -31,7 +31,7 @@ At 47 minutes to London Liverpool Street, Hockley is a practical commuter choice
 
 ### Are there direct trains from Hockley to London?
 
-Yes — direct services run to Liverpool Street.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Hockley?
 

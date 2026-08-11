@@ -31,7 +31,7 @@ At 18 minutes to London Marylebone, Denham is an excellent commuter base, with a
 
 ### Are there direct trains from Denham to London?
 
-Yes — direct services run to Marylebone.
+Yes. Direct services run to Marylebone.
 
 ### What are the nearest stations to Denham?
 

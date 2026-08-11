@@ -31,7 +31,7 @@ At 65 minutes to London Waterloo, Andover is a longer commute, typically traded 
 
 ### Are there direct trains from Andover to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Andover?
 

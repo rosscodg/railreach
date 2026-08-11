@@ -31,7 +31,7 @@ At 30 minutes to London London Bridge, Slade Green is a practical commuter choic
 
 ### Are there direct trains from Slade Green to London?
 
-Yes — direct services run to London Bridge.
+Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Slade Green?
 

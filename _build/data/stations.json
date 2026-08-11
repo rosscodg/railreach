@@ -2,6 +2,7 @@
   "source": "National Rail operator timetables, 2026",
   "basis": "fastest typical weekday service",
   "maxMinutes": 90,
+  "lastReviewed": "2026-07-28",
   "terminals": {
     "KGX": {
       "name": "Kings Cross",

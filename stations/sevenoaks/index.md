@@ -32,7 +32,7 @@ At 23 minutes to London London Bridge, Sevenoaks is an excellent commuter base, 
 
 ### Are there direct trains from Sevenoaks to London?
 
-Yes — direct services run to London Bridge, Victoria.
+Yes. Direct services run to London Bridge, Victoria.
 
 ### What are the nearest stations to Sevenoaks?
 

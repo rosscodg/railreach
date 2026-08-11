@@ -31,7 +31,7 @@ At 82 minutes to London Paddington, Bristol Temple Meads is a longer commute, ty
 
 ### Are there direct trains from Bristol Temple Meads to London?
 
-Yes — direct services run to Paddington.
+Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Bristol Temple Meads?
 

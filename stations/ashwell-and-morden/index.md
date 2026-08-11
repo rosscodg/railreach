@@ -31,7 +31,7 @@ At 45 minutes to London Kings Cross, Ashwell & Morden is a practical commuter ch
 
 ### Are there direct trains from Ashwell & Morden to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Ashwell & Morden?
 

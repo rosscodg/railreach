@@ -31,7 +31,7 @@ At 48 minutes to London Victoria, Burgess Hill is a practical commuter choice, w
 
 ### Are there direct trains from Burgess Hill to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Burgess Hill?
 

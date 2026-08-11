@@ -25,7 +25,16 @@ import datetime
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://railreach.co.uk"
+
+# BUILD_DATE is when the pages were last generated. It is the right value for
+# sitemap lastmod, which describes when the page changed.
 BUILD_DATE = datetime.date.today().isoformat()
+
+# REVIEW_DATE is when the journey times were last checked against timetables.
+# It must NOT track the build: a CSS or copy change would otherwise claim a data
+# review that never happened. Loaded from stations.json in main(); bump it there
+# only when the data has actually been verified.
+REVIEW_DATE = BUILD_DATE
 
 # ── Terminal metadata ──────────────────────────────────────────────────────
 TERMINAL_META = {
@@ -131,7 +140,7 @@ def key_facts(pairs):
     """
     rows = '\n'.join(f'<div class="fact"><dt>{k}</dt><dd>{v}</dd></div>' for k, v in pairs)
     return (f'<dl class="key-facts">\n{rows}\n'
-            f'<div class="fact"><dt>Data reviewed</dt><dd>{BUILD_DATE}</dd></div>\n</dl>')
+            f'<div class="fact"><dt>Data reviewed</dt><dd>{REVIEW_DATE}</dd></div>\n</dl>')
 
 
 def train_station_ld(name, lat, lng, description, url):
@@ -154,7 +163,7 @@ def webpage_ld(name, description, url, about_name):
         "description": description,
         "url": url,
         "inLanguage": "en-GB",
-        "dateModified": BUILD_DATE,
+        "dateModified": REVIEW_DATE,
         "isPartOf": {"@type": "WebSite", "name": "RailReach", "url": SITE + "/"},
         "about": {"@type": "Thing", "name": about_name},
         "license": "https://creativecommons.org/licenses/by/4.0/",
@@ -259,14 +268,14 @@ PROMO = '''<div id="promo-banner">
 DATA_NOTE = ('<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday '
              'service on each route, compiled from published National Rail operator timetables for 2026. '
              'They exclude engineering works and disruption, and are not live departure times. '
-             f'Last reviewed {BUILD_DATE}. <a href="/about/">Read the full methodology &rarr;</a></div>')
+             f'Last reviewed {REVIEW_DATE}. <a href="/about/">Read the full methodology &rarr;</a></div>')
 
 
 def site_footer(total):
     return f'''<footer class="site-footer">
 <div class="wrap">
 <div>
-<p><strong>RailReach</strong> — free UK train commute time data.</p>
+<p><strong>RailReach</strong>: free UK train commute time data.</p>
 <p>Journey times from {total} stations to 9 London main line terminals, sourced from National Rail operator timetables for 2026.</p>
 </div>
 <div class="footer-links">
@@ -433,7 +442,7 @@ def generate_terminal_page(code, terminals, stations, total):
         ("Stations within 90 minutes", str(count)),
         ("Direct services", f"{direct_count} of {count}"),
         ("Stations under 30 minutes", str(len(under30))),
-        ("Fastest station", f"{fastest[0]} — {fastest[1]} minutes"),
+        ("Fastest station", f"{fastest[0]}, {fastest[1]} minutes"),
         ("Operators", operators),
         ("Source", "National Rail timetables, 2026"),
     ])
@@ -500,7 +509,7 @@ document.getElementById('station-count').textContent=count+' stations within 90 
 
     html = head(
         title=f"London {name} Train Times &amp; Journey Map | RailReach",
-        desc=f"Train journey times to London {name} from {count} stations — {top3}. Interactive map, direct and indirect routes, 2026 timetable data.",
+        desc=f"Train journey times to London {name} from {count} stations: {top3}. Interactive map, direct and indirect routes, 2026 timetable data.",
         canonical=f"{SITE}/terminals/{slug}/",
         og_title=f"{name} Train Times | RailReach",
         og_desc=f"Journey times to London {name} from {count} stations, mapped and ranked.",
@@ -530,7 +539,7 @@ direct train. Services are operated by {operators}.
 - Fastest station: {fastest[0]} - {fastest[1]} minutes
 - Operators: {operators}
 - Source: National Rail timetables, 2026
-- Data reviewed: {BUILD_DATE}
+- Data reviewed: {REVIEW_DATE}
 
 ## Every station to {name}
 
@@ -568,7 +577,7 @@ def generate_station_page(station_name, slug, terminals, stations, total):
     times_desc = ', '.join(f"{TERMINAL_META[c]['name']} ({j['mins']} min)" for c, j in sorted_journeys[:3])
     terminal_list = ', '.join(TERMINAL_META[c]['name'] for c, _ in sorted_journeys)
     direct_terminals = [TERMINAL_META[c]['name'] for c, j in sorted_journeys if j['direct']]
-    direct_text = ', '.join(direct_terminals) if direct_terminals else 'none — all routes require a change'
+    direct_text = ', '.join(direct_terminals) if direct_terminals else 'none; all routes require a change'
 
     dists = sorted(
         ((s2['name'], haversine(sdata['lat'], sdata['lng'], s2['lat'], s2['lng']), s2)
@@ -607,7 +616,7 @@ def generate_station_page(station_name, slug, terminals, stations, total):
                "a longer commute, typically traded off against more space and lower housing costs")
     simplicity = ("Direct trains keep the journey simple." if fastest_j['direct']
                   else "Most services require one change.")
-    direct_answer = (f"Yes — direct services run to {direct_text}." if direct_terminals
+    direct_answer = (f"Yes. Direct services run to {direct_text}." if direct_terminals
                      else f"No direct service is recorded from {station_name}; all routes into London require one change.")
 
     faqs_html = f"""<h3>How long does the train from {station_name} to London take?</h3>
@@ -635,7 +644,7 @@ def generate_station_page(station_name, slug, terminals, stations, total):
 
     facts = key_facts([
         ("Fastest journey to London", f"{fastest_j['mins']} minutes to {fastest_name}"),
-        ("Direct service", "Yes" if fastest_j['direct'] else "No — one change required"),
+        ("Direct service", "Yes" if fastest_j['direct'] else "No, one change required"),
         ("London terminals served", f"{n_terms} ({terminal_list})"),
         ("Operator", TERMINAL_META[fastest_code]['operators']),
         ("Source", "National Rail timetables, 2026"),
@@ -728,13 +737,13 @@ const map=initMap({sdata['lat']},{sdata['lng']},9);
 L.circleMarker([{sdata['lat']},{sdata['lng']}],{{radius:12,fillColor:'#3b82f6',color:'#fff',weight:3,opacity:1,fillOpacity:0.9}}).bindPopup('<strong>{json_esc(station_name)}</strong>').addTo(map);
 {term_markers}
 {polylines}
-document.getElementById('station-count').textContent='{json_esc(station_name)} — {n_terms} London terminal{plural}';
+document.getElementById('station-count').textContent='{json_esc(station_name)}: {n_terms} London terminal{plural}';
 </script>
 {site_footer(total)}'''
 
     html = head(
         title=f"{station_name} to London Train Times | RailReach",
-        desc=f"Train times from {station_name} to London — {times_desc}. Direct and indirect routes compared on an interactive map. 2026 timetable data.",
+        desc=f"Train times from {station_name} to London: {times_desc}. Direct and indirect routes compared on an interactive map. 2026 timetable data.",
         canonical=f"{SITE}/stations/{slug}/",
         og_title=f"{station_name} to London Train Times | RailReach",
         og_desc=f"Journey times from {station_name} to London terminals. {fastest_name} in {fastest_j['mins']} min.",
@@ -765,7 +774,7 @@ document.getElementById('station-count').textContent='{json_esc(station_name)} �
 - London terminals served: {n_terms} ({terminal_list})
 - Operator: {TERMINAL_META[fastest_code]['operators']}
 - Source: National Rail timetables, 2026
-- Data reviewed: {BUILD_DATE}
+- Data reviewed: {REVIEW_DATE}
 
 ## {station_name} to each London terminal
 
@@ -796,7 +805,7 @@ def generate_terminal_hub(stations, counts, total):
             ((s['name'], s['journeys'][code]['mins'])
              for s in stations if code in s['journeys'] and s['journeys'][code]['mins'] <= 90),
             key=lambda x: x[1])
-        fastest = serving[0] if serving else ('—', 0)
+        fastest = serving[0] if serving else ('None', 0)
         under30 = sum(1 for _, m in serving if m < 30)
         cards.append(
             f'<li><a class="card" href="/terminals/{meta["slug"]}/">'
@@ -813,7 +822,7 @@ def generate_terminal_hub(stations, counts, total):
 <h3>Which London terminal has the most commuter stations?</h3>
 <p>Waterloo has the widest commuter catchment, with {counts['WAT']} stations reaching it within 90 minutes, followed by Victoria ({counts['VIC']}) and Kings Cross ({counts['KGX']}).</p>
 <h3>Which London terminal should I commute into?</h3>
-<p>That is usually decided by where you live rather than by preference — each town sits on a line into one or two specific terminals. The table above shows the catchment of each, and every terminal page lists its stations in full.</p>"""
+<p>That is usually decided by where you live rather than by preference. Each town sits on a line into one or two specific terminals. The table above shows the catchment of each, and every terminal page lists its stations in full.</p>"""
 
     ld = json.dumps([
         json.loads(breadcrumb_ld([("RailReach", "/"), ("Terminals", "/terminals/")])),
@@ -828,7 +837,7 @@ def generate_terminal_hub(stations, counts, total):
 
     html = head(
         title="London Rail Terminals | Train Times to All 9 London Termini | RailReach",
-        desc="Compare all 9 London main line terminals — how many stations reach each within 90 minutes, which operators run them, and the fastest commute into every terminus.",
+        desc="Compare all 9 London main line terminals: how many stations reach each within 90 minutes, which operators run them, and the fastest commute into every terminus.",
         canonical=f"{SITE}/terminals/",
         og_title="London Rail Terminals | RailReach",
         og_desc="All 9 London main line terminals compared by commuter catchment.",
@@ -897,9 +906,9 @@ def generate_station_hub(page_info, total):
     faqs_html = f"""<h3>Which commuter towns are closest to London by train?</h3>
 <p>Of the towns with a full RailReach guide, {len(under30)} are within 30 minutes of a London terminal: {', '.join(under30)}. The quickest is {fastest[0]} at {fastest[1][0]} minutes into {fastest[1][1]}.</p>
 <h3>How do I compare two commuter towns?</h3>
-<p>Each station page lists every London terminal that town can reach, the journey time, whether the train is direct, and the operator — so two towns can be compared on identical measures.</p>
+<p>Each station page lists every London terminal that town can reach, the journey time, whether the train is direct, and the operator, so two towns can be compared on identical measures.</p>
 <h3>Does RailReach cover every UK station?</h3>
-<p>RailReach covers the {total} stations that reach a London main line terminal within 90 minutes — every one has its own journey guide. Stations beyond that threshold are outside a practical daily commute and are not included.</p>"""
+<p>RailReach covers the {total} stations that reach a London main line terminal within 90 minutes, and every one has its own journey guide. Stations beyond that threshold are outside a practical daily commute and are not included.</p>"""
 
     ld = json.dumps([
         json.loads(breadcrumb_ld([("RailReach", "/"), ("Stations", "/stations/")])),
@@ -914,7 +923,7 @@ def generate_station_hub(page_info, total):
 
     html = head(
         title="Commuter Stations to London | Journey Times by Town | RailReach",
-        desc=f"Every one of {len(ordered)} stations within 90 minutes of London, ranked by journey time — fastest terminal, direct services and nearby alternatives.",
+        desc=f"Every one of {len(ordered)} stations within 90 minutes of London, ranked by journey time: fastest terminal, direct services and nearby alternatives.",
         canonical=f"{SITE}/stations/",
         og_title="Commuter Stations to London | RailReach",
         og_desc="London commuter towns ranked by fastest train journey time.",
@@ -979,7 +988,7 @@ def generate_about(stations, counts, total, n_station_pages):
 <h3>Why is the cut-off 90 minutes?</h3>
 <p>Ninety minutes each way is the practical outer limit of a daily commute for most people. Stations beyond that threshold are excluded from the dataset.</p>
 <h3>Can I reuse this data?</h3>
-<p>Yes. The journey time dataset is published under a Creative Commons Attribution 4.0 licence — please credit RailReach and link back to this site.</p>"""
+<p>Yes. The journey time dataset is published under a Creative Commons Attribution 4.0 licence. Please credit RailReach and link back to this site.</p>"""
 
     ld = json.dumps([
         json.loads(breadcrumb_ld([("RailReach", "/"), ("About the data", "/about/")])),
@@ -991,7 +1000,7 @@ def generate_about(stations, counts, total, n_station_pages):
          "license": "https://creativecommons.org/licenses/by/4.0/",
          "creator": {"@type": "Organization", "name": "RailReach", "url": SITE + "/"},
          "temporalCoverage": "2026",
-         "dateModified": BUILD_DATE,
+         "dateModified": REVIEW_DATE,
          "spatialCoverage": {"@type": "Place", "name": "England and Wales"},
          "variableMeasured": [
              {"@type": "PropertyValue", "name": "Journey time", "unitText": "minutes"},
@@ -1019,7 +1028,7 @@ def generate_about(stations, counts, total, n_station_pages):
 <main id="content" class="page-content">
 <div class="wrap">
 <h1>About the data</h1>
-<p class="lede">RailReach publishes train journey times from {total} stations to all 9 London main line terminals — {pairs} station-to-terminal journeys in total, {direct} of them direct. This page explains where those numbers come from, and where they should not be relied on.</p>
+<p class="lede">RailReach publishes train journey times from {total} stations to all 9 London main line terminals: {pairs} station-to-terminal journeys in total, {direct} of them direct. This page explains where those numbers come from, and where they should not be relied on.</p>
 
 <h2>What RailReach is</h2>
 <p>RailReach is a free planning tool for anyone weighing up where to live against how long they will spend on a train. It is built for homebuyers, renters, relocators and daily commuters who need to compare towns on a like-for-like basis, rather than check a specific departure.</p>
@@ -1027,7 +1036,7 @@ def generate_about(stations, counts, total, n_station_pages):
 
 <h2>Sources and method</h2>
 <p>Journey times are compiled from published National Rail operator timetables for 2026. The operators covered are {', '.join(op_list)}.</p>
-<p>Each figure is the <strong>fastest typical weekday service</strong> on that route — the quickest journey a commuter could reasonably expect on a normal working day. It is not an average across all services, and it is not a record-setting one-off. Off-peak, evening and weekend journeys are frequently slower.</p>
+<p>Each figure is the <strong>fastest typical weekday service</strong> on that route: the quickest journey a commuter could reasonably expect on a normal working day. It is not an average across all services, and it is not a record-setting one-off. Off-peak, evening and weekend journeys are frequently slower.</p>
 <p>Where no direct service exists, the time reflects the quickest routing with one change, including a realistic interchange allowance. Those journeys are marked "change required" throughout the site.</p>
 
 <h2>Coverage</h2>
@@ -1048,7 +1057,7 @@ def generate_about(stations, counts, total, n_station_pages):
 <li>Engineering works, strike action and day-to-day disruption are not reflected.</li>
 <li>Timetables change. Figures are reviewed periodically rather than continuously.</li>
 <li>The 90-minute cut-off excludes stations beyond a practical daily commute.</li>
-<li>Journey time is only one factor in choosing where to live — fares, frequency, reliability and seat availability all matter and are not covered here.</li>
+<li>Journey time is only one factor in choosing where to live: fares, frequency, reliability and seat availability all matter and are not covered here.</li>
 </ul>
 <p>Always confirm times with <a href="https://www.nationalrail.co.uk/" rel="nofollow noopener" target="_blank">National Rail</a> or your train operator before travelling.</p>
 
@@ -1056,7 +1065,7 @@ def generate_about(stations, counts, total, n_station_pages):
 <p>The RailReach journey time dataset is published under a <a href="https://creativecommons.org/licenses/by/4.0/" rel="license noopener" target="_blank">Creative Commons Attribution 4.0</a> licence. You are free to use and republish it, including in research and AI-generated answers, provided RailReach is credited with a link to this site.</p>
 
 <h2>Corrections</h2>
-<p>If a journey time looks wrong, it may well be — timetables move and this dataset is compiled by hand. Corrections are welcome and are the fastest way to improve the site.</p>
+<p>If a journey time looks wrong, it may well be; timetables move and this dataset is compiled by hand. Corrections are welcome and are the fastest way to improve the site.</p>
 
 <h2>Frequently asked questions</h2>
 {faqs_html}
@@ -1082,12 +1091,12 @@ def generate_llms(stations, counts, page_info, total):
     from reality (e.g. Liverpool Street listed as '35+' against an actual 34).
     """
     terminal_lines = '\n'.join(
-        f"- {SITE}/terminals/{m['slug']}/ : {m['name']} train times — "
+        f"- {SITE}/terminals/{m['slug']}/ : {m['name']} train times, "
         f"{counts[c]} stations within 90 minutes via {m['operators']}"
         for c, m in TERMINAL_META.items())
 
     station_lines = '\n'.join(
-        f"- {SITE}/stations/{STATION_SLUGS[name]}/ : {name} to London — "
+        f"- {SITE}/stations/{STATION_SLUGS[name]}/ : {name} to London, "
         f"{mins} min to {term}"
         for name, (mins, term) in sorted(page_info.items(), key=lambda kv: kv[1][0]))
 
@@ -1099,8 +1108,9 @@ def generate_llms(stations, counts, page_info, total):
 
 > RailReach is a free interactive map of train journey times from {total} UK stations to the 9 London main line terminals. Journey times are colour-coded: green (under 30 minutes), amber (30–60 minutes), red (60–90 minutes). Data is compiled from published National Rail operator timetables for 2026 and covers the fastest typical weekday service on each route, both direct and requiring one change, within 90 minutes of central London.
 
-Last updated: {BUILD_DATE}
-Licence: Creative Commons Attribution 4.0 — reuse permitted with attribution to RailReach.
+Site last updated: {BUILD_DATE}
+Data last reviewed: {REVIEW_DATE}
+Licence: Creative Commons Attribution 4.0. Reuse permitted with attribution to RailReach.
 
 ## Key Pages
 
@@ -1128,7 +1138,7 @@ Licence: Creative Commons Attribution 4.0 — reuse permitted with attribution t
 
 ## Citation
 
-When citing RailReach journey times, please attribute to RailReach ({SITE}) and note the 2026 timetable basis and the {BUILD_DATE} review date.
+When citing RailReach journey times, please attribute to RailReach ({SITE}) and note the 2026 timetable basis and the {REVIEW_DATE} review date.
 """
     with open(os.path.join(BASE, 'llms.txt'), 'w') as f:
         f.write(txt)
@@ -1170,21 +1180,21 @@ Page: {SITE}/terminals/{meta['slug']}/
         key=lambda x: x[2])[:10]
     fastest_lines = '\n'.join(f"- {n} to {t}: {m} min" for n, t, m in fastest_overall)
 
-    txt = f"""# RailReach — complete dataset
+    txt = f"""# RailReach: complete dataset
 
 Train journey times from {total} UK stations to the 9 London main line terminals.
 
 Source: published National Rail operator timetables, 2026
 Basis: fastest typical weekday service on each route
 Threshold: journeys of 90 minutes or less
-Last reviewed: {BUILD_DATE}
-Licence: CC BY 4.0 — reuse permitted with attribution to RailReach ({SITE}/)
+Last reviewed: {REVIEW_DATE}
+Licence: CC BY 4.0. Reuse permitted with attribution to RailReach ({SITE}/)
 Machine-readable: {SITE}/data/journey-times.json and {SITE}/data/journey-times.csv
 
 ## What this data is and is not
 
 These are planning figures, not live departures. Each number is the quickest journey a
-commuter could expect on a normal weekday — not an average, and not a record time.
+commuter could expect on a normal weekday, not an average and not a record time.
 Off-peak, evening and weekend services are frequently slower. Engineering works, strike
 action and day-to-day disruption are not reflected. Where no direct service exists, the
 figure is the quickest routing with one change, including a realistic interchange
@@ -1206,8 +1216,8 @@ allowance, and is marked as such.
 
 ## Citation
 
-RailReach, "UK train journey times to London terminals" ({BUILD_DATE}).
-{SITE}/ — CC BY 4.0.
+RailReach, "UK train journey times to London terminals" ({REVIEW_DATE}).
+{SITE}/ (CC BY 4.0).
 """
     with open(os.path.join(BASE, 'llms-full.txt'), 'w') as f:
         f.write(txt)
@@ -1230,7 +1240,7 @@ def generate_sw():
             h.update(f.read())
     version = h.hexdigest()[:10]
 
-    sw = f'''// RailReach Service Worker — cache name is stamped per build by _build/generate-pages.py
+    sw = f'''// RailReach Service Worker. Cache name is stamped per build by _build/generate-pages.py
 const CACHE_NAME = 'railreach-{version}';
 const PRECACHE = [
   '/',
@@ -1281,7 +1291,7 @@ self.addEventListener('fetch', e => {{
     return;
   }}
 
-  // Own assets: stale-while-revalidate — fast, but never stale for more than one visit
+  // Own assets: stale-while-revalidate, fast but never stale for more than one visit
   e.respondWith(
     caches.match(e.request).then(cached => {{
       const network = fetch(e.request).then(resp => {{
@@ -1328,8 +1338,8 @@ def sync_index(terminals, stations, counts, total, data_js):
         html = f.read()
 
     lede = (f'<p class="lede">RailReach maps the fastest weekday train journey from '
-            f'<strong>{total} stations</strong> to all <strong>9 London main line terminals</strong> '
-            f'— every station within 90 minutes of central London, colour-coded by journey time. '
+            f'<strong>{total} stations</strong> to all <strong>9 London main line terminals</strong>. '
+            f'Every station within 90 minutes of central London, colour-coded by journey time. '
             f'Free to use, no sign-up.</p>')
 
     terminal_cards = '<ul class="link-grid">\n' + '\n'.join(
@@ -1428,7 +1438,7 @@ def export_dataset(terminals, stations):
             'source': 'National Rail operator timetables, 2026',
             'basis': 'fastest typical weekday service',
             'maxMinutes': 90,
-            'lastReviewed': BUILD_DATE,
+            'lastReviewed': REVIEW_DATE,
             'licence': 'CC BY 4.0',
             'attribution': f'RailReach ({SITE}/)',
             'terminals': {c: {**terminals[c], 'slug': TERMINAL_META[c]['slug'],
@@ -1443,8 +1453,13 @@ def export_dataset(terminals, stations):
 
 # ── Main ───────────────────────────────────────────────────────────────────
 def main():
+    global REVIEW_DATE
     print("Loading dataset...")
     terminals, stations = load_data()
+    with open(DATA_PATH) as f:
+        REVIEW_DATE = json.load(f).get('lastReviewed', BUILD_DATE)
+    if REVIEW_DATE != BUILD_DATE:
+        print(f"  data last reviewed {REVIEW_DATE} (build {BUILD_DATE})")
     STATION_SLUGS.update({s['name']: s['slug'] for s in stations})
     total = len(stations)
     counts = {c: sum(1 for s in stations if c in s['journeys'] and s['journeys'][c]['mins'] <= 90)
@@ -1482,7 +1497,7 @@ def main():
     generate_llms_full(terminals, stations, counts, total)
     export_dataset(terminals, stations)
 
-    print(f"\nDone — {9 + len(page_info) + 3} pages generated.")
+    print(f"\nDone: {9 + len(page_info) + 3} pages generated.")
 
 
 if __name__ == '__main__':

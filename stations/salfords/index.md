@@ -31,7 +31,7 @@ At 35 minutes to London London Bridge, Salfords is a practical commuter choice, 
 
 ### Are there direct trains from Salfords to London?
 
-Yes — direct services run to London Bridge.
+Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Salfords?
 

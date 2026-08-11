@@ -31,7 +31,7 @@ At 38 minutes to London Euston, Bletchley is a practical commuter choice, with t
 
 ### Are there direct trains from Bletchley to London?
 
-Yes — direct services run to Euston.
+Yes. Direct services run to Euston.
 
 ### What are the nearest stations to Bletchley?
 

@@ -31,7 +31,7 @@ At 19 minutes to London Paddington, Maidenhead is an excellent commuter base, wi
 
 ### Are there direct trains from Maidenhead to London?
 
-Yes — direct services run to Paddington.
+Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Maidenhead?
 

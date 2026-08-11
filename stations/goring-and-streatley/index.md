@@ -31,7 +31,7 @@ At 39 minutes to London Paddington, Goring & Streatley is a practical commuter c
 
 ### Are there direct trains from Goring & Streatley to London?
 
-Yes — direct services run to Paddington.
+Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Goring & Streatley?
 

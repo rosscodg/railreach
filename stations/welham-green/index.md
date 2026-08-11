@@ -31,7 +31,7 @@ At 26 minutes to London Kings Cross, Welham Green is an excellent commuter base,
 
 ### Are there direct trains from Welham Green to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Welham Green?
 

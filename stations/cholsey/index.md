@@ -31,7 +31,7 @@ At 45 minutes to London Paddington, Cholsey is a practical commuter choice, with
 
 ### Are there direct trains from Cholsey to London?
 
-Yes — direct services run to Paddington.
+Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Cholsey?
 

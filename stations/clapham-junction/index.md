@@ -32,7 +32,7 @@ At 5 minutes to London Victoria, Clapham Junction is an excellent commuter base,
 
 ### Are there direct trains from Clapham Junction to London?
 
-Yes — direct services run to Victoria, Waterloo.
+Yes. Direct services run to Victoria, Waterloo.
 
 ### What are the nearest stations to Clapham Junction?
 

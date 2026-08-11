@@ -31,7 +31,7 @@ At 30 minutes to London Fenchurch Street, Laindon is a practical commuter choice
 
 ### Are there direct trains from Laindon to London?
 
-Yes — direct services run to Fenchurch Street.
+Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to Laindon?
 

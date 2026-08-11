@@ -31,7 +31,7 @@ At 42 minutes to London Waterloo, Leatherhead is a practical commuter choice, wi
 
 ### Are there direct trains from Leatherhead to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Leatherhead?
 

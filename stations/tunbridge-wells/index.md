@@ -31,7 +31,7 @@ At 47 minutes to London London Bridge, Tunbridge Wells is a practical commuter c
 
 ### Are there direct trains from Tunbridge Wells to London?
 
-Yes — direct services run to London Bridge.
+Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Tunbridge Wells?
 

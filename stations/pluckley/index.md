@@ -31,7 +31,7 @@ At 72 minutes to London Victoria, Pluckley is a longer commute, typically traded
 
 ### Are there direct trains from Pluckley to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Pluckley?
 

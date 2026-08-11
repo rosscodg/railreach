@@ -31,7 +31,7 @@ At 22 minutes to London Euston, Kings Langley is an excellent commuter base, wit
 
 ### Are there direct trains from Kings Langley to London?
 
-Yes — direct services run to Euston.
+Yes. Direct services run to Euston.
 
 ### What are the nearest stations to Kings Langley?
 

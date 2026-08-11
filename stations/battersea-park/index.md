@@ -31,7 +31,7 @@ At 4 minutes to London Victoria, Battersea Park is an excellent commuter base, w
 
 ### Are there direct trains from Battersea Park to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Battersea Park?
 

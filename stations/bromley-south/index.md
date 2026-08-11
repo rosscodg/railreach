@@ -31,7 +31,7 @@ At 18 minutes to London Victoria, Bromley South is an excellent commuter base, w
 
 ### Are there direct trains from Bromley South to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Bromley South?
 

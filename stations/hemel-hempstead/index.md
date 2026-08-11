@@ -31,7 +31,7 @@ At 26 minutes to London Euston, Hemel Hempstead is an excellent commuter base, w
 
 ### Are there direct trains from Hemel Hempstead to London?
 
-Yes — direct services run to Euston.
+Yes. Direct services run to Euston.
 
 ### What are the nearest stations to Hemel Hempstead?
 

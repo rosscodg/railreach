@@ -31,7 +31,7 @@ At 45 minutes to London Paddington, Thatcham is a practical commuter choice, wit
 
 ### Are there direct trains from Thatcham to London?
 
-Yes — direct services run to Paddington.
+Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Thatcham?
 

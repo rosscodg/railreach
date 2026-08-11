@@ -31,7 +31,7 @@ At 28 minutes to London Kings Cross, Crews Hill is an excellent commuter base, w
 
 ### Are there direct trains from Crews Hill to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Crews Hill?
 

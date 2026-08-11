@@ -31,7 +31,7 @@ At 10 minutes to London Victoria, Denmark Hill is an excellent commuter base, wi
 
 ### Are there direct trains from Denmark Hill to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Denmark Hill?
 

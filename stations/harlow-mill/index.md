@@ -31,7 +31,7 @@ At 35 minutes to London Liverpool Street, Harlow Mill is a practical commuter ch
 
 ### Are there direct trains from Harlow Mill to London?
 
-Yes — direct services run to Liverpool Street.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Harlow Mill?
 

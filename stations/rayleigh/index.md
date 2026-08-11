@@ -31,7 +31,7 @@ At 42 minutes to London Liverpool Street, Rayleigh is a practical commuter choic
 
 ### Are there direct trains from Rayleigh to London?
 
-Yes — direct services run to Liverpool Street.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Rayleigh?
 

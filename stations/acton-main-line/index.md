@@ -31,7 +31,7 @@ At 7 minutes to London Paddington, Acton Main Line is an excellent commuter base
 
 ### Are there direct trains from Acton Main Line to London?
 
-Yes — direct services run to Paddington.
+Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Acton Main Line?
 

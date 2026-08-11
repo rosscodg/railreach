@@ -31,7 +31,7 @@ At 61 minutes to London Victoria, Hove is a longer commute, typically traded off
 
 ### Are there direct trains from Hove to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Hove?
 

@@ -31,7 +31,7 @@ At 40 minutes to London Liverpool Street, Witham is a practical commuter choice,
 
 ### Are there direct trains from Witham to London?
 
-Yes — direct services run to Liverpool Street.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Witham?
 

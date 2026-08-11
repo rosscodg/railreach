@@ -31,7 +31,7 @@ At 78 minutes to London Waterloo, Havant is a longer commute, typically traded o
 
 ### Are there direct trains from Havant to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Havant?
 

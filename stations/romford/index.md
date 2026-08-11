@@ -31,7 +31,7 @@ At 17 minutes to London Liverpool Street, Romford is an excellent commuter base,
 
 ### Are there direct trains from Romford to London?
 
-Yes — direct services run to Liverpool Street.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Romford?
 

@@ -31,7 +31,7 @@ At 48 minutes to London Paddington, Hungerford is a practical commuter choice, w
 
 ### Are there direct trains from Hungerford to London?
 
-Yes — direct services run to Paddington.
+Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Hungerford?
 

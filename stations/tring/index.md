@@ -31,7 +31,7 @@ At 36 minutes to London Euston, Tring is a practical commuter choice, with the f
 
 ### Are there direct trains from Tring to London?
 
-Yes — direct services run to Euston.
+Yes. Direct services run to Euston.
 
 ### What are the nearest stations to Tring?
 

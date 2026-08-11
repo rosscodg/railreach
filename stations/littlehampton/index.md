@@ -31,7 +31,7 @@ At 85 minutes to London Victoria, Littlehampton is a longer commute, typically t
 
 ### Are there direct trains from Littlehampton to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Littlehampton?
 

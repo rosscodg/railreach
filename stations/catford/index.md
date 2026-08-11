@@ -31,7 +31,7 @@ At 15 minutes to London London Bridge, Catford is an excellent commuter base, wi
 
 ### Are there direct trains from Catford to London?
 
-Yes — direct services run to London Bridge.
+Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Catford?
 

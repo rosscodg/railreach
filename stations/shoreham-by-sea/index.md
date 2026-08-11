@@ -31,7 +31,7 @@ At 65 minutes to London Victoria, Shoreham-by-Sea is a longer commute, typically
 
 ### Are there direct trains from Shoreham-by-Sea to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Shoreham-by-Sea?
 

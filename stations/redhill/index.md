@@ -31,7 +31,7 @@ At 28 minutes to London London Bridge, Redhill is an excellent commuter base, wi
 
 ### Are there direct trains from Redhill to London?
 
-Yes — direct services run to London Bridge.
+Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Redhill?
 

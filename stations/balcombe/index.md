@@ -31,7 +31,7 @@ At 43 minutes to London Victoria, Balcombe is a practical commuter choice, with 
 
 ### Are there direct trains from Balcombe to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Balcombe?
 

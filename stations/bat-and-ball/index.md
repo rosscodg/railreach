@@ -31,7 +31,7 @@ At 38 minutes to London Victoria, Bat & Ball is a practical commuter choice, wit
 
 ### Are there direct trains from Bat & Ball to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Bat & Ball?
 

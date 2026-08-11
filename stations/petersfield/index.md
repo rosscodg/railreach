@@ -31,7 +31,7 @@ At 62 minutes to London Waterloo, Petersfield is a longer commute, typically tra
 
 ### Are there direct trains from Petersfield to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Petersfield?
 

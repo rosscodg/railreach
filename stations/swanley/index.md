@@ -32,7 +32,7 @@ At 28 minutes to London Victoria, Swanley is an excellent commuter base, with a 
 
 ### Are there direct trains from Swanley to London?
 
-Yes — direct services run to Victoria, London Bridge.
+Yes. Direct services run to Victoria, London Bridge.
 
 ### What are the nearest stations to Swanley?
 

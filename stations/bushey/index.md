@@ -31,7 +31,7 @@ At 14 minutes to London Euston, Bushey is an excellent commuter base, with a sub
 
 ### Are there direct trains from Bushey to London?
 
-Yes — direct services run to Euston.
+Yes. Direct services run to Euston.
 
 ### What are the nearest stations to Bushey?
 

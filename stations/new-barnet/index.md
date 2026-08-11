@@ -31,7 +31,7 @@ At 20 minutes to London Kings Cross, New Barnet is an excellent commuter base, w
 
 ### Are there direct trains from New Barnet to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to New Barnet?
 

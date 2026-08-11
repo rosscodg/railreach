@@ -31,7 +31,7 @@ At 76 minutes to London Euston, Birmingham New Street is a longer commute, typic
 
 ### Are there direct trains from Birmingham New Street to London?
 
-Yes — direct services run to Euston.
+Yes. Direct services run to Euston.
 
 ### What are the nearest stations to Birmingham New Street?
 

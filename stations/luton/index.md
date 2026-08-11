@@ -31,7 +31,7 @@ At 25 minutes to London Kings Cross, Luton is an excellent commuter base, with a
 
 ### Are there direct trains from Luton to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Luton?
 

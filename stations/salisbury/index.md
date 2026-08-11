@@ -31,7 +31,7 @@ At 83 minutes to London Waterloo, Salisbury is a longer commute, typically trade
 
 ### Are there direct trains from Salisbury to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Salisbury?
 

@@ -31,7 +31,7 @@ At 20 minutes to London Fenchurch Street, Purfleet is an excellent commuter base
 
 ### Are there direct trains from Purfleet to London?
 
-Yes — direct services run to Fenchurch Street.
+Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to Purfleet?
 

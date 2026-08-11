@@ -31,7 +31,7 @@ At 30 minutes to London Waterloo, Hounslow is a practical commuter choice, with 
 
 ### Are there direct trains from Hounslow to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Hounslow?
 

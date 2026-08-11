@@ -31,7 +31,7 @@ At 52 minutes to London Euston, Rugby is a practical commuter choice, with the f
 
 ### Are there direct trains from Rugby to London?
 
-Yes — direct services run to Euston.
+Yes. Direct services run to Euston.
 
 ### What are the nearest stations to Rugby?
 

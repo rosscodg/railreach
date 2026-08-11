@@ -31,7 +31,7 @@ At 58 minutes to London Marylebone, Banbury is a practical commuter choice, with
 
 ### Are there direct trains from Banbury to London?
 
-Yes — direct services run to Marylebone.
+Yes. Direct services run to Marylebone.
 
 ### What are the nearest stations to Banbury?
 

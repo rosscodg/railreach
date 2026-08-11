@@ -23,7 +23,7 @@ The fastest train from Marlow reaches London Paddington in 48 minutes. Marlow co
 
 ### Which London station should I travel to from Marlow?
 
-Paddington is the quickest at 48 minutes, though it requires a change. Direct trains run to none — all routes require a change.
+Paddington is the quickest at 48 minutes, though it requires a change. Direct trains run to none; all routes require a change.
 
 ### Is Marlow a good commuter town for London?
 

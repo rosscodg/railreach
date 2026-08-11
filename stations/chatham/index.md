@@ -31,7 +31,7 @@ At 42 minutes to London London Bridge, Chatham is a practical commuter choice, w
 
 ### Are there direct trains from Chatham to London?
 
-Yes — direct services run to London Bridge.
+Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Chatham?
 

@@ -31,7 +31,7 @@ At 44 minutes to London Waterloo, Basingstoke is a practical commuter choice, wi
 
 ### Are there direct trains from Basingstoke to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Basingstoke?
 

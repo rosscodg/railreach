@@ -31,7 +31,7 @@ At 39 minutes to London Kings Cross, Bedford is a practical commuter choice, wit
 
 ### Are there direct trains from Bedford to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Bedford?
 

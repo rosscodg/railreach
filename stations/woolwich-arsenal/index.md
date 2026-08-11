@@ -31,7 +31,7 @@ At 18 minutes to London London Bridge, Woolwich Arsenal is an excellent commuter
 
 ### Are there direct trains from Woolwich Arsenal to London?
 
-Yes — direct services run to London Bridge.
+Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Woolwich Arsenal?
 

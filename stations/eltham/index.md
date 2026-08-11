@@ -31,7 +31,7 @@ At 18 minutes to London London Bridge, Eltham is an excellent commuter base, wit
 
 ### Are there direct trains from Eltham to London?
 
-Yes — direct services run to London Bridge.
+Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Eltham?
 

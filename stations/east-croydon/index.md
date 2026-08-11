@@ -32,7 +32,7 @@ At 14 minutes to London London Bridge, East Croydon is an excellent commuter bas
 
 ### Are there direct trains from East Croydon to London?
 
-Yes — direct services run to London Bridge, Victoria.
+Yes. Direct services run to London Bridge, Victoria.
 
 ### What are the nearest stations to East Croydon?
 

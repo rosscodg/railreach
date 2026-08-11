@@ -31,7 +31,7 @@ At 68 minutes to London Victoria, Lancing is a longer commute, typically traded 
 
 ### Are there direct trains from Lancing to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Lancing?
 

@@ -31,7 +31,7 @@ At 10 minutes to London Victoria, Balham is an excellent commuter base, with a s
 
 ### Are there direct trains from Balham to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Balham?
 

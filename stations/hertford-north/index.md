@@ -31,7 +31,7 @@ At 41 minutes to London Kings Cross, Hertford North is a practical commuter choi
 
 ### Are there direct trains from Hertford North to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Hertford North?
 

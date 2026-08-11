@@ -31,7 +31,7 @@ At 46 minutes to London Kings Cross, St Neots is a practical commuter choice, wi
 
 ### Are there direct trains from St Neots to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to St Neots?
 

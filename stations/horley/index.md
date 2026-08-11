@@ -31,7 +31,7 @@ At 38 minutes to London London Bridge, Horley is a practical commuter choice, wi
 
 ### Are there direct trains from Horley to London?
 
-Yes — direct services run to London Bridge.
+Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Horley?
 

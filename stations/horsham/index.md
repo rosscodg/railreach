@@ -32,7 +32,7 @@ At 54 minutes to London Victoria, Horsham is a practical commuter choice, with t
 
 ### Are there direct trains from Horsham to London?
 
-Yes — direct services run to Victoria, London Bridge.
+Yes. Direct services run to Victoria, London Bridge.
 
 ### What are the nearest stations to Horsham?
 

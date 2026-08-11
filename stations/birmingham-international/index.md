@@ -31,7 +31,7 @@ At 70 minutes to London Euston, Birmingham International is a longer commute, ty
 
 ### Are there direct trains from Birmingham International to London?
 
-Yes — direct services run to Euston.
+Yes. Direct services run to Euston.
 
 ### What are the nearest stations to Birmingham International?
 

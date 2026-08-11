@@ -31,7 +31,7 @@ At 58 minutes to London London Bridge, Sittingbourne is a practical commuter cho
 
 ### Are there direct trains from Sittingbourne to London?
 
-Yes — direct services run to London Bridge.
+Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Sittingbourne?
 

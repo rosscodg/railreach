@@ -31,7 +31,7 @@ At 18 minutes to London Waterloo, Richmond is an excellent commuter base, with a
 
 ### Are there direct trains from Richmond to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Richmond?
 

@@ -31,7 +31,7 @@ At 27 minutes to London Waterloo, Ewell West is an excellent commuter base, with
 
 ### Are there direct trains from Ewell West to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Ewell West?
 

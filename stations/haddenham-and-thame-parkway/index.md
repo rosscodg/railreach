@@ -31,7 +31,7 @@ At 48 minutes to London Marylebone, Haddenham & Thame Parkway is a practical com
 
 ### Are there direct trains from Haddenham & Thame Parkway to London?
 
-Yes — direct services run to Marylebone.
+Yes. Direct services run to Marylebone.
 
 ### What are the nearest stations to Haddenham & Thame Parkway?
 

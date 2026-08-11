@@ -31,7 +31,7 @@ At 48 minutes to London Waterloo, Farnham is a practical commuter choice, with t
 
 ### Are there direct trains from Farnham to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Farnham?
 

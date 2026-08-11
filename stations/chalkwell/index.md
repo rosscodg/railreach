@@ -31,7 +31,7 @@ At 49 minutes to London Fenchurch Street, Chalkwell is a practical commuter choi
 
 ### Are there direct trains from Chalkwell to London?
 
-Yes — direct services run to Fenchurch Street.
+Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to Chalkwell?
 

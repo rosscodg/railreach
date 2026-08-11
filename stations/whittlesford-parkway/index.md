@@ -31,7 +31,7 @@ At 58 minutes to London Liverpool Street, Whittlesford Parkway is a practical co
 
 ### Are there direct trains from Whittlesford Parkway to London?
 
-Yes — direct services run to Liverpool Street.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Whittlesford Parkway?
 

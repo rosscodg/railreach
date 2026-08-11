@@ -31,7 +31,7 @@ At 26 minutes to London Victoria, Coulsdon South is an excellent commuter base, 
 
 ### Are there direct trains from Coulsdon South to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Coulsdon South?
 

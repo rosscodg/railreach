@@ -31,7 +31,7 @@ At 27 minutes to London Fenchurch Street, Grays is an excellent commuter base, w
 
 ### Are there direct trains from Grays to London?
 
-Yes — direct services run to Fenchurch Street.
+Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to Grays?
 

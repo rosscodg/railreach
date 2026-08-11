@@ -31,7 +31,7 @@ At 30 minutes to London Victoria, Sutton is a practical commuter choice, with th
 
 ### Are there direct trains from Sutton to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Sutton?
 

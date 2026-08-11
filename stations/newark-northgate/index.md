@@ -31,7 +31,7 @@ At 75 minutes to London Kings Cross, Newark Northgate is a longer commute, typic
 
 ### Are there direct trains from Newark Northgate to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Newark Northgate?
 

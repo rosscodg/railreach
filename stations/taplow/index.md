@@ -31,7 +31,7 @@ At 25 minutes to London Paddington, Taplow is an excellent commuter base, with a
 
 ### Are there direct trains from Taplow to London?
 
-Yes — direct services run to Paddington.
+Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Taplow?
 

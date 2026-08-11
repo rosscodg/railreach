@@ -31,7 +31,7 @@ At 20 minutes to London London Bridge, Petts Wood is an excellent commuter base,
 
 ### Are there direct trains from Petts Wood to London?
 
-Yes — direct services run to London Bridge.
+Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Petts Wood?
 

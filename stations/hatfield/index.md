@@ -31,7 +31,7 @@ At 23 minutes to London Kings Cross, Hatfield is an excellent commuter base, wit
 
 ### Are there direct trains from Hatfield to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Hatfield?
 

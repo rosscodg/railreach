@@ -31,7 +31,7 @@ At 41 minutes to London Kings Cross, Flitwick is a practical commuter choice, wi
 
 ### Are there direct trains from Flitwick to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Flitwick?
 

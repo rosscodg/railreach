@@ -31,7 +31,7 @@ At 26 minutes to London Waterloo, Walton-on-Thames is an excellent commuter base
 
 ### Are there direct trains from Walton-on-Thames to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Walton-on-Thames?
 

@@ -31,7 +31,7 @@ At 29 minutes to London Kings Cross, Welwyn North is an excellent commuter base,
 
 ### Are there direct trains from Welwyn North to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Welwyn North?
 

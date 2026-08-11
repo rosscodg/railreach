@@ -23,7 +23,7 @@ The fastest train from Reigate reaches London London Bridge in 40 minutes. Reiga
 
 ### Which London station should I travel to from Reigate?
 
-London Bridge is the quickest at 40 minutes, though it requires a change. Direct trains run to none — all routes require a change.
+London Bridge is the quickest at 40 minutes, though it requires a change. Direct trains run to none; all routes require a change.
 
 ### Is Reigate a good commuter town for London?
 

@@ -31,7 +31,7 @@ At 42 minutes to London Kings Cross, Royston is a practical commuter choice, wit
 
 ### Are there direct trains from Royston to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Royston?
 

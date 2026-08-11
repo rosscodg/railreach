@@ -31,7 +31,7 @@ At 38 minutes to London Victoria, Crawley is a practical commuter choice, with t
 
 ### Are there direct trains from Crawley to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Crawley?
 

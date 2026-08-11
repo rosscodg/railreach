@@ -31,7 +31,7 @@ At 22 minutes to London Liverpool Street, Cheshunt is an excellent commuter base
 
 ### Are there direct trains from Cheshunt to London?
 
-Yes — direct services run to Liverpool Street.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Cheshunt?
 

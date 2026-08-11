@@ -31,7 +31,7 @@ At 8 minutes to London Victoria, Wandsworth Common is an excellent commuter base
 
 ### Are there direct trains from Wandsworth Common to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Wandsworth Common?
 

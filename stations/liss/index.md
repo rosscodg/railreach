@@ -31,7 +31,7 @@ At 60 minutes to London Waterloo, Liss is a longer commute, typically traded off
 
 ### Are there direct trains from Liss to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Liss?
 

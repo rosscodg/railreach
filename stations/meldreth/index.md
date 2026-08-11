@@ -31,7 +31,7 @@ At 50 minutes to London Kings Cross, Meldreth is a practical commuter choice, wi
 
 ### Are there direct trains from Meldreth to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Meldreth?
 

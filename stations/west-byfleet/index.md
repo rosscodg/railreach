@@ -31,7 +31,7 @@ At 26 minutes to London Waterloo, West Byfleet is an excellent commuter base, wi
 
 ### Are there direct trains from West Byfleet to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to West Byfleet?
 

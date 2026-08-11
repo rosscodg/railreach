@@ -31,7 +31,7 @@ At 47 minutes to London London Bridge, Gillingham is a practical commuter choice
 
 ### Are there direct trains from Gillingham to London?
 
-Yes — direct services run to London Bridge.
+Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Gillingham?
 

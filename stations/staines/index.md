@@ -31,7 +31,7 @@ At 34 minutes to London Waterloo, Staines is a practical commuter choice, with t
 
 ### Are there direct trains from Staines to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Staines?
 

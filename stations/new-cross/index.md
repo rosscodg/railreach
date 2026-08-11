@@ -31,7 +31,7 @@ At 5 minutes to London London Bridge, New Cross is an excellent commuter base, w
 
 ### Are there direct trains from New Cross to London?
 
-Yes — direct services run to London Bridge.
+Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to New Cross?
 

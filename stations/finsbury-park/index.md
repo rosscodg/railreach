@@ -31,7 +31,7 @@ At 5 minutes to London Kings Cross, Finsbury Park is an excellent commuter base,
 
 ### Are there direct trains from Finsbury Park to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Finsbury Park?
 

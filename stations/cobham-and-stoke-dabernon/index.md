@@ -31,7 +31,7 @@ At 35 minutes to London Waterloo, Cobham & Stoke d'Abernon is a practical commut
 
 ### Are there direct trains from Cobham & Stoke d'Abernon to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Cobham & Stoke d'Abernon?
 

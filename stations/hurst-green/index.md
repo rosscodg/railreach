@@ -31,7 +31,7 @@ At 40 minutes to London Victoria, Hurst Green is a practical commuter choice, wi
 
 ### Are there direct trains from Hurst Green to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Hurst Green?
 

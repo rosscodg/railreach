@@ -31,7 +31,7 @@ At 56 minutes to London Liverpool Street, Ipswich is a practical commuter choice
 
 ### Are there direct trains from Ipswich to London?
 
-Yes — direct services run to Liverpool Street.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Ipswich?
 

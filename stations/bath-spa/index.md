@@ -31,7 +31,7 @@ At 73 minutes to London Paddington, Bath Spa is a longer commute, typically trad
 
 ### Are there direct trains from Bath Spa to London?
 
-Yes — direct services run to Paddington.
+Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Bath Spa?
 

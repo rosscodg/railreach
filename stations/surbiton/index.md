@@ -31,7 +31,7 @@ At 17 minutes to London Waterloo, Surbiton is an excellent commuter base, with a
 
 ### Are there direct trains from Surbiton to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Surbiton?
 

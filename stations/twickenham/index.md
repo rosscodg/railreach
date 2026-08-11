@@ -31,7 +31,7 @@ At 22 minutes to London Waterloo, Twickenham is an excellent commuter base, with
 
 ### Are there direct trains from Twickenham to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Twickenham?
 

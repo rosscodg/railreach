@@ -31,7 +31,7 @@ At 30 minutes to London Victoria, Merstham is a practical commuter choice, with 
 
 ### Are there direct trains from Merstham to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Merstham?
 

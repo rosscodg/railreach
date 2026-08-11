@@ -31,7 +31,7 @@ At 16 minutes to London Waterloo, Barnes is an excellent commuter base, with a s
 
 ### Are there direct trains from Barnes to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Barnes?
 

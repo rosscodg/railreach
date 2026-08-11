@@ -31,7 +31,7 @@ At 20 minutes to London Kings Cross, St Albans City is an excellent commuter bas
 
 ### Are there direct trains from St Albans City to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to St Albans City?
 

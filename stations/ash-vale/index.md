@@ -31,7 +31,7 @@ At 43 minutes to London Waterloo, Ash Vale is a practical commuter choice, with 
 
 ### Are there direct trains from Ash Vale to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Ash Vale?
 

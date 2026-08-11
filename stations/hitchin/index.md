@@ -31,7 +31,7 @@ At 29 minutes to London Kings Cross, Hitchin is an excellent commuter base, with
 
 ### Are there direct trains from Hitchin to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Hitchin?
 

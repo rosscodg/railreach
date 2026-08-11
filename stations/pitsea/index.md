@@ -31,7 +31,7 @@ At 38 minutes to London Fenchurch Street, Pitsea is a practical commuter choice,
 
 ### Are there direct trains from Pitsea to London?
 
-Yes — direct services run to Fenchurch Street.
+Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to Pitsea?
 

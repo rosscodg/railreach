@@ -31,7 +31,7 @@ At 35 minutes to London Kings Cross, Letchworth Garden City is a practical commu
 
 ### Are there direct trains from Letchworth Garden City to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Letchworth Garden City?
 

@@ -31,7 +31,7 @@ At 25 minutes to London Kings Cross, Welwyn Garden City is an excellent commuter
 
 ### Are there direct trains from Welwyn Garden City to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Welwyn Garden City?
 

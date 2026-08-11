@@ -31,7 +31,7 @@ At 8 minutes to London London Bridge, Lewisham is an excellent commuter base, wi
 
 ### Are there direct trains from Lewisham to London?
 
-Yes — direct services run to London Bridge.
+Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Lewisham?
 

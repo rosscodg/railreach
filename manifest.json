@@ -1,7 +1,7 @@
 {
-  "name": "RailReach — Train Journey Times to London",
+  "name": "RailReach: Train Journey Times to London",
   "short_name": "RailReach",
-  "description": "Interactive map showing train journey times from 350+ stations to all London terminals.",
+  "description": "Interactive map showing train journey times from 345 stations to all 9 London terminals.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0f172a",

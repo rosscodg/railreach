@@ -31,7 +31,7 @@ At 23 minutes to London Marylebone, Seer Green & Jordans is an excellent commute
 
 ### Are there direct trains from Seer Green & Jordans to London?
 
-Yes — direct services run to Marylebone.
+Yes. Direct services run to Marylebone.
 
 ### What are the nearest stations to Seer Green & Jordans?
 

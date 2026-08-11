@@ -31,7 +31,7 @@ At 40 minutes to London Waterloo, Effingham Junction is a practical commuter cho
 
 ### Are there direct trains from Effingham Junction to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Effingham Junction?
 

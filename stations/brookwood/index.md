@@ -31,7 +31,7 @@ At 29 minutes to London Waterloo, Brookwood is an excellent commuter base, with 
 
 ### Are there direct trains from Brookwood to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Brookwood?
 

@@ -31,7 +31,7 @@ At 7 minutes to London Liverpool Street, Stratford is an excellent commuter base
 
 ### Are there direct trains from Stratford to London?
 
-Yes — direct services run to Liverpool Street.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Stratford?
 

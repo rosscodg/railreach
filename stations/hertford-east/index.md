@@ -31,7 +31,7 @@ At 38 minutes to London Liverpool Street, Hertford East is a practical commuter 
 
 ### Are there direct trains from Hertford East to London?
 
-Yes — direct services run to Liverpool Street.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Hertford East?
 

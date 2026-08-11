@@ -31,7 +31,7 @@ At 24 minutes to London Euston, Apsley is an excellent commuter base, with a sub
 
 ### Are there direct trains from Apsley to London?
 
-Yes — direct services run to Euston.
+Yes. Direct services run to Euston.
 
 ### What are the nearest stations to Apsley?
 

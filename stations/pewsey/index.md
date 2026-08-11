@@ -31,7 +31,7 @@ At 63 minutes to London Paddington, Pewsey is a longer commute, typically traded
 
 ### Are there direct trains from Pewsey to London?
 
-Yes — direct services run to Paddington.
+Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Pewsey?
 

@@ -31,7 +31,7 @@ At 48 minutes to London Victoria, Wivelsfield is a practical commuter choice, wi
 
 ### Are there direct trains from Wivelsfield to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Wivelsfield?
 

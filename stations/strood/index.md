@@ -31,7 +31,7 @@ At 40 minutes to London London Bridge, Strood is a practical commuter choice, wi
 
 ### Are there direct trains from Strood to London?
 
-Yes — direct services run to London Bridge.
+Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Strood?
 

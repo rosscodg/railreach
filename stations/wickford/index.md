@@ -31,7 +31,7 @@ At 38 minutes to London Liverpool Street, Wickford is a practical commuter choic
 
 ### Are there direct trains from Wickford to London?
 
-Yes — direct services run to Liverpool Street.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Wickford?
 

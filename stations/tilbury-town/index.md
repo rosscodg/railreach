@@ -31,7 +31,7 @@ At 30 minutes to London Fenchurch Street, Tilbury Town is a practical commuter c
 
 ### Are there direct trains from Tilbury Town to London?
 
-Yes — direct services run to Fenchurch Street.
+Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to Tilbury Town?
 

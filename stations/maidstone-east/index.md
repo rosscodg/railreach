@@ -31,7 +31,7 @@ At 58 minutes to London Victoria, Maidstone East is a practical commuter choice,
 
 ### Are there direct trains from Maidstone East to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Maidstone East?
 

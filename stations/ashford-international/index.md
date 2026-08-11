@@ -31,7 +31,7 @@ At 80 minutes to London Victoria, Ashford International is a longer commute, typ
 
 ### Are there direct trains from Ashford International to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Ashford International?
 

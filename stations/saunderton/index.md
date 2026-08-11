@@ -31,7 +31,7 @@ At 32 minutes to London Marylebone, Saunderton is a practical commuter choice, w
 
 ### Are there direct trains from Saunderton to London?
 
-Yes — direct services run to Marylebone.
+Yes. Direct services run to Marylebone.
 
 ### What are the nearest stations to Saunderton?
 

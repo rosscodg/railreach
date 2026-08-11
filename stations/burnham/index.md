@@ -31,7 +31,7 @@ At 22 minutes to London Paddington, Burnham is an excellent commuter base, with 
 
 ### Are there direct trains from Burnham to London?
 
-Yes — direct services run to Paddington.
+Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Burnham?
 

@@ -31,7 +31,7 @@ At 12 minutes to London Kings Cross, Alexandra Palace is an excellent commuter b
 
 ### Are there direct trains from Alexandra Palace to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Alexandra Palace?
 

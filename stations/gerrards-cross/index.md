@@ -31,7 +31,7 @@ At 21 minutes to London Marylebone, Gerrards Cross is an excellent commuter base
 
 ### Are there direct trains from Gerrards Cross to London?
 
-Yes — direct services run to Marylebone.
+Yes. Direct services run to Marylebone.
 
 ### What are the nearest stations to Gerrards Cross?
 

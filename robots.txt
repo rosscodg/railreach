@@ -48,4 +48,4 @@ Sitemap: https://railreach.co.uk/sitemap.xml
 #   https://railreach.co.uk/data/journey-times.json
 #   https://railreach.co.uk/data/journey-times.csv
 # Every page also has a plain-text alternate at <page-url>index.md
-# Data is CC BY 4.0 — reuse permitted with attribution to RailReach.
+# Data is CC BY 4.0. Reuse permitted with attribution to RailReach.

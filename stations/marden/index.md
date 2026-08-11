@@ -31,7 +31,7 @@ At 55 minutes to London Victoria, Marden is a practical commuter choice, with th
 
 ### Are there direct trains from Marden to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Marden?
 

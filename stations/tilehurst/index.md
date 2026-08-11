@@ -31,7 +31,7 @@ At 30 minutes to London Paddington, Tilehurst is a practical commuter choice, wi
 
 ### Are there direct trains from Tilehurst to London?
 
-Yes — direct services run to Paddington.
+Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Tilehurst?
 

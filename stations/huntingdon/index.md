@@ -31,7 +31,7 @@ At 52 minutes to London Kings Cross, Huntingdon is a practical commuter choice, 
 
 ### Are there direct trains from Huntingdon to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Huntingdon?
 

@@ -31,7 +31,7 @@ At 8 minutes to London Kings Cross, West Hampstead Thameslink is an excellent co
 
 ### Are there direct trains from West Hampstead Thameslink to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to West Hampstead Thameslink?
 

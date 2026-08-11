@@ -31,7 +31,7 @@ At 40 minutes to London Kings Cross, Biggleswade is a practical commuter choice,
 
 ### Are there direct trains from Biggleswade to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Biggleswade?
 

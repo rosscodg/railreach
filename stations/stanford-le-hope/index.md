@@ -31,7 +31,7 @@ At 35 minutes to London Fenchurch Street, Stanford-le-Hope is a practical commut
 
 ### Are there direct trains from Stanford-le-Hope to London?
 
-Yes — direct services run to Fenchurch Street.
+Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to Stanford-le-Hope?
 

@@ -31,7 +31,7 @@ At 18 minutes to London Fenchurch Street, Upminster is an excellent commuter bas
 
 ### Are there direct trains from Upminster to London?
 
-Yes — direct services run to Fenchurch Street.
+Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to Upminster?
 

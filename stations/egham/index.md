@@ -31,7 +31,7 @@ At 38 minutes to London Waterloo, Egham is a practical commuter choice, with the
 
 ### Are there direct trains from Egham to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Egham?
 

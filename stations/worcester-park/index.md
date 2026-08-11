@@ -31,7 +31,7 @@ At 22 minutes to London Waterloo, Worcester Park is an excellent commuter base, 
 
 ### Are there direct trains from Worcester Park to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Worcester Park?
 

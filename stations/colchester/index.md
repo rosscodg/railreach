@@ -31,7 +31,7 @@ At 45 minutes to London Liverpool Street, Colchester is a practical commuter cho
 
 ### Are there direct trains from Colchester to London?
 
-Yes — direct services run to Liverpool Street.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Colchester?
 

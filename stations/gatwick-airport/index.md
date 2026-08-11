@@ -32,7 +32,7 @@ At 30 minutes to London Victoria, Gatwick Airport is a practical commuter choice
 
 ### Are there direct trains from Gatwick Airport to London?
 
-Yes — direct services run to Victoria, London Bridge.
+Yes. Direct services run to Victoria, London Bridge.
 
 ### What are the nearest stations to Gatwick Airport?
 

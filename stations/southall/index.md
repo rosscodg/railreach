@@ -31,7 +31,7 @@ At 14 minutes to London Paddington, Southall is an excellent commuter base, with
 
 ### Are there direct trains from Southall to London?
 
-Yes — direct services run to Paddington.
+Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Southall?
 

@@ -31,7 +31,7 @@ At 19 minutes to London Paddington, Langley is an excellent commuter base, with 
 
 ### Are there direct trains from Langley to London?
 
-Yes — direct services run to Paddington.
+Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Langley?
 

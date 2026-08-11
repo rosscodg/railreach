@@ -32,7 +32,7 @@ At 20 minutes to London London Bridge, Purley is an excellent commuter base, wit
 
 ### Are there direct trains from Purley to London?
 
-Yes — direct services run to London Bridge, Victoria.
+Yes. Direct services run to London Bridge, Victoria.
 
 ### What are the nearest stations to Purley?
 

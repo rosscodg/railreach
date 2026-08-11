@@ -23,7 +23,7 @@ The fastest train from Windsor & Eton Central reaches London Paddington in 25 mi
 
 ### Which London station should I travel to from Windsor & Eton Central?
 
-Paddington is the quickest at 25 minutes, though it requires a change. Direct trains run to none — all routes require a change.
+Paddington is the quickest at 25 minutes, though it requires a change. Direct trains run to none; all routes require a change.
 
 ### Is Windsor & Eton Central a good commuter town for London?
 

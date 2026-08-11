@@ -32,7 +32,7 @@ At 58 minutes to London Victoria, Brighton is a practical commuter choice, with 
 
 ### Are there direct trains from Brighton to London?
 
-Yes — direct services run to Victoria, London Bridge.
+Yes. Direct services run to Victoria, London Bridge.
 
 ### What are the nearest stations to Brighton?
 

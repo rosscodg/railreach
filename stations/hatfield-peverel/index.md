@@ -31,7 +31,7 @@ At 38 minutes to London Liverpool Street, Hatfield Peverel is a practical commut
 
 ### Are there direct trains from Hatfield Peverel to London?
 
-Yes — direct services run to Liverpool Street.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Hatfield Peverel?
 

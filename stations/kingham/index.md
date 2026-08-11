@@ -31,7 +31,7 @@ At 79 minutes to London Paddington, Kingham is a longer commute, typically trade
 
 ### Are there direct trains from Kingham to London?
 
-Yes — direct services run to Paddington.
+Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Kingham?
 

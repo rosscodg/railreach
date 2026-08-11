@@ -31,7 +31,7 @@ At 52 minutes to London Liverpool Street, Audley End is a practical commuter cho
 
 ### Are there direct trains from Audley End to London?
 
-Yes — direct services run to Liverpool Street.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Audley End?
 

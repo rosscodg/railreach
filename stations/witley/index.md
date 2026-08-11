@@ -31,7 +31,7 @@ At 52 minutes to London Waterloo, Witley is a practical commuter choice, with th
 
 ### Are there direct trains from Witley to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Witley?
 

@@ -31,7 +31,7 @@ At 10 minutes to London London Bridge, Hither Green is an excellent commuter bas
 
 ### Are there direct trains from Hither Green to London?
 
-Yes — direct services run to London Bridge.
+Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Hither Green?
 

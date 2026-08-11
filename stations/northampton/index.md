@@ -31,7 +31,7 @@ At 49 minutes to London Euston, Northampton is a practical commuter choice, with
 
 ### Are there direct trains from Northampton to London?
 
-Yes — direct services run to Euston.
+Yes. Direct services run to Euston.
 
 ### What are the nearest stations to Northampton?
 

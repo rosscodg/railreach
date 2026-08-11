@@ -31,7 +31,7 @@ At 44 minutes to London Liverpool Street, Stansted Mountfitchet is a practical c
 
 ### Are there direct trains from Stansted Mountfitchet to London?
 
-Yes — direct services run to Liverpool Street.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Stansted Mountfitchet?
 

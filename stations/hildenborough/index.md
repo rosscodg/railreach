@@ -31,7 +31,7 @@ At 38 minutes to London Victoria, Hildenborough is a practical commuter choice, 
 
 ### Are there direct trains from Hildenborough to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Hildenborough?
 

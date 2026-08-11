@@ -31,7 +31,7 @@ At 41 minutes to London London Bridge, Gravesend is a practical commuter choice,
 
 ### Are there direct trains from Gravesend to London?
 
-Yes — direct services run to London Bridge.
+Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Gravesend?
 

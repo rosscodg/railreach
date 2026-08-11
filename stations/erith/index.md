@@ -31,7 +31,7 @@ At 28 minutes to London London Bridge, Erith is an excellent commuter base, with
 
 ### Are there direct trains from Erith to London?
 
-Yes — direct services run to London Bridge.
+Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Erith?
 

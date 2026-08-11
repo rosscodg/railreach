@@ -31,7 +31,7 @@ At 45 minutes to London Paddington, Oxford is a practical commuter choice, with 
 
 ### Are there direct trains from Oxford to London?
 
-Yes — direct services run to Paddington.
+Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Oxford?
 

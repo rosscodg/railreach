@@ -31,7 +31,7 @@ At 50 minutes to London Liverpool Street, Rochford is a practical commuter choic
 
 ### Are there direct trains from Rochford to London?
 
-Yes — direct services run to Liverpool Street.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Rochford?
 

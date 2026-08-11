@@ -31,7 +31,7 @@ At 28 minutes to London Waterloo, Weybridge is an excellent commuter base, with 
 
 ### Are there direct trains from Weybridge to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Weybridge?
 

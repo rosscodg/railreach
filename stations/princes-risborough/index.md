@@ -31,7 +31,7 @@ At 37 minutes to London Marylebone, Princes Risborough is a practical commuter c
 
 ### Are there direct trains from Princes Risborough to London?
 
-Yes — direct services run to Marylebone.
+Yes. Direct services run to Marylebone.
 
 ### What are the nearest stations to Princes Risborough?
 

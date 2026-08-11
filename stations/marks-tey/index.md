@@ -31,7 +31,7 @@ At 48 minutes to London Liverpool Street, Marks Tey is a practical commuter choi
 
 ### Are there direct trains from Marks Tey to London?
 
-Yes — direct services run to Liverpool Street.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Marks Tey?
 

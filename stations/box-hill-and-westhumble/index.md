@@ -31,7 +31,7 @@ At 48 minutes to London Waterloo, Box Hill & Westhumble is a practical commuter 
 
 ### Are there direct trains from Box Hill & Westhumble to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Box Hill & Westhumble?
 

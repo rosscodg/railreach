@@ -31,7 +31,7 @@ At 55 minutes to London Victoria, Preston Park is a practical commuter choice, w
 
 ### Are there direct trains from Preston Park to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Preston Park?
 

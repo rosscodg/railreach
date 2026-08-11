@@ -31,7 +31,7 @@ At 35 minutes to London Waterloo, Chessington South is a practical commuter choi
 
 ### Are there direct trains from Chessington South to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Chessington South?
 

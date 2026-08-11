@@ -31,7 +31,7 @@ At 68 minutes to London London Bridge, Faversham is a longer commute, typically 
 
 ### Are there direct trains from Faversham to London?
 
-Yes — direct services run to London Bridge.
+Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Faversham?
 

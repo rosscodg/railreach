@@ -31,7 +31,7 @@ At 52 minutes to London Fenchurch Street, Southend Central is a practical commut
 
 ### Are there direct trains from Southend Central to London?
 
-Yes — direct services run to Fenchurch Street.
+Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to Southend Central?
 

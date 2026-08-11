@@ -31,7 +31,7 @@ At 27 minutes to London Liverpool Street, Broxbourne is an excellent commuter ba
 
 ### Are there direct trains from Broxbourne to London?
 
-Yes — direct services run to Liverpool Street.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Broxbourne?
 

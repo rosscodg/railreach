@@ -31,7 +31,7 @@ At 29 minutes to London Waterloo, Claygate is an excellent commuter base, with a
 
 ### Are there direct trains from Claygate to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Claygate?
 

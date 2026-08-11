@@ -31,7 +31,7 @@ At 62 minutes to London Marylebone, Aylesbury Vale Parkway is a longer commute, 
 
 ### Are there direct trains from Aylesbury Vale Parkway to London?
 
-Yes — direct services run to Marylebone.
+Yes. Direct services run to Marylebone.
 
 ### What are the nearest stations to Aylesbury Vale Parkway?
 

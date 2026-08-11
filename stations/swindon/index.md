@@ -31,7 +31,7 @@ At 50 minutes to London Paddington, Swindon is a practical commuter choice, with
 
 ### Are there direct trains from Swindon to London?
 
-Yes — direct services run to Paddington.
+Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Swindon?
 

@@ -31,7 +31,7 @@ At 18 minutes to London Kings Cross, Potters Bar is an excellent commuter base, 
 
 ### Are there direct trains from Potters Bar to London?
 
-Yes — direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Potters Bar?
 

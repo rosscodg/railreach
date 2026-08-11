@@ -31,7 +31,7 @@ At 46 minutes to London Liverpool Street, Kelvedon is a practical commuter choic
 
 ### Are there direct trains from Kelvedon to London?
 
-Yes — direct services run to Liverpool Street.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Kelvedon?
 

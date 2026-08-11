@@ -31,7 +31,7 @@ At 21 minutes to London Waterloo, Esher is an excellent commuter base, with a su
 
 ### Are there direct trains from Esher to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Esher?
 

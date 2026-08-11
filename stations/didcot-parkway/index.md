@@ -31,7 +31,7 @@ At 40 minutes to London Paddington, Didcot Parkway is a practical commuter choic
 
 ### Are there direct trains from Didcot Parkway to London?
 
-Yes — direct services run to Paddington.
+Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Didcot Parkway?
 

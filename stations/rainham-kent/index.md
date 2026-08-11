@@ -31,7 +31,7 @@ At 52 minutes to London London Bridge, Rainham (Kent) is a practical commuter ch
 
 ### Are there direct trains from Rainham (Kent) to London?
 
-Yes — direct services run to London Bridge.
+Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Rainham (Kent)?
 

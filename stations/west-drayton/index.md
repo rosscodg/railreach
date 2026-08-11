@@ -31,7 +31,7 @@ At 20 minutes to London Paddington, West Drayton is an excellent commuter base, 
 
 ### Are there direct trains from West Drayton to London?
 
-Yes — direct services run to Paddington.
+Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to West Drayton?
 

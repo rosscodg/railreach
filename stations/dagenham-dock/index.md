@@ -31,7 +31,7 @@ At 14 minutes to London Fenchurch Street, Dagenham Dock is an excellent commuter
 
 ### Are there direct trains from Dagenham Dock to London?
 
-Yes — direct services run to Fenchurch Street.
+Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to Dagenham Dock?
 

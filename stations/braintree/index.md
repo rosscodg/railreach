@@ -23,7 +23,7 @@ The fastest train from Braintree reaches London Liverpool Street in 58 minutes. 
 
 ### Which London station should I travel to from Braintree?
 
-Liverpool Street is the quickest at 58 minutes, though it requires a change. Direct trains run to none — all routes require a change.
+Liverpool Street is the quickest at 58 minutes, though it requires a change. Direct trains run to none; all routes require a change.
 
 ### Is Braintree a good commuter town for London?
 

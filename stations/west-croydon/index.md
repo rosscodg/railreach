@@ -31,7 +31,7 @@ At 20 minutes to London Victoria, West Croydon is an excellent commuter base, wi
 
 ### Are there direct trains from West Croydon to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to West Croydon?
 

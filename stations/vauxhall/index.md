@@ -31,7 +31,7 @@ At 4 minutes to London Waterloo, Vauxhall is an excellent commuter base, with a 
 
 ### Are there direct trains from Vauxhall to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Vauxhall?
 

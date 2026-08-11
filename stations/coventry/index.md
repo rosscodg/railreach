@@ -31,7 +31,7 @@ At 58 minutes to London Euston, Coventry is a practical commuter choice, with th
 
 ### Are there direct trains from Coventry to London?
 
-Yes — direct services run to Euston.
+Yes. Direct services run to Euston.
 
 ### What are the nearest stations to Coventry?
 

@@ -31,7 +31,7 @@ At 42 minutes to London Waterloo, Virginia Water is a practical commuter choice,
 
 ### Are there direct trains from Virginia Water to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Virginia Water?
 

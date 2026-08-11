@@ -31,7 +31,7 @@ At 60 minutes to London Victoria, Staplehurst is a longer commute, typically tra
 
 ### Are there direct trains from Staplehurst to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Staplehurst?
 

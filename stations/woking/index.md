@@ -31,7 +31,7 @@ At 23 minutes to London Waterloo, Woking is an excellent commuter base, with a s
 
 ### Are there direct trains from Woking to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Woking?
 

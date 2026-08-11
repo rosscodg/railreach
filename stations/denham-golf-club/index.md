@@ -31,7 +31,7 @@ At 20 minutes to London Marylebone, Denham Golf Club is an excellent commuter ba
 
 ### Are there direct trains from Denham Golf Club to London?
 
-Yes — direct services run to Marylebone.
+Yes. Direct services run to Marylebone.
 
 ### What are the nearest stations to Denham Golf Club?
 

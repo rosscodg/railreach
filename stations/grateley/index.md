@@ -31,7 +31,7 @@ At 72 minutes to London Waterloo, Grateley is a longer commute, typically traded
 
 ### Are there direct trains from Grateley to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Grateley?
 

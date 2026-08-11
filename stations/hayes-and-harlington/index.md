@@ -31,7 +31,7 @@ At 17 minutes to London Paddington, Hayes & Harlington is an excellent commuter 
 
 ### Are there direct trains from Hayes & Harlington to London?
 
-Yes — direct services run to Paddington.
+Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Hayes & Harlington?
 

@@ -31,7 +31,7 @@ At 20 minutes to London Waterloo, Motspur Park is an excellent commuter base, wi
 
 ### Are there direct trains from Motspur Park to London?
 
-Yes — direct services run to Waterloo.
+Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Motspur Park?
 

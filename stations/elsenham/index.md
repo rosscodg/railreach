@@ -31,7 +31,7 @@ At 50 minutes to London Liverpool Street, Elsenham is a practical commuter choic
 
 ### Are there direct trains from Elsenham to London?
 
-Yes — direct services run to Liverpool Street.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Elsenham?
 

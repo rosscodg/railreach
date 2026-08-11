@@ -31,7 +31,7 @@ At 13 minutes to London Victoria, Peckham Rye is an excellent commuter base, wit
 
 ### Are there direct trains from Peckham Rye to London?
 
-Yes — direct services run to Victoria.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Peckham Rye?
 

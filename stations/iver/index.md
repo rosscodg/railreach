@@ -31,7 +31,7 @@ At 22 minutes to London Paddington, Iver is an excellent commuter base, with a s
 
 ### Are there direct trains from Iver to London?
 
-Yes — direct services run to Paddington.
+Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Iver?
 
