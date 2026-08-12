@@ -371,6 +371,100 @@ def write_shared_js(data_js):
 
 
 
+
+# ── Timetable currency ─────────────────────────────────────────────────────
+# National Rail changes its timetable twice a year: conventionally the second
+# Sunday of December and the third Sunday of May. Dates are computed rather
+# than hardcoded so this does not quietly rot. They are the published pattern,
+# not a guarantee - confirm against National Rail before a refresh.
+def _nth_sunday(year, month, n):
+    d = datetime.date(year, month, 1)
+    d += datetime.timedelta(days=(6 - d.weekday()) % 7)   # first Sunday
+    return d + datetime.timedelta(weeks=n - 1)
+
+
+def timetable_changes(around_year):
+    dates = []
+    for y in (around_year - 1, around_year, around_year + 1):
+        dates.append(_nth_sunday(y, 5, 3))    # May change
+        dates.append(_nth_sunday(y, 12, 2))   # December change
+    return sorted(dates)
+
+
+def check_timetable_currency(review_date):
+    """Warn if the data predates the timetable currently in force.
+
+    The site stamps 'Data reviewed' and schema dateModified on all 358 pages.
+    If the underlying times predate a timetable change, those dates assert a
+    currency the data does not have, so say so loudly at build time.
+    """
+    today = datetime.date.today()
+    review = datetime.date.fromisoformat(review_date)
+    changes = timetable_changes(today.year)
+    in_force = max((d for d in changes if d <= today), default=None)
+    upcoming = min((d for d in changes if d > today), default=None)
+
+    if in_force and review < in_force:
+        print("")
+        print("  " + "!" * 68)
+        print(f"  ! TIMETABLE CHANGED on {in_force} - data was last reviewed {review}")
+        print("  ! The site will claim a freshness the journey times do not have.")
+        print("  ! Re-check the times, then bump lastReviewed in")
+        print("  ! _build/data/stations.json. See _build/REFRESH.md")
+        print("  " + "!" * 68)
+        print("")
+    else:
+        days = (upcoming - today).days if upcoming else None
+        print(f"  data reviewed {review}; timetable in force since {in_force}")
+        if upcoming:
+            print(f"  next timetable change {upcoming} ({days} days) - refresh due then")
+
+
+
+def check_prose_figures(stations):
+    """Catch hand-written times that have drifted from the dataset.
+
+    The homepage FAQ and terminal summaries quote specific figures in prose
+    the generator does not own - 137 of them. A data refresh silently leaves
+    those stale, which is precisely the kind of quiet inaccuracy the review
+    date is supposed to rule out. Compare and report.
+    """
+    path = os.path.join(BASE, 'index.html')
+    with open(path) as f:
+        html = f.read()
+
+    # Ignore the regions the generator rewrites, and all script blocks.
+    for tag in ('lede', 'terminal-cards', 'station-cards', 'data-table'):
+        html = re.sub(r'<!-- GEN:%s -->.*?<!-- /GEN:%s -->' % (tag, tag), '', html, flags=re.DOTALL)
+    html = re.sub(r'/\* GEN:map-data \*/.*?/\* /GEN:map-data \*/', '', html, flags=re.DOTALL)
+    html = re.sub(r'<script.*?</script>', '', html, flags=re.DOTALL)
+
+    # The prose is terminal-specific ("From Victoria: Sevenoaks (30 min)"),
+    # so a figure is correct if it matches the time to ANY terminal that
+    # station serves. Comparing only against the fastest cries wolf.
+    valid = {}
+    for s in stations:
+        valid[s['name']] = set(j['mins'] for j in s['journeys'].values())
+
+    checked = 0
+    mismatches = []
+    for m in re.finditer(r'([A-Z][A-Za-z\'\- ]{2,28}?) \((\d+) min\)', html):
+        name, mins = m.group(1).strip(), int(m.group(2))
+        if name not in valid:
+            continue
+        checked += 1
+        if mins not in valid[name]:
+            mismatches.append((name, mins, sorted(valid[name])))
+
+    if mismatches:
+        print(f"  WARNING: {len(mismatches)} hand-written figure(s) disagree with the data:")
+        for name, quoted, actual in mismatches[:12]:
+            print(f"    index.html says {name} ({quoted} min); data has {actual}")
+        print("    These sit in prose the generator does not own. Edit index.html by hand.")
+    else:
+        print(f"  {checked} hand-written figures in prose all agree with the data")
+
+
 # ── Discovery ──────────────────────────────────────────────────────────────
 # Mirrors RR.discoveries in assets/js/map-ui.js. Ranked by absolute journey
 # time, not minutes per kilometre: that metric rewards being on a fast line,
@@ -1543,8 +1637,8 @@ def main():
     terminals, stations = load_data()
     with open(DATA_PATH) as f:
         REVIEW_DATE = json.load(f).get('lastReviewed', BUILD_DATE)
-    if REVIEW_DATE != BUILD_DATE:
-        print(f"  data last reviewed {REVIEW_DATE} (build {BUILD_DATE})")
+    check_timetable_currency(REVIEW_DATE)
+    check_prose_figures(stations)
     STATION_SLUGS.update({s['name']: s['slug'] for s in stations})
     total = len(stations)
     counts = {c: sum(1 for s in stations if c in s['journeys'] and s['journeys'][c]['mins'] <= 90)
