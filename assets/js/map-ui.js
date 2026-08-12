@@ -235,6 +235,65 @@ window.RR = (function () {
     return m;
   }
 
+
+  /* ---- Discovery -------------------------------------------------------
+   * The product's point is showing people places they would never have
+   * thought to look at. Ranking is by absolute journey time, not by minutes
+   * per kilometre: that metric just rewards being on a fast line, and a
+   * brilliant minutes-per-km score is no use if the trip still takes 70
+   * minutes. What decides whether you could live somewhere is the clock.
+   *
+   * "Unfamiliar" is an editorial judgement, so it is an explicit list rather
+   * than a clever formula. FEATURED are the towns the site already promotes
+   * everywhere; MAJOR are cities and airports nobody discovers on a map. */
+  var FEATURED = ['Cambridge', 'Reading', 'Oxford', 'Brighton', 'Guildford', 'Woking',
+    'St Albans City', 'Stevenage', 'Milton Keynes Central', 'Chelmsford', 'Sevenoaks',
+    'Basingstoke', 'Winchester', 'Watford Junction', 'Swindon', 'Colchester', 'Ipswich',
+    'Peterborough', 'Bedford', 'High Wycombe', 'Tonbridge', 'Tunbridge Wells', 'Crawley',
+    'Bromley South', 'Richmond', 'Slough', 'Maidenhead'];
+
+  var MAJOR = ['Birmingham New Street', 'Birmingham International', 'Bristol Temple Meads',
+    'Bath Spa', 'Coventry', 'Rugby', 'Northampton', 'Leamington Spa', 'Warwick',
+    'Warwick Parkway', 'Salisbury', 'Southampton Central', 'Grantham', 'Newark Northgate',
+    'Luton', 'Luton Airport Parkway', 'Gatwick Airport', 'Stansted Airport', 'Chippenham',
+    'Banbury', 'Southend Central', 'Southend Victoria'];
+
+  var WELL_KNOWN = {};
+  FEATURED.concat(MAJOR).forEach(function (n) { WELL_KNOWN[n] = true; });
+
+  var CENTRAL = [51.5074, -0.1278];        // Charing Cross
+  var MIN_KM_FROM_LONDON = 20;             // inside this ring it is London, not a move
+  var MIN_KM_APART = 8;                    // spread results instead of one line's stops
+
+  function kmBetween(a, b) {
+    var R = 6371, p = Math.PI / 180;
+    var dLat = (b[0] - a[0]) * p, dLng = (b[1] - a[1]) * p;
+    var x = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+      Math.cos(a[0] * p) * Math.cos(b[0] * p) * Math.sin(dLng / 2) * Math.sin(dLng / 2);
+    return R * 2 * Math.asin(Math.sqrt(x));
+  }
+
+  function discoveries(stations, code, maxMins, limit) {
+    var out = [], chosen = [];
+    stations.filter(function (s) {
+      var j = s.journeys[code];
+      if (!j || j.mins > maxMins) return false;
+      if (WELL_KNOWN[s.name]) return false;
+      return kmBetween(CENTRAL, [s.lat, s.lng]) >= MIN_KM_FROM_LONDON;
+    }).sort(function (a, b) {
+      return a.journeys[code].mins - b.journeys[code].mins;
+    }).forEach(function (s) {
+      if (out.length >= (limit || 6)) return;
+      var tooClose = chosen.some(function (c) {
+        return kmBetween(c, [s.lat, s.lng]) < MIN_KM_APART;
+      });
+      if (tooClose) return;
+      chosen.push([s.lat, s.lng]);
+      out.push(s);
+    });
+    return out;
+  }
+
   return {
     COLOURS: COLOURS,
     BANDS: BANDS,
@@ -247,6 +306,9 @@ window.RR = (function () {
     fit: fit,
     stationPopup: stationPopup,
     stationMarker: stationMarker,
-    terminalMarker: terminalMarker
+    terminalMarker: terminalMarker,
+    discoveries: discoveries,
+    kmBetween: kmBetween,
+    WELL_KNOWN: WELL_KNOWN
   };
 })();

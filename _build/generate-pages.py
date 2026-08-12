@@ -370,6 +370,58 @@ def write_shared_js(data_js):
         print(f"  wrote assets/js/{name}")
 
 
+
+# ── Discovery ──────────────────────────────────────────────────────────────
+# Mirrors RR.discoveries in assets/js/map-ui.js. Ranked by absolute journey
+# time, not minutes per kilometre: that metric rewards being on a fast line,
+# and a good ratio is no comfort if the trip still takes 70 minutes.
+FEATURED_SET = set(FEATURED)
+
+MAJOR_PLACES = {
+    'Birmingham New Street', 'Birmingham International', 'Bristol Temple Meads',
+    'Bath Spa', 'Coventry', 'Rugby', 'Northampton', 'Leamington Spa', 'Warwick',
+    'Warwick Parkway', 'Salisbury', 'Southampton Central', 'Grantham',
+    'Newark Northgate', 'Luton', 'Luton Airport Parkway', 'Gatwick Airport',
+    'Stansted Airport', 'Chippenham', 'Banbury', 'Southend Central',
+    'Southend Victoria',
+}
+WELL_KNOWN = FEATURED_SET | MAJOR_PLACES
+
+CENTRAL = (51.5074, -0.1278)   # Charing Cross
+MIN_KM_FROM_LONDON = 20        # inside this ring it is London, not a relocation
+MIN_KM_APART = 8               # spread results rather than list one line's stops
+
+
+def discoveries(stations, code, max_mins, limit=6, exclude=None):
+    candidates = []
+    for s in stations:
+        if s['name'] == exclude or s['name'] in WELL_KNOWN:
+            continue
+        j = s['journeys'].get(code)
+        if not j or j['mins'] > max_mins:
+            continue
+        if haversine(CENTRAL[0], CENTRAL[1], s['lat'], s['lng']) < MIN_KM_FROM_LONDON:
+            continue
+        candidates.append(s)
+
+    candidates.sort(key=lambda s: s['journeys'][code]['mins'])
+    picked, coords = [], []
+    for s in candidates:
+        if len(picked) >= limit:
+            break
+        if any(haversine(c[0], c[1], s['lat'], s['lng']) < MIN_KM_APART for c in coords):
+            continue
+        coords.append((s['lat'], s['lng']))
+        picked.append(s)
+    return picked
+
+
+def discovery_band(mins):
+    """Round a journey time up to a band that reads naturally in a sentence."""
+    import math as _m
+    return max(30, int(_m.ceil(mins / 15.0) * 15))
+
+
 # ── Terminal pages ─────────────────────────────────────────────────────────
 def generate_terminal_page(code, terminals, stations, total):
     meta = TERMINAL_META[code]
@@ -685,6 +737,30 @@ def generate_station_page(station_name, slug, terminals, stations, total):
             f'stations with a service into {tm["name"]} inside 90 minutes.</p>')
     route_sections = '\n'.join(route_parts)
 
+    # Acquisition -> discovery. Someone landing here from a search already
+    # knows this town; the nearby-stations list only offers its geographic
+    # neighbours, which are the places they had already thought of. This
+    # surfaces comparable commutes they had not.
+    band = discovery_band(fastest_j['mins'])
+    finds = discoveries(stations, fastest_code, band, limit=6, exclude=station_name)
+    if finds:
+        find_cards = '\n'.join(
+            '<li><a class="card" href="/stations/{}/">'
+            '<span class="card-title">{}</span>'
+            '<span class="card-meta">{} to {}{}</span></a></li>'.format(
+                f['slug'], esc(f['name']), badge(f['journeys'][fastest_code]['mins']),
+                fastest_name,
+                ' &middot; direct' if f['journeys'][fastest_code]['direct'] else ' &middot; one change')
+            for f in finds)
+        discovery_section = f"""<h2 id="discover">Places you might not know, also near {fastest_name}</h2>
+<p>{station_name} is one of many places within {band} minutes of London {fastest_name}. These are less obvious options on the same network, ranked by journey time.</p>
+<ul class="link-grid">
+{find_cards}
+</ul>
+<p><a href="/?to={fastest_code}&amp;max={min(band, 90)}">See all of them on the map &rarr;</a></p>"""
+    else:
+        discovery_section = ''
+
     this_station_legend = ('<div class="legend-item"><div class="legend-dot" '
                            'style="background:#7c3aed"></div> <span class="legend-long">This station</span><span class="legend-short">This stn</span></div>\n')
 
@@ -720,8 +796,9 @@ def generate_station_page(station_name, slug, terminals, stations, total):
 <h2>Frequently asked questions</h2>
 {faqs_html}
 
+{discovery_section}
 <h2>Nearby stations</h2>
-<p>Alternative departure points close to {station_name}.</p>
+<p>Alternative departure points close to {station_name}, for comparing platforms rather than places.</p>
 <ul class="link-grid">
 {nearby_html}
 </ul>

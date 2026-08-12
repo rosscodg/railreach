@@ -56,15 +56,9 @@
 <a class="skip-map" href="#all-journey-times">Skip the map and read the journey times as a table</a>
 <div id="map"></div>
 <div class="controls">
-  <div class="control-row control-search">
-    <label class="sr-only" for="station-search">Search for a station</label>
-    <input id="station-search" type="text" role="combobox" aria-expanded="false"
-           aria-controls="station-search-results" aria-autocomplete="list"
-           autocomplete="off" spellcheck="false" placeholder="Search a station, e.g. Reading">
-    <ul id="station-search-results" role="listbox" aria-label="Matching stations" hidden></ul>
-  </div>
+  <p class="ask">Where could you live?</p>
   <div class="control-row">
-    <span class="control-label" id="dest-label">Into</span>
+    <span class="control-label" id="dest-label">Commuting into</span>
     <div id="terminal-buttons" role="group" aria-labelledby="dest-label"></div>
     <label class="sr-only" for="terminal-select">London terminal</label>
     <select id="terminal-select"></select>
@@ -74,6 +68,18 @@
     <div id="budget-filter" role="group" aria-labelledby="budget-label"></div>
   </div>
   <p class="station-count" id="station-count" role="status" aria-live="polite"></p>
+  <div class="control-row control-search">
+    <button type="button" id="search-toggle" aria-expanded="false" aria-controls="search-field">
+      Or search for a station by name
+    </button>
+    <div id="search-field" hidden>
+      <label class="sr-only" for="station-search">Search for a station</label>
+      <input id="station-search" type="text" role="combobox" aria-expanded="false"
+             aria-controls="station-search-results" aria-autocomplete="list"
+             autocomplete="off" spellcheck="false" placeholder="Station name, e.g. Reading">
+      <ul id="station-search-results" role="listbox" aria-label="Matching stations" hidden></ul>
+    </div>
+  </div>
 </div>
 <div class="legend">
   <p class="legend-title">Journey Time</p>
@@ -464,6 +470,12 @@ const STATIONS = [
 
 <main id="content" class="page-content">
 <div class="wrap">
+
+<section id="discovery" class="discovery" aria-labelledby="discovery-heading">
+  <h2 id="discovery-heading">Places you might not know</h2>
+  <p class="section-note" id="discovery-note">Commuter towns within reach that rarely make the shortlist.</p>
+  <ul class="link-grid" id="discovery-list"></ul>
+</section>
 
 <h1>Train journey times to London</h1>
 <!-- GEN:lede -->

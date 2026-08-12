@@ -15,14 +15,23 @@
   var terminalLayer = L.layerGroup().addTo(map);
   var markerBySlug = {};
 
-  var els = {
-    buttons: document.getElementById('terminal-buttons'),
-    select: document.getElementById('terminal-select'),
-    budget: document.getElementById('budget-filter'),
-    count: document.getElementById('station-count'),
-    search: document.getElementById('station-search'),
-    results: document.getElementById('station-search-results')
-  };
+  // Populated on DOM ready: the discovery section lives in <main>, which is
+  // parsed after this script tag, so a module-scope lookup returns null.
+  var els = {};
+
+  function collectElements() {
+    els.buttons = document.getElementById('terminal-buttons');
+    els.select = document.getElementById('terminal-select');
+    els.budget = document.getElementById('budget-filter');
+    els.count = document.getElementById('station-count');
+    els.search = document.getElementById('station-search');
+    els.results = document.getElementById('station-search-results');
+    els.searchToggle = document.getElementById('search-toggle');
+    els.searchField = document.getElementById('search-field');
+    els.discovery = document.getElementById('discovery-list');
+    els.discoveryNote = document.getElementById('discovery-note');
+  }
+
 
   /* ---- URL state --------------------------------------------------------
    * Previously nothing about the view was in the URL, so no map view could be
@@ -93,10 +102,56 @@
       b.setAttribute('aria-pressed', on ? 'true' : 'false');
     });
 
+    renderDiscovery(code, terminal);
+
     if (opts.fit !== false) {
       var pts = list.map(function (s) { return [s.lat, s.lng]; });
       pts.push([terminal.lat, terminal.lng]);
       RR.fit(map, pts, { animate: opts.animate !== false });
+    }
+  }
+
+  /* The reason the map exists: surfacing places people would not have thought
+   * to look up. Ranked by journey time, because that is what decides whether
+   * somewhere is liveable, and spread geographically so it is not six stops
+   * on one line. */
+  function renderDiscovery(code, terminal) {
+    if (!els.discovery) return;
+    var found = RR.discoveries(STATIONS, code, state.max, 6);
+    els.discovery.innerHTML = '';
+
+    if (!found.length) {
+      els.discoveryNote.textContent = 'No lesser-known stations within ' + state.max +
+        ' minutes of ' + terminal.name + '. Try a longer journey time.';
+      return;
+    }
+    els.discoveryNote.textContent = 'Commuter towns within ' + state.max + ' minutes of ' +
+      terminal.name + ' that rarely make the shortlist.';
+
+    found.forEach(function (s) {
+      var j = s.journeys[code];
+      var li = document.createElement('li');
+      var a = document.createElement('a');
+      a.className = 'card';
+      a.href = '/stations/' + s.slug + '/';
+      a.innerHTML = '<span class="card-title">' + RR.esc(s.name) + '</span>' +
+        '<span class="card-meta"><span class="t-badge ' +
+        (j.mins < 30 ? 't-fast' : j.mins < 60 ? 't-mid' : 't-slow') + '">' + j.mins +
+        ' min</span> to ' + RR.esc(terminal.name) +
+        (j.direct ? ' &middot; direct' : ' &middot; one change') + '</span>';
+      // Hovering or focusing a card points it out on the map.
+      a.addEventListener('mouseenter', function () { highlight(s); });
+      a.addEventListener('focus', function () { highlight(s); });
+      li.appendChild(a);
+      els.discovery.appendChild(li);
+    });
+  }
+
+  function highlight(s) {
+    var m = markerBySlug[s.slug];
+    if (m && m.setStyle) {
+      m.setStyle({ color: '#111827', weight: 4 });
+      setTimeout(function () { m.setStyle({ color: '#fff', weight: 2 }); }, 1200);
     }
   }
 
@@ -173,6 +228,15 @@
    * but the homepage only offered terminal-first navigation. */
   function buildSearch() {
     var input = els.search, listbox = els.results;
+
+    if (els.searchToggle) {
+      els.searchToggle.addEventListener('click', function () {
+        var open = els.searchField.hidden;
+        els.searchField.hidden = !open;
+        els.searchToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+        if (open) input.focus();
+      });
+    }
     var matches = [], active = -1;
 
     function close() {
@@ -258,12 +322,21 @@
   }
 
   /* ---- Boot ------------------------------------------------------------- */
-  readUrl();
-  buildTerminalControls();
-  buildBudgetControls();
-  buildSearch();
-  writeUrl(false);
-  render({ animate: false });
+  function boot() {
+    collectElements();
+    readUrl();
+    buildTerminalControls();
+    buildBudgetControls();
+    buildSearch();
+    writeUrl(false);
+    render({ animate: false });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot);
+  } else {
+    boot();
+  }
 
   window.addEventListener('popstate', function (e) {
     var s = e.state;
