@@ -149,17 +149,42 @@ window.RR = (function () {
     });
     if (!pts.length) return;
     var narrow = window.innerWidth <= 768;
-    // Keep markers clear of the control panel above and the legend/promo below.
-    var controls = document.querySelector('.controls');
-    var top = opts.topPadding != null ? opts.topPadding
-      : (controls ? Math.round(controls.getBoundingClientRect().height) + 18 : (narrow ? 24 : 70));
-    var bottom = opts.bottomPadding != null ? opts.bottomPadding : (narrow ? 155 : 120);
-    var side = narrow ? 22 : 50;
-    // Never let padding eat the whole map on a short viewport.
     var h = map.getSize().y;
-    if (top + bottom > h * 0.7) {
-      var scale = (h * 0.7) / (top + bottom);
-      top = Math.round(top * scale); bottom = Math.round(bottom * scale);
+    var shell = map.getContainer().getBoundingClientRect();
+
+    /* Measure what actually covers the map rather than guessing. A hardcoded
+     * 155px bottom was under-reading the legend (179px) while the control
+     * panel pushed the top padding to 188, leaving a 217px usable band on a
+     * 560px map - so fitBounds zoomed out to show most of western Europe. */
+    function obstructionTop(sel) {
+      var el = document.querySelector(sel);
+      if (!el) return 0;
+      var r = el.getBoundingClientRect();
+      if (!r.height) return 0;
+      return Math.max(0, r.bottom - shell.top);
+    }
+    function obstructionBottom(sel) {
+      var el = document.querySelector(sel);
+      if (!el) return 0;
+      var r = el.getBoundingClientRect();
+      if (!r.height) return 0;
+      return Math.max(0, shell.bottom - r.top);
+    }
+
+    var top = opts.topPadding != null ? opts.topPadding
+      : Math.max(obstructionTop('.controls'), narrow ? 16 : 60) + 10;
+    var bottom = opts.bottomPadding != null ? opts.bottomPadding
+      : Math.max(obstructionBottom('.legend'), obstructionBottom('#promo-banner'),
+                 narrow ? 70 : 90) + 10;
+    var side = narrow ? 22 : 50;
+
+    /* Padding must never dominate: below about half the map the fit degrades
+     * into a uselessly wide view. Prefer a slightly obscured marker to that. */
+    var maxPadding = h * 0.5;
+    if (top + bottom > maxPadding) {
+      var scale = maxPadding / (top + bottom);
+      top = Math.round(top * scale);
+      bottom = Math.round(bottom * scale);
     }
     map.fitBounds(L.latLngBounds(pts), {
       paddingTopLeft: [side, top],

@@ -150,7 +150,14 @@
       btn.type = 'button';
       btn.className = 'budget-btn';
       btn.dataset.max = String(mins);
-      btn.textContent = mins === 90 ? 'All' : 'Under ' + mins;
+      // Two labels so the chip can be terse on narrow screens without the
+      // control losing meaning. CSS swaps them at the mobile breakpoint.
+      btn.innerHTML = mins === 90
+        ? '<span class="btn-long">All</span><span class="btn-short">All</span>'
+        : '<span class="btn-long">Under ' + mins + '</span>' +
+          '<span class="btn-short">&lt;' + mins + '</span>';
+      btn.setAttribute('aria-label', mins === 90
+        ? 'Any journey time' : 'Journeys under ' + mins + ' minutes');
       btn.setAttribute('aria-pressed', 'false');
       btn.addEventListener('click', function () {
         state.max = mins;
