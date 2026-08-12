@@ -246,20 +246,20 @@ window.RR = (function () {
    * "Unfamiliar" is an editorial judgement, so it is an explicit list rather
    * than a clever formula. FEATURED are the towns the site already promotes
    * everywhere; MAJOR are cities and airports nobody discovers on a map. */
-  var FEATURED = ['Cambridge', 'Reading', 'Oxford', 'Brighton', 'Guildford', 'Woking',
-    'St Albans City', 'Stevenage', 'Milton Keynes Central', 'Chelmsford', 'Sevenoaks',
-    'Basingstoke', 'Winchester', 'Watford Junction', 'Swindon', 'Colchester', 'Ipswich',
-    'Peterborough', 'Bedford', 'High Wycombe', 'Tonbridge', 'Tunbridge Wells', 'Crawley',
-    'Bromley South', 'Richmond', 'Slough', 'Maidenhead'];
-
-  var MAJOR = ['Birmingham New Street', 'Birmingham International', 'Bristol Temple Meads',
-    'Bath Spa', 'Coventry', 'Rugby', 'Northampton', 'Leamington Spa', 'Warwick',
-    'Warwick Parkway', 'Salisbury', 'Southampton Central', 'Grantham', 'Newark Northgate',
-    'Luton', 'Luton Airport Parkway', 'Gatwick Airport', 'Stansted Airport', 'Chippenham',
-    'Banbury', 'Southend Central', 'Southend Victoria'];
-
-  var WELL_KNOWN = {};
-  FEATURED.concat(MAJOR).forEach(function (n) { WELL_KNOWN[n] = true; });
+  /* Deliberately no "well known" exclusion list.
+   *
+   * An earlier version filtered out the towns the site promotes plus a set of
+   * major cities, on the theory that nobody discovers Reading on a map. That
+   * assumed knowledge we have no basis for: plenty of people have no idea
+   * where Reading is, still less that it is 23 minutes from Paddington. The
+   * only exclusions left are places you cannot actually live - airports and
+   * a golf-course halt - which is a category judgement, not a guess about
+   * what the reader already knows. */
+  var NOT_A_PLACE_TO_LIVE = {};
+  ['Gatwick Airport', 'Stansted Airport', 'Luton Airport Parkway',
+   'Birmingham International', 'Denham Golf Club'].forEach(function (n) {
+    NOT_A_PLACE_TO_LIVE[n] = true;
+  });
 
   var CENTRAL = [51.5074, -0.1278];        // Charing Cross
   var MIN_KM_FROM_LONDON = 20;             // inside this ring it is London, not a move
@@ -278,7 +278,7 @@ window.RR = (function () {
     stations.filter(function (s) {
       var j = s.journeys[code];
       if (!j || j.mins > maxMins) return false;
-      if (WELL_KNOWN[s.name]) return false;
+      if (NOT_A_PLACE_TO_LIVE[s.name]) return false;
       return kmBetween(CENTRAL, [s.lat, s.lng]) >= MIN_KM_FROM_LONDON;
     }).sort(function (a, b) {
       return a.journeys[code].mins - b.journeys[code].mins;
@@ -308,7 +308,6 @@ window.RR = (function () {
     stationMarker: stationMarker,
     terminalMarker: terminalMarker,
     discoveries: discoveries,
-    kmBetween: kmBetween,
-    WELL_KNOWN: WELL_KNOWN
+    kmBetween: kmBetween
   };
 })();

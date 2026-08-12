@@ -375,17 +375,15 @@ def write_shared_js(data_js):
 # Mirrors RR.discoveries in assets/js/map-ui.js. Ranked by absolute journey
 # time, not minutes per kilometre: that metric rewards being on a fast line,
 # and a good ratio is no comfort if the trip still takes 70 minutes.
-FEATURED_SET = set(FEATURED)
-
-MAJOR_PLACES = {
-    'Birmingham New Street', 'Birmingham International', 'Bristol Temple Meads',
-    'Bath Spa', 'Coventry', 'Rugby', 'Northampton', 'Leamington Spa', 'Warwick',
-    'Warwick Parkway', 'Salisbury', 'Southampton Central', 'Grantham',
-    'Newark Northgate', 'Luton', 'Luton Airport Parkway', 'Gatwick Airport',
-    'Stansted Airport', 'Chippenham', 'Banbury', 'Southend Central',
-    'Southend Victoria',
+# Deliberately no "well known" exclusion list. Filtering out promoted towns
+# and major cities assumed knowledge we have no basis for: plenty of people
+# have no idea where Reading is, still less that it is 23 minutes from
+# Paddington. The only exclusions left are places you cannot live in, which is
+# a category judgement rather than a guess about the reader.
+NOT_A_PLACE_TO_LIVE = {
+    'Gatwick Airport', 'Stansted Airport', 'Luton Airport Parkway',
+    'Birmingham International', 'Denham Golf Club',
 }
-WELL_KNOWN = FEATURED_SET | MAJOR_PLACES
 
 CENTRAL = (51.5074, -0.1278)   # Charing Cross
 MIN_KM_FROM_LONDON = 20        # inside this ring it is London, not a relocation
@@ -395,7 +393,7 @@ MIN_KM_APART = 8               # spread results rather than list one line's stop
 def discoveries(stations, code, max_mins, limit=6, exclude=None):
     candidates = []
     for s in stations:
-        if s['name'] == exclude or s['name'] in WELL_KNOWN:
+        if s['name'] == exclude or s['name'] in NOT_A_PLACE_TO_LIVE:
             continue
         j = s['journeys'].get(code)
         if not j or j['mins'] > max_mins:
@@ -752,8 +750,8 @@ def generate_station_page(station_name, slug, terminals, stations, total):
                 fastest_name,
                 ' &middot; direct' if f['journeys'][fastest_code]['direct'] else ' &middot; one change')
             for f in finds)
-        discovery_section = f"""<h2 id="discover">Places you might not know, also near {fastest_name}</h2>
-<p>{station_name} is one of many places within {band} minutes of London {fastest_name}. These are less obvious options on the same network, ranked by journey time.</p>
+        discovery_section = f"""<h2 id="discover">Other places within {band} minutes of {fastest_name}</h2>
+<p>{station_name} is one of many places you could commute from. These are other options within {band} minutes of London {fastest_name}, ranked by journey time and spread across the network rather than clustered on one stretch of line.</p>
 <ul class="link-grid">
 {find_cards}
 </ul>

@@ -112,21 +112,22 @@
   }
 
   /* The reason the map exists: surfacing places people would not have thought
-   * to look up. Ranked by journey time, because that is what decides whether
-   * somewhere is liveable, and spread geographically so it is not six stops
-   * on one line. */
+   * to look up - without presuming which places those are. Ranked by journey
+   * time, because that is what decides whether somewhere is liveable, and
+   * spread geographically so it is not six stops on one line. */
   function renderDiscovery(code, terminal) {
     if (!els.discovery) return;
     var found = RR.discoveries(STATIONS, code, state.max, 6);
     els.discovery.innerHTML = '';
 
     if (!found.length) {
-      els.discoveryNote.textContent = 'No lesser-known stations within ' + state.max +
+      els.discoveryNote.textContent = 'No commuter towns within ' + state.max +
         ' minutes of ' + terminal.name + '. Try a longer journey time.';
       return;
     }
-    els.discoveryNote.textContent = 'Commuter towns within ' + state.max + ' minutes of ' +
-      terminal.name + ' that rarely make the shortlist.';
+    els.discoveryNote.textContent = found.length + ' places within ' + state.max +
+      ' minutes of ' + terminal.name + ', spread across the network. Every one is a ' +
+      'town you could commute from.';
 
     found.forEach(function (s) {
       var j = s.journeys[code];
