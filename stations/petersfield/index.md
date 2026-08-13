@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Petersfield?
 
-The closest alternatives are Liss, Liphook, Havant. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Liss, Liphook, Alton. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

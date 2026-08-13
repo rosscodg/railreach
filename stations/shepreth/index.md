@@ -35,7 +35,7 @@ Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Shepreth?
 
-The closest alternatives are Meldreth, Foxton, Royston. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Foxton, Meldreth, Royston. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

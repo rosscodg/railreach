@@ -35,7 +35,7 @@ Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Hockley?
 
-The closest alternatives are Leigh-on-Sea, Rayleigh, Rochford. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Rochford, Rayleigh, Leigh-on-Sea. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

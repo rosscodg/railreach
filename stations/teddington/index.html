@@ -103,7 +103,7 @@
 <h3>Are there direct trains from Teddington to London?</h3>
 <p>Yes. Direct services run to Waterloo.</p>
 <h3>What are the nearest stations to Teddington?</h3>
-<p>The closest alternatives are Strawberry Hill, Hampton Wick, Twickenham. These can offer a faster or cheaper route into London depending on where you live.</p>
+<p>The closest alternatives are Strawberry Hill, Hampton Wick, Hampton Court. These can offer a faster or cheaper route into London depending on where you live.</p>
 
 <h2 id="discover">Other places within 30 minutes of Waterloo</h2>
 <p>Teddington is one of many places you could commute from. These are other options within 30 minutes of London Waterloo, ranked by journey time and spread across the network rather than clustered on one stretch of line.</p>
@@ -117,9 +117,9 @@
 <ul class="link-grid">
 <li><a class="card" href="/stations/strawberry-hill/"><span class="card-title">Strawberry Hill</span><span class="card-meta"><span class="t-badge t-fast">25 min</span> fastest to London &middot; 2 km away</span></a></li>
 <li><a class="card" href="/stations/hampton-wick/"><span class="card-title">Hampton Wick</span><span class="card-meta"><span class="t-badge t-mid">30 min</span> fastest to London &middot; 2 km away</span></a></li>
-<li><a class="card" href="/stations/twickenham/"><span class="card-title">Twickenham</span><span class="card-meta"><span class="t-badge t-fast">22 min</span> fastest to London &middot; 2 km away</span></a></li>
 <li><a class="card" href="/stations/hampton-court/"><span class="card-title">Hampton Court</span><span class="card-meta"><span class="t-badge t-mid">33 min</span> fastest to London &middot; 3 km away</span></a></li>
 <li><a class="card" href="/stations/kingston/"><span class="card-title">Kingston</span><span class="card-meta"><span class="t-badge t-fast">25 min</span> fastest to London &middot; 3 km away</span></a></li>
+<li><a class="card" href="/stations/twickenham/"><span class="card-title">Twickenham</span><span class="card-meta"><span class="t-badge t-fast">22 min</span> fastest to London &middot; 3 km away</span></a></li>
 <li><a class="card" href="/stations/norbiton/"><span class="card-title">Norbiton</span><span class="card-meta"><span class="t-badge t-fast">23 min</span> fastest to London &middot; 4 km away</span></a></li>
 </ul>
 
@@ -134,7 +134,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -191,8 +191,8 @@
 "url": "https://railreach.co.uk/stations/teddington/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 51.4247,
-"longitude": -0.3325
+"latitude": 51.424481,
+"longitude": -0.332706
 },
 "containedInPlace": {
 "@type": "Country",
@@ -240,7 +240,7 @@
 "name": "What are the nearest stations to Teddington?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "The closest alternatives are Strawberry Hill, Hampton Wick, Twickenham. These can offer a faster or cheaper route into London depending on where you live."
+"text": "The closest alternatives are Strawberry Hill, Hampton Wick, Hampton Court. These can offer a faster or cheaper route into London depending on where you live."
 }
 }
 ]
@@ -251,12 +251,12 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([51.4247,-0.3325],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Teddington</strong><br>This station').addTo(map);
+L.circleMarker([51.424481,-0.332706],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Teddington</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.5031,-0.1132,'<strong>London Waterloo</strong><br>28 min from Teddington<br>Direct<br><a class="popup-link" href="/terminals/waterloo/">Terminal guide &rarr;</a>');
-L.polyline([[51.4247,-0.3325],[51.5031,-0.1132]],{color:RR.colour(28),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.424481,-0.332706],[51.5031,-0.1132]],{color:RR.colour(28),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Teddington: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[51.4247,-0.3325],[51.5031,-0.1132]],{animate:false});
+RR.fit(map,[[51.424481,-0.332706],[51.5031,-0.1132]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

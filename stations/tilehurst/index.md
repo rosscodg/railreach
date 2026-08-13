@@ -35,7 +35,7 @@ Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Tilehurst?
 
-The closest alternatives are Pangbourne, Reading, Theale. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Reading, Pangbourne, Theale. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

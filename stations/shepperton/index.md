@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Shepperton?
 
-The closest alternatives are Walton-on-Thames, Weybridge, Byfleet & New Haw. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Walton-on-Thames, Weybridge, Staines. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

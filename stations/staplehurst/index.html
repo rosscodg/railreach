@@ -119,11 +119,11 @@
 <h2>Nearby stations</h2>
 <p>Alternative departure points close to Staplehurst, for comparing platforms rather than places.</p>
 <ul class="link-grid">
-<li><a class="card" href="/stations/marden/"><span class="card-title">Marden</span><span class="card-meta"><span class="t-badge t-mid">55 min</span> fastest to London &middot; 5 km away</span></a></li>
+<li><a class="card" href="/stations/marden/"><span class="card-title">Marden</span><span class="card-meta"><span class="t-badge t-mid">55 min</span> fastest to London &middot; 4 km away</span></a></li>
 <li><a class="card" href="/stations/headcorn/"><span class="card-title">Headcorn</span><span class="card-meta"><span class="t-badge t-slow">66 min</span> fastest to London &middot; 5 km away</span></a></li>
-<li><a class="card" href="/stations/paddock-wood/"><span class="card-title">Paddock Wood</span><span class="card-meta"><span class="t-badge t-mid">48 min</span> fastest to London &middot; 12 km away</span></a></li>
+<li><a class="card" href="/stations/paddock-wood/"><span class="card-title">Paddock Wood</span><span class="card-meta"><span class="t-badge t-mid">48 min</span> fastest to London &middot; 11 km away</span></a></li>
 <li><a class="card" href="/stations/maidstone-east/"><span class="card-title">Maidstone East</span><span class="card-meta"><span class="t-badge t-mid">58 min</span> fastest to London &middot; 12 km away</span></a></li>
-<li><a class="card" href="/stations/pluckley/"><span class="card-title">Pluckley</span><span class="card-meta"><span class="t-badge t-slow">72 min</span> fastest to London &middot; 13 km away</span></a></li>
+<li><a class="card" href="/stations/pluckley/"><span class="card-title">Pluckley</span><span class="card-meta"><span class="t-badge t-slow">72 min</span> fastest to London &middot; 14 km away</span></a></li>
 <li><a class="card" href="/stations/tonbridge/"><span class="card-title">Tonbridge</span><span class="card-meta"><span class="t-badge t-mid">36 min</span> fastest to London &middot; 20 km away</span></a></li>
 </ul>
 
@@ -138,7 +138,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -195,8 +195,8 @@
 "url": "https://railreach.co.uk/stations/staplehurst/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 51.1698,
-"longitude": 0.5553
+"latitude": 51.171467,
+"longitude": 0.550439
 },
 "containedInPlace": {
 "@type": "Country",
@@ -255,12 +255,12 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([51.1698,0.5553],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Staplehurst</strong><br>This station').addTo(map);
+L.circleMarker([51.171467,0.550439],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Staplehurst</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.4952,-0.1439,'<strong>London Victoria</strong><br>60 min from Staplehurst<br>Direct<br><a class="popup-link" href="/terminals/victoria/">Terminal guide &rarr;</a>');
-L.polyline([[51.1698,0.5553],[51.4952,-0.1439]],{color:RR.colour(60),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.171467,0.550439],[51.4952,-0.1439]],{color:RR.colour(60),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Staplehurst: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[51.1698,0.5553],[51.4952,-0.1439]],{animate:false});
+RR.fit(map,[[51.171467,0.550439],[51.4952,-0.1439]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

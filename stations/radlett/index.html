@@ -103,7 +103,7 @@
 <h3>Are there direct trains from Radlett to London?</h3>
 <p>Yes. Direct services run to Kings Cross.</p>
 <h3>What are the nearest stations to Radlett?</h3>
-<p>The closest alternatives are Elstree & Borehamwood, Bushey, Watford Junction. These can offer a faster or cheaper route into London depending on where you live.</p>
+<p>The closest alternatives are Elstree & Borehamwood, Watford Junction, Bushey. These can offer a faster or cheaper route into London depending on where you live.</p>
 
 <h2 id="discover">Other places within 30 minutes of Kings Cross</h2>
 <p>Radlett is one of many places you could commute from. These are other options within 30 minutes of London Kings Cross, ranked by journey time and spread across the network rather than clustered on one stretch of line.</p>
@@ -119,11 +119,11 @@
 <p>Alternative departure points close to Radlett, for comparing platforms rather than places.</p>
 <ul class="link-grid">
 <li><a class="card" href="/stations/elstree-and-borehamwood/"><span class="card-title">Elstree &amp; Borehamwood</span><span class="card-meta"><span class="t-badge t-fast">21 min</span> fastest to London &middot; 4 km away</span></a></li>
-<li><a class="card" href="/stations/bushey/"><span class="card-title">Bushey</span><span class="card-meta"><span class="t-badge t-fast">14 min</span> fastest to London &middot; 6 km away</span></a></li>
 <li><a class="card" href="/stations/watford/"><span class="card-title">Watford Junction</span><span class="card-meta"><span class="t-badge t-fast">16 min</span> fastest to London &middot; 6 km away</span></a></li>
+<li><a class="card" href="/stations/bushey/"><span class="card-title">Bushey</span><span class="card-meta"><span class="t-badge t-fast">14 min</span> fastest to London &middot; 6 km away</span></a></li>
 <li><a class="card" href="/stations/st-albans/"><span class="card-title">St Albans City</span><span class="card-meta"><span class="t-badge t-fast">20 min</span> fastest to London &middot; 7 km away</span></a></li>
+<li><a class="card" href="/stations/kings-langley/"><span class="card-title">Kings Langley</span><span class="card-meta"><span class="t-badge t-fast">22 min</span> fastest to London &middot; 9 km away</span></a></li>
 <li><a class="card" href="/stations/potters-bar/"><span class="card-title">Potters Bar</span><span class="card-meta"><span class="t-badge t-fast">18 min</span> fastest to London &middot; 9 km away</span></a></li>
-<li><a class="card" href="/stations/brookmans-park/"><span class="card-title">Brookmans Park</span><span class="card-meta"><span class="t-badge t-fast">24 min</span> fastest to London &middot; 9 km away</span></a></li>
 </ul>
 
 <h2>All London terminals</h2>
@@ -137,7 +137,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -194,8 +194,8 @@
 "url": "https://railreach.co.uk/stations/radlett/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 51.6854,
-"longitude": -0.317
+"latitude": 51.685188,
+"longitude": -0.317244
 },
 "containedInPlace": {
 "@type": "Country",
@@ -243,7 +243,7 @@
 "name": "What are the nearest stations to Radlett?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "The closest alternatives are Elstree & Borehamwood, Bushey, Watford Junction. These can offer a faster or cheaper route into London depending on where you live."
+"text": "The closest alternatives are Elstree & Borehamwood, Watford Junction, Bushey. These can offer a faster or cheaper route into London depending on where you live."
 }
 }
 ]
@@ -254,12 +254,12 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([51.6854,-0.317],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Radlett</strong><br>This station').addTo(map);
+L.circleMarker([51.685188,-0.317244],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Radlett</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.532,-0.124,'<strong>London Kings Cross</strong><br>24 min from Radlett<br>Direct<br><a class="popup-link" href="/terminals/kings-cross/">Terminal guide &rarr;</a>');
-L.polyline([[51.6854,-0.317],[51.532,-0.124]],{color:RR.colour(24),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.685188,-0.317244],[51.532,-0.124]],{color:RR.colour(24),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Radlett: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[51.6854,-0.317],[51.532,-0.124]],{animate:false});
+RR.fit(map,[[51.685188,-0.317244],[51.532,-0.124]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

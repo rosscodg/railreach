@@ -35,7 +35,7 @@ Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Slough?
 
-The closest alternatives are Langley, Windsor & Eton Central, Burnham. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Windsor & Eton Central, Langley, Burnham. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

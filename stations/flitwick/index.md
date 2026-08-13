@@ -35,7 +35,7 @@ Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Flitwick?
 
-The closest alternatives are Luton, Bedford, Arlesey. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Luton, Bedford, Leighton Buzzard. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

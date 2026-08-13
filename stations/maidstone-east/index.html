@@ -103,7 +103,7 @@
 <h3>Are there direct trains from Maidstone East to London?</h3>
 <p>Yes. Direct services run to Victoria.</p>
 <h3>What are the nearest stations to Maidstone East?</h3>
-<p>The closest alternatives are Marden, Staplehurst, Rainham (Kent). These can offer a faster or cheaper route into London depending on where you live.</p>
+<p>The closest alternatives are Chatham, Marden, Rainham (Kent). These can offer a faster or cheaper route into London depending on where you live.</p>
 
 <h2 id="discover">Other places within 60 minutes of Victoria</h2>
 <p>Maidstone East is one of many places you could commute from. These are other options within 60 minutes of London Victoria, ranked by journey time and spread across the network rather than clustered on one stretch of line.</p>
@@ -119,12 +119,12 @@
 <h2>Nearby stations</h2>
 <p>Alternative departure points close to Maidstone East, for comparing platforms rather than places.</p>
 <ul class="link-grid">
-<li><a class="card" href="/stations/marden/"><span class="card-title">Marden</span><span class="card-meta"><span class="t-badge t-mid">55 min</span> fastest to London &middot; 11 km away</span></a></li>
-<li><a class="card" href="/stations/staplehurst/"><span class="card-title">Staplehurst</span><span class="card-meta"><span class="t-badge t-slow">60 min</span> fastest to London &middot; 12 km away</span></a></li>
+<li><a class="card" href="/stations/chatham/"><span class="card-title">Chatham</span><span class="card-meta"><span class="t-badge t-mid">42 min</span> fastest to London &middot; 11 km away</span></a></li>
+<li><a class="card" href="/stations/marden/"><span class="card-title">Marden</span><span class="card-meta"><span class="t-badge t-mid">55 min</span> fastest to London &middot; 12 km away</span></a></li>
 <li><a class="card" href="/stations/rainham-kent/"><span class="card-title">Rainham (Kent)</span><span class="card-meta"><span class="t-badge t-mid">52 min</span> fastest to London &middot; 12 km away</span></a></li>
-<li><a class="card" href="/stations/chatham/"><span class="card-title">Chatham</span><span class="card-meta"><span class="t-badge t-mid">42 min</span> fastest to London &middot; 12 km away</span></a></li>
-<li><a class="card" href="/stations/gillingham/"><span class="card-title">Gillingham</span><span class="card-meta"><span class="t-badge t-mid">47 min</span> fastest to London &middot; 13 km away</span></a></li>
-<li><a class="card" href="/stations/rochester/"><span class="card-title">Rochester</span><span class="card-meta"><span class="t-badge t-mid">38 min</span> fastest to London &middot; 13 km away</span></a></li>
+<li><a class="card" href="/stations/staplehurst/"><span class="card-title">Staplehurst</span><span class="card-meta"><span class="t-badge t-slow">60 min</span> fastest to London &middot; 12 km away</span></a></li>
+<li><a class="card" href="/stations/gillingham/"><span class="card-title">Gillingham</span><span class="card-meta"><span class="t-badge t-mid">47 min</span> fastest to London &middot; 12 km away</span></a></li>
+<li><a class="card" href="/stations/rochester/"><span class="card-title">Rochester</span><span class="card-meta"><span class="t-badge t-mid">38 min</span> fastest to London &middot; 12 km away</span></a></li>
 </ul>
 
 <h2>All London terminals</h2>
@@ -138,7 +138,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -195,8 +195,8 @@
 "url": "https://railreach.co.uk/stations/maidstone-east/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 51.2722,
-"longitude": 0.5257
+"latitude": 51.27783,
+"longitude": 0.521295
 },
 "containedInPlace": {
 "@type": "Country",
@@ -244,7 +244,7 @@
 "name": "What are the nearest stations to Maidstone East?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "The closest alternatives are Marden, Staplehurst, Rainham (Kent). These can offer a faster or cheaper route into London depending on where you live."
+"text": "The closest alternatives are Chatham, Marden, Rainham (Kent). These can offer a faster or cheaper route into London depending on where you live."
 }
 }
 ]
@@ -255,12 +255,12 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([51.2722,0.5257],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Maidstone East</strong><br>This station').addTo(map);
+L.circleMarker([51.27783,0.521295],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Maidstone East</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.4952,-0.1439,'<strong>London Victoria</strong><br>58 min from Maidstone East<br>Direct<br><a class="popup-link" href="/terminals/victoria/">Terminal guide &rarr;</a>');
-L.polyline([[51.2722,0.5257],[51.4952,-0.1439]],{color:RR.colour(58),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.27783,0.521295],[51.4952,-0.1439]],{color:RR.colour(58),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Maidstone East: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[51.2722,0.5257],[51.4952,-0.1439]],{animate:false});
+RR.fit(map,[[51.27783,0.521295],[51.4952,-0.1439]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

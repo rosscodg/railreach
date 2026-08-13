@@ -35,7 +35,7 @@ Yes. Direct services run to Marylebone.
 
 ### What are the nearest stations to Gerrards Cross?
 
-The closest alternatives are Denham Golf Club, Seer Green & Jordans, Denham. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Denham Golf Club, Denham, Seer Green & Jordans. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

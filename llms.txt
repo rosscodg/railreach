@@ -2,7 +2,7 @@
 
 > RailReach is a free interactive map of train journey times from 345 UK stations to the 9 London main line terminals. Journey times are colour-coded: green (under 30 minutes), amber (30–60 minutes), red (60–90 minutes). Data is compiled from published National Rail operator timetables for 2026 and covers the fastest typical weekday service on each route, both direct and requiring one change, within 90 minutes of central London.
 
-Site last updated: 2026-08-12
+Site last updated: 2026-08-13
 Data last reviewed: 2026-07-28
 Licence: Creative Commons Attribution 4.0. Reuse permitted with attribution to RailReach.
 

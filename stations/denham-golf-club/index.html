@@ -109,7 +109,8 @@
 <p>Denham Golf Club is one of many places you could commute from. These are other options within 30 minutes of London Marylebone, ranked by journey time and spread across the network rather than clustered on one stretch of line.</p>
 <ul class="link-grid">
 <li><a class="card" href="/stations/denham/"><span class="card-title">Denham</span><span class="card-meta"><span class="t-badge t-fast">18 min</span> to Marylebone &middot; direct</span></a></li>
-<li><a class="card" href="/stations/beaconsfield/"><span class="card-title">Beaconsfield</span><span class="card-meta"><span class="t-badge t-fast">24 min</span> to Marylebone &middot; direct</span></a></li>
+<li><a class="card" href="/stations/seer-green-and-jordans/"><span class="card-title">Seer Green &amp; Jordans</span><span class="card-meta"><span class="t-badge t-fast">23 min</span> to Marylebone &middot; direct</span></a></li>
+<li><a class="card" href="/stations/high-wycombe/"><span class="card-title">High Wycombe</span><span class="card-meta"><span class="t-badge t-fast">27 min</span> to Marylebone &middot; direct</span></a></li>
 </ul>
 <p><a href="/?to=MYB&amp;max=30">See all of them on the map &rarr;</a></p>
 <h2>Nearby stations</h2>
@@ -134,7 +135,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -191,8 +192,8 @@
 "url": "https://railreach.co.uk/stations/denham-golf-club/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 51.5764,
-"longitude": -0.5116
+"latitude": 51.580598,
+"longitude": -0.517787
 },
 "containedInPlace": {
 "@type": "Country",
@@ -251,12 +252,12 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([51.5764,-0.5116],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Denham Golf Club</strong><br>This station').addTo(map);
+L.circleMarker([51.580598,-0.517787],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Denham Golf Club</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.5225,-0.1634,'<strong>London Marylebone</strong><br>20 min from Denham Golf Club<br>Direct<br><a class="popup-link" href="/terminals/marylebone/">Terminal guide &rarr;</a>');
-L.polyline([[51.5764,-0.5116],[51.5225,-0.1634]],{color:RR.colour(20),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.580598,-0.517787],[51.5225,-0.1634]],{color:RR.colour(20),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Denham Golf Club: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[51.5764,-0.5116],[51.5225,-0.1634]],{animate:false});
+RR.fit(map,[[51.580598,-0.517787],[51.5225,-0.1634]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

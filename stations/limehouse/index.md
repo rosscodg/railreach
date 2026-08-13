@@ -35,7 +35,7 @@ Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to Limehouse?
 
-The closest alternatives are West Ham, Stratford, New Cross. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are West Ham, New Cross, Stratford. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

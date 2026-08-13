@@ -35,7 +35,7 @@ Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to Laindon?
 
-The closest alternatives are Basildon, Pitsea, Stanford-le-Hope. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Basildon, Pitsea, West Horndon. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

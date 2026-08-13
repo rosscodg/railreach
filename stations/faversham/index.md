@@ -35,7 +35,7 @@ Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Faversham?
 
-The closest alternatives are Sittingbourne, Ashford International, Rainham (Kent). These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Sittingbourne, Ashford International, Pluckley. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

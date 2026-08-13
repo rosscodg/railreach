@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Walton-on-Thames?
 
-The closest alternatives are Shepperton, Esher, Hinchley Wood. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Weybridge, Shepperton, Esher. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

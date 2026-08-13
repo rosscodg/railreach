@@ -119,7 +119,7 @@
 <ul class="link-grid">
 <li><a class="card" href="/stations/beckenham-hill/"><span class="card-title">Beckenham Hill</span><span class="card-meta"><span class="t-badge t-fast">18 min</span> fastest to London &middot; 1 km away</span></a></li>
 <li><a class="card" href="/stations/catford/"><span class="card-title">Catford</span><span class="card-meta"><span class="t-badge t-fast">15 min</span> fastest to London &middot; 1 km away</span></a></li>
-<li><a class="card" href="/stations/hither-green/"><span class="card-title">Hither Green</span><span class="card-meta"><span class="t-badge t-fast">10 min</span> fastest to London &middot; 3 km away</span></a></li>
+<li><a class="card" href="/stations/hither-green/"><span class="card-title">Hither Green</span><span class="card-meta"><span class="t-badge t-fast">10 min</span> fastest to London &middot; 2 km away</span></a></li>
 <li><a class="card" href="/stations/grove-park/"><span class="card-title">Grove Park</span><span class="card-meta"><span class="t-badge t-fast">14 min</span> fastest to London &middot; 3 km away</span></a></li>
 <li><a class="card" href="/stations/lewisham/"><span class="card-title">Lewisham</span><span class="card-meta"><span class="t-badge t-fast">8 min</span> fastest to London &middot; 4 km away</span></a></li>
 <li><a class="card" href="/stations/blackheath/"><span class="card-title">Blackheath</span><span class="card-meta"><span class="t-badge t-fast">12 min</span> fastest to London &middot; 4 km away</span></a></li>
@@ -136,7 +136,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -193,8 +193,8 @@
 "url": "https://railreach.co.uk/stations/bellingham/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 51.4325,
-"longitude": -0.0189
+"latitude": 51.432913,
+"longitude": -0.019331
 },
 "containedInPlace": {
 "@type": "Country",
@@ -253,12 +253,12 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([51.4325,-0.0189],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Bellingham</strong><br>This station').addTo(map);
+L.circleMarker([51.432913,-0.019331],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Bellingham</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.5052,-0.0862,'<strong>London London Bridge</strong><br>16 min from Bellingham<br>Direct<br><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
-L.polyline([[51.4325,-0.0189],[51.5052,-0.0862]],{color:RR.colour(16),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.432913,-0.019331],[51.5052,-0.0862]],{color:RR.colour(16),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Bellingham: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[51.4325,-0.0189],[51.5052,-0.0862]],{animate:false});
+RR.fit(map,[[51.432913,-0.019331],[51.5052,-0.0862]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

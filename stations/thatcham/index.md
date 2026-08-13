@@ -35,7 +35,7 @@ Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Thatcham?
 
-The closest alternatives are Newbury, Kintbury, Theale. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Newbury, Theale, Kintbury. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

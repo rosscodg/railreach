@@ -103,7 +103,7 @@
 <h3>Are there direct trains from Barnehurst to London?</h3>
 <p>Yes. Direct services run to London Bridge.</p>
 <h3>What are the nearest stations to Barnehurst?</h3>
-<p>The closest alternatives are Bexleyheath, Slade Green, Erith. These can offer a faster or cheaper route into London depending on where you live.</p>
+<p>The closest alternatives are Bexleyheath, Erith, Slade Green. These can offer a faster or cheaper route into London depending on where you live.</p>
 
 <h2 id="discover">Other places within 45 minutes of London Bridge</h2>
 <p>Barnehurst is one of many places you could commute from. These are other options within 45 minutes of London London Bridge, ranked by journey time and spread across the network rather than clustered on one stretch of line.</p>
@@ -120,11 +120,11 @@
 <p>Alternative departure points close to Barnehurst, for comparing platforms rather than places.</p>
 <ul class="link-grid">
 <li><a class="card" href="/stations/bexleyheath/"><span class="card-title">Bexleyheath</span><span class="card-meta"><span class="t-badge t-fast">28 min</span> fastest to London &middot; 2 km away</span></a></li>
+<li><a class="card" href="/stations/erith/"><span class="card-title">Erith</span><span class="card-meta"><span class="t-badge t-fast">28 min</span> fastest to London &middot; 2 km away</span></a></li>
 <li><a class="card" href="/stations/slade-green/"><span class="card-title">Slade Green</span><span class="card-meta"><span class="t-badge t-mid">30 min</span> fastest to London &middot; 2 km away</span></a></li>
-<li><a class="card" href="/stations/erith/"><span class="card-title">Erith</span><span class="card-meta"><span class="t-badge t-fast">28 min</span> fastest to London &middot; 3 km away</span></a></li>
-<li><a class="card" href="/stations/welling/"><span class="card-title">Welling</span><span class="card-meta"><span class="t-badge t-fast">25 min</span> fastest to London &middot; 4 km away</span></a></li>
-<li><a class="card" href="/stations/dartford/"><span class="card-title">Dartford</span><span class="card-meta"><span class="t-badge t-mid">33 min</span> fastest to London &middot; 4 km away</span></a></li>
 <li><a class="card" href="/stations/abbey-wood/"><span class="card-title">Abbey Wood</span><span class="card-meta"><span class="t-badge t-fast">23 min</span> fastest to London &middot; 4 km away</span></a></li>
+<li><a class="card" href="/stations/welling/"><span class="card-title">Welling</span><span class="card-meta"><span class="t-badge t-fast">25 min</span> fastest to London &middot; 4 km away</span></a></li>
+<li><a class="card" href="/stations/dartford/"><span class="card-title">Dartford</span><span class="card-meta"><span class="t-badge t-mid">33 min</span> fastest to London &middot; 5 km away</span></a></li>
 </ul>
 
 <h2>All London terminals</h2>
@@ -138,7 +138,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -195,8 +195,8 @@
 "url": "https://railreach.co.uk/stations/barnehurst/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 51.4601,
-"longitude": 0.1599
+"latitude": 51.464959,
+"longitude": 0.159646
 },
 "containedInPlace": {
 "@type": "Country",
@@ -244,7 +244,7 @@
 "name": "What are the nearest stations to Barnehurst?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "The closest alternatives are Bexleyheath, Slade Green, Erith. These can offer a faster or cheaper route into London depending on where you live."
+"text": "The closest alternatives are Bexleyheath, Erith, Slade Green. These can offer a faster or cheaper route into London depending on where you live."
 }
 }
 ]
@@ -255,12 +255,12 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([51.4601,0.1599],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Barnehurst</strong><br>This station').addTo(map);
+L.circleMarker([51.464959,0.159646],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Barnehurst</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.5052,-0.0862,'<strong>London London Bridge</strong><br>32 min from Barnehurst<br>Direct<br><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
-L.polyline([[51.4601,0.1599],[51.5052,-0.0862]],{color:RR.colour(32),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.464959,0.159646],[51.5052,-0.0862]],{color:RR.colour(32),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Barnehurst: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[51.4601,0.1599],[51.5052,-0.0862]],{animate:false});
+RR.fit(map,[[51.464959,0.159646],[51.5052,-0.0862]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

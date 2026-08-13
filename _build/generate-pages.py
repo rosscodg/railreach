@@ -35,6 +35,8 @@ BUILD_DATE = datetime.date.today().isoformat()
 # review that never happened. Loaded from stations.json in main(); bump it there
 # only when the data has actually been verified.
 REVIEW_DATE = BUILD_DATE
+GEO_SOURCE = 'unspecified'
+GEO_UPDATED = 'unknown'
 
 # ── Terminal metadata ──────────────────────────────────────────────────────
 TERMINAL_META = {
@@ -1215,6 +1217,10 @@ def generate_about(stations, counts, total, n_station_pages):
 <p>Each figure is the <strong>fastest typical weekday service</strong> on that route: the quickest journey a commuter could reasonably expect on a normal working day. It is not an average across all services, and it is not a record-setting one-off. Off-peak, evening and weekend journeys are frequently slower.</p>
 <p>Where no direct service exists, the time reflects the quickest routing with one change, including a realistic interchange allowance. Those journeys are marked "change required" throughout the site.</p>
 
+<h2>Station positions</h2>
+<p>Station coordinates come from <a href="https://www.gov.uk/government/publications/national-public-transport-access-node-schema" rel="noopener" target="_blank">NaPTAN</a>, the Department for Transport's reference dataset of public transport access points, last applied on {GEO_UPDATED}. Each station is also matched to its TIPLOC codes, the identifiers timetable data uses, so journey times can be checked against published schedules.</p>
+<p>Positions were previously compiled by hand and were wrong for 69 stations by more than 500 metres, and for 22 by more than a kilometre. Those are now corrected.</p>
+
 <h2>Coverage</h2>
 <div class="table-scroll">
 <table>
@@ -1618,6 +1624,8 @@ def export_dataset(terminals, stations):
             'basis': 'fastest typical weekday service',
             'maxMinutes': 90,
             'lastReviewed': REVIEW_DATE,
+            'coordinateSource': GEO_SOURCE,
+            'coordinatesUpdated': GEO_UPDATED,
             'licence': 'CC BY 4.0',
             'attribution': f'RailReach ({SITE}/)',
             'terminals': {c: {**terminals[c], 'slug': TERMINAL_META[c]['slug'],
@@ -1635,8 +1643,12 @@ def main():
     global REVIEW_DATE
     print("Loading dataset...")
     terminals, stations = load_data()
+    global GEO_SOURCE, GEO_UPDATED
     with open(DATA_PATH) as f:
-        REVIEW_DATE = json.load(f).get('lastReviewed', BUILD_DATE)
+        _meta = json.load(f)
+    REVIEW_DATE = _meta.get('lastReviewed', BUILD_DATE)
+    GEO_SOURCE = _meta.get('geoSource', 'unspecified')
+    GEO_UPDATED = _meta.get('geoUpdated', 'unknown')
     check_timetable_currency(REVIEW_DATE)
     check_prose_figures(stations)
     STATION_SLUGS.update({s['name']: s['slug'] for s in stations})

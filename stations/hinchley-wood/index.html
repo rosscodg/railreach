@@ -118,9 +118,9 @@
 <li><a class="card" href="/stations/esher/"><span class="card-title">Esher</span><span class="card-meta"><span class="t-badge t-fast">21 min</span> fastest to London &middot; 1 km away</span></a></li>
 <li><a class="card" href="/stations/thames-ditton/"><span class="card-title">Thames Ditton</span><span class="card-meta"><span class="t-badge t-mid">30 min</span> fastest to London &middot; 2 km away</span></a></li>
 <li><a class="card" href="/stations/claygate/"><span class="card-title">Claygate</span><span class="card-meta"><span class="t-badge t-fast">29 min</span> fastest to London &middot; 2 km away</span></a></li>
+<li><a class="card" href="/stations/chessington-south/"><span class="card-title">Chessington South</span><span class="card-meta"><span class="t-badge t-mid">35 min</span> fastest to London &middot; 3 km away</span></a></li>
 <li><a class="card" href="/stations/hampton-court/"><span class="card-title">Hampton Court</span><span class="card-meta"><span class="t-badge t-mid">33 min</span> fastest to London &middot; 3 km away</span></a></li>
 <li><a class="card" href="/stations/surbiton/"><span class="card-title">Surbiton</span><span class="card-meta"><span class="t-badge t-fast">17 min</span> fastest to London &middot; 3 km away</span></a></li>
-<li><a class="card" href="/stations/chessington-south/"><span class="card-title">Chessington South</span><span class="card-meta"><span class="t-badge t-mid">35 min</span> fastest to London &middot; 4 km away</span></a></li>
 </ul>
 
 <h2>All London terminals</h2>
@@ -134,7 +134,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -191,8 +191,8 @@
 "url": "https://railreach.co.uk/stations/hinchley-wood/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 51.3788,
-"longitude": -0.3439
+"latitude": 51.374998,
+"longitude": -0.340524
 },
 "containedInPlace": {
 "@type": "Country",
@@ -251,12 +251,12 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([51.3788,-0.3439],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Hinchley Wood</strong><br>This station').addTo(map);
+L.circleMarker([51.374998,-0.340524],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Hinchley Wood</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.5031,-0.1132,'<strong>London Waterloo</strong><br>27 min from Hinchley Wood<br>Direct<br><a class="popup-link" href="/terminals/waterloo/">Terminal guide &rarr;</a>');
-L.polyline([[51.3788,-0.3439],[51.5031,-0.1132]],{color:RR.colour(27),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.374998,-0.340524],[51.5031,-0.1132]],{color:RR.colour(27),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Hinchley Wood: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[51.3788,-0.3439],[51.5031,-0.1132]],{animate:false});
+RR.fit(map,[[51.374998,-0.340524],[51.5031,-0.1132]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Basingstoke?
 
-The closest alternatives are Hook, Winchfield, Overton. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Hook, Overton, Winchfield. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

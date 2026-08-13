@@ -103,7 +103,7 @@
 <h3>Are there direct trains from Vauxhall to London?</h3>
 <p>Yes. Direct services run to Waterloo.</p>
 <h3>What are the nearest stations to Vauxhall?</h3>
-<p>The closest alternatives are Battersea Park, Denmark Hill, Peckham Rye. These can offer a faster or cheaper route into London depending on where you live.</p>
+<p>The closest alternatives are Battersea Park, Denmark Hill, Clapham Junction. These can offer a faster or cheaper route into London depending on where you live.</p>
 
 <h2 id="discover">Other places within 30 minutes of Waterloo</h2>
 <p>Vauxhall is one of many places you could commute from. These are other options within 30 minutes of London Waterloo, ranked by journey time and spread across the network rather than clustered on one stretch of line.</p>
@@ -117,8 +117,8 @@
 <ul class="link-grid">
 <li><a class="card" href="/stations/battersea-park/"><span class="card-title">Battersea Park</span><span class="card-meta"><span class="t-badge t-fast">4 min</span> fastest to London &middot; 2 km away</span></a></li>
 <li><a class="card" href="/stations/denmark-hill/"><span class="card-title">Denmark Hill</span><span class="card-meta"><span class="t-badge t-fast">10 min</span> fastest to London &middot; 3 km away</span></a></li>
-<li><a class="card" href="/stations/peckham-rye/"><span class="card-title">Peckham Rye</span><span class="card-meta"><span class="t-badge t-fast">13 min</span> fastest to London &middot; 4 km away</span></a></li>
 <li><a class="card" href="/stations/clapham-junction/"><span class="card-title">Clapham Junction</span><span class="card-meta"><span class="t-badge t-fast">5 min</span> fastest to London &middot; 4 km away</span></a></li>
+<li><a class="card" href="/stations/peckham-rye/"><span class="card-title">Peckham Rye</span><span class="card-meta"><span class="t-badge t-fast">13 min</span> fastest to London &middot; 4 km away</span></a></li>
 <li><a class="card" href="/stations/balham/"><span class="card-title">Balham</span><span class="card-meta"><span class="t-badge t-fast">10 min</span> fastest to London &middot; 5 km away</span></a></li>
 <li><a class="card" href="/stations/wandsworth-common/"><span class="card-title">Wandsworth Common</span><span class="card-meta"><span class="t-badge t-fast">8 min</span> fastest to London &middot; 5 km away</span></a></li>
 </ul>
@@ -134,7 +134,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -191,8 +191,8 @@
 "url": "https://railreach.co.uk/stations/vauxhall/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 51.4863,
-"longitude": -0.1225
+"latitude": 51.48619,
+"longitude": -0.122875
 },
 "containedInPlace": {
 "@type": "Country",
@@ -240,7 +240,7 @@
 "name": "What are the nearest stations to Vauxhall?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "The closest alternatives are Battersea Park, Denmark Hill, Peckham Rye. These can offer a faster or cheaper route into London depending on where you live."
+"text": "The closest alternatives are Battersea Park, Denmark Hill, Clapham Junction. These can offer a faster or cheaper route into London depending on where you live."
 }
 }
 ]
@@ -251,12 +251,12 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([51.4863,-0.1225],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Vauxhall</strong><br>This station').addTo(map);
+L.circleMarker([51.48619,-0.122875],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Vauxhall</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.5031,-0.1132,'<strong>London Waterloo</strong><br>4 min from Vauxhall<br>Direct<br><a class="popup-link" href="/terminals/waterloo/">Terminal guide &rarr;</a>');
-L.polyline([[51.4863,-0.1225],[51.5031,-0.1132]],{color:RR.colour(4),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.48619,-0.122875],[51.5031,-0.1132]],{color:RR.colour(4),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Vauxhall: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[51.4863,-0.1225],[51.5031,-0.1132]],{animate:false});
+RR.fit(map,[[51.48619,-0.122875],[51.5031,-0.1132]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

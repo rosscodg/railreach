@@ -35,7 +35,7 @@ Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Chatham?
 
-The closest alternatives are Gillingham, Rochester, Strood. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Rochester, Gillingham, Strood. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

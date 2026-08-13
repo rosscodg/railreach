@@ -120,11 +120,11 @@
 <p>Alternative departure points close to Kingham, for comparing platforms rather than places.</p>
 <ul class="link-grid">
 <li><a class="card" href="/stations/charlbury/"><span class="card-title">Charlbury</span><span class="card-meta"><span class="t-badge t-slow">72 min</span> fastest to London &middot; 10 km away</span></a></li>
-<li><a class="card" href="/stations/moreton-in-marsh/"><span class="card-title">Moreton-in-Marsh</span><span class="card-meta"><span class="t-badge t-slow">85 min</span> fastest to London &middot; 12 km away</span></a></li>
-<li><a class="card" href="/stations/hanborough/"><span class="card-title">Hanborough</span><span class="card-meta"><span class="t-badge t-slow">62 min</span> fastest to London &middot; 19 km away</span></a></li>
-<li><a class="card" href="/stations/kings-sutton/"><span class="card-title">Kings Sutton</span><span class="card-meta"><span class="t-badge t-mid">55 min</span> fastest to London &middot; 28 km away</span></a></li>
-<li><a class="card" href="/stations/banbury/"><span class="card-title">Banbury</span><span class="card-meta"><span class="t-badge t-mid">58 min</span> fastest to London &middot; 28 km away</span></a></li>
-<li><a class="card" href="/stations/oxford/"><span class="card-title">Oxford</span><span class="card-meta"><span class="t-badge t-mid">45 min</span> fastest to London &middot; 29 km away</span></a></li>
+<li><a class="card" href="/stations/moreton-in-marsh/"><span class="card-title">Moreton-in-Marsh</span><span class="card-meta"><span class="t-badge t-slow">85 min</span> fastest to London &middot; 11 km away</span></a></li>
+<li><a class="card" href="/stations/hanborough/"><span class="card-title">Hanborough</span><span class="card-meta"><span class="t-badge t-slow">62 min</span> fastest to London &middot; 20 km away</span></a></li>
+<li><a class="card" href="/stations/banbury/"><span class="card-title">Banbury</span><span class="card-meta"><span class="t-badge t-mid">58 min</span> fastest to London &middot; 27 km away</span></a></li>
+<li><a class="card" href="/stations/kings-sutton/"><span class="card-title">Kings Sutton</span><span class="card-meta"><span class="t-badge t-mid">55 min</span> fastest to London &middot; 27 km away</span></a></li>
+<li><a class="card" href="/stations/oxford/"><span class="card-title">Oxford</span><span class="card-meta"><span class="t-badge t-mid">45 min</span> fastest to London &middot; 30 km away</span></a></li>
 </ul>
 
 <h2>All London terminals</h2>
@@ -138,7 +138,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -195,8 +195,8 @@
 "url": "https://railreach.co.uk/stations/kingham/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 51.8929,
-"longitude": -1.635
+"latitude": 51.90225,
+"longitude": -1.628786
 },
 "containedInPlace": {
 "@type": "Country",
@@ -255,12 +255,12 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([51.8929,-1.635],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Kingham</strong><br>This station').addTo(map);
+L.circleMarker([51.90225,-1.628786],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Kingham</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.5154,-0.1755,'<strong>London Paddington</strong><br>79 min from Kingham<br>Direct<br><a class="popup-link" href="/terminals/paddington/">Terminal guide &rarr;</a>');
-L.polyline([[51.8929,-1.635],[51.5154,-0.1755]],{color:RR.colour(79),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.90225,-1.628786],[51.5154,-0.1755]],{color:RR.colour(79),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Kingham: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[51.8929,-1.635],[51.5154,-0.1755]],{animate:false});
+RR.fit(map,[[51.90225,-1.628786],[51.5154,-0.1755]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

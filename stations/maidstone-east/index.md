@@ -35,7 +35,7 @@ Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Maidstone East?
 
-The closest alternatives are Marden, Staplehurst, Rainham (Kent). These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Chatham, Marden, Rainham (Kent). These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

@@ -106,7 +106,7 @@
 <h3>Are there direct trains from Cambridge to London?</h3>
 <p>Yes. Direct services run to Kings Cross, Liverpool Street.</p>
 <h3>What are the nearest stations to Cambridge?</h3>
-<p>The closest alternatives are Whittlesford Parkway, Foxton, Shepreth. These can offer a faster or cheaper route into London depending on where you live.</p>
+<p>The closest alternatives are Foxton, Whittlesford Parkway, Shepreth. These can offer a faster or cheaper route into London depending on where you live.</p>
 
 <h2 id="discover">Other places within 60 minutes of Kings Cross</h2>
 <p>Cambridge is one of many places you could commute from. These are other options within 60 minutes of London Kings Cross, ranked by journey time and spread across the network rather than clustered on one stretch of line.</p>
@@ -122,11 +122,11 @@
 <h2>Nearby stations</h2>
 <p>Alternative departure points close to Cambridge, for comparing platforms rather than places.</p>
 <ul class="link-grid">
-<li><a class="card" href="/stations/whittlesford-parkway/"><span class="card-title">Whittlesford Parkway</span><span class="card-meta"><span class="t-badge t-mid">58 min</span> fastest to London &middot; 10 km away</span></a></li>
 <li><a class="card" href="/stations/foxton/"><span class="card-title">Foxton</span><span class="card-meta"><span class="t-badge t-mid">55 min</span> fastest to London &middot; 10 km away</span></a></li>
-<li><a class="card" href="/stations/shepreth/"><span class="card-title">Shepreth</span><span class="card-meta"><span class="t-badge t-mid">52 min</span> fastest to London &middot; 13 km away</span></a></li>
+<li><a class="card" href="/stations/whittlesford-parkway/"><span class="card-title">Whittlesford Parkway</span><span class="card-meta"><span class="t-badge t-mid">58 min</span> fastest to London &middot; 10 km away</span></a></li>
+<li><a class="card" href="/stations/shepreth/"><span class="card-title">Shepreth</span><span class="card-meta"><span class="t-badge t-mid">52 min</span> fastest to London &middot; 11 km away</span></a></li>
 <li><a class="card" href="/stations/meldreth/"><span class="card-title">Meldreth</span><span class="card-meta"><span class="t-badge t-mid">50 min</span> fastest to London &middot; 14 km away</span></a></li>
-<li><a class="card" href="/stations/royston/"><span class="card-title">Royston</span><span class="card-meta"><span class="t-badge t-mid">42 min</span> fastest to London &middot; 20 km away</span></a></li>
+<li><a class="card" href="/stations/royston/"><span class="card-title">Royston</span><span class="card-meta"><span class="t-badge t-mid">42 min</span> fastest to London &middot; 19 km away</span></a></li>
 <li><a class="card" href="/stations/audley-end/"><span class="card-title">Audley End</span><span class="card-meta"><span class="t-badge t-mid">52 min</span> fastest to London &middot; 22 km away</span></a></li>
 </ul>
 
@@ -141,7 +141,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -198,8 +198,8 @@
 "url": "https://railreach.co.uk/stations/cambridge/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 52.1941,
-"longitude": 0.1376
+"latitude": 52.194067,
+"longitude": 0.137457
 },
 "containedInPlace": {
 "@type": "Country",
@@ -247,7 +247,7 @@
 "name": "What are the nearest stations to Cambridge?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "The closest alternatives are Whittlesford Parkway, Foxton, Shepreth. These can offer a faster or cheaper route into London depending on where you live."
+"text": "The closest alternatives are Foxton, Whittlesford Parkway, Shepreth. These can offer a faster or cheaper route into London depending on where you live."
 }
 }
 ]
@@ -258,14 +258,14 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([52.1941,0.1376],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Cambridge</strong><br>This station').addTo(map);
+L.circleMarker([52.194067,0.137457],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Cambridge</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.532,-0.124,'<strong>London Kings Cross</strong><br>49 min from Cambridge<br>Direct<br><a class="popup-link" href="/terminals/kings-cross/">Terminal guide &rarr;</a>');
 RR.terminalMarker(map,51.5178,-0.0823,'<strong>London Liverpool Street</strong><br>65 min from Cambridge<br>Direct<br><a class="popup-link" href="/terminals/liverpool-street/">Terminal guide &rarr;</a>');
-L.polyline([[52.1941,0.1376],[51.532,-0.124]],{color:RR.colour(49),weight:3,opacity:0.75,}).addTo(map);
-L.polyline([[52.1941,0.1376],[51.5178,-0.0823]],{color:RR.colour(65),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[52.194067,0.137457],[51.532,-0.124]],{color:RR.colour(49),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[52.194067,0.137457],[51.5178,-0.0823]],{color:RR.colour(65),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Cambridge: 2 London terminals';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[52.1941,0.1376],[51.532,-0.124],[51.5178,-0.0823]],{animate:false});
+RR.fit(map,[[52.194067,0.137457],[51.532,-0.124],[51.5178,-0.0823]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

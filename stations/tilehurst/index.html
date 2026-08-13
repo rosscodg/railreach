@@ -103,7 +103,7 @@
 <h3>Are there direct trains from Tilehurst to London?</h3>
 <p>Yes. Direct services run to Paddington.</p>
 <h3>What are the nearest stations to Tilehurst?</h3>
-<p>The closest alternatives are Pangbourne, Reading, Theale. These can offer a faster or cheaper route into London depending on where you live.</p>
+<p>The closest alternatives are Reading, Pangbourne, Theale. These can offer a faster or cheaper route into London depending on where you live.</p>
 
 <h2 id="discover">Other places within 30 minutes of Paddington</h2>
 <p>Tilehurst is one of many places you could commute from. These are other options within 30 minutes of London Paddington, ranked by journey time and spread across the network rather than clustered on one stretch of line.</p>
@@ -117,8 +117,8 @@
 <h2>Nearby stations</h2>
 <p>Alternative departure points close to Tilehurst, for comparing platforms rather than places.</p>
 <ul class="link-grid">
-<li><a class="card" href="/stations/pangbourne/"><span class="card-title">Pangbourne</span><span class="card-meta"><span class="t-badge t-mid">35 min</span> fastest to London &middot; 4 km away</span></a></li>
 <li><a class="card" href="/stations/reading/"><span class="card-title">Reading</span><span class="card-meta"><span class="t-badge t-fast">23 min</span> fastest to London &middot; 4 km away</span></a></li>
+<li><a class="card" href="/stations/pangbourne/"><span class="card-title">Pangbourne</span><span class="card-meta"><span class="t-badge t-mid">35 min</span> fastest to London &middot; 4 km away</span></a></li>
 <li><a class="card" href="/stations/theale/"><span class="card-title">Theale</span><span class="card-meta"><span class="t-badge t-mid">33 min</span> fastest to London &middot; 5 km away</span></a></li>
 <li><a class="card" href="/stations/goring-and-streatley/"><span class="card-title">Goring &amp; Streatley</span><span class="card-meta"><span class="t-badge t-mid">39 min</span> fastest to London &middot; 9 km away</span></a></li>
 <li><a class="card" href="/stations/henley-on-thames/"><span class="card-title">Henley-on-Thames</span><span class="card-meta"><span class="t-badge t-mid">50 min</span> fastest to London &middot; 11 km away</span></a></li>
@@ -136,7 +136,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -193,8 +193,8 @@
 "url": "https://railreach.co.uk/stations/tilehurst/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 51.4711,
-"longitude": -1.0316
+"latitude": 51.471509,
+"longitude": -1.029816
 },
 "containedInPlace": {
 "@type": "Country",
@@ -242,7 +242,7 @@
 "name": "What are the nearest stations to Tilehurst?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "The closest alternatives are Pangbourne, Reading, Theale. These can offer a faster or cheaper route into London depending on where you live."
+"text": "The closest alternatives are Reading, Pangbourne, Theale. These can offer a faster or cheaper route into London depending on where you live."
 }
 }
 ]
@@ -253,12 +253,12 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([51.4711,-1.0316],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Tilehurst</strong><br>This station').addTo(map);
+L.circleMarker([51.471509,-1.029816],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Tilehurst</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.5154,-0.1755,'<strong>London Paddington</strong><br>30 min from Tilehurst<br>Direct<br><a class="popup-link" href="/terminals/paddington/">Terminal guide &rarr;</a>');
-L.polyline([[51.4711,-1.0316],[51.5154,-0.1755]],{color:RR.colour(30),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.471509,-1.029816],[51.5154,-0.1755]],{color:RR.colour(30),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Tilehurst: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[51.4711,-1.0316],[51.5154,-0.1755]],{animate:false});
+RR.fit(map,[[51.471509,-1.029816],[51.5154,-0.1755]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

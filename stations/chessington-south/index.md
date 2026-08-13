@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Chessington South?
 
-The closest alternatives are Claygate, Surbiton, Hinchley Wood. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Claygate, Hinchley Wood, Ewell West. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

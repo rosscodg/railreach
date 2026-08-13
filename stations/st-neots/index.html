@@ -103,7 +103,7 @@
 <h3>Are there direct trains from St Neots to London?</h3>
 <p>Yes. Direct services run to Kings Cross.</p>
 <h3>What are the nearest stations to St Neots?</h3>
-<p>The closest alternatives are Sandy, Huntingdon, Biggleswade. These can offer a faster or cheaper route into London depending on where you live.</p>
+<p>The closest alternatives are Huntingdon, Sandy, Biggleswade. These can offer a faster or cheaper route into London depending on where you live.</p>
 
 <h2 id="discover">Other places within 60 minutes of Kings Cross</h2>
 <p>St Neots is one of many places you could commute from. These are other options within 60 minutes of London Kings Cross, ranked by journey time and spread across the network rather than clustered on one stretch of line.</p>
@@ -119,12 +119,12 @@
 <h2>Nearby stations</h2>
 <p>Alternative departure points close to St Neots, for comparing platforms rather than places.</p>
 <ul class="link-grid">
+<li><a class="card" href="/stations/huntingdon/"><span class="card-title">Huntingdon</span><span class="card-meta"><span class="t-badge t-mid">52 min</span> fastest to London &middot; 11 km away</span></a></li>
 <li><a class="card" href="/stations/sandy/"><span class="card-title">Sandy</span><span class="card-meta"><span class="t-badge t-mid">45 min</span> fastest to London &middot; 12 km away</span></a></li>
-<li><a class="card" href="/stations/huntingdon/"><span class="card-title">Huntingdon</span><span class="card-meta"><span class="t-badge t-mid">52 min</span> fastest to London &middot; 12 km away</span></a></li>
 <li><a class="card" href="/stations/biggleswade/"><span class="card-title">Biggleswade</span><span class="card-meta"><span class="t-badge t-mid">40 min</span> fastest to London &middot; 16 km away</span></a></li>
-<li><a class="card" href="/stations/bedford/"><span class="card-title">Bedford</span><span class="card-meta"><span class="t-badge t-mid">39 min</span> fastest to London &middot; 18 km away</span></a></li>
-<li><a class="card" href="/stations/arlesey/"><span class="card-title">Arlesey</span><span class="card-meta"><span class="t-badge t-mid">38 min</span> fastest to London &middot; 24 km away</span></a></li>
-<li><a class="card" href="/stations/meldreth/"><span class="card-title">Meldreth</span><span class="card-meta"><span class="t-badge t-mid">50 min</span> fastest to London &middot; 24 km away</span></a></li>
+<li><a class="card" href="/stations/bedford/"><span class="card-title">Bedford</span><span class="card-meta"><span class="t-badge t-mid">39 min</span> fastest to London &middot; 19 km away</span></a></li>
+<li><a class="card" href="/stations/arlesey/"><span class="card-title">Arlesey</span><span class="card-meta"><span class="t-badge t-mid">38 min</span> fastest to London &middot; 23 km away</span></a></li>
+<li><a class="card" href="/stations/shepreth/"><span class="card-title">Shepreth</span><span class="card-meta"><span class="t-badge t-mid">52 min</span> fastest to London &middot; 23 km away</span></a></li>
 </ul>
 
 <h2>All London terminals</h2>
@@ -138,7 +138,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -195,8 +195,8 @@
 "url": "https://railreach.co.uk/stations/st-neots/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 52.2301,
-"longitude": -0.2651
+"latitude": 52.231568,
+"longitude": -0.247414
 },
 "containedInPlace": {
 "@type": "Country",
@@ -244,7 +244,7 @@
 "name": "What are the nearest stations to St Neots?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "The closest alternatives are Sandy, Huntingdon, Biggleswade. These can offer a faster or cheaper route into London depending on where you live."
+"text": "The closest alternatives are Huntingdon, Sandy, Biggleswade. These can offer a faster or cheaper route into London depending on where you live."
 }
 }
 ]
@@ -255,12 +255,12 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([52.2301,-0.2651],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>St Neots</strong><br>This station').addTo(map);
+L.circleMarker([52.231568,-0.247414],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>St Neots</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.532,-0.124,'<strong>London Kings Cross</strong><br>46 min from St Neots<br>Direct<br><a class="popup-link" href="/terminals/kings-cross/">Terminal guide &rarr;</a>');
-L.polyline([[52.2301,-0.2651],[51.532,-0.124]],{color:RR.colour(46),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[52.231568,-0.247414],[51.532,-0.124]],{color:RR.colour(46),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='St Neots: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[52.2301,-0.2651],[51.532,-0.124]],{animate:false});
+RR.fit(map,[[52.231568,-0.247414],[51.532,-0.124]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

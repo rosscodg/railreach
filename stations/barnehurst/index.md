@@ -35,7 +35,7 @@ Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Barnehurst?
 
-The closest alternatives are Bexleyheath, Slade Green, Erith. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Bexleyheath, Erith, Slade Green. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

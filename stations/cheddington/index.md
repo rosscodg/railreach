@@ -35,7 +35,7 @@ Yes. Direct services run to Euston.
 
 ### What are the nearest stations to Cheddington?
 
-The closest alternatives are Tring, Leighton Buzzard, Aylesbury. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Leighton Buzzard, Tring, Stoke Mandeville. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

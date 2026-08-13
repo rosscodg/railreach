@@ -35,7 +35,7 @@ Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Portslade?
 
-The closest alternatives are Hove, Preston Park, Shoreham-by-Sea. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Hove, Preston Park, Brighton. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

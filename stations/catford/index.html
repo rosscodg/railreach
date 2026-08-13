@@ -120,9 +120,9 @@
 <li><a class="card" href="/stations/bellingham/"><span class="card-title">Bellingham</span><span class="card-meta"><span class="t-badge t-fast">16 min</span> fastest to London &middot; 1 km away</span></a></li>
 <li><a class="card" href="/stations/hither-green/"><span class="card-title">Hither Green</span><span class="card-meta"><span class="t-badge t-fast">10 min</span> fastest to London &middot; 2 km away</span></a></li>
 <li><a class="card" href="/stations/beckenham-hill/"><span class="card-title">Beckenham Hill</span><span class="card-meta"><span class="t-badge t-fast">18 min</span> fastest to London &middot; 2 km away</span></a></li>
-<li><a class="card" href="/stations/lewisham/"><span class="card-title">Lewisham</span><span class="card-meta"><span class="t-badge t-fast">8 min</span> fastest to London &middot; 2 km away</span></a></li>
+<li><a class="card" href="/stations/lewisham/"><span class="card-title">Lewisham</span><span class="card-meta"><span class="t-badge t-fast">8 min</span> fastest to London &middot; 3 km away</span></a></li>
 <li><a class="card" href="/stations/blackheath/"><span class="card-title">Blackheath</span><span class="card-meta"><span class="t-badge t-fast">12 min</span> fastest to London &middot; 3 km away</span></a></li>
-<li><a class="card" href="/stations/grove-park/"><span class="card-title">Grove Park</span><span class="card-meta"><span class="t-badge t-fast">14 min</span> fastest to London &middot; 3 km away</span></a></li>
+<li><a class="card" href="/stations/new-cross/"><span class="card-title">New Cross</span><span class="card-meta"><span class="t-badge t-fast">5 min</span> fastest to London &middot; 4 km away</span></a></li>
 </ul>
 
 <h2>All London terminals</h2>
@@ -136,7 +136,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -193,8 +193,8 @@
 "url": "https://railreach.co.uk/stations/catford/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 51.4439,
-"longitude": -0.0205
+"latitude": 51.444407,
+"longitude": -0.026317
 },
 "containedInPlace": {
 "@type": "Country",
@@ -253,12 +253,12 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([51.4439,-0.0205],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Catford</strong><br>This station').addTo(map);
+L.circleMarker([51.444407,-0.026317],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Catford</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.5052,-0.0862,'<strong>London London Bridge</strong><br>15 min from Catford<br>Direct<br><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
-L.polyline([[51.4439,-0.0205],[51.5052,-0.0862]],{color:RR.colour(15),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.444407,-0.026317],[51.5052,-0.0862]],{color:RR.colour(15),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Catford: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[51.4439,-0.0205],[51.5052,-0.0862]],{animate:false});
+RR.fit(map,[[51.444407,-0.026317],[51.5052,-0.0862]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

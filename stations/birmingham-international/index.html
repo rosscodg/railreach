@@ -109,10 +109,10 @@
 <p>Birmingham International is one of many places you could commute from. These are other options within 75 minutes of London Euston, ranked by journey time and spread across the network rather than clustered on one stretch of line.</p>
 <ul class="link-grid">
 <li><a class="card" href="/stations/bushey/"><span class="card-title">Bushey</span><span class="card-meta"><span class="t-badge t-fast">14 min</span> to Euston &middot; direct</span></a></li>
-<li><a class="card" href="/stations/kings-langley/"><span class="card-title">Kings Langley</span><span class="card-meta"><span class="t-badge t-fast">22 min</span> to Euston &middot; direct</span></a></li>
+<li><a class="card" href="/stations/apsley/"><span class="card-title">Apsley</span><span class="card-meta"><span class="t-badge t-fast">24 min</span> to Euston &middot; direct</span></a></li>
 <li><a class="card" href="/stations/milton-keynes/"><span class="card-title">Milton Keynes Central</span><span class="card-meta"><span class="t-badge t-mid">30 min</span> to Euston &middot; direct</span></a></li>
-<li><a class="card" href="/stations/berkhamsted/"><span class="card-title">Berkhamsted</span><span class="card-meta"><span class="t-badge t-mid">31 min</span> to Euston &middot; direct</span></a></li>
 <li><a class="card" href="/stations/leighton-buzzard/"><span class="card-title">Leighton Buzzard</span><span class="card-meta"><span class="t-badge t-mid">32 min</span> to Euston &middot; direct</span></a></li>
+<li><a class="card" href="/stations/tring/"><span class="card-title">Tring</span><span class="card-meta"><span class="t-badge t-mid">36 min</span> to Euston &middot; direct</span></a></li>
 <li><a class="card" href="/stations/northampton/"><span class="card-title">Northampton</span><span class="card-meta"><span class="t-badge t-mid">49 min</span> to Euston &middot; direct</span></a></li>
 </ul>
 <p><a href="/?to=EUS&amp;max=75">See all of them on the map &rarr;</a></p>
@@ -123,7 +123,7 @@
 <li><a class="card" href="/stations/coventry/"><span class="card-title">Coventry</span><span class="card-meta"><span class="t-badge t-mid">58 min</span> fastest to London &middot; 15 km away</span></a></li>
 <li><a class="card" href="/stations/warwick-parkway/"><span class="card-title">Warwick Parkway</span><span class="card-meta"><span class="t-badge t-slow">78 min</span> fastest to London &middot; 20 km away</span></a></li>
 <li><a class="card" href="/stations/warwick/"><span class="card-title">Warwick</span><span class="card-meta"><span class="t-badge t-slow">85 min</span> fastest to London &middot; 21 km away</span></a></li>
-<li><a class="card" href="/stations/leamington-spa/"><span class="card-title">Leamington Spa</span><span class="card-meta"><span class="t-badge t-slow">72 min</span> fastest to London &middot; 22 km away</span></a></li>
+<li><a class="card" href="/stations/leamington-spa/"><span class="card-title">Leamington Spa</span><span class="card-meta"><span class="t-badge t-slow">72 min</span> fastest to London &middot; 23 km away</span></a></li>
 <li><a class="card" href="/stations/rugby/"><span class="card-title">Rugby</span><span class="card-meta"><span class="t-badge t-mid">52 min</span> fastest to London &middot; 33 km away</span></a></li>
 </ul>
 
@@ -138,7 +138,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -195,8 +195,8 @@
 "url": "https://railreach.co.uk/stations/birmingham-international/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 52.4508,
-"longitude": -1.7258
+"latitude": 52.450807,
+"longitude": -1.725857
 },
 "containedInPlace": {
 "@type": "Country",
@@ -255,12 +255,12 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([52.4508,-1.7258],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Birmingham International</strong><br>This station').addTo(map);
+L.circleMarker([52.450807,-1.725857],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Birmingham International</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.5284,-0.1338,'<strong>London Euston</strong><br>70 min from Birmingham International<br>Direct<br><a class="popup-link" href="/terminals/euston/">Terminal guide &rarr;</a>');
-L.polyline([[52.4508,-1.7258],[51.5284,-0.1338]],{color:RR.colour(70),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[52.450807,-1.725857],[51.5284,-0.1338]],{color:RR.colour(70),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Birmingham International: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[52.4508,-1.7258],[51.5284,-0.1338]],{animate:false});
+RR.fit(map,[[52.450807,-1.725857],[51.5284,-0.1338]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

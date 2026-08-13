@@ -103,7 +103,7 @@
 <h3>Are there direct trains from Chalkwell to London?</h3>
 <p>Yes. Direct services run to Fenchurch Street.</p>
 <h3>What are the nearest stations to Chalkwell?</h3>
-<p>The closest alternatives are Westcliff, Southend Central, Leigh-on-Sea. These can offer a faster or cheaper route into London depending on where you live.</p>
+<p>The closest alternatives are Westcliff, Leigh-on-Sea, Southend Victoria. These can offer a faster or cheaper route into London depending on where you live.</p>
 
 <h2 id="discover">Other places within 60 minutes of Fenchurch Street</h2>
 <p>Chalkwell is one of many places you could commute from. These are other options within 60 minutes of London Fenchurch Street, ranked by journey time and spread across the network rather than clustered on one stretch of line.</p>
@@ -119,11 +119,11 @@
 <p>Alternative departure points close to Chalkwell, for comparing platforms rather than places.</p>
 <ul class="link-grid">
 <li><a class="card" href="/stations/westcliff/"><span class="card-title">Westcliff</span><span class="card-meta"><span class="t-badge t-mid">50 min</span> fastest to London &middot; 1 km away</span></a></li>
-<li><a class="card" href="/stations/southend-central/"><span class="card-title">Southend Central</span><span class="card-meta"><span class="t-badge t-mid">52 min</span> fastest to London &middot; 2 km away</span></a></li>
 <li><a class="card" href="/stations/leigh-on-sea/"><span class="card-title">Leigh-on-Sea</span><span class="card-meta"><span class="t-badge t-mid">47 min</span> fastest to London &middot; 2 km away</span></a></li>
 <li><a class="card" href="/stations/southend-victoria/"><span class="card-title">Southend Victoria</span><span class="card-meta"><span class="t-badge t-mid">55 min</span> fastest to London &middot; 3 km away</span></a></li>
-<li><a class="card" href="/stations/hockley/"><span class="card-title">Hockley</span><span class="card-meta"><span class="t-badge t-mid">47 min</span> fastest to London &middot; 4 km away</span></a></li>
+<li><a class="card" href="/stations/southend-central/"><span class="card-title">Southend Central</span><span class="card-meta"><span class="t-badge t-mid">52 min</span> fastest to London &middot; 3 km away</span></a></li>
 <li><a class="card" href="/stations/rochford/"><span class="card-title">Rochford</span><span class="card-meta"><span class="t-badge t-mid">50 min</span> fastest to London &middot; 5 km away</span></a></li>
+<li><a class="card" href="/stations/hockley/"><span class="card-title">Hockley</span><span class="card-meta"><span class="t-badge t-mid">47 min</span> fastest to London &middot; 7 km away</span></a></li>
 </ul>
 
 <h2>All London terminals</h2>
@@ -137,7 +137,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -194,8 +194,8 @@
 "url": "https://railreach.co.uk/stations/chalkwell/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 51.5369,
-"longitude": 0.6738
+"latitude": 51.538719,
+"longitude": 0.670593
 },
 "containedInPlace": {
 "@type": "Country",
@@ -243,7 +243,7 @@
 "name": "What are the nearest stations to Chalkwell?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "The closest alternatives are Westcliff, Southend Central, Leigh-on-Sea. These can offer a faster or cheaper route into London depending on where you live."
+"text": "The closest alternatives are Westcliff, Leigh-on-Sea, Southend Victoria. These can offer a faster or cheaper route into London depending on where you live."
 }
 }
 ]
@@ -254,12 +254,12 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([51.5369,0.6738],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Chalkwell</strong><br>This station').addTo(map);
+L.circleMarker([51.538719,0.670593],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Chalkwell</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.5115,-0.0791,'<strong>London Fenchurch Street</strong><br>49 min from Chalkwell<br>Direct<br><a class="popup-link" href="/terminals/fenchurch-street/">Terminal guide &rarr;</a>');
-L.polyline([[51.5369,0.6738],[51.5115,-0.0791]],{color:RR.colour(49),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.538719,0.670593],[51.5115,-0.0791]],{color:RR.colour(49),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Chalkwell: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[51.5369,0.6738],[51.5115,-0.0791]],{animate:false});
+RR.fit(map,[[51.538719,0.670593],[51.5115,-0.0791]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

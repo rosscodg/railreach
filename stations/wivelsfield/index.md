@@ -35,7 +35,7 @@ Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Wivelsfield?
 
-The closest alternatives are Burgess Hill, Hassocks, Haywards Heath. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Burgess Hill, Haywards Heath, Hassocks. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

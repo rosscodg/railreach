@@ -35,7 +35,7 @@ Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to Leigh-on-Sea?
 
-The closest alternatives are Chalkwell, Hockley, Westcliff. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Chalkwell, Westcliff, Southend Victoria. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

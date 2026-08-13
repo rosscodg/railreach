@@ -35,7 +35,7 @@ Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Oakleigh Park?
 
-The closest alternatives are New Barnet, Alexandra Palace, Hadley Wood. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are New Barnet, Hadley Wood, Alexandra Palace. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

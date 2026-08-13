@@ -103,7 +103,7 @@
 <h3>Are there direct trains from Flitwick to London?</h3>
 <p>Yes. Direct services run to Kings Cross.</p>
 <h3>What are the nearest stations to Flitwick?</h3>
-<p>The closest alternatives are Luton, Bedford, Arlesey. These can offer a faster or cheaper route into London depending on where you live.</p>
+<p>The closest alternatives are Luton, Bedford, Leighton Buzzard. These can offer a faster or cheaper route into London depending on where you live.</p>
 
 <h2 id="discover">Other places within 45 minutes of Kings Cross</h2>
 <p>Flitwick is one of many places you could commute from. These are other options within 45 minutes of London Kings Cross, ranked by journey time and spread across the network rather than clustered on one stretch of line.</p>
@@ -121,8 +121,8 @@
 <ul class="link-grid">
 <li><a class="card" href="/stations/luton/"><span class="card-title">Luton</span><span class="card-meta"><span class="t-badge t-fast">25 min</span> fastest to London &middot; 15 km away</span></a></li>
 <li><a class="card" href="/stations/bedford/"><span class="card-title">Bedford</span><span class="card-meta"><span class="t-badge t-mid">39 min</span> fastest to London &middot; 15 km away</span></a></li>
-<li><a class="card" href="/stations/arlesey/"><span class="card-title">Arlesey</span><span class="card-meta"><span class="t-badge t-mid">38 min</span> fastest to London &middot; 16 km away</span></a></li>
 <li><a class="card" href="/stations/leighton-buzzard/"><span class="card-title">Leighton Buzzard</span><span class="card-meta"><span class="t-badge t-mid">32 min</span> fastest to London &middot; 16 km away</span></a></li>
+<li><a class="card" href="/stations/arlesey/"><span class="card-title">Arlesey</span><span class="card-meta"><span class="t-badge t-mid">38 min</span> fastest to London &middot; 16 km away</span></a></li>
 <li><a class="card" href="/stations/luton-airport-parkway/"><span class="card-title">Luton Airport Parkway</span><span class="card-meta"><span class="t-badge t-fast">23 min</span> fastest to London &middot; 16 km away</span></a></li>
 <li><a class="card" href="/stations/bletchley/"><span class="card-title">Bletchley</span><span class="card-meta"><span class="t-badge t-mid">38 min</span> fastest to London &middot; 17 km away</span></a></li>
 </ul>
@@ -138,7 +138,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -195,8 +195,8 @@
 "url": "https://railreach.co.uk/stations/flitwick/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 52.004,
-"longitude": -0.495
+"latitude": 52.003642,
+"longitude": -0.495258
 },
 "containedInPlace": {
 "@type": "Country",
@@ -244,7 +244,7 @@
 "name": "What are the nearest stations to Flitwick?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "The closest alternatives are Luton, Bedford, Arlesey. These can offer a faster or cheaper route into London depending on where you live."
+"text": "The closest alternatives are Luton, Bedford, Leighton Buzzard. These can offer a faster or cheaper route into London depending on where you live."
 }
 }
 ]
@@ -255,12 +255,12 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([52.004,-0.495],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Flitwick</strong><br>This station').addTo(map);
+L.circleMarker([52.003642,-0.495258],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Flitwick</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.532,-0.124,'<strong>London Kings Cross</strong><br>41 min from Flitwick<br>Direct<br><a class="popup-link" href="/terminals/kings-cross/">Terminal guide &rarr;</a>');
-L.polyline([[52.004,-0.495],[51.532,-0.124]],{color:RR.colour(41),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[52.003642,-0.495258],[51.532,-0.124]],{color:RR.colour(41),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Flitwick: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[52.004,-0.495],[51.532,-0.124]],{animate:false});
+RR.fit(map,[[52.003642,-0.495258],[51.532,-0.124]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

@@ -120,9 +120,9 @@
 <p>Alternative departure points close to Ashford International, for comparing platforms rather than places.</p>
 <ul class="link-grid">
 <li><a class="card" href="/stations/pluckley/"><span class="card-title">Pluckley</span><span class="card-meta"><span class="t-badge t-slow">72 min</span> fastest to London &middot; 9 km away</span></a></li>
-<li><a class="card" href="/stations/headcorn/"><span class="card-title">Headcorn</span><span class="card-meta"><span class="t-badge t-slow">66 min</span> fastest to London &middot; 17 km away</span></a></li>
+<li><a class="card" href="/stations/headcorn/"><span class="card-title">Headcorn</span><span class="card-meta"><span class="t-badge t-slow">66 min</span> fastest to London &middot; 18 km away</span></a></li>
 <li><a class="card" href="/stations/faversham/"><span class="card-title">Faversham</span><span class="card-meta"><span class="t-badge t-slow">68 min</span> fastest to London &middot; 19 km away</span></a></li>
-<li><a class="card" href="/stations/staplehurst/"><span class="card-title">Staplehurst</span><span class="card-meta"><span class="t-badge t-slow">60 min</span> fastest to London &middot; 22 km away</span></a></li>
+<li><a class="card" href="/stations/staplehurst/"><span class="card-title">Staplehurst</span><span class="card-meta"><span class="t-badge t-slow">60 min</span> fastest to London &middot; 23 km away</span></a></li>
 <li><a class="card" href="/stations/sittingbourne/"><span class="card-title">Sittingbourne</span><span class="card-meta"><span class="t-badge t-mid">58 min</span> fastest to London &middot; 24 km away</span></a></li>
 <li><a class="card" href="/stations/marden/"><span class="card-title">Marden</span><span class="card-meta"><span class="t-badge t-mid">55 min</span> fastest to London &middot; 27 km away</span></a></li>
 </ul>
@@ -138,7 +138,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -195,8 +195,8 @@
 "url": "https://railreach.co.uk/stations/ashford-international/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 51.1439,
-"longitude": 0.8745
+"latitude": 51.143706,
+"longitude": 0.876197
 },
 "containedInPlace": {
 "@type": "Country",
@@ -255,12 +255,12 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([51.1439,0.8745],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Ashford International</strong><br>This station').addTo(map);
+L.circleMarker([51.143706,0.876197],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Ashford International</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.4952,-0.1439,'<strong>London Victoria</strong><br>80 min from Ashford International<br>Direct<br><a class="popup-link" href="/terminals/victoria/">Terminal guide &rarr;</a>');
-L.polyline([[51.1439,0.8745],[51.4952,-0.1439]],{color:RR.colour(80),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.143706,0.876197],[51.4952,-0.1439]],{color:RR.colour(80),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Ashford International: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[51.1439,0.8745],[51.4952,-0.1439]],{animate:false});
+RR.fit(map,[[51.143706,0.876197],[51.4952,-0.1439]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

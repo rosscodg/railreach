@@ -35,7 +35,7 @@ Yes. Direct services run to Marylebone.
 
 ### What are the nearest stations to Little Kimble?
 
-The closest alternatives are Stoke Mandeville, Monks Risborough, Princes Risborough. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Monks Risborough, Stoke Mandeville, Princes Risborough. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

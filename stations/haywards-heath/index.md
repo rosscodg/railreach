@@ -36,7 +36,7 @@ Yes. Direct services run to Victoria, London Bridge.
 
 ### What are the nearest stations to Haywards Heath?
 
-The closest alternatives are Wivelsfield, Burgess Hill, Balcombe. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Wivelsfield, Balcombe, Burgess Hill. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

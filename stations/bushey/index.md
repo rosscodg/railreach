@@ -35,7 +35,7 @@ Yes. Direct services run to Euston.
 
 ### What are the nearest stations to Bushey?
 
-The closest alternatives are Watford Junction, Radlett, Elstree & Borehamwood. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Watford Junction, Radlett, Harrow & Wealdstone. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

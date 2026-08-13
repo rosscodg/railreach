@@ -35,7 +35,7 @@ Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Bishops Stortford?
 
-The closest alternatives are Stansted Mountfitchet, Sawbridgeworth, Elsenham. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Stansted Mountfitchet, Sawbridgeworth, Stansted Airport. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

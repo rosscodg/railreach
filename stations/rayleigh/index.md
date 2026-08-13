@@ -35,7 +35,7 @@ Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Rayleigh?
 
-The closest alternatives are Hockley, Leigh-on-Sea, Benfleet. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Hockley, Benfleet, Leigh-on-Sea. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

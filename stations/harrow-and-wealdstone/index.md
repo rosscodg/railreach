@@ -35,7 +35,7 @@ Yes. Direct services run to Euston.
 
 ### What are the nearest stations to Harrow & Wealdstone?
 
-The closest alternatives are Bushey, Mill Hill Broadway, Elstree & Borehamwood. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Mill Hill Broadway, Bushey, Elstree & Borehamwood. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

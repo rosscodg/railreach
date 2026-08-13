@@ -103,7 +103,7 @@
 <h3>Are there direct trains from Chelmsford to London?</h3>
 <p>Yes. Direct services run to Liverpool Street.</p>
 <h3>What are the nearest stations to Chelmsford?</h3>
-<p>The closest alternatives are Hatfield Peverel, Ingatestone, Billericay. These can offer a faster or cheaper route into London depending on where you live.</p>
+<p>The closest alternatives are Ingatestone, Hatfield Peverel, Billericay. These can offer a faster or cheaper route into London depending on where you live.</p>
 
 <h2 id="discover">Other places within 30 minutes of Liverpool Street</h2>
 <p>Chelmsford is one of many places you could commute from. These are other options within 30 minutes of London Liverpool Street, ranked by journey time and spread across the network rather than clustered on one stretch of line.</p>
@@ -117,11 +117,11 @@
 <h2>Nearby stations</h2>
 <p>Alternative departure points close to Chelmsford, for comparing platforms rather than places.</p>
 <ul class="link-grid">
-<li><a class="card" href="/stations/hatfield-peverel/"><span class="card-title">Hatfield Peverel</span><span class="card-meta"><span class="t-badge t-mid">38 min</span> fastest to London &middot; 10 km away</span></a></li>
 <li><a class="card" href="/stations/ingatestone/"><span class="card-title">Ingatestone</span><span class="card-meta"><span class="t-badge t-mid">30 min</span> fastest to London &middot; 10 km away</span></a></li>
+<li><a class="card" href="/stations/hatfield-peverel/"><span class="card-title">Hatfield Peverel</span><span class="card-meta"><span class="t-badge t-mid">38 min</span> fastest to London &middot; 10 km away</span></a></li>
 <li><a class="card" href="/stations/billericay/"><span class="card-title">Billericay</span><span class="card-meta"><span class="t-badge t-mid">32 min</span> fastest to London &middot; 12 km away</span></a></li>
-<li><a class="card" href="/stations/witham/"><span class="card-title">Witham</span><span class="card-meta"><span class="t-badge t-mid">40 min</span> fastest to London &middot; 14 km away</span></a></li>
 <li><a class="card" href="/stations/wickford/"><span class="card-title">Wickford</span><span class="card-meta"><span class="t-badge t-mid">38 min</span> fastest to London &middot; 14 km away</span></a></li>
+<li><a class="card" href="/stations/witham/"><span class="card-title">Witham</span><span class="card-meta"><span class="t-badge t-mid">40 min</span> fastest to London &middot; 14 km away</span></a></li>
 <li><a class="card" href="/stations/shenfield/"><span class="card-title">Shenfield</span><span class="card-meta"><span class="t-badge t-fast">24 min</span> fastest to London &middot; 15 km away</span></a></li>
 </ul>
 
@@ -136,7 +136,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -193,8 +193,8 @@
 "url": "https://railreach.co.uk/stations/chelmsford/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 51.7364,
-"longitude": 0.4686
+"latitude": 51.736373,
+"longitude": 0.468572
 },
 "containedInPlace": {
 "@type": "Country",
@@ -242,7 +242,7 @@
 "name": "What are the nearest stations to Chelmsford?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "The closest alternatives are Hatfield Peverel, Ingatestone, Billericay. These can offer a faster or cheaper route into London depending on where you live."
+"text": "The closest alternatives are Ingatestone, Hatfield Peverel, Billericay. These can offer a faster or cheaper route into London depending on where you live."
 }
 }
 ]
@@ -253,12 +253,12 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([51.7364,0.4686],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Chelmsford</strong><br>This station').addTo(map);
+L.circleMarker([51.736373,0.468572],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Chelmsford</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.5178,-0.0823,'<strong>London Liverpool Street</strong><br>30 min from Chelmsford<br>Direct<br><a class="popup-link" href="/terminals/liverpool-street/">Terminal guide &rarr;</a>');
-L.polyline([[51.7364,0.4686],[51.5178,-0.0823]],{color:RR.colour(30),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.736373,0.468572],[51.5178,-0.0823]],{color:RR.colour(30),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Chelmsford: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[51.7364,0.4686],[51.5178,-0.0823]],{animate:false});
+RR.fit(map,[[51.736373,0.468572],[51.5178,-0.0823]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

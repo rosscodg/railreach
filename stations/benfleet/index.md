@@ -35,7 +35,7 @@ Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to Benfleet?
 
-The closest alternatives are Pitsea, Rayleigh, Leigh-on-Sea. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Pitsea, Leigh-on-Sea, Rayleigh. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

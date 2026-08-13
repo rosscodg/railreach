@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Oxshott?
 
-The closest alternatives are Cobham & Stoke d'Abernon, Claygate, Esher. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Cobham & Stoke d'Abernon, Claygate, Ashtead. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

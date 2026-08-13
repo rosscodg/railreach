@@ -35,7 +35,7 @@ Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Stansted Airport?
 
-The closest alternatives are Stansted Mountfitchet, Elsenham, Bishops Stortford. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Elsenham, Stansted Mountfitchet, Bishops Stortford. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

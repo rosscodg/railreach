@@ -35,7 +35,7 @@ Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to Upminster?
 
-The closest alternatives are Romford, Ockendon, West Horndon. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Ockendon, Romford, Rainham (Essex). These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

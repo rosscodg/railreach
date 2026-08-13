@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Bentley?
 
-The closest alternatives are Farnham, Alton, Winchfield. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Farnham, Alton, Aldershot. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

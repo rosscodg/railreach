@@ -54,632 +54,788 @@
     {
       "name": "Abbey Wood",
       "slug": "abbey-wood",
-      "lat": 51.4914,
-      "lng": 0.1203,
+      "lat": 51.491062,
+      "lng": 0.121394,
       "journeys": {
         "LBG": {
           "mins": 23,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "ABWD"
+      ]
     },
     {
       "name": "Acton Main Line",
       "slug": "acton-main-line",
-      "lat": 51.5172,
-      "lng": -0.267,
+      "lat": 51.51718,
+      "lng": -0.266756,
       "journeys": {
         "PAD": {
           "mins": 7,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "ACTONML"
+      ]
     },
     {
       "name": "Aldershot",
       "slug": "aldershot",
-      "lat": 51.2462,
-      "lng": -0.7607,
+      "lat": 51.246418,
+      "lng": -0.75986,
       "journeys": {
         "WAT": {
           "mins": 48,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "ALDRSHT"
+      ]
     },
     {
       "name": "Alexandra Palace",
       "slug": "alexandra-palace",
-      "lat": 51.5982,
-      "lng": -0.1199,
+      "lat": 51.597924,
+      "lng": -0.120235,
       "journeys": {
         "KGX": {
           "mins": 12,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "ALEXNDP"
+      ]
     },
     {
       "name": "Alton",
       "slug": "alton",
-      "lat": 51.1519,
-      "lng": -0.9677,
+      "lat": 51.151969,
+      "lng": -0.966913,
       "journeys": {
         "WAT": {
           "mins": 58,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "ALTON"
+      ]
     },
     {
       "name": "Andover",
       "slug": "andover",
-      "lat": 51.2115,
-      "lng": -1.4922,
+      "lat": 51.211547,
+      "lng": -1.492233,
       "journeys": {
         "WAT": {
           "mins": 65,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "ANDOVER"
+      ]
     },
     {
       "name": "Angmering",
       "slug": "angmering",
-      "lat": 50.8173,
-      "lng": -0.4903,
+      "lat": 50.816575,
+      "lng": -0.489394,
       "journeys": {
         "VIC": {
           "mins": 78,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "ANGMRNG"
+      ]
     },
     {
       "name": "Apsley",
       "slug": "apsley",
-      "lat": 51.7314,
-      "lng": -0.4708,
+      "lat": 51.732522,
+      "lng": -0.462935,
       "journeys": {
         "EUS": {
           "mins": 24,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "APSLEY"
+      ]
     },
     {
       "name": "Arlesey",
       "slug": "arlesey",
-      "lat": 52.014,
-      "lng": -0.266,
+      "lat": 52.026031,
+      "lng": -0.26632,
       "journeys": {
         "KGX": {
           "mins": 38,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "ARLSEY"
+      ]
     },
     {
       "name": "Ascot",
       "slug": "ascot",
-      "lat": 51.406,
-      "lng": -0.6733,
+      "lat": 51.406244,
+      "lng": -0.675833,
       "journeys": {
         "WAT": {
           "mins": 52,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "ASCOT"
+      ]
     },
     {
       "name": "Ash Vale",
       "slug": "ash-vale",
-      "lat": 51.27,
-      "lng": -0.729,
+      "lat": 51.272247,
+      "lng": -0.721649,
       "journeys": {
         "WAT": {
           "mins": 43,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "ASHVALE"
+      ]
     },
     {
       "name": "Ashford International",
       "slug": "ashford-international",
-      "lat": 51.1439,
-      "lng": 0.8745,
+      "lat": 51.143706,
+      "lng": 0.876197,
       "journeys": {
         "VIC": {
           "mins": 80,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "ASHFKY"
+      ]
     },
     {
       "name": "Ashtead",
       "slug": "ashtead",
-      "lat": 51.3087,
-      "lng": -0.2997,
+      "lat": 51.317874,
+      "lng": -0.307572,
       "journeys": {
         "WAT": {
           "mins": 37,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "ASHD"
+      ]
     },
     {
       "name": "Ashwell & Morden",
       "slug": "ashwell-and-morden",
-      "lat": 52.031,
-      "lng": -0.11,
+      "lat": 52.030772,
+      "lng": -0.109789,
       "journeys": {
         "KGX": {
           "mins": 45,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "ASHWELC"
+      ]
     },
     {
       "name": "Audley End",
       "slug": "audley-end",
-      "lat": 52.0062,
-      "lng": 0.2348,
+      "lat": 52.00444,
+      "lng": 0.207306,
       "journeys": {
         "LST": {
           "mins": 52,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "AUDLEYE"
+      ]
     },
     {
       "name": "Aylesbury",
       "slug": "aylesbury",
-      "lat": 51.8139,
-      "lng": -0.8151,
+      "lat": 51.813891,
+      "lng": -0.815096,
       "journeys": {
         "MYB": {
           "mins": 58,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "AYLSBRY"
+      ]
     },
     {
       "name": "Aylesbury Vale Parkway",
       "slug": "aylesbury-vale-parkway",
-      "lat": 51.8312,
-      "lng": -0.8602,
+      "lat": 51.831159,
+      "lng": -0.860182,
       "journeys": {
         "MYB": {
           "mins": 62,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "AYLSPWY"
+      ]
     },
     {
       "name": "Balcombe",
       "slug": "balcombe",
-      "lat": 51.056,
-      "lng": -0.1397,
+      "lat": 51.055522,
+      "lng": -0.136934,
       "journeys": {
         "VIC": {
           "mins": 43,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BALCOMB"
+      ]
     },
     {
       "name": "Baldock",
       "slug": "baldock",
-      "lat": 51.992,
-      "lng": -0.193,
+      "lat": 51.992871,
+      "lng": -0.187564,
       "journeys": {
         "KGX": {
           "mins": 37,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BALDOCK"
+      ]
     },
     {
       "name": "Balham",
       "slug": "balham",
-      "lat": 51.4431,
-      "lng": -0.1528,
+      "lat": 51.443225,
+      "lng": -0.152424,
       "journeys": {
         "VIC": {
           "mins": 10,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BALHAM"
+      ]
     },
     {
       "name": "Banbury",
       "slug": "banbury",
-      "lat": 52.0603,
-      "lng": -1.3281,
+      "lat": 52.060308,
+      "lng": -1.328133,
       "journeys": {
         "MYB": {
           "mins": 58,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BNBR"
+      ]
     },
     {
       "name": "Barking",
       "slug": "barking",
-      "lat": 51.5396,
-      "lng": 0.0808,
+      "lat": 51.539495,
+      "lng": 0.080903,
       "journeys": {
         "FST": {
           "mins": 10,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BARKING"
+      ]
     },
     {
       "name": "Barnehurst",
       "slug": "barnehurst",
-      "lat": 51.4601,
-      "lng": 0.1599,
+      "lat": 51.464959,
+      "lng": 0.159646,
       "journeys": {
         "LBG": {
           "mins": 32,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BRNHRST"
+      ]
     },
     {
       "name": "Barnes",
       "slug": "barnes",
-      "lat": 51.468,
-      "lng": -0.244,
+      "lat": 51.467086,
+      "lng": -0.242164,
       "journeys": {
         "WAT": {
           "mins": 16,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BARNES"
+      ]
     },
     {
       "name": "Basildon",
       "slug": "basildon",
-      "lat": 51.5681,
-      "lng": 0.4568,
+      "lat": 51.568106,
+      "lng": 0.456789,
       "journeys": {
         "FST": {
           "mins": 33,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BASILDN"
+      ]
     },
     {
       "name": "Basingstoke",
       "slug": "basingstoke",
-      "lat": 51.2684,
-      "lng": -1.0872,
+      "lat": 51.268357,
+      "lng": -1.087264,
       "journeys": {
         "WAT": {
           "mins": 44,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BSNGSTK"
+      ]
     },
     {
       "name": "Bat & Ball",
       "slug": "bat-and-ball",
-      "lat": 51.2873,
-      "lng": 0.1914,
+      "lat": 51.289761,
+      "lng": 0.194228,
       "journeys": {
         "VIC": {
           "mins": 38,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BATABAL"
+      ]
     },
     {
       "name": "Bath Spa",
       "slug": "bath-spa",
-      "lat": 51.3777,
-      "lng": -2.357,
+      "lat": 51.377686,
+      "lng": -2.357018,
       "journeys": {
         "PAD": {
           "mins": 73,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BATHSPA"
+      ]
     },
     {
       "name": "Battersea Park",
       "slug": "battersea-park",
-      "lat": 51.4772,
-      "lng": -0.1486,
+      "lat": 51.47696,
+      "lng": -0.147533,
       "journeys": {
         "VIC": {
           "mins": 4,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BATRSPK"
+      ]
     },
     {
       "name": "Bayford",
       "slug": "bayford",
-      "lat": 51.758,
-      "lng": -0.096,
+      "lat": 51.757716,
+      "lng": -0.09561,
       "journeys": {
         "KGX": {
           "mins": 36,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BAYFORD"
+      ]
     },
     {
       "name": "Beaconsfield",
       "slug": "beaconsfield",
-      "lat": 51.6113,
-      "lng": -0.6438,
+      "lat": 51.611291,
+      "lng": -0.643822,
       "journeys": {
         "MYB": {
           "mins": 24,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BCNSFLD"
+      ]
     },
     {
       "name": "Beckenham Hill",
       "slug": "beckenham-hill",
-      "lat": 51.4247,
-      "lng": -0.0164,
+      "lat": 51.424583,
+      "lng": -0.015951,
       "journeys": {
         "LBG": {
           "mins": 18,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BCKNHMH"
+      ]
     },
     {
       "name": "Bedford",
       "slug": "bedford",
-      "lat": 52.1352,
-      "lng": -0.4743,
+      "lat": 52.136187,
+      "lng": -0.479442,
       "journeys": {
         "KGX": {
           "mins": 39,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BEDFDM"
+      ]
     },
     {
       "name": "Bedwyn",
       "slug": "bedwyn",
-      "lat": 51.3785,
-      "lng": -1.5854,
+      "lat": 51.37964,
+      "lng": -1.598786,
       "journeys": {
         "PAD": {
           "mins": 56,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BEDYN"
+      ]
     },
     {
       "name": "Bellingham",
       "slug": "bellingham",
-      "lat": 51.4325,
-      "lng": -0.0189,
+      "lat": 51.432913,
+      "lng": -0.019331,
       "journeys": {
         "LBG": {
           "mins": 16,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BELNGHM"
+      ]
     },
     {
       "name": "Benfleet",
       "slug": "benfleet",
-      "lat": 51.5439,
-      "lng": 0.5617,
+      "lat": 51.543945,
+      "lng": 0.561713,
       "journeys": {
         "FST": {
           "mins": 42,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BENFLET"
+      ]
     },
     {
       "name": "Bentley",
       "slug": "bentley",
-      "lat": 51.181,
-      "lng": -0.878,
+      "lat": 51.181233,
+      "lng": -0.868127,
       "journeys": {
         "WAT": {
           "mins": 54,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BNTEY"
+      ]
     },
     {
       "name": "Berkhamsted",
       "slug": "berkhamsted",
-      "lat": 51.7631,
-      "lng": -0.562,
+      "lat": 51.763134,
+      "lng": -0.562013,
       "journeys": {
         "EUS": {
           "mins": 31,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BERKHMD"
+      ]
     },
     {
       "name": "Bexleyheath",
       "slug": "bexleyheath",
-      "lat": 51.4595,
-      "lng": 0.1356,
+      "lat": 51.4635,
+      "lng": 0.133735,
       "journeys": {
         "LBG": {
           "mins": 28,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BXLYHTH"
+      ]
     },
     {
       "name": "Bicester North",
       "slug": "bicester-north",
-      "lat": 51.9035,
-      "lng": -1.1504,
+      "lat": 51.903483,
+      "lng": -1.150383,
       "journeys": {
         "MYB": {
           "mins": 49,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BCSTN"
+      ]
     },
     {
       "name": "Bickley",
       "slug": "bickley",
-      "lat": 51.3975,
-      "lng": 0.0446,
+      "lat": 51.400104,
+      "lng": 0.045241,
       "journeys": {
         "VIC": {
           "mins": 20,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BICKLEY"
+      ]
     },
     {
       "name": "Biggleswade",
       "slug": "biggleswade",
-      "lat": 52.085,
-      "lng": -0.261,
+      "lat": 52.08468,
+      "lng": -0.261187,
       "journeys": {
         "KGX": {
           "mins": 40,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BIGLSWD"
+      ]
     },
     {
       "name": "Billericay",
       "slug": "billericay",
-      "lat": 51.6346,
-      "lng": 0.4194,
+      "lat": 51.628884,
+      "lng": 0.41863,
       "journeys": {
         "LST": {
           "mins": 32,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BILERCY"
+      ]
     },
     {
       "name": "Birmingham International",
       "slug": "birmingham-international",
-      "lat": 52.4508,
-      "lng": -1.7258,
+      "lat": 52.450807,
+      "lng": -1.725857,
       "journeys": {
         "EUS": {
           "mins": 70,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BHAMINT"
+      ]
     },
     {
       "name": "Birmingham New Street",
       "slug": "birmingham-new-street",
-      "lat": 52.4778,
-      "lng": -1.9002,
+      "lat": 52.477818,
+      "lng": -1.900205,
       "journeys": {
         "EUS": {
           "mins": 76,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BHAMNWS"
+      ]
     },
     {
       "name": "Bishops Stortford",
       "slug": "bishops-stortford",
-      "lat": 51.8667,
-      "lng": 0.1649,
+      "lat": 51.866691,
+      "lng": 0.164894,
       "journeys": {
         "LST": {
           "mins": 37,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BSHPSFD"
+      ]
     },
     {
       "name": "Blackheath",
       "slug": "blackheath",
-      "lat": 51.4662,
-      "lng": 0.0108,
+      "lat": 51.465796,
+      "lng": 0.008872,
       "journeys": {
         "LBG": {
           "mins": 12,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BLKHTH"
+      ]
     },
     {
       "name": "Bletchley",
       "slug": "bletchley",
-      "lat": 51.9953,
-      "lng": -0.7363,
+      "lat": 51.995334,
+      "lng": -0.73632,
       "journeys": {
         "EUS": {
           "mins": 38,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BLTCHLY"
+      ]
     },
     {
       "name": "Box Hill & Westhumble",
       "slug": "box-hill-and-westhumble",
-      "lat": 51.2534,
-      "lng": -0.3291,
+      "lat": 51.254012,
+      "lng": -0.32849,
       "journeys": {
         "WAT": {
           "mins": 48,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BOXHAWH"
+      ]
     },
     {
       "name": "Braintree",
       "slug": "braintree",
-      "lat": 51.8754,
-      "lng": 0.5567,
+      "lat": 51.875392,
+      "lng": 0.556687,
       "journeys": {
         "LST": {
           "mins": 58,
           "direct": false
         }
-      }
+      },
+      "tiplocs": [
+        "BRAINTR"
+      ]
     },
     {
       "name": "Brentford",
       "slug": "brentford",
-      "lat": 51.4878,
-      "lng": -0.3091,
+      "lat": 51.487547,
+      "lng": -0.309651,
       "journeys": {
         "WAT": {
           "mins": 25,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BNTFORD"
+      ]
     },
     {
       "name": "Brentwood",
       "slug": "brentwood",
-      "lat": 51.6136,
-      "lng": 0.2996,
+      "lat": 51.613605,
+      "lng": 0.299586,
       "journeys": {
         "LST": {
           "mins": 26,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BRTWOOD"
+      ]
     },
     {
       "name": "Brighton",
       "slug": "brighton",
-      "lat": 50.8291,
-      "lng": -0.1411,
+      "lat": 50.829005,
+      "lng": -0.14128,
       "journeys": {
         "VIC": {
           "mins": 58,
@@ -689,121 +845,152 @@
           "mins": 60,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BRGHTN"
+      ]
     },
     {
       "name": "Bristol Temple Meads",
       "slug": "bristol-temple-meads",
-      "lat": 51.4491,
-      "lng": -2.5813,
+      "lat": 51.449144,
+      "lng": -2.581315,
       "journeys": {
         "PAD": {
           "mins": 82,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BRSTLTM"
+      ]
     },
     {
       "name": "Bromley South",
       "slug": "bromley-south",
-      "lat": 51.4001,
-      "lng": 0.0173,
+      "lat": 51.399976,
+      "lng": 0.017344,
       "journeys": {
         "VIC": {
           "mins": 18,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BROMLYS"
+      ]
     },
     {
       "name": "Brookmans Park",
       "slug": "brookmans-park",
-      "lat": 51.721,
-      "lng": -0.205,
+      "lat": 51.721062,
+      "lng": -0.204549,
       "journeys": {
         "KGX": {
           "mins": 24,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BRKMNPK"
+      ]
     },
     {
       "name": "Brookwood",
       "slug": "brookwood",
-      "lat": 51.304,
-      "lng": -0.628,
+      "lat": 51.303758,
+      "lng": -0.635748,
       "journeys": {
         "WAT": {
           "mins": 29,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BRKWOOD"
+      ]
     },
     {
       "name": "Broxbourne",
       "slug": "broxbourne",
-      "lat": 51.7471,
-      "lng": -0.0106,
+      "lat": 51.74691,
+      "lng": -0.011087,
       "journeys": {
         "LST": {
           "mins": 27,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BROXBRN"
+      ]
     },
     {
       "name": "Burgess Hill",
       "slug": "burgess-hill",
-      "lat": 50.9525,
-      "lng": -0.1361,
+      "lat": 50.953656,
+      "lng": -0.127413,
       "journeys": {
         "VIC": {
           "mins": 48,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BURGESH"
+      ]
     },
     {
       "name": "Burnham",
       "slug": "burnham",
-      "lat": 51.5235,
-      "lng": -0.6464,
+      "lat": 51.523506,
+      "lng": -0.646374,
       "journeys": {
         "PAD": {
           "mins": 22,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BNHAM"
+      ]
     },
     {
       "name": "Bushey",
       "slug": "bushey",
-      "lat": 51.6455,
-      "lng": -0.3645,
+      "lat": 51.645582,
+      "lng": -0.384749,
       "journeys": {
         "EUS": {
           "mins": 14,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BUSHEY",
+        "BUSHYDC"
+      ]
     },
     {
       "name": "Byfleet & New Haw",
       "slug": "byfleet-and-new-haw",
-      "lat": 51.3494,
-      "lng": -0.4833,
+      "lat": 51.349797,
+      "lng": -0.48139,
       "journeys": {
         "WAT": {
           "mins": 30,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "BYFLANH"
+      ]
     },
     {
       "name": "Cambridge",
       "slug": "cambridge",
-      "lat": 52.1941,
-      "lng": 0.1376,
+      "lat": 52.194067,
+      "lng": 0.137457,
       "journeys": {
         "KGX": {
           "mins": 49,
@@ -813,169 +1000,211 @@
           "mins": 65,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "CAMBDGE"
+      ]
     },
     {
       "name": "Catford",
       "slug": "catford",
-      "lat": 51.4439,
-      "lng": -0.0205,
+      "lat": 51.444407,
+      "lng": -0.026317,
       "journeys": {
         "LBG": {
           "mins": 15,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "CATFORD"
+      ]
     },
     {
       "name": "Chafford Hundred",
       "slug": "chafford-hundred",
-      "lat": 51.4855,
-      "lng": 0.2882,
+      "lat": 51.485557,
+      "lng": 0.287447,
       "journeys": {
         "FST": {
           "mins": 22,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "CHADHDD"
+      ]
     },
     {
       "name": "Chalkwell",
       "slug": "chalkwell",
-      "lat": 51.5369,
-      "lng": 0.6738,
+      "lat": 51.538719,
+      "lng": 0.670593,
       "journeys": {
         "FST": {
           "mins": 49,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "CHLKWEL"
+      ]
     },
     {
       "name": "Charlbury",
       "slug": "charlbury",
-      "lat": 51.8724,
-      "lng": -1.4897,
+      "lat": 51.872428,
+      "lng": -1.489694,
       "journeys": {
         "PAD": {
           "mins": 72,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "CHBURY"
+      ]
     },
     {
       "name": "Chatham",
       "slug": "chatham",
-      "lat": 51.3818,
-      "lng": 0.5278,
+      "lat": 51.380379,
+      "lng": 0.521151,
       "journeys": {
         "LBG": {
           "mins": 42,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "CHATHAM"
+      ]
     },
     {
       "name": "Cheddington",
       "slug": "cheddington",
-      "lat": 51.852,
-      "lng": -0.6715,
+      "lat": 51.857918,
+      "lng": -0.662152,
       "journeys": {
         "EUS": {
           "mins": 38,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "CHDNGTN"
+      ]
     },
     {
       "name": "Chelmsford",
       "slug": "chelmsford",
-      "lat": 51.7364,
-      "lng": 0.4686,
+      "lat": 51.736373,
+      "lng": 0.468572,
       "journeys": {
         "LST": {
           "mins": 30,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "CHLMSFD"
+      ]
     },
     {
       "name": "Cheshunt",
       "slug": "cheshunt",
-      "lat": 51.7028,
-      "lng": -0.0253,
+      "lat": 51.702876,
+      "lng": -0.02396,
       "journeys": {
         "LST": {
           "mins": 22,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "CHESHNT"
+      ]
     },
     {
       "name": "Chessington South",
       "slug": "chessington-south",
-      "lat": 51.3565,
-      "lng": -0.3081,
+      "lat": 51.35655,
+      "lng": -0.308157,
       "journeys": {
         "WAT": {
           "mins": 35,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "CHSSS"
+      ]
     },
     {
       "name": "Chippenham",
       "slug": "chippenham",
-      "lat": 51.4582,
-      "lng": -2.116,
+      "lat": 51.462488,
+      "lng": -2.115394,
       "journeys": {
         "PAD": {
           "mins": 62,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "CHIPNHM"
+      ]
     },
     {
       "name": "Chislehurst",
       "slug": "chislehurst",
-      "lat": 51.4047,
-      "lng": 0.0571,
+      "lat": 51.405557,
+      "lng": 0.057418,
       "journeys": {
         "LBG": {
           "mins": 18,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "CHSLHRS"
+      ]
     },
     {
       "name": "Cholsey",
       "slug": "cholsey",
-      "lat": 51.5702,
-      "lng": -1.158,
+      "lat": 51.570202,
+      "lng": -1.158023,
       "journeys": {
         "PAD": {
           "mins": 45,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "CHOLSEY"
+      ]
     },
     {
       "name": "Clandon",
       "slug": "clandon",
-      "lat": 51.2638,
-      "lng": -0.5036,
+      "lat": 51.264005,
+      "lng": -0.502766,
       "journeys": {
         "WAT": {
           "mins": 48,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "CLANDON"
+      ]
     },
     {
       "name": "Clapham Junction",
       "slug": "clapham-junction",
-      "lat": 51.4642,
-      "lng": -0.1703,
+      "lat": 51.464188,
+      "lng": -0.170293,
       "journeys": {
         "WAT": {
           "mins": 7,
@@ -985,241 +1214,305 @@
           "mins": 5,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "CLPHMJ1",
+        "CLPHMJ2",
+        "CLPHMJC",
+        "CLPHMJM",
+        "CLPHMJW"
+      ]
     },
     {
       "name": "Claygate",
       "slug": "claygate",
-      "lat": 51.3607,
-      "lng": -0.3482,
+      "lat": 51.361214,
+      "lng": -0.348248,
       "journeys": {
         "WAT": {
           "mins": 29,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "CLYGATE"
+      ]
     },
     {
       "name": "Cobham & Stoke d'Abernon",
       "slug": "cobham-and-stoke-dabernon",
-      "lat": 51.3198,
-      "lng": -0.3894,
+      "lat": 51.318101,
+      "lng": -0.389346,
       "journeys": {
         "WAT": {
           "mins": 35,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "CBHMSDA"
+      ]
     },
     {
       "name": "Colchester",
       "slug": "colchester",
-      "lat": 51.9007,
-      "lng": 0.8926,
+      "lat": 51.900714,
+      "lng": 0.892598,
       "journeys": {
         "LST": {
           "mins": 45,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "CLCHSTR"
+      ]
     },
     {
       "name": "Coulsdon South",
       "slug": "coulsdon-south",
-      "lat": 51.3193,
-      "lng": -0.1383,
+      "lat": 51.315838,
+      "lng": -0.137887,
       "journeys": {
         "VIC": {
           "mins": 26,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "COLSDNS"
+      ]
     },
     {
       "name": "Coventry",
       "slug": "coventry",
-      "lat": 52.4008,
-      "lng": -1.5135,
+      "lat": 52.400814,
+      "lng": -1.51346,
       "journeys": {
         "EUS": {
           "mins": 58,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "COVNTRY"
+      ]
     },
     {
       "name": "Crawley",
       "slug": "crawley",
-      "lat": 51.1094,
-      "lng": -0.163,
+      "lat": 51.112214,
+      "lng": -0.186673,
       "journeys": {
         "VIC": {
           "mins": 38,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "CRAWLEY"
+      ]
     },
     {
       "name": "Crews Hill",
       "slug": "crews-hill",
-      "lat": 51.6844,
-      "lng": -0.1069,
+      "lat": 51.684486,
+      "lng": -0.106887,
       "journeys": {
         "KGX": {
           "mins": 28,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "CRHL"
+      ]
     },
     {
       "name": "Cricklewood",
       "slug": "cricklewood",
-      "lat": 51.5577,
-      "lng": -0.2127,
+      "lat": 51.558453,
+      "lng": -0.212677,
       "journeys": {
         "KGX": {
           "mins": 12,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "CRKLWD"
+      ]
     },
     {
       "name": "Cuffley",
       "slug": "cuffley",
-      "lat": 51.709,
-      "lng": -0.11,
+      "lat": 51.708722,
+      "lng": -0.109783,
       "journeys": {
         "KGX": {
           "mins": 32,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "CUFFLEY"
+      ]
     },
     {
       "name": "Dagenham Dock",
       "slug": "dagenham-dock",
-      "lat": 51.5253,
-      "lng": 0.1468,
+      "lat": 51.52609,
+      "lng": 0.146103,
       "journeys": {
         "FST": {
           "mins": 14,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "DGNHMDC"
+      ]
     },
     {
       "name": "Dartford",
       "slug": "dartford",
-      "lat": 51.4465,
-      "lng": 0.218,
+      "lat": 51.447371,
+      "lng": 0.219248,
       "journeys": {
         "LBG": {
           "mins": 33,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "DARTFD"
+      ]
     },
     {
       "name": "Denham",
       "slug": "denham",
-      "lat": 51.5788,
-      "lng": -0.4974,
+      "lat": 51.578837,
+      "lng": -0.497437,
       "journeys": {
         "MYB": {
           "mins": 18,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "DENHAM"
+      ]
     },
     {
       "name": "Denham Golf Club",
       "slug": "denham-golf-club",
-      "lat": 51.5764,
-      "lng": -0.5116,
+      "lat": 51.580598,
+      "lng": -0.517787,
       "journeys": {
         "MYB": {
           "mins": 20,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "DENHMGC"
+      ]
     },
     {
       "name": "Denmark Hill",
       "slug": "denmark-hill",
-      "lat": 51.4686,
-      "lng": -0.0891,
+      "lat": 51.468203,
+      "lng": -0.089361,
       "journeys": {
         "VIC": {
           "mins": 10,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "DENMRKH"
+      ]
     },
     {
       "name": "Didcot Parkway",
       "slug": "didcot-parkway",
-      "lat": 51.611,
-      "lng": -1.2429,
+      "lat": 51.610954,
+      "lng": -1.242893,
       "journeys": {
         "PAD": {
           "mins": 40,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "DIDCOTP"
+      ]
     },
     {
       "name": "Dorking",
       "slug": "dorking",
-      "lat": 51.2334,
-      "lng": -0.3315,
+      "lat": 51.24093,
+      "lng": -0.324251,
       "journeys": {
         "WAT": {
           "mins": 52,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "DORKING"
+      ]
     },
     {
       "name": "Ealing Broadway",
       "slug": "ealing-broadway",
-      "lat": 51.5148,
-      "lng": -0.3017,
+      "lat": 51.514841,
+      "lng": -0.301752,
       "journeys": {
         "PAD": {
           "mins": 10,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "EALINGB"
+      ]
     },
     {
       "name": "Earlsfield",
       "slug": "earlsfield",
-      "lat": 51.4419,
-      "lng": -0.1884,
+      "lat": 51.442337,
+      "lng": -0.187715,
       "journeys": {
         "WAT": {
           "mins": 10,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "ERLFLD"
+      ]
     },
     {
       "name": "Earlswood",
       "slug": "earlswood",
-      "lat": 51.2282,
-      "lng": -0.1699,
+      "lat": 51.227328,
+      "lng": -0.170823,
       "journeys": {
         "LBG": {
           "mins": 32,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "EARLSWD"
+      ]
     },
     {
       "name": "East Croydon",
       "slug": "east-croydon",
-      "lat": 51.3758,
-      "lng": -0.0925,
+      "lat": 51.375454,
+      "lng": -0.09278,
       "journeys": {
         "VIC": {
           "mins": 15,
@@ -1229,265 +1522,331 @@
           "mins": 14,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "ECROYDN"
+      ]
     },
     {
       "name": "East Grinstead",
       "slug": "east-grinstead",
-      "lat": 51.1256,
-      "lng": -0.0189,
+      "lat": 51.126274,
+      "lng": -0.0179,
       "journeys": {
         "VIC": {
           "mins": 57,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "EGRNSTD"
+      ]
     },
     {
       "name": "East Tilbury",
       "slug": "east-tilbury",
-      "lat": 51.4854,
-      "lng": 0.4208,
+      "lat": 51.484831,
+      "lng": 0.412928,
       "journeys": {
         "FST": {
           "mins": 34,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "ETILBRY"
+      ]
     },
     {
       "name": "Effingham Junction",
       "slug": "effingham-junction",
-      "lat": 51.2915,
-      "lng": -0.4195,
+      "lat": 51.291495,
+      "lng": -0.419965,
       "journeys": {
         "WAT": {
           "mins": 40,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "EFNGHMJ"
+      ]
     },
     {
       "name": "Egham",
       "slug": "egham",
-      "lat": 51.4296,
-      "lng": -0.5494,
+      "lat": 51.429647,
+      "lng": -0.546512,
       "journeys": {
         "WAT": {
           "mins": 38,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "EGHAM"
+      ]
     },
     {
       "name": "Elsenham",
       "slug": "elsenham",
-      "lat": 51.9181,
-      "lng": 0.2244,
+      "lat": 51.920546,
+      "lng": 0.22807,
       "journeys": {
         "LST": {
           "mins": 50,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "ELSENHM"
+      ]
     },
     {
       "name": "Elstree & Borehamwood",
       "slug": "elstree-and-borehamwood",
-      "lat": 51.6527,
-      "lng": -0.2795,
+      "lat": 51.653069,
+      "lng": -0.280081,
       "journeys": {
         "KGX": {
           "mins": 21,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "ELTR"
+      ]
     },
     {
       "name": "Eltham",
       "slug": "eltham",
-      "lat": 51.4491,
-      "lng": 0.0527,
+      "lat": 51.455644,
+      "lng": 0.052472,
       "journeys": {
         "LBG": {
           "mins": 18,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "ELTHAM"
+      ]
     },
     {
       "name": "Enfield Chase",
       "slug": "enfield-chase",
-      "lat": 51.6527,
-      "lng": -0.0908,
+      "lat": 51.653254,
+      "lng": -0.090696,
       "journeys": {
         "KGX": {
           "mins": 22,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "ENFC"
+      ]
     },
     {
       "name": "Epsom",
       "slug": "epsom",
-      "lat": 51.3344,
-      "lng": -0.2688,
+      "lat": 51.334393,
+      "lng": -0.268778,
       "journeys": {
         "WAT": {
           "mins": 32,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "EPSM"
+      ]
     },
     {
       "name": "Erith",
       "slug": "erith",
-      "lat": 51.4822,
-      "lng": 0.1756,
+      "lat": 51.481671,
+      "lng": 0.175055,
       "journeys": {
         "LBG": {
           "mins": 28,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "ERITH"
+      ]
     },
     {
       "name": "Esher",
       "slug": "esher",
-      "lat": 51.3799,
-      "lng": -0.3533,
+      "lat": 51.379891,
+      "lng": -0.353338,
       "journeys": {
         "WAT": {
           "mins": 21,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "ESHER"
+      ]
     },
     {
       "name": "Ewell West",
       "slug": "ewell-west",
-      "lat": 51.3494,
-      "lng": -0.2567,
+      "lat": 51.350045,
+      "lng": -0.256987,
       "journeys": {
         "WAT": {
           "mins": 27,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "EWELW"
+      ]
     },
     {
       "name": "Farnborough (Main)",
       "slug": "farnborough-main",
-      "lat": 51.2966,
-      "lng": -0.7557,
+      "lat": 51.296692,
+      "lng": -0.755436,
       "journeys": {
         "WAT": {
           "mins": 36,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "FRBRMN"
+      ]
     },
     {
       "name": "Farncombe",
       "slug": "farncombe",
-      "lat": 51.1976,
-      "lng": -0.6045,
+      "lat": 51.197154,
+      "lng": -0.604549,
       "journeys": {
         "WAT": {
           "mins": 42,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "FRNCMB"
+      ]
     },
     {
       "name": "Farnham",
       "slug": "farnham",
-      "lat": 51.2114,
-      "lng": -0.7931,
+      "lat": 51.211905,
+      "lng": -0.792427,
       "journeys": {
         "WAT": {
           "mins": 48,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "FARNHAM"
+      ]
     },
     {
       "name": "Faversham",
       "slug": "faversham",
-      "lat": 51.3151,
-      "lng": 0.891,
+      "lat": 51.311714,
+      "lng": 0.891045,
       "journeys": {
         "LBG": {
           "mins": 68,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "FAVRSHM"
+      ]
     },
     {
       "name": "Feltham",
       "slug": "feltham",
-      "lat": 51.4478,
-      "lng": -0.4098,
+      "lat": 51.447898,
+      "lng": -0.409838,
       "journeys": {
         "WAT": {
           "mins": 33,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "FELTHAM"
+      ]
     },
     {
       "name": "Finsbury Park",
       "slug": "finsbury-park",
-      "lat": 51.5648,
-      "lng": -0.1057,
+      "lat": 51.564302,
+      "lng": -0.106285,
       "journeys": {
         "KGX": {
           "mins": 5,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "FNPK"
+      ]
     },
     {
       "name": "Fleet",
       "slug": "fleet",
-      "lat": 51.2906,
-      "lng": -0.8308,
+      "lat": 51.290635,
+      "lng": -0.830806,
       "journeys": {
         "WAT": {
           "mins": 42,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "FLEET"
+      ]
     },
     {
       "name": "Flitwick",
       "slug": "flitwick",
-      "lat": 52.004,
-      "lng": -0.495,
+      "lat": 52.003642,
+      "lng": -0.495258,
       "journeys": {
         "KGX": {
           "mins": 41,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "FLITWCK"
+      ]
     },
     {
       "name": "Foxton",
       "slug": "foxton",
-      "lat": 52.119,
-      "lng": 0.056,
+      "lat": 52.119214,
+      "lng": 0.056308,
       "journeys": {
         "KGX": {
           "mins": 55,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "FOXTON"
+      ]
     },
     {
       "name": "Gatwick Airport",
       "slug": "gatwick-airport",
-      "lat": 51.1565,
-      "lng": -0.1613,
+      "lat": 51.156491,
+      "lng": -0.161041,
       "journeys": {
         "VIC": {
           "mins": 30,
@@ -1497,349 +1856,437 @@
           "mins": 32,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "GTWK"
+      ]
     },
     {
       "name": "Gerrards Cross",
       "slug": "gerrards-cross",
-      "lat": 51.589,
-      "lng": -0.5553,
+      "lat": 51.589023,
+      "lng": -0.555275,
       "journeys": {
         "MYB": {
           "mins": 21,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "GERRDSX"
+      ]
     },
     {
       "name": "Gillingham",
       "slug": "gillingham",
-      "lat": 51.386,
-      "lng": 0.5487,
+      "lat": 51.386565,
+      "lng": 0.54985,
       "journeys": {
         "LBG": {
           "mins": 47,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "GLNGHMK"
+      ]
     },
     {
       "name": "Godalming",
       "slug": "godalming",
-      "lat": 51.1861,
-      "lng": -0.6192,
+      "lat": 51.186587,
+      "lng": -0.618862,
       "journeys": {
         "WAT": {
           "mins": 45,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "GDLMING"
+      ]
     },
     {
       "name": "Gordon Hill",
       "slug": "gordon-hill",
-      "lat": 51.663,
-      "lng": -0.0948,
+      "lat": 51.663335,
+      "lng": -0.09461,
       "journeys": {
         "KGX": {
           "mins": 25,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "GORDONH"
+      ]
     },
     {
       "name": "Goring & Streatley",
       "slug": "goring-and-streatley",
-      "lat": 51.5215,
-      "lng": -1.133,
+      "lat": 51.521493,
+      "lng": -1.133049,
       "journeys": {
         "PAD": {
           "mins": 39,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "GORASTR"
+      ]
     },
     {
       "name": "Grantham",
       "slug": "grantham",
-      "lat": 52.9065,
-      "lng": -0.6425,
+      "lat": 52.906472,
+      "lng": -0.64245,
       "journeys": {
         "KGX": {
           "mins": 67,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "GTHM"
+      ]
     },
     {
       "name": "Grateley",
       "slug": "grateley",
-      "lat": 51.1703,
-      "lng": -1.6195,
+      "lat": 51.170059,
+      "lng": -1.620774,
       "journeys": {
         "WAT": {
           "mins": 72,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "GRATELY"
+      ]
     },
     {
       "name": "Gravesend",
       "slug": "gravesend",
-      "lat": 51.4414,
-      "lng": 0.3706,
+      "lat": 51.441348,
+      "lng": 0.366643,
       "journeys": {
         "LBG": {
           "mins": 41,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "GRVSEND"
+      ]
     },
     {
       "name": "Grays",
       "slug": "grays",
-      "lat": 51.4762,
-      "lng": 0.3219,
+      "lat": 51.476248,
+      "lng": 0.321832,
       "journeys": {
         "FST": {
           "mins": 27,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "GRAYS"
+      ]
     },
     {
       "name": "Great Missenden",
       "slug": "great-missenden",
-      "lat": 51.7043,
-      "lng": -0.7083,
+      "lat": 51.703519,
+      "lng": -0.709141,
       "journeys": {
         "MYB": {
           "mins": 38,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "GTMSNDN"
+      ]
     },
     {
       "name": "Grove Park",
       "slug": "grove-park",
-      "lat": 51.4311,
-      "lng": 0.0225,
+      "lat": 51.430863,
+      "lng": 0.021726,
       "journeys": {
         "LBG": {
           "mins": 14,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "GRVPK"
+      ]
     },
     {
       "name": "Guildford",
       "slug": "guildford",
-      "lat": 51.237,
-      "lng": -0.5804,
+      "lat": 51.23697,
+      "lng": -0.580425,
       "journeys": {
         "WAT": {
           "mins": 33,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "GUILDFD"
+      ]
     },
     {
       "name": "Haddenham & Thame Parkway",
       "slug": "haddenham-and-thame-parkway",
-      "lat": 51.7709,
-      "lng": -0.9421,
+      "lat": 51.770855,
+      "lng": -0.942137,
       "journeys": {
         "MYB": {
           "mins": 48,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HADMATP"
+      ]
     },
     {
       "name": "Hadley Wood",
       "slug": "hadley-wood",
-      "lat": 51.6684,
-      "lng": -0.1764,
+      "lat": 51.668497,
+      "lng": -0.176172,
       "journeys": {
         "KGX": {
           "mins": 22,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HADLYWD"
+      ]
     },
     {
       "name": "Hampton Court",
       "slug": "hampton-court",
-      "lat": 51.4025,
-      "lng": -0.3423,
+      "lat": 51.402556,
+      "lng": -0.342748,
       "journeys": {
         "WAT": {
           "mins": 33,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HCRT"
+      ]
     },
     {
       "name": "Hampton Wick",
       "slug": "hampton-wick",
-      "lat": 51.4142,
-      "lng": -0.3124,
+      "lat": 51.414524,
+      "lng": -0.312489,
       "journeys": {
         "WAT": {
           "mins": 30,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HAMWICK"
+      ]
     },
     {
       "name": "Hanborough",
       "slug": "hanborough",
-      "lat": 51.8252,
-      "lng": -1.3735,
+      "lat": 51.825158,
+      "lng": -1.373525,
       "journeys": {
         "PAD": {
           "mins": 62,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HANDBRO"
+      ]
     },
     {
       "name": "Hanwell",
       "slug": "hanwell",
-      "lat": 51.5128,
-      "lng": -0.3382,
+      "lat": 51.511835,
+      "lng": -0.338583,
       "journeys": {
         "PAD": {
           "mins": 13,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HANWELL"
+      ]
     },
     {
       "name": "Harlow Mill",
       "slug": "harlow-mill",
-      "lat": 51.7882,
-      "lng": 0.1252,
+      "lat": 51.790365,
+      "lng": 0.132308,
       "journeys": {
         "LST": {
           "mins": 35,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HRLWMIL"
+      ]
     },
     {
       "name": "Harlow Town",
       "slug": "harlow-town",
-      "lat": 51.7811,
-      "lng": 0.0952,
+      "lat": 51.78107,
+      "lng": 0.095132,
       "journeys": {
         "LST": {
           "mins": 30,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HRLWTWN"
+      ]
     },
     {
       "name": "Harpenden",
       "slug": "harpenden",
-      "lat": 51.815,
-      "lng": -0.351,
+      "lat": 51.814645,
+      "lng": -0.35148,
       "journeys": {
         "KGX": {
           "mins": 28,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HRPNDN"
+      ]
     },
     {
       "name": "Harrow & Wealdstone",
       "slug": "harrow-and-wealdstone",
-      "lat": 51.5923,
-      "lng": -0.3352,
+      "lat": 51.592178,
+      "lng": -0.334571,
       "journeys": {
         "EUS": {
           "mins": 12,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HROW",
+        "HROWDC"
+      ]
     },
     {
       "name": "Haslemere",
       "slug": "haslemere",
-      "lat": 51.0878,
-      "lng": -0.7128,
+      "lat": 51.088648,
+      "lng": -0.719163,
       "journeys": {
         "WAT": {
           "mins": 50,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HASLEMR"
+      ]
     },
     {
       "name": "Hassocks",
       "slug": "hassocks",
-      "lat": 50.9218,
-      "lng": -0.1433,
+      "lat": 50.924616,
+      "lng": -0.145953,
       "journeys": {
         "VIC": {
           "mins": 50,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HASOCKS"
+      ]
     },
     {
       "name": "Hatfield",
       "slug": "hatfield",
-      "lat": 51.7639,
-      "lng": -0.2156,
+      "lat": 51.763879,
+      "lng": -0.215589,
       "journeys": {
         "KGX": {
           "mins": 23,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HATFILD"
+      ]
     },
     {
       "name": "Hatfield Peverel",
       "slug": "hatfield-peverel",
-      "lat": 51.7765,
-      "lng": 0.5918,
+      "lat": 51.779864,
+      "lng": 0.592124,
       "journeys": {
         "LST": {
           "mins": 38,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HFLPEVL"
+      ]
     },
     {
       "name": "Havant",
       "slug": "havant",
-      "lat": 50.8544,
-      "lng": -0.9816,
+      "lat": 50.854427,
+      "lng": -0.981611,
       "journeys": {
         "WAT": {
           "mins": 78,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HAVANT"
+      ]
     },
     {
       "name": "Hayes & Harlington",
       "slug": "hayes-and-harlington",
-      "lat": 51.5031,
-      "lng": -0.4207,
+      "lat": 51.503096,
+      "lng": -0.420683,
       "journeys": {
         "PAD": {
           "mins": 17,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HAYESAH"
+      ]
     },
     {
       "name": "Haywards Heath",
       "slug": "haywards-heath",
-      "lat": 50.997,
-      "lng": -0.1037,
+      "lat": 51.005682,
+      "lng": -0.105078,
       "journeys": {
         "VIC": {
           "mins": 42,
@@ -1849,181 +2296,226 @@
           "mins": 44,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HYWRDSH"
+      ]
     },
     {
       "name": "Headcorn",
       "slug": "headcorn",
-      "lat": 51.1665,
-      "lng": 0.6285,
+      "lat": 51.165714,
+      "lng": 0.627482,
       "journeys": {
         "VIC": {
           "mins": 66,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HEADCRN"
+      ]
     },
     {
       "name": "Hemel Hempstead",
       "slug": "hemel-hempstead",
-      "lat": 51.7423,
-      "lng": -0.4908,
+      "lat": 51.742333,
+      "lng": -0.490774,
       "journeys": {
         "EUS": {
           "mins": 26,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HEMLHMP"
+      ]
     },
     {
       "name": "Henley-on-Thames",
       "slug": "henley-on-thames",
-      "lat": 51.5362,
-      "lng": -0.903,
+      "lat": 51.53418,
+      "lng": -0.900212,
       "journeys": {
         "PAD": {
           "mins": 50,
           "direct": false
         }
-      }
+      },
+      "tiplocs": [
+        "HNLYOT"
+      ]
     },
     {
       "name": "Hertford East",
       "slug": "hertford-east",
-      "lat": 51.7996,
-      "lng": -0.0793,
+      "lat": 51.799035,
+      "lng": -0.072941,
       "journeys": {
         "LST": {
           "mins": 38,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HERTFDE"
+      ]
     },
     {
       "name": "Hertford North",
       "slug": "hertford-north",
-      "lat": 51.799,
-      "lng": -0.092,
+      "lat": 51.798857,
+      "lng": -0.091788,
       "journeys": {
         "KGX": {
           "mins": 41,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HFDN"
+      ]
     },
     {
       "name": "High Wycombe",
       "slug": "high-wycombe",
-      "lat": 51.6296,
-      "lng": -0.7454,
+      "lat": 51.629586,
+      "lng": -0.74541,
       "journeys": {
         "MYB": {
           "mins": 27,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HWYCOMB"
+      ]
     },
     {
       "name": "Hildenborough",
       "slug": "hildenborough",
-      "lat": 51.2146,
-      "lng": 0.2384,
+      "lat": 51.214486,
+      "lng": 0.22759,
       "journeys": {
         "VIC": {
           "mins": 38,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HLDNBRO"
+      ]
     },
     {
       "name": "Hinchley Wood",
       "slug": "hinchley-wood",
-      "lat": 51.3788,
-      "lng": -0.3439,
+      "lat": 51.374998,
+      "lng": -0.340524,
       "journeys": {
         "WAT": {
           "mins": 27,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HNCHLYW"
+      ]
     },
     {
       "name": "Hitchin",
       "slug": "hitchin",
-      "lat": 51.949,
-      "lng": -0.263,
+      "lat": 51.953283,
+      "lng": -0.263481,
       "journeys": {
         "KGX": {
           "mins": 29,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HITCHIN"
+      ]
     },
     {
       "name": "Hither Green",
       "slug": "hither-green",
-      "lat": 51.4527,
-      "lng": 0.0016,
+      "lat": 51.452025,
+      "lng": -0.000944,
       "journeys": {
         "LBG": {
           "mins": 10,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HTHRGRN"
+      ]
     },
     {
       "name": "Hockley",
       "slug": "hockley",
-      "lat": 51.569,
-      "lng": 0.6465,
+      "lat": 51.603556,
+      "lng": 0.659001,
       "journeys": {
         "LST": {
           "mins": 47,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HOCKLEY"
+      ]
     },
     {
       "name": "Hook",
       "slug": "hook",
-      "lat": 51.2796,
-      "lng": -0.9619,
+      "lat": 51.279998,
+      "lng": -0.961636,
       "journeys": {
         "WAT": {
           "mins": 50,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HOOK"
+      ]
     },
     {
       "name": "Horley",
       "slug": "horley",
-      "lat": 51.1703,
-      "lng": -0.1636,
+      "lat": 51.168775,
+      "lng": -0.161054,
       "journeys": {
         "LBG": {
           "mins": 38,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HORLEY"
+      ]
     },
     {
       "name": "Hornsey",
       "slug": "hornsey",
-      "lat": 51.5865,
-      "lng": -0.1118,
+      "lat": 51.586461,
+      "lng": -0.111975,
       "journeys": {
         "KGX": {
           "mins": 9,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HRNSY"
+      ]
     },
     {
       "name": "Horsham",
       "slug": "horsham",
-      "lat": 51.0629,
-      "lng": -0.3263,
+      "lat": 51.066065,
+      "lng": -0.319269,
       "journeys": {
         "VIC": {
           "mins": 54,
@@ -2033,745 +2525,931 @@
           "mins": 56,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HORSHAM"
+      ]
     },
     {
       "name": "Horsley",
       "slug": "horsley",
-      "lat": 51.2791,
-      "lng": -0.4343,
+      "lat": 51.279347,
+      "lng": -0.435409,
       "journeys": {
         "WAT": {
           "mins": 43,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HRSLEY"
+      ]
     },
     {
       "name": "Hounslow",
       "slug": "hounslow",
-      "lat": 51.4625,
-      "lng": -0.3618,
+      "lat": 51.461946,
+      "lng": -0.362277,
       "journeys": {
         "WAT": {
           "mins": 30,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HOUNSLW"
+      ]
     },
     {
       "name": "Hove",
       "slug": "hove",
-      "lat": 50.8354,
-      "lng": -0.1712,
+      "lat": 50.835216,
+      "lng": -0.170687,
       "journeys": {
         "VIC": {
           "mins": 61,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HOVE"
+      ]
     },
     {
       "name": "Hungerford",
       "slug": "hungerford",
-      "lat": 51.4152,
-      "lng": -1.5172,
+      "lat": 51.41491,
+      "lng": -1.512287,
       "journeys": {
         "PAD": {
           "mins": 48,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HUNGRFD"
+      ]
     },
     {
       "name": "Huntingdon",
       "slug": "huntingdon",
-      "lat": 52.329,
-      "lng": -0.192,
+      "lat": 52.328649,
+      "lng": -0.192068,
       "journeys": {
         "KGX": {
           "mins": 52,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HNTNGDN"
+      ]
     },
     {
       "name": "Hurst Green",
       "slug": "hurst-green",
-      "lat": 51.2481,
-      "lng": 0.0049,
+      "lat": 51.244431,
+      "lng": 0.003939,
       "journeys": {
         "VIC": {
           "mins": 40,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "HRSTGRN"
+      ]
     },
     {
       "name": "Ingatestone",
       "slug": "ingatestone",
-      "lat": 51.667,
-      "lng": 0.3843,
+      "lat": 51.667043,
+      "lng": 0.384247,
       "journeys": {
         "LST": {
           "mins": 30,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "INGTSTN"
+      ]
     },
     {
       "name": "Ipswich",
       "slug": "ipswich",
-      "lat": 52.0506,
-      "lng": 1.1445,
+      "lat": 52.050592,
+      "lng": 1.144426,
       "journeys": {
         "LST": {
           "mins": 56,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "IPSWICH"
+      ]
     },
     {
       "name": "Isleworth",
       "slug": "isleworth",
-      "lat": 51.4747,
-      "lng": -0.3369,
+      "lat": 51.474763,
+      "lng": -0.336907,
       "journeys": {
         "WAT": {
           "mins": 28,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "ISLEWTH"
+      ]
     },
     {
       "name": "Iver",
       "slug": "iver",
-      "lat": 51.5084,
-      "lng": -0.5086,
+      "lat": 51.508503,
+      "lng": -0.506726,
       "journeys": {
         "PAD": {
           "mins": 22,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "IVER"
+      ]
     },
     {
       "name": "Kelvedon",
       "slug": "kelvedon",
-      "lat": 51.8372,
-      "lng": 0.7073,
+      "lat": 51.840702,
+      "lng": 0.702386,
       "journeys": {
         "LST": {
           "mins": 46,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "KELVEDN"
+      ]
     },
     {
       "name": "Kentish Town",
       "slug": "kentish-town",
-      "lat": 51.5506,
-      "lng": -0.1404,
+      "lat": 51.550495,
+      "lng": -0.140365,
       "journeys": {
         "KGX": {
           "mins": 4,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "KNTSHTN"
+      ]
     },
     {
       "name": "Kidbrooke",
       "slug": "kidbrooke",
-      "lat": 51.462,
-      "lng": 0.0271,
+      "lat": 51.462121,
+      "lng": 0.027498,
       "journeys": {
         "LBG": {
           "mins": 14,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "KIDBROK"
+      ]
     },
     {
       "name": "Kingham",
       "slug": "kingham",
-      "lat": 51.8929,
-      "lng": -1.635,
+      "lat": 51.90225,
+      "lng": -1.628786,
       "journeys": {
         "PAD": {
           "mins": 79,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "KINGHAM"
+      ]
     },
     {
       "name": "Kings Langley",
       "slug": "kings-langley",
-      "lat": 51.7073,
-      "lng": -0.4428,
+      "lat": 51.706356,
+      "lng": -0.438422,
       "journeys": {
         "EUS": {
           "mins": 22,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "KLGL"
+      ]
     },
     {
       "name": "Kings Sutton",
       "slug": "kings-sutton",
-      "lat": 52.0152,
-      "lng": -1.2768,
+      "lat": 52.021351,
+      "lng": -1.280931,
       "journeys": {
         "MYB": {
           "mins": 55,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "KINSSTN"
+      ]
     },
     {
       "name": "Kingston",
       "slug": "kingston",
-      "lat": 51.4055,
-      "lng": -0.3022,
+      "lat": 51.412751,
+      "lng": -0.301166,
       "journeys": {
         "WAT": {
           "mins": 25,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "KGSTON"
+      ]
     },
     {
       "name": "Kintbury",
       "slug": "kintbury",
-      "lat": 51.3954,
-      "lng": -1.449,
+      "lat": 51.402522,
+      "lng": -1.445989,
       "journeys": {
         "PAD": {
           "mins": 55,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "KNTBRY"
+      ]
     },
     {
       "name": "Knebworth",
       "slug": "knebworth",
-      "lat": 51.8661,
-      "lng": -0.1822,
+      "lat": 51.866855,
+      "lng": -0.187289,
       "journeys": {
         "KGX": {
           "mins": 28,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "KNEBWTH"
+      ]
     },
     {
       "name": "Laindon",
       "slug": "laindon",
-      "lat": 51.5647,
-      "lng": 0.4254,
+      "lat": 51.567524,
+      "lng": 0.424289,
       "journeys": {
         "FST": {
           "mins": 30,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "LAINDON"
+      ]
     },
     {
       "name": "Lancing",
       "slug": "lancing",
-      "lat": 50.8284,
-      "lng": -0.3249,
+      "lat": 50.827083,
+      "lng": -0.323109,
       "journeys": {
         "VIC": {
           "mins": 68,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "LNCG"
+      ]
     },
     {
       "name": "Langley",
       "slug": "langley",
-      "lat": 51.5097,
-      "lng": -0.5421,
+      "lat": 51.508062,
+      "lng": -0.541756,
       "journeys": {
         "PAD": {
           "mins": 19,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "LANGLEY"
+      ]
     },
     {
       "name": "Leamington Spa",
       "slug": "leamington-spa",
-      "lat": 52.2855,
-      "lng": -1.5374,
+      "lat": 52.28449,
+      "lng": -1.53621,
       "journeys": {
         "MYB": {
           "mins": 72,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "LMNGTNS"
+      ]
     },
     {
       "name": "Leatherhead",
       "slug": "leatherhead",
-      "lat": 51.2984,
-      "lng": -0.3332,
+      "lat": 51.298818,
+      "lng": -0.333232,
       "journeys": {
         "WAT": {
           "mins": 42,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "LETHRHD"
+      ]
     },
     {
       "name": "Leigh-on-Sea",
       "slug": "leigh-on-sea",
-      "lat": 51.5413,
-      "lng": 0.6404,
+      "lat": 51.541273,
+      "lng": 0.640411,
       "journeys": {
         "FST": {
           "mins": 47,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "LHONSEA"
+      ]
     },
     {
       "name": "Leighton Buzzard",
       "slug": "leighton-buzzard",
-      "lat": 51.9163,
-      "lng": -0.677,
+      "lat": 51.916306,
+      "lng": -0.677007,
       "journeys": {
         "EUS": {
           "mins": 32,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "LTNBZRD"
+      ]
     },
     {
       "name": "Letchworth Garden City",
       "slug": "letchworth-garden-city",
-      "lat": 51.981,
-      "lng": -0.228,
+      "lat": 51.979964,
+      "lng": -0.229264,
       "journeys": {
         "KGX": {
           "mins": 35,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "LTCE"
+      ]
     },
     {
       "name": "Lewisham",
       "slug": "lewisham",
-      "lat": 51.4657,
-      "lng": -0.0143,
+      "lat": 51.465692,
+      "lng": -0.014024,
       "journeys": {
         "LBG": {
           "mins": 8,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "LEWISHM"
+      ]
     },
     {
       "name": "Limehouse",
       "slug": "limehouse",
-      "lat": 51.5126,
-      "lng": -0.04,
+      "lat": 51.512537,
+      "lng": -0.039803,
       "journeys": {
         "FST": {
           "mins": 4,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "LIMHSE"
+      ]
     },
     {
       "name": "Lingfield",
       "slug": "lingfield",
-      "lat": 51.1787,
-      "lng": -0.0113,
+      "lat": 51.176453,
+      "lng": -0.007165,
       "journeys": {
         "VIC": {
           "mins": 50,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "LINGFLD"
+      ]
     },
     {
       "name": "Liphook",
       "slug": "liphook",
-      "lat": 51.0712,
-      "lng": -0.801,
+      "lat": 51.071316,
+      "lng": -0.800228,
       "journeys": {
         "WAT": {
           "mins": 55,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "LIPHOOK"
+      ]
     },
     {
       "name": "Liss",
       "slug": "liss",
-      "lat": 51.0443,
-      "lng": -0.893,
+      "lat": 51.043571,
+      "lng": -0.892867,
       "journeys": {
         "WAT": {
           "mins": 60,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "LISS"
+      ]
     },
     {
       "name": "Little Kimble",
       "slug": "little-kimble",
-      "lat": 51.7628,
-      "lng": -0.8253,
+      "lat": 51.752232,
+      "lng": -0.808452,
       "journeys": {
         "MYB": {
           "mins": 43,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "LTLKMBL"
+      ]
     },
     {
       "name": "Littlehampton",
       "slug": "littlehampton",
-      "lat": 50.8102,
-      "lng": -0.5415,
+      "lat": 50.810109,
+      "lng": -0.545995,
       "journeys": {
         "VIC": {
           "mins": 85,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "LTLHMPT"
+      ]
     },
     {
       "name": "Long Buckby",
       "slug": "long-buckby",
-      "lat": 52.2977,
-      "lng": -1.0823,
+      "lat": 52.294716,
+      "lng": -1.086467,
       "journeys": {
         "EUS": {
           "mins": 56,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "LNGBKBY"
+      ]
     },
     {
       "name": "Luton",
       "slug": "luton",
-      "lat": 51.8824,
-      "lng": -0.4148,
+      "lat": 51.882305,
+      "lng": -0.41404,
       "journeys": {
         "KGX": {
           "mins": 25,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "LUTON"
+      ]
     },
     {
       "name": "Luton Airport Parkway",
       "slug": "luton-airport-parkway",
-      "lat": 51.8724,
-      "lng": -0.3962,
+      "lat": 51.872438,
+      "lng": -0.395881,
       "journeys": {
         "KGX": {
           "mins": 23,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "LUTOAPY"
+      ]
     },
     {
       "name": "Maidenhead",
       "slug": "maidenhead",
-      "lat": 51.5219,
-      "lng": -0.7262,
+      "lat": 51.518669,
+      "lng": -0.72266,
       "journeys": {
         "PAD": {
           "mins": 19,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "MDNHEAD"
+      ]
     },
     {
       "name": "Maidstone East",
       "slug": "maidstone-east",
-      "lat": 51.2722,
-      "lng": 0.5257,
+      "lat": 51.27783,
+      "lng": 0.521295,
       "journeys": {
         "VIC": {
           "mins": 58,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "MSTONEE"
+      ]
     },
     {
       "name": "Manningtree",
       "slug": "manningtree",
-      "lat": 51.9491,
-      "lng": 1.0453,
+      "lat": 51.949052,
+      "lng": 1.04524,
       "journeys": {
         "LST": {
           "mins": 58,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "MANNGTR"
+      ]
     },
     {
       "name": "Marden",
       "slug": "marden",
-      "lat": 51.1741,
-      "lng": 0.4884,
+      "lat": 51.175176,
+      "lng": 0.493169,
       "journeys": {
         "VIC": {
           "mins": 55,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "MARDEN"
+      ]
     },
     {
       "name": "Marks Tey",
       "slug": "marks-tey",
-      "lat": 51.8782,
-      "lng": 0.7818,
+      "lat": 51.880939,
+      "lng": 0.783328,
       "journeys": {
         "LST": {
           "mins": 48,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "MRKSTEY"
+      ]
     },
     {
       "name": "Marlow",
       "slug": "marlow",
-      "lat": 51.5719,
-      "lng": -0.7769,
+      "lat": 51.570993,
+      "lng": -0.766431,
       "journeys": {
         "PAD": {
           "mins": 48,
           "direct": false
         }
-      }
+      },
+      "tiplocs": [
+        "MARLOW"
+      ]
     },
     {
       "name": "Meldreth",
       "slug": "meldreth",
-      "lat": 52.091,
-      "lng": 0.009,
+      "lat": 52.090717,
+      "lng": 0.008941,
       "journeys": {
         "KGX": {
           "mins": 50,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "MELDRTH"
+      ]
     },
     {
       "name": "Merstham",
       "slug": "merstham",
-      "lat": 51.2659,
-      "lng": -0.1548,
+      "lat": 51.264154,
+      "lng": -0.150226,
       "journeys": {
         "VIC": {
           "mins": 30,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "MERSTHM"
+      ]
     },
     {
       "name": "Milford",
       "slug": "milford",
-      "lat": 51.172,
-      "lng": -0.638,
+      "lat": 51.163319,
+      "lng": -0.636948,
       "journeys": {
         "WAT": {
           "mins": 49,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "MLFORD"
+      ]
     },
     {
       "name": "Mill Hill Broadway",
       "slug": "mill-hill-broadway",
-      "lat": 51.6131,
-      "lng": -0.2495,
+      "lat": 51.613093,
+      "lng": -0.24924,
       "journeys": {
         "KGX": {
           "mins": 17,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "MLHB"
+      ]
     },
     {
       "name": "Milton Keynes Central",
       "slug": "milton-keynes",
-      "lat": 52.0343,
-      "lng": -0.7741,
+      "lat": 52.034288,
+      "lng": -0.774146,
       "journeys": {
         "EUS": {
           "mins": 30,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "MKNSCEN"
+      ]
     },
     {
       "name": "Monks Risborough",
       "slug": "monks-risborough",
-      "lat": 51.7362,
-      "lng": -0.8252,
+      "lat": 51.735762,
+      "lng": -0.829334,
       "journeys": {
         "MYB": {
           "mins": 40,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "MNKRISB"
+      ]
     },
     {
       "name": "Moreton-in-Marsh",
       "slug": "moreton-in-marsh",
-      "lat": 51.9896,
-      "lng": -1.7,
+      "lat": 51.992281,
+      "lng": -1.70038,
       "journeys": {
         "PAD": {
           "mins": 85,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "MINMARS"
+      ]
     },
     {
       "name": "Motspur Park",
       "slug": "motspur-park",
-      "lat": 51.3944,
-      "lng": -0.2387,
+      "lat": 51.395196,
+      "lng": -0.239531,
       "journeys": {
         "WAT": {
           "mins": 20,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "MOTSPRP"
+      ]
     },
     {
       "name": "New Barnet",
       "slug": "new-barnet",
-      "lat": 51.6494,
-      "lng": -0.1729,
+      "lat": 51.648575,
+      "lng": -0.172997,
       "journeys": {
         "KGX": {
           "mins": 20,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "NBARNET"
+      ]
     },
     {
       "name": "New Cross",
       "slug": "new-cross",
-      "lat": 51.4762,
-      "lng": -0.0325,
+      "lat": 51.476344,
+      "lng": -0.032426,
       "journeys": {
         "LBG": {
           "mins": 5,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "NWCROSS"
+      ]
     },
     {
       "name": "New Eltham",
       "slug": "new-eltham",
-      "lat": 51.4376,
-      "lng": 0.0478,
+      "lat": 51.43806,
+      "lng": 0.070533,
       "journeys": {
         "LBG": {
           "mins": 18,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "NWELTHM"
+      ]
     },
     {
       "name": "New Malden",
       "slug": "new-malden",
-      "lat": 51.4034,
-      "lng": -0.2561,
+      "lat": 51.404075,
+      "lng": -0.25594,
       "journeys": {
         "WAT": {
           "mins": 19,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "NEWMLDN"
+      ]
     },
     {
       "name": "Newark Northgate",
       "slug": "newark-northgate",
-      "lat": 53.0819,
-      "lng": -0.8001,
+      "lat": 53.081758,
+      "lng": -0.799855,
       "journeys": {
         "KGX": {
           "mins": 75,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "NEWANG"
+      ]
     },
     {
       "name": "Newbury",
       "slug": "newbury",
-      "lat": 51.4011,
-      "lng": -1.3219,
+      "lat": 51.397649,
+      "lng": -1.322861,
       "journeys": {
         "PAD": {
           "mins": 39,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "NEWBURY"
+      ]
     },
     {
       "name": "Norbiton",
       "slug": "norbiton",
-      "lat": 51.412,
-      "lng": -0.2841,
+      "lat": 51.412358,
+      "lng": -0.284025,
       "journeys": {
         "WAT": {
           "mins": 23,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "NRBITON"
+      ]
     },
     {
       "name": "Northampton",
       "slug": "northampton",
-      "lat": 52.2405,
-      "lng": -0.9027,
+      "lat": 52.2375,
+      "lng": -0.906653,
       "journeys": {
         "EUS": {
           "mins": 49,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "NMPTN"
+      ]
     },
     {
       "name": "Oakleigh Park",
       "slug": "oakleigh-park",
-      "lat": 51.6263,
-      "lng": -0.1651,
+      "lat": 51.637678,
+      "lng": -0.166209,
       "journeys": {
         "KGX": {
           "mins": 17,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "OKLGHPK"
+      ]
     },
     {
       "name": "Ockendon",
       "slug": "ockendon",
-      "lat": 51.5222,
-      "lng": 0.2954,
+      "lat": 51.521992,
+      "lng": 0.290469,
       "journeys": {
         "FST": {
           "mins": 25,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "OCKENDN"
+      ]
     },
     {
       "name": "Orpington",
       "slug": "orpington",
-      "lat": 51.3731,
-      "lng": 0.0988,
+      "lat": 51.373296,
+      "lng": 0.089091,
       "journeys": {
         "VIC": {
           "mins": 22,
@@ -2781,253 +3459,318 @@
           "mins": 24,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "ORPNGTN"
+      ]
     },
     {
       "name": "Otford",
       "slug": "otford",
-      "lat": 51.3095,
-      "lng": 0.1937,
+      "lat": 51.313158,
+      "lng": 0.196779,
       "journeys": {
         "VIC": {
           "mins": 35,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "OTFORD"
+      ]
     },
     {
       "name": "Overton",
       "slug": "overton",
-      "lat": 51.254,
-      "lng": -1.2591,
+      "lat": 51.254294,
+      "lng": -1.259268,
       "journeys": {
         "WAT": {
           "mins": 55,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "OVTN"
+      ]
     },
     {
       "name": "Oxford",
       "slug": "oxford",
-      "lat": 51.7537,
-      "lng": -1.2697,
+      "lat": 51.753496,
+      "lng": -1.270153,
       "journeys": {
         "PAD": {
           "mins": 45,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "OXFD"
+      ]
     },
     {
       "name": "Oxshott",
       "slug": "oxshott",
-      "lat": 51.338,
-      "lng": -0.372,
+      "lat": 51.336396,
+      "lng": -0.362419,
       "journeys": {
         "WAT": {
           "mins": 32,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "OXSHOTT"
+      ]
     },
     {
       "name": "Oxted",
       "slug": "oxted",
-      "lat": 51.2593,
-      "lng": -0.0026,
+      "lat": 51.257908,
+      "lng": -0.004819,
       "journeys": {
         "VIC": {
           "mins": 38,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "OXTED",
+        "OXTEDBY"
+      ]
     },
     {
       "name": "Paddock Wood",
       "slug": "paddock-wood",
-      "lat": 51.1829,
-      "lng": 0.3913,
+      "lat": 51.182267,
+      "lng": 0.389149,
       "journeys": {
         "VIC": {
           "mins": 48,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "PKWD"
+      ]
     },
     {
       "name": "Pangbourne",
       "slug": "pangbourne",
-      "lat": 51.487,
-      "lng": -1.0873,
+      "lat": 51.485401,
+      "lng": -1.09047,
       "journeys": {
         "PAD": {
           "mins": 35,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "PANGBRN"
+      ]
     },
     {
       "name": "Peckham Rye",
       "slug": "peckham-rye",
-      "lat": 51.4695,
-      "lng": -0.0696,
+      "lat": 51.470034,
+      "lng": -0.069414,
       "journeys": {
         "VIC": {
           "mins": 13,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "PCKHMRY",
+        "PKHMRYC"
+      ]
     },
     {
       "name": "Peterborough",
       "slug": "peterborough",
-      "lat": 52.575,
-      "lng": -0.2498,
+      "lat": 52.574975,
+      "lng": -0.249837,
       "journeys": {
         "KGX": {
           "mins": 44,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "PBRO"
+      ]
     },
     {
       "name": "Petersfield",
       "slug": "petersfield",
-      "lat": 51.002,
-      "lng": -0.939,
+      "lat": 51.006726,
+      "lng": -0.941137,
       "journeys": {
         "WAT": {
           "mins": 62,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "PTRSFLD"
+      ]
     },
     {
       "name": "Petts Wood",
       "slug": "petts-wood",
-      "lat": 51.3874,
-      "lng": 0.0747,
+      "lat": 51.388619,
+      "lng": 0.074481,
       "journeys": {
         "LBG": {
           "mins": 20,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "PETSWD"
+      ]
     },
     {
       "name": "Pewsey",
       "slug": "pewsey",
-      "lat": 51.3467,
-      "lng": -1.7645,
+      "lat": 51.342193,
+      "lng": -1.770675,
       "journeys": {
         "PAD": {
           "mins": 63,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "PEWSEY"
+      ]
     },
     {
       "name": "Pitsea",
       "slug": "pitsea",
-      "lat": 51.5634,
-      "lng": 0.5053,
+      "lat": 51.560359,
+      "lng": 0.506293,
       "journeys": {
         "FST": {
           "mins": 38,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "PITSEA"
+      ]
     },
     {
       "name": "Pluckley",
       "slug": "pluckley",
-      "lat": 51.1527,
-      "lng": 0.7469,
+      "lat": 51.156473,
+      "lng": 0.747396,
       "journeys": {
         "VIC": {
           "mins": 72,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "PLUCKLY"
+      ]
     },
     {
       "name": "Plumstead",
       "slug": "plumstead",
-      "lat": 51.49,
-      "lng": 0.087,
+      "lat": 51.489795,
+      "lng": 0.084257,
       "journeys": {
         "LBG": {
           "mins": 21,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "PLMS"
+      ]
     },
     {
       "name": "Portslade",
       "slug": "portslade",
-      "lat": 50.8398,
-      "lng": -0.2108,
+      "lat": 50.835683,
+      "lng": -0.205336,
       "journeys": {
         "VIC": {
           "mins": 63,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "PSLDAWH"
+      ]
     },
     {
       "name": "Potters Bar",
       "slug": "potters-bar",
-      "lat": 51.697,
-      "lng": -0.194,
+      "lat": 51.697067,
+      "lng": -0.192605,
       "journeys": {
         "KGX": {
           "mins": 18,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "POTRSBR"
+      ]
     },
     {
       "name": "Preston Park",
       "slug": "preston-park",
-      "lat": 50.844,
-      "lng": -0.1549,
+      "lat": 50.845944,
+      "lng": -0.155168,
       "journeys": {
         "VIC": {
           "mins": 55,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "PRSP"
+      ]
     },
     {
       "name": "Princes Risborough",
       "slug": "princes-risborough",
-      "lat": 51.7172,
-      "lng": -0.8273,
+      "lat": 51.71786,
+      "lng": -0.843881,
       "journeys": {
         "MYB": {
           "mins": 37,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "PRINRIS"
+      ]
     },
     {
       "name": "Purfleet",
       "slug": "purfleet",
-      "lat": 51.4811,
-      "lng": 0.2377,
+      "lat": 51.481013,
+      "lng": 0.236767,
       "journeys": {
         "FST": {
           "mins": 20,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "PURFLET"
+      ]
     },
     {
       "name": "Purley",
       "slug": "purley",
-      "lat": 51.3377,
-      "lng": -0.1152,
+      "lat": 51.337579,
+      "lng": -0.114035,
       "journeys": {
         "VIC": {
           "mins": 22,
@@ -3037,265 +3780,332 @@
           "mins": 20,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "PURLEY"
+      ]
     },
     {
       "name": "Putney",
       "slug": "putney",
-      "lat": 51.4613,
-      "lng": -0.2165,
+      "lat": 51.461303,
+      "lng": -0.216475,
       "journeys": {
         "WAT": {
           "mins": 14,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "PUTNEY"
+      ]
     },
     {
       "name": "Radlett",
       "slug": "radlett",
-      "lat": 51.6854,
-      "lng": -0.317,
+      "lat": 51.685188,
+      "lng": -0.317244,
       "journeys": {
         "KGX": {
           "mins": 24,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "RADLETT"
+      ]
     },
     {
       "name": "Rainham (Essex)",
       "slug": "rainham-essex",
-      "lat": 51.5186,
-      "lng": 0.1888,
+      "lat": 51.516723,
+      "lng": 0.190634,
       "journeys": {
         "FST": {
           "mins": 17,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "RNHAME"
+      ]
     },
     {
       "name": "Rainham (Kent)",
       "slug": "rainham-kent",
-      "lat": 51.3663,
-      "lng": 0.6108,
+      "lat": 51.366306,
+      "lng": 0.611337,
       "journeys": {
         "LBG": {
           "mins": 52,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "RAINHMK"
+      ]
     },
     {
       "name": "Rayleigh",
       "slug": "rayleigh",
-      "lat": 51.58,
-      "lng": 0.6046,
+      "lat": 51.589293,
+      "lng": 0.599983,
       "journeys": {
         "LST": {
           "mins": 42,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "RAYLEGH"
+      ]
     },
     {
       "name": "Raynes Park",
       "slug": "raynes-park",
-      "lat": 51.4093,
-      "lng": -0.23,
+      "lat": 51.409173,
+      "lng": -0.230151,
       "journeys": {
         "WAT": {
           "mins": 16,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "RAYNSPK"
+      ]
     },
     {
       "name": "Reading",
       "slug": "reading",
-      "lat": 51.4587,
-      "lng": -0.9715,
+      "lat": 51.458786,
+      "lng": -0.971849,
       "journeys": {
         "PAD": {
           "mins": 23,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "RDNG4AB",
+        "RDNGSTN"
+      ]
     },
     {
       "name": "Redhill",
       "slug": "redhill",
-      "lat": 51.2401,
-      "lng": -0.1708,
+      "lat": 51.240201,
+      "lng": -0.1659,
       "journeys": {
         "LBG": {
           "mins": 28,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "REDHILL"
+      ]
     },
     {
       "name": "Reigate",
       "slug": "reigate",
-      "lat": 51.2372,
-      "lng": -0.207,
+      "lat": 51.241958,
+      "lng": -0.203825,
       "journeys": {
         "LBG": {
           "mins": 40,
           "direct": false
         }
-      }
+      },
+      "tiplocs": [
+        "REIGATE"
+      ]
     },
     {
       "name": "Richmond",
       "slug": "richmond",
-      "lat": 51.4604,
-      "lng": -0.303,
+      "lat": 51.463061,
+      "lng": -0.301558,
       "journeys": {
         "WAT": {
           "mins": 18,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "RICHMND"
+      ]
     },
     {
       "name": "Rochester",
       "slug": "rochester",
-      "lat": 51.3887,
-      "lng": 0.5051,
+      "lat": 51.389652,
+      "lng": 0.506855,
       "journeys": {
         "LBG": {
           "mins": 38,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "RCHT"
+      ]
     },
     {
       "name": "Rochford",
       "slug": "rochford",
-      "lat": 51.5756,
-      "lng": 0.7028,
+      "lat": 51.581729,
+      "lng": 0.702303,
       "journeys": {
         "LST": {
           "mins": 50,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "ROCHFD"
+      ]
     },
     {
       "name": "Romford",
       "slug": "romford",
-      "lat": 51.5747,
-      "lng": 0.1826,
+      "lat": 51.574829,
+      "lng": 0.183237,
       "journeys": {
         "LST": {
           "mins": 17,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "ROMFORD"
+      ]
     },
     {
       "name": "Royston",
       "slug": "royston",
-      "lat": 52.048,
-      "lng": -0.023,
+      "lat": 52.05308,
+      "lng": -0.026921,
       "journeys": {
         "KGX": {
           "mins": 42,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "ROYSTON"
+      ]
     },
     {
       "name": "Rugby",
       "slug": "rugby",
-      "lat": 52.3709,
-      "lng": -1.2508,
+      "lat": 52.379094,
+      "lng": -1.250484,
       "journeys": {
         "EUS": {
           "mins": 52,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "RUGBY"
+      ]
     },
     {
       "name": "Salfords",
       "slug": "salfords",
-      "lat": 51.2066,
-      "lng": -0.1706,
+      "lat": 51.201748,
+      "lng": -0.162489,
       "journeys": {
         "LBG": {
           "mins": 35,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "SALFDS"
+      ]
     },
     {
       "name": "Salisbury",
       "slug": "salisbury",
-      "lat": 51.0688,
-      "lng": -1.7936,
+      "lat": 51.070548,
+      "lng": -1.806387,
       "journeys": {
         "WAT": {
           "mins": 83,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "SLSBRY"
+      ]
     },
     {
       "name": "Sandy",
       "slug": "sandy",
-      "lat": 52.1247,
-      "lng": -0.2812,
+      "lat": 52.124734,
+      "lng": -0.28119,
       "journeys": {
         "KGX": {
           "mins": 45,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "SNDY"
+      ]
     },
     {
       "name": "Saunderton",
       "slug": "saunderton",
-      "lat": 51.6875,
-      "lng": -0.8066,
+      "lat": 51.675903,
+      "lng": -0.825468,
       "journeys": {
         "MYB": {
           "mins": 32,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "SUNDRTN"
+      ]
     },
     {
       "name": "Sawbridgeworth",
       "slug": "sawbridgeworth",
-      "lat": 51.8133,
-      "lng": 0.1524,
+      "lat": 51.814348,
+      "lng": 0.160411,
       "journeys": {
         "LST": {
           "mins": 38,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "SBDGWTH"
+      ]
     },
     {
       "name": "Seer Green & Jordans",
       "slug": "seer-green-and-jordans",
-      "lat": 51.6032,
-      "lng": -0.5994,
+      "lat": 51.609845,
+      "lng": -0.607818,
       "journeys": {
         "MYB": {
           "mins": 23,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "SEERGRN"
+      ]
     },
     {
       "name": "Sevenoaks",
       "slug": "sevenoaks",
-      "lat": 51.273,
-      "lng": 0.1859,
+      "lat": 51.276865,
+      "lng": 0.181669,
       "journeys": {
         "VIC": {
           "mins": 30,
@@ -3305,337 +4115,421 @@
           "mins": 23,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "SVNOAKS"
+      ]
     },
     {
       "name": "Shenfield",
       "slug": "shenfield",
-      "lat": 51.6301,
-      "lng": 0.329,
+      "lat": 51.630877,
+      "lng": 0.329851,
       "journeys": {
         "LST": {
           "mins": 24,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "SHENFLD"
+      ]
     },
     {
       "name": "Shepperton",
       "slug": "shepperton",
-      "lat": 51.3971,
-      "lng": -0.4475,
+      "lat": 51.396805,
+      "lng": -0.446786,
       "journeys": {
         "WAT": {
           "mins": 48,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "SHEPRTN"
+      ]
     },
     {
       "name": "Shepreth",
       "slug": "shepreth",
-      "lat": 52.103,
-      "lng": 0.027,
+      "lat": 52.114162,
+      "lng": 0.031319,
       "journeys": {
         "KGX": {
           "mins": 52,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "SHPRTH"
+      ]
     },
     {
       "name": "Shoreham-by-Sea",
       "slug": "shoreham-by-sea",
-      "lat": 50.831,
-      "lng": -0.2747,
+      "lat": 50.834427,
+      "lng": -0.27172,
       "journeys": {
         "VIC": {
           "mins": 65,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "SHRHMBS"
+      ]
     },
     {
       "name": "Sidcup",
       "slug": "sidcup",
-      "lat": 51.4265,
-      "lng": 0.103,
+      "lat": 51.43387,
+      "lng": 0.103795,
       "journeys": {
         "LBG": {
           "mins": 24,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "SIDCUP"
+      ]
     },
     {
       "name": "Sittingbourne",
       "slug": "sittingbourne",
-      "lat": 51.3406,
-      "lng": 0.7354,
+      "lat": 51.341977,
+      "lng": 0.734684,
       "journeys": {
         "LBG": {
           "mins": 58,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "STNGBRN"
+      ]
     },
     {
       "name": "Slade Green",
       "slug": "slade-green",
-      "lat": 51.4657,
-      "lng": 0.1908,
+      "lat": 51.467786,
+      "lng": 0.190491,
       "journeys": {
         "LBG": {
           "mins": 30,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "SLADEGN"
+      ]
     },
     {
       "name": "Slough",
       "slug": "slough",
-      "lat": 51.5113,
-      "lng": -0.5906,
+      "lat": 51.51188,
+      "lng": -0.59151,
       "journeys": {
         "PAD": {
           "mins": 15,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "SLOUGH"
+      ]
     },
     {
       "name": "Southall",
       "slug": "southall",
-      "lat": 51.5064,
-      "lng": -0.3784,
+      "lat": 51.505957,
+      "lng": -0.37861,
       "journeys": {
         "PAD": {
           "mins": 14,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "STHALL"
+      ]
     },
     {
       "name": "Southampton Central",
       "slug": "southampton-central",
-      "lat": 50.9071,
-      "lng": -1.4134,
+      "lat": 50.907448,
+      "lng": -1.413596,
       "journeys": {
         "WAT": {
           "mins": 76,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "SOTON"
+      ]
     },
     {
       "name": "Southend Central",
       "slug": "southend-central",
-      "lat": 51.5357,
-      "lng": 0.707,
+      "lat": 51.537065,
+      "lng": 0.711727,
       "journeys": {
         "FST": {
           "mins": 52,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "STHCENT"
+      ]
     },
     {
       "name": "Southend Victoria",
       "slug": "southend-victoria",
-      "lat": 51.5416,
-      "lng": 0.715,
+      "lat": 51.541513,
+      "lng": 0.711501,
       "journeys": {
         "LST": {
           "mins": 55,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "STHVIC"
+      ]
     },
     {
       "name": "St Albans City",
       "slug": "st-albans",
-      "lat": 51.75,
-      "lng": -0.327,
+      "lat": 51.750473,
+      "lng": -0.327538,
       "journeys": {
         "KGX": {
           "mins": 20,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "STALBCY"
+      ]
     },
     {
       "name": "St Neots",
       "slug": "st-neots",
-      "lat": 52.2301,
-      "lng": -0.2651,
+      "lat": 52.231568,
+      "lng": -0.247414,
       "journeys": {
         "KGX": {
           "mins": 46,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "STNEOTS"
+      ]
     },
     {
       "name": "Staines",
       "slug": "staines",
-      "lat": 51.4383,
-      "lng": -0.5175,
+      "lat": 51.432455,
+      "lng": -0.503164,
       "journeys": {
         "WAT": {
           "mins": 34,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "STAINES"
+      ]
     },
     {
       "name": "Stanford-le-Hope",
       "slug": "stanford-le-hope",
-      "lat": 51.5139,
-      "lng": 0.4238,
+      "lat": 51.514364,
+      "lng": 0.423036,
       "journeys": {
         "FST": {
           "mins": 35,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "SLEHOPE"
+      ]
     },
     {
       "name": "Stansted Airport",
       "slug": "stansted-airport",
-      "lat": 51.8899,
-      "lng": 0.2617,
+      "lat": 51.888591,
+      "lng": 0.260816,
       "journeys": {
         "LST": {
           "mins": 47,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "STANAIR"
+      ]
     },
     {
       "name": "Stansted Mountfitchet",
       "slug": "stansted-mountfitchet",
-      "lat": 51.8996,
-      "lng": 0.2064,
+      "lat": 51.901438,
+      "lng": 0.199781,
       "journeys": {
         "LST": {
           "mins": 44,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "STANMFC"
+      ]
     },
     {
       "name": "Staplehurst",
       "slug": "staplehurst",
-      "lat": 51.1698,
-      "lng": 0.5553,
+      "lat": 51.171467,
+      "lng": 0.550439,
       "journeys": {
         "VIC": {
           "mins": 60,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "SPHS"
+      ]
     },
     {
       "name": "Stevenage",
       "slug": "stevenage",
-      "lat": 51.902,
-      "lng": -0.207,
+      "lat": 51.901688,
+      "lng": -0.207109,
       "journeys": {
         "KGX": {
           "mins": 20,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "STEVNGE"
+      ]
     },
     {
       "name": "Stoke Mandeville",
       "slug": "stoke-mandeville",
-      "lat": 51.785,
-      "lng": -0.8027,
+      "lat": 51.787796,
+      "lng": -0.784086,
       "journeys": {
         "MYB": {
           "mins": 47,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "STKM"
+      ]
     },
     {
       "name": "Stoneleigh",
       "slug": "stoneleigh",
-      "lat": 51.3634,
-      "lng": -0.2487,
+      "lat": 51.363401,
+      "lng": -0.248665,
       "journeys": {
         "WAT": {
           "mins": 24,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "STLEIGH"
+      ]
     },
     {
       "name": "Stratford",
       "slug": "stratford",
-      "lat": 51.5414,
-      "lng": -0.0037,
+      "lat": 51.541895,
+      "lng": -0.003397,
       "journeys": {
         "LST": {
           "mins": 7,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "STFD"
+      ]
     },
     {
       "name": "Strawberry Hill",
       "slug": "strawberry-hill",
-      "lat": 51.4397,
-      "lng": -0.3396,
+      "lat": 51.438963,
+      "lng": -0.339358,
       "journeys": {
         "WAT": {
           "mins": 25,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "STRWBYH"
+      ]
     },
     {
       "name": "Strood",
       "slug": "strood",
-      "lat": 51.3972,
-      "lng": 0.5013,
+      "lat": 51.396549,
+      "lng": 0.500188,
       "journeys": {
         "LBG": {
           "mins": 40,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "STROOD"
+      ]
     },
     {
       "name": "Surbiton",
       "slug": "surbiton",
-      "lat": 51.3869,
-      "lng": -0.3016,
+      "lat": 51.39246,
+      "lng": -0.303958,
       "journeys": {
         "WAT": {
           "mins": 17,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "SURBITN"
+      ]
     },
     {
       "name": "Sutton",
       "slug": "sutton",
-      "lat": 51.3596,
-      "lng": -0.1949,
+      "lat": 51.359533,
+      "lng": -0.191215,
       "journeys": {
         "VIC": {
           "mins": 30,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "SUTTON"
+      ]
     },
     {
       "name": "Swanley",
       "slug": "swanley",
-      "lat": 51.3921,
-      "lng": 0.1702,
+      "lat": 51.393387,
+      "lng": 0.169225,
       "journeys": {
         "VIC": {
           "mins": 28,
@@ -3645,121 +4539,151 @@
           "mins": 30,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "SWLY"
+      ]
     },
     {
       "name": "Swindon",
       "slug": "swindon",
-      "lat": 51.5657,
-      "lng": -1.7854,
+      "lat": 51.565472,
+      "lng": -1.785511,
       "journeys": {
         "PAD": {
           "mins": 50,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "SDON"
+      ]
     },
     {
       "name": "Taplow",
       "slug": "taplow",
-      "lat": 51.5239,
-      "lng": -0.6812,
+      "lat": 51.523562,
+      "lng": -0.68137,
       "journeys": {
         "PAD": {
           "mins": 25,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "TAPLOW"
+      ]
     },
     {
       "name": "Teddington",
       "slug": "teddington",
-      "lat": 51.4247,
-      "lng": -0.3325,
+      "lat": 51.424481,
+      "lng": -0.332706,
       "journeys": {
         "WAT": {
           "mins": 28,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "TEDNGTN"
+      ]
     },
     {
       "name": "Thames Ditton",
       "slug": "thames-ditton",
-      "lat": 51.3903,
-      "lng": -0.3299,
+      "lat": 51.389097,
+      "lng": -0.339152,
       "journeys": {
         "WAT": {
           "mins": 30,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "TDITTON"
+      ]
     },
     {
       "name": "Thatcham",
       "slug": "thatcham",
-      "lat": 51.404,
-      "lng": -1.2634,
+      "lat": 51.393844,
+      "lng": -1.24319,
       "journeys": {
         "PAD": {
           "mins": 45,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "THATCHM"
+      ]
     },
     {
       "name": "Theale",
       "slug": "theale",
-      "lat": 51.4374,
-      "lng": -1.0763,
+      "lat": 51.433452,
+      "lng": -1.074973,
       "journeys": {
         "PAD": {
           "mins": 33,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "THEALE"
+      ]
     },
     {
       "name": "Three Bridges",
       "slug": "three-bridges",
-      "lat": 51.117,
-      "lng": -0.152,
+      "lat": 51.116924,
+      "lng": -0.161184,
       "journeys": {
         "VIC": {
           "mins": 36,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "THBDGS"
+      ]
     },
     {
       "name": "Tilbury Town",
       "slug": "tilbury-town",
-      "lat": 51.4627,
-      "lng": 0.3642,
+      "lat": 51.462359,
+      "lng": 0.354039,
       "journeys": {
         "FST": {
           "mins": 30,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "TLBYTWN"
+      ]
     },
     {
       "name": "Tilehurst",
       "slug": "tilehurst",
-      "lat": 51.4711,
-      "lng": -1.0316,
+      "lat": 51.471509,
+      "lng": -1.029816,
       "journeys": {
         "PAD": {
           "mins": 30,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "TILHRST"
+      ]
     },
     {
       "name": "Tonbridge",
       "slug": "tonbridge",
-      "lat": 51.1889,
-      "lng": 0.2742,
+      "lat": 51.191411,
+      "lng": 0.270973,
       "journeys": {
         "VIC": {
           "mins": 40,
@@ -3769,475 +4693,602 @@
           "mins": 36,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "TONBDG"
+      ]
     },
     {
       "name": "Tottenham Hale",
       "slug": "tottenham-hale",
-      "lat": 51.5885,
-      "lng": -0.0603,
+      "lat": 51.58831,
+      "lng": -0.059929,
       "journeys": {
         "LST": {
           "mins": 12,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "TTNHMHL"
+      ]
     },
     {
       "name": "Tring",
       "slug": "tring",
-      "lat": 51.7961,
-      "lng": -0.6559,
+      "lat": 51.800741,
+      "lng": -0.622439,
       "journeys": {
         "EUS": {
           "mins": 36,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "TRING"
+      ]
     },
     {
       "name": "Tunbridge Wells",
       "slug": "tunbridge-wells",
-      "lat": 51.131,
-      "lng": 0.2632,
+      "lat": 51.130234,
+      "lng": 0.26281,
       "journeys": {
         "LBG": {
           "mins": 47,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "TUNWELL"
+      ]
     },
     {
       "name": "Twickenham",
       "slug": "twickenham",
-      "lat": 51.4411,
-      "lng": -0.3267,
+      "lat": 51.450031,
+      "lng": -0.330394,
       "journeys": {
         "WAT": {
           "mins": 22,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "TWCKNHM"
+      ]
     },
     {
       "name": "Twyford",
       "slug": "twyford",
-      "lat": 51.4754,
-      "lng": -0.8616,
+      "lat": 51.475534,
+      "lng": -0.863293,
       "journeys": {
         "PAD": {
           "mins": 24,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "TWYFORD"
+      ]
     },
     {
       "name": "Upminster",
       "slug": "upminster",
-      "lat": 51.5587,
-      "lng": 0.2511,
+      "lat": 51.559018,
+      "lng": 0.25088,
       "journeys": {
         "FST": {
           "mins": 18,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "UPMNSP6",
+        "UPMNSTR"
+      ]
     },
     {
       "name": "Vauxhall",
       "slug": "vauxhall",
-      "lat": 51.4863,
-      "lng": -0.1225,
+      "lat": 51.48619,
+      "lng": -0.122875,
       "journeys": {
         "WAT": {
           "mins": 4,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "VAUXHLM",
+        "VAUXHLW"
+      ]
     },
     {
       "name": "Virginia Water",
       "slug": "virginia-water",
-      "lat": 51.4017,
-      "lng": -0.5619,
+      "lat": 51.401802,
+      "lng": -0.562174,
       "journeys": {
         "WAT": {
           "mins": 42,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "VRGNWTR"
+      ]
     },
     {
       "name": "Walton-on-Thames",
       "slug": "walton-on-thames",
-      "lat": 51.381,
-      "lng": -0.4052,
+      "lat": 51.372931,
+      "lng": -0.414635,
       "journeys": {
         "WAT": {
           "mins": 26,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WONT"
+      ]
     },
     {
       "name": "Wandsworth Common",
       "slug": "wandsworth-common",
-      "lat": 51.4462,
-      "lng": -0.1634,
+      "lat": 51.446185,
+      "lng": -0.163386,
       "journeys": {
         "VIC": {
           "mins": 8,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WANDCMN"
+      ]
     },
     {
       "name": "Warwick",
       "slug": "warwick",
-      "lat": 52.2837,
-      "lng": -1.5843,
+      "lat": 52.28654,
+      "lng": -1.581854,
       "journeys": {
         "MYB": {
           "mins": 85,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WARWICK"
+      ]
     },
     {
       "name": "Warwick Parkway",
       "slug": "warwick-parkway",
-      "lat": 52.2863,
-      "lng": -1.6111,
+      "lat": 52.286103,
+      "lng": -1.612058,
       "journeys": {
         "MYB": {
           "mins": 78,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WARWPWY"
+      ]
     },
     {
       "name": "Watford Junction",
       "slug": "watford",
-      "lat": 51.6635,
-      "lng": -0.3965,
+      "lat": 51.663529,
+      "lng": -0.396517,
       "journeys": {
         "EUS": {
           "mins": 16,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WATFDJ",
+        "WATFJDC"
+      ]
     },
     {
       "name": "Welham Green",
       "slug": "welham-green",
-      "lat": 51.736,
-      "lng": -0.209,
+      "lat": 51.736352,
+      "lng": -0.210692,
       "journeys": {
         "KGX": {
           "mins": 26,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WELHAMG"
+      ]
     },
     {
       "name": "Welling",
       "slug": "welling",
-      "lat": 51.4616,
-      "lng": 0.1008,
+      "lat": 51.464798,
+      "lng": 0.10169,
       "journeys": {
         "LBG": {
           "mins": 25,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WELLING"
+      ]
     },
     {
       "name": "Welwyn Garden City",
       "slug": "welwyn-garden-city",
-      "lat": 51.801,
-      "lng": -0.205,
+      "lat": 51.801048,
+      "lng": -0.20407,
       "journeys": {
         "KGX": {
           "mins": 25,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WLWYNGC"
+      ]
     },
     {
       "name": "Welwyn North",
       "slug": "welwyn-north",
-      "lat": 51.8194,
-      "lng": -0.1967,
+      "lat": 51.823497,
+      "lng": -0.192091,
       "journeys": {
         "KGX": {
           "mins": 29,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WLWYNN"
+      ]
     },
     {
       "name": "West Byfleet",
       "slug": "west-byfleet",
-      "lat": 51.339,
-      "lng": -0.5063,
+      "lat": 51.339226,
+      "lng": -0.505485,
       "journeys": {
         "WAT": {
           "mins": 26,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WBYFLET"
+      ]
     },
     {
       "name": "West Croydon",
       "slug": "west-croydon",
-      "lat": 51.3787,
-      "lng": -0.1027,
+      "lat": 51.378428,
+      "lng": -0.102585,
       "journeys": {
         "VIC": {
           "mins": 20,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WCROYDN"
+      ]
     },
     {
       "name": "West Drayton",
       "slug": "west-drayton",
-      "lat": 51.5093,
-      "lng": -0.4721,
+      "lat": 51.510055,
+      "lng": -0.472234,
       "journeys": {
         "PAD": {
           "mins": 20,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WDRYTON"
+      ]
     },
     {
       "name": "West Ham",
       "slug": "west-ham",
-      "lat": 51.5285,
-      "lng": 0.0053,
+      "lat": 51.528489,
+      "lng": 0.005431,
       "journeys": {
         "FST": {
           "mins": 6,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WHAMHL"
+      ]
     },
     {
       "name": "West Hampstead Thameslink",
       "slug": "west-hampstead-thameslink",
-      "lat": 51.5487,
-      "lng": -0.1916,
+      "lat": 51.548476,
+      "lng": -0.191837,
       "journeys": {
         "KGX": {
           "mins": 8,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WHMPSTM"
+      ]
     },
     {
       "name": "West Horndon",
       "slug": "west-horndon",
-      "lat": 51.5686,
-      "lng": 0.3354,
+      "lat": 51.567945,
+      "lng": 0.340644,
       "journeys": {
         "FST": {
           "mins": 24,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WHORNDN"
+      ]
     },
     {
       "name": "Westcliff",
       "slug": "westcliff",
-      "lat": 51.5366,
-      "lng": 0.6898,
+      "lat": 51.537334,
+      "lng": 0.691466,
       "journeys": {
         "FST": {
           "mins": 50,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WCLIFF"
+      ]
     },
     {
       "name": "Weybridge",
       "slug": "weybridge",
-      "lat": 51.3663,
-      "lng": -0.4638,
+      "lat": 51.361771,
+      "lng": -0.457739,
       "journeys": {
         "WAT": {
           "mins": 28,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WEYBDGB",
+        "WEYBDGE"
+      ]
     },
     {
       "name": "Whitchurch (Hants)",
       "slug": "whitchurch-hants",
-      "lat": 51.235,
-      "lng": -1.341,
+      "lat": 51.237544,
+      "lng": -1.337747,
       "journeys": {
         "WAT": {
           "mins": 60,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WHTCHRH"
+      ]
     },
     {
       "name": "Whittlesford Parkway",
       "slug": "whittlesford-parkway",
-      "lat": 52.1066,
-      "lng": 0.1609,
+      "lat": 52.103588,
+      "lng": 0.165617,
       "journeys": {
         "LST": {
           "mins": 58,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WTLESFD"
+      ]
     },
     {
       "name": "Wickford",
       "slug": "wickford",
-      "lat": 51.6117,
-      "lng": 0.5228,
+      "lat": 51.615023,
+      "lng": 0.519185,
       "journeys": {
         "LST": {
           "mins": 38,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WIKFORD"
+      ]
     },
     {
       "name": "Wimbledon",
       "slug": "wimbledon",
-      "lat": 51.4207,
-      "lng": -0.206,
+      "lat": 51.421222,
+      "lng": -0.206371,
       "journeys": {
         "WAT": {
           "mins": 13,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WDON",
+        "WIMBLDN"
+      ]
     },
     {
       "name": "Winchester",
       "slug": "winchester",
-      "lat": 51.0671,
-      "lng": -1.3194,
+      "lat": 51.067211,
+      "lng": -1.3197,
       "journeys": {
         "WAT": {
           "mins": 59,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WNCHSTR"
+      ]
     },
     {
       "name": "Winchfield",
       "slug": "winchfield",
-      "lat": 51.272,
-      "lng": -0.931,
+      "lat": 51.28495,
+      "lng": -0.906977,
       "journeys": {
         "WAT": {
           "mins": 47,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WNCFILD"
+      ]
     },
     {
       "name": "Windsor & Eton Central",
       "slug": "windsor-and-eton-central",
-      "lat": 51.4835,
-      "lng": -0.6108,
+      "lat": 51.483268,
+      "lng": -0.61038,
       "journeys": {
         "PAD": {
           "mins": 25,
           "direct": false
         }
-      }
+      },
+      "tiplocs": [
+        "WINDSEC"
+      ]
     },
     {
       "name": "Witham",
       "slug": "witham",
-      "lat": 51.8024,
-      "lng": 0.636,
+      "lat": 51.805969,
+      "lng": 0.63913,
       "journeys": {
         "LST": {
           "mins": 40,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WITHAME"
+      ]
     },
     {
       "name": "Witley",
       "slug": "witley",
-      "lat": 51.151,
-      "lng": -0.664,
+      "lat": 51.133162,
+      "lng": -0.645783,
       "journeys": {
         "WAT": {
           "mins": 52,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WITLEY"
+      ]
     },
     {
       "name": "Wivelsfield",
       "slug": "wivelsfield",
-      "lat": 50.957,
-      "lng": -0.1199,
+      "lat": 50.964297,
+      "lng": -0.12079,
       "journeys": {
         "VIC": {
           "mins": 48,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WVLSFLD"
+      ]
     },
     {
       "name": "Woking",
       "slug": "woking",
-      "lat": 51.316,
-      "lng": -0.5568,
+      "lat": 51.318469,
+      "lng": -0.55696,
       "journeys": {
         "WAT": {
           "mins": 23,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WOKING"
+      ]
     },
     {
       "name": "Woolwich Arsenal",
       "slug": "woolwich-arsenal",
-      "lat": 51.4906,
-      "lng": 0.0694,
+      "lat": 51.489909,
+      "lng": 0.069194,
       "journeys": {
         "LBG": {
           "mins": 18,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WOLWCHA"
+      ]
     },
     {
       "name": "Worcester Park",
       "slug": "worcester-park",
-      "lat": 51.3811,
-      "lng": -0.2431,
+      "lat": 51.381253,
+      "lng": -0.245167,
       "journeys": {
         "WAT": {
           "mins": 22,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WRCSTRP"
+      ]
     },
     {
       "name": "Worthing",
       "slug": "worthing",
-      "lat": 50.8197,
-      "lng": -0.3722,
+      "lat": 50.818499,
+      "lng": -0.376171,
       "journeys": {
         "VIC": {
           "mins": 70,
           "direct": true
         }
-      }
+      },
+      "tiplocs": [
+        "WORTHNG"
+      ]
     }
-  ]
+  ],
+  "geoSource": "NaPTAN (Department for Transport), ATCO area 910",
+  "geoUpdated": "2026-08-13"
 }

@@ -35,7 +35,7 @@ Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Audley End?
 
-The closest alternatives are Elsenham, Stansted Mountfitchet, Whittlesford Parkway. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Elsenham, Whittlesford Parkway, Stansted Mountfitchet. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

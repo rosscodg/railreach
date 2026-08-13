@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Surbiton?
 
-The closest alternatives are Thames Ditton, Kingston, Norbiton. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Kingston, Thames Ditton, Hampton Wick. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Brentford?
 
-The closest alternatives are Isleworth, Ealing Broadway, Richmond. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Isleworth, Richmond, Ealing Broadway. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

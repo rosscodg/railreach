@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Motspur Park?
 
-The closest alternatives are Worcester Park, New Malden, Raynes Park. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are New Malden, Worcester Park, Raynes Park. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

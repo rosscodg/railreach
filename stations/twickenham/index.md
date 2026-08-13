@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Twickenham?
 
-The closest alternatives are Strawberry Hill, Teddington, Richmond. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Strawberry Hill, Richmond, Hounslow. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

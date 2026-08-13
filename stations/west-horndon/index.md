@@ -35,7 +35,7 @@ Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to West Horndon?
 
-The closest alternatives are Brentwood, Ockendon, Upminster. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Laindon, Brentwood, Ockendon. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

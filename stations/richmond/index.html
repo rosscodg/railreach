@@ -115,12 +115,12 @@
 <h2>Nearby stations</h2>
 <p>Alternative departure points close to Richmond, for comparing platforms rather than places.</p>
 <ul class="link-grid">
-<li><a class="card" href="/stations/twickenham/"><span class="card-title">Twickenham</span><span class="card-meta"><span class="t-badge t-fast">22 min</span> fastest to London &middot; 3 km away</span></a></li>
+<li><a class="card" href="/stations/twickenham/"><span class="card-title">Twickenham</span><span class="card-meta"><span class="t-badge t-fast">22 min</span> fastest to London &middot; 2 km away</span></a></li>
 <li><a class="card" href="/stations/isleworth/"><span class="card-title">Isleworth</span><span class="card-meta"><span class="t-badge t-fast">28 min</span> fastest to London &middot; 3 km away</span></a></li>
 <li><a class="card" href="/stations/brentford/"><span class="card-title">Brentford</span><span class="card-meta"><span class="t-badge t-fast">25 min</span> fastest to London &middot; 3 km away</span></a></li>
-<li><a class="card" href="/stations/strawberry-hill/"><span class="card-title">Strawberry Hill</span><span class="card-meta"><span class="t-badge t-fast">25 min</span> fastest to London &middot; 3 km away</span></a></li>
-<li><a class="card" href="/stations/hounslow/"><span class="card-title">Hounslow</span><span class="card-meta"><span class="t-badge t-mid">30 min</span> fastest to London &middot; 4 km away</span></a></li>
+<li><a class="card" href="/stations/strawberry-hill/"><span class="card-title">Strawberry Hill</span><span class="card-meta"><span class="t-badge t-fast">25 min</span> fastest to London &middot; 4 km away</span></a></li>
 <li><a class="card" href="/stations/barnes/"><span class="card-title">Barnes</span><span class="card-meta"><span class="t-badge t-fast">16 min</span> fastest to London &middot; 4 km away</span></a></li>
+<li><a class="card" href="/stations/hounslow/"><span class="card-title">Hounslow</span><span class="card-meta"><span class="t-badge t-mid">30 min</span> fastest to London &middot; 4 km away</span></a></li>
 </ul>
 
 <h2>All London terminals</h2>
@@ -134,7 +134,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -191,8 +191,8 @@
 "url": "https://railreach.co.uk/stations/richmond/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 51.4604,
-"longitude": -0.303
+"latitude": 51.463061,
+"longitude": -0.301558
 },
 "containedInPlace": {
 "@type": "Country",
@@ -251,12 +251,12 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([51.4604,-0.303],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Richmond</strong><br>This station').addTo(map);
+L.circleMarker([51.463061,-0.301558],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Richmond</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.5031,-0.1132,'<strong>London Waterloo</strong><br>18 min from Richmond<br>Direct<br><a class="popup-link" href="/terminals/waterloo/">Terminal guide &rarr;</a>');
-L.polyline([[51.4604,-0.303],[51.5031,-0.1132]],{color:RR.colour(18),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.463061,-0.301558],[51.5031,-0.1132]],{color:RR.colour(18),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Richmond: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[51.4604,-0.303],[51.5031,-0.1132]],{animate:false});
+RR.fit(map,[[51.463061,-0.301558],[51.5031,-0.1132]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

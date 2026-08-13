@@ -35,7 +35,7 @@ Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Balcombe?
 
-The closest alternatives are Crawley, Three Bridges, Haywards Heath. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Haywards Heath, Three Bridges, Crawley. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

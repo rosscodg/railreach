@@ -35,7 +35,7 @@ Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Radlett?
 
-The closest alternatives are Elstree & Borehamwood, Bushey, Watford Junction. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Elstree & Borehamwood, Watford Junction, Bushey. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

@@ -35,7 +35,7 @@ Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to St Neots?
 
-The closest alternatives are Sandy, Huntingdon, Biggleswade. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Huntingdon, Sandy, Biggleswade. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

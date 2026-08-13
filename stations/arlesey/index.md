@@ -35,7 +35,7 @@ Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Arlesey?
 
-The closest alternatives are Letchworth Garden City, Baldock, Hitchin. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Letchworth Garden City, Baldock, Biggleswade. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

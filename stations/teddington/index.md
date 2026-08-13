@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Teddington?
 
-The closest alternatives are Strawberry Hill, Hampton Wick, Twickenham. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Strawberry Hill, Hampton Wick, Hampton Court. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

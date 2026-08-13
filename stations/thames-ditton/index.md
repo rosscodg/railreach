@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Thames Ditton?
 
-The closest alternatives are Hinchley Wood, Hampton Court, Esher. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Esher, Hampton Court, Hinchley Wood. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

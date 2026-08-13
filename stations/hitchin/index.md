@@ -35,7 +35,7 @@ Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Hitchin?
 
-The closest alternatives are Letchworth Garden City, Stevenage, Baldock. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Letchworth Garden City, Baldock, Stevenage. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

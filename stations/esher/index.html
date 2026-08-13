@@ -116,11 +116,11 @@
 <p>Alternative departure points close to Esher, for comparing platforms rather than places.</p>
 <ul class="link-grid">
 <li><a class="card" href="/stations/hinchley-wood/"><span class="card-title">Hinchley Wood</span><span class="card-meta"><span class="t-badge t-fast">27 min</span> fastest to London &middot; 1 km away</span></a></li>
-<li><a class="card" href="/stations/thames-ditton/"><span class="card-title">Thames Ditton</span><span class="card-meta"><span class="t-badge t-mid">30 min</span> fastest to London &middot; 2 km away</span></a></li>
+<li><a class="card" href="/stations/thames-ditton/"><span class="card-title">Thames Ditton</span><span class="card-meta"><span class="t-badge t-mid">30 min</span> fastest to London &middot; 1 km away</span></a></li>
 <li><a class="card" href="/stations/claygate/"><span class="card-title">Claygate</span><span class="card-meta"><span class="t-badge t-fast">29 min</span> fastest to London &middot; 2 km away</span></a></li>
 <li><a class="card" href="/stations/hampton-court/"><span class="card-title">Hampton Court</span><span class="card-meta"><span class="t-badge t-mid">33 min</span> fastest to London &middot; 3 km away</span></a></li>
-<li><a class="card" href="/stations/walton-on-thames/"><span class="card-title">Walton-on-Thames</span><span class="card-meta"><span class="t-badge t-fast">26 min</span> fastest to London &middot; 4 km away</span></a></li>
 <li><a class="card" href="/stations/surbiton/"><span class="card-title">Surbiton</span><span class="card-meta"><span class="t-badge t-fast">17 min</span> fastest to London &middot; 4 km away</span></a></li>
+<li><a class="card" href="/stations/chessington-south/"><span class="card-title">Chessington South</span><span class="card-meta"><span class="t-badge t-mid">35 min</span> fastest to London &middot; 4 km away</span></a></li>
 </ul>
 
 <h2>All London terminals</h2>
@@ -134,7 +134,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -191,8 +191,8 @@
 "url": "https://railreach.co.uk/stations/esher/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 51.3799,
-"longitude": -0.3533
+"latitude": 51.379891,
+"longitude": -0.353338
 },
 "containedInPlace": {
 "@type": "Country",
@@ -251,12 +251,12 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([51.3799,-0.3533],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Esher</strong><br>This station').addTo(map);
+L.circleMarker([51.379891,-0.353338],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Esher</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.5031,-0.1132,'<strong>London Waterloo</strong><br>21 min from Esher<br>Direct<br><a class="popup-link" href="/terminals/waterloo/">Terminal guide &rarr;</a>');
-L.polyline([[51.3799,-0.3533],[51.5031,-0.1132]],{color:RR.colour(21),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.379891,-0.353338],[51.5031,-0.1132]],{color:RR.colour(21),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Esher: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[51.3799,-0.3533],[51.5031,-0.1132]],{animate:false});
+RR.fit(map,[[51.379891,-0.353338],[51.5031,-0.1132]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

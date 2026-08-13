@@ -35,7 +35,7 @@ Yes. Direct services run to Marylebone.
 
 ### What are the nearest stations to Saunderton?
 
-The closest alternatives are Princes Risborough, Monks Risborough, Great Missenden. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Princes Risborough, Monks Risborough, High Wycombe. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

@@ -103,7 +103,7 @@
 <h3>Are there direct trains from Sandy to London?</h3>
 <p>Yes. Direct services run to Kings Cross.</p>
 <h3>What are the nearest stations to Sandy?</h3>
-<p>The closest alternatives are Biggleswade, St Neots, Arlesey. These can offer a faster or cheaper route into London depending on where you live.</p>
+<p>The closest alternatives are Biggleswade, Arlesey, St Neots. These can offer a faster or cheaper route into London depending on where you live.</p>
 
 <h2 id="discover">Other places within 45 minutes of Kings Cross</h2>
 <p>Sandy is one of many places you could commute from. These are other options within 45 minutes of London Kings Cross, ranked by journey time and spread across the network rather than clustered on one stretch of line.</p>
@@ -120,9 +120,9 @@
 <p>Alternative departure points close to Sandy, for comparing platforms rather than places.</p>
 <ul class="link-grid">
 <li><a class="card" href="/stations/biggleswade/"><span class="card-title">Biggleswade</span><span class="card-meta"><span class="t-badge t-mid">40 min</span> fastest to London &middot; 5 km away</span></a></li>
+<li><a class="card" href="/stations/arlesey/"><span class="card-title">Arlesey</span><span class="card-meta"><span class="t-badge t-mid">38 min</span> fastest to London &middot; 11 km away</span></a></li>
 <li><a class="card" href="/stations/st-neots/"><span class="card-title">St Neots</span><span class="card-meta"><span class="t-badge t-mid">46 min</span> fastest to London &middot; 12 km away</span></a></li>
-<li><a class="card" href="/stations/arlesey/"><span class="card-title">Arlesey</span><span class="card-meta"><span class="t-badge t-mid">38 min</span> fastest to London &middot; 12 km away</span></a></li>
-<li><a class="card" href="/stations/bedford/"><span class="card-title">Bedford</span><span class="card-meta"><span class="t-badge t-mid">39 min</span> fastest to London &middot; 13 km away</span></a></li>
+<li><a class="card" href="/stations/bedford/"><span class="card-title">Bedford</span><span class="card-meta"><span class="t-badge t-mid">39 min</span> fastest to London &middot; 14 km away</span></a></li>
 <li><a class="card" href="/stations/ashwell-and-morden/"><span class="card-title">Ashwell &amp; Morden</span><span class="card-meta"><span class="t-badge t-mid">45 min</span> fastest to London &middot; 16 km away</span></a></li>
 <li><a class="card" href="/stations/baldock/"><span class="card-title">Baldock</span><span class="card-meta"><span class="t-badge t-mid">37 min</span> fastest to London &middot; 16 km away</span></a></li>
 </ul>
@@ -138,7 +138,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -195,8 +195,8 @@
 "url": "https://railreach.co.uk/stations/sandy/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 52.1247,
-"longitude": -0.2812
+"latitude": 52.124734,
+"longitude": -0.28119
 },
 "containedInPlace": {
 "@type": "Country",
@@ -244,7 +244,7 @@
 "name": "What are the nearest stations to Sandy?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "The closest alternatives are Biggleswade, St Neots, Arlesey. These can offer a faster or cheaper route into London depending on where you live."
+"text": "The closest alternatives are Biggleswade, Arlesey, St Neots. These can offer a faster or cheaper route into London depending on where you live."
 }
 }
 ]
@@ -255,12 +255,12 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([52.1247,-0.2812],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Sandy</strong><br>This station').addTo(map);
+L.circleMarker([52.124734,-0.28119],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Sandy</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.532,-0.124,'<strong>London Kings Cross</strong><br>45 min from Sandy<br>Direct<br><a class="popup-link" href="/terminals/kings-cross/">Terminal guide &rarr;</a>');
-L.polyline([[52.1247,-0.2812],[51.532,-0.124]],{color:RR.colour(45),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[52.124734,-0.28119],[51.532,-0.124]],{color:RR.colour(45),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Sandy: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[52.1247,-0.2812],[51.532,-0.124]],{animate:false});
+RR.fit(map,[[52.124734,-0.28119],[51.532,-0.124]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

@@ -106,7 +106,7 @@
 <h3>Are there direct trains from East Croydon to London?</h3>
 <p>Yes. Direct services run to London Bridge, Victoria.</p>
 <h3>What are the nearest stations to East Croydon?</h3>
-<p>The closest alternatives are West Croydon, Purley, Coulsdon South. These can offer a faster or cheaper route into London depending on where you live.</p>
+<p>The closest alternatives are West Croydon, Purley, Sutton. These can offer a faster or cheaper route into London depending on where you live.</p>
 
 <h2 id="discover">Other places within 30 minutes of London Bridge</h2>
 <p>East Croydon is one of many places you could commute from. These are other options within 30 minutes of London London Bridge, ranked by journey time and spread across the network rather than clustered on one stretch of line.</p>
@@ -121,9 +121,9 @@
 <p>Alternative departure points close to East Croydon, for comparing platforms rather than places.</p>
 <ul class="link-grid">
 <li><a class="card" href="/stations/west-croydon/"><span class="card-title">West Croydon</span><span class="card-meta"><span class="t-badge t-fast">20 min</span> fastest to London &middot; 1 km away</span></a></li>
-<li><a class="card" href="/stations/purley/"><span class="card-title">Purley</span><span class="card-meta"><span class="t-badge t-fast">20 min</span> fastest to London &middot; 5 km away</span></a></li>
-<li><a class="card" href="/stations/coulsdon-south/"><span class="card-title">Coulsdon South</span><span class="card-meta"><span class="t-badge t-fast">26 min</span> fastest to London &middot; 7 km away</span></a></li>
+<li><a class="card" href="/stations/purley/"><span class="card-title">Purley</span><span class="card-meta"><span class="t-badge t-fast">20 min</span> fastest to London &middot; 4 km away</span></a></li>
 <li><a class="card" href="/stations/sutton/"><span class="card-title">Sutton</span><span class="card-meta"><span class="t-badge t-mid">30 min</span> fastest to London &middot; 7 km away</span></a></li>
+<li><a class="card" href="/stations/coulsdon-south/"><span class="card-title">Coulsdon South</span><span class="card-meta"><span class="t-badge t-fast">26 min</span> fastest to London &middot; 7 km away</span></a></li>
 <li><a class="card" href="/stations/beckenham-hill/"><span class="card-title">Beckenham Hill</span><span class="card-meta"><span class="t-badge t-fast">18 min</span> fastest to London &middot; 8 km away</span></a></li>
 <li><a class="card" href="/stations/bromley-south/"><span class="card-title">Bromley South</span><span class="card-meta"><span class="t-badge t-fast">18 min</span> fastest to London &middot; 8 km away</span></a></li>
 </ul>
@@ -139,7 +139,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -196,8 +196,8 @@
 "url": "https://railreach.co.uk/stations/east-croydon/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 51.3758,
-"longitude": -0.0925
+"latitude": 51.375454,
+"longitude": -0.09278
 },
 "containedInPlace": {
 "@type": "Country",
@@ -245,7 +245,7 @@
 "name": "What are the nearest stations to East Croydon?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "The closest alternatives are West Croydon, Purley, Coulsdon South. These can offer a faster or cheaper route into London depending on where you live."
+"text": "The closest alternatives are West Croydon, Purley, Sutton. These can offer a faster or cheaper route into London depending on where you live."
 }
 }
 ]
@@ -256,14 +256,14 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([51.3758,-0.0925],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>East Croydon</strong><br>This station').addTo(map);
+L.circleMarker([51.375454,-0.09278],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>East Croydon</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.5052,-0.0862,'<strong>London London Bridge</strong><br>14 min from East Croydon<br>Direct<br><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
 RR.terminalMarker(map,51.4952,-0.1439,'<strong>London Victoria</strong><br>15 min from East Croydon<br>Direct<br><a class="popup-link" href="/terminals/victoria/">Terminal guide &rarr;</a>');
-L.polyline([[51.3758,-0.0925],[51.5052,-0.0862]],{color:RR.colour(14),weight:3,opacity:0.75,}).addTo(map);
-L.polyline([[51.3758,-0.0925],[51.4952,-0.1439]],{color:RR.colour(15),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.375454,-0.09278],[51.5052,-0.0862]],{color:RR.colour(14),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.375454,-0.09278],[51.4952,-0.1439]],{color:RR.colour(15),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='East Croydon: 2 London terminals';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[51.3758,-0.0925],[51.5052,-0.0862],[51.4952,-0.1439]],{animate:false});
+RR.fit(map,[[51.375454,-0.09278],[51.5052,-0.0862],[51.4952,-0.1439]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

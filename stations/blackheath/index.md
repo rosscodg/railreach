@@ -35,7 +35,7 @@ Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Blackheath?
 
-The closest alternatives are Kidbrooke, Hither Green, Lewisham. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Kidbrooke, Lewisham, Hither Green. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

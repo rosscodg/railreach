@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Winchfield?
 
-The closest alternatives are Hook, Fleet, Bentley. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Hook, Fleet, Farnborough (Main). These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

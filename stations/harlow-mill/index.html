@@ -119,12 +119,12 @@
 <h2>Nearby stations</h2>
 <p>Alternative departure points close to Harlow Mill, for comparing platforms rather than places.</p>
 <ul class="link-grid">
-<li><a class="card" href="/stations/harlow-town/"><span class="card-title">Harlow Town</span><span class="card-meta"><span class="t-badge t-mid">30 min</span> fastest to London &middot; 2 km away</span></a></li>
+<li><a class="card" href="/stations/harlow-town/"><span class="card-title">Harlow Town</span><span class="card-meta"><span class="t-badge t-mid">30 min</span> fastest to London &middot; 3 km away</span></a></li>
 <li><a class="card" href="/stations/sawbridgeworth/"><span class="card-title">Sawbridgeworth</span><span class="card-meta"><span class="t-badge t-mid">38 min</span> fastest to London &middot; 3 km away</span></a></li>
 <li><a class="card" href="/stations/bishops-stortford/"><span class="card-title">Bishops Stortford</span><span class="card-meta"><span class="t-badge t-mid">37 min</span> fastest to London &middot; 9 km away</span></a></li>
-<li><a class="card" href="/stations/broxbourne/"><span class="card-title">Broxbourne</span><span class="card-meta"><span class="t-badge t-fast">27 min</span> fastest to London &middot; 10 km away</span></a></li>
-<li><a class="card" href="/stations/stansted-mountfitchet/"><span class="card-title">Stansted Mountfitchet</span><span class="card-meta"><span class="t-badge t-mid">44 min</span> fastest to London &middot; 14 km away</span></a></li>
-<li><a class="card" href="/stations/cheshunt/"><span class="card-title">Cheshunt</span><span class="card-meta"><span class="t-badge t-fast">22 min</span> fastest to London &middot; 14 km away</span></a></li>
+<li><a class="card" href="/stations/broxbourne/"><span class="card-title">Broxbourne</span><span class="card-meta"><span class="t-badge t-fast">27 min</span> fastest to London &middot; 11 km away</span></a></li>
+<li><a class="card" href="/stations/stansted-mountfitchet/"><span class="card-title">Stansted Mountfitchet</span><span class="card-meta"><span class="t-badge t-mid">44 min</span> fastest to London &middot; 13 km away</span></a></li>
+<li><a class="card" href="/stations/stansted-airport/"><span class="card-title">Stansted Airport</span><span class="card-meta"><span class="t-badge t-mid">47 min</span> fastest to London &middot; 14 km away</span></a></li>
 </ul>
 
 <h2>All London terminals</h2>
@@ -138,7 +138,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -195,8 +195,8 @@
 "url": "https://railreach.co.uk/stations/harlow-mill/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 51.7882,
-"longitude": 0.1252
+"latitude": 51.790365,
+"longitude": 0.132308
 },
 "containedInPlace": {
 "@type": "Country",
@@ -255,12 +255,12 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([51.7882,0.1252],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Harlow Mill</strong><br>This station').addTo(map);
+L.circleMarker([51.790365,0.132308],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Harlow Mill</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.5178,-0.0823,'<strong>London Liverpool Street</strong><br>35 min from Harlow Mill<br>Direct<br><a class="popup-link" href="/terminals/liverpool-street/">Terminal guide &rarr;</a>');
-L.polyline([[51.7882,0.1252],[51.5178,-0.0823]],{color:RR.colour(35),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.790365,0.132308],[51.5178,-0.0823]],{color:RR.colour(35),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Harlow Mill: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[51.7882,0.1252],[51.5178,-0.0823]],{animate:false});
+RR.fit(map,[[51.790365,0.132308],[51.5178,-0.0823]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

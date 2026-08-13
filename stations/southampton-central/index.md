@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Southampton Central?
 
-The closest alternatives are Winchester, Havant, Salisbury. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Winchester, Havant, Grateley. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

@@ -35,7 +35,7 @@ Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to Pitsea?
 
-The closest alternatives are Basildon, Benfleet, Wickford. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Basildon, Benfleet, Laindon. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

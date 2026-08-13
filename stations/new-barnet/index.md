@@ -35,7 +35,7 @@ Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to New Barnet?
 
-The closest alternatives are Hadley Wood, Oakleigh Park, Potters Bar. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Oakleigh Park, Hadley Wood, Potters Bar. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

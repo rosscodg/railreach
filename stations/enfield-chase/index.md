@@ -35,7 +35,7 @@ Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Enfield Chase?
 
-The closest alternatives are Gordon Hill, Crews Hill, New Barnet. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Gordon Hill, Crews Hill, Oakleigh Park. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

@@ -123,11 +123,11 @@
 <p>Alternative departure points close to Tonbridge, for comparing platforms rather than places.</p>
 <ul class="link-grid">
 <li><a class="card" href="/stations/hildenborough/"><span class="card-title">Hildenborough</span><span class="card-meta"><span class="t-badge t-mid">38 min</span> fastest to London &middot; 4 km away</span></a></li>
-<li><a class="card" href="/stations/tunbridge-wells/"><span class="card-title">Tunbridge Wells</span><span class="card-meta"><span class="t-badge t-mid">47 min</span> fastest to London &middot; 6 km away</span></a></li>
+<li><a class="card" href="/stations/tunbridge-wells/"><span class="card-title">Tunbridge Wells</span><span class="card-meta"><span class="t-badge t-mid">47 min</span> fastest to London &middot; 7 km away</span></a></li>
 <li><a class="card" href="/stations/paddock-wood/"><span class="card-title">Paddock Wood</span><span class="card-meta"><span class="t-badge t-mid">48 min</span> fastest to London &middot; 8 km away</span></a></li>
 <li><a class="card" href="/stations/sevenoaks/"><span class="card-title">Sevenoaks</span><span class="card-meta"><span class="t-badge t-fast">23 min</span> fastest to London &middot; 11 km away</span></a></li>
 <li><a class="card" href="/stations/bat-and-ball/"><span class="card-title">Bat &amp; Ball</span><span class="card-meta"><span class="t-badge t-mid">38 min</span> fastest to London &middot; 12 km away</span></a></li>
-<li><a class="card" href="/stations/otford/"><span class="card-title">Otford</span><span class="card-meta"><span class="t-badge t-mid">35 min</span> fastest to London &middot; 15 km away</span></a></li>
+<li><a class="card" href="/stations/otford/"><span class="card-title">Otford</span><span class="card-meta"><span class="t-badge t-mid">35 min</span> fastest to London &middot; 14 km away</span></a></li>
 </ul>
 
 <h2>All London terminals</h2>
@@ -141,7 +141,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -198,8 +198,8 @@
 "url": "https://railreach.co.uk/stations/tonbridge/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 51.1889,
-"longitude": 0.2742
+"latitude": 51.191411,
+"longitude": 0.270973
 },
 "containedInPlace": {
 "@type": "Country",
@@ -258,14 +258,14 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([51.1889,0.2742],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Tonbridge</strong><br>This station').addTo(map);
+L.circleMarker([51.191411,0.270973],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Tonbridge</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.5052,-0.0862,'<strong>London London Bridge</strong><br>36 min from Tonbridge<br>Direct<br><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
 RR.terminalMarker(map,51.4952,-0.1439,'<strong>London Victoria</strong><br>40 min from Tonbridge<br>Direct<br><a class="popup-link" href="/terminals/victoria/">Terminal guide &rarr;</a>');
-L.polyline([[51.1889,0.2742],[51.5052,-0.0862]],{color:RR.colour(36),weight:3,opacity:0.75,}).addTo(map);
-L.polyline([[51.1889,0.2742],[51.4952,-0.1439]],{color:RR.colour(40),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.191411,0.270973],[51.5052,-0.0862]],{color:RR.colour(36),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.191411,0.270973],[51.4952,-0.1439]],{color:RR.colour(40),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Tonbridge: 2 London terminals';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[51.1889,0.2742],[51.5052,-0.0862],[51.4952,-0.1439]],{animate:false});
+RR.fit(map,[[51.191411,0.270973],[51.5052,-0.0862],[51.4952,-0.1439]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

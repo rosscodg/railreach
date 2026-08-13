@@ -35,7 +35,7 @@ Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to Westcliff?
 
-The closest alternatives are Chalkwell, Southend Central, Southend Victoria. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Southend Central, Chalkwell, Southend Victoria. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

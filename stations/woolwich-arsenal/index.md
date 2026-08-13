@@ -35,7 +35,7 @@ Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Woolwich Arsenal?
 
-The closest alternatives are Plumstead, Abbey Wood, Welling. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Plumstead, Welling, Abbey Wood. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

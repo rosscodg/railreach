@@ -138,7 +138,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -195,8 +195,8 @@
 "url": "https://railreach.co.uk/stations/clapham-junction/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 51.4642,
-"longitude": -0.1703
+"latitude": 51.464188,
+"longitude": -0.170293
 },
 "containedInPlace": {
 "@type": "Country",
@@ -255,14 +255,14 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([51.4642,-0.1703],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Clapham Junction</strong><br>This station').addTo(map);
+L.circleMarker([51.464188,-0.170293],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Clapham Junction</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.4952,-0.1439,'<strong>London Victoria</strong><br>5 min from Clapham Junction<br>Direct<br><a class="popup-link" href="/terminals/victoria/">Terminal guide &rarr;</a>');
 RR.terminalMarker(map,51.5031,-0.1132,'<strong>London Waterloo</strong><br>7 min from Clapham Junction<br>Direct<br><a class="popup-link" href="/terminals/waterloo/">Terminal guide &rarr;</a>');
-L.polyline([[51.4642,-0.1703],[51.4952,-0.1439]],{color:RR.colour(5),weight:3,opacity:0.75,}).addTo(map);
-L.polyline([[51.4642,-0.1703],[51.5031,-0.1132]],{color:RR.colour(7),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.464188,-0.170293],[51.4952,-0.1439]],{color:RR.colour(5),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.464188,-0.170293],[51.5031,-0.1132]],{color:RR.colour(7),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Clapham Junction: 2 London terminals';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[51.4642,-0.1703],[51.4952,-0.1439],[51.5031,-0.1132]],{animate:false});
+RR.fit(map,[[51.464188,-0.170293],[51.4952,-0.1439],[51.5031,-0.1132]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

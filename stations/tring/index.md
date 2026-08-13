@@ -35,7 +35,7 @@ Yes. Direct services run to Euston.
 
 ### What are the nearest stations to Tring?
 
-The closest alternatives are Cheddington, Berkhamsted, Stoke Mandeville. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Berkhamsted, Cheddington, Hemel Hempstead. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

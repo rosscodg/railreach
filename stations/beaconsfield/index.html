@@ -109,18 +109,19 @@
 <p>Beaconsfield is one of many places you could commute from. These are other options within 30 minutes of London Marylebone, ranked by journey time and spread across the network rather than clustered on one stretch of line.</p>
 <ul class="link-grid">
 <li><a class="card" href="/stations/denham/"><span class="card-title">Denham</span><span class="card-meta"><span class="t-badge t-fast">18 min</span> to Marylebone &middot; direct</span></a></li>
+<li><a class="card" href="/stations/seer-green-and-jordans/"><span class="card-title">Seer Green &amp; Jordans</span><span class="card-meta"><span class="t-badge t-fast">23 min</span> to Marylebone &middot; direct</span></a></li>
 <li><a class="card" href="/stations/high-wycombe/"><span class="card-title">High Wycombe</span><span class="card-meta"><span class="t-badge t-fast">27 min</span> to Marylebone &middot; direct</span></a></li>
 </ul>
 <p><a href="/?to=MYB&amp;max=30">See all of them on the map &rarr;</a></p>
 <h2>Nearby stations</h2>
 <p>Alternative departure points close to Beaconsfield, for comparing platforms rather than places.</p>
 <ul class="link-grid">
-<li><a class="card" href="/stations/seer-green-and-jordans/"><span class="card-title">Seer Green &amp; Jordans</span><span class="card-meta"><span class="t-badge t-fast">23 min</span> fastest to London &middot; 3 km away</span></a></li>
+<li><a class="card" href="/stations/seer-green-and-jordans/"><span class="card-title">Seer Green &amp; Jordans</span><span class="card-meta"><span class="t-badge t-fast">23 min</span> fastest to London &middot; 2 km away</span></a></li>
 <li><a class="card" href="/stations/gerrards-cross/"><span class="card-title">Gerrards Cross</span><span class="card-meta"><span class="t-badge t-fast">21 min</span> fastest to London &middot; 7 km away</span></a></li>
 <li><a class="card" href="/stations/high-wycombe/"><span class="card-title">High Wycombe</span><span class="card-meta"><span class="t-badge t-fast">27 min</span> fastest to London &middot; 7 km away</span></a></li>
+<li><a class="card" href="/stations/denham-golf-club/"><span class="card-title">Denham Golf Club</span><span class="card-meta"><span class="t-badge t-fast">20 min</span> fastest to London &middot; 9 km away</span></a></li>
+<li><a class="card" href="/stations/marlow/"><span class="card-title">Marlow</span><span class="card-meta"><span class="t-badge t-mid">48 min</span> fastest to London &middot; 10 km away</span></a></li>
 <li><a class="card" href="/stations/burnham/"><span class="card-title">Burnham</span><span class="card-meta"><span class="t-badge t-fast">22 min</span> fastest to London &middot; 10 km away</span></a></li>
-<li><a class="card" href="/stations/denham-golf-club/"><span class="card-title">Denham Golf Club</span><span class="card-meta"><span class="t-badge t-fast">20 min</span> fastest to London &middot; 10 km away</span></a></li>
-<li><a class="card" href="/stations/taplow/"><span class="card-title">Taplow</span><span class="card-meta"><span class="t-badge t-fast">25 min</span> fastest to London &middot; 10 km away</span></a></li>
 </ul>
 
 <h2>All London terminals</h2>
@@ -134,7 +135,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -191,8 +192,8 @@
 "url": "https://railreach.co.uk/stations/beaconsfield/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 51.6113,
-"longitude": -0.6438
+"latitude": 51.611291,
+"longitude": -0.643822
 },
 "containedInPlace": {
 "@type": "Country",
@@ -251,12 +252,12 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([51.6113,-0.6438],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Beaconsfield</strong><br>This station').addTo(map);
+L.circleMarker([51.611291,-0.643822],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Beaconsfield</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.5225,-0.1634,'<strong>London Marylebone</strong><br>24 min from Beaconsfield<br>Direct<br><a class="popup-link" href="/terminals/marylebone/">Terminal guide &rarr;</a>');
-L.polyline([[51.6113,-0.6438],[51.5225,-0.1634]],{color:RR.colour(24),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.611291,-0.643822],[51.5225,-0.1634]],{color:RR.colour(24),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Beaconsfield: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[51.6113,-0.6438],[51.5225,-0.1634]],{animate:false});
+RR.fit(map,[[51.611291,-0.643822],[51.5225,-0.1634]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

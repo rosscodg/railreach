@@ -35,7 +35,7 @@ Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to Barking?
 
-The closest alternatives are Dagenham Dock, West Ham, Woolwich Arsenal. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Dagenham Dock, West Ham, Plumstead. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

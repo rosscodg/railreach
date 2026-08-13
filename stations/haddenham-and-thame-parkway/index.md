@@ -35,7 +35,7 @@ Yes. Direct services run to Marylebone.
 
 ### What are the nearest stations to Haddenham & Thame Parkway?
 
-The closest alternatives are Little Kimble, Aylesbury Vale Parkway, Monks Risborough. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Monks Risborough, Aylesbury Vale Parkway, Princes Risborough. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

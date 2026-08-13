@@ -124,7 +124,7 @@
 <li><a class="card" href="/stations/kelvedon/"><span class="card-title">Kelvedon</span><span class="card-meta"><span class="t-badge t-mid">46 min</span> fastest to London &middot; 10 km away</span></a></li>
 <li><a class="card" href="/stations/braintree/"><span class="card-title">Braintree</span><span class="card-meta"><span class="t-badge t-mid">58 min</span> fastest to London &middot; 11 km away</span></a></li>
 <li><a class="card" href="/stations/marks-tey/"><span class="card-title">Marks Tey</span><span class="card-meta"><span class="t-badge t-mid">48 min</span> fastest to London &middot; 17 km away</span></a></li>
-<li><a class="card" href="/stations/ingatestone/"><span class="card-title">Ingatestone</span><span class="card-meta"><span class="t-badge t-mid">30 min</span> fastest to London &middot; 19 km away</span></a></li>
+<li><a class="card" href="/stations/wickford/"><span class="card-title">Wickford</span><span class="card-meta"><span class="t-badge t-mid">38 min</span> fastest to London &middot; 19 km away</span></a></li>
 </ul>
 
 <h2>All London terminals</h2>
@@ -138,7 +138,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -195,8 +195,8 @@
 "url": "https://railreach.co.uk/stations/hatfield-peverel/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 51.7765,
-"longitude": 0.5918
+"latitude": 51.779864,
+"longitude": 0.592124
 },
 "containedInPlace": {
 "@type": "Country",
@@ -255,12 +255,12 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([51.7765,0.5918],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Hatfield Peverel</strong><br>This station').addTo(map);
+L.circleMarker([51.779864,0.592124],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Hatfield Peverel</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.5178,-0.0823,'<strong>London Liverpool Street</strong><br>38 min from Hatfield Peverel<br>Direct<br><a class="popup-link" href="/terminals/liverpool-street/">Terminal guide &rarr;</a>');
-L.polyline([[51.7765,0.5918],[51.5178,-0.0823]],{color:RR.colour(38),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.779864,0.592124],[51.5178,-0.0823]],{color:RR.colour(38),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Hatfield Peverel: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[51.7765,0.5918],[51.5178,-0.0823]],{animate:false});
+RR.fit(map,[[51.779864,0.592124],[51.5178,-0.0823]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

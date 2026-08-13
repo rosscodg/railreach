@@ -103,7 +103,7 @@
 <h3>Are there direct trains from Eltham to London?</h3>
 <p>Yes. Direct services run to London Bridge.</p>
 <h3>What are the nearest stations to Eltham?</h3>
-<p>The closest alternatives are New Eltham, Kidbrooke, Grove Park. These can offer a faster or cheaper route into London depending on where you live.</p>
+<p>The closest alternatives are Kidbrooke, New Eltham, Blackheath. These can offer a faster or cheaper route into London depending on where you live.</p>
 
 <h2 id="discover">Other places within 30 minutes of London Bridge</h2>
 <p>Eltham is one of many places you could commute from. These are other options within 30 minutes of London London Bridge, ranked by journey time and spread across the network rather than clustered on one stretch of line.</p>
@@ -117,12 +117,12 @@
 <h2>Nearby stations</h2>
 <p>Alternative departure points close to Eltham, for comparing platforms rather than places.</p>
 <ul class="link-grid">
-<li><a class="card" href="/stations/new-eltham/"><span class="card-title">New Eltham</span><span class="card-meta"><span class="t-badge t-fast">18 min</span> fastest to London &middot; 1 km away</span></a></li>
 <li><a class="card" href="/stations/kidbrooke/"><span class="card-title">Kidbrooke</span><span class="card-meta"><span class="t-badge t-fast">14 min</span> fastest to London &middot; 2 km away</span></a></li>
-<li><a class="card" href="/stations/grove-park/"><span class="card-title">Grove Park</span><span class="card-meta"><span class="t-badge t-fast">14 min</span> fastest to London &middot; 3 km away</span></a></li>
+<li><a class="card" href="/stations/new-eltham/"><span class="card-title">New Eltham</span><span class="card-meta"><span class="t-badge t-fast">18 min</span> fastest to London &middot; 2 km away</span></a></li>
 <li><a class="card" href="/stations/blackheath/"><span class="card-title">Blackheath</span><span class="card-meta"><span class="t-badge t-fast">12 min</span> fastest to London &middot; 3 km away</span></a></li>
-<li><a class="card" href="/stations/hither-green/"><span class="card-title">Hither Green</span><span class="card-meta"><span class="t-badge t-fast">10 min</span> fastest to London &middot; 4 km away</span></a></li>
+<li><a class="card" href="/stations/grove-park/"><span class="card-title">Grove Park</span><span class="card-meta"><span class="t-badge t-fast">14 min</span> fastest to London &middot; 3 km away</span></a></li>
 <li><a class="card" href="/stations/welling/"><span class="card-title">Welling</span><span class="card-meta"><span class="t-badge t-fast">25 min</span> fastest to London &middot; 4 km away</span></a></li>
+<li><a class="card" href="/stations/hither-green/"><span class="card-title">Hither Green</span><span class="card-meta"><span class="t-badge t-fast">10 min</span> fastest to London &middot; 4 km away</span></a></li>
 </ul>
 
 <h2>All London terminals</h2>
@@ -136,7 +136,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -193,8 +193,8 @@
 "url": "https://railreach.co.uk/stations/eltham/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 51.4491,
-"longitude": 0.0527
+"latitude": 51.455644,
+"longitude": 0.052472
 },
 "containedInPlace": {
 "@type": "Country",
@@ -242,7 +242,7 @@
 "name": "What are the nearest stations to Eltham?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "The closest alternatives are New Eltham, Kidbrooke, Grove Park. These can offer a faster or cheaper route into London depending on where you live."
+"text": "The closest alternatives are Kidbrooke, New Eltham, Blackheath. These can offer a faster or cheaper route into London depending on where you live."
 }
 }
 ]
@@ -253,12 +253,12 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([51.4491,0.0527],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Eltham</strong><br>This station').addTo(map);
+L.circleMarker([51.455644,0.052472],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Eltham</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.5052,-0.0862,'<strong>London London Bridge</strong><br>18 min from Eltham<br>Direct<br><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
-L.polyline([[51.4491,0.0527],[51.5052,-0.0862]],{color:RR.colour(18),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.455644,0.052472],[51.5052,-0.0862]],{color:RR.colour(18),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Eltham: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[51.4491,0.0527],[51.5052,-0.0862]],{animate:false});
+RR.fit(map,[[51.455644,0.052472],[51.5052,-0.0862]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

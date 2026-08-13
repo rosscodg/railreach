@@ -103,7 +103,7 @@
 <h3>Are there direct trains from Faversham to London?</h3>
 <p>Yes. Direct services run to London Bridge.</p>
 <h3>What are the nearest stations to Faversham?</h3>
-<p>The closest alternatives are Sittingbourne, Ashford International, Rainham (Kent). These can offer a faster or cheaper route into London depending on where you live.</p>
+<p>The closest alternatives are Sittingbourne, Ashford International, Pluckley. These can offer a faster or cheaper route into London depending on where you live.</p>
 
 <h2 id="discover">Other places within 75 minutes of London Bridge</h2>
 <p>Faversham is one of many places you could commute from. These are other options within 75 minutes of London London Bridge, ranked by journey time and spread across the network rather than clustered on one stretch of line.</p>
@@ -121,9 +121,9 @@
 <ul class="link-grid">
 <li><a class="card" href="/stations/sittingbourne/"><span class="card-title">Sittingbourne</span><span class="card-meta"><span class="t-badge t-mid">58 min</span> fastest to London &middot; 11 km away</span></a></li>
 <li><a class="card" href="/stations/ashford-international/"><span class="card-title">Ashford International</span><span class="card-meta"><span class="t-badge t-slow">80 min</span> fastest to London &middot; 19 km away</span></a></li>
+<li><a class="card" href="/stations/pluckley/"><span class="card-title">Pluckley</span><span class="card-meta"><span class="t-badge t-slow">72 min</span> fastest to London &middot; 20 km away</span></a></li>
 <li><a class="card" href="/stations/rainham-kent/"><span class="card-title">Rainham (Kent)</span><span class="card-meta"><span class="t-badge t-mid">52 min</span> fastest to London &middot; 20 km away</span></a></li>
-<li><a class="card" href="/stations/pluckley/"><span class="card-title">Pluckley</span><span class="card-meta"><span class="t-badge t-slow">72 min</span> fastest to London &middot; 21 km away</span></a></li>
-<li><a class="card" href="/stations/headcorn/"><span class="card-title">Headcorn</span><span class="card-meta"><span class="t-badge t-slow">66 min</span> fastest to London &middot; 25 km away</span></a></li>
+<li><a class="card" href="/stations/headcorn/"><span class="card-title">Headcorn</span><span class="card-meta"><span class="t-badge t-slow">66 min</span> fastest to London &middot; 24 km away</span></a></li>
 <li><a class="card" href="/stations/gillingham/"><span class="card-title">Gillingham</span><span class="card-meta"><span class="t-badge t-mid">47 min</span> fastest to London &middot; 25 km away</span></a></li>
 </ul>
 
@@ -138,7 +138,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -195,8 +195,8 @@
 "url": "https://railreach.co.uk/stations/faversham/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 51.3151,
-"longitude": 0.891
+"latitude": 51.311714,
+"longitude": 0.891045
 },
 "containedInPlace": {
 "@type": "Country",
@@ -244,7 +244,7 @@
 "name": "What are the nearest stations to Faversham?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "The closest alternatives are Sittingbourne, Ashford International, Rainham (Kent). These can offer a faster or cheaper route into London depending on where you live."
+"text": "The closest alternatives are Sittingbourne, Ashford International, Pluckley. These can offer a faster or cheaper route into London depending on where you live."
 }
 }
 ]
@@ -255,12 +255,12 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([51.3151,0.891],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Faversham</strong><br>This station').addTo(map);
+L.circleMarker([51.311714,0.891045],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Faversham</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.5052,-0.0862,'<strong>London London Bridge</strong><br>68 min from Faversham<br>Direct<br><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
-L.polyline([[51.3151,0.891],[51.5052,-0.0862]],{color:RR.colour(68),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.311714,0.891045],[51.5052,-0.0862]],{color:RR.colour(68),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Faversham: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[51.3151,0.891],[51.5052,-0.0862]],{animate:false});
+RR.fit(map,[[51.311714,0.891045],[51.5052,-0.0862]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

@@ -35,7 +35,7 @@ Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Eltham?
 
-The closest alternatives are New Eltham, Kidbrooke, Grove Park. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Kidbrooke, New Eltham, Blackheath. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

@@ -35,7 +35,7 @@ Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Sandy?
 
-The closest alternatives are Biggleswade, St Neots, Arlesey. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Biggleswade, Arlesey, St Neots. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

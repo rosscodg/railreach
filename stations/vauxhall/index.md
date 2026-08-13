@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Vauxhall?
 
-The closest alternatives are Battersea Park, Denmark Hill, Peckham Rye. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Battersea Park, Denmark Hill, Clapham Junction. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

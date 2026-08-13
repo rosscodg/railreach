@@ -113,7 +113,7 @@
 <li><a class="card" href="/stations/feltham/"><span class="card-title">Feltham</span><span class="card-meta"><span class="t-badge t-mid">33 min</span> to Waterloo &middot; direct</span></a></li>
 <li><a class="card" href="/stations/guildford/"><span class="card-title">Guildford</span><span class="card-meta"><span class="t-badge t-mid">33 min</span> to Waterloo &middot; direct</span></a></li>
 <li><a class="card" href="/stations/farnborough-main/"><span class="card-title">Farnborough (Main)</span><span class="card-meta"><span class="t-badge t-mid">36 min</span> to Waterloo &middot; direct</span></a></li>
-<li><a class="card" href="/stations/ashtead/"><span class="card-title">Ashtead</span><span class="card-meta"><span class="t-badge t-mid">37 min</span> to Waterloo &middot; direct</span></a></li>
+<li><a class="card" href="/stations/egham/"><span class="card-title">Egham</span><span class="card-meta"><span class="t-badge t-mid">38 min</span> to Waterloo &middot; direct</span></a></li>
 </ul>
 <p><a href="/?to=WAT&amp;max=45">See all of them on the map &rarr;</a></p>
 <h2>Nearby stations</h2>
@@ -123,8 +123,8 @@
 <li><a class="card" href="/stations/clandon/"><span class="card-title">Clandon</span><span class="card-meta"><span class="t-badge t-mid">48 min</span> fastest to London &middot; 5 km away</span></a></li>
 <li><a class="card" href="/stations/cobham-and-stoke-dabernon/"><span class="card-title">Cobham &amp; Stoke d&#39;Abernon</span><span class="card-meta"><span class="t-badge t-mid">35 min</span> fastest to London &middot; 5 km away</span></a></li>
 <li><a class="card" href="/stations/leatherhead/"><span class="card-title">Leatherhead</span><span class="card-meta"><span class="t-badge t-mid">42 min</span> fastest to London &middot; 7 km away</span></a></li>
-<li><a class="card" href="/stations/oxshott/"><span class="card-title">Oxshott</span><span class="card-meta"><span class="t-badge t-mid">32 min</span> fastest to London &middot; 8 km away</span></a></li>
 <li><a class="card" href="/stations/box-hill-and-westhumble/"><span class="card-title">Box Hill &amp; Westhumble</span><span class="card-meta"><span class="t-badge t-mid">48 min</span> fastest to London &middot; 8 km away</span></a></li>
+<li><a class="card" href="/stations/oxshott/"><span class="card-title">Oxshott</span><span class="card-meta"><span class="t-badge t-mid">32 min</span> fastest to London &middot; 8 km away</span></a></li>
 </ul>
 
 <h2>All London terminals</h2>
@@ -138,7 +138,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -195,8 +195,8 @@
 "url": "https://railreach.co.uk/stations/horsley/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 51.2791,
-"longitude": -0.4343
+"latitude": 51.279347,
+"longitude": -0.435409
 },
 "containedInPlace": {
 "@type": "Country",
@@ -255,12 +255,12 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([51.2791,-0.4343],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Horsley</strong><br>This station').addTo(map);
+L.circleMarker([51.279347,-0.435409],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Horsley</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.5031,-0.1132,'<strong>London Waterloo</strong><br>43 min from Horsley<br>Direct<br><a class="popup-link" href="/terminals/waterloo/">Terminal guide &rarr;</a>');
-L.polyline([[51.2791,-0.4343],[51.5031,-0.1132]],{color:RR.colour(43),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.279347,-0.435409],[51.5031,-0.1132]],{color:RR.colour(43),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Horsley: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[51.2791,-0.4343],[51.5031,-0.1132]],{animate:false});
+RR.fit(map,[[51.279347,-0.435409],[51.5031,-0.1132]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

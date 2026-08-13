@@ -121,10 +121,10 @@
 <ul class="link-grid">
 <li><a class="card" href="/stations/colchester/"><span class="card-title">Colchester</span><span class="card-meta"><span class="t-badge t-mid">45 min</span> fastest to London &middot; 12 km away</span></a></li>
 <li><a class="card" href="/stations/ipswich/"><span class="card-title">Ipswich</span><span class="card-meta"><span class="t-badge t-mid">56 min</span> fastest to London &middot; 13 km away</span></a></li>
-<li><a class="card" href="/stations/marks-tey/"><span class="card-title">Marks Tey</span><span class="card-meta"><span class="t-badge t-mid">48 min</span> fastest to London &middot; 20 km away</span></a></li>
+<li><a class="card" href="/stations/marks-tey/"><span class="card-title">Marks Tey</span><span class="card-meta"><span class="t-badge t-mid">48 min</span> fastest to London &middot; 19 km away</span></a></li>
 <li><a class="card" href="/stations/kelvedon/"><span class="card-title">Kelvedon</span><span class="card-meta"><span class="t-badge t-mid">46 min</span> fastest to London &middot; 26 km away</span></a></li>
 <li><a class="card" href="/stations/witham/"><span class="card-title">Witham</span><span class="card-meta"><span class="t-badge t-mid">40 min</span> fastest to London &middot; 32 km away</span></a></li>
-<li><a class="card" href="/stations/braintree/"><span class="card-title">Braintree</span><span class="card-meta"><span class="t-badge t-mid">58 min</span> fastest to London &middot; 35 km away</span></a></li>
+<li><a class="card" href="/stations/braintree/"><span class="card-title">Braintree</span><span class="card-meta"><span class="t-badge t-mid">58 min</span> fastest to London &middot; 34 km away</span></a></li>
 </ul>
 
 <h2>All London terminals</h2>
@@ -138,7 +138,7 @@
 <a href="/terminals/marylebone/">Marylebone</a>
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-12. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-13. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -195,8 +195,8 @@
 "url": "https://railreach.co.uk/stations/manningtree/",
 "geo": {
 "@type": "GeoCoordinates",
-"latitude": 51.9491,
-"longitude": 1.0453
+"latitude": 51.949052,
+"longitude": 1.04524
 },
 "containedInPlace": {
 "@type": "Country",
@@ -255,12 +255,12 @@
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
-L.circleMarker([51.9491,1.0453],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Manningtree</strong><br>This station').addTo(map);
+L.circleMarker([51.949052,1.04524],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Manningtree</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.5178,-0.0823,'<strong>London Liverpool Street</strong><br>58 min from Manningtree<br>Direct<br><a class="popup-link" href="/terminals/liverpool-street/">Terminal guide &rarr;</a>');
-L.polyline([[51.9491,1.0453],[51.5178,-0.0823]],{color:RR.colour(58),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.949052,1.04524],[51.5178,-0.0823]],{color:RR.colour(58),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Manningtree: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.
-RR.fit(map,[[51.9491,1.0453],[51.5178,-0.0823]],{animate:false});
+RR.fit(map,[[51.949052,1.04524],[51.5178,-0.0823]],{animate:false});
 </script>
 <footer class="site-footer">
 <div class="wrap">

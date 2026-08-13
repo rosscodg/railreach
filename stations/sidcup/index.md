@@ -35,7 +35,7 @@ Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Sidcup?
 
-The closest alternatives are Welling, Chislehurst, New Eltham. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are New Eltham, Welling, Bexleyheath. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

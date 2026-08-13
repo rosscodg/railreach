@@ -35,7 +35,7 @@ No direct service is recorded from Reigate; all routes into London require one c
 
 ### What are the nearest stations to Reigate?
 
-The closest alternatives are Redhill, Earlswood, Salfords. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Redhill, Earlswood, Merstham. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

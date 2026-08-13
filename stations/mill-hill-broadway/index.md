@@ -35,7 +35,7 @@ Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Mill Hill Broadway?
 
-The closest alternatives are Elstree & Borehamwood, Oakleigh Park, Harrow & Wealdstone. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Elstree & Borehamwood, Harrow & Wealdstone, Oakleigh Park. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

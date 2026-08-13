@@ -35,7 +35,7 @@ Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Hither Green?
 
-The closest alternatives are Blackheath, Catford, Lewisham. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Blackheath, Lewisham, Catford. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

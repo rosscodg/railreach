@@ -35,7 +35,7 @@ No direct service is recorded from Henley-on-Thames; all routes into London requ
 
 ### What are the nearest stations to Henley-on-Thames?
 
-The closest alternatives are Twyford, Marlow, Reading. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Twyford, Reading, Marlow. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

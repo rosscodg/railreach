@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Hounslow?
 
-The closest alternatives are Isleworth, Strawberry Hill, Twickenham. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Isleworth, Twickenham, Strawberry Hill. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

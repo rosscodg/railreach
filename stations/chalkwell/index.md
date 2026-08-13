@@ -35,7 +35,7 @@ Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to Chalkwell?
 
-The closest alternatives are Westcliff, Southend Central, Leigh-on-Sea. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Westcliff, Leigh-on-Sea, Southend Victoria. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 
