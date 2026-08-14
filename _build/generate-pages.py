@@ -37,6 +37,9 @@ BUILD_DATE = datetime.date.today().isoformat()
 REVIEW_DATE = BUILD_DATE
 GEO_SOURCE = 'unspecified'
 GEO_UPDATED = 'unknown'
+SOURCE_LABEL = ''
+BASIS_LABEL = ''
+METHOD_LABEL = ''
 
 # ── Terminal metadata ──────────────────────────────────────────────────────
 TERMINAL_META = {
@@ -312,7 +315,8 @@ PROMO = '''<div id="promo-banner">
 </div>'''
 
 DATA_NOTE = ('<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday '
-             'service on each route, compiled from published National Rail operator timetables for 2026. '
+             'service on each route, computed from Darwin Timetable Files published by the '
+             'Rail Delivery Group under the Open Government Licence. '
              'They exclude engineering works and disruption, and are not live departure times. '
              f'Last reviewed {REVIEW_DATE}. <a href="/about/">Read the full methodology &rarr;</a></div>')
 
@@ -322,7 +326,7 @@ def site_footer(total):
 <div class="wrap">
 <div>
 <p><strong>RailReach</strong>: free UK train commute time data.</p>
-<p>Journey times from {total} stations to 9 London main line terminals, sourced from National Rail operator timetables for 2026.</p>
+<p>Journey times from {total} stations to {len(TERMINAL_META)} London terminals, computed from Darwin Timetable Files published by the Rail Delivery Group.</p>
 </div>
 <div class="footer-links">
 <a href="/">Map</a>
@@ -633,7 +637,7 @@ def generate_terminal_page(code, terminals, stations, total):
         ("Stations under 30 minutes", str(len(under30))),
         ("Fastest station", f"{fastest[0]}, {fastest[1]} minutes"),
         ("Operators", operators),
-        ("Source", "National Rail timetables, 2026"),
+        ("Source", "Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0"),
     ])
 
     body = f'''<body>
@@ -732,7 +736,7 @@ direct train. Services are operated by {operators}.
 - Stations under 30 minutes: {len(under30)}
 - Fastest station: {fastest[0]} - {fastest[1]} minutes
 - Operators: {operators}
-- Source: National Rail timetables, 2026
+- Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: {REVIEW_DATE}
 
 ## Every station to {name}
@@ -746,9 +750,11 @@ direct train. Services are operated by {operators}.
 {md_faq}
 ## About this data
 
-Journey times are the fastest typical weekday service, compiled from published
-National Rail operator timetables for 2026. They are not live departure times and
-exclude engineering works and disruption. Full methodology: {SITE}/about/
+Fastest is the quickest scheduled weekday service; typical peak is the median of
+services arriving at the London terminal between 07:00 and 09:30. Computed from
+Darwin Timetable Files published by the Rail Delivery Group under the Open
+Government Licence. Not live times, and they exclude disruption and engineering
+work. Full methodology: {SITE}/about/
 
 Source: RailReach - {page_url}
 Licence: CC BY 4.0. Please attribute RailReach and link to {SITE}/
@@ -766,9 +772,25 @@ def generate_station_page(station_name, slug, terminals, stations, total):
     sorted_journeys = sorted_journeys_list = sorted_journeys_fn(sdata['journeys'])
     timed = [(c, j) for c, j in sorted_journeys if j.get('mins') is not None]
     if not timed:
-        print(f"  skipping {station_name}: no measured service")
-        return None
+        # No direct service to any terminal we track. These are real stations
+        # with real demand - Henley-on-Thames, Marlow, Windsor - reached by
+        # changing at a junction. Say so honestly rather than leaving a stale
+        # page on disk, which is what happened the first time this ran.
+        return generate_indirect_station_page(station_name, slug, sdata,
+                                              sorted_journeys, terminals, stations, total)
     fastest_code, fastest_j = timed[0]
+
+    # Where the quickest terminal runs nothing in the morning peak, say so and
+    # name the one a commuter can actually use. Welham Green is 38 minutes to
+    # Kings Cross against 39 to Moorgate, but has no peak train to Kings Cross.
+    peak_options = [(c, j) for c, j in timed if j.get('peakTrainsPerHour')]
+    commuter_code, commuter_j = (peak_options[0] if peak_options else (None, None))
+    peak_caveat = ''
+    if commuter_code and commuter_code != fastest_code and not fastest_j.get('peakTrainsPerHour'):
+        peak_caveat = (' That route runs no train during the morning peak, so the practical '
+                       f'commute is {TERMINAL_META[commuter_code]["name"]} in '
+                       f'{commuter_j["mins"]} minutes, with '
+                       f'{commuter_j["peakTrainsPerHour"]} trains an hour.')
     fastest_name = TERMINAL_META[fastest_code]['name']
     n_terms = len(sorted_journeys)
     plural = 's' if n_terms > 1 else ''
@@ -847,7 +869,7 @@ def generate_station_page(station_name, slug, terminals, stations, total):
         ("Direct service", "Yes" if fastest_j['direct'] else "No, one change required"),
         ("London terminals served", f"{n_terms} ({terminal_list})"),
         ("Operator", TERMINAL_META[fastest_code]['operators']),
-        ("Source", "National Rail timetables, 2026"),
+        ("Source", "Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0"),
     ])
 
     polylines = '\n'.join(
@@ -931,7 +953,7 @@ def generate_station_page(station_name, slug, terminals, stations, total):
 <main id="content" class="page-content">
 <div class="wrap">
 <h1>Train times from {station_name} to London</h1>
-<p class="lede">{station_name} connects to {n_terms} London terminal{plural}. The fastest route is {fastest_name} in {fastest_j['mins']} minutes{" on a direct train" if fastest_j['direct'] else ", with one change"}.</p>
+<p class="lede">{station_name} connects to {n_terms} London terminal{plural}. The fastest route is {fastest_name} in {fastest_j['mins']} minutes{" on a direct train" if fastest_j['direct'] else ", with one change"}.{peak_caveat}</p>
 {facts}
 
 <h2 id="journey-comparison">{station_name} to each London terminal</h2>
@@ -1012,7 +1034,7 @@ RR.fit(map,{fit_points},{{animate:false}});
 - Direct service: {"Yes" if fastest_j['direct'] else "No - one change required"}
 - London terminals served: {n_terms} ({terminal_list})
 - Operator: {TERMINAL_META[fastest_code]['operators']}
-- Source: National Rail timetables, 2026
+- Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: {REVIEW_DATE}
 
 ## {station_name} to each London terminal
@@ -1026,14 +1048,161 @@ RR.fit(map,{fit_points},{{animate:false}});
 {md_faq}
 ## About this data
 
-Journey times are the fastest typical weekday service, compiled from published
-National Rail operator timetables for 2026. They are not live departure times and
-exclude engineering works and disruption. Full methodology: {SITE}/about/
+Fastest is the quickest scheduled weekday service; typical peak is the median of
+services arriving at the London terminal between 07:00 and 09:30. Computed from
+Darwin Timetable Files published by the Rail Delivery Group under the Open
+Government Licence. Not live times, and they exclude disruption and engineering
+work. Full methodology: {SITE}/about/
 
 Source: RailReach - {page_url}
 Licence: CC BY 4.0. Please attribute RailReach and link to {SITE}/
 ''')
     return fastest_j['mins'], fastest_name
+
+
+
+def generate_indirect_station_page(station_name, slug, sdata, sorted_journeys,
+                                   terminals, stations, total):
+    """A station with no direct service to any terminal we cover.
+
+    The timetable can confirm no direct train exists; it cannot compute the
+    interchange without a routing engine. So the page says exactly that, and
+    names the terminal the station is associated with, rather than publishing
+    a number nobody has verified.
+    """
+    codes = [c for c, _ in sorted_journeys]
+    names = ', '.join(TERMINAL_META[c]['name'] for c in codes)
+    primary = codes[0] if codes else 'PAD'
+    tm = TERMINAL_META[primary]
+
+    dists = sorted(
+        ((s2['name'], haversine(sdata['lat'], sdata['lng'], s2['lat'], s2['lng']), s2)
+         for s2 in stations if s2['name'] != station_name),
+        key=lambda x: x[1])[:6]
+    nearby_cards = []
+    for nb_name, nb_dist, nb in dists:
+        timed_nb = [j for j in nb['journeys'].values() if j.get('mins') is not None]
+        meta = f'{nb_dist:.0f} km away'
+        if timed_nb:
+            meta = (f'{badge(min(j["mins"] for j in timed_nb))} fastest to London '
+                    f'&middot; {nb_dist:.0f} km away')
+        nearby_cards.append(
+            f'<li><a class="card" href="/stations/{nb["slug"]}/">'
+            f'<span class="card-title">{esc(nb_name)}</span>'
+            f'<span class="card-meta">{meta}</span></a></li>')
+
+    faqs_html = f"""<h3>Is there a direct train from {station_name} to London?</h3>
+<p>No. Across three midweek days of timetable data there is no direct service from {station_name} to any London terminal RailReach covers. Reaching London means changing, usually at the nearest junction on the main line.</p>
+<h3>Which London terminal does {station_name} connect towards?</h3>
+<p>Services from {station_name} feed towards London {names}, operated by {tm['operators']}. The connecting journey time depends on the change and is not published here, because it has not been measured.</p>
+<h3>Why does RailReach not give a journey time for {station_name}?</h3>
+<p>Every time on this site is computed from published timetables. A journey involving a change requires routing across services, which this dataset does not do, so no figure is given rather than an estimated one.</p>"""
+
+    ld = json.dumps([
+        json.loads(breadcrumb_ld([("RailReach", "/"), ("Stations", "/stations/"),
+                                  (f"{station_name} to London", f"/stations/{slug}/")])),
+        webpage_ld(f"{station_name} to London train times",
+                   f"{station_name} has no direct service to a London terminal; a change is required.",
+                   f"{SITE}/stations/{slug}/", f"Train services from {station_name} to London"),
+        train_station_ld(station_name, sdata['lat'], sdata['lng'],
+                         f"{station_name} railway station", f"{SITE}/stations/{slug}/"),
+        json.loads(faq_ld_from_html(faqs_html)),
+    ], indent=0)
+
+    facts = key_facts([
+        ("Direct service to London", "None found in the timetable"),
+        ("Connects towards", names),
+        ("Operator", tm['operators']),
+        ("Source", "Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0"),
+    ])
+
+    body = f"""<body>
+{site_header('stations')}
+{crumbs([("RailReach", "/"), ("Stations", "/stations/"), (f"{station_name} to London", None)])}
+<div class="map-shell" role="region" aria-label="Map showing {station_name}">
+<a class="skip-map" href="#journey-comparison">Skip the map and read the detail as text</a>
+<div id="map"></div>
+{legend(this_station_legend_html())}
+<div class="station-count" id="station-count"></div>
+{PROMO}
+</div><!-- /.map-shell -->
+
+<main id="content" class="page-content">
+<div class="wrap">
+<h1>Train times from {station_name} to London</h1>
+<p class="lede">{station_name} has no direct train to a London terminal. Reaching London requires a change, and RailReach does not publish a time for journeys it has not measured.</p>
+{facts}
+
+<h2 id="journey-comparison">{station_name} to London</h2>
+<div class="table-scroll">
+<table>
+<caption>Services from {station_name} towards London</caption>
+<thead><tr><th>London terminal</th><th>Direct service</th><th>Operator</th></tr></thead>
+<tbody>
+{chr(10).join(f'<tr><td>{TERMINAL_META[c]["name"]}</td><td><span class="t-badge t-change">Change required</span></td><td>{TERMINAL_META[c]["operators"]}</td></tr>' for c in codes)}
+</tbody>
+</table>
+</div>
+
+<h2>Frequently asked questions</h2>
+{faqs_html}
+
+<h2>Nearby stations</h2>
+<p>Stations near {station_name} with a direct London service.</p>
+<ul class="link-grid">
+{chr(10).join(nearby_cards)}
+</ul>
+
+{DATA_NOTE}
+</div>
+</main>
+
+<script type="application/ld+json">{ld}</script>
+<script src="/assets/js/stations-data.js"></script>
+<script src="/assets/js/map-ui.js"></script>
+<script>
+const map=RR.createMap('map');
+L.circleMarker([{sdata['lat']},{sdata['lng']}],{{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}}).bindPopup('<strong>{json_esc(station_name)}</strong><br>No direct London service').addTo(map);
+document.getElementById('station-count').textContent='{json_esc(station_name)}: no direct London service';
+RR.fit(map,[[{sdata['lat']},{sdata['lng']}]],{{maxZoom:12,animate:false}});
+</script>
+{site_footer(total)}"""
+
+    html = head(
+        title=f"{station_name} to London Train Times | RailReach",
+        desc=f"{station_name} has no direct train to a London terminal. Which terminal it connects towards, the operator, and nearby stations that do have a direct service.",
+        canonical=f"{SITE}/stations/{slug}/",
+        og_title=f"{station_name} to London | RailReach",
+        og_desc=f"No direct London service from {station_name}; a change is required.",
+        map_h="56vh",
+    ) + '\n' + body
+
+    outdir = os.path.join(BASE, 'stations', slug)
+    os.makedirs(outdir, exist_ok=True)
+    with open(os.path.join(outdir, 'index.html'), 'w') as f:
+        f.write(html)
+
+    write_markdown(f'stations/{slug}', f"""# Train times from {station_name} to London
+
+{station_name} has no direct train to a London terminal. Reaching London requires a
+change, and no journey time is published because none has been measured.
+
+- Direct service to London: none found in the timetable
+- Connects towards: {names}
+- Operator: {tm['operators']}
+- Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
+- Data reviewed: {REVIEW_DATE}
+
+Source: RailReach - {SITE}/stations/{slug}/
+Licence: CC BY 4.0. Please attribute RailReach and link to {SITE}/
+""")
+    return None
+
+
+def this_station_legend_html():
+    return ('<div class="legend-item"><div class="legend-dot" '
+            'style="background:#7c3aed"></div> <span class="legend-long">This station</span>'
+            '<span class="legend-short">This stn</span></div>\n')
 
 
 # ── Hub pages ──────────────────────────────────────────────────────────────
@@ -1058,7 +1227,7 @@ def generate_terminal_hub(stations, counts, total):
             f'<td>{esc(fastest[0])} {badge(fastest[1])}</td><td>{meta["operators"]}</td></tr>')
 
     faqs_html = f"""<h3>How many main line terminals does London have?</h3>
-<p>London has nine main line railway terminals: {', '.join(m['name'] for m in TERMINAL_META.values())}. Each serves a different part of the country, and most commuter towns are tied to just one or two of them.</p>
+<p>London has {len(TERMINAL_META)} main line railway terminals: {', '.join(m['name'] for m in TERMINAL_META.values())}. Each serves a different part of the country, and most commuter towns are tied to just one or two of them.</p>
 <h3>Which London terminal has the most commuter stations?</h3>
 <p>Waterloo has the widest commuter catchment, with {counts['WAT']} stations reaching it within 90 minutes, followed by Victoria ({counts['VIC']}) and Kings Cross ({counts['KGX']}).</p>
 <h3>Which London terminal should I commute into?</h3>
@@ -1076,11 +1245,11 @@ def generate_terminal_hub(stations, counts, total):
     ], indent=0)
 
     html = head(
-        title="London Rail Terminals | Train Times to All 9 London Termini | RailReach",
-        desc="Compare all 9 London main line terminals: how many stations reach each within 90 minutes, which operators run them, and the fastest commute into every terminus.",
+        title=f"London Rail Terminals | Train Times to All {len(TERMINAL_META)} London Termini | RailReach",
+        desc=f"Compare all {len(TERMINAL_META)} London terminals: how many stations reach each within 90 minutes, which operators run them, and the fastest commute into every terminus.",
         canonical=f"{SITE}/terminals/",
         og_title="London Rail Terminals | RailReach",
-        og_desc="All 9 London main line terminals compared by commuter catchment.",
+        og_desc=f"All {len(TERMINAL_META)} London terminals compared by commuter catchment.",
         md=False,
         leaflet=False,
     ) + f'''
@@ -1090,9 +1259,9 @@ def generate_terminal_hub(stations, counts, total):
 <main id="content" class="page-content">
 <div class="wrap">
 <h1>London main line rail terminals</h1>
-<p class="lede">London has nine main line terminals, each serving a different slice of the country. Together they connect {total} stations to the capital within 90 minutes.</p>
+<p class="lede">London has {len(TERMINAL_META)} main line terminals, each serving a different slice of the country. Together they connect {total} stations to the capital within 90 minutes.</p>
 
-<h2>All nine terminals</h2>
+<h2>All {len(TERMINAL_META)} terminals</h2>
 <ul class="link-grid">
 {chr(10).join(cards)}
 </ul>
@@ -1218,10 +1387,10 @@ def generate_about(stations, counts, total, n_station_pages):
     direct = sum(1 for s in stations for j in s['journeys'].values() if j.get('direct'))
 
     faqs_html = f"""<h3>Where does RailReach get its journey times?</h3>
-<p>Times are compiled from published National Rail operator timetables for 2026, covering {', '.join(op_list[:6])} and others. Each figure is the fastest typical weekday service on that route.</p>
+<p>Times are computed from Darwin Timetable Files, published by the Rail Delivery Group through the Rail Data Marketplace under the Open Government Licence, covering {', '.join(op_list[:6])} and others. Journeys were measured across three midweek days and matched to stations by TIPLOC.</p>
 <h3>Are these live train times?</h3>
 <p>No. RailReach is a planning tool, not a live departure board. Times do not account for engineering works, strikes or day-to-day disruption. Check National Rail or your operator before travelling.</p>
-<h3>What does "fastest typical weekday service" mean?</h3>
+<h3>What is the difference between fastest and typical peak?</h3>
 <p>The quickest journey a commuter could reasonably expect on a normal weekday, rather than a one-off record time or an average across all services. Off-peak and weekend journeys are often slower.</p>
 <h3>What counts as a direct train?</h3>
 <p>A service running from the origin station to the London terminal without requiring the passenger to change trains. Where a change is needed, the time includes a realistic interchange allowance and the route is marked accordingly.</p>
@@ -1235,7 +1404,7 @@ def generate_about(stations, counts, total, n_station_pages):
         json.loads(faq_ld_from_html(faqs_html)),
         {"@context": "https://schema.org", "@type": "Dataset",
          "name": "UK Train Journey Times to London Terminals 2026",
-         "description": f"Journey times from {total} UK stations to 9 London main line terminals, based on published 2026 National Rail operator timetables.",
+         "description": f"Journey times from {total} UK stations to {len(TERMINAL_META)} London terminals, computed from Darwin Timetable Files published by the Rail Delivery Group.",
          "url": f"{SITE}/about/",
          "license": "https://creativecommons.org/licenses/by/4.0/",
          "creator": {"@type": "Organization", "name": "RailReach", "url": SITE + "/"},
@@ -1268,15 +1437,15 @@ def generate_about(stations, counts, total, n_station_pages):
 <main id="content" class="page-content">
 <div class="wrap">
 <h1>About the data</h1>
-<p class="lede">RailReach publishes train journey times from {total} stations to all 9 London main line terminals: {pairs} station-to-terminal journeys in total, {direct} of them direct. This page explains where those numbers come from, and where they should not be relied on.</p>
+<p class="lede">RailReach publishes train journey times from {total} stations to all {len(TERMINAL_META)} London terminals: {pairs} station-to-terminal journeys in total, {direct} of them direct. This page explains where those numbers come from, and where they should not be relied on.</p>
 
 <h2>What RailReach is</h2>
 <p>RailReach is a free planning tool for anyone weighing up where to live against how long they will spend on a train. It is built for homebuyers, renters, relocators and daily commuters who need to compare towns on a like-for-like basis, rather than check a specific departure.</p>
 <p>Every station within 90 minutes of a London terminal is plotted on one interactive map and colour-coded by journey time, so the commuter belt can be read at a glance. There is no registration and no paywall.</p>
 
 <h2>Sources and method</h2>
-<p>Journey times are compiled from published National Rail operator timetables for 2026. The operators covered are {', '.join(op_list)}.</p>
-<p>Each figure is the <strong>fastest typical weekday service</strong> on that route: the quickest journey a commuter could reasonably expect on a normal working day. It is not an average across all services, and it is not a record-setting one-off. Off-peak, evening and weekend journeys are frequently slower.</p>
+<p>Journey times are computed from Darwin Timetable Files, published by the Rail Delivery Group through the Rail Data Marketplace under the Open Government Licence v3.0. The operators covered are {', '.join(op_list)}.</p>
+<p><strong>Fastest</strong> is the quickest scheduled service of the day. <strong>Typical peak</strong> is the median journey time of services arriving at the London terminal between 07:00 and 09:30, which is closer to what a commuter actually experiences. Where the two differ sharply the fastest figure is flattering: a single early express is no help if the train you can catch takes twenty minutes longer. Neither is an average, because off-peak and late-night stopping services distort one.</p>
 <p>Where no direct service exists, the time reflects the quickest routing with one change, including a realistic interchange allowance. Those journeys are marked "change required" throughout the site.</p>
 
 <h2>Station positions</h2>
@@ -1352,7 +1521,7 @@ def generate_llms(stations, counts, page_info, total):
 
     txt = f"""# RailReach
 
-> RailReach is a free interactive map of train journey times from {total} UK stations to the 9 London main line terminals. Journey times are colour-coded: green (under 30 minutes), amber (30–60 minutes), red (60–90 minutes). Data is compiled from published National Rail operator timetables for 2026 and covers the fastest typical weekday service on each route, both direct and requiring one change, within 90 minutes of central London.
+> RailReach is a free interactive map of train journey times from {total} UK stations to {len(TERMINAL_META)} London terminals. Every journey carries three measures: the fastest scheduled weekday service, the typical peak time (median of services arriving 07:00-09:30), and how many trains run in the peak. Computed from Darwin Timetable Files published by the Rail Delivery Group under the Open Government Licence, sampled across three midweek days.
 
 Site last updated: {BUILD_DATE}
 Data last reviewed: {REVIEW_DATE}
@@ -1376,10 +1545,10 @@ Licence: Creative Commons Attribution 4.0. Reuse permitted with attribution to R
 ## Data Summary
 
 - {total} stations covered, all within 90 minutes of a London terminal
-- 9 London main line terminals
+- {len(TERMINAL_META)} London terminals
 - {pairs} station-to-terminal journeys recorded, {direct} of them direct services
 - {under30} stations reach a London terminal in under 30 minutes
-- Times are the fastest typical weekday service, not live departures, and exclude engineering works and disruption
+- Times are scheduled, not live departures, and exclude engineering works and disruption
 - Colour coding: green (<30 min), amber (30–60 min), red (60–90 min)
 
 ## Citation
@@ -1434,7 +1603,7 @@ Page: {SITE}/terminals/{meta['slug']}/
 
 Train journey times from {total} UK stations to the 9 London main line terminals.
 
-Source: published National Rail operator timetables, 2026
+Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 Basis: fastest typical weekday service on each route
 Threshold: journeys of 90 minutes or less
 Last reviewed: {REVIEW_DATE}
@@ -1647,7 +1816,7 @@ def sync_index(terminals, stations, counts, total, data_js):
         html = f.read()
 
     lede = (f'<p class="lede">RailReach maps the fastest weekday train journey from '
-            f'<strong>{total} stations</strong> to all <strong>9 London main line terminals</strong>. '
+            f'<strong>{total} stations</strong> to all <strong>{len(TERMINAL_META)} London terminals</strong>. '
             f'Every station within 90 minutes of central London, colour-coded by journey time. '
             f'Free to use, no sign-up.</p>')
 
@@ -1757,8 +1926,9 @@ def export_dataset(terminals, stations):
     with open(json_path, 'w') as f:
         json.dump({
             'name': 'UK train journey times to London terminals',
-            'source': 'National Rail operator timetables, 2026',
-            'basis': 'fastest typical weekday service',
+            'source': SOURCE_LABEL,
+            'basis': BASIS_LABEL,
+            'method': METHOD_LABEL,
             'maxMinutes': 90,
             'lastReviewed': REVIEW_DATE,
             'coordinateSource': GEO_SOURCE,
@@ -1786,6 +1956,10 @@ def main():
     REVIEW_DATE = _meta.get('lastReviewed', BUILD_DATE)
     GEO_SOURCE = _meta.get('geoSource', 'unspecified')
     GEO_UPDATED = _meta.get('geoUpdated', 'unknown')
+    global SOURCE_LABEL, BASIS_LABEL, METHOD_LABEL
+    SOURCE_LABEL = _meta.get('source', '')
+    BASIS_LABEL = _meta.get('basis', '')
+    METHOD_LABEL = _meta.get('method', '')
     check_timetable_currency(REVIEW_DATE)
     STATION_SLUGS.update({s['name']: s['slug'] for s in stations})
     total = len(stations)

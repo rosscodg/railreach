@@ -2,7 +2,7 @@
 
 Train journey times from 345 UK stations to the 9 London main line terminals.
 
-Source: published National Rail operator timetables, 2026
+Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 Basis: fastest typical weekday service on each route
 Threshold: journeys of 90 minutes or less
 Last reviewed: 2026-08-14

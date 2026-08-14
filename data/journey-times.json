@@ -1,7 +1,8 @@
 {
   "name": "UK train journey times to London terminals",
-  "source": "National Rail operator timetables, 2026",
-  "basis": "fastest typical weekday service",
+  "source": "Darwin Timetable Files (Rail Delivery Group), via Rail Data Marketplace",
+  "basis": "fastest and median-peak weekday service, measured from published timetables",
+  "method": "Journey times computed from Darwin PPTimetable files for three midweek days (2026-08-11, 2026-08-12, 2026-08-13). Only passenger services are counted; passing points, operational stops and cancelled services are excluded. Stations and terminals are matched on TIPLOC using Darwin reference data. \"Fastest\" is the quickest service of the day; \"typical peak\" is the median of services arriving at the London terminal between 07:00 and 09:30.",
   "maxMinutes": 90,
   "lastReviewed": "2026-08-14",
   "coordinateSource": "NaPTAN (Department for Transport), ATCO area 910",

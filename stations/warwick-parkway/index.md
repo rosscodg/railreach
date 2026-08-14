@@ -1,47 +1,13 @@
 # Train times from Warwick Parkway to London
 
-Warwick Parkway connects to 1 London terminal. The fastest route is Marylebone in 78 minutes on a direct train.
+Warwick Parkway has no direct train to a London terminal. Reaching London requires a
+change, and no journey time is published because none has been measured.
 
-- Fastest journey to London: 78 minutes to Marylebone
-- Direct service: Yes
-- London terminals served: 1 (Marylebone)
+- Direct service to London: none found in the timetable
+- Connects towards: Marylebone
 - Operator: Chiltern Railways
-- Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
-
-## Warwick Parkway to each London terminal
-
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Marylebone | 78 min | Direct | Chiltern Railways |
-
-## Frequently asked questions
-
-### How long does the train from Warwick Parkway to London take?
-
-The fastest train from Warwick Parkway reaches London Marylebone in 78 minutes. Warwick Parkway connects to 1 London terminal: Marylebone.
-
-### Which London station should I travel to from Warwick Parkway?
-
-Marylebone is the quickest at 78 minutes, on a direct service. Direct trains run to Marylebone.
-
-### Is Warwick Parkway a good commuter town for London?
-
-At 78 minutes to London Marylebone, Warwick Parkway is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
-
-### Are there direct trains from Warwick Parkway to London?
-
-Yes. Direct services run to Marylebone.
-
-### What are the nearest stations to Warwick Parkway?
-
-The closest alternatives are Warwick, Leamington Spa, Coventry. These can offer a faster or cheaper route into London depending on where you live.
-
-## About this data
-
-Journey times are the fastest typical weekday service, compiled from published
-National Rail operator timetables for 2026. They are not live departure times and
-exclude engineering works and disruption. Full methodology: https://railreach.co.uk/about/
+- Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
+- Data reviewed: 2026-08-14
 
 Source: RailReach - https://railreach.co.uk/stations/warwick-parkway/
 Licence: CC BY 4.0. Please attribute RailReach and link to https://railreach.co.uk/

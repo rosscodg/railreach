@@ -40,15 +40,15 @@
 <main id="content" class="page-content">
 <div class="wrap">
 <h1>About the data</h1>
-<p class="lede">RailReach publishes train journey times from 345 stations to all 9 London main line terminals: 550 station-to-terminal journeys in total, 530 of them direct. This page explains where those numbers come from, and where they should not be relied on.</p>
+<p class="lede">RailReach publishes train journey times from 345 stations to all 11 London terminals: 550 station-to-terminal journeys in total, 530 of them direct. This page explains where those numbers come from, and where they should not be relied on.</p>
 
 <h2>What RailReach is</h2>
 <p>RailReach is a free planning tool for anyone weighing up where to live against how long they will spend on a train. It is built for homebuyers, renters, relocators and daily commuters who need to compare towns on a like-for-like basis, rather than check a specific departure.</p>
 <p>Every station within 90 minutes of a London terminal is plotted on one interactive map and colour-coded by journey time, so the commuter belt can be read at a glance. There is no registration and no paywall.</p>
 
 <h2>Sources and method</h2>
-<p>Journey times are compiled from published National Rail operator timetables for 2026. The operators covered are Avanti West Coast, Chiltern Railways, East Midlands Railway, Elizabeth line, Great Northern, Great Western Railway, Greater Anglia, Hull Trains, LNER, London Northwestern, Lumo, South Western Railway, Southeastern, Southeastern high speed, Southern, Thameslink, c2c.</p>
-<p>Each figure is the <strong>fastest typical weekday service</strong> on that route: the quickest journey a commuter could reasonably expect on a normal working day. It is not an average across all services, and it is not a record-setting one-off. Off-peak, evening and weekend journeys are frequently slower.</p>
+<p>Journey times are computed from Darwin Timetable Files, published by the Rail Delivery Group through the Rail Data Marketplace under the Open Government Licence v3.0. The operators covered are Avanti West Coast, Chiltern Railways, East Midlands Railway, Elizabeth line, Great Northern, Great Western Railway, Greater Anglia, Hull Trains, LNER, London Northwestern, Lumo, South Western Railway, Southeastern, Southeastern high speed, Southern, Thameslink, c2c.</p>
+<p><strong>Fastest</strong> is the quickest scheduled service of the day. <strong>Typical peak</strong> is the median journey time of services arriving at the London terminal between 07:00 and 09:30, which is closer to what a commuter actually experiences. Where the two differ sharply the fastest figure is flattering: a single early express is no help if the train you can catch takes twenty minutes longer. Neither is an average, because off-peak and late-night stopping services distort one.</p>
 <p>Where no direct service exists, the time reflects the quickest routing with one change, including a realistic interchange allowance. Those journeys are marked "change required" throughout the site.</p>
 
 <h2>Station positions</h2>
@@ -95,10 +95,10 @@
 
 <h2>Frequently asked questions</h2>
 <h3>Where does RailReach get its journey times?</h3>
-<p>Times are compiled from published National Rail operator timetables for 2026, covering Avanti West Coast, Chiltern Railways, East Midlands Railway, Elizabeth line, Great Northern, Great Western Railway and others. Each figure is the fastest typical weekday service on that route.</p>
+<p>Times are computed from Darwin Timetable Files, published by the Rail Delivery Group through the Rail Data Marketplace under the Open Government Licence, covering Avanti West Coast, Chiltern Railways, East Midlands Railway, Elizabeth line, Great Northern, Great Western Railway and others. Journeys were measured across three midweek days and matched to stations by TIPLOC.</p>
 <h3>Are these live train times?</h3>
 <p>No. RailReach is a planning tool, not a live departure board. Times do not account for engineering works, strikes or day-to-day disruption. Check National Rail or your operator before travelling.</p>
-<h3>What does "fastest typical weekday service" mean?</h3>
+<h3>What is the difference between fastest and typical peak?</h3>
 <p>The quickest journey a commuter could reasonably expect on a normal weekday, rather than a one-off record time or an average across all services. Off-peak and weekend journeys are often slower.</p>
 <h3>What counts as a direct train?</h3>
 <p>A service running from the origin station to the London terminal without requiring the passenger to change trains. Where a change is needed, the time includes a realistic interchange allowance and the route is marked accordingly.</p>
@@ -107,7 +107,7 @@
 <h3>Can I reuse this data?</h3>
 <p>Yes. The journey time dataset is published under a Creative Commons Attribution 4.0 licence. Please credit RailReach and link back to this site.</p>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-14. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, computed from Darwin Timetable Files published by the Rail Delivery Group under the Open Government Licence. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-14. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 <script type="application/ld+json">[
@@ -138,7 +138,7 @@
 "name": "Where does RailReach get its journey times?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "Times are compiled from published National Rail operator timetables for 2026, covering Avanti West Coast, Chiltern Railways, East Midlands Railway, Elizabeth line, Great Northern, Great Western Railway and others. Each figure is the fastest typical weekday service on that route."
+"text": "Times are computed from Darwin Timetable Files, published by the Rail Delivery Group through the Rail Data Marketplace under the Open Government Licence, covering Avanti West Coast, Chiltern Railways, East Midlands Railway, Elizabeth line, Great Northern, Great Western Railway and others. Journeys were measured across three midweek days and matched to stations by TIPLOC."
 }
 },
 {
@@ -151,7 +151,7 @@
 },
 {
 "@type": "Question",
-"name": "What does \"fastest typical weekday service\" mean?",
+"name": "What is the difference between fastest and typical peak?",
 "acceptedAnswer": {
 "@type": "Answer",
 "text": "The quickest journey a commuter could reasonably expect on a normal weekday, rather than a one-off record time or an average across all services. Off-peak and weekend journeys are often slower."
@@ -187,7 +187,7 @@
 "@context": "https://schema.org",
 "@type": "Dataset",
 "name": "UK Train Journey Times to London Terminals 2026",
-"description": "Journey times from 345 UK stations to 9 London main line terminals, based on published 2026 National Rail operator timetables.",
+"description": "Journey times from 345 UK stations to 11 London terminals, computed from Darwin Timetable Files published by the Rail Delivery Group.",
 "url": "https://railreach.co.uk/about/",
 "license": "https://creativecommons.org/licenses/by/4.0/",
 "creator": {
@@ -219,7 +219,7 @@
 <div class="wrap">
 <div>
 <p><strong>RailReach</strong>: free UK train commute time data.</p>
-<p>Journey times from 345 stations to 9 London main line terminals, sourced from National Rail operator timetables for 2026.</p>
+<p>Journey times from 345 stations to 11 London terminals, computed from Darwin Timetable Files published by the Rail Delivery Group.</p>
 </div>
 <div class="footer-links">
 <a href="/">Map</a>

@@ -6,7 +6,7 @@ Salfords connects to 2 London terminals. The fastest route is London Bridge in 3
 - Direct service: Yes
 - London terminals served: 2 (London Bridge, St Pancras)
 - Operator: Southeastern, Southern, Thameslink
-- Source: National Rail timetables, 2026
+- Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-14
 
 ## Salfords to each London terminal
@@ -40,9 +40,11 @@ The closest alternatives are Earlswood, Horley, Redhill. These can offer a faste
 
 ## About this data
 
-Journey times are the fastest typical weekday service, compiled from published
-National Rail operator timetables for 2026. They are not live departure times and
-exclude engineering works and disruption. Full methodology: https://railreach.co.uk/about/
+Fastest is the quickest scheduled weekday service; typical peak is the median of
+services arriving at the London terminal between 07:00 and 09:30. Computed from
+Darwin Timetable Files published by the Rail Delivery Group under the Open
+Government Licence. Not live times, and they exclude disruption and engineering
+work. Full methodology: https://railreach.co.uk/about/
 
 Source: RailReach - https://railreach.co.uk/stations/salfords/
 Licence: CC BY 4.0. Please attribute RailReach and link to https://railreach.co.uk/
