@@ -1,33 +1,33 @@
 # Train times from Petersfield to London
 
-Petersfield connects to 1 London terminal. The fastest route is Waterloo in 62 minutes on a direct train.
+Petersfield connects to 1 London terminal. The fastest route is Waterloo in 63 minutes on a direct train.
 
-- Fastest journey to London: 62 minutes to Waterloo
+- Fastest journey to London: 63 minutes to Waterloo
 - Direct service: Yes
 - London terminals served: 1 (Waterloo)
 - Operator: South Western Railway
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Petersfield to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Waterloo | 62 min | Direct | South Western Railway |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Waterloo | 63 min | 79 | 4.4 | South Western Railway |
 
 ## Frequently asked questions
 
 ### How long does the train from Petersfield to London take?
 
-The fastest train from Petersfield reaches London Waterloo in 62 minutes. Petersfield connects to 1 London terminal: Waterloo.
+The fastest train from Petersfield reaches London Waterloo in 63 minutes. Petersfield connects to 1 London terminal: Waterloo.
 
 ### Which London station should I travel to from Petersfield?
 
-Waterloo is the quickest at 62 minutes, on a direct service. Direct trains run to Waterloo.
+Waterloo is the quickest at 63 minutes, on a direct service. Direct trains run to Waterloo.
 
 ### Is Petersfield a good commuter town for London?
 
-At 62 minutes to London Waterloo, Petersfield is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
+At 63 minutes to London Waterloo, Petersfield is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from Petersfield to London?
 

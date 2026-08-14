@@ -1,33 +1,33 @@
 # Train times from Hounslow to London
 
-Hounslow connects to 1 London terminal. The fastest route is Waterloo in 30 minutes on a direct train.
+Hounslow connects to 1 London terminal. The fastest route is Waterloo in 37 minutes on a direct train.
 
-- Fastest journey to London: 30 minutes to Waterloo
+- Fastest journey to London: 37 minutes to Waterloo
 - Direct service: Yes
 - London terminals served: 1 (Waterloo)
 - Operator: South Western Railway
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Hounslow to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Waterloo | 30 min | Direct | South Western Railway |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Waterloo | 37 min | 42 | 4.8 | South Western Railway |
 
 ## Frequently asked questions
 
 ### How long does the train from Hounslow to London take?
 
-The fastest train from Hounslow reaches London Waterloo in 30 minutes. Hounslow connects to 1 London terminal: Waterloo.
+The fastest train from Hounslow reaches London Waterloo in 37 minutes. Hounslow connects to 1 London terminal: Waterloo.
 
 ### Which London station should I travel to from Hounslow?
 
-Waterloo is the quickest at 30 minutes, on a direct service. Direct trains run to Waterloo.
+Waterloo is the quickest at 37 minutes, on a direct service. Direct trains run to Waterloo.
 
 ### Is Hounslow a good commuter town for London?
 
-At 30 minutes to London Waterloo, Hounslow is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 37 minutes to London Waterloo, Hounslow is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Hounslow to London?
 

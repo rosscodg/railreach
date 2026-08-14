@@ -1,33 +1,33 @@
 # Train times from Warwick to London
 
-Warwick connects to 1 London terminal. The fastest route is Marylebone in 85 minutes on a direct train.
+Warwick connects to 1 London terminal. The fastest route is Marylebone in 88 minutes on a direct train.
 
-- Fastest journey to London: 85 minutes to Marylebone
+- Fastest journey to London: 88 minutes to Marylebone
 - Direct service: Yes
 - London terminals served: 1 (Marylebone)
 - Operator: Chiltern Railways
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Warwick to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Marylebone | 85 min | Direct | Chiltern Railways |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Marylebone | 88 min | 89 | 2.0 | Chiltern Railways |
 
 ## Frequently asked questions
 
 ### How long does the train from Warwick to London take?
 
-The fastest train from Warwick reaches London Marylebone in 85 minutes. Warwick connects to 1 London terminal: Marylebone.
+The fastest train from Warwick reaches London Marylebone in 88 minutes. Warwick connects to 1 London terminal: Marylebone.
 
 ### Which London station should I travel to from Warwick?
 
-Marylebone is the quickest at 85 minutes, on a direct service. Direct trains run to Marylebone.
+Marylebone is the quickest at 88 minutes, on a direct service. Direct trains run to Marylebone.
 
 ### Is Warwick a good commuter town for London?
 
-At 85 minutes to London Marylebone, Warwick is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
+At 88 minutes to London Marylebone, Warwick is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from Warwick to London?
 

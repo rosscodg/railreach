@@ -1,33 +1,33 @@
 # Train times from Fleet to London
 
-Fleet connects to 1 London terminal. The fastest route is Waterloo in 42 minutes on a direct train.
+Fleet connects to 1 London terminal. The fastest route is Waterloo in 40 minutes on a direct train.
 
-- Fastest journey to London: 42 minutes to Waterloo
+- Fastest journey to London: 40 minutes to Waterloo
 - Direct service: Yes
 - London terminals served: 1 (Waterloo)
 - Operator: South Western Railway
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Fleet to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Waterloo | 42 min | Direct | South Western Railway |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Waterloo | 40 min | 48 | 3.2 | South Western Railway |
 
 ## Frequently asked questions
 
 ### How long does the train from Fleet to London take?
 
-The fastest train from Fleet reaches London Waterloo in 42 minutes. Fleet connects to 1 London terminal: Waterloo.
+The fastest train from Fleet reaches London Waterloo in 40 minutes. Fleet connects to 1 London terminal: Waterloo.
 
 ### Which London station should I travel to from Fleet?
 
-Waterloo is the quickest at 42 minutes, on a direct service. Direct trains run to Waterloo.
+Waterloo is the quickest at 40 minutes, on a direct service. Direct trains run to Waterloo.
 
 ### Is Fleet a good commuter town for London?
 
-At 42 minutes to London Waterloo, Fleet is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 40 minutes to London Waterloo, Fleet is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Fleet to London?
 

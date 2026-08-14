@@ -1,33 +1,33 @@
 # Train times from Swindon to London
 
-Swindon connects to 1 London terminal. The fastest route is Paddington in 50 minutes on a direct train.
+Swindon connects to 1 London terminal. The fastest route is Paddington in 47 minutes on a direct train.
 
-- Fastest journey to London: 50 minutes to Paddington
+- Fastest journey to London: 47 minutes to Paddington
 - Direct service: Yes
 - London terminals served: 1 (Paddington)
 - Operator: Great Western Railway, Elizabeth line
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Swindon to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Paddington | 50 min | Direct | Great Western Railway, Elizabeth line |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Paddington | 47 min | 57 | 4.4 | Great Western Railway, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Swindon to London take?
 
-The fastest train from Swindon reaches London Paddington in 50 minutes. Swindon connects to 1 London terminal: Paddington.
+The fastest train from Swindon reaches London Paddington in 47 minutes. Swindon connects to 1 London terminal: Paddington.
 
 ### Which London station should I travel to from Swindon?
 
-Paddington is the quickest at 50 minutes, on a direct service. Direct trains run to Paddington.
+Paddington is the quickest at 47 minutes, on a direct service. Direct trains run to Paddington.
 
 ### Is Swindon a good commuter town for London?
 
-At 50 minutes to London Paddington, Swindon is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 47 minutes to London Paddington, Swindon is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Swindon to London?
 

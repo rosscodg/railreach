@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>London Moorgate Train Times &amp; Journey Map | RailReach</title>
+<meta name="description" content="Train journey times to London Moorgate from 18 stations: Finsbury Park (14 min), Alexandra Palace (19 min), Hornsey (19 min). Interactive map, direct and indirect routes, 2026 timetable data.">
+<link rel="canonical" href="https://railreach.co.uk/terminals/moorgate/">
+<link rel="alternate" type="text/markdown" href="https://railreach.co.uk/terminals/moorgate/index.md">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://railreach.co.uk/terminals/moorgate/">
+<meta property="og:title" content="Moorgate Train Times | RailReach">
+<meta property="og:description" content="Journey times to London Moorgate from 18 stations, mapped and ranked.">
+<meta property="og:site_name" content="RailReach">
+<meta property="og:image" content="https://railreach.co.uk/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://railreach.co.uk/og-image.png">
+<meta name="theme-color" content="#1e293b">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HKGQBJT0D3"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-HKGQBJT0D3');</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<link rel="stylesheet" href="/assets/css/shared.css">
+<style>:root { --map-h: 56vh; }</style>
+</head>
+<body>
+<a class="skip-link" href="#content">Skip to content</a>
+<header class="site-header">
+<a class="brand" href="/">Rail<span>Reach</span></a>
+<nav class="site-nav" aria-label="Primary">
+<a href="/terminals/" aria-current="page">Terminals</a>
+<a href="/stations/">Stations</a>
+<a href="/about/">About the data</a>
+</nav>
+</header>
+<nav class="crumb-bar" aria-label="Breadcrumb"><ol class="breadcrumb"><li><a href="/">RailReach</a></li><li><a href="/terminals/">Terminals</a></li><li>Moorgate train times</li></ol></nav>
+<div class="map-shell" role="region" aria-label="Map of train journey times to London Moorgate">
+<a class="skip-map" href="#all-stations">Skip the map and read the journey times as a table</a>
+<div id="map"></div>
+<div class="legend">
+<p class="legend-title">Journey Time</p>
+<div class="legend-item"><div class="legend-dot" style="background:#0072B2"></div> <span class="legend-long">Under 30 min</span><span class="legend-short">&lt;30</span></div>
+<div class="legend-item"><div class="legend-dot" style="background:#E69F00"></div> <span class="legend-long">30 to 60 min</span><span class="legend-short">30–60</span></div>
+<div class="legend-item"><div class="legend-dot" style="background:#D55E00"></div> <span class="legend-long">60 to 90 min</span><span class="legend-short">60–90</span></div>
+<div class="legend-item"><div class="legend-dot" style="background:#111827"></div> <span class="legend-long">London Terminal</span><span class="legend-short">Terminal</span></div>
+</div>
+<div class="station-count" id="station-count"></div>
+<div id="promo-banner">
+<a id="promo-slot-1" href="https://www.connells.co.uk/" target="_blank" rel="noopener sponsored">
+<div class="promo-connells">
+<div class="promo-logo">Connells<span>Est. 1936</span></div>
+<div class="promo-body">
+<div class="promo-headline">Found your perfect commute? Now find your perfect home.</div>
+<div class="promo-sub">Over 150 branches nationwide &bull; Free online valuations &bull; Expert local knowledge</div>
+</div>
+<div class="promo-cta">Search Now</div>
+</div>
+</a>
+</div>
+</div><!-- /.map-shell -->
+
+<main id="content" class="page-content">
+<div class="wrap">
+<h1>Train journey times to London Moorgate</h1>
+<p class="lede">18 stations reach London Moorgate within 90 minutes, 18 of them on a direct train. Services are operated by Great Northern. The fastest commute is from Finsbury Park at 14 minutes.</p>
+<dl class="key-facts">
+<div class="fact"><dt>Stations within 90 minutes</dt><dd>18</dd></div>
+<div class="fact"><dt>Direct services</dt><dd>18 of 18</dd></div>
+<div class="fact"><dt>Stations under 30 minutes</dt><dd>6</dd></div>
+<div class="fact"><dt>Fastest station</dt><dd>Finsbury Park, 14 minutes</dd></div>
+<div class="fact"><dt>Operators</dt><dd>Great Northern</dd></div>
+<div class="fact"><dt>Source</dt><dd>National Rail timetables, 2026</dd></div>
+<div class="fact"><dt>Data reviewed</dt><dd>2026-08-14</dd></div>
+</dl>
+
+<h2 id="all-stations">Every station to Moorgate</h2>
+<p class="section-note">Sorted fastest first. Times are the quickest typical weekday service.</p>
+<div class="table-scroll">
+<table>
+<caption>Journey times from 18 stations to London Moorgate</caption>
+<thead><tr><th>Station</th><th>Fastest</th><th>Typical peak</th><th>Peak trains</th></tr></thead>
+<tbody>
+<tr><td><a href="/stations/finsbury-park/">Finsbury Park</a></td><td><span class="t-badge t-fast">14 min</span></td><td><span>14 min</span></td><td>8.8/hr</td></tr>
+<tr><td><a href="/stations/alexandra-palace/">Alexandra Palace</a></td><td><span class="t-badge t-fast">19 min</span></td><td><span>22 min</span></td><td>8.8/hr</td></tr>
+<tr><td><a href="/stations/hornsey/">Hornsey</a></td><td><span class="t-badge t-fast">19 min</span></td><td><span>20 min</span></td><td>6.0/hr</td></tr>
+<tr><td><a href="/stations/oakleigh-park/">Oakleigh Park</a></td><td><span class="t-badge t-fast">25 min</span></td><td><span>30 min</span></td><td>4.0/hr</td></tr>
+<tr><td><a href="/stations/new-barnet/">New Barnet</a></td><td><span class="t-badge t-fast">27 min</span></td><td><span>32 min</span></td><td>4.0/hr</td></tr>
+<tr><td><a href="/stations/enfield-chase/">Enfield Chase</a></td><td><span class="t-badge t-fast">29 min</span></td><td><span>35 min</span></td><td>4.8/hr</td></tr>
+<tr><td><a href="/stations/hadley-wood/">Hadley Wood</a></td><td><span class="t-badge t-mid">30 min</span></td><td><span>35 min</span></td><td>4.0/hr</td></tr>
+<tr><td><a href="/stations/gordon-hill/">Gordon Hill</a></td><td><span class="t-badge t-mid">31 min</span></td><td><span>37 min</span></td><td>4.8/hr</td></tr>
+<tr><td><a href="/stations/potters-bar/">Potters Bar</a></td><td><span class="t-badge t-mid">33 min</span></td><td><span>38 min</span></td><td>4.0/hr</td></tr>
+<tr><td><a href="/stations/brookmans-park/">Brookmans Park</a></td><td><span class="t-badge t-mid">37 min</span></td><td><span>42 min</span></td><td>4.0/hr</td></tr>
+<tr><td><a href="/stations/crews-hill/">Crews Hill</a></td><td><span class="t-badge t-mid">39 min</span></td><td><span>41 min</span></td><td>4.8/hr</td></tr>
+<tr><td><a href="/stations/welham-green/">Welham Green</a></td><td><span class="t-badge t-mid">39 min</span></td><td><span>44 min</span></td><td>4.0/hr</td></tr>
+<tr><td><a href="/stations/cuffley/">Cuffley</a></td><td><span class="t-badge t-mid">42 min</span></td><td><span>44 min</span></td><td>4.8/hr</td></tr>
+<tr><td><a href="/stations/hatfield/">Hatfield</a></td><td><span class="t-badge t-mid">42 min</span></td><td><span>47 min</span></td><td>4.0/hr</td></tr>
+<tr><td><a href="/stations/bayford/">Bayford</a></td><td><span class="t-badge t-mid">46 min</span></td><td><span>48 min</span></td><td>4.8/hr</td></tr>
+<tr><td><a href="/stations/welwyn-garden-city/">Welwyn Garden City</a></td><td><span class="t-badge t-mid">47 min</span></td><td><span>52 min</span></td><td>4.0/hr</td></tr>
+<tr><td><a href="/stations/hertford-north/">Hertford North</a></td><td><span class="t-badge t-mid">50 min</span></td><td><span>52 min</span></td><td>4.8/hr</td></tr>
+<tr><td><a href="/stations/stevenage/">Stevenage</a></td><td><span class="t-badge t-slow">65 min</span></td><td><span>66 min</span></td><td>2.0/hr</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>Frequently asked questions</h2>
+<h3>What is the fastest train to London Moorgate?</h3>
+<p>The fastest connection is from Finsbury Park, at 14 minutes on a direct service. Services into Moorgate are operated by Great Northern.</p>
+<h3>Which commuter towns are within 30 minutes of Moorgate?</h3>
+<p>6 stations reach Moorgate in under 30 minutes, including Finsbury Park, Alexandra Palace, Hornsey, Oakleigh Park, New Barnet, Enfield Chase. These are the shortest commutes available into this terminal.</p>
+<h3>How many stations connect to Moorgate?</h3>
+<p>18 stations have a service to London Moorgate within 90 minutes, and 18 of those are direct trains with no change required.</p>
+<h3>What areas does Moorgate serve?</h3>
+<p>London Moorgate primarily serves the City, and the Hertford loop and Welwyn inner suburbs. Key commuter destinations on this network include Finsbury Park, Alexandra Palace, Hornsey, Oakleigh Park, New Barnet.</p>
+<h3>Is Moorgate a good terminal to commute into?</h3>
+<p>With 18 stations inside 90 minutes and 18 direct services, Moorgate serves a focused commuter corridor. The quickest option is Finsbury Park at 14 minutes.</p>
+
+<h2>Other London terminals</h2>
+<p>Compare journey times into each of the nine London main line termini.</p>
+<div class="terminal-nav"><a href="/terminals/kings-cross/">Kings Cross</a>
+<a href="/terminals/st-pancras/">St Pancras</a>
+<a href="/terminals/waterloo/">Waterloo</a>
+<a href="/terminals/paddington/">Paddington</a>
+<a href="/terminals/london-bridge/">London Bridge</a>
+<a href="/terminals/victoria/">Victoria</a>
+<a href="/terminals/liverpool-street/">Liverpool Street</a>
+<a href="/terminals/euston/">Euston</a>
+<a href="/terminals/marylebone/">Marylebone</a>
+<a href="/terminals/fenchurch-street/">Fenchurch Street</a>
+<a class="current" href="/terminals/moorgate/">Moorgate</a></div>
+
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, compiled from published National Rail operator timetables for 2026. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-14. <a href="/about/">Read the full methodology &rarr;</a></div>
+</div>
+</main>
+
+<script type="application/ld+json">[
+{
+"@context": "https://schema.org",
+"@type": "BreadcrumbList",
+"itemListElement": [
+{
+"@type": "ListItem",
+"position": 1,
+"name": "RailReach",
+"item": "https://railreach.co.uk/"
+},
+{
+"@type": "ListItem",
+"position": 2,
+"name": "Terminals",
+"item": "https://railreach.co.uk/terminals/"
+},
+{
+"@type": "ListItem",
+"position": 3,
+"name": "Moorgate train times",
+"item": "https://railreach.co.uk/terminals/moorgate/"
+}
+]
+},
+{
+"@context": "https://schema.org",
+"@type": "WebPage",
+"name": "London Moorgate train times",
+"description": "18 stations reach London Moorgate within 90 minutes, 18 of them directly. Fastest: Finsbury Park at 14 minutes.",
+"url": "https://railreach.co.uk/terminals/moorgate/",
+"inLanguage": "en-GB",
+"dateModified": "2026-08-14",
+"isPartOf": {
+"@type": "WebSite",
+"name": "RailReach",
+"url": "https://railreach.co.uk/"
+},
+"about": {
+"@type": "Thing",
+"name": "Train journey times to London Moorgate"
+},
+"license": "https://creativecommons.org/licenses/by/4.0/",
+"isAccessibleForFree": true
+},
+{
+"@context": "https://schema.org",
+"@type": "TrainStation",
+"name": "London Moorgate",
+"description": "18 stations reach London Moorgate within 90 minutes, 18 of them directly. Fastest: Finsbury Park at 14 minutes.",
+"url": "https://railreach.co.uk/terminals/moorgate/",
+"geo": {
+"@type": "GeoCoordinates",
+"latitude": 51.518491,
+"longitude": -0.088943
+},
+"containedInPlace": {
+"@type": "Country",
+"name": "United Kingdom"
+}
+},
+{
+"@context": "https://schema.org",
+"@type": "FAQPage",
+"mainEntity": [
+{
+"@type": "Question",
+"name": "What is the fastest train to London Moorgate?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "The fastest connection is from Finsbury Park, at 14 minutes on a direct service. Services into Moorgate are operated by Great Northern."
+}
+},
+{
+"@type": "Question",
+"name": "Which commuter towns are within 30 minutes of Moorgate?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "6 stations reach Moorgate in under 30 minutes, including Finsbury Park, Alexandra Palace, Hornsey, Oakleigh Park, New Barnet, Enfield Chase. These are the shortest commutes available into this terminal."
+}
+},
+{
+"@type": "Question",
+"name": "How many stations connect to Moorgate?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "18 stations have a service to London Moorgate within 90 minutes, and 18 of those are direct trains with no change required."
+}
+},
+{
+"@type": "Question",
+"name": "What areas does Moorgate serve?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "London Moorgate primarily serves the City, and the Hertford loop and Welwyn inner suburbs. Key commuter destinations on this network include Finsbury Park, Alexandra Palace, Hornsey, Oakleigh Park, New Barnet."
+}
+},
+{
+"@type": "Question",
+"name": "Is Moorgate a good terminal to commute into?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "With 18 stations inside 90 minutes and 18 direct services, Moorgate serves a focused commuter corridor. The quickest option is Finsbury Park at 14 minutes."
+}
+}
+]
+}
+]</script>
+
+<script src="/assets/js/stations-data.js"></script>
+<script src="/assets/js/map-ui.js"></script>
+<script>
+const code='MOG';
+const t=TERMINALS[code];
+const map=RR.createMap('map');
+const pts=[[t.lat,t.lng]];
+RR.terminalMarker(map,t.lat,t.lng,'<strong>London '+RR.esc(t.name)+'</strong><br>London terminal');
+let count=0;
+STATIONS.forEach(function(s){
+  const j=s.journeys[code];
+  if(j&&j.mins<=90){
+    RR.stationMarker(map,s,j.mins,RR.stationPopup(s,t.name,j));
+    pts.push([s.lat,s.lng]);
+    count++;
+  }
+});
+document.getElementById('station-count').textContent=count+' stations within 90 min of '+t.name;
+RR.fit(map,pts,{animate:false});
+</script>
+<footer class="site-footer">
+<div class="wrap">
+<div>
+<p><strong>RailReach</strong>: free UK train commute time data.</p>
+<p>Journey times from 345 stations to 9 London main line terminals, sourced from National Rail operator timetables for 2026.</p>
+</div>
+<div class="footer-links">
+<a href="/">Map</a>
+<a href="/terminals/">Terminals</a>
+<a href="/stations/">Stations</a>
+<a href="/about/">About the data</a>
+</div>
+</div>
+</footer>
+<script>if('serviceWorker' in navigator)navigator.serviceWorker.register('/sw.js');</script>
+</body></html>

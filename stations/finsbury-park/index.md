@@ -1,37 +1,40 @@
 # Train times from Finsbury Park to London
 
-Finsbury Park connects to 1 London terminal. The fastest route is Kings Cross in 5 minutes on a direct train.
+Finsbury Park connects to 4 London terminals. The fastest route is Kings Cross in 6 minutes on a direct train.
 
-- Fastest journey to London: 5 minutes to Kings Cross
+- Fastest journey to London: 6 minutes to Kings Cross
 - Direct service: Yes
-- London terminals served: 1 (Kings Cross)
-- Operator: Great Northern, Thameslink, LNER
+- London terminals served: 4 (Kings Cross, St Pancras, Moorgate, London Bridge)
+- Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Finsbury Park to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Kings Cross | 5 min | Direct | Great Northern, Thameslink, LNER |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Kings Cross | 6 min | 7 | 2.0 | Great Northern, LNER, Hull Trains, Lumo |
+| St Pancras | 7 min | 7 | 6.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Moorgate | 14 min | 14 | 8.8 | Great Northern |
+| London Bridge | 22 min | 22 | 4.0 | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 
 ### How long does the train from Finsbury Park to London take?
 
-The fastest train from Finsbury Park reaches London Kings Cross in 5 minutes. Finsbury Park connects to 1 London terminal: Kings Cross.
+The fastest train from Finsbury Park reaches London Kings Cross in 6 minutes. Finsbury Park connects to 4 London terminals: Kings Cross, St Pancras, Moorgate, London Bridge.
 
 ### Which London station should I travel to from Finsbury Park?
 
-Kings Cross is the quickest at 5 minutes, on a direct service. Direct trains run to Kings Cross.
+Kings Cross is the quickest at 6 minutes, on a direct service. Direct trains run to Kings Cross, St Pancras, Moorgate, London Bridge.
 
 ### Is Finsbury Park a good commuter town for London?
 
-At 5 minutes to London Kings Cross, Finsbury Park is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 6 minutes to London Kings Cross, Finsbury Park is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Finsbury Park to London?
 
-Yes. Direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross, St Pancras, Moorgate, London Bridge.
 
 ### What are the nearest stations to Finsbury Park?
 

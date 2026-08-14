@@ -1,33 +1,33 @@
 # Train times from Monks Risborough to London
 
-Monks Risborough connects to 1 London terminal. The fastest route is Marylebone in 40 minutes on a direct train.
+Monks Risborough connects to 1 London terminal. The fastest route is Marylebone in 65 minutes on a direct train.
 
-- Fastest journey to London: 40 minutes to Marylebone
+- Fastest journey to London: 65 minutes to Marylebone
 - Direct service: Yes
 - London terminals served: 1 (Marylebone)
 - Operator: Chiltern Railways
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Monks Risborough to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Marylebone | 40 min | Direct | Chiltern Railways |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Marylebone | 65 min | - | - | Chiltern Railways |
 
 ## Frequently asked questions
 
 ### How long does the train from Monks Risborough to London take?
 
-The fastest train from Monks Risborough reaches London Marylebone in 40 minutes. Monks Risborough connects to 1 London terminal: Marylebone.
+The fastest train from Monks Risborough reaches London Marylebone in 65 minutes. Monks Risborough connects to 1 London terminal: Marylebone.
 
 ### Which London station should I travel to from Monks Risborough?
 
-Marylebone is the quickest at 40 minutes, on a direct service. Direct trains run to Marylebone.
+Marylebone is the quickest at 65 minutes, on a direct service. Direct trains run to Marylebone.
 
 ### Is Monks Risborough a good commuter town for London?
 
-At 40 minutes to London Marylebone, Monks Risborough is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 65 minutes to London Marylebone, Monks Risborough is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from Monks Risborough to London?
 

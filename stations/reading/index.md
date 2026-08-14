@@ -1,29 +1,31 @@
 # Train times from Reading to London
 
-Reading connects to 1 London terminal. The fastest route is Paddington in 23 minutes on a direct train.
+Reading connects to 3 London terminals. The fastest route is Paddington in 23 minutes on a direct train.
 
 - Fastest journey to London: 23 minutes to Paddington
 - Direct service: Yes
-- London terminals served: 1 (Paddington)
+- London terminals served: 3 (Paddington, Liverpool Street, Waterloo)
 - Operator: Great Western Railway, Elizabeth line
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Reading to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Paddington | 23 min | Direct | Great Western Railway, Elizabeth line |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Paddington | 23 min | 28 | 15.6 | Great Western Railway, Elizabeth line |
+| Liverpool Street | 60 min | 63 | 4.0 | Greater Anglia, Elizabeth line |
+| Waterloo | 85 min | 88 | 2.0 | South Western Railway |
 
 ## Frequently asked questions
 
 ### How long does the train from Reading to London take?
 
-The fastest train from Reading reaches London Paddington in 23 minutes. Reading connects to 1 London terminal: Paddington.
+The fastest train from Reading reaches London Paddington in 23 minutes. Reading connects to 3 London terminals: Paddington, Liverpool Street, Waterloo.
 
 ### Which London station should I travel to from Reading?
 
-Paddington is the quickest at 23 minutes, on a direct service. Direct trains run to Paddington.
+Paddington is the quickest at 23 minutes, on a direct service. Direct trains run to Paddington, Liverpool Street, Waterloo.
 
 ### Is Reading a good commuter town for London?
 
@@ -31,7 +33,7 @@ At 23 minutes to London Paddington, Reading is an excellent commuter base, with 
 
 ### Are there direct trains from Reading to London?
 
-Yes. Direct services run to Paddington.
+Yes. Direct services run to Paddington, Liverpool Street, Waterloo.
 
 ### What are the nearest stations to Reading?
 

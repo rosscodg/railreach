@@ -1,33 +1,33 @@
 # Train times from Bushey to London
 
-Bushey connects to 1 London terminal. The fastest route is Euston in 14 minutes on a direct train.
+Bushey connects to 1 London terminal. The fastest route is Euston in 16 minutes on a direct train.
 
-- Fastest journey to London: 14 minutes to Euston
+- Fastest journey to London: 16 minutes to Euston
 - Direct service: Yes
 - London terminals served: 1 (Euston)
 - Operator: Avanti West Coast, London Northwestern
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Bushey to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Euston | 14 min | Direct | Avanti West Coast, London Northwestern |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Euston | 16 min | 21 | 7.9 | Avanti West Coast, London Northwestern |
 
 ## Frequently asked questions
 
 ### How long does the train from Bushey to London take?
 
-The fastest train from Bushey reaches London Euston in 14 minutes. Bushey connects to 1 London terminal: Euston.
+The fastest train from Bushey reaches London Euston in 16 minutes. Bushey connects to 1 London terminal: Euston.
 
 ### Which London station should I travel to from Bushey?
 
-Euston is the quickest at 14 minutes, on a direct service. Direct trains run to Euston.
+Euston is the quickest at 16 minutes, on a direct service. Direct trains run to Euston.
 
 ### Is Bushey a good commuter town for London?
 
-At 14 minutes to London Euston, Bushey is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 16 minutes to London Euston, Bushey is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Bushey to London?
 

@@ -1,33 +1,33 @@
 # Train times from Leigh-on-Sea to London
 
-Leigh-on-Sea connects to 1 London terminal. The fastest route is Fenchurch Street in 47 minutes on a direct train.
+Leigh-on-Sea connects to 1 London terminal. The fastest route is Fenchurch Street in 41 minutes on a direct train.
 
-- Fastest journey to London: 47 minutes to Fenchurch Street
+- Fastest journey to London: 41 minutes to Fenchurch Street
 - Direct service: Yes
 - London terminals served: 1 (Fenchurch Street)
 - Operator: c2c
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Leigh-on-Sea to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Fenchurch Street | 47 min | Direct | c2c |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Fenchurch Street | 41 min | 48 | 8.0 | c2c |
 
 ## Frequently asked questions
 
 ### How long does the train from Leigh-on-Sea to London take?
 
-The fastest train from Leigh-on-Sea reaches London Fenchurch Street in 47 minutes. Leigh-on-Sea connects to 1 London terminal: Fenchurch Street.
+The fastest train from Leigh-on-Sea reaches London Fenchurch Street in 41 minutes. Leigh-on-Sea connects to 1 London terminal: Fenchurch Street.
 
 ### Which London station should I travel to from Leigh-on-Sea?
 
-Fenchurch Street is the quickest at 47 minutes, on a direct service. Direct trains run to Fenchurch Street.
+Fenchurch Street is the quickest at 41 minutes, on a direct service. Direct trains run to Fenchurch Street.
 
 ### Is Leigh-on-Sea a good commuter town for London?
 
-At 47 minutes to London Fenchurch Street, Leigh-on-Sea is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 41 minutes to London Fenchurch Street, Leigh-on-Sea is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Leigh-on-Sea to London?
 

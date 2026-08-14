@@ -1,33 +1,33 @@
 # Train times from Aylesbury Vale Parkway to London
 
-Aylesbury Vale Parkway connects to 1 London terminal. The fastest route is Marylebone in 62 minutes on a direct train.
+Aylesbury Vale Parkway connects to 1 London terminal. The fastest route is Marylebone in 60 minutes on a direct train.
 
-- Fastest journey to London: 62 minutes to Marylebone
+- Fastest journey to London: 60 minutes to Marylebone
 - Direct service: Yes
 - London terminals served: 1 (Marylebone)
 - Operator: Chiltern Railways
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Aylesbury Vale Parkway to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Marylebone | 62 min | Direct | Chiltern Railways |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Marylebone | 60 min | 67 | 2.0 | Chiltern Railways |
 
 ## Frequently asked questions
 
 ### How long does the train from Aylesbury Vale Parkway to London take?
 
-The fastest train from Aylesbury Vale Parkway reaches London Marylebone in 62 minutes. Aylesbury Vale Parkway connects to 1 London terminal: Marylebone.
+The fastest train from Aylesbury Vale Parkway reaches London Marylebone in 60 minutes. Aylesbury Vale Parkway connects to 1 London terminal: Marylebone.
 
 ### Which London station should I travel to from Aylesbury Vale Parkway?
 
-Marylebone is the quickest at 62 minutes, on a direct service. Direct trains run to Marylebone.
+Marylebone is the quickest at 60 minutes, on a direct service. Direct trains run to Marylebone.
 
 ### Is Aylesbury Vale Parkway a good commuter town for London?
 
-At 62 minutes to London Marylebone, Aylesbury Vale Parkway is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
+At 60 minutes to London Marylebone, Aylesbury Vale Parkway is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from Aylesbury Vale Parkway to London?
 

@@ -1,33 +1,33 @@
 # Train times from Manningtree to London
 
-Manningtree connects to 1 London terminal. The fastest route is Liverpool Street in 58 minutes on a direct train.
+Manningtree connects to 1 London terminal. The fastest route is Liverpool Street in 56 minutes on a direct train.
 
-- Fastest journey to London: 58 minutes to Liverpool Street
+- Fastest journey to London: 56 minutes to Liverpool Street
 - Direct service: Yes
 - London terminals served: 1 (Liverpool Street)
-- Operator: Greater Anglia
+- Operator: Greater Anglia, Elizabeth line
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Manningtree to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Liverpool Street | 58 min | Direct | Greater Anglia |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Liverpool Street | 56 min | 65 | 3.6 | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Manningtree to London take?
 
-The fastest train from Manningtree reaches London Liverpool Street in 58 minutes. Manningtree connects to 1 London terminal: Liverpool Street.
+The fastest train from Manningtree reaches London Liverpool Street in 56 minutes. Manningtree connects to 1 London terminal: Liverpool Street.
 
 ### Which London station should I travel to from Manningtree?
 
-Liverpool Street is the quickest at 58 minutes, on a direct service. Direct trains run to Liverpool Street.
+Liverpool Street is the quickest at 56 minutes, on a direct service. Direct trains run to Liverpool Street.
 
 ### Is Manningtree a good commuter town for London?
 
-At 58 minutes to London Liverpool Street, Manningtree is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 56 minutes to London Liverpool Street, Manningtree is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Manningtree to London?
 

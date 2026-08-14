@@ -1,37 +1,38 @@
 # Train times from Pluckley to London
 
-Pluckley connects to 1 London terminal. The fastest route is Victoria in 72 minutes on a direct train.
+Pluckley connects to 2 London terminals. The fastest route is London Bridge in 64 minutes on a direct train.
 
-- Fastest journey to London: 72 minutes to Victoria
+- Fastest journey to London: 64 minutes to London Bridge
 - Direct service: Yes
-- London terminals served: 1 (Victoria)
-- Operator: Southeastern, Southern
+- London terminals served: 2 (London Bridge, Victoria)
+- Operator: Southeastern, Southern, Thameslink
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Pluckley to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Victoria | 72 min | Direct | Southeastern, Southern |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| London Bridge | 64 min | 67 | 3.2 | Southeastern, Southern, Thameslink |
+| Victoria | change required | - | - | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from Pluckley to London take?
 
-The fastest train from Pluckley reaches London Victoria in 72 minutes. Pluckley connects to 1 London terminal: Victoria.
+The fastest train from Pluckley reaches London London Bridge in 64 minutes. Pluckley connects to 2 London terminals: London Bridge, Victoria.
 
 ### Which London station should I travel to from Pluckley?
 
-Victoria is the quickest at 72 minutes, on a direct service. Direct trains run to Victoria.
+London Bridge is the quickest at 64 minutes, on a direct service. Direct trains run to London Bridge.
 
 ### Is Pluckley a good commuter town for London?
 
-At 72 minutes to London Victoria, Pluckley is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
+At 64 minutes to London London Bridge, Pluckley is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from Pluckley to London?
 
-Yes. Direct services run to Victoria.
+Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Pluckley?
 

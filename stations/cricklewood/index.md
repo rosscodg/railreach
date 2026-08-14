@@ -1,37 +1,37 @@
 # Train times from Cricklewood to London
 
-Cricklewood connects to 1 London terminal. The fastest route is Kings Cross in 12 minutes on a direct train.
+Cricklewood connects to 1 London terminal. The fastest route is St Pancras in 13 minutes on a direct train.
 
-- Fastest journey to London: 12 minutes to Kings Cross
+- Fastest journey to London: 13 minutes to St Pancras
 - Direct service: Yes
-- London terminals served: 1 (Kings Cross)
-- Operator: Great Northern, Thameslink, LNER
+- London terminals served: 1 (St Pancras)
+- Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Cricklewood to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Kings Cross | 12 min | Direct | Great Northern, Thameslink, LNER |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| St Pancras | 13 min | 13 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 
 ### How long does the train from Cricklewood to London take?
 
-The fastest train from Cricklewood reaches London Kings Cross in 12 minutes. Cricklewood connects to 1 London terminal: Kings Cross.
+The fastest train from Cricklewood reaches London St Pancras in 13 minutes. Cricklewood connects to 1 London terminal: St Pancras.
 
 ### Which London station should I travel to from Cricklewood?
 
-Kings Cross is the quickest at 12 minutes, on a direct service. Direct trains run to Kings Cross.
+St Pancras is the quickest at 13 minutes, on a direct service. Direct trains run to St Pancras.
 
 ### Is Cricklewood a good commuter town for London?
 
-At 12 minutes to London Kings Cross, Cricklewood is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 13 minutes to London St Pancras, Cricklewood is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Cricklewood to London?
 
-Yes. Direct services run to Kings Cross.
+Yes. Direct services run to St Pancras.
 
 ### What are the nearest stations to Cricklewood?
 

@@ -6,46 +6,46 @@ direct train. Services are operated by Chiltern Railways.
 - Stations within 90 minutes: 21
 - Direct services: 21 of 21
 - Stations under 30 minutes: 6
-- Fastest station: Denham - 18 minutes
+- Fastest station: Denham - 19 minutes
 - Operators: Chiltern Railways
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Every station to Marylebone
 
-| Station | Journey time | Service |
-| --- | --- | --- |
-| Denham | 18 min | Direct |
-| Denham Golf Club | 20 min | Direct |
-| Gerrards Cross | 21 min | Direct |
-| Seer Green & Jordans | 23 min | Direct |
-| Beaconsfield | 24 min | Direct |
-| High Wycombe | 27 min | Direct |
-| Saunderton | 32 min | Direct |
-| Princes Risborough | 37 min | Direct |
-| Great Missenden | 38 min | Direct |
-| Monks Risborough | 40 min | Direct |
-| Little Kimble | 43 min | Direct |
-| Stoke Mandeville | 47 min | Direct |
-| Haddenham & Thame Parkway | 48 min | Direct |
-| Bicester North | 49 min | Direct |
-| Kings Sutton | 55 min | Direct |
-| Aylesbury | 58 min | Direct |
-| Banbury | 58 min | Direct |
-| Aylesbury Vale Parkway | 62 min | Direct |
-| Leamington Spa | 72 min | Direct |
-| Warwick Parkway | 78 min | Direct |
-| Warwick | 85 min | Direct |
+| Station | Fastest | Typical peak | Peak trains/hr |
+| --- | --- | --- | --- |
+| Denham | 19 min | 22 | 1.6 |
+| Gerrards Cross | 19 min | 28 | 4.0 |
+| Denham Golf Club | 22 min | 24 | 0.8 |
+| Seer Green & Jordans | 24 min | 33 | 1.6 |
+| Beaconsfield | 25 min | 32 | 3.6 |
+| High Wycombe | 25 min | 39 | 5.2 |
+| Saunderton | 35 min | 46 | 1.6 |
+| Great Missenden | 39 min | 46 | 3.2 |
+| Haddenham & Thame Parkway | 39 min | 52 | 2.8 |
+| Princes Risborough | 39 min | 49 | 2.0 |
+| Bicester North | 48 min | 52 | 2.4 |
+| Stoke Mandeville | 50 min | 56 | 3.2 |
+| Aylesbury | 55 min | 61 | 3.2 |
+| Aylesbury Vale Parkway | 60 min | 67 | 2.0 |
+| Banbury | 62 min | 65 | 2.0 |
+| Monks Risborough | 65 min | - | - |
+| Little Kimble | 69 min | - | - |
+| Kings Sutton | 71 min | 83 | 0.4 |
+| Oxford | 74 min | 87 | 2.0 |
+| Leamington Spa | 82 min | 83 | 2.0 |
+| Warwick | 88 min | 89 | 2.0 |
 
 ## Frequently asked questions
 
 ### What is the fastest train to London Marylebone?
 
-The fastest connection is from Denham, at 18 minutes on a direct service. Services into Marylebone are operated by Chiltern Railways.
+The fastest connection is from Denham, at 19 minutes on a direct service. Services into Marylebone are operated by Chiltern Railways.
 
 ### Which commuter towns are within 30 minutes of Marylebone?
 
-6 stations reach Marylebone in under 30 minutes, including Denham, Denham Golf Club, Gerrards Cross, Seer Green & Jordans, Beaconsfield, High Wycombe. These are the shortest commutes available into this terminal.
+6 stations reach Marylebone in under 30 minutes, including Denham, Gerrards Cross, Denham Golf Club, Seer Green & Jordans, Beaconsfield, High Wycombe. These are the shortest commutes available into this terminal.
 
 ### How many stations connect to Marylebone?
 
@@ -53,11 +53,11 @@ The fastest connection is from Denham, at 18 minutes on a direct service. Servic
 
 ### What areas does Marylebone serve?
 
-London Marylebone primarily serves the Chilterns, Buckinghamshire and Oxfordshire. Key commuter destinations on this network include Denham, Denham Golf Club, Gerrards Cross, Seer Green & Jordans, Beaconsfield.
+London Marylebone primarily serves the Chilterns, Buckinghamshire and Oxfordshire. Key commuter destinations on this network include Denham, Gerrards Cross, Denham Golf Club, Seer Green & Jordans, Beaconsfield.
 
 ### Is Marylebone a good terminal to commute into?
 
-With 21 stations inside 90 minutes and 21 direct services, Marylebone serves a focused commuter corridor. The quickest option is Denham at 18 minutes.
+With 21 stations inside 90 minutes and 21 direct services, Marylebone serves a focused commuter corridor. The quickest option is Denham at 19 minutes.
 
 ## About this data
 

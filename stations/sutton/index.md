@@ -1,37 +1,39 @@
 # Train times from Sutton to London
 
-Sutton connects to 1 London terminal. The fastest route is Victoria in 30 minutes on a direct train.
+Sutton connects to 3 London terminals. The fastest route is London Bridge in 32 minutes on a direct train.
 
-- Fastest journey to London: 30 minutes to Victoria
+- Fastest journey to London: 32 minutes to London Bridge
 - Direct service: Yes
-- London terminals served: 1 (Victoria)
-- Operator: Southeastern, Southern
+- London terminals served: 3 (London Bridge, Victoria, St Pancras)
+- Operator: Southeastern, Southern, Thameslink
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Sutton to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Victoria | 30 min | Direct | Southeastern, Southern |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| London Bridge | 32 min | 32 | 2.4 | Southeastern, Southern, Thameslink |
+| Victoria | 32 min | 48 | 6.4 | Southeastern, Southern |
+| St Pancras | 47 min | 53 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 
 ### How long does the train from Sutton to London take?
 
-The fastest train from Sutton reaches London Victoria in 30 minutes. Sutton connects to 1 London terminal: Victoria.
+The fastest train from Sutton reaches London London Bridge in 32 minutes. Sutton connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Sutton?
 
-Victoria is the quickest at 30 minutes, on a direct service. Direct trains run to Victoria.
+London Bridge is the quickest at 32 minutes, on a direct service. Direct trains run to London Bridge, Victoria, St Pancras.
 
 ### Is Sutton a good commuter town for London?
 
-At 30 minutes to London Victoria, Sutton is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 32 minutes to London London Bridge, Sutton is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Sutton to London?
 
-Yes. Direct services run to Victoria.
+Yes. Direct services run to London Bridge, Victoria, St Pancras.
 
 ### What are the nearest stations to Sutton?
 

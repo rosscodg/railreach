@@ -1,37 +1,38 @@
 # Train times from Burnham to London
 
-Burnham connects to 1 London terminal. The fastest route is Paddington in 22 minutes on a direct train.
+Burnham connects to 2 London terminals. The fastest route is Paddington in 33 minutes on a direct train.
 
-- Fastest journey to London: 22 minutes to Paddington
+- Fastest journey to London: 33 minutes to Paddington
 - Direct service: Yes
-- London terminals served: 1 (Paddington)
+- London terminals served: 2 (Paddington, Liverpool Street)
 - Operator: Great Western Railway, Elizabeth line
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Burnham to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Paddington | 22 min | Direct | Great Western Railway, Elizabeth line |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Paddington | 33 min | 36 | 6.0 | Great Western Railway, Elizabeth line |
+| Liverpool Street | 43 min | 47 | 6.0 | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Burnham to London take?
 
-The fastest train from Burnham reaches London Paddington in 22 minutes. Burnham connects to 1 London terminal: Paddington.
+The fastest train from Burnham reaches London Paddington in 33 minutes. Burnham connects to 2 London terminals: Paddington, Liverpool Street.
 
 ### Which London station should I travel to from Burnham?
 
-Paddington is the quickest at 22 minutes, on a direct service. Direct trains run to Paddington.
+Paddington is the quickest at 33 minutes, on a direct service. Direct trains run to Paddington, Liverpool Street.
 
 ### Is Burnham a good commuter town for London?
 
-At 22 minutes to London Paddington, Burnham is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 33 minutes to London Paddington, Burnham is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Burnham to London?
 
-Yes. Direct services run to Paddington.
+Yes. Direct services run to Paddington, Liverpool Street.
 
 ### What are the nearest stations to Burnham?
 

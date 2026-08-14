@@ -1,33 +1,33 @@
 # Train times from Denham to London
 
-Denham connects to 1 London terminal. The fastest route is Marylebone in 18 minutes on a direct train.
+Denham connects to 1 London terminal. The fastest route is Marylebone in 19 minutes on a direct train.
 
-- Fastest journey to London: 18 minutes to Marylebone
+- Fastest journey to London: 19 minutes to Marylebone
 - Direct service: Yes
 - London terminals served: 1 (Marylebone)
 - Operator: Chiltern Railways
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Denham to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Marylebone | 18 min | Direct | Chiltern Railways |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Marylebone | 19 min | 22 | 1.6 | Chiltern Railways |
 
 ## Frequently asked questions
 
 ### How long does the train from Denham to London take?
 
-The fastest train from Denham reaches London Marylebone in 18 minutes. Denham connects to 1 London terminal: Marylebone.
+The fastest train from Denham reaches London Marylebone in 19 minutes. Denham connects to 1 London terminal: Marylebone.
 
 ### Which London station should I travel to from Denham?
 
-Marylebone is the quickest at 18 minutes, on a direct service. Direct trains run to Marylebone.
+Marylebone is the quickest at 19 minutes, on a direct service. Direct trains run to Marylebone.
 
 ### Is Denham a good commuter town for London?
 
-At 18 minutes to London Marylebone, Denham is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 19 minutes to London Marylebone, Denham is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Denham to London?
 

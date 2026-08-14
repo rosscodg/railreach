@@ -38,11 +38,16 @@ FILES = [
 # original data merged them: St Albans and Bedford have no Kings Cross service
 # at all, they run to St Pancras. Split, on the grounds that a journey guide
 # should say which station you actually arrive at.
+# Moorgate is added for the same reason. Great Northern's inner-suburban
+# stations run there in the peak, not to Kings Cross: Welham Green, Brookmans
+# Park, Cuffley and Gordon Hill have ZERO peak services to Kings Cross, and
+# Crews Hill and Bayford have none at any hour. Publishing a Kings Cross time
+# for those was telling commuters to catch a train that does not exist.
 TERMINAL_CRS = {
     'KGX': 'Kings Cross', 'STP': 'St Pancras', 'WAT': 'Waterloo',
     'PAD': 'Paddington', 'LBG': 'London Bridge', 'VIC': 'Victoria',
     'LST': 'Liverpool Street', 'EUS': 'Euston', 'MYB': 'Marylebone',
-    'FST': 'Fenchurch Street',
+    'FST': 'Fenchurch Street', 'MOG': 'Moorgate',
 }
 TERMINAL_NAMES = dict(TERMINAL_CRS)
 REF_FILE = 'PPTimetable_20260812020537_ref_v4.xml.gz'
@@ -98,9 +103,7 @@ def main():
     tpl_to_crs, crs_to_tpls = load_reference()
     terminal_tiplocs = {}
     for code, name in TERMINAL_CRS.items():
-        crs = {'KGX': 'KGX', 'STP': 'STP', 'WAT': 'WAT', 'PAD': 'PAD', 'LBG': 'LBG',
-               'VIC': 'VIC', 'LST': 'LST', 'EUS': 'EUS', 'MYB': 'MYB', 'FST': 'FST'}[code]
-        terminal_tiplocs[code] = crs_to_tpls.get(crs, set())
+        terminal_tiplocs[code] = crs_to_tpls.get(code, set())
     print("terminal TIPLOCs from Darwin reference data:")
     for c, t in terminal_tiplocs.items():
         print(f"  {c} {TERMINAL_NAMES[c]:<18} {sorted(t)}")

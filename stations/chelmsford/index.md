@@ -1,33 +1,33 @@
 # Train times from Chelmsford to London
 
-Chelmsford connects to 1 London terminal. The fastest route is Liverpool Street in 30 minutes on a direct train.
+Chelmsford connects to 1 London terminal. The fastest route is Liverpool Street in 29 minutes on a direct train.
 
-- Fastest journey to London: 30 minutes to Liverpool Street
+- Fastest journey to London: 29 minutes to Liverpool Street
 - Direct service: Yes
 - London terminals served: 1 (Liverpool Street)
-- Operator: Greater Anglia
+- Operator: Greater Anglia, Elizabeth line
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Chelmsford to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Liverpool Street | 30 min | Direct | Greater Anglia |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Liverpool Street | 29 min | 38 | 7.2 | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Chelmsford to London take?
 
-The fastest train from Chelmsford reaches London Liverpool Street in 30 minutes. Chelmsford connects to 1 London terminal: Liverpool Street.
+The fastest train from Chelmsford reaches London Liverpool Street in 29 minutes. Chelmsford connects to 1 London terminal: Liverpool Street.
 
 ### Which London station should I travel to from Chelmsford?
 
-Liverpool Street is the quickest at 30 minutes, on a direct service. Direct trains run to Liverpool Street.
+Liverpool Street is the quickest at 29 minutes, on a direct service. Direct trains run to Liverpool Street.
 
 ### Is Chelmsford a good commuter town for London?
 
-At 30 minutes to London Liverpool Street, Chelmsford is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 29 minutes to London Liverpool Street, Chelmsford is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Chelmsford to London?
 

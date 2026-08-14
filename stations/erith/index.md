@@ -1,33 +1,33 @@
 # Train times from Erith to London
 
-Erith connects to 1 London terminal. The fastest route is London Bridge in 28 minutes on a direct train.
+Erith connects to 1 London terminal. The fastest route is London Bridge in 33 minutes on a direct train.
 
-- Fastest journey to London: 28 minutes to London Bridge
+- Fastest journey to London: 33 minutes to London Bridge
 - Direct service: Yes
 - London terminals served: 1 (London Bridge)
 - Operator: Southeastern, Southern, Thameslink
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Erith to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| London Bridge | 28 min | Direct | Southeastern, Southern, Thameslink |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| London Bridge | 33 min | 40 | 7.6 | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 
 ### How long does the train from Erith to London take?
 
-The fastest train from Erith reaches London London Bridge in 28 minutes. Erith connects to 1 London terminal: London Bridge.
+The fastest train from Erith reaches London London Bridge in 33 minutes. Erith connects to 1 London terminal: London Bridge.
 
 ### Which London station should I travel to from Erith?
 
-London Bridge is the quickest at 28 minutes, on a direct service. Direct trains run to London Bridge.
+London Bridge is the quickest at 33 minutes, on a direct service. Direct trains run to London Bridge.
 
 ### Is Erith a good commuter town for London?
 
-At 28 minutes to London London Bridge, Erith is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 33 minutes to London London Bridge, Erith is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Erith to London?
 

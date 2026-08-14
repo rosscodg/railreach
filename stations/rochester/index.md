@@ -1,37 +1,39 @@
 # Train times from Rochester to London
 
-Rochester connects to 1 London terminal. The fastest route is London Bridge in 38 minutes on a direct train.
+Rochester connects to 3 London terminals. The fastest route is St Pancras in 36 minutes on a direct train.
 
-- Fastest journey to London: 38 minutes to London Bridge
+- Fastest journey to London: 36 minutes to St Pancras
 - Direct service: Yes
-- London terminals served: 1 (London Bridge)
-- Operator: Southeastern, Southern, Thameslink
+- London terminals served: 3 (St Pancras, London Bridge, Victoria)
+- Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Rochester to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| London Bridge | 38 min | Direct | Southeastern, Southern, Thameslink |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| St Pancras | 36 min | 64 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 37 min | 57 | 4.8 | Southeastern, Southern, Thameslink |
+| Victoria | 41 min | 60 | 4.0 | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from Rochester to London take?
 
-The fastest train from Rochester reaches London London Bridge in 38 minutes. Rochester connects to 1 London terminal: London Bridge.
+The fastest train from Rochester reaches London St Pancras in 36 minutes. Rochester connects to 3 London terminals: St Pancras, London Bridge, Victoria.
 
 ### Which London station should I travel to from Rochester?
 
-London Bridge is the quickest at 38 minutes, on a direct service. Direct trains run to London Bridge.
+St Pancras is the quickest at 36 minutes, on a direct service. Direct trains run to St Pancras, London Bridge, Victoria.
 
 ### Is Rochester a good commuter town for London?
 
-At 38 minutes to London London Bridge, Rochester is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 36 minutes to London St Pancras, Rochester is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Rochester to London?
 
-Yes. Direct services run to London Bridge.
+Yes. Direct services run to St Pancras, London Bridge, Victoria.
 
 ### What are the nearest stations to Rochester?
 

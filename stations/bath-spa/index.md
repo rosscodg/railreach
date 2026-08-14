@@ -1,33 +1,33 @@
 # Train times from Bath Spa to London
 
-Bath Spa connects to 1 London terminal. The fastest route is Paddington in 73 minutes on a direct train.
+Bath Spa connects to 1 London terminal. The fastest route is Paddington in 76 minutes on a direct train.
 
-- Fastest journey to London: 73 minutes to Paddington
+- Fastest journey to London: 76 minutes to Paddington
 - Direct service: Yes
 - London terminals served: 1 (Paddington)
 - Operator: Great Western Railway, Elizabeth line
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Bath Spa to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Paddington | 73 min | Direct | Great Western Railway, Elizabeth line |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Paddington | 76 min | 83 | 1.6 | Great Western Railway, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Bath Spa to London take?
 
-The fastest train from Bath Spa reaches London Paddington in 73 minutes. Bath Spa connects to 1 London terminal: Paddington.
+The fastest train from Bath Spa reaches London Paddington in 76 minutes. Bath Spa connects to 1 London terminal: Paddington.
 
 ### Which London station should I travel to from Bath Spa?
 
-Paddington is the quickest at 73 minutes, on a direct service. Direct trains run to Paddington.
+Paddington is the quickest at 76 minutes, on a direct service. Direct trains run to Paddington.
 
 ### Is Bath Spa a good commuter town for London?
 
-At 73 minutes to London Paddington, Bath Spa is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
+At 76 minutes to London Paddington, Bath Spa is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from Bath Spa to London?
 

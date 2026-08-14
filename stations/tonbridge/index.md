@@ -1,34 +1,34 @@
 # Train times from Tonbridge to London
 
-Tonbridge connects to 2 London terminals. The fastest route is London Bridge in 36 minutes on a direct train.
+Tonbridge connects to 2 London terminals. The fastest route is London Bridge in 33 minutes on a direct train.
 
-- Fastest journey to London: 36 minutes to London Bridge
+- Fastest journey to London: 33 minutes to London Bridge
 - Direct service: Yes
 - London terminals served: 2 (London Bridge, Victoria)
 - Operator: Southeastern, Southern, Thameslink
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Tonbridge to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| London Bridge | 36 min | Direct | Southeastern, Southern, Thameslink |
-| Victoria | 40 min | Direct | Southeastern, Southern |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| London Bridge | 33 min | 37 | 6.8 | Southeastern, Southern, Thameslink |
+| Victoria | 42 min | 47 | 2.0 | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from Tonbridge to London take?
 
-The fastest train from Tonbridge reaches London London Bridge in 36 minutes. Tonbridge connects to 2 London terminals: London Bridge, Victoria.
+The fastest train from Tonbridge reaches London London Bridge in 33 minutes. Tonbridge connects to 2 London terminals: London Bridge, Victoria.
 
 ### Which London station should I travel to from Tonbridge?
 
-London Bridge is the quickest at 36 minutes, on a direct service. Direct trains run to London Bridge, Victoria.
+London Bridge is the quickest at 33 minutes, on a direct service. Direct trains run to London Bridge, Victoria.
 
 ### Is Tonbridge a good commuter town for London?
 
-At 36 minutes to London London Bridge, Tonbridge is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 33 minutes to London London Bridge, Tonbridge is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Tonbridge to London?
 

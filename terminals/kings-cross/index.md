@@ -1,91 +1,77 @@
 # Train journey times to London Kings Cross
 
-49 stations reach London Kings Cross within 90 minutes, 49 of them on a
-direct train. Services are operated by Great Northern, Thameslink, LNER.
+35 stations reach London Kings Cross within 90 minutes, 35 of them on a
+direct train. Services are operated by Great Northern, LNER, Hull Trains, Lumo.
 
-- Stations within 90 minutes: 49
-- Direct services: 49 of 49
-- Stations under 30 minutes: 28
-- Fastest station: Kentish Town - 4 minutes
-- Operators: Great Northern, Thameslink, LNER
+- Stations within 90 minutes: 35
+- Direct services: 35 of 35
+- Stations under 30 minutes: 15
+- Fastest station: Finsbury Park - 6 minutes
+- Operators: Great Northern, LNER, Hull Trains, Lumo
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Every station to Kings Cross
 
-| Station | Journey time | Service |
-| --- | --- | --- |
-| Kentish Town | 4 min | Direct |
-| Finsbury Park | 5 min | Direct |
-| West Hampstead Thameslink | 8 min | Direct |
-| Hornsey | 9 min | Direct |
-| Alexandra Palace | 12 min | Direct |
-| Cricklewood | 12 min | Direct |
-| Mill Hill Broadway | 17 min | Direct |
-| Oakleigh Park | 17 min | Direct |
-| Potters Bar | 18 min | Direct |
-| New Barnet | 20 min | Direct |
-| St Albans City | 20 min | Direct |
-| Stevenage | 20 min | Direct |
-| Elstree & Borehamwood | 21 min | Direct |
-| Enfield Chase | 22 min | Direct |
-| Hadley Wood | 22 min | Direct |
-| Hatfield | 23 min | Direct |
-| Luton Airport Parkway | 23 min | Direct |
-| Brookmans Park | 24 min | Direct |
-| Radlett | 24 min | Direct |
-| Gordon Hill | 25 min | Direct |
-| Luton | 25 min | Direct |
-| Welwyn Garden City | 25 min | Direct |
-| Welham Green | 26 min | Direct |
-| Crews Hill | 28 min | Direct |
-| Harpenden | 28 min | Direct |
-| Knebworth | 28 min | Direct |
-| Hitchin | 29 min | Direct |
-| Welwyn North | 29 min | Direct |
-| Cuffley | 32 min | Direct |
-| Letchworth Garden City | 35 min | Direct |
-| Bayford | 36 min | Direct |
-| Baldock | 37 min | Direct |
-| Arlesey | 38 min | Direct |
-| Bedford | 39 min | Direct |
-| Biggleswade | 40 min | Direct |
-| Flitwick | 41 min | Direct |
-| Hertford North | 41 min | Direct |
-| Royston | 42 min | Direct |
-| Peterborough | 44 min | Direct |
-| Ashwell & Morden | 45 min | Direct |
-| Sandy | 45 min | Direct |
-| St Neots | 46 min | Direct |
-| Cambridge | 49 min | Direct |
-| Meldreth | 50 min | Direct |
-| Huntingdon | 52 min | Direct |
-| Shepreth | 52 min | Direct |
-| Foxton | 55 min | Direct |
-| Grantham | 67 min | Direct |
-| Newark Northgate | 75 min | Direct |
+| Station | Fastest | Typical peak | Peak trains/hr |
+| --- | --- | --- | --- |
+| Finsbury Park | 6 min | 7 | 2.0 |
+| Alexandra Palace | 11 min | 12 | 2.0 |
+| Hornsey | 12 min | - | - |
+| New Barnet | 18 min | 18 | 2.0 |
+| Welwyn North | 19 min | 28 | 4.0 |
+| Potters Bar | 20 min | 23 | 2.0 |
+| Stevenage | 20 min | 26 | 5.1 |
+| Oakleigh Park | 22 min | - | - |
+| Enfield Chase | 24 min | - | - |
+| Gordon Hill | 26 min | - | - |
+| Hatfield | 26 min | 29 | 2.0 |
+| Hadley Wood | 27 min | - | - |
+| Hitchin | 28 min | 40 | 4.0 |
+| Letchworth Garden City | 29 min | 33 | 5.9 |
+| Welwyn Garden City | 29 min | 32 | 2.0 |
+| Biggleswade | 30 min | 35 | 1.5 |
+| Cuffley | 31 min | - | - |
+| Baldock | 36 min | 36 | 2.4 |
+| Brookmans Park | 36 min | - | - |
+| Royston | 37 min | 46 | 4.3 |
+| Arlesey | 38 min | - | - |
+| Hertford North | 38 min | - | - |
+| Knebworth | 38 min | 41 | 2.0 |
+| Welham Green | 38 min | - | - |
+| St Neots | 39 min | 45 | 1.5 |
+| Ashwell & Morden | 42 min | 42 | 2.0 |
+| Huntingdon | 47 min | 53 | 1.5 |
+| Peterborough | 47 min | 56 | 5.1 |
+| Sandy | 48 min | - | - |
+| Cambridge | 50 min | 68 | 3.9 |
+| Meldreth | 51 min | 51 | 2.0 |
+| Shepreth | 55 min | 55 | 2.0 |
+| Foxton | 57 min | 57 | 2.0 |
+| Grantham | 65 min | 72 | 3.2 |
+| Newark Northgate | 75 min | 84 | 2.8 |
 
 ## Frequently asked questions
 
 ### What is the fastest train to London Kings Cross?
 
-The fastest connection is from Kentish Town, at 4 minutes on a direct service. Services into Kings Cross are operated by Great Northern, Thameslink, LNER.
+The fastest connection is from Finsbury Park, at 6 minutes on a direct service. Services into Kings Cross are operated by Great Northern, LNER, Hull Trains, Lumo.
 
 ### Which commuter towns are within 30 minutes of Kings Cross?
 
-28 stations reach Kings Cross in under 30 minutes, including Kentish Town, Finsbury Park, West Hampstead Thameslink, Hornsey, Alexandra Palace, Cricklewood. These are the shortest commutes available into this terminal.
+15 stations reach Kings Cross in under 30 minutes, including Finsbury Park, Alexandra Palace, Hornsey, New Barnet, Welwyn North, Potters Bar. These are the shortest commutes available into this terminal.
 
 ### How many stations connect to Kings Cross?
 
-49 stations have a service to London Kings Cross within 90 minutes, and 49 of those are direct trains with no change required.
+35 stations have a service to London Kings Cross within 90 minutes, and 35 of those are direct trains with no change required.
 
 ### What areas does Kings Cross serve?
 
-London Kings Cross primarily serves the north and east of England. Key commuter destinations on this network include Kentish Town, Finsbury Park, West Hampstead Thameslink, Hornsey, Alexandra Palace.
+London Kings Cross primarily serves Hertfordshire, Cambridgeshire and the East Coast Main Line. Key commuter destinations on this network include Finsbury Park, Alexandra Palace, Hornsey, New Barnet, Welwyn North.
 
 ### Is Kings Cross a good terminal to commute into?
 
-With 49 stations inside 90 minutes and 49 direct services, Kings Cross offers unusually broad commuter coverage. The quickest option is Kentish Town at 4 minutes.
+With 35 stations inside 90 minutes and 35 direct services, Kings Cross serves a focused commuter corridor. The quickest option is Finsbury Park at 6 minutes.
 
 ## About this data
 

@@ -1,37 +1,39 @@
 # Train times from Chatham to London
 
-Chatham connects to 1 London terminal. The fastest route is London Bridge in 42 minutes on a direct train.
+Chatham connects to 3 London terminals. The fastest route is St Pancras in 39 minutes on a direct train.
 
-- Fastest journey to London: 42 minutes to London Bridge
+- Fastest journey to London: 39 minutes to St Pancras
 - Direct service: Yes
-- London terminals served: 1 (London Bridge)
-- Operator: Southeastern, Southern, Thameslink
+- London terminals served: 3 (St Pancras, London Bridge, Victoria)
+- Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Chatham to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| London Bridge | 42 min | Direct | Southeastern, Southern, Thameslink |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| St Pancras | 39 min | 68 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 40 min | 60 | 4.8 | Southeastern, Southern, Thameslink |
+| Victoria | 44 min | 64 | 4.0 | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from Chatham to London take?
 
-The fastest train from Chatham reaches London London Bridge in 42 minutes. Chatham connects to 1 London terminal: London Bridge.
+The fastest train from Chatham reaches London St Pancras in 39 minutes. Chatham connects to 3 London terminals: St Pancras, London Bridge, Victoria.
 
 ### Which London station should I travel to from Chatham?
 
-London Bridge is the quickest at 42 minutes, on a direct service. Direct trains run to London Bridge.
+St Pancras is the quickest at 39 minutes, on a direct service. Direct trains run to St Pancras, London Bridge, Victoria.
 
 ### Is Chatham a good commuter town for London?
 
-At 42 minutes to London London Bridge, Chatham is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 39 minutes to London St Pancras, Chatham is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Chatham to London?
 
-Yes. Direct services run to London Bridge.
+Yes. Direct services run to St Pancras, London Bridge, Victoria.
 
 ### What are the nearest stations to Chatham?
 

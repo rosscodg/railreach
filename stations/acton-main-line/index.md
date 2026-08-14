@@ -1,29 +1,30 @@
 # Train times from Acton Main Line to London
 
-Acton Main Line connects to 1 London terminal. The fastest route is Paddington in 7 minutes on a direct train.
+Acton Main Line connects to 2 London terminals. The fastest route is Paddington in 7 minutes on a direct train.
 
 - Fastest journey to London: 7 minutes to Paddington
 - Direct service: Yes
-- London terminals served: 1 (Paddington)
+- London terminals served: 2 (Paddington, Liverpool Street)
 - Operator: Great Western Railway, Elizabeth line
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Acton Main Line to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Paddington | 7 min | Direct | Great Western Railway, Elizabeth line |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Paddington | 7 min | 8 | 6.0 | Great Western Railway, Elizabeth line |
+| Liverpool Street | 18 min | 19 | 6.0 | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Acton Main Line to London take?
 
-The fastest train from Acton Main Line reaches London Paddington in 7 minutes. Acton Main Line connects to 1 London terminal: Paddington.
+The fastest train from Acton Main Line reaches London Paddington in 7 minutes. Acton Main Line connects to 2 London terminals: Paddington, Liverpool Street.
 
 ### Which London station should I travel to from Acton Main Line?
 
-Paddington is the quickest at 7 minutes, on a direct service. Direct trains run to Paddington.
+Paddington is the quickest at 7 minutes, on a direct service. Direct trains run to Paddington, Liverpool Street.
 
 ### Is Acton Main Line a good commuter town for London?
 
@@ -31,7 +32,7 @@ At 7 minutes to London Paddington, Acton Main Line is an excellent commuter base
 
 ### Are there direct trains from Acton Main Line to London?
 
-Yes. Direct services run to Paddington.
+Yes. Direct services run to Paddington, Liverpool Street.
 
 ### What are the nearest stations to Acton Main Line?
 

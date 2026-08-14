@@ -1,33 +1,33 @@
 # Train times from Saunderton to London
 
-Saunderton connects to 1 London terminal. The fastest route is Marylebone in 32 minutes on a direct train.
+Saunderton connects to 1 London terminal. The fastest route is Marylebone in 35 minutes on a direct train.
 
-- Fastest journey to London: 32 minutes to Marylebone
+- Fastest journey to London: 35 minutes to Marylebone
 - Direct service: Yes
 - London terminals served: 1 (Marylebone)
 - Operator: Chiltern Railways
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Saunderton to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Marylebone | 32 min | Direct | Chiltern Railways |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Marylebone | 35 min | 46 | 1.6 | Chiltern Railways |
 
 ## Frequently asked questions
 
 ### How long does the train from Saunderton to London take?
 
-The fastest train from Saunderton reaches London Marylebone in 32 minutes. Saunderton connects to 1 London terminal: Marylebone.
+The fastest train from Saunderton reaches London Marylebone in 35 minutes. Saunderton connects to 1 London terminal: Marylebone.
 
 ### Which London station should I travel to from Saunderton?
 
-Marylebone is the quickest at 32 minutes, on a direct service. Direct trains run to Marylebone.
+Marylebone is the quickest at 35 minutes, on a direct service. Direct trains run to Marylebone.
 
 ### Is Saunderton a good commuter town for London?
 
-At 32 minutes to London Marylebone, Saunderton is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 35 minutes to London Marylebone, Saunderton is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Saunderton to London?
 

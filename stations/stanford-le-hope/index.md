@@ -1,33 +1,33 @@
 # Train times from Stanford-le-Hope to London
 
-Stanford-le-Hope connects to 1 London terminal. The fastest route is Fenchurch Street in 35 minutes on a direct train.
+Stanford-le-Hope connects to 1 London terminal. The fastest route is Fenchurch Street in 48 minutes on a direct train.
 
-- Fastest journey to London: 35 minutes to Fenchurch Street
+- Fastest journey to London: 48 minutes to Fenchurch Street
 - Direct service: Yes
 - London terminals served: 1 (Fenchurch Street)
 - Operator: c2c
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Stanford-le-Hope to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Fenchurch Street | 35 min | Direct | c2c |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Fenchurch Street | 48 min | 52 | 3.2 | c2c |
 
 ## Frequently asked questions
 
 ### How long does the train from Stanford-le-Hope to London take?
 
-The fastest train from Stanford-le-Hope reaches London Fenchurch Street in 35 minutes. Stanford-le-Hope connects to 1 London terminal: Fenchurch Street.
+The fastest train from Stanford-le-Hope reaches London Fenchurch Street in 48 minutes. Stanford-le-Hope connects to 1 London terminal: Fenchurch Street.
 
 ### Which London station should I travel to from Stanford-le-Hope?
 
-Fenchurch Street is the quickest at 35 minutes, on a direct service. Direct trains run to Fenchurch Street.
+Fenchurch Street is the quickest at 48 minutes, on a direct service. Direct trains run to Fenchurch Street.
 
 ### Is Stanford-le-Hope a good commuter town for London?
 
-At 35 minutes to London Fenchurch Street, Stanford-le-Hope is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 48 minutes to London Fenchurch Street, Stanford-le-Hope is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Stanford-le-Hope to London?
 

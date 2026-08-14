@@ -7,13 +7,13 @@ New Cross connects to 1 London terminal. The fastest route is London Bridge in 5
 - London terminals served: 1 (London Bridge)
 - Operator: Southeastern, Southern, Thameslink
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## New Cross to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| London Bridge | 5 min | Direct | Southeastern, Southern, Thameslink |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| London Bridge | 5 min | 6 | 12.8 | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 

@@ -1,33 +1,33 @@
 # Train times from Stoke Mandeville to London
 
-Stoke Mandeville connects to 1 London terminal. The fastest route is Marylebone in 47 minutes on a direct train.
+Stoke Mandeville connects to 1 London terminal. The fastest route is Marylebone in 50 minutes on a direct train.
 
-- Fastest journey to London: 47 minutes to Marylebone
+- Fastest journey to London: 50 minutes to Marylebone
 - Direct service: Yes
 - London terminals served: 1 (Marylebone)
 - Operator: Chiltern Railways
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Stoke Mandeville to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Marylebone | 47 min | Direct | Chiltern Railways |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Marylebone | 50 min | 56 | 3.2 | Chiltern Railways |
 
 ## Frequently asked questions
 
 ### How long does the train from Stoke Mandeville to London take?
 
-The fastest train from Stoke Mandeville reaches London Marylebone in 47 minutes. Stoke Mandeville connects to 1 London terminal: Marylebone.
+The fastest train from Stoke Mandeville reaches London Marylebone in 50 minutes. Stoke Mandeville connects to 1 London terminal: Marylebone.
 
 ### Which London station should I travel to from Stoke Mandeville?
 
-Marylebone is the quickest at 47 minutes, on a direct service. Direct trains run to Marylebone.
+Marylebone is the quickest at 50 minutes, on a direct service. Direct trains run to Marylebone.
 
 ### Is Stoke Mandeville a good commuter town for London?
 
-At 47 minutes to London Marylebone, Stoke Mandeville is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 50 minutes to London Marylebone, Stoke Mandeville is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Stoke Mandeville to London?
 

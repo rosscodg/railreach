@@ -1,33 +1,33 @@
 # Train times from Denham Golf Club to London
 
-Denham Golf Club connects to 1 London terminal. The fastest route is Marylebone in 20 minutes on a direct train.
+Denham Golf Club connects to 1 London terminal. The fastest route is Marylebone in 22 minutes on a direct train.
 
-- Fastest journey to London: 20 minutes to Marylebone
+- Fastest journey to London: 22 minutes to Marylebone
 - Direct service: Yes
 - London terminals served: 1 (Marylebone)
 - Operator: Chiltern Railways
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Denham Golf Club to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Marylebone | 20 min | Direct | Chiltern Railways |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Marylebone | 22 min | 24 | 0.8 | Chiltern Railways |
 
 ## Frequently asked questions
 
 ### How long does the train from Denham Golf Club to London take?
 
-The fastest train from Denham Golf Club reaches London Marylebone in 20 minutes. Denham Golf Club connects to 1 London terminal: Marylebone.
+The fastest train from Denham Golf Club reaches London Marylebone in 22 minutes. Denham Golf Club connects to 1 London terminal: Marylebone.
 
 ### Which London station should I travel to from Denham Golf Club?
 
-Marylebone is the quickest at 20 minutes, on a direct service. Direct trains run to Marylebone.
+Marylebone is the quickest at 22 minutes, on a direct service. Direct trains run to Marylebone.
 
 ### Is Denham Golf Club a good commuter town for London?
 
-At 20 minutes to London Marylebone, Denham Golf Club is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 22 minutes to London Marylebone, Denham Golf Club is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Denham Golf Club to London?
 

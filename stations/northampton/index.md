@@ -1,33 +1,33 @@
 # Train times from Northampton to London
 
-Northampton connects to 1 London terminal. The fastest route is Euston in 49 minutes on a direct train.
+Northampton connects to 1 London terminal. The fastest route is Euston in 50 minutes on a direct train.
 
-- Fastest journey to London: 49 minutes to Euston
+- Fastest journey to London: 50 minutes to Euston
 - Direct service: Yes
 - London terminals served: 1 (Euston)
 - Operator: Avanti West Coast, London Northwestern
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Northampton to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Euston | 49 min | Direct | Avanti West Coast, London Northwestern |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Euston | 50 min | 59 | 3.6 | Avanti West Coast, London Northwestern |
 
 ## Frequently asked questions
 
 ### How long does the train from Northampton to London take?
 
-The fastest train from Northampton reaches London Euston in 49 minutes. Northampton connects to 1 London terminal: Euston.
+The fastest train from Northampton reaches London Euston in 50 minutes. Northampton connects to 1 London terminal: Euston.
 
 ### Which London station should I travel to from Northampton?
 
-Euston is the quickest at 49 minutes, on a direct service. Direct trains run to Euston.
+Euston is the quickest at 50 minutes, on a direct service. Direct trains run to Euston.
 
 ### Is Northampton a good commuter town for London?
 
-At 49 minutes to London Euston, Northampton is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 50 minutes to London Euston, Northampton is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Northampton to London?
 

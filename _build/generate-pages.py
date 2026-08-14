@@ -40,8 +40,10 @@ GEO_UPDATED = 'unknown'
 
 # ── Terminal metadata ──────────────────────────────────────────────────────
 TERMINAL_META = {
-    'KGX': {'slug': 'kings-cross', 'name': 'Kings Cross', 'operators': 'Great Northern, Thameslink, LNER',
-            'region': 'the north and east of England'},
+    'KGX': {'slug': 'kings-cross', 'name': 'Kings Cross', 'operators': 'Great Northern, LNER, Hull Trains, Lumo',
+            'region': 'Hertfordshire, Cambridgeshire and the East Coast Main Line'},
+    'STP': {'slug': 'st-pancras', 'name': 'St Pancras', 'operators': 'Thameslink, East Midlands Railway, Southeastern high speed',
+            'region': 'Bedfordshire, the Midlands and, via HS1, the Medway towns'},
     'WAT': {'slug': 'waterloo', 'name': 'Waterloo', 'operators': 'South Western Railway',
             'region': 'Surrey, Hampshire and the South West'},
     'PAD': {'slug': 'paddington', 'name': 'Paddington', 'operators': 'Great Western Railway, Elizabeth line',
@@ -50,7 +52,7 @@ TERMINAL_META = {
             'region': 'South East London, Kent and Surrey'},
     'VIC': {'slug': 'victoria', 'name': 'Victoria', 'operators': 'Southeastern, Southern',
             'region': 'Kent, Sussex and the South Coast'},
-    'LST': {'slug': 'liverpool-street', 'name': 'Liverpool Street', 'operators': 'Greater Anglia',
+    'LST': {'slug': 'liverpool-street', 'name': 'Liverpool Street', 'operators': 'Greater Anglia, Elizabeth line',
             'region': 'Essex, Hertfordshire and East Anglia'},
     'EUS': {'slug': 'euston', 'name': 'Euston', 'operators': 'Avanti West Coast, London Northwestern',
             'region': 'the West Coast Main Line, Buckinghamshire and the Midlands'},
@@ -58,6 +60,8 @@ TERMINAL_META = {
             'region': 'the Chilterns, Buckinghamshire and Oxfordshire'},
     'FST': {'slug': 'fenchurch-street', 'name': 'Fenchurch Street', 'operators': 'c2c',
             'region': 'East London and South Essex'},
+    'MOG': {'slug': 'moorgate', 'name': 'Moorgate', 'operators': 'Great Northern',
+            'region': 'the City, and the Hertford loop and Welwyn inner suburbs'},
 }
 
 # The 27 towns that had hand-built pages first. They keep prominent placement
@@ -83,6 +87,43 @@ def esc(s):
 
 def json_esc(s):
     return json.dumps(s)[1:-1]
+
+
+
+def fastest(j):
+    """The fastest time, or None where no direct service exists."""
+    return j.get('mins')
+
+
+def has_time(j):
+    return j.get('mins') is not None
+
+
+def sorted_journeys_fn(journeys):
+    """Journeys fastest first, with change-required ones last."""
+    return sorted(journeys.items(),
+                  key=lambda kv: (kv[1].get('mins') is None, kv[1].get('mins') or 0))
+
+
+def time_cell(j):
+    """A journey time for a table cell, or an honest note when there is none."""
+    if not has_time(j):
+        return '<span class="t-badge t-change">Change required</span>'
+    return badge(j['mins'])
+
+
+def typical_cell(j):
+    t = j.get('typicalPeakMins')
+    if t is None:
+        return '<span class="muted">no peak service</span>'
+    gap = t - j['mins']
+    cls = ' class="gap-wide"' if gap >= 10 else ''
+    return f'<span{cls}>{t} min</span>'
+
+
+def frequency_cell(j):
+    f = j.get('peakTrainsPerHour')
+    return f'{f}/hr' if f else '<span class="muted">&ndash;</span>'
 
 
 def band(mins):
@@ -322,8 +363,13 @@ def js_data_block(terminals, stations):
 
     slines = []
     for s in stations:
-        j = ', '.join(f'{c}: {{ mins: {v["mins"]}, direct: {str(v["direct"]).lower()} }}'
-                      for c, v in sorted(s['journeys'].items(), key=lambda kv: kv[1]['mins']))
+        pub = {c: v for c, v in s['journeys'].items() if v.get('mins') is not None}
+        j = ', '.join(
+            f'{c}: {{ mins: {v["mins"]}, direct: {str(v["direct"]).lower()}'
+            + (f', typical: {v["typicalPeakMins"]}' if v.get('typicalPeakMins') else '')
+            + (f', tph: {v["peakTrainsPerHour"]}' if v.get('peakTrainsPerHour') else '')
+            + ' }'
+            for c, v in sorted(pub.items(), key=lambda kv: kv[1]['mins']))
         slines.append(f'  {{ name: "{s["name"]}", lat: {s["lat"]}, lng: {s["lng"]}, '
                       f'slug: "{s["slug"]}", journeys: {{ {j} }} }}')
 
@@ -446,7 +492,8 @@ def check_prose_figures(stations):
     # station serves. Comparing only against the fastest cries wolf.
     valid = {}
     for s in stations:
-        valid[s['name']] = set(j['mins'] for j in s['journeys'].values())
+        valid[s['name']] = set(j['mins'] for j in s['journeys'].values()
+                               if j.get('mins') is not None)
 
     checked = 0
     mismatches = []
@@ -492,7 +539,7 @@ def discoveries(stations, code, max_mins, limit=6, exclude=None):
         if s['name'] == exclude or s['name'] in NOT_A_PLACE_TO_LIVE:
             continue
         j = s['journeys'].get(code)
-        if not j or j['mins'] > max_mins:
+        if not j or j.get('mins') is None or j['mins'] > max_mins:
             continue
         if haversine(CENTRAL[0], CENTRAL[1], s['lat'], s['lng']) < MIN_KM_FROM_LONDON:
             continue
@@ -523,26 +570,30 @@ def generate_terminal_page(code, terminals, stations, total):
     t = terminals[code]
 
     serving = sorted(
-        ((s['name'], s['journeys'][code]['mins'], s['journeys'][code]['direct'])
-         for s in stations if code in s['journeys'] and s['journeys'][code]['mins'] <= 90),
+        ((s['name'], s['journeys'][code]['mins'], s['journeys'][code]['direct'],
+          s['journeys'][code])
+         for s in stations if code in s['journeys']
+         and s['journeys'][code].get('mins') is not None
+         and s['journeys'][code]['mins'] <= 90),
         key=lambda x: x[1])
     count = len(serving)
-    top3 = ', '.join(f"{n} ({m} min)" for n, m, _ in serving[:3])
-    top5 = ', '.join(n for n, _, _ in serving[:5])
-    under30 = [n for n, m, _ in serving if m < 30]
+    top3 = ', '.join(f"{n} ({m} min)" for n, m, _, _ in serving[:3])
+    top5 = ', '.join(n for n, _, _, _ in serving[:5])
+    under30 = [n for n, m, _, _ in serving if m < 30]
     under30_names = ', '.join(under30[:6]) if under30 else 'none within 30 minutes'
     fastest = serving[0]
-    direct_count = sum(1 for _, _, d in serving if d)
+    direct_count = sum(1 for _, _, d, _ in serving if d)
 
     row_parts = []
-    for st_name, st_mins, st_direct in serving:
+    for st_name, st_mins, st_direct, st_j in serving:
         # NOTE: do not name these `slug`/`m` — `slug` is this terminal's own
         # slug and is used below to pick the output directory.
         st_slug = STATION_SLUGS.get(st_name)
         cell = (f'<a href="/stations/{st_slug}/">{esc(st_name)}</a>'
                 if st_slug else esc(st_name))
         row_parts.append(f'<tr><td>{cell}</td><td>{badge(st_mins)}</td>'
-                         f'<td>{"Direct" if st_direct else "Change required"}</td></tr>')
+                         f'<td>{typical_cell(st_j)}</td>'
+                         f'<td>{frequency_cell(st_j)}</td></tr>')
     rows = '\n'.join(row_parts)
 
     terminal_nav = '\n'.join(
@@ -607,7 +658,7 @@ def generate_terminal_page(code, terminals, stations, total):
 <div class="table-scroll">
 <table>
 <caption>Journey times from {count} stations to London {name}</caption>
-<thead><tr><th>Station</th><th>Journey time</th><th>Service</th></tr></thead>
+<thead><tr><th>Station</th><th>Fastest</th><th>Typical peak</th><th>Peak trains</th></tr></thead>
 <tbody>
 {rows}
 </tbody>
@@ -664,8 +715,9 @@ RR.fit(map,pts,{{animate:false}});
         f.write(html)
 
     md_rows = '\n'.join(
-        f"| {n} | {m} min | {'Direct' if d else 'Change required'} |"
-        for n, m, d in serving)
+        f"| {n} | {m} min | {j.get('typicalPeakMins') or '-'} | "
+        f"{j.get('peakTrainsPerHour') or '-'} |"
+        for n, m, d, j in serving)
     md_faq = re.sub(r'<h3>(.*?)</h3>\s*<p>(.*?)</p>',
                     lambda mm: f"### {re.sub(r'<[^>]+>', '', mm.group(1))}\n\n"
                                f"{re.sub(r'<[^>]+>', '', mm.group(2))}\n",
@@ -685,8 +737,8 @@ direct train. Services are operated by {operators}.
 
 ## Every station to {name}
 
-| Station | Journey time | Service |
-| --- | --- | --- |
+| Station | Fastest | Typical peak | Peak trains/hr |
+| --- | --- | --- | --- |
 {md_rows}
 
 ## Frequently asked questions
@@ -711,14 +763,18 @@ def generate_station_page(station_name, slug, terminals, stations, total):
         print(f"  WARNING: station '{station_name}' not in data")
         return None
 
-    sorted_journeys = sorted(sdata['journeys'].items(), key=lambda x: x[1]['mins'])
-    fastest_code, fastest_j = sorted_journeys[0]
+    sorted_journeys = sorted_journeys_list = sorted_journeys_fn(sdata['journeys'])
+    timed = [(c, j) for c, j in sorted_journeys if j.get('mins') is not None]
+    if not timed:
+        print(f"  skipping {station_name}: no measured service")
+        return None
+    fastest_code, fastest_j = timed[0]
     fastest_name = TERMINAL_META[fastest_code]['name']
     n_terms = len(sorted_journeys)
     plural = 's' if n_terms > 1 else ''
-    times_desc = ', '.join(f"{TERMINAL_META[c]['name']} ({j['mins']} min)" for c, j in sorted_journeys[:3])
+    times_desc = ', '.join(f"{TERMINAL_META[c]['name']} ({j['mins']} min)" for c, j in timed[:3])
     terminal_list = ', '.join(TERMINAL_META[c]['name'] for c, _ in sorted_journeys)
-    direct_terminals = [TERMINAL_META[c]['name'] for c, j in sorted_journeys if j['direct']]
+    direct_terminals = [TERMINAL_META[c]['name'] for c, j in timed if j['direct']]
     direct_text = ', '.join(direct_terminals) if direct_terminals else 'none; all routes require a change'
 
     dists = sorted(
@@ -731,8 +787,10 @@ def generate_station_page(station_name, slug, terminals, stations, total):
         nb_slug = STATION_SLUGS.get(nb_name)
         meta = f'{nb_dist:.0f} km away'
         if nb_data['journeys']:
-            nb_fast = min(nb_data['journeys'].values(), key=lambda j: j['mins'])
-            meta = f'{badge(nb_fast["mins"])} fastest to London &middot; {nb_dist:.0f} km away'
+            nb_timed = [j for j in nb_data['journeys'].values() if j.get('mins') is not None]
+            nb_fast = min(nb_timed, key=lambda j: j['mins']) if nb_timed else None
+            if nb_fast:
+                meta = f'{badge(nb_fast["mins"])} fastest to London &middot; {nb_dist:.0f} km away'
         if nb_slug:
             nearby_cards.append(f'<li><a class="card" href="/stations/{nb_slug}/">'
                                 f'<span class="card-title">{esc(nb_name)}</span>'
@@ -744,7 +802,7 @@ def generate_station_page(station_name, slug, terminals, stations, total):
 
     table_rows = '\n'.join(
         f'<tr><td><a href="/terminals/{TERMINAL_META[c]["slug"]}/">{TERMINAL_META[c]["name"]}</a></td>'
-        f'<td>{badge(j["mins"])}</td><td>{"Direct" if j["direct"] else "Change required"}</td>'
+        f'<td>{time_cell(j)}</td><td>{typical_cell(j)}</td><td>{frequency_cell(j)}</td>'
         f'<td>{TERMINAL_META[c]["operators"]}</td></tr>'
         for c, j in sorted_journeys)
 
@@ -796,7 +854,7 @@ def generate_station_page(station_name, slug, terminals, stations, total):
         "L.polyline([[{},{}],[{},{}]],{{color:RR.colour({}),weight:3,opacity:0.75,{}}}).addTo(map);".format(
             sdata['lat'], sdata['lng'], terminals[c]['lat'], terminals[c]['lng'], j['mins'],
             "" if j['direct'] else "dashArray:'8,6',")
-        for c, j in sorted_journeys)
+        for c, j in timed)
 
     term_markers = '\n'.join(
         "RR.terminalMarker(map,{},{},'<strong>London {}</strong><br>{} min from {}<br>{}"
@@ -804,21 +862,22 @@ def generate_station_page(station_name, slug, terminals, stations, total):
             terminals[c]['lat'], terminals[c]['lng'], json_esc(TERMINAL_META[c]['name']),
             j['mins'], json_esc(station_name),
             "Direct" if j['direct'] else "Requires a change", TERMINAL_META[c]['slug'])
-        for c, j in sorted_journeys)
+        for c, j in timed)
 
     # Every point the map must frame: the station plus each terminal it reaches.
     fit_points = '[[{},{}],{}]'.format(
         sdata['lat'], sdata['lng'],
         ','.join('[{},{}]'.format(terminals[c]['lat'], terminals[c]['lng'])
-                 for c, _ in sorted_journeys))
+                 for c, _ in timed))
 
     # One section per route, so the page answers "<station> to <terminal>"
     # directly. Separate route pages would be near-duplicates: 345 stations
     # share only 357 journeys, so most towns serve a single terminal.
     route_parts = []
-    for c, j in sorted_journeys:
+    for c, j in timed:
         tm = TERMINAL_META[c]
-        peers = sorted((s2['journeys'][c]['mins'] for s2 in stations if c in s2['journeys']))
+        peers = sorted(s2['journeys'][c]['mins'] for s2 in stations
+                       if c in s2['journeys'] and s2['journeys'][c].get('mins') is not None)
         rank = peers.index(j['mins']) + 1
         service = ('a direct train with no change'
                    if j['direct'] else 'one change of train en route')
@@ -879,7 +938,7 @@ def generate_station_page(station_name, slug, terminals, stations, total):
 <div class="table-scroll">
 <table>
 <caption>Journey times from {station_name} to London terminals</caption>
-<thead><tr><th>London terminal</th><th>Journey time</th><th>Service</th><th>Operator</th></tr></thead>
+<thead><tr><th>London terminal</th><th>Fastest</th><th>Typical peak</th><th>Peak trains</th><th>Operator</th></tr></thead>
 <tbody>
 {table_rows}
 </tbody>
@@ -934,8 +993,10 @@ RR.fit(map,{fit_points},{{animate:false}});
         f.write(html)
 
     md_rows = '\n'.join(
-        f"| {TERMINAL_META[c]['name']} | {j['mins']} min | "
-        f"{'Direct' if j['direct'] else 'Change required'} | {TERMINAL_META[c]['operators']} |"
+        f"| {TERMINAL_META[c]['name']} | "
+        f"{str(j['mins']) + ' min' if j.get('mins') is not None else 'change required'} | "
+        f"{j.get('typicalPeakMins') or '-'} | {j.get('peakTrainsPerHour') or '-'} | "
+        f"{TERMINAL_META[c]['operators']} |"
         for c, j in sorted_journeys)
     md_faq = re.sub(r'<h3>(.*?)</h3>\s*<p>(.*?)</p>',
                     lambda m: f"### {re.sub(r'<[^>]+>', '', m.group(1))}\n\n"
@@ -956,8 +1017,8 @@ RR.fit(map,{fit_points},{{animate:false}});
 
 ## {station_name} to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
 {md_rows}
 
 ## Frequently asked questions
@@ -981,7 +1042,8 @@ def generate_terminal_hub(stations, counts, total):
     for code, meta in TERMINAL_META.items():
         serving = sorted(
             ((s['name'], s['journeys'][code]['mins'])
-             for s in stations if code in s['journeys'] and s['journeys'][code]['mins'] <= 90),
+             for s in stations if code in s['journeys'] and s['journeys'][code].get('mins') is not None
+         and s['journeys'][code]['mins'] <= 90),
             key=lambda x: x[1])
         fastest = serving[0] if serving else ('None', 0)
         under30 = sum(1 for _, m in serving if m < 30)
@@ -1153,7 +1215,7 @@ def generate_station_hub(page_info, total):
 def generate_about(stations, counts, total, n_station_pages):
     op_list = sorted({o.strip() for m in TERMINAL_META.values() for o in m['operators'].split(',')})
     pairs = sum(len(s['journeys']) for s in stations)
-    direct = sum(1 for s in stations for j in s['journeys'].values() if j['direct'])
+    direct = sum(1 for s in stations for j in s['journeys'].values() if j.get('direct'))
 
     faqs_html = f"""<h3>Where does RailReach get its journey times?</h3>
 <p>Times are compiled from published National Rail operator timetables for 2026, covering {', '.join(op_list[:6])} and others. Each figure is the fastest typical weekday service on that route.</p>
@@ -1283,8 +1345,10 @@ def generate_llms(stations, counts, page_info, total):
         for name, (mins, term) in sorted(page_info.items(), key=lambda kv: kv[1][0]))
 
     pairs = sum(len(s['journeys']) for s in stations)
-    direct = sum(1 for s in stations for j in s['journeys'].values() if j['direct'])
-    under30 = sum(1 for s in stations if any(j['mins'] < 30 for j in s['journeys'].values()))
+    direct = sum(1 for s in stations for j in s['journeys'].values() if j.get('direct'))
+    under30 = sum(1 for s in stations
+                  if any(j['mins'] < 30 for j in s['journeys'].values()
+                         if j.get('mins') is not None))
 
     txt = f"""# RailReach
 
@@ -1337,12 +1401,15 @@ def generate_llms_full(terminals, stations, counts, total):
     blocks = []
     for code, meta in TERMINAL_META.items():
         serving = sorted(((s['name'], s['journeys'][code]) for s in stations
-                          if code in s['journeys']),
+                          if code in s['journeys']
+                          and s['journeys'][code].get('mins') is not None),
                          key=lambda x: x[1]['mins'])
-        direct = sum(1 for _, j in serving if j['direct'])
+        direct = sum(1 for _, j in serving if j.get('direct'))
         under30 = [n for n, j in serving if j['mins'] < 30]
         lines = '\n'.join(
-            f"- {n}: {j['mins']} min, {'direct' if j['direct'] else 'one change'}"
+            f"- {n}: fastest {j['mins']} min"
+            + (f", typical peak {j['typicalPeakMins']} min" if j.get('typicalPeakMins') else '')
+            + (f", {j['peakTrainsPerHour']} trains/hr in the peak" if j.get('peakTrainsPerHour') else '')
             for n, j in serving)
         blocks.append(f"""## London {meta['name']}
 
@@ -1355,10 +1422,11 @@ Page: {SITE}/terminals/{meta['slug']}/
 {lines}""")
 
     pairs = sum(len(s['journeys']) for s in stations)
-    direct_total = sum(1 for s in stations for j in s['journeys'].values() if j['direct'])
+    direct_total = sum(1 for s in stations for j in s['journeys'].values() if j.get('direct'))
     fastest_overall = sorted(
         ((s['name'], TERMINAL_META[c]['name'], j['mins'])
-         for s in stations for c, j in s['journeys'].items()),
+         for s in stations for c, j in s['journeys'].items()
+         if j.get('mins') is not None),
         key=lambda x: x[2])[:10]
     fastest_lines = '\n'.join(f"- {n} to {t}: {m} min" for n, t, m in fastest_overall)
 
@@ -1515,6 +1583,62 @@ def generate_sitemap():
     print(f"  wrote sitemap.xml ({len(urls)} URLs, lastmod {BUILD_DATE})")
 
 
+
+def homepage_faq(stations, counts, total):
+    """FAQ generated from the data. It quoted 132 figures by hand, 112 of which
+    went stale the moment the timetable was remeasured."""
+    timed = [(st['name'], c, j) for st in stations for c, j in st['journeys'].items()
+             if j.get('mins') is not None]
+    quickest = sorted(timed, key=lambda x: x[2]['mins'])[:5]
+    quick_txt = ', '.join(f"{n} reaches {TERMINAL_META[c]['name']} in {j['mins']} minutes"
+                          for n, c, j in quickest)
+
+    under30 = sorted((x for x in timed if x[2]['mins'] < 30), key=lambda x: x[2]['mins'])
+    seen, best = set(), []
+    for n, c, j in under30:
+        if n in seen:
+            continue
+        seen.add(n)
+        best.append(f"{n} ({j['mins']} min to {TERMINAL_META[c]['name']})")
+        if len(best) >= 12:
+            break
+
+    # the gap that fastest alone hides
+    gaps = sorted(((j['typicalPeakMins'] - j['mins'], n, c, j) for n, c, j in timed
+                   if j.get('typicalPeakMins')), reverse=True)[:4]
+    gap_txt = ', '.join(f"{n} is {j['mins']} minutes at best but typically "
+                        f"{j['typicalPeakMins']} in the peak"
+                        for _, n, c, j in gaps)
+
+    terms = ', '.join(m['name'] for m in TERMINAL_META.values())
+    return f"""<h3>What is the fastest train commute to London?</h3>
+<p>{quick_txt}. These are the quickest scheduled services in the dataset, measured from published timetables rather than estimated.</p>
+<h3>Which London stations can I commute to?</h3>
+<p>RailReach covers {len(TERMINAL_META)} London terminals: {terms}. Moorgate and St Pancras matter more than their profile suggests: several Great Northern suburbs run to Moorgate rather than Kings Cross in the morning peak, and the Medway towns reach St Pancras on high speed services far faster than they reach any other terminus.</p>
+<h3>Which commuter towns are within 30 minutes of London?</h3>
+<p>{', '.join(best)}. Each figure is the fastest scheduled weekday service.</p>
+<h3>Why do you show a typical peak time as well as the fastest?</h3>
+<p>Because the fastest train is often not the one you can catch. {gap_txt}. The typical figure is the median journey time of services arriving between 07:00 and 09:30, which is what a commuter actually experiences.</p>
+<h3>How accurate is the journey time data?</h3>
+<p>Every figure is computed from Darwin timetable files published by the Rail Delivery Group, sampled across three midweek days and matched to stations by TIPLOC. Passing points, empty stock movements and cancelled services are excluded. Times are scheduled, not live, and do not account for delays or engineering work.</p>"""
+
+
+def homepage_summaries(stations, counts):
+    out = []
+    for code, meta in TERMINAL_META.items():
+        serving = sorted(((st['name'], st['journeys'][code]) for st in stations
+                          if code in st['journeys']
+                          and st['journeys'][code].get('mins') is not None),
+                         key=lambda x: x[1]['mins'])
+        if not serving:
+            continue
+        top = ', '.join(f"{n} ({j['mins']} min)" for n, j in serving[:8])
+        out.append(f"<h3>{meta['name']}</h3>\n<p>{meta['name']} serves {meta['region']}, "
+                   f"operated by {meta['operators']}. {len(serving)} stations reach it within "
+                   f"90 minutes. Key destinations include {top}.</p>")
+    return '\n'.join(out)
+
+
 # ── index.html sync ────────────────────────────────────────────────────────
 def sync_index(terminals, stations, counts, total, data_js):
     """Rewrite the generated regions of index.html from the dataset."""
@@ -1539,7 +1663,10 @@ def sync_index(terminals, stations, counts, total, data_js):
         s = by_name.get(name)
         if not s:
             continue
-        code, j = min(s['journeys'].items(), key=lambda kv: kv[1]['mins'])
+        timed = {c: v for c, v in s['journeys'].items() if v.get('mins') is not None}
+        if not timed:
+            continue
+        code, j = min(timed.items(), key=lambda kv: kv[1]['mins'])
         featured.append((name, s['slug'], j['mins'], TERMINAL_META[code]['name']))
     featured.sort(key=lambda x: x[2])
 
@@ -1553,21 +1680,26 @@ def sync_index(terminals, stations, counts, total, data_js):
     sections = []
     for code, m in TERMINAL_META.items():
         rows = sorted(((s['name'], s['slug'], s['journeys'][code])
-                       for s in stations if code in s['journeys']),
+                       for s in stations if code in s['journeys']
+                       and s['journeys'][code].get('mins') is not None),
                       key=lambda x: x[2]['mins'])
         body = '\n'.join(
             f'<tr><td><a href="/stations/{slug}/">{esc(nm)}</a></td><td>{m["name"]}</td>'
-            f'<td>{badge(j["mins"])}</td><td>{"Yes" if j["direct"] else "No"}</td></tr>'
+            f'<td>{badge(j["mins"])}</td><td>{typical_cell(j)}</td>'
+            f'<td>{frequency_cell(j)}</td></tr>'
             for nm, slug, j in rows)
         sections.append(
             f'<thead><tr><th colspan="4">{m["name"]}</th></tr></thead>\n'
-            f'<thead><tr><th>Station</th><th>Terminal</th><th>Journey time</th><th>Direct</th></tr></thead>\n'
+            f'<thead><tr><th>Station</th><th>Terminal</th><th>Fastest</th>'
+            f'<th>Typical peak</th><th>Peak trains</th></tr></thead>\n'
             f'<tbody>\n{body}\n</tbody>')
 
     table = ('<div class="table-scroll">\n<table>\n'
              '<caption>Train journey times from all stations to London terminals</caption>\n'
              + '\n'.join(sections) + '\n</table>\n</div>')
 
+    html = replace_marked(html, 'faq', homepage_faq(stations, counts, total))
+    html = replace_marked(html, 'summaries', homepage_summaries(stations, counts))
     html = replace_marked(html, 'lede', lede)
     html = replace_marked(html, 'terminal-cards', terminal_cards)
     html = replace_marked(html, 'station-cards', station_cards)
@@ -1596,7 +1728,10 @@ def export_dataset(terminals, stations):
 
     rows = []
     for s in stations:
-        for code, j in sorted(s['journeys'].items(), key=lambda kv: kv[1]['mins']):
+        for code, j in sorted(s['journeys'].items(),
+                              key=lambda kv: (kv[1].get('mins') is None, kv[1].get('mins') or 0)):
+            if j.get('mins') is None:
+                continue
             rows.append({
                 'station': s['name'],
                 'station_slug': s['slug'],
@@ -1605,6 +1740,8 @@ def export_dataset(terminals, stations):
                 'london_terminal': TERMINAL_META[code]['name'],
                 'terminal_code': code,
                 'fastest_minutes': j['mins'],
+                'typical_peak_minutes': j.get('typicalPeakMins') or '',
+                'peak_trains_per_hour': j.get('peakTrainsPerHour') or '',
                 'direct': 'yes' if j['direct'] else 'no',
                 'operators': TERMINAL_META[code]['operators'],
             })
@@ -1650,10 +1787,11 @@ def main():
     GEO_SOURCE = _meta.get('geoSource', 'unspecified')
     GEO_UPDATED = _meta.get('geoUpdated', 'unknown')
     check_timetable_currency(REVIEW_DATE)
-    check_prose_figures(stations)
     STATION_SLUGS.update({s['name']: s['slug'] for s in stations})
     total = len(stations)
-    counts = {c: sum(1 for s in stations if c in s['journeys'] and s['journeys'][c]['mins'] <= 90)
+    counts = {c: sum(1 for s in stations if c in s['journeys']
+                     and s['journeys'][c].get('mins') is not None
+                     and s['journeys'][c]['mins'] <= 90)
               for c in TERMINAL_META}
     print(f"  {total} stations, {len(terminals)} terminals, "
           f"{sum(len(s['journeys']) for s in stations)} journeys")
@@ -1661,6 +1799,8 @@ def main():
     print("\nSyncing index.html and shared assets from the dataset...")
     data_js = js_data_block(terminals, stations)
     sync_index(terminals, stations, counts, total, data_js)
+    # After the rewrite, so it validates what will actually be published.
+    check_prose_figures(stations)
     write_shared_js(data_js)
 
     print("\nTerminal pages...")

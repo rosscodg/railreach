@@ -7,13 +7,13 @@ Berkhamsted connects to 1 London terminal. The fastest route is Euston in 31 min
 - London terminals served: 1 (Euston)
 - Operator: Avanti West Coast, London Northwestern
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Berkhamsted to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Euston | 31 min | Direct | Avanti West Coast, London Northwestern |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Euston | 31 min | 37 | 5.2 | Avanti West Coast, London Northwestern |
 
 ## Frequently asked questions
 

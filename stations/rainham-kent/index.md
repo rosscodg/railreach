@@ -1,37 +1,39 @@
 # Train times from Rainham (Kent) to London
 
-Rainham (Kent) connects to 1 London terminal. The fastest route is London Bridge in 52 minutes on a direct train.
+Rainham (Kent) connects to 3 London terminals. The fastest route is St Pancras in 49 minutes on a direct train.
 
-- Fastest journey to London: 52 minutes to London Bridge
+- Fastest journey to London: 49 minutes to St Pancras
 - Direct service: Yes
-- London terminals served: 1 (London Bridge)
-- Operator: Southeastern, Southern, Thameslink
+- London terminals served: 3 (St Pancras, Victoria, London Bridge)
+- Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Rainham (Kent) to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| London Bridge | 52 min | Direct | Southeastern, Southern, Thameslink |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| St Pancras | 49 min | 78 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Victoria | 54 min | 61 | 2.0 | Southeastern, Southern |
+| London Bridge | 55 min | 70 | 4.0 | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 
 ### How long does the train from Rainham (Kent) to London take?
 
-The fastest train from Rainham (Kent) reaches London London Bridge in 52 minutes. Rainham (Kent) connects to 1 London terminal: London Bridge.
+The fastest train from Rainham (Kent) reaches London St Pancras in 49 minutes. Rainham (Kent) connects to 3 London terminals: St Pancras, Victoria, London Bridge.
 
 ### Which London station should I travel to from Rainham (Kent)?
 
-London Bridge is the quickest at 52 minutes, on a direct service. Direct trains run to London Bridge.
+St Pancras is the quickest at 49 minutes, on a direct service. Direct trains run to St Pancras, Victoria, London Bridge.
 
 ### Is Rainham (Kent) a good commuter town for London?
 
-At 52 minutes to London London Bridge, Rainham (Kent) is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 49 minutes to London St Pancras, Rainham (Kent) is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Rainham (Kent) to London?
 
-Yes. Direct services run to London Bridge.
+Yes. Direct services run to St Pancras, Victoria, London Bridge.
 
 ### What are the nearest stations to Rainham (Kent)?
 

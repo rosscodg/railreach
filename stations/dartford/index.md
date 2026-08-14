@@ -1,37 +1,39 @@
 # Train times from Dartford to London
 
-Dartford connects to 1 London terminal. The fastest route is London Bridge in 33 minutes on a direct train.
+Dartford connects to 3 London terminals. The fastest route is London Bridge in 38 minutes on a direct train.
 
-- Fastest journey to London: 33 minutes to London Bridge
+- Fastest journey to London: 38 minutes to London Bridge
 - Direct service: Yes
-- London terminals served: 1 (London Bridge)
+- London terminals served: 3 (London Bridge, Victoria, St Pancras)
 - Operator: Southeastern, Southern, Thameslink
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Dartford to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| London Bridge | 33 min | Direct | Southeastern, Southern, Thameslink |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| London Bridge | 38 min | 42 | 7.2 | Southeastern, Southern, Thameslink |
+| Victoria | 51 min | 53 | 2.0 | Southeastern, Southern |
+| St Pancras | 56 min | 57 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 
 ### How long does the train from Dartford to London take?
 
-The fastest train from Dartford reaches London London Bridge in 33 minutes. Dartford connects to 1 London terminal: London Bridge.
+The fastest train from Dartford reaches London London Bridge in 38 minutes. Dartford connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Dartford?
 
-London Bridge is the quickest at 33 minutes, on a direct service. Direct trains run to London Bridge.
+London Bridge is the quickest at 38 minutes, on a direct service. Direct trains run to London Bridge, Victoria, St Pancras.
 
 ### Is Dartford a good commuter town for London?
 
-At 33 minutes to London London Bridge, Dartford is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 38 minutes to London London Bridge, Dartford is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Dartford to London?
 
-Yes. Direct services run to London Bridge.
+Yes. Direct services run to London Bridge, Victoria, St Pancras.
 
 ### What are the nearest stations to Dartford?
 

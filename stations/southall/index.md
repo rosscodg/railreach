@@ -1,37 +1,38 @@
 # Train times from Southall to London
 
-Southall connects to 1 London terminal. The fastest route is Paddington in 14 minutes on a direct train.
+Southall connects to 2 London terminals. The fastest route is Paddington in 13 minutes on a direct train.
 
-- Fastest journey to London: 14 minutes to Paddington
+- Fastest journey to London: 13 minutes to Paddington
 - Direct service: Yes
-- London terminals served: 1 (Paddington)
+- London terminals served: 2 (Paddington, Liverpool Street)
 - Operator: Great Western Railway, Elizabeth line
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Southall to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Paddington | 14 min | Direct | Great Western Railway, Elizabeth line |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Paddington | 13 min | 18 | 9.2 | Great Western Railway, Elizabeth line |
+| Liverpool Street | 24 min | 29 | 9.2 | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Southall to London take?
 
-The fastest train from Southall reaches London Paddington in 14 minutes. Southall connects to 1 London terminal: Paddington.
+The fastest train from Southall reaches London Paddington in 13 minutes. Southall connects to 2 London terminals: Paddington, Liverpool Street.
 
 ### Which London station should I travel to from Southall?
 
-Paddington is the quickest at 14 minutes, on a direct service. Direct trains run to Paddington.
+Paddington is the quickest at 13 minutes, on a direct service. Direct trains run to Paddington, Liverpool Street.
 
 ### Is Southall a good commuter town for London?
 
-At 14 minutes to London Paddington, Southall is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 13 minutes to London Paddington, Southall is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Southall to London?
 
-Yes. Direct services run to Paddington.
+Yes. Direct services run to Paddington, Liverpool Street.
 
 ### What are the nearest stations to Southall?
 

@@ -1,37 +1,38 @@
 # Train times from Dorking to London
 
-Dorking connects to 1 London terminal. The fastest route is Waterloo in 52 minutes on a direct train.
+Dorking connects to 2 London terminals. The fastest route is Waterloo in 53 minutes on a direct train.
 
-- Fastest journey to London: 52 minutes to Waterloo
+- Fastest journey to London: 53 minutes to Waterloo
 - Direct service: Yes
-- London terminals served: 1 (Waterloo)
+- London terminals served: 2 (Waterloo, Victoria)
 - Operator: South Western Railway
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Dorking to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Waterloo | 52 min | Direct | South Western Railway |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Waterloo | 53 min | 57 | 2.0 | South Western Railway |
+| Victoria | 57 min | 64 | 2.0 | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from Dorking to London take?
 
-The fastest train from Dorking reaches London Waterloo in 52 minutes. Dorking connects to 1 London terminal: Waterloo.
+The fastest train from Dorking reaches London Waterloo in 53 minutes. Dorking connects to 2 London terminals: Waterloo, Victoria.
 
 ### Which London station should I travel to from Dorking?
 
-Waterloo is the quickest at 52 minutes, on a direct service. Direct trains run to Waterloo.
+Waterloo is the quickest at 53 minutes, on a direct service. Direct trains run to Waterloo, Victoria.
 
 ### Is Dorking a good commuter town for London?
 
-At 52 minutes to London Waterloo, Dorking is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 53 minutes to London Waterloo, Dorking is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Dorking to London?
 
-Yes. Direct services run to Waterloo.
+Yes. Direct services run to Waterloo, Victoria.
 
 ### What are the nearest stations to Dorking?
 

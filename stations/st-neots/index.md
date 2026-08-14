@@ -1,37 +1,39 @@
 # Train times from St Neots to London
 
-St Neots connects to 1 London terminal. The fastest route is Kings Cross in 46 minutes on a direct train.
+St Neots connects to 3 London terminals. The fastest route is Kings Cross in 39 minutes on a direct train.
 
-- Fastest journey to London: 46 minutes to Kings Cross
+- Fastest journey to London: 39 minutes to Kings Cross
 - Direct service: Yes
-- London terminals served: 1 (Kings Cross)
-- Operator: Great Northern, Thameslink, LNER
+- London terminals served: 3 (Kings Cross, St Pancras, London Bridge)
+- Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## St Neots to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Kings Cross | 46 min | Direct | Great Northern, Thameslink, LNER |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Kings Cross | 39 min | 45 | 1.5 | Great Northern, LNER, Hull Trains, Lumo |
+| St Pancras | 56 min | 58 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 71 min | 73 | 2.0 | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 
 ### How long does the train from St Neots to London take?
 
-The fastest train from St Neots reaches London Kings Cross in 46 minutes. St Neots connects to 1 London terminal: Kings Cross.
+The fastest train from St Neots reaches London Kings Cross in 39 minutes. St Neots connects to 3 London terminals: Kings Cross, St Pancras, London Bridge.
 
 ### Which London station should I travel to from St Neots?
 
-Kings Cross is the quickest at 46 minutes, on a direct service. Direct trains run to Kings Cross.
+Kings Cross is the quickest at 39 minutes, on a direct service. Direct trains run to Kings Cross, St Pancras, London Bridge.
 
 ### Is St Neots a good commuter town for London?
 
-At 46 minutes to London Kings Cross, St Neots is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 39 minutes to London Kings Cross, St Neots is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from St Neots to London?
 
-Yes. Direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross, St Pancras, London Bridge.
 
 ### What are the nearest stations to St Neots?
 

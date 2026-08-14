@@ -1,33 +1,33 @@
 # Train times from East Tilbury to London
 
-East Tilbury connects to 1 London terminal. The fastest route is Fenchurch Street in 34 minutes on a direct train.
+East Tilbury connects to 1 London terminal. The fastest route is Fenchurch Street in 44 minutes on a direct train.
 
-- Fastest journey to London: 34 minutes to Fenchurch Street
+- Fastest journey to London: 44 minutes to Fenchurch Street
 - Direct service: Yes
 - London terminals served: 1 (Fenchurch Street)
 - Operator: c2c
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## East Tilbury to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Fenchurch Street | 34 min | Direct | c2c |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Fenchurch Street | 44 min | 48 | 3.2 | c2c |
 
 ## Frequently asked questions
 
 ### How long does the train from East Tilbury to London take?
 
-The fastest train from East Tilbury reaches London Fenchurch Street in 34 minutes. East Tilbury connects to 1 London terminal: Fenchurch Street.
+The fastest train from East Tilbury reaches London Fenchurch Street in 44 minutes. East Tilbury connects to 1 London terminal: Fenchurch Street.
 
 ### Which London station should I travel to from East Tilbury?
 
-Fenchurch Street is the quickest at 34 minutes, on a direct service. Direct trains run to Fenchurch Street.
+Fenchurch Street is the quickest at 44 minutes, on a direct service. Direct trains run to Fenchurch Street.
 
 ### Is East Tilbury a good commuter town for London?
 
-At 34 minutes to London Fenchurch Street, East Tilbury is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 44 minutes to London Fenchurch Street, East Tilbury is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from East Tilbury to London?
 

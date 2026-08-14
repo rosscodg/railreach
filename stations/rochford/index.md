@@ -5,15 +5,15 @@ Rochford connects to 1 London terminal. The fastest route is Liverpool Street in
 - Fastest journey to London: 50 minutes to Liverpool Street
 - Direct service: Yes
 - London terminals served: 1 (Liverpool Street)
-- Operator: Greater Anglia
+- Operator: Greater Anglia, Elizabeth line
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Rochford to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Liverpool Street | 50 min | Direct | Greater Anglia |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Liverpool Street | 50 min | 55 | 4.4 | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 

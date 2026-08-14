@@ -1,29 +1,31 @@
 # Train times from Arlesey to London
 
-Arlesey connects to 1 London terminal. The fastest route is Kings Cross in 38 minutes on a direct train.
+Arlesey connects to 3 London terminals. The fastest route is Kings Cross in 38 minutes on a direct train.
 
 - Fastest journey to London: 38 minutes to Kings Cross
 - Direct service: Yes
-- London terminals served: 1 (Kings Cross)
-- Operator: Great Northern, Thameslink, LNER
+- London terminals served: 3 (Kings Cross, St Pancras, London Bridge)
+- Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Arlesey to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Kings Cross | 38 min | Direct | Great Northern, Thameslink, LNER |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Kings Cross | 38 min | - | - | Great Northern, LNER, Hull Trains, Lumo |
+| St Pancras | 39 min | 41 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 54 min | 56 | 2.0 | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 
 ### How long does the train from Arlesey to London take?
 
-The fastest train from Arlesey reaches London Kings Cross in 38 minutes. Arlesey connects to 1 London terminal: Kings Cross.
+The fastest train from Arlesey reaches London Kings Cross in 38 minutes. Arlesey connects to 3 London terminals: Kings Cross, St Pancras, London Bridge.
 
 ### Which London station should I travel to from Arlesey?
 
-Kings Cross is the quickest at 38 minutes, on a direct service. Direct trains run to Kings Cross.
+Kings Cross is the quickest at 38 minutes, on a direct service. Direct trains run to Kings Cross, St Pancras, London Bridge.
 
 ### Is Arlesey a good commuter town for London?
 
@@ -31,7 +33,7 @@ At 38 minutes to London Kings Cross, Arlesey is a practical commuter choice, wit
 
 ### Are there direct trains from Arlesey to London?
 
-Yes. Direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross, St Pancras, London Bridge.
 
 ### What are the nearest stations to Arlesey?
 

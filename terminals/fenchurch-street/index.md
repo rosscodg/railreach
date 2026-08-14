@@ -5,38 +5,38 @@ direct train. Services are operated by c2c.
 
 - Stations within 90 minutes: 22
 - Direct services: 22 of 22
-- Stations under 30 minutes: 11
+- Stations under 30 minutes: 10
 - Fastest station: Limehouse - 4 minutes
 - Operators: c2c
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Every station to Fenchurch Street
 
-| Station | Journey time | Service |
-| --- | --- | --- |
-| Limehouse | 4 min | Direct |
-| West Ham | 6 min | Direct |
-| Barking | 10 min | Direct |
-| Dagenham Dock | 14 min | Direct |
-| Rainham (Essex) | 17 min | Direct |
-| Upminster | 18 min | Direct |
-| Purfleet | 20 min | Direct |
-| Chafford Hundred | 22 min | Direct |
-| West Horndon | 24 min | Direct |
-| Ockendon | 25 min | Direct |
-| Grays | 27 min | Direct |
-| Laindon | 30 min | Direct |
-| Tilbury Town | 30 min | Direct |
-| Basildon | 33 min | Direct |
-| East Tilbury | 34 min | Direct |
-| Stanford-le-Hope | 35 min | Direct |
-| Pitsea | 38 min | Direct |
-| Benfleet | 42 min | Direct |
-| Leigh-on-Sea | 47 min | Direct |
-| Chalkwell | 49 min | Direct |
-| Westcliff | 50 min | Direct |
-| Southend Central | 52 min | Direct |
+| Station | Fastest | Typical peak | Peak trains/hr |
+| --- | --- | --- | --- |
+| Limehouse | 4 min | 5 | 15.2 |
+| West Ham | 9 min | 10 | 15.6 |
+| Barking | 14 min | 16 | 11.6 |
+| Dagenham Dock | 20 min | 22 | 3.2 |
+| Upminster | 21 min | 24 | 8.8 |
+| Rainham (Essex) | 24 min | 26 | 3.2 |
+| West Horndon | 27 min | 30 | 3.6 |
+| Ockendon | 28 min | 31 | 3.6 |
+| Laindon | 29 min | 34 | 6.4 |
+| Purfleet | 29 min | 32 | 3.2 |
+| Basildon | 32 min | 36 | 6.8 |
+| Chafford Hundred | 33 min | 36 | 3.6 |
+| Grays | 35 min | 39 | 6.8 |
+| Benfleet | 37 min | 44 | 8.0 |
+| Pitsea | 37 min | 44 | 8.0 |
+| Tilbury Town | 38 min | 42 | 3.2 |
+| Leigh-on-Sea | 41 min | 48 | 8.0 |
+| Chalkwell | 42 min | 52 | 6.8 |
+| East Tilbury | 44 min | 48 | 3.2 |
+| Westcliff | 45 min | 55 | 6.8 |
+| Southend Central | 47 min | 57 | 6.8 |
+| Stanford-le-Hope | 48 min | 52 | 3.2 |
 
 ## Frequently asked questions
 
@@ -46,7 +46,7 @@ The fastest connection is from Limehouse, at 4 minutes on a direct service. Serv
 
 ### Which commuter towns are within 30 minutes of Fenchurch Street?
 
-11 stations reach Fenchurch Street in under 30 minutes, including Limehouse, West Ham, Barking, Dagenham Dock, Rainham (Essex), Upminster. These are the shortest commutes available into this terminal.
+10 stations reach Fenchurch Street in under 30 minutes, including Limehouse, West Ham, Barking, Dagenham Dock, Upminster, Rainham (Essex). These are the shortest commutes available into this terminal.
 
 ### How many stations connect to Fenchurch Street?
 
@@ -54,7 +54,7 @@ The fastest connection is from Limehouse, at 4 minutes on a direct service. Serv
 
 ### What areas does Fenchurch Street serve?
 
-London Fenchurch Street primarily serves East London and South Essex. Key commuter destinations on this network include Limehouse, West Ham, Barking, Dagenham Dock, Rainham (Essex).
+London Fenchurch Street primarily serves East London and South Essex. Key commuter destinations on this network include Limehouse, West Ham, Barking, Dagenham Dock, Upminster.
 
 ### Is Fenchurch Street a good terminal to commute into?
 

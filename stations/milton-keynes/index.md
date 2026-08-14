@@ -1,33 +1,33 @@
 # Train times from Milton Keynes Central to London
 
-Milton Keynes Central connects to 1 London terminal. The fastest route is Euston in 30 minutes on a direct train.
+Milton Keynes Central connects to 1 London terminal. The fastest route is Euston in 32 minutes on a direct train.
 
-- Fastest journey to London: 30 minutes to Euston
+- Fastest journey to London: 32 minutes to Euston
 - Direct service: Yes
 - London terminals served: 1 (Euston)
 - Operator: Avanti West Coast, London Northwestern
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Milton Keynes Central to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Euston | 30 min | Direct | Avanti West Coast, London Northwestern |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Euston | 32 min | 36 | 8.9 | Avanti West Coast, London Northwestern |
 
 ## Frequently asked questions
 
 ### How long does the train from Milton Keynes Central to London take?
 
-The fastest train from Milton Keynes Central reaches London Euston in 30 minutes. Milton Keynes Central connects to 1 London terminal: Euston.
+The fastest train from Milton Keynes Central reaches London Euston in 32 minutes. Milton Keynes Central connects to 1 London terminal: Euston.
 
 ### Which London station should I travel to from Milton Keynes Central?
 
-Euston is the quickest at 30 minutes, on a direct service. Direct trains run to Euston.
+Euston is the quickest at 32 minutes, on a direct service. Direct trains run to Euston.
 
 ### Is Milton Keynes Central a good commuter town for London?
 
-At 30 minutes to London Euston, Milton Keynes Central is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 32 minutes to London Euston, Milton Keynes Central is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Milton Keynes Central to London?
 

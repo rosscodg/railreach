@@ -1,33 +1,33 @@
 # Train times from Leamington Spa to London
 
-Leamington Spa connects to 1 London terminal. The fastest route is Marylebone in 72 minutes on a direct train.
+Leamington Spa connects to 1 London terminal. The fastest route is Marylebone in 82 minutes on a direct train.
 
-- Fastest journey to London: 72 minutes to Marylebone
+- Fastest journey to London: 82 minutes to Marylebone
 - Direct service: Yes
 - London terminals served: 1 (Marylebone)
 - Operator: Chiltern Railways
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Leamington Spa to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Marylebone | 72 min | Direct | Chiltern Railways |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Marylebone | 82 min | 83 | 2.0 | Chiltern Railways |
 
 ## Frequently asked questions
 
 ### How long does the train from Leamington Spa to London take?
 
-The fastest train from Leamington Spa reaches London Marylebone in 72 minutes. Leamington Spa connects to 1 London terminal: Marylebone.
+The fastest train from Leamington Spa reaches London Marylebone in 82 minutes. Leamington Spa connects to 1 London terminal: Marylebone.
 
 ### Which London station should I travel to from Leamington Spa?
 
-Marylebone is the quickest at 72 minutes, on a direct service. Direct trains run to Marylebone.
+Marylebone is the quickest at 82 minutes, on a direct service. Direct trains run to Marylebone.
 
 ### Is Leamington Spa a good commuter town for London?
 
-At 72 minutes to London Marylebone, Leamington Spa is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
+At 82 minutes to London Marylebone, Leamington Spa is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from Leamington Spa to London?
 

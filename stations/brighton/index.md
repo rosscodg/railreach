@@ -1,38 +1,39 @@
 # Train times from Brighton to London
 
-Brighton connects to 2 London terminals. The fastest route is Victoria in 58 minutes on a direct train.
+Brighton connects to 3 London terminals. The fastest route is Victoria in 60 minutes on a direct train.
 
-- Fastest journey to London: 58 minutes to Victoria
+- Fastest journey to London: 60 minutes to Victoria
 - Direct service: Yes
-- London terminals served: 2 (Victoria, London Bridge)
+- London terminals served: 3 (Victoria, London Bridge, St Pancras)
 - Operator: Southeastern, Southern
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Brighton to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Victoria | 58 min | Direct | Southeastern, Southern |
-| London Bridge | 60 min | Direct | Southeastern, Southern, Thameslink |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Victoria | 60 min | 65 | 2.0 | Southeastern, Southern |
+| London Bridge | 61 min | 68 | 4.0 | Southeastern, Southern, Thameslink |
+| St Pancras | 76 min | 82 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 
 ### How long does the train from Brighton to London take?
 
-The fastest train from Brighton reaches London Victoria in 58 minutes. Brighton connects to 2 London terminals: Victoria, London Bridge.
+The fastest train from Brighton reaches London Victoria in 60 minutes. Brighton connects to 3 London terminals: Victoria, London Bridge, St Pancras.
 
 ### Which London station should I travel to from Brighton?
 
-Victoria is the quickest at 58 minutes, on a direct service. Direct trains run to Victoria, London Bridge.
+Victoria is the quickest at 60 minutes, on a direct service. Direct trains run to Victoria, London Bridge, St Pancras.
 
 ### Is Brighton a good commuter town for London?
 
-At 58 minutes to London Victoria, Brighton is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 60 minutes to London Victoria, Brighton is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from Brighton to London?
 
-Yes. Direct services run to Victoria, London Bridge.
+Yes. Direct services run to Victoria, London Bridge, St Pancras.
 
 ### What are the nearest stations to Brighton?
 

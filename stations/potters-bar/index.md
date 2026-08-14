@@ -1,37 +1,39 @@
 # Train times from Potters Bar to London
 
-Potters Bar connects to 1 London terminal. The fastest route is Kings Cross in 18 minutes on a direct train.
+Potters Bar connects to 3 London terminals. The fastest route is Kings Cross in 20 minutes on a direct train.
 
-- Fastest journey to London: 18 minutes to Kings Cross
+- Fastest journey to London: 20 minutes to Kings Cross
 - Direct service: Yes
-- London terminals served: 1 (Kings Cross)
-- Operator: Great Northern, Thameslink, LNER
+- London terminals served: 3 (Kings Cross, St Pancras, Moorgate)
+- Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Potters Bar to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Kings Cross | 18 min | Direct | Great Northern, Thameslink, LNER |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Kings Cross | 20 min | 23 | 2.0 | Great Northern, LNER, Hull Trains, Lumo |
+| St Pancras | 24 min | 25 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Moorgate | 33 min | 38 | 4.0 | Great Northern |
 
 ## Frequently asked questions
 
 ### How long does the train from Potters Bar to London take?
 
-The fastest train from Potters Bar reaches London Kings Cross in 18 minutes. Potters Bar connects to 1 London terminal: Kings Cross.
+The fastest train from Potters Bar reaches London Kings Cross in 20 minutes. Potters Bar connects to 3 London terminals: Kings Cross, St Pancras, Moorgate.
 
 ### Which London station should I travel to from Potters Bar?
 
-Kings Cross is the quickest at 18 minutes, on a direct service. Direct trains run to Kings Cross.
+Kings Cross is the quickest at 20 minutes, on a direct service. Direct trains run to Kings Cross, St Pancras, Moorgate.
 
 ### Is Potters Bar a good commuter town for London?
 
-At 18 minutes to London Kings Cross, Potters Bar is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 20 minutes to London Kings Cross, Potters Bar is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Potters Bar to London?
 
-Yes. Direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross, St Pancras, Moorgate.
 
 ### What are the nearest stations to Potters Bar?
 

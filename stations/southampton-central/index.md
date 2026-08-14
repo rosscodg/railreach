@@ -7,13 +7,13 @@ Southampton Central connects to 1 London terminal. The fastest route is Waterloo
 - London terminals served: 1 (Waterloo)
 - Operator: South Western Railway
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Southampton Central to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Waterloo | 76 min | Direct | South Western Railway |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Waterloo | 76 min | 82 | 2.4 | South Western Railway |
 
 ## Frequently asked questions
 

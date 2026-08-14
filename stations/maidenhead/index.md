@@ -1,37 +1,38 @@
 # Train times from Maidenhead to London
 
-Maidenhead connects to 1 London terminal. The fastest route is Paddington in 19 minutes on a direct train.
+Maidenhead connects to 2 London terminals. The fastest route is Paddington in 18 minutes on a direct train.
 
-- Fastest journey to London: 19 minutes to Paddington
+- Fastest journey to London: 18 minutes to Paddington
 - Direct service: Yes
-- London terminals served: 1 (Paddington)
+- London terminals served: 2 (Paddington, Liverpool Street)
 - Operator: Great Western Railway, Elizabeth line
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Maidenhead to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Paddington | 19 min | Direct | Great Western Railway, Elizabeth line |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Paddington | 18 min | 38 | 10.0 | Great Western Railway, Elizabeth line |
+| Liverpool Street | 47 min | 53 | 6.0 | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Maidenhead to London take?
 
-The fastest train from Maidenhead reaches London Paddington in 19 minutes. Maidenhead connects to 1 London terminal: Paddington.
+The fastest train from Maidenhead reaches London Paddington in 18 minutes. Maidenhead connects to 2 London terminals: Paddington, Liverpool Street.
 
 ### Which London station should I travel to from Maidenhead?
 
-Paddington is the quickest at 19 minutes, on a direct service. Direct trains run to Paddington.
+Paddington is the quickest at 18 minutes, on a direct service. Direct trains run to Paddington, Liverpool Street.
 
 ### Is Maidenhead a good commuter town for London?
 
-At 19 minutes to London Paddington, Maidenhead is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 18 minutes to London Paddington, Maidenhead is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Maidenhead to London?
 
-Yes. Direct services run to Paddington.
+Yes. Direct services run to Paddington, Liverpool Street.
 
 ### What are the nearest stations to Maidenhead?
 

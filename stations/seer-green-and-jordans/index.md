@@ -1,33 +1,33 @@
 # Train times from Seer Green & Jordans to London
 
-Seer Green & Jordans connects to 1 London terminal. The fastest route is Marylebone in 23 minutes on a direct train.
+Seer Green & Jordans connects to 1 London terminal. The fastest route is Marylebone in 24 minutes on a direct train.
 
-- Fastest journey to London: 23 minutes to Marylebone
+- Fastest journey to London: 24 minutes to Marylebone
 - Direct service: Yes
 - London terminals served: 1 (Marylebone)
 - Operator: Chiltern Railways
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Seer Green & Jordans to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Marylebone | 23 min | Direct | Chiltern Railways |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Marylebone | 24 min | 33 | 1.6 | Chiltern Railways |
 
 ## Frequently asked questions
 
 ### How long does the train from Seer Green & Jordans to London take?
 
-The fastest train from Seer Green & Jordans reaches London Marylebone in 23 minutes. Seer Green & Jordans connects to 1 London terminal: Marylebone.
+The fastest train from Seer Green & Jordans reaches London Marylebone in 24 minutes. Seer Green & Jordans connects to 1 London terminal: Marylebone.
 
 ### Which London station should I travel to from Seer Green & Jordans?
 
-Marylebone is the quickest at 23 minutes, on a direct service. Direct trains run to Marylebone.
+Marylebone is the quickest at 24 minutes, on a direct service. Direct trains run to Marylebone.
 
 ### Is Seer Green & Jordans a good commuter town for London?
 
-At 23 minutes to London Marylebone, Seer Green & Jordans is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 24 minutes to London Marylebone, Seer Green & Jordans is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Seer Green & Jordans to London?
 

@@ -1,33 +1,33 @@
 # Train times from Ockendon to London
 
-Ockendon connects to 1 London terminal. The fastest route is Fenchurch Street in 25 minutes on a direct train.
+Ockendon connects to 1 London terminal. The fastest route is Fenchurch Street in 28 minutes on a direct train.
 
-- Fastest journey to London: 25 minutes to Fenchurch Street
+- Fastest journey to London: 28 minutes to Fenchurch Street
 - Direct service: Yes
 - London terminals served: 1 (Fenchurch Street)
 - Operator: c2c
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Ockendon to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Fenchurch Street | 25 min | Direct | c2c |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Fenchurch Street | 28 min | 31 | 3.6 | c2c |
 
 ## Frequently asked questions
 
 ### How long does the train from Ockendon to London take?
 
-The fastest train from Ockendon reaches London Fenchurch Street in 25 minutes. Ockendon connects to 1 London terminal: Fenchurch Street.
+The fastest train from Ockendon reaches London Fenchurch Street in 28 minutes. Ockendon connects to 1 London terminal: Fenchurch Street.
 
 ### Which London station should I travel to from Ockendon?
 
-Fenchurch Street is the quickest at 25 minutes, on a direct service. Direct trains run to Fenchurch Street.
+Fenchurch Street is the quickest at 28 minutes, on a direct service. Direct trains run to Fenchurch Street.
 
 ### Is Ockendon a good commuter town for London?
 
-At 25 minutes to London Fenchurch Street, Ockendon is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 28 minutes to London Fenchurch Street, Ockendon is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Ockendon to London?
 

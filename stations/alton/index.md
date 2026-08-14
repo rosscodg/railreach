@@ -1,33 +1,33 @@
 # Train times from Alton to London
 
-Alton connects to 1 London terminal. The fastest route is Waterloo in 58 minutes on a direct train.
+Alton connects to 1 London terminal. The fastest route is Waterloo in 66 minutes on a direct train.
 
-- Fastest journey to London: 58 minutes to Waterloo
+- Fastest journey to London: 66 minutes to Waterloo
 - Direct service: Yes
 - London terminals served: 1 (Waterloo)
 - Operator: South Western Railway
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Alton to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Waterloo | 58 min | Direct | South Western Railway |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Waterloo | 66 min | 67 | 2.0 | South Western Railway |
 
 ## Frequently asked questions
 
 ### How long does the train from Alton to London take?
 
-The fastest train from Alton reaches London Waterloo in 58 minutes. Alton connects to 1 London terminal: Waterloo.
+The fastest train from Alton reaches London Waterloo in 66 minutes. Alton connects to 1 London terminal: Waterloo.
 
 ### Which London station should I travel to from Alton?
 
-Waterloo is the quickest at 58 minutes, on a direct service. Direct trains run to Waterloo.
+Waterloo is the quickest at 66 minutes, on a direct service. Direct trains run to Waterloo.
 
 ### Is Alton a good commuter town for London?
 
-At 58 minutes to London Waterloo, Alton is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 66 minutes to London Waterloo, Alton is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from Alton to London?
 

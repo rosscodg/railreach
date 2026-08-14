@@ -1,33 +1,33 @@
 # Train times from Basildon to London
 
-Basildon connects to 1 London terminal. The fastest route is Fenchurch Street in 33 minutes on a direct train.
+Basildon connects to 1 London terminal. The fastest route is Fenchurch Street in 32 minutes on a direct train.
 
-- Fastest journey to London: 33 minutes to Fenchurch Street
+- Fastest journey to London: 32 minutes to Fenchurch Street
 - Direct service: Yes
 - London terminals served: 1 (Fenchurch Street)
 - Operator: c2c
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Basildon to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Fenchurch Street | 33 min | Direct | c2c |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Fenchurch Street | 32 min | 36 | 6.8 | c2c |
 
 ## Frequently asked questions
 
 ### How long does the train from Basildon to London take?
 
-The fastest train from Basildon reaches London Fenchurch Street in 33 minutes. Basildon connects to 1 London terminal: Fenchurch Street.
+The fastest train from Basildon reaches London Fenchurch Street in 32 minutes. Basildon connects to 1 London terminal: Fenchurch Street.
 
 ### Which London station should I travel to from Basildon?
 
-Fenchurch Street is the quickest at 33 minutes, on a direct service. Direct trains run to Fenchurch Street.
+Fenchurch Street is the quickest at 32 minutes, on a direct service. Direct trains run to Fenchurch Street.
 
 ### Is Basildon a good commuter town for London?
 
-At 33 minutes to London Fenchurch Street, Basildon is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 32 minutes to London Fenchurch Street, Basildon is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Basildon to London?
 

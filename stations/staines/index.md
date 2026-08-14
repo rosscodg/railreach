@@ -1,33 +1,33 @@
 # Train times from Staines to London
 
-Staines connects to 1 London terminal. The fastest route is Waterloo in 34 minutes on a direct train.
+Staines connects to 1 London terminal. The fastest route is Waterloo in 35 minutes on a direct train.
 
-- Fastest journey to London: 34 minutes to Waterloo
+- Fastest journey to London: 35 minutes to Waterloo
 - Direct service: Yes
 - London terminals served: 1 (Waterloo)
 - Operator: South Western Railway
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Staines to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Waterloo | 34 min | Direct | South Western Railway |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Waterloo | 35 min | 43 | 6.8 | South Western Railway |
 
 ## Frequently asked questions
 
 ### How long does the train from Staines to London take?
 
-The fastest train from Staines reaches London Waterloo in 34 minutes. Staines connects to 1 London terminal: Waterloo.
+The fastest train from Staines reaches London Waterloo in 35 minutes. Staines connects to 1 London terminal: Waterloo.
 
 ### Which London station should I travel to from Staines?
 
-Waterloo is the quickest at 34 minutes, on a direct service. Direct trains run to Waterloo.
+Waterloo is the quickest at 35 minutes, on a direct service. Direct trains run to Waterloo.
 
 ### Is Staines a good commuter town for London?
 
-At 34 minutes to London Waterloo, Staines is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 35 minutes to London Waterloo, Staines is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Staines to London?
 

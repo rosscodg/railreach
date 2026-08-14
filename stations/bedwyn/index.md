@@ -7,13 +7,13 @@ Bedwyn connects to 1 London terminal. The fastest route is Paddington in 56 minu
 - London terminals served: 1 (Paddington)
 - Operator: Great Western Railway, Elizabeth line
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Bedwyn to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Paddington | 56 min | Direct | Great Western Railway, Elizabeth line |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Paddington | 56 min | 69 | 2.0 | Great Western Railway, Elizabeth line |
 
 ## Frequently asked questions
 

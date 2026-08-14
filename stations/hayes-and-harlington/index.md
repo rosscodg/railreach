@@ -1,37 +1,38 @@
 # Train times from Hayes & Harlington to London
 
-Hayes & Harlington connects to 1 London terminal. The fastest route is Paddington in 17 minutes on a direct train.
+Hayes & Harlington connects to 2 London terminals. The fastest route is Paddington in 16 minutes on a direct train.
 
-- Fastest journey to London: 17 minutes to Paddington
+- Fastest journey to London: 16 minutes to Paddington
 - Direct service: Yes
-- London terminals served: 1 (Paddington)
+- London terminals served: 2 (Paddington, Liverpool Street)
 - Operator: Great Western Railway, Elizabeth line
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Hayes & Harlington to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Paddington | 17 min | Direct | Great Western Railway, Elizabeth line |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Paddington | 16 min | 21 | 10.0 | Great Western Railway, Elizabeth line |
+| Liverpool Street | 28 min | 32 | 10.0 | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Hayes & Harlington to London take?
 
-The fastest train from Hayes & Harlington reaches London Paddington in 17 minutes. Hayes & Harlington connects to 1 London terminal: Paddington.
+The fastest train from Hayes & Harlington reaches London Paddington in 16 minutes. Hayes & Harlington connects to 2 London terminals: Paddington, Liverpool Street.
 
 ### Which London station should I travel to from Hayes & Harlington?
 
-Paddington is the quickest at 17 minutes, on a direct service. Direct trains run to Paddington.
+Paddington is the quickest at 16 minutes, on a direct service. Direct trains run to Paddington, Liverpool Street.
 
 ### Is Hayes & Harlington a good commuter town for London?
 
-At 17 minutes to London Paddington, Hayes & Harlington is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 16 minutes to London Paddington, Hayes & Harlington is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Hayes & Harlington to London?
 
-Yes. Direct services run to Paddington.
+Yes. Direct services run to Paddington, Liverpool Street.
 
 ### What are the nearest stations to Hayes & Harlington?
 

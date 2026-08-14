@@ -1,37 +1,38 @@
 # Train times from Box Hill & Westhumble to London
 
-Box Hill & Westhumble connects to 1 London terminal. The fastest route is Waterloo in 48 minutes on a direct train.
+Box Hill & Westhumble connects to 2 London terminals. The fastest route is Waterloo in 50 minutes on a direct train.
 
-- Fastest journey to London: 48 minutes to Waterloo
+- Fastest journey to London: 50 minutes to Waterloo
 - Direct service: Yes
-- London terminals served: 1 (Waterloo)
+- London terminals served: 2 (Waterloo, Victoria)
 - Operator: South Western Railway
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Box Hill & Westhumble to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Waterloo | 48 min | Direct | South Western Railway |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Waterloo | 50 min | 54 | 2.0 | South Western Railway |
+| Victoria | 59 min | 61 | 1.2 | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from Box Hill & Westhumble to London take?
 
-The fastest train from Box Hill & Westhumble reaches London Waterloo in 48 minutes. Box Hill & Westhumble connects to 1 London terminal: Waterloo.
+The fastest train from Box Hill & Westhumble reaches London Waterloo in 50 minutes. Box Hill & Westhumble connects to 2 London terminals: Waterloo, Victoria.
 
 ### Which London station should I travel to from Box Hill & Westhumble?
 
-Waterloo is the quickest at 48 minutes, on a direct service. Direct trains run to Waterloo.
+Waterloo is the quickest at 50 minutes, on a direct service. Direct trains run to Waterloo, Victoria.
 
 ### Is Box Hill & Westhumble a good commuter town for London?
 
-At 48 minutes to London Waterloo, Box Hill & Westhumble is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 50 minutes to London Waterloo, Box Hill & Westhumble is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Box Hill & Westhumble to London?
 
-Yes. Direct services run to Waterloo.
+Yes. Direct services run to Waterloo, Victoria.
 
 ### What are the nearest stations to Box Hill & Westhumble?
 

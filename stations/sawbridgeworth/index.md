@@ -1,33 +1,33 @@
 # Train times from Sawbridgeworth to London
 
-Sawbridgeworth connects to 1 London terminal. The fastest route is Liverpool Street in 38 minutes on a direct train.
+Sawbridgeworth connects to 1 London terminal. The fastest route is Liverpool Street in 40 minutes on a direct train.
 
-- Fastest journey to London: 38 minutes to Liverpool Street
+- Fastest journey to London: 40 minutes to Liverpool Street
 - Direct service: Yes
 - London terminals served: 1 (Liverpool Street)
-- Operator: Greater Anglia
+- Operator: Greater Anglia, Elizabeth line
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Sawbridgeworth to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Liverpool Street | 38 min | Direct | Greater Anglia |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Liverpool Street | 40 min | 44 | 3.1 | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Sawbridgeworth to London take?
 
-The fastest train from Sawbridgeworth reaches London Liverpool Street in 38 minutes. Sawbridgeworth connects to 1 London terminal: Liverpool Street.
+The fastest train from Sawbridgeworth reaches London Liverpool Street in 40 minutes. Sawbridgeworth connects to 1 London terminal: Liverpool Street.
 
 ### Which London station should I travel to from Sawbridgeworth?
 
-Liverpool Street is the quickest at 38 minutes, on a direct service. Direct trains run to Liverpool Street.
+Liverpool Street is the quickest at 40 minutes, on a direct service. Direct trains run to Liverpool Street.
 
 ### Is Sawbridgeworth a good commuter town for London?
 
-At 38 minutes to London Liverpool Street, Sawbridgeworth is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 40 minutes to London Liverpool Street, Sawbridgeworth is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Sawbridgeworth to London?
 

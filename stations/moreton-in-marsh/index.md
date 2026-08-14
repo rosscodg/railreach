@@ -1,33 +1,33 @@
 # Train times from Moreton-in-Marsh to London
 
-Moreton-in-Marsh connects to 1 London terminal. The fastest route is Paddington in 85 minutes on a direct train.
+Moreton-in-Marsh connects to 1 London terminal. The fastest route is Paddington in 88 minutes on a direct train.
 
-- Fastest journey to London: 85 minutes to Paddington
+- Fastest journey to London: 88 minutes to Paddington
 - Direct service: Yes
 - London terminals served: 1 (Paddington)
 - Operator: Great Western Railway, Elizabeth line
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Moreton-in-Marsh to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Paddington | 85 min | Direct | Great Western Railway, Elizabeth line |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Paddington | 88 min | 90 | 1.2 | Great Western Railway, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Moreton-in-Marsh to London take?
 
-The fastest train from Moreton-in-Marsh reaches London Paddington in 85 minutes. Moreton-in-Marsh connects to 1 London terminal: Paddington.
+The fastest train from Moreton-in-Marsh reaches London Paddington in 88 minutes. Moreton-in-Marsh connects to 1 London terminal: Paddington.
 
 ### Which London station should I travel to from Moreton-in-Marsh?
 
-Paddington is the quickest at 85 minutes, on a direct service. Direct trains run to Paddington.
+Paddington is the quickest at 88 minutes, on a direct service. Direct trains run to Paddington.
 
 ### Is Moreton-in-Marsh a good commuter town for London?
 
-At 85 minutes to London Paddington, Moreton-in-Marsh is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
+At 88 minutes to London Paddington, Moreton-in-Marsh is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from Moreton-in-Marsh to London?
 

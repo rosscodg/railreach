@@ -1,33 +1,33 @@
 # Train times from Long Buckby to London
 
-Long Buckby connects to 1 London terminal. The fastest route is Euston in 56 minutes on a direct train.
+Long Buckby connects to 1 London terminal. The fastest route is Euston in 68 minutes on a direct train.
 
-- Fastest journey to London: 56 minutes to Euston
+- Fastest journey to London: 68 minutes to Euston
 - Direct service: Yes
 - London terminals served: 1 (Euston)
 - Operator: Avanti West Coast, London Northwestern
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Long Buckby to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Euston | 56 min | Direct | Avanti West Coast, London Northwestern |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Euston | 68 min | 74 | 2.4 | Avanti West Coast, London Northwestern |
 
 ## Frequently asked questions
 
 ### How long does the train from Long Buckby to London take?
 
-The fastest train from Long Buckby reaches London Euston in 56 minutes. Long Buckby connects to 1 London terminal: Euston.
+The fastest train from Long Buckby reaches London Euston in 68 minutes. Long Buckby connects to 1 London terminal: Euston.
 
 ### Which London station should I travel to from Long Buckby?
 
-Euston is the quickest at 56 minutes, on a direct service. Direct trains run to Euston.
+Euston is the quickest at 68 minutes, on a direct service. Direct trains run to Euston.
 
 ### Is Long Buckby a good commuter town for London?
 
-At 56 minutes to London Euston, Long Buckby is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 68 minutes to London Euston, Long Buckby is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from Long Buckby to London?
 

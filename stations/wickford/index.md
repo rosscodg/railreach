@@ -1,33 +1,33 @@
 # Train times from Wickford to London
 
-Wickford connects to 1 London terminal. The fastest route is Liverpool Street in 38 minutes on a direct train.
+Wickford connects to 1 London terminal. The fastest route is Liverpool Street in 36 minutes on a direct train.
 
-- Fastest journey to London: 38 minutes to Liverpool Street
+- Fastest journey to London: 36 minutes to Liverpool Street
 - Direct service: Yes
 - London terminals served: 1 (Liverpool Street)
-- Operator: Greater Anglia
+- Operator: Greater Anglia, Elizabeth line
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Wickford to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Liverpool Street | 38 min | Direct | Greater Anglia |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Liverpool Street | 36 min | 41 | 5.6 | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Wickford to London take?
 
-The fastest train from Wickford reaches London Liverpool Street in 38 minutes. Wickford connects to 1 London terminal: Liverpool Street.
+The fastest train from Wickford reaches London Liverpool Street in 36 minutes. Wickford connects to 1 London terminal: Liverpool Street.
 
 ### Which London station should I travel to from Wickford?
 
-Liverpool Street is the quickest at 38 minutes, on a direct service. Direct trains run to Liverpool Street.
+Liverpool Street is the quickest at 36 minutes, on a direct service. Direct trains run to Liverpool Street.
 
 ### Is Wickford a good commuter town for London?
 
-At 38 minutes to London Liverpool Street, Wickford is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 36 minutes to London Liverpool Street, Wickford is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Wickford to London?
 

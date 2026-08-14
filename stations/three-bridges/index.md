@@ -1,37 +1,39 @@
 # Train times from Three Bridges to London
 
-Three Bridges connects to 1 London terminal. The fastest route is Victoria in 36 minutes on a direct train.
+Three Bridges connects to 3 London terminals. The fastest route is London Bridge in 34 minutes on a direct train.
 
-- Fastest journey to London: 36 minutes to Victoria
+- Fastest journey to London: 34 minutes to London Bridge
 - Direct service: Yes
-- London terminals served: 1 (Victoria)
-- Operator: Southeastern, Southern
+- London terminals served: 3 (London Bridge, Victoria, St Pancras)
+- Operator: Southeastern, Southern, Thameslink
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Three Bridges to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Victoria | 36 min | Direct | Southeastern, Southern |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| London Bridge | 34 min | 42 | 8.0 | Southeastern, Southern, Thameslink |
+| Victoria | 36 min | 38 | 2.4 | Southeastern, Southern |
+| St Pancras | 49 min | 50 | 7.2 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 
 ### How long does the train from Three Bridges to London take?
 
-The fastest train from Three Bridges reaches London Victoria in 36 minutes. Three Bridges connects to 1 London terminal: Victoria.
+The fastest train from Three Bridges reaches London London Bridge in 34 minutes. Three Bridges connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Three Bridges?
 
-Victoria is the quickest at 36 minutes, on a direct service. Direct trains run to Victoria.
+London Bridge is the quickest at 34 minutes, on a direct service. Direct trains run to London Bridge, Victoria, St Pancras.
 
 ### Is Three Bridges a good commuter town for London?
 
-At 36 minutes to London Victoria, Three Bridges is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 34 minutes to London London Bridge, Three Bridges is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Three Bridges to London?
 
-Yes. Direct services run to Victoria.
+Yes. Direct services run to London Bridge, Victoria, St Pancras.
 
 ### What are the nearest stations to Three Bridges?
 

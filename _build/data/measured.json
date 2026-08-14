@@ -1,0 +1,5453 @@
+{
+ "generated": true,
+ "results": {
+  "Abbey Wood": {
+   "STP": {
+    "fastest_mins": 45,
+    "typical_peak_mins": 45,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 78,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "PAD": {
+    "fastest_mins": 28,
+    "typical_peak_mins": 30,
+    "peak_trains_per_hour": 11.6,
+    "peak_services": 87,
+    "total_services": 495,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 27,
+    "typical_peak_mins": 30,
+    "peak_trains_per_hour": 9.6,
+    "peak_services": 72,
+    "total_services": 471,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LST": {
+    "fastest_mins": 18,
+    "typical_peak_mins": 18,
+    "peak_trains_per_hour": 11.6,
+    "peak_services": 87,
+    "total_services": 495,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Acton Main Line": {
+   "PAD": {
+    "fastest_mins": 7,
+    "typical_peak_mins": 8,
+    "peak_trains_per_hour": 6.0,
+    "peak_services": 45,
+    "total_services": 237,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LST": {
+    "fastest_mins": 18,
+    "typical_peak_mins": 19,
+    "peak_trains_per_hour": 6.0,
+    "peak_services": 45,
+    "total_services": 237,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Aldershot": {
+   "WAT": {
+    "fastest_mins": 46,
+    "typical_peak_mins": 48,
+    "peak_trains_per_hour": 2.8,
+    "peak_services": 21,
+    "total_services": 102,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Alexandra Palace": {
+   "KGX": {
+    "fastest_mins": 11,
+    "typical_peak_mins": 12,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 122,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "MOG": {
+    "fastest_mins": 19,
+    "typical_peak_mins": 22,
+    "peak_trains_per_hour": 8.8,
+    "peak_services": 66,
+    "total_services": 317,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Alton": {
+   "WAT": {
+    "fastest_mins": 66,
+    "typical_peak_mins": 67,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 96,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Andover": {
+   "WAT": {
+    "fastest_mins": 62,
+    "typical_peak_mins": 70,
+    "peak_trains_per_hour": 1.9,
+    "peak_services": 14,
+    "total_services": 95,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Apsley": {
+   "EUS": {
+    "fastest_mins": 28,
+    "typical_peak_mins": 29,
+    "peak_trains_per_hour": 3.6,
+    "peak_services": 27,
+    "total_services": 123,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Arlesey": {
+   "KGX": {
+    "fastest_mins": 38,
+    "typical_peak_mins": null,
+    "peak_trains_per_hour": null,
+    "peak_services": 0,
+    "total_services": 12,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "STP": {
+    "fastest_mins": 39,
+    "typical_peak_mins": 41,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 54,
+    "typical_peak_mins": 56,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Ascot": {
+   "WAT": {
+    "fastest_mins": 55,
+    "typical_peak_mins": 60,
+    "peak_trains_per_hour": 2.8,
+    "peak_services": 21,
+    "total_services": 114,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Ash Vale": {
+   "WAT": {
+    "fastest_mins": 41,
+    "typical_peak_mins": 43,
+    "peak_trains_per_hour": 2.8,
+    "peak_services": 21,
+    "total_services": 102,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Ashford International": {
+   "STP": {
+    "fastest_mins": 36,
+    "typical_peak_mins": 38,
+    "peak_trains_per_hour": 3.6,
+    "peak_services": 27,
+    "total_services": 123,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 71,
+    "typical_peak_mins": 74,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 120,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Ashtead": {
+   "WAT": {
+    "fastest_mins": 41,
+    "typical_peak_mins": 46,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 123,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 46,
+    "typical_peak_mins": 51,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 105,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Ashwell & Morden": {
+   "KGX": {
+    "fastest_mins": 42,
+    "typical_peak_mins": 42,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 63,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "STP": {
+    "fastest_mins": 46,
+    "typical_peak_mins": 47,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 84,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 61,
+    "typical_peak_mins": 62,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 84,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Audley End": {
+   "LST": {
+    "fastest_mins": 55,
+    "typical_peak_mins": 67,
+    "peak_trains_per_hour": 3.3,
+    "peak_services": 25,
+    "total_services": 128,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Aylesbury": {
+   "MYB": {
+    "fastest_mins": 55,
+    "typical_peak_mins": 61,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 111,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Aylesbury Vale Parkway": {
+   "MYB": {
+    "fastest_mins": 60,
+    "typical_peak_mins": 67,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 60,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Balcombe": {
+   "STP": {
+    "fastest_mins": 55,
+    "typical_peak_mins": 55,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 117,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 40,
+    "typical_peak_mins": 40,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Baldock": {
+   "KGX": {
+    "fastest_mins": 36,
+    "typical_peak_mins": 36,
+    "peak_trains_per_hour": 2.4,
+    "peak_services": 18,
+    "total_services": 99,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "STP": {
+    "fastest_mins": 41,
+    "typical_peak_mins": 42,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 84,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 56,
+    "typical_peak_mins": 57,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 84,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Balham": {
+   "LBG": {
+    "fastest_mins": 39,
+    "typical_peak_mins": 44,
+    "peak_trains_per_hour": 1.6,
+    "peak_services": 12,
+    "total_services": 102,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 12,
+    "typical_peak_mins": 14,
+    "peak_trains_per_hour": 10.8,
+    "peak_services": 81,
+    "total_services": 459,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Banbury": {
+   "PAD": {
+    "fastest_mins": 74,
+    "typical_peak_mins": null,
+    "peak_trains_per_hour": null,
+    "peak_services": 0,
+    "total_services": 3,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "MYB": {
+    "fastest_mins": 62,
+    "typical_peak_mins": 65,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 86,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Barking": {
+   "FST": {
+    "fastest_mins": 14,
+    "typical_peak_mins": 16,
+    "peak_trains_per_hour": 11.6,
+    "peak_services": 87,
+    "total_services": 492,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Barnehurst": {
+   "LBG": {
+    "fastest_mins": 33,
+    "typical_peak_mins": 36,
+    "peak_trains_per_hour": 4.8,
+    "peak_services": 36,
+    "total_services": 222,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 44,
+    "typical_peak_mins": 46,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Barnes": {
+   "WAT": {
+    "fastest_mins": 19,
+    "typical_peak_mins": 22,
+    "peak_trains_per_hour": 9.6,
+    "peak_services": 72,
+    "total_services": 423,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Basildon": {
+   "FST": {
+    "fastest_mins": 32,
+    "typical_peak_mins": 36,
+    "peak_trains_per_hour": 6.8,
+    "peak_services": 51,
+    "total_services": 253,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Basingstoke": {
+   "WAT": {
+    "fastest_mins": 42,
+    "typical_peak_mins": 51,
+    "peak_trains_per_hour": 7.5,
+    "peak_services": 56,
+    "total_services": 300,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Bat & Ball": {
+   "STP": {
+    "fastest_mins": 73,
+    "typical_peak_mins": 73,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 36,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 49,
+    "typical_peak_mins": null,
+    "peak_trains_per_hour": null,
+    "peak_services": 0,
+    "total_services": 3,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Bath Spa": {
+   "PAD": {
+    "fastest_mins": 76,
+    "typical_peak_mins": 83,
+    "peak_trains_per_hour": 1.6,
+    "peak_services": 12,
+    "total_services": 99,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Battersea Park": {
+   "LBG": {
+    "fastest_mins": 49,
+    "typical_peak_mins": 54,
+    "peak_trains_per_hour": 1.6,
+    "peak_services": 12,
+    "total_services": 102,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 4,
+    "typical_peak_mins": 4,
+    "peak_trains_per_hour": 8.8,
+    "peak_services": 66,
+    "total_services": 354,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Bayford": {
+   "MOG": {
+    "fastest_mins": 46,
+    "typical_peak_mins": 48,
+    "peak_trains_per_hour": 4.8,
+    "peak_services": 36,
+    "total_services": 155,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Beaconsfield": {
+   "MYB": {
+    "fastest_mins": 25,
+    "typical_peak_mins": 32,
+    "peak_trains_per_hour": 3.6,
+    "peak_services": 27,
+    "total_services": 158,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Beckenham Hill": {
+   "STP": {
+    "fastest_mins": 38,
+    "typical_peak_mins": 38,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 75,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Bedford": {
+   "STP": {
+    "fastest_mins": 39,
+    "typical_peak_mins": 63,
+    "peak_trains_per_hour": 7.2,
+    "peak_services": 54,
+    "total_services": 333,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 66,
+    "typical_peak_mins": 78,
+    "peak_trains_per_hour": 5.2,
+    "peak_services": 39,
+    "total_services": 207,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Bedwyn": {
+   "PAD": {
+    "fastest_mins": 56,
+    "typical_peak_mins": 69,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 21,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Bellingham": {
+   "STP": {
+    "fastest_mins": 36,
+    "typical_peak_mins": 36,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 75,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 24,
+    "typical_peak_mins": 25,
+    "peak_trains_per_hour": 1.2,
+    "peak_services": 9,
+    "total_services": 12,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Benfleet": {
+   "FST": {
+    "fastest_mins": 37,
+    "typical_peak_mins": 44,
+    "peak_trains_per_hour": 8.0,
+    "peak_services": 60,
+    "total_services": 346,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Bentley": {
+   "WAT": {
+    "fastest_mins": 59,
+    "typical_peak_mins": 60,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 75,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Berkhamsted": {
+   "EUS": {
+    "fastest_mins": 31,
+    "typical_peak_mins": 37,
+    "peak_trains_per_hour": 5.2,
+    "peak_services": 39,
+    "total_services": 225,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Bexleyheath": {
+   "LBG": {
+    "fastest_mins": 30,
+    "typical_peak_mins": 32,
+    "peak_trains_per_hour": 4.8,
+    "peak_services": 36,
+    "total_services": 222,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 41,
+    "typical_peak_mins": 42,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Bicester North": {
+   "MYB": {
+    "fastest_mins": 48,
+    "typical_peak_mins": 52,
+    "peak_trains_per_hour": 2.4,
+    "peak_services": 18,
+    "total_services": 89,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Bickley": {
+   "STP": {
+    "fastest_mins": 48,
+    "typical_peak_mins": 48,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 75,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 25,
+    "typical_peak_mins": 35,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 126,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Biggleswade": {
+   "KGX": {
+    "fastest_mins": 30,
+    "typical_peak_mins": 35,
+    "peak_trains_per_hour": 1.5,
+    "peak_services": 11,
+    "total_services": 26,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "STP": {
+    "fastest_mins": 44,
+    "typical_peak_mins": 46,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 59,
+    "typical_peak_mins": 61,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Billericay": {
+   "LST": {
+    "fastest_mins": 31,
+    "typical_peak_mins": 35,
+    "peak_trains_per_hour": 5.6,
+    "peak_services": 42,
+    "total_services": 189,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Birmingham International": {
+   "EUS": {
+    "fastest_mins": 68,
+    "typical_peak_mins": 79,
+    "peak_trains_per_hour": 4.9,
+    "peak_services": 37,
+    "total_services": 219,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Birmingham New Street": {
+   "EUS": {
+    "fastest_mins": 79,
+    "typical_peak_mins": 91,
+    "peak_trains_per_hour": 4.5,
+    "peak_services": 34,
+    "total_services": 216,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Bishops Stortford": {
+   "LST": {
+    "fastest_mins": 37,
+    "typical_peak_mins": 46,
+    "peak_trains_per_hour": 6.9,
+    "peak_services": 52,
+    "total_services": 263,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Blackheath": {
+   "LBG": {
+    "fastest_mins": 14,
+    "typical_peak_mins": 15,
+    "peak_trains_per_hour": 6.8,
+    "peak_services": 51,
+    "total_services": 331,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 25,
+    "typical_peak_mins": 26,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Bletchley": {
+   "EUS": {
+    "fastest_mins": 37,
+    "typical_peak_mins": 61,
+    "peak_trains_per_hour": 4.4,
+    "peak_services": 33,
+    "total_services": 219,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Box Hill & Westhumble": {
+   "WAT": {
+    "fastest_mins": 50,
+    "typical_peak_mins": 54,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 57,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 59,
+    "typical_peak_mins": 61,
+    "peak_trains_per_hour": 1.2,
+    "peak_services": 9,
+    "total_services": 57,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Braintree": {
+   "LST": {
+    "fastest_mins": 60,
+    "typical_peak_mins": 67,
+    "peak_trains_per_hour": 1.2,
+    "peak_services": 9,
+    "total_services": 48,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Brentford": {
+   "WAT": {
+    "fastest_mins": 29,
+    "typical_peak_mins": 33,
+    "peak_trains_per_hour": 4.4,
+    "peak_services": 33,
+    "total_services": 189,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Brentwood": {
+   "PAD": {
+    "fastest_mins": 50,
+    "typical_peak_mins": 52,
+    "peak_trains_per_hour": 11.2,
+    "peak_services": 84,
+    "total_services": 492,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LST": {
+    "fastest_mins": 39,
+    "typical_peak_mins": 40,
+    "peak_trains_per_hour": 11.2,
+    "peak_services": 84,
+    "total_services": 498,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Brighton": {
+   "STP": {
+    "fastest_mins": 76,
+    "typical_peak_mins": 82,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 201,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 61,
+    "typical_peak_mins": 68,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 195,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 60,
+    "typical_peak_mins": 65,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 111,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Bristol Temple Meads": {
+   "PAD": {
+    "fastest_mins": 89,
+    "typical_peak_mins": 99,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 105,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Bromley South": {
+   "STP": {
+    "fastest_mins": 45,
+    "typical_peak_mins": 46,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 75,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 15,
+    "typical_peak_mins": 23,
+    "peak_trains_per_hour": 12.0,
+    "peak_services": 90,
+    "total_services": 540,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Brookmans Park": {
+   "KGX": {
+    "fastest_mins": 36,
+    "typical_peak_mins": null,
+    "peak_trains_per_hour": null,
+    "peak_services": 0,
+    "total_services": 2,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "MOG": {
+    "fastest_mins": 37,
+    "typical_peak_mins": 42,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 150,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Brookwood": {
+   "WAT": {
+    "fastest_mins": 34,
+    "typical_peak_mins": 36,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 192,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Broxbourne": {
+   "LST": {
+    "fastest_mins": 27,
+    "typical_peak_mins": 31,
+    "peak_trains_per_hour": 5.3,
+    "peak_services": 40,
+    "total_services": 236,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Burgess Hill": {
+   "STP": {
+    "fastest_mins": 65,
+    "typical_peak_mins": 67,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 198,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 50,
+    "typical_peak_mins": 53,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 192,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 50,
+    "typical_peak_mins": 50,
+    "peak_trains_per_hour": 3.6,
+    "peak_services": 27,
+    "total_services": 126,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Burnham": {
+   "PAD": {
+    "fastest_mins": 33,
+    "typical_peak_mins": 36,
+    "peak_trains_per_hour": 6.0,
+    "peak_services": 45,
+    "total_services": 234,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LST": {
+    "fastest_mins": 43,
+    "typical_peak_mins": 47,
+    "peak_trains_per_hour": 6.0,
+    "peak_services": 45,
+    "total_services": 228,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Bushey": {
+   "EUS": {
+    "fastest_mins": 16,
+    "typical_peak_mins": 21,
+    "peak_trains_per_hour": 7.9,
+    "peak_services": 59,
+    "total_services": 347,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Byfleet & New Haw": {
+   "WAT": {
+    "fastest_mins": 38,
+    "typical_peak_mins": 40,
+    "peak_trains_per_hour": 2.4,
+    "peak_services": 18,
+    "total_services": 117,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Cambridge": {
+   "KGX": {
+    "fastest_mins": 50,
+    "typical_peak_mins": 68,
+    "peak_trains_per_hour": 3.9,
+    "peak_services": 29,
+    "total_services": 203,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "STP": {
+    "fastest_mins": 68,
+    "typical_peak_mins": 68,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 84,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 83,
+    "typical_peak_mins": 83,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 84,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LST": {
+    "fastest_mins": 73,
+    "typical_peak_mins": 87,
+    "peak_trains_per_hour": 3.3,
+    "peak_services": 25,
+    "total_services": 128,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Catford": {
+   "STP": {
+    "fastest_mins": 33,
+    "typical_peak_mins": 33,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 75,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Chafford Hundred": {
+   "FST": {
+    "fastest_mins": 33,
+    "typical_peak_mins": 36,
+    "peak_trains_per_hour": 3.6,
+    "peak_services": 27,
+    "total_services": 128,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Chalkwell": {
+   "FST": {
+    "fastest_mins": 42,
+    "typical_peak_mins": 52,
+    "peak_trains_per_hour": 6.8,
+    "peak_services": 51,
+    "total_services": 337,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Charlbury": {
+   "PAD": {
+    "fastest_mins": 69,
+    "typical_peak_mins": 72,
+    "peak_trains_per_hour": 1.2,
+    "peak_services": 9,
+    "total_services": 57,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Chatham": {
+   "STP": {
+    "fastest_mins": 39,
+    "typical_peak_mins": 68,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 180,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 40,
+    "typical_peak_mins": 60,
+    "peak_trains_per_hour": 4.8,
+    "peak_services": 36,
+    "total_services": 102,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 44,
+    "typical_peak_mins": 64,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 177,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Cheddington": {
+   "EUS": {
+    "fastest_mins": 49,
+    "typical_peak_mins": 50,
+    "peak_trains_per_hour": 2.4,
+    "peak_services": 18,
+    "total_services": 105,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Chelmsford": {
+   "LST": {
+    "fastest_mins": 29,
+    "typical_peak_mins": 38,
+    "peak_trains_per_hour": 7.2,
+    "peak_services": 54,
+    "total_services": 303,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Cheshunt": {
+   "LST": {
+    "fastest_mins": 23,
+    "typical_peak_mins": 26,
+    "peak_trains_per_hour": 6.0,
+    "peak_services": 45,
+    "total_services": 340,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Chessington South": {
+   "WAT": {
+    "fastest_mins": 36,
+    "typical_peak_mins": 39,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 99,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Chippenham": {
+   "PAD": {
+    "fastest_mins": 63,
+    "typical_peak_mins": 70,
+    "peak_trains_per_hour": 1.6,
+    "peak_services": 12,
+    "total_services": 99,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Chislehurst": {
+   "LBG": {
+    "fastest_mins": 20,
+    "typical_peak_mins": 26,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 219,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Cholsey": {
+   "PAD": {
+    "fastest_mins": 55,
+    "typical_peak_mins": 61,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 105,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Clandon": {
+   "WAT": {
+    "fastest_mins": 51,
+    "typical_peak_mins": 58,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 171,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Clapham Junction": {
+   "WAT": {
+    "fastest_mins": 8,
+    "typical_peak_mins": 12,
+    "peak_trains_per_hour": 30.4,
+    "peak_services": 228,
+    "total_services": 1590,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 44,
+    "typical_peak_mins": 50,
+    "peak_trains_per_hour": 1.6,
+    "peak_services": 12,
+    "total_services": 102,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 6,
+    "typical_peak_mins": 8,
+    "peak_trains_per_hour": 20.0,
+    "peak_services": 150,
+    "total_services": 986,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Claygate": {
+   "WAT": {
+    "fastest_mins": 32,
+    "typical_peak_mins": 39,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 105,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Cobham & Stoke d'Abernon": {
+   "WAT": {
+    "fastest_mins": 39,
+    "typical_peak_mins": 46,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 105,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Colchester": {
+   "LST": {
+    "fastest_mins": 47,
+    "typical_peak_mins": 62,
+    "peak_trains_per_hour": 6.8,
+    "peak_services": 51,
+    "total_services": 285,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Coulsdon South": {
+   "STP": {
+    "fastest_mins": 36,
+    "typical_peak_mins": 36,
+    "peak_trains_per_hour": 2.8,
+    "peak_services": 21,
+    "total_services": 105,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 21,
+    "typical_peak_mins": 21,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 102,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 30,
+    "typical_peak_mins": 30,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Coventry": {
+   "EUS": {
+    "fastest_mins": 56,
+    "typical_peak_mins": 67,
+    "peak_trains_per_hour": 4.9,
+    "peak_services": 37,
+    "total_services": 219,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Crawley": {
+   "STP": {
+    "fastest_mins": 66,
+    "typical_peak_mins": 68,
+    "peak_trains_per_hour": 2.4,
+    "peak_services": 18,
+    "total_services": 111,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 51,
+    "typical_peak_mins": 52,
+    "peak_trains_per_hour": 2.8,
+    "peak_services": 21,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 43,
+    "typical_peak_mins": 43,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 102,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Crews Hill": {
+   "MOG": {
+    "fastest_mins": 39,
+    "typical_peak_mins": 41,
+    "peak_trains_per_hour": 4.8,
+    "peak_services": 36,
+    "total_services": 155,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Cricklewood": {
+   "STP": {
+    "fastest_mins": 13,
+    "typical_peak_mins": 13,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 231,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Cuffley": {
+   "KGX": {
+    "fastest_mins": 31,
+    "typical_peak_mins": null,
+    "peak_trains_per_hour": null,
+    "peak_services": 0,
+    "total_services": 3,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "MOG": {
+    "fastest_mins": 42,
+    "typical_peak_mins": 44,
+    "peak_trains_per_hour": 4.8,
+    "peak_services": 36,
+    "total_services": 155,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Dagenham Dock": {
+   "FST": {
+    "fastest_mins": 20,
+    "typical_peak_mins": 22,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 141,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Dartford": {
+   "STP": {
+    "fastest_mins": 56,
+    "typical_peak_mins": 57,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 78,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 38,
+    "typical_peak_mins": 42,
+    "peak_trains_per_hour": 7.2,
+    "peak_services": 54,
+    "total_services": 390,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 51,
+    "typical_peak_mins": 53,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Denham": {
+   "MYB": {
+    "fastest_mins": 19,
+    "typical_peak_mins": 22,
+    "peak_trains_per_hour": 1.6,
+    "peak_services": 12,
+    "total_services": 76,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Denham Golf Club": {
+   "MYB": {
+    "fastest_mins": 22,
+    "typical_peak_mins": 24,
+    "peak_trains_per_hour": 0.8,
+    "peak_services": 6,
+    "total_services": 50,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Denmark Hill": {
+   "STP": {
+    "fastest_mins": 20,
+    "typical_peak_mins": 20,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 75,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 9,
+    "typical_peak_mins": 10,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 177,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Didcot Parkway": {
+   "PAD": {
+    "fastest_mins": 37,
+    "typical_peak_mins": 43,
+    "peak_trains_per_hour": 5.6,
+    "peak_services": 42,
+    "total_services": 306,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Dorking": {
+   "WAT": {
+    "fastest_mins": 53,
+    "typical_peak_mins": 57,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 57,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 57,
+    "typical_peak_mins": 64,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 105,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Ealing Broadway": {
+   "PAD": {
+    "fastest_mins": 8,
+    "typical_peak_mins": 11,
+    "peak_trains_per_hour": 12.0,
+    "peak_services": 90,
+    "total_services": 572,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LST": {
+    "fastest_mins": 20,
+    "typical_peak_mins": 22,
+    "peak_trains_per_hour": 12.0,
+    "peak_services": 90,
+    "total_services": 549,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Earlsfield": {
+   "WAT": {
+    "fastest_mins": 13,
+    "typical_peak_mins": 15,
+    "peak_trains_per_hour": 16.4,
+    "peak_services": 123,
+    "total_services": 780,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Earlswood": {
+   "STP": {
+    "fastest_mins": 46,
+    "typical_peak_mins": 52,
+    "peak_trains_per_hour": 1.6,
+    "peak_services": 12,
+    "total_services": 87,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 31,
+    "typical_peak_mins": 38,
+    "peak_trains_per_hour": 1.6,
+    "peak_services": 12,
+    "total_services": 87,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "East Croydon": {
+   "STP": {
+    "fastest_mins": 29,
+    "typical_peak_mins": 30,
+    "peak_trains_per_hour": 8.8,
+    "peak_services": 66,
+    "total_services": 429,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 13,
+    "typical_peak_mins": 15,
+    "peak_trains_per_hour": 12.8,
+    "peak_services": 96,
+    "total_services": 672,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 16,
+    "typical_peak_mins": 17,
+    "peak_trains_per_hour": 9.2,
+    "peak_services": 69,
+    "total_services": 527,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "East Grinstead": {
+   "STP": {
+    "fastest_mins": 67,
+    "typical_peak_mins": 71,
+    "peak_trains_per_hour": 1.2,
+    "peak_services": 9,
+    "total_services": 15,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 51,
+    "typical_peak_mins": 55,
+    "peak_trains_per_hour": 1.2,
+    "peak_services": 9,
+    "total_services": 21,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 56,
+    "typical_peak_mins": 56,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 104,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "East Tilbury": {
+   "FST": {
+    "fastest_mins": 44,
+    "typical_peak_mins": 48,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 142,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Effingham Junction": {
+   "WAT": {
+    "fastest_mins": 43,
+    "typical_peak_mins": 50,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 171,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Egham": {
+   "WAT": {
+    "fastest_mins": 42,
+    "typical_peak_mins": 48,
+    "peak_trains_per_hour": 4.4,
+    "peak_services": 33,
+    "total_services": 219,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Elsenham": {
+   "LST": {
+    "fastest_mins": 51,
+    "typical_peak_mins": 59,
+    "peak_trains_per_hour": 1.9,
+    "peak_services": 14,
+    "total_services": 85,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Elstree & Borehamwood": {
+   "STP": {
+    "fastest_mins": 23,
+    "typical_peak_mins": 26,
+    "peak_trains_per_hour": 6.4,
+    "peak_services": 48,
+    "total_services": 282,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 38,
+    "typical_peak_mins": 38,
+    "peak_trains_per_hour": 0.4,
+    "peak_services": 3,
+    "total_services": 36,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Eltham": {
+   "LBG": {
+    "fastest_mins": 21,
+    "typical_peak_mins": 24,
+    "peak_trains_per_hour": 4.8,
+    "peak_services": 36,
+    "total_services": 222,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 32,
+    "typical_peak_mins": 34,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Enfield Chase": {
+   "KGX": {
+    "fastest_mins": 24,
+    "typical_peak_mins": null,
+    "peak_trains_per_hour": null,
+    "peak_services": 0,
+    "total_services": 3,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "MOG": {
+    "fastest_mins": 29,
+    "typical_peak_mins": 35,
+    "peak_trains_per_hour": 4.8,
+    "peak_services": 36,
+    "total_services": 158,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Epsom": {
+   "WAT": {
+    "fastest_mins": 36,
+    "typical_peak_mins": 41,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 126,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 42,
+    "typical_peak_mins": 43,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 105,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 41,
+    "typical_peak_mins": 44,
+    "peak_trains_per_hour": 2.4,
+    "peak_services": 18,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Erith": {
+   "LBG": {
+    "fastest_mins": 33,
+    "typical_peak_mins": 40,
+    "peak_trains_per_hour": 7.6,
+    "peak_services": 57,
+    "total_services": 393,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Esher": {
+   "WAT": {
+    "fastest_mins": 23,
+    "typical_peak_mins": 24,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 120,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Ewell West": {
+   "WAT": {
+    "fastest_mins": 33,
+    "typical_peak_mins": 37,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 126,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Farnborough (Main)": {
+   "WAT": {
+    "fastest_mins": 34,
+    "typical_peak_mins": 41,
+    "peak_trains_per_hour": 3.6,
+    "peak_services": 27,
+    "total_services": 147,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Farncombe": {
+   "WAT": {
+    "fastest_mins": 39,
+    "typical_peak_mins": 47,
+    "peak_trains_per_hour": 2.8,
+    "peak_services": 21,
+    "total_services": 104,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Farnham": {
+   "WAT": {
+    "fastest_mins": 52,
+    "typical_peak_mins": 54,
+    "peak_trains_per_hour": 2.8,
+    "peak_services": 21,
+    "total_services": 102,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Faversham": {
+   "STP": {
+    "fastest_mins": 66,
+    "typical_peak_mins": 68,
+    "peak_trains_per_hour": 2.4,
+    "peak_services": 18,
+    "total_services": 105,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 71,
+    "typical_peak_mins": 71,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 21,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 72,
+    "typical_peak_mins": 80,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Feltham": {
+   "WAT": {
+    "fastest_mins": 29,
+    "typical_peak_mins": 35,
+    "peak_trains_per_hour": 6.8,
+    "peak_services": 51,
+    "total_services": 333,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Finsbury Park": {
+   "KGX": {
+    "fastest_mins": 6,
+    "typical_peak_mins": 7,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 143,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "STP": {
+    "fastest_mins": 7,
+    "typical_peak_mins": 7,
+    "peak_trains_per_hour": 6.0,
+    "peak_services": 45,
+    "total_services": 231,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 22,
+    "typical_peak_mins": 22,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 195,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "MOG": {
+    "fastest_mins": 14,
+    "typical_peak_mins": 14,
+    "peak_trains_per_hour": 8.8,
+    "peak_services": 66,
+    "total_services": 332,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Fleet": {
+   "WAT": {
+    "fastest_mins": 40,
+    "typical_peak_mins": 48,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 144,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Flitwick": {
+   "STP": {
+    "fastest_mins": 41,
+    "typical_peak_mins": 51,
+    "peak_trains_per_hour": 5.2,
+    "peak_services": 39,
+    "total_services": 222,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 56,
+    "typical_peak_mins": 66,
+    "peak_trains_per_hour": 5.2,
+    "peak_services": 39,
+    "total_services": 198,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Foxton": {
+   "KGX": {
+    "fastest_mins": 57,
+    "typical_peak_mins": 57,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 90,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Gatwick Airport": {
+   "STP": {
+    "fastest_mins": 44,
+    "typical_peak_mins": 44,
+    "peak_trains_per_hour": 7.6,
+    "peak_services": 57,
+    "total_services": 414,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 29,
+    "typical_peak_mins": 36,
+    "peak_trains_per_hour": 8.0,
+    "peak_services": 60,
+    "total_services": 393,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 29,
+    "typical_peak_mins": 32,
+    "peak_trains_per_hour": 6.8,
+    "peak_services": 51,
+    "total_services": 423,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Gerrards Cross": {
+   "MYB": {
+    "fastest_mins": 19,
+    "typical_peak_mins": 28,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 185,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Gillingham": {
+   "STP": {
+    "fastest_mins": 43,
+    "typical_peak_mins": 72,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 180,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 44,
+    "typical_peak_mins": 65,
+    "peak_trains_per_hour": 4.8,
+    "peak_services": 36,
+    "total_services": 102,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 48,
+    "typical_peak_mins": 68,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 180,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Godalming": {
+   "WAT": {
+    "fastest_mins": 39,
+    "typical_peak_mins": 48,
+    "peak_trains_per_hour": 4.4,
+    "peak_services": 33,
+    "total_services": 148,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Gordon Hill": {
+   "KGX": {
+    "fastest_mins": 26,
+    "typical_peak_mins": null,
+    "peak_trains_per_hour": null,
+    "peak_services": 0,
+    "total_services": 3,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "MOG": {
+    "fastest_mins": 31,
+    "typical_peak_mins": 37,
+    "peak_trains_per_hour": 4.8,
+    "peak_services": 36,
+    "total_services": 158,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Goring & Streatley": {
+   "PAD": {
+    "fastest_mins": 50,
+    "typical_peak_mins": 56,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 105,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Grantham": {
+   "KGX": {
+    "fastest_mins": 65,
+    "typical_peak_mins": 72,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 143,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Grateley": {
+   "WAT": {
+    "fastest_mins": 75,
+    "typical_peak_mins": 77,
+    "peak_trains_per_hour": 1.9,
+    "peak_services": 14,
+    "total_services": 62,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Gravesend": {
+   "STP": {
+    "fastest_mins": 22,
+    "typical_peak_mins": 25,
+    "peak_trains_per_hour": 4.8,
+    "peak_services": 36,
+    "total_services": 186,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 56,
+    "typical_peak_mins": 59,
+    "peak_trains_per_hour": 4.8,
+    "peak_services": 36,
+    "total_services": 201,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 63,
+    "typical_peak_mins": 65,
+    "peak_trains_per_hour": 1.2,
+    "peak_services": 9,
+    "total_services": 96,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Grays": {
+   "FST": {
+    "fastest_mins": 35,
+    "typical_peak_mins": 39,
+    "peak_trains_per_hour": 6.8,
+    "peak_services": 51,
+    "total_services": 269,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Great Missenden": {
+   "MYB": {
+    "fastest_mins": 39,
+    "typical_peak_mins": 46,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 99,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Grove Park": {
+   "LBG": {
+    "fastest_mins": 13,
+    "typical_peak_mins": 19,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 219,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Guildford": {
+   "WAT": {
+    "fastest_mins": 32,
+    "typical_peak_mins": 44,
+    "peak_trains_per_hour": 8.0,
+    "peak_services": 60,
+    "total_services": 331,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Haddenham & Thame Parkway": {
+   "MYB": {
+    "fastest_mins": 39,
+    "typical_peak_mins": 52,
+    "peak_trains_per_hour": 2.8,
+    "peak_services": 21,
+    "total_services": 110,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Hadley Wood": {
+   "KGX": {
+    "fastest_mins": 27,
+    "typical_peak_mins": null,
+    "peak_trains_per_hour": null,
+    "peak_services": 0,
+    "total_services": 5,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "MOG": {
+    "fastest_mins": 30,
+    "typical_peak_mins": 35,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 150,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Hampton Court": {
+   "WAT": {
+    "fastest_mins": 38,
+    "typical_peak_mins": 40,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Hampton Wick": {
+   "WAT": {
+    "fastest_mins": 32,
+    "typical_peak_mins": 37,
+    "peak_trains_per_hour": 6.0,
+    "peak_services": 45,
+    "total_services": 327,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Hanborough": {
+   "PAD": {
+    "fastest_mins": 63,
+    "typical_peak_mins": 65,
+    "peak_trains_per_hour": 1.2,
+    "peak_services": 9,
+    "total_services": 54,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Hanwell": {
+   "PAD": {
+    "fastest_mins": 14,
+    "typical_peak_mins": 15,
+    "peak_trains_per_hour": 5.2,
+    "peak_services": 39,
+    "total_services": 231,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LST": {
+    "fastest_mins": 25,
+    "typical_peak_mins": 26,
+    "peak_trains_per_hour": 5.2,
+    "peak_services": 39,
+    "total_services": 231,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Harlow Mill": {
+   "LST": {
+    "fastest_mins": 37,
+    "typical_peak_mins": 42,
+    "peak_trains_per_hour": 1.9,
+    "peak_services": 14,
+    "total_services": 69,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Harlow Town": {
+   "LST": {
+    "fastest_mins": 30,
+    "typical_peak_mins": 36,
+    "peak_trains_per_hour": 5.5,
+    "peak_services": 41,
+    "total_services": 249,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Harpenden": {
+   "STP": {
+    "fastest_mins": 25,
+    "typical_peak_mins": 29,
+    "peak_trains_per_hour": 7.6,
+    "peak_services": 57,
+    "total_services": 309,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 41,
+    "typical_peak_mins": 42,
+    "peak_trains_per_hour": 5.6,
+    "peak_services": 42,
+    "total_services": 252,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Harrow & Wealdstone": {
+   "EUS": {
+    "fastest_mins": 13,
+    "typical_peak_mins": 34,
+    "peak_trains_per_hour": 7.5,
+    "peak_services": 56,
+    "total_services": 428,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Haslemere": {
+   "WAT": {
+    "fastest_mins": 49,
+    "typical_peak_mins": 60,
+    "peak_trains_per_hour": 4.4,
+    "peak_services": 33,
+    "total_services": 148,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Hassocks": {
+   "STP": {
+    "fastest_mins": 70,
+    "typical_peak_mins": 73,
+    "peak_trains_per_hour": 3.6,
+    "peak_services": 27,
+    "total_services": 132,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 55,
+    "typical_peak_mins": 58,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 126,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 54,
+    "typical_peak_mins": 54,
+    "peak_trains_per_hour": 3.6,
+    "peak_services": 27,
+    "total_services": 126,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Hatfield": {
+   "KGX": {
+    "fastest_mins": 26,
+    "typical_peak_mins": 29,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 119,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "STP": {
+    "fastest_mins": 30,
+    "typical_peak_mins": 32,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 30,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "MOG": {
+    "fastest_mins": 42,
+    "typical_peak_mins": 47,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 150,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Hatfield Peverel": {
+   "LST": {
+    "fastest_mins": 39,
+    "typical_peak_mins": 46,
+    "peak_trains_per_hour": 2.8,
+    "peak_services": 21,
+    "total_services": 81,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Havant": {
+   "WAT": {
+    "fastest_mins": 77,
+    "typical_peak_mins": 97,
+    "peak_trains_per_hour": 4.4,
+    "peak_services": 33,
+    "total_services": 124,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Hayes & Harlington": {
+   "PAD": {
+    "fastest_mins": 16,
+    "typical_peak_mins": 21,
+    "peak_trains_per_hour": 10.0,
+    "peak_services": 75,
+    "total_services": 554,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LST": {
+    "fastest_mins": 28,
+    "typical_peak_mins": 32,
+    "peak_trains_per_hour": 10.0,
+    "peak_services": 75,
+    "total_services": 534,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Haywards Heath": {
+   "STP": {
+    "fastest_mins": 59,
+    "typical_peak_mins": 61,
+    "peak_trains_per_hour": 4.4,
+    "peak_services": 33,
+    "total_services": 204,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 44,
+    "typical_peak_mins": 46,
+    "peak_trains_per_hour": 4.4,
+    "peak_services": 33,
+    "total_services": 198,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 43,
+    "typical_peak_mins": 47,
+    "peak_trains_per_hour": 4.8,
+    "peak_services": 36,
+    "total_services": 315,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Headcorn": {
+   "LBG": {
+    "fastest_mins": 58,
+    "typical_peak_mins": 61,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 120,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Hemel Hempstead": {
+   "EUS": {
+    "fastest_mins": 27,
+    "typical_peak_mins": 32,
+    "peak_trains_per_hour": 5.2,
+    "peak_services": 39,
+    "total_services": 225,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Hertford East": {
+   "LST": {
+    "fastest_mins": 49,
+    "typical_peak_mins": 52,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 111,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Hertford North": {
+   "KGX": {
+    "fastest_mins": 38,
+    "typical_peak_mins": null,
+    "peak_trains_per_hour": null,
+    "peak_services": 0,
+    "total_services": 3,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "MOG": {
+    "fastest_mins": 50,
+    "typical_peak_mins": 52,
+    "peak_trains_per_hour": 4.8,
+    "peak_services": 36,
+    "total_services": 155,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "High Wycombe": {
+   "MYB": {
+    "fastest_mins": 25,
+    "typical_peak_mins": 39,
+    "peak_trains_per_hour": 5.2,
+    "peak_services": 39,
+    "total_services": 239,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Hildenborough": {
+   "LBG": {
+    "fastest_mins": 32,
+    "typical_peak_mins": 34,
+    "peak_trains_per_hour": 1.2,
+    "peak_services": 9,
+    "total_services": 39,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 38,
+    "typical_peak_mins": 43,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 81,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Hinchley Wood": {
+   "WAT": {
+    "fastest_mins": 29,
+    "typical_peak_mins": 36,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 105,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Hitchin": {
+   "KGX": {
+    "fastest_mins": 28,
+    "typical_peak_mins": 40,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 153,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "STP": {
+    "fastest_mins": 33,
+    "typical_peak_mins": 34,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 195,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 48,
+    "typical_peak_mins": 50,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 195,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Hither Green": {
+   "LBG": {
+    "fastest_mins": 9,
+    "typical_peak_mins": 16,
+    "peak_trains_per_hour": 10.0,
+    "peak_services": 75,
+    "total_services": 483,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Hockley": {
+   "LST": {
+    "fastest_mins": 46,
+    "typical_peak_mins": 51,
+    "peak_trains_per_hour": 4.4,
+    "peak_services": 33,
+    "total_services": 177,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Hook": {
+   "WAT": {
+    "fastest_mins": 54,
+    "typical_peak_mins": 60,
+    "peak_trains_per_hour": 2.4,
+    "peak_services": 18,
+    "total_services": 99,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Horley": {
+   "STP": {
+    "fastest_mins": 52,
+    "typical_peak_mins": 58,
+    "peak_trains_per_hour": 3.6,
+    "peak_services": 27,
+    "total_services": 204,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 37,
+    "typical_peak_mins": 41,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 189,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 31,
+    "typical_peak_mins": 31,
+    "peak_trains_per_hour": 1.2,
+    "peak_services": 9,
+    "total_services": 15,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Hornsey": {
+   "KGX": {
+    "fastest_mins": 12,
+    "typical_peak_mins": null,
+    "peak_trains_per_hour": null,
+    "peak_services": 0,
+    "total_services": 5,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "MOG": {
+    "fastest_mins": 19,
+    "typical_peak_mins": 20,
+    "peak_trains_per_hour": 6.0,
+    "peak_services": 45,
+    "total_services": 260,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Horsham": {
+   "STP": {
+    "fastest_mins": 80,
+    "typical_peak_mins": 82,
+    "peak_trains_per_hour": 2.4,
+    "peak_services": 18,
+    "total_services": 111,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 65,
+    "typical_peak_mins": 66,
+    "peak_trains_per_hour": 2.8,
+    "peak_services": 21,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 54,
+    "typical_peak_mins": 55,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 153,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Horsley": {
+   "WAT": {
+    "fastest_mins": 47,
+    "typical_peak_mins": 54,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 171,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Hounslow": {
+   "WAT": {
+    "fastest_mins": 37,
+    "typical_peak_mins": 42,
+    "peak_trains_per_hour": 4.8,
+    "peak_services": 36,
+    "total_services": 192,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Hove": {
+   "VIC": {
+    "fastest_mins": 67,
+    "typical_peak_mins": 69,
+    "peak_trains_per_hour": 1.6,
+    "peak_services": 12,
+    "total_services": 103,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Hungerford": {
+   "PAD": {
+    "fastest_mins": 46,
+    "typical_peak_mins": 63,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 33,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Huntingdon": {
+   "KGX": {
+    "fastest_mins": 47,
+    "typical_peak_mins": 53,
+    "peak_trains_per_hour": 1.5,
+    "peak_services": 11,
+    "total_services": 26,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "STP": {
+    "fastest_mins": 64,
+    "typical_peak_mins": 66,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 79,
+    "typical_peak_mins": 81,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Hurst Green": {
+   "STP": {
+    "fastest_mins": 53,
+    "typical_peak_mins": 57,
+    "peak_trains_per_hour": 1.2,
+    "peak_services": 9,
+    "total_services": 15,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 37,
+    "typical_peak_mins": 41,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 75,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 42,
+    "typical_peak_mins": 42,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 104,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Ingatestone": {
+   "LST": {
+    "fastest_mins": 29,
+    "typical_peak_mins": 32,
+    "peak_trains_per_hour": 2.8,
+    "peak_services": 21,
+    "total_services": 114,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Ipswich": {
+   "LST": {
+    "fastest_mins": 60,
+    "typical_peak_mins": 74,
+    "peak_trains_per_hour": 2.8,
+    "peak_services": 21,
+    "total_services": 150,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Isleworth": {
+   "WAT": {
+    "fastest_mins": 34,
+    "typical_peak_mins": 39,
+    "peak_trains_per_hour": 4.4,
+    "peak_services": 33,
+    "total_services": 189,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Iver": {
+   "PAD": {
+    "fastest_mins": 24,
+    "typical_peak_mins": 27,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 168,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LST": {
+    "fastest_mins": 35,
+    "typical_peak_mins": 38,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 159,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Kelvedon": {
+   "LST": {
+    "fastest_mins": 50,
+    "typical_peak_mins": 55,
+    "peak_trains_per_hour": 3.6,
+    "peak_services": 27,
+    "total_services": 123,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Kentish Town": {
+   "STP": {
+    "fastest_mins": 5,
+    "typical_peak_mins": 5,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 285,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 20,
+    "typical_peak_mins": null,
+    "peak_trains_per_hour": null,
+    "peak_services": 0,
+    "total_services": 24,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Kidbrooke": {
+   "LBG": {
+    "fastest_mins": 18,
+    "typical_peak_mins": 20,
+    "peak_trains_per_hour": 4.8,
+    "peak_services": 36,
+    "total_services": 222,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 29,
+    "typical_peak_mins": 30,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Kingham": {
+   "PAD": {
+    "fastest_mins": 80,
+    "typical_peak_mins": 82,
+    "peak_trains_per_hour": 1.2,
+    "peak_services": 9,
+    "total_services": 57,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Kings Langley": {
+   "EUS": {
+    "fastest_mins": 25,
+    "typical_peak_mins": 27,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 120,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Kings Sutton": {
+   "MYB": {
+    "fastest_mins": 71,
+    "typical_peak_mins": 83,
+    "peak_trains_per_hour": 0.4,
+    "peak_services": 3,
+    "total_services": 27,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Kingston": {
+   "WAT": {
+    "fastest_mins": 29,
+    "typical_peak_mins": 34,
+    "peak_trains_per_hour": 6.0,
+    "peak_services": 45,
+    "total_services": 327,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Kintbury": {
+   "PAD": {
+    "fastest_mins": 58,
+    "typical_peak_mins": 59,
+    "peak_trains_per_hour": 1.2,
+    "peak_services": 9,
+    "total_services": 12,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Knebworth": {
+   "KGX": {
+    "fastest_mins": 38,
+    "typical_peak_mins": 41,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 114,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "STP": {
+    "fastest_mins": 25,
+    "typical_peak_mins": 25,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 24,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 40,
+    "typical_peak_mins": 40,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 24,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Laindon": {
+   "FST": {
+    "fastest_mins": 29,
+    "typical_peak_mins": 34,
+    "peak_trains_per_hour": 6.4,
+    "peak_services": 48,
+    "total_services": 250,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Lancing": {
+   "VIC": {
+    "fastest_mins": 79,
+    "typical_peak_mins": 82,
+    "peak_trains_per_hour": 1.6,
+    "peak_services": 12,
+    "total_services": 102,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Langley": {
+   "PAD": {
+    "fastest_mins": 26,
+    "typical_peak_mins": 30,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 222,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LST": {
+    "fastest_mins": 37,
+    "typical_peak_mins": 41,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 213,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Leamington Spa": {
+   "MYB": {
+    "fastest_mins": 82,
+    "typical_peak_mins": 83,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 77,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Leatherhead": {
+   "WAT": {
+    "fastest_mins": 45,
+    "typical_peak_mins": 50,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 123,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 50,
+    "typical_peak_mins": 56,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 105,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Leigh-on-Sea": {
+   "FST": {
+    "fastest_mins": 41,
+    "typical_peak_mins": 48,
+    "peak_trains_per_hour": 8.0,
+    "peak_services": 60,
+    "total_services": 349,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Leighton Buzzard": {
+   "EUS": {
+    "fastest_mins": 30,
+    "typical_peak_mins": 44,
+    "peak_trains_per_hour": 4.8,
+    "peak_services": 36,
+    "total_services": 222,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Letchworth Garden City": {
+   "KGX": {
+    "fastest_mins": 29,
+    "typical_peak_mins": 33,
+    "peak_trains_per_hour": 5.9,
+    "peak_services": 44,
+    "total_services": 167,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "STP": {
+    "fastest_mins": 38,
+    "typical_peak_mins": 39,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 87,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 53,
+    "typical_peak_mins": 54,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 87,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Lewisham": {
+   "LBG": {
+    "fastest_mins": 7,
+    "typical_peak_mins": 11,
+    "peak_trains_per_hour": 14.0,
+    "peak_services": 105,
+    "total_services": 684,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 21,
+    "typical_peak_mins": 22,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Limehouse": {
+   "FST": {
+    "fastest_mins": 4,
+    "typical_peak_mins": 5,
+    "peak_trains_per_hour": 15.2,
+    "peak_services": 114,
+    "total_services": 508,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Lingfield": {
+   "STP": {
+    "fastest_mins": 60,
+    "typical_peak_mins": 64,
+    "peak_trains_per_hour": 1.2,
+    "peak_services": 9,
+    "total_services": 15,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 44,
+    "typical_peak_mins": 48,
+    "peak_trains_per_hour": 1.2,
+    "peak_services": 9,
+    "total_services": 21,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 49,
+    "typical_peak_mins": 49,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 104,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Liphook": {
+   "WAT": {
+    "fastest_mins": 59,
+    "typical_peak_mins": 70,
+    "peak_trains_per_hour": 2.4,
+    "peak_services": 18,
+    "total_services": 74,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Liss": {
+   "WAT": {
+    "fastest_mins": 65,
+    "typical_peak_mins": 77,
+    "peak_trains_per_hour": 2.4,
+    "peak_services": 18,
+    "total_services": 74,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Little Kimble": {
+   "MYB": {
+    "fastest_mins": 69,
+    "typical_peak_mins": null,
+    "peak_trains_per_hour": null,
+    "peak_services": 0,
+    "total_services": 9,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Long Buckby": {
+   "EUS": {
+    "fastest_mins": 68,
+    "typical_peak_mins": 74,
+    "peak_trains_per_hour": 2.4,
+    "peak_services": 18,
+    "total_services": 102,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Luton": {
+   "STP": {
+    "fastest_mins": 26,
+    "typical_peak_mins": 36,
+    "peak_trains_per_hour": 9.6,
+    "peak_services": 72,
+    "total_services": 411,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 47,
+    "typical_peak_mins": 51,
+    "peak_trains_per_hour": 5.6,
+    "peak_services": 42,
+    "total_services": 252,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Luton Airport Parkway": {
+   "STP": {
+    "fastest_mins": 23,
+    "typical_peak_mins": 33,
+    "peak_trains_per_hour": 8.4,
+    "peak_services": 63,
+    "total_services": 396,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 48,
+    "typical_peak_mins": 48,
+    "peak_trains_per_hour": 4.4,
+    "peak_services": 33,
+    "total_services": 231,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Maidenhead": {
+   "PAD": {
+    "fastest_mins": 18,
+    "typical_peak_mins": 38,
+    "peak_trains_per_hour": 10.0,
+    "peak_services": 75,
+    "total_services": 371,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LST": {
+    "fastest_mins": 47,
+    "typical_peak_mins": 53,
+    "peak_trains_per_hour": 6.0,
+    "peak_services": 45,
+    "total_services": 228,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Maidstone East": {
+   "VIC": {
+    "fastest_mins": 63,
+    "typical_peak_mins": 70,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 156,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Manningtree": {
+   "LST": {
+    "fastest_mins": 56,
+    "typical_peak_mins": 65,
+    "peak_trains_per_hour": 3.6,
+    "peak_services": 27,
+    "total_services": 159,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Marden": {
+   "LBG": {
+    "fastest_mins": 48,
+    "typical_peak_mins": 51,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 114,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Marks Tey": {
+   "LST": {
+    "fastest_mins": 52,
+    "typical_peak_mins": 58,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 123,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Meldreth": {
+   "KGX": {
+    "fastest_mins": 51,
+    "typical_peak_mins": 51,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 90,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Merstham": {
+   "STP": {
+    "fastest_mins": 41,
+    "typical_peak_mins": 42,
+    "peak_trains_per_hour": 2.8,
+    "peak_services": 21,
+    "total_services": 105,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 26,
+    "typical_peak_mins": 27,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 102,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 35,
+    "typical_peak_mins": 35,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Milford": {
+   "WAT": {
+    "fastest_mins": 52,
+    "typical_peak_mins": 56,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 63,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Mill Hill Broadway": {
+   "STP": {
+    "fastest_mins": 19,
+    "typical_peak_mins": 22,
+    "peak_trains_per_hour": 6.4,
+    "peak_services": 48,
+    "total_services": 282,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 34,
+    "typical_peak_mins": 34,
+    "peak_trains_per_hour": 0.4,
+    "peak_services": 3,
+    "total_services": 36,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Milton Keynes Central": {
+   "EUS": {
+    "fastest_mins": 32,
+    "typical_peak_mins": 36,
+    "peak_trains_per_hour": 8.9,
+    "peak_services": 67,
+    "total_services": 430,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Monks Risborough": {
+   "MYB": {
+    "fastest_mins": 65,
+    "typical_peak_mins": null,
+    "peak_trains_per_hour": null,
+    "peak_services": 0,
+    "total_services": 9,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Moreton-in-Marsh": {
+   "PAD": {
+    "fastest_mins": 88,
+    "typical_peak_mins": 90,
+    "peak_trains_per_hour": 1.2,
+    "peak_services": 9,
+    "total_services": 57,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Motspur Park": {
+   "WAT": {
+    "fastest_mins": 24,
+    "typical_peak_mins": 27,
+    "peak_trains_per_hour": 5.2,
+    "peak_services": 39,
+    "total_services": 225,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "New Barnet": {
+   "KGX": {
+    "fastest_mins": 18,
+    "typical_peak_mins": 18,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 20,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "STP": {
+    "fastest_mins": 19,
+    "typical_peak_mins": 20,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 30,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "MOG": {
+    "fastest_mins": 27,
+    "typical_peak_mins": 32,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 150,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "New Cross": {
+   "LBG": {
+    "fastest_mins": 5,
+    "typical_peak_mins": 6,
+    "peak_trains_per_hour": 12.8,
+    "peak_services": 96,
+    "total_services": 573,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "New Eltham": {
+   "LBG": {
+    "fastest_mins": 21,
+    "typical_peak_mins": 26,
+    "peak_trains_per_hour": 6.0,
+    "peak_services": 45,
+    "total_services": 264,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "New Malden": {
+   "WAT": {
+    "fastest_mins": 23,
+    "typical_peak_mins": 26,
+    "peak_trains_per_hour": 9.2,
+    "peak_services": 69,
+    "total_services": 441,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Newark Northgate": {
+   "KGX": {
+    "fastest_mins": 75,
+    "typical_peak_mins": 84,
+    "peak_trains_per_hour": 2.8,
+    "peak_services": 21,
+    "total_services": 131,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Newbury": {
+   "PAD": {
+    "fastest_mins": 40,
+    "typical_peak_mins": 51,
+    "peak_trains_per_hour": 2.8,
+    "peak_services": 21,
+    "total_services": 84,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Norbiton": {
+   "WAT": {
+    "fastest_mins": 27,
+    "typical_peak_mins": 32,
+    "peak_trains_per_hour": 6.0,
+    "peak_services": 45,
+    "total_services": 324,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Northampton": {
+   "EUS": {
+    "fastest_mins": 50,
+    "typical_peak_mins": 59,
+    "peak_trains_per_hour": 3.6,
+    "peak_services": 27,
+    "total_services": 123,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Oakleigh Park": {
+   "KGX": {
+    "fastest_mins": 22,
+    "typical_peak_mins": null,
+    "peak_trains_per_hour": null,
+    "peak_services": 0,
+    "total_services": 5,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "STP": {
+    "fastest_mins": 17,
+    "typical_peak_mins": 18,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 30,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "MOG": {
+    "fastest_mins": 25,
+    "typical_peak_mins": 30,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 150,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Ockendon": {
+   "FST": {
+    "fastest_mins": 28,
+    "typical_peak_mins": 31,
+    "peak_trains_per_hour": 3.6,
+    "peak_services": 27,
+    "total_services": 128,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Orpington": {
+   "STP": {
+    "fastest_mins": 58,
+    "typical_peak_mins": 58,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 39,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 15,
+    "typical_peak_mins": 31,
+    "peak_trains_per_hour": 4.8,
+    "peak_services": 36,
+    "total_services": 285,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 22,
+    "typical_peak_mins": 34,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 201,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Otford": {
+   "STP": {
+    "fastest_mins": 69,
+    "typical_peak_mins": 69,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 36,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 39,
+    "typical_peak_mins": 44,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 159,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Overton": {
+   "WAT": {
+    "fastest_mins": 53,
+    "typical_peak_mins": 55,
+    "peak_trains_per_hour": 1.9,
+    "peak_services": 14,
+    "total_services": 62,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Oxford": {
+   "PAD": {
+    "fastest_mins": 51,
+    "typical_peak_mins": 54,
+    "peak_trains_per_hour": 2.4,
+    "peak_services": 18,
+    "total_services": 109,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "MYB": {
+    "fastest_mins": 74,
+    "typical_peak_mins": 87,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 104,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Oxshott": {
+   "WAT": {
+    "fastest_mins": 35,
+    "typical_peak_mins": 42,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 105,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Oxted": {
+   "STP": {
+    "fastest_mins": 49,
+    "typical_peak_mins": 54,
+    "peak_trains_per_hour": 1.2,
+    "peak_services": 9,
+    "total_services": 15,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 33,
+    "typical_peak_mins": 38,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 75,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 38,
+    "typical_peak_mins": 39,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 104,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Paddock Wood": {
+   "LBG": {
+    "fastest_mins": 42,
+    "typical_peak_mins": 46,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 120,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Pangbourne": {
+   "PAD": {
+    "fastest_mins": 46,
+    "typical_peak_mins": 53,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 105,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Peckham Rye": {
+   "STP": {
+    "fastest_mins": 23,
+    "typical_peak_mins": 24,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 75,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 9,
+    "typical_peak_mins": 10,
+    "peak_trains_per_hour": 4.4,
+    "peak_services": 33,
+    "total_services": 216,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 13,
+    "typical_peak_mins": 13,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Peterborough": {
+   "KGX": {
+    "fastest_mins": 47,
+    "typical_peak_mins": 56,
+    "peak_trains_per_hour": 5.1,
+    "peak_services": 38,
+    "total_services": 185,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "STP": {
+    "fastest_mins": 79,
+    "typical_peak_mins": 81,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Petersfield": {
+   "WAT": {
+    "fastest_mins": 63,
+    "typical_peak_mins": 79,
+    "peak_trains_per_hour": 4.4,
+    "peak_services": 33,
+    "total_services": 124,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Petts Wood": {
+   "STP": {
+    "fastest_mins": 55,
+    "typical_peak_mins": 55,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 39,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 23,
+    "typical_peak_mins": 29,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 219,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 39,
+    "typical_peak_mins": 40,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 120,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Pewsey": {
+   "PAD": {
+    "fastest_mins": 62,
+    "typical_peak_mins": 79,
+    "peak_trains_per_hour": 1.6,
+    "peak_services": 12,
+    "total_services": 33,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Pitsea": {
+   "FST": {
+    "fastest_mins": 37,
+    "typical_peak_mins": 44,
+    "peak_trains_per_hour": 8.0,
+    "peak_services": 60,
+    "total_services": 303,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Pluckley": {
+   "LBG": {
+    "fastest_mins": 64,
+    "typical_peak_mins": 67,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 90,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Plumstead": {
+   "STP": {
+    "fastest_mins": 42,
+    "typical_peak_mins": 42,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 78,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 24,
+    "typical_peak_mins": 27,
+    "peak_trains_per_hour": 9.6,
+    "peak_services": 72,
+    "total_services": 471,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Portslade": {
+   "VIC": {
+    "fastest_mins": 70,
+    "typical_peak_mins": 72,
+    "peak_trains_per_hour": 1.6,
+    "peak_services": 12,
+    "total_services": 102,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Potters Bar": {
+   "KGX": {
+    "fastest_mins": 20,
+    "typical_peak_mins": 23,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 119,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "STP": {
+    "fastest_mins": 24,
+    "typical_peak_mins": 25,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 30,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "MOG": {
+    "fastest_mins": 33,
+    "typical_peak_mins": 38,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 150,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Preston Park": {
+   "STP": {
+    "fastest_mins": 77,
+    "typical_peak_mins": 80,
+    "peak_trains_per_hour": 3.6,
+    "peak_services": 27,
+    "total_services": 132,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 62,
+    "typical_peak_mins": 64,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 126,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 61,
+    "typical_peak_mins": 61,
+    "peak_trains_per_hour": 3.6,
+    "peak_services": 27,
+    "total_services": 123,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Princes Risborough": {
+   "MYB": {
+    "fastest_mins": 39,
+    "typical_peak_mins": 49,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 106,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Purfleet": {
+   "FST": {
+    "fastest_mins": 29,
+    "typical_peak_mins": 32,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 141,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Purley": {
+   "STP": {
+    "fastest_mins": 37,
+    "typical_peak_mins": 38,
+    "peak_trains_per_hour": 1.6,
+    "peak_services": 12,
+    "total_services": 102,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 22,
+    "typical_peak_mins": 24,
+    "peak_trains_per_hour": 3.6,
+    "peak_services": 27,
+    "total_services": 195,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 25,
+    "typical_peak_mins": 25,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Putney": {
+   "WAT": {
+    "fastest_mins": 14,
+    "typical_peak_mins": 19,
+    "peak_trains_per_hour": 12.0,
+    "peak_services": 90,
+    "total_services": 540,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Radlett": {
+   "STP": {
+    "fastest_mins": 26,
+    "typical_peak_mins": 30,
+    "peak_trains_per_hour": 6.4,
+    "peak_services": 48,
+    "total_services": 282,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 41,
+    "typical_peak_mins": 41,
+    "peak_trains_per_hour": 0.4,
+    "peak_services": 3,
+    "total_services": 36,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Rainham (Essex)": {
+   "FST": {
+    "fastest_mins": 24,
+    "typical_peak_mins": 26,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 141,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Rainham (Kent)": {
+   "STP": {
+    "fastest_mins": 49,
+    "typical_peak_mins": 78,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 174,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 55,
+    "typical_peak_mins": 70,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 87,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 54,
+    "typical_peak_mins": 61,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Rayleigh": {
+   "LST": {
+    "fastest_mins": 42,
+    "typical_peak_mins": 47,
+    "peak_trains_per_hour": 4.4,
+    "peak_services": 33,
+    "total_services": 177,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Raynes Park": {
+   "WAT": {
+    "fastest_mins": 20,
+    "typical_peak_mins": 23,
+    "peak_trains_per_hour": 13.6,
+    "peak_services": 102,
+    "total_services": 660,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Reading": {
+   "WAT": {
+    "fastest_mins": 85,
+    "typical_peak_mins": 88,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 105,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "PAD": {
+    "fastest_mins": 23,
+    "typical_peak_mins": 28,
+    "peak_trains_per_hour": 15.6,
+    "peak_services": 117,
+    "total_services": 744,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LST": {
+    "fastest_mins": 60,
+    "typical_peak_mins": 63,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 144,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Redhill": {
+   "STP": {
+    "fastest_mins": 40,
+    "typical_peak_mins": 46,
+    "peak_trains_per_hour": 3.6,
+    "peak_services": 27,
+    "total_services": 204,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 24,
+    "typical_peak_mins": 31,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 195,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 34,
+    "typical_peak_mins": 39,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 114,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Reigate": {
+   "VIC": {
+    "fastest_mins": 45,
+    "typical_peak_mins": 50,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 105,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Richmond": {
+   "WAT": {
+    "fastest_mins": 19,
+    "typical_peak_mins": 28,
+    "peak_trains_per_hour": 11.6,
+    "peak_services": 87,
+    "total_services": 528,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Rochester": {
+   "STP": {
+    "fastest_mins": 36,
+    "typical_peak_mins": 64,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 180,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 37,
+    "typical_peak_mins": 57,
+    "peak_trains_per_hour": 4.8,
+    "peak_services": 36,
+    "total_services": 102,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 41,
+    "typical_peak_mins": 60,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 177,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Rochford": {
+   "LST": {
+    "fastest_mins": 50,
+    "typical_peak_mins": 55,
+    "peak_trains_per_hour": 4.4,
+    "peak_services": 33,
+    "total_services": 177,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Romford": {
+   "PAD": {
+    "fastest_mins": 40,
+    "typical_peak_mins": 41,
+    "peak_trains_per_hour": 11.6,
+    "peak_services": 87,
+    "total_services": 498,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LST": {
+    "fastest_mins": 18,
+    "typical_peak_mins": 29,
+    "peak_trains_per_hour": 13.6,
+    "peak_services": 102,
+    "total_services": 615,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Royston": {
+   "KGX": {
+    "fastest_mins": 37,
+    "typical_peak_mins": 46,
+    "peak_trains_per_hour": 4.3,
+    "peak_services": 32,
+    "total_services": 137,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "STP": {
+    "fastest_mins": 51,
+    "typical_peak_mins": 52,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 84,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 66,
+    "typical_peak_mins": 67,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 84,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Rugby": {
+   "EUS": {
+    "fastest_mins": 49,
+    "typical_peak_mins": 58,
+    "peak_trains_per_hour": 6.0,
+    "peak_services": 45,
+    "total_services": 252,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Salfords": {
+   "STP": {
+    "fastest_mins": 50,
+    "typical_peak_mins": 56,
+    "peak_trains_per_hour": 1.6,
+    "peak_services": 12,
+    "total_services": 87,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 35,
+    "typical_peak_mins": 41,
+    "peak_trains_per_hour": 1.6,
+    "peak_services": 12,
+    "total_services": 87,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Salisbury": {
+   "WAT": {
+    "fastest_mins": 80,
+    "typical_peak_mins": 90,
+    "peak_trains_per_hour": 1.9,
+    "peak_services": 14,
+    "total_services": 95,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Sandy": {
+   "KGX": {
+    "fastest_mins": 48,
+    "typical_peak_mins": null,
+    "peak_trains_per_hour": null,
+    "peak_services": 0,
+    "total_services": 12,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "STP": {
+    "fastest_mins": 49,
+    "typical_peak_mins": 51,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 64,
+    "typical_peak_mins": 66,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Saunderton": {
+   "MYB": {
+    "fastest_mins": 35,
+    "typical_peak_mins": 46,
+    "peak_trains_per_hour": 1.6,
+    "peak_services": 12,
+    "total_services": 58,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Sawbridgeworth": {
+   "LST": {
+    "fastest_mins": 40,
+    "typical_peak_mins": 44,
+    "peak_trains_per_hour": 3.1,
+    "peak_services": 23,
+    "total_services": 90,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Seer Green & Jordans": {
+   "MYB": {
+    "fastest_mins": 24,
+    "typical_peak_mins": 33,
+    "peak_trains_per_hour": 1.6,
+    "peak_services": 12,
+    "total_services": 66,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Sevenoaks": {
+   "STP": {
+    "fastest_mins": 76,
+    "typical_peak_mins": 76,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 36,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 24,
+    "typical_peak_mins": 27,
+    "peak_trains_per_hour": 8.4,
+    "peak_services": 63,
+    "total_services": 342,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 31,
+    "typical_peak_mins": 35,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 84,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Shenfield": {
+   "PAD": {
+    "fastest_mins": 54,
+    "typical_peak_mins": 56,
+    "peak_trains_per_hour": 11.2,
+    "peak_services": 84,
+    "total_services": 492,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LST": {
+    "fastest_mins": 23,
+    "typical_peak_mins": 36,
+    "peak_trains_per_hour": 22.4,
+    "peak_services": 168,
+    "total_services": 927,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Shepperton": {
+   "WAT": {
+    "fastest_mins": 45,
+    "typical_peak_mins": 56,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 120,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Shepreth": {
+   "KGX": {
+    "fastest_mins": 55,
+    "typical_peak_mins": 55,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 90,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Shoreham-by-Sea": {
+   "VIC": {
+    "fastest_mins": 75,
+    "typical_peak_mins": 77,
+    "peak_trains_per_hour": 1.6,
+    "peak_services": 12,
+    "total_services": 102,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Sidcup": {
+   "LBG": {
+    "fastest_mins": 25,
+    "typical_peak_mins": 29,
+    "peak_trains_per_hour": 6.0,
+    "peak_services": 45,
+    "total_services": 264,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Sittingbourne": {
+   "STP": {
+    "fastest_mins": 58,
+    "typical_peak_mins": 59,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 102,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 63,
+    "typical_peak_mins": 63,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 15,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 64,
+    "typical_peak_mins": 69,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Slade Green": {
+   "STP": {
+    "fastest_mins": 51,
+    "typical_peak_mins": 51,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 78,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 34,
+    "typical_peak_mins": 39,
+    "peak_trains_per_hour": 9.6,
+    "peak_services": 72,
+    "total_services": 471,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Slough": {
+   "PAD": {
+    "fastest_mins": 14,
+    "typical_peak_mins": 32,
+    "peak_trains_per_hour": 6.4,
+    "peak_services": 48,
+    "total_services": 341,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LST": {
+    "fastest_mins": 39,
+    "typical_peak_mins": 43,
+    "peak_trains_per_hour": 6.0,
+    "peak_services": 45,
+    "total_services": 228,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Southall": {
+   "PAD": {
+    "fastest_mins": 13,
+    "typical_peak_mins": 18,
+    "peak_trains_per_hour": 9.2,
+    "peak_services": 69,
+    "total_services": 464,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LST": {
+    "fastest_mins": 24,
+    "typical_peak_mins": 29,
+    "peak_trains_per_hour": 9.2,
+    "peak_services": 69,
+    "total_services": 444,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Southampton Central": {
+   "WAT": {
+    "fastest_mins": 76,
+    "typical_peak_mins": 82,
+    "peak_trains_per_hour": 2.4,
+    "peak_services": 18,
+    "total_services": 111,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Southend Central": {
+   "FST": {
+    "fastest_mins": 47,
+    "typical_peak_mins": 57,
+    "peak_trains_per_hour": 6.8,
+    "peak_services": 51,
+    "total_services": 337,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Southend Victoria": {
+   "LST": {
+    "fastest_mins": 57,
+    "typical_peak_mins": 62,
+    "peak_trains_per_hour": 4.4,
+    "peak_services": 33,
+    "total_services": 177,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "St Albans City": {
+   "STP": {
+    "fastest_mins": 20,
+    "typical_peak_mins": 32,
+    "peak_trains_per_hour": 11.6,
+    "peak_services": 87,
+    "total_services": 507,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 36,
+    "typical_peak_mins": 37,
+    "peak_trains_per_hour": 5.6,
+    "peak_services": 42,
+    "total_services": 252,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "St Neots": {
+   "KGX": {
+    "fastest_mins": 39,
+    "typical_peak_mins": 45,
+    "peak_trains_per_hour": 1.5,
+    "peak_services": 11,
+    "total_services": 26,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "STP": {
+    "fastest_mins": 56,
+    "typical_peak_mins": 58,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 71,
+    "typical_peak_mins": 73,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Staines": {
+   "WAT": {
+    "fastest_mins": 35,
+    "typical_peak_mins": 43,
+    "peak_trains_per_hour": 6.8,
+    "peak_services": 51,
+    "total_services": 333,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Stanford-le-Hope": {
+   "FST": {
+    "fastest_mins": 48,
+    "typical_peak_mins": 52,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 142,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Stansted Airport": {
+   "LST": {
+    "fastest_mins": 46,
+    "typical_peak_mins": 55,
+    "peak_trains_per_hour": 3.6,
+    "peak_services": 27,
+    "total_services": 219,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Stansted Mountfitchet": {
+   "LST": {
+    "fastest_mins": 42,
+    "typical_peak_mins": 56,
+    "peak_trains_per_hour": 2.7,
+    "peak_services": 20,
+    "total_services": 136,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Staplehurst": {
+   "LBG": {
+    "fastest_mins": 53,
+    "typical_peak_mins": 56,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 120,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Stevenage": {
+   "KGX": {
+    "fastest_mins": 20,
+    "typical_peak_mins": 26,
+    "peak_trains_per_hour": 5.1,
+    "peak_services": 38,
+    "total_services": 263,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "STP": {
+    "fastest_mins": 27,
+    "typical_peak_mins": 28,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 195,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 42,
+    "typical_peak_mins": 44,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 195,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "MOG": {
+    "fastest_mins": 65,
+    "typical_peak_mins": 66,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 114,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Stoke Mandeville": {
+   "MYB": {
+    "fastest_mins": 50,
+    "typical_peak_mins": 56,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 99,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Stoneleigh": {
+   "WAT": {
+    "fastest_mins": 30,
+    "typical_peak_mins": 34,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 126,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Stratford": {
+   "PAD": {
+    "fastest_mins": 19,
+    "typical_peak_mins": 20,
+    "peak_trains_per_hour": 11.6,
+    "peak_services": 87,
+    "total_services": 501,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LST": {
+    "fastest_mins": 6,
+    "typical_peak_mins": 10,
+    "peak_trains_per_hour": 28.0,
+    "peak_services": 210,
+    "total_services": 1032,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Strawberry Hill": {
+   "WAT": {
+    "fastest_mins": 30,
+    "typical_peak_mins": 44,
+    "peak_trains_per_hour": 5.2,
+    "peak_services": 39,
+    "total_services": 234,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Strood": {
+   "STP": {
+    "fastest_mins": 32,
+    "typical_peak_mins": 36,
+    "peak_trains_per_hour": 4.8,
+    "peak_services": 36,
+    "total_services": 186,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 69,
+    "typical_peak_mins": 69,
+    "peak_trains_per_hour": 2.4,
+    "peak_services": 18,
+    "total_services": 81,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Surbiton": {
+   "WAT": {
+    "fastest_mins": 15,
+    "typical_peak_mins": 29,
+    "peak_trains_per_hour": 8.4,
+    "peak_services": 63,
+    "total_services": 513,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Sutton": {
+   "STP": {
+    "fastest_mins": 47,
+    "typical_peak_mins": 53,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 216,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 32,
+    "typical_peak_mins": 32,
+    "peak_trains_per_hour": 2.4,
+    "peak_services": 18,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 32,
+    "typical_peak_mins": 48,
+    "peak_trains_per_hour": 6.4,
+    "peak_services": 48,
+    "total_services": 252,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Swanley": {
+   "STP": {
+    "fastest_mins": 57,
+    "typical_peak_mins": 57,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 36,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 27,
+    "typical_peak_mins": 35,
+    "peak_trains_per_hour": 6.0,
+    "peak_services": 45,
+    "total_services": 234,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Swindon": {
+   "PAD": {
+    "fastest_mins": 47,
+    "typical_peak_mins": 57,
+    "peak_trains_per_hour": 4.4,
+    "peak_services": 33,
+    "total_services": 240,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Taplow": {
+   "PAD": {
+    "fastest_mins": 38,
+    "typical_peak_mins": 40,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 159,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LST": {
+    "fastest_mins": 49,
+    "typical_peak_mins": 52,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 156,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Teddington": {
+   "WAT": {
+    "fastest_mins": 34,
+    "typical_peak_mins": 40,
+    "peak_trains_per_hour": 6.0,
+    "peak_services": 45,
+    "total_services": 327,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Thames Ditton": {
+   "WAT": {
+    "fastest_mins": 36,
+    "typical_peak_mins": 38,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Thatcham": {
+   "PAD": {
+    "fastest_mins": 42,
+    "typical_peak_mins": 46,
+    "peak_trains_per_hour": 1.6,
+    "peak_services": 12,
+    "total_services": 54,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Theale": {
+   "PAD": {
+    "fastest_mins": 34,
+    "typical_peak_mins": 38,
+    "peak_trains_per_hour": 1.6,
+    "peak_services": 12,
+    "total_services": 54,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Three Bridges": {
+   "STP": {
+    "fastest_mins": 49,
+    "typical_peak_mins": 50,
+    "peak_trains_per_hour": 7.2,
+    "peak_services": 54,
+    "total_services": 402,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 34,
+    "typical_peak_mins": 42,
+    "peak_trains_per_hour": 8.0,
+    "peak_services": 60,
+    "total_services": 381,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 36,
+    "typical_peak_mins": 38,
+    "peak_trains_per_hour": 2.4,
+    "peak_services": 18,
+    "total_services": 120,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Tilbury Town": {
+   "FST": {
+    "fastest_mins": 38,
+    "typical_peak_mins": 42,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 142,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Tilehurst": {
+   "PAD": {
+    "fastest_mins": 41,
+    "typical_peak_mins": 48,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 105,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Tonbridge": {
+   "LBG": {
+    "fastest_mins": 33,
+    "typical_peak_mins": 37,
+    "peak_trains_per_hour": 6.8,
+    "peak_services": 51,
+    "total_services": 237,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 42,
+    "typical_peak_mins": 47,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 81,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Tottenham Hale": {
+   "LST": {
+    "fastest_mins": 14,
+    "typical_peak_mins": 17,
+    "peak_trains_per_hour": 8.9,
+    "peak_services": 67,
+    "total_services": 446,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Tring": {
+   "EUS": {
+    "fastest_mins": 28,
+    "typical_peak_mins": 42,
+    "peak_trains_per_hour": 5.2,
+    "peak_services": 39,
+    "total_services": 225,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Tunbridge Wells": {
+   "LBG": {
+    "fastest_mins": 44,
+    "typical_peak_mins": 48,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 117,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 52,
+    "typical_peak_mins": 58,
+    "peak_trains_per_hour": 1.6,
+    "peak_services": 12,
+    "total_services": 78,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Twickenham": {
+   "WAT": {
+    "fastest_mins": 23,
+    "typical_peak_mins": 35,
+    "peak_trains_per_hour": 12.8,
+    "peak_services": 96,
+    "total_services": 540,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Twyford": {
+   "PAD": {
+    "fastest_mins": 21,
+    "typical_peak_mins": 45,
+    "peak_trains_per_hour": 6.4,
+    "peak_services": 48,
+    "total_services": 272,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LST": {
+    "fastest_mins": 55,
+    "typical_peak_mins": 58,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 144,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Upminster": {
+   "FST": {
+    "fastest_mins": 21,
+    "typical_peak_mins": 24,
+    "peak_trains_per_hour": 8.8,
+    "peak_services": 66,
+    "total_services": 363,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Vauxhall": {
+   "WAT": {
+    "fastest_mins": 4,
+    "typical_peak_mins": 7,
+    "peak_trains_per_hour": 27.2,
+    "peak_services": 204,
+    "total_services": 1308,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Virginia Water": {
+   "WAT": {
+    "fastest_mins": 45,
+    "typical_peak_mins": 51,
+    "peak_trains_per_hour": 4.4,
+    "peak_services": 33,
+    "total_services": 219,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Walton-on-Thames": {
+   "WAT": {
+    "fastest_mins": 22,
+    "typical_peak_mins": 31,
+    "peak_trains_per_hour": 3.6,
+    "peak_services": 27,
+    "total_services": 204,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Wandsworth Common": {
+   "LBG": {
+    "fastest_mins": 41,
+    "typical_peak_mins": 47,
+    "peak_trains_per_hour": 1.6,
+    "peak_services": 12,
+    "total_services": 102,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 12,
+    "typical_peak_mins": 12,
+    "peak_trains_per_hour": 6.8,
+    "peak_services": 51,
+    "total_services": 270,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Warwick": {
+   "MYB": {
+    "fastest_mins": 88,
+    "typical_peak_mins": 89,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 77,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Watford Junction": {
+   "EUS": {
+    "fastest_mins": 15,
+    "typical_peak_mins": 23,
+    "peak_trains_per_hour": 10.7,
+    "peak_services": 80,
+    "total_services": 557,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Welham Green": {
+   "KGX": {
+    "fastest_mins": 38,
+    "typical_peak_mins": null,
+    "peak_trains_per_hour": null,
+    "peak_services": 0,
+    "total_services": 2,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "MOG": {
+    "fastest_mins": 39,
+    "typical_peak_mins": 44,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 150,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Welling": {
+   "LBG": {
+    "fastest_mins": 27,
+    "typical_peak_mins": 29,
+    "peak_trains_per_hour": 4.8,
+    "peak_services": 36,
+    "total_services": 222,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 38,
+    "typical_peak_mins": 39,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Welwyn Garden City": {
+   "KGX": {
+    "fastest_mins": 29,
+    "typical_peak_mins": 32,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 119,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "STP": {
+    "fastest_mins": 22,
+    "typical_peak_mins": 37,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 33,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 37,
+    "typical_peak_mins": null,
+    "peak_trains_per_hour": null,
+    "peak_services": 0,
+    "total_services": 3,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "MOG": {
+    "fastest_mins": 47,
+    "typical_peak_mins": 52,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 150,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Welwyn North": {
+   "KGX": {
+    "fastest_mins": 19,
+    "typical_peak_mins": 28,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 132,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "West Byfleet": {
+   "WAT": {
+    "fastest_mins": 27,
+    "typical_peak_mins": 42,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 207,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "West Croydon": {
+   "LBG": {
+    "fastest_mins": 18,
+    "typical_peak_mins": 18,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 105,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 31,
+    "typical_peak_mins": 35,
+    "peak_trains_per_hour": 6.0,
+    "peak_services": 45,
+    "total_services": 228,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "West Drayton": {
+   "PAD": {
+    "fastest_mins": 20,
+    "typical_peak_mins": 23,
+    "peak_trains_per_hour": 6.0,
+    "peak_services": 45,
+    "total_services": 245,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LST": {
+    "fastest_mins": 32,
+    "typical_peak_mins": 35,
+    "peak_trains_per_hour": 6.0,
+    "peak_services": 45,
+    "total_services": 228,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "West Ham": {
+   "FST": {
+    "fastest_mins": 9,
+    "typical_peak_mins": 10,
+    "peak_trains_per_hour": 15.6,
+    "peak_services": 117,
+    "total_services": 540,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "West Hampstead Thameslink": {
+   "STP": {
+    "fastest_mins": 8,
+    "typical_peak_mins": 10,
+    "peak_trains_per_hour": 8.8,
+    "peak_services": 66,
+    "total_services": 435,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 24,
+    "typical_peak_mins": 25,
+    "peak_trains_per_hour": 2.8,
+    "peak_services": 21,
+    "total_services": 165,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "West Horndon": {
+   "FST": {
+    "fastest_mins": 27,
+    "typical_peak_mins": 30,
+    "peak_trains_per_hour": 3.6,
+    "peak_services": 27,
+    "total_services": 147,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Westcliff": {
+   "FST": {
+    "fastest_mins": 45,
+    "typical_peak_mins": 55,
+    "peak_trains_per_hour": 6.8,
+    "peak_services": 51,
+    "total_services": 337,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Weybridge": {
+   "WAT": {
+    "fastest_mins": 24,
+    "typical_peak_mins": 36,
+    "peak_trains_per_hour": 5.6,
+    "peak_services": 42,
+    "total_services": 310,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Whitchurch (Hants)": {
+   "WAT": {
+    "fastest_mins": 59,
+    "typical_peak_mins": 61,
+    "peak_trains_per_hour": 1.9,
+    "peak_services": 14,
+    "total_services": 62,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Whittlesford Parkway": {
+   "LST": {
+    "fastest_mins": 63,
+    "typical_peak_mins": 77,
+    "peak_trains_per_hour": 3.3,
+    "peak_services": 25,
+    "total_services": 128,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Wickford": {
+   "LST": {
+    "fastest_mins": 36,
+    "typical_peak_mins": 41,
+    "peak_trains_per_hour": 5.6,
+    "peak_services": 42,
+    "total_services": 192,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Wimbledon": {
+   "STP": {
+    "fastest_mins": 40,
+    "typical_peak_mins": 41,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "WAT": {
+    "fastest_mins": 15,
+    "typical_peak_mins": 20,
+    "peak_trains_per_hour": 16.8,
+    "peak_services": 126,
+    "total_services": 879,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Winchester": {
+   "WAT": {
+    "fastest_mins": 58,
+    "typical_peak_mins": 70,
+    "peak_trains_per_hour": 4.0,
+    "peak_services": 30,
+    "total_services": 162,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Winchfield": {
+   "WAT": {
+    "fastest_mins": 50,
+    "typical_peak_mins": 56,
+    "peak_trains_per_hour": 2.4,
+    "peak_services": 18,
+    "total_services": 99,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Witham": {
+   "LST": {
+    "fastest_mins": 43,
+    "typical_peak_mins": 48,
+    "peak_trains_per_hour": 7.2,
+    "peak_services": 54,
+    "total_services": 255,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Witley": {
+   "WAT": {
+    "fastest_mins": 56,
+    "typical_peak_mins": 60,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 63,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Wivelsfield": {
+   "STP": {
+    "fastest_mins": 66,
+    "typical_peak_mins": 66,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 117,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 51,
+    "typical_peak_mins": 51,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 108,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "VIC": {
+    "fastest_mins": 54,
+    "typical_peak_mins": 55,
+    "peak_trains_per_hour": 1.2,
+    "peak_services": 9,
+    "total_services": 99,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Woking": {
+   "WAT": {
+    "fastest_mins": 24,
+    "typical_peak_mins": 30,
+    "peak_trains_per_hour": 14.4,
+    "peak_services": 108,
+    "total_services": 662,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Woolwich Arsenal": {
+   "STP": {
+    "fastest_mins": 39,
+    "typical_peak_mins": 39,
+    "peak_trains_per_hour": 2.0,
+    "peak_services": 15,
+    "total_services": 78,
+    "days_sampled": 3,
+    "direct": true
+   },
+   "LBG": {
+    "fastest_mins": 21,
+    "typical_peak_mins": 24,
+    "peak_trains_per_hour": 9.6,
+    "peak_services": 72,
+    "total_services": 471,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Worcester Park": {
+   "WAT": {
+    "fastest_mins": 27,
+    "typical_peak_mins": 31,
+    "peak_trains_per_hour": 3.2,
+    "peak_services": 24,
+    "total_services": 126,
+    "days_sampled": 3,
+    "direct": true
+   }
+  },
+  "Worthing": {
+   "VIC": {
+    "fastest_mins": 85,
+    "typical_peak_mins": 86,
+    "peak_trains_per_hour": 1.6,
+    "peak_services": 12,
+    "total_services": 102,
+    "days_sampled": 3,
+    "direct": true
+   }
+  }
+ }
+}

@@ -1,33 +1,33 @@
 # Train times from Cheshunt to London
 
-Cheshunt connects to 1 London terminal. The fastest route is Liverpool Street in 22 minutes on a direct train.
+Cheshunt connects to 1 London terminal. The fastest route is Liverpool Street in 23 minutes on a direct train.
 
-- Fastest journey to London: 22 minutes to Liverpool Street
+- Fastest journey to London: 23 minutes to Liverpool Street
 - Direct service: Yes
 - London terminals served: 1 (Liverpool Street)
-- Operator: Greater Anglia
+- Operator: Greater Anglia, Elizabeth line
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Cheshunt to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Liverpool Street | 22 min | Direct | Greater Anglia |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Liverpool Street | 23 min | 26 | 6.0 | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Cheshunt to London take?
 
-The fastest train from Cheshunt reaches London Liverpool Street in 22 minutes. Cheshunt connects to 1 London terminal: Liverpool Street.
+The fastest train from Cheshunt reaches London Liverpool Street in 23 minutes. Cheshunt connects to 1 London terminal: Liverpool Street.
 
 ### Which London station should I travel to from Cheshunt?
 
-Liverpool Street is the quickest at 22 minutes, on a direct service. Direct trains run to Liverpool Street.
+Liverpool Street is the quickest at 23 minutes, on a direct service. Direct trains run to Liverpool Street.
 
 ### Is Cheshunt a good commuter town for London?
 
-At 22 minutes to London Liverpool Street, Cheshunt is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 23 minutes to London Liverpool Street, Cheshunt is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Cheshunt to London?
 

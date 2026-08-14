@@ -1,58 +1,61 @@
 # Train journey times to London Paddington
 
-38 stations reach London Paddington within 90 minutes, 35 of them on a
+41 stations reach London Paddington within 90 minutes, 41 of them on a
 direct train. Services are operated by Great Western Railway, Elizabeth line.
 
-- Stations within 90 minutes: 38
-- Direct services: 35 of 38
-- Stations under 30 minutes: 15
+- Stations within 90 minutes: 41
+- Direct services: 41 of 41
+- Stations under 30 minutes: 14
 - Fastest station: Acton Main Line - 7 minutes
 - Operators: Great Western Railway, Elizabeth line
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Every station to Paddington
 
-| Station | Journey time | Service |
-| --- | --- | --- |
-| Acton Main Line | 7 min | Direct |
-| Ealing Broadway | 10 min | Direct |
-| Hanwell | 13 min | Direct |
-| Southall | 14 min | Direct |
-| Slough | 15 min | Direct |
-| Hayes & Harlington | 17 min | Direct |
-| Langley | 19 min | Direct |
-| Maidenhead | 19 min | Direct |
-| West Drayton | 20 min | Direct |
-| Burnham | 22 min | Direct |
-| Iver | 22 min | Direct |
-| Reading | 23 min | Direct |
-| Twyford | 24 min | Direct |
-| Taplow | 25 min | Direct |
-| Windsor & Eton Central | 25 min | Change required |
-| Tilehurst | 30 min | Direct |
-| Theale | 33 min | Direct |
-| Pangbourne | 35 min | Direct |
-| Goring & Streatley | 39 min | Direct |
-| Newbury | 39 min | Direct |
-| Didcot Parkway | 40 min | Direct |
-| Cholsey | 45 min | Direct |
-| Oxford | 45 min | Direct |
-| Thatcham | 45 min | Direct |
-| Hungerford | 48 min | Direct |
-| Marlow | 48 min | Change required |
-| Henley-on-Thames | 50 min | Change required |
-| Swindon | 50 min | Direct |
-| Kintbury | 55 min | Direct |
-| Bedwyn | 56 min | Direct |
-| Chippenham | 62 min | Direct |
-| Hanborough | 62 min | Direct |
-| Pewsey | 63 min | Direct |
-| Charlbury | 72 min | Direct |
-| Bath Spa | 73 min | Direct |
-| Kingham | 79 min | Direct |
-| Bristol Temple Meads | 82 min | Direct |
-| Moreton-in-Marsh | 85 min | Direct |
+| Station | Fastest | Typical peak | Peak trains/hr |
+| --- | --- | --- | --- |
+| Acton Main Line | 7 min | 8 | 6.0 |
+| Ealing Broadway | 8 min | 11 | 12.0 |
+| Southall | 13 min | 18 | 9.2 |
+| Hanwell | 14 min | 15 | 5.2 |
+| Slough | 14 min | 32 | 6.4 |
+| Hayes & Harlington | 16 min | 21 | 10.0 |
+| Maidenhead | 18 min | 38 | 10.0 |
+| Stratford | 19 min | 20 | 11.6 |
+| West Drayton | 20 min | 23 | 6.0 |
+| Twyford | 21 min | 45 | 6.4 |
+| Reading | 23 min | 28 | 15.6 |
+| Iver | 24 min | 27 | 4.0 |
+| Langley | 26 min | 30 | 4.0 |
+| Abbey Wood | 28 min | 30 | 11.6 |
+| Burnham | 33 min | 36 | 6.0 |
+| Theale | 34 min | 38 | 1.6 |
+| Didcot Parkway | 37 min | 43 | 5.6 |
+| Taplow | 38 min | 40 | 4.0 |
+| Newbury | 40 min | 51 | 2.8 |
+| Romford | 40 min | 41 | 11.6 |
+| Tilehurst | 41 min | 48 | 2.0 |
+| Thatcham | 42 min | 46 | 1.6 |
+| Hungerford | 46 min | 63 | 2.0 |
+| Pangbourne | 46 min | 53 | 2.0 |
+| Swindon | 47 min | 57 | 4.4 |
+| Brentwood | 50 min | 52 | 11.2 |
+| Goring & Streatley | 50 min | 56 | 2.0 |
+| Oxford | 51 min | 54 | 2.4 |
+| Shenfield | 54 min | 56 | 11.2 |
+| Cholsey | 55 min | 61 | 2.0 |
+| Bedwyn | 56 min | 69 | 2.0 |
+| Kintbury | 58 min | 59 | 1.2 |
+| Pewsey | 62 min | 79 | 1.6 |
+| Chippenham | 63 min | 70 | 1.6 |
+| Hanborough | 63 min | 65 | 1.2 |
+| Charlbury | 69 min | 72 | 1.2 |
+| Banbury | 74 min | - | - |
+| Bath Spa | 76 min | 83 | 1.6 |
+| Kingham | 80 min | 82 | 1.2 |
+| Moreton-in-Marsh | 88 min | 90 | 1.2 |
+| Bristol Temple Meads | 89 min | 99 | 2.0 |
 
 ## Frequently asked questions
 
@@ -62,19 +65,19 @@ The fastest connection is from Acton Main Line, at 7 minutes on a direct service
 
 ### Which commuter towns are within 30 minutes of Paddington?
 
-15 stations reach Paddington in under 30 minutes, including Acton Main Line, Ealing Broadway, Hanwell, Southall, Slough, Hayes & Harlington. These are the shortest commutes available into this terminal.
+14 stations reach Paddington in under 30 minutes, including Acton Main Line, Ealing Broadway, Southall, Hanwell, Slough, Hayes & Harlington. These are the shortest commutes available into this terminal.
 
 ### How many stations connect to Paddington?
 
-38 stations have a service to London Paddington within 90 minutes, and 35 of those are direct trains with no change required.
+41 stations have a service to London Paddington within 90 minutes, and 41 of those are direct trains with no change required.
 
 ### What areas does Paddington serve?
 
-London Paddington primarily serves the Thames Valley and the West. Key commuter destinations on this network include Acton Main Line, Ealing Broadway, Hanwell, Southall, Slough.
+London Paddington primarily serves the Thames Valley and the West. Key commuter destinations on this network include Acton Main Line, Ealing Broadway, Southall, Hanwell, Slough.
 
 ### Is Paddington a good terminal to commute into?
 
-With 38 stations inside 90 minutes and 35 direct services, Paddington serves a focused commuter corridor. The quickest option is Acton Main Line at 7 minutes.
+With 41 stations inside 90 minutes and 41 direct services, Paddington serves a focused commuter corridor. The quickest option is Acton Main Line at 7 minutes.
 
 ## About this data
 

@@ -1,37 +1,39 @@
 # Train times from Ashford International to London
 
-Ashford International connects to 1 London terminal. The fastest route is Victoria in 80 minutes on a direct train.
+Ashford International connects to 3 London terminals. The fastest route is St Pancras in 36 minutes on a direct train.
 
-- Fastest journey to London: 80 minutes to Victoria
+- Fastest journey to London: 36 minutes to St Pancras
 - Direct service: Yes
-- London terminals served: 1 (Victoria)
-- Operator: Southeastern, Southern
+- London terminals served: 3 (St Pancras, London Bridge, Victoria)
+- Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Ashford International to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Victoria | 80 min | Direct | Southeastern, Southern |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| St Pancras | 36 min | 38 | 3.6 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 71 min | 74 | 4.0 | Southeastern, Southern, Thameslink |
+| Victoria | change required | - | - | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from Ashford International to London take?
 
-The fastest train from Ashford International reaches London Victoria in 80 minutes. Ashford International connects to 1 London terminal: Victoria.
+The fastest train from Ashford International reaches London St Pancras in 36 minutes. Ashford International connects to 3 London terminals: St Pancras, London Bridge, Victoria.
 
 ### Which London station should I travel to from Ashford International?
 
-Victoria is the quickest at 80 minutes, on a direct service. Direct trains run to Victoria.
+St Pancras is the quickest at 36 minutes, on a direct service. Direct trains run to St Pancras, London Bridge.
 
 ### Is Ashford International a good commuter town for London?
 
-At 80 minutes to London Victoria, Ashford International is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
+At 36 minutes to London St Pancras, Ashford International is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Ashford International to London?
 
-Yes. Direct services run to Victoria.
+Yes. Direct services run to St Pancras, London Bridge.
 
 ### What are the nearest stations to Ashford International?
 

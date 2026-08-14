@@ -1,33 +1,33 @@
 # Train times from Hook to London
 
-Hook connects to 1 London terminal. The fastest route is Waterloo in 50 minutes on a direct train.
+Hook connects to 1 London terminal. The fastest route is Waterloo in 54 minutes on a direct train.
 
-- Fastest journey to London: 50 minutes to Waterloo
+- Fastest journey to London: 54 minutes to Waterloo
 - Direct service: Yes
 - London terminals served: 1 (Waterloo)
 - Operator: South Western Railway
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Hook to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Waterloo | 50 min | Direct | South Western Railway |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Waterloo | 54 min | 60 | 2.4 | South Western Railway |
 
 ## Frequently asked questions
 
 ### How long does the train from Hook to London take?
 
-The fastest train from Hook reaches London Waterloo in 50 minutes. Hook connects to 1 London terminal: Waterloo.
+The fastest train from Hook reaches London Waterloo in 54 minutes. Hook connects to 1 London terminal: Waterloo.
 
 ### Which London station should I travel to from Hook?
 
-Waterloo is the quickest at 50 minutes, on a direct service. Direct trains run to Waterloo.
+Waterloo is the quickest at 54 minutes, on a direct service. Direct trains run to Waterloo.
 
 ### Is Hook a good commuter town for London?
 
-At 50 minutes to London Waterloo, Hook is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 54 minutes to London Waterloo, Hook is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Hook to London?
 

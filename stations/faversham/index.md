@@ -1,37 +1,39 @@
 # Train times from Faversham to London
 
-Faversham connects to 1 London terminal. The fastest route is London Bridge in 68 minutes on a direct train.
+Faversham connects to 3 London terminals. The fastest route is St Pancras in 66 minutes on a direct train.
 
-- Fastest journey to London: 68 minutes to London Bridge
+- Fastest journey to London: 66 minutes to St Pancras
 - Direct service: Yes
-- London terminals served: 1 (London Bridge)
-- Operator: Southeastern, Southern, Thameslink
+- London terminals served: 3 (St Pancras, London Bridge, Victoria)
+- Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Faversham to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| London Bridge | 68 min | Direct | Southeastern, Southern, Thameslink |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| St Pancras | 66 min | 68 | 2.4 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 71 min | 71 | 2.0 | Southeastern, Southern, Thameslink |
+| Victoria | 72 min | 80 | 2.0 | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from Faversham to London take?
 
-The fastest train from Faversham reaches London London Bridge in 68 minutes. Faversham connects to 1 London terminal: London Bridge.
+The fastest train from Faversham reaches London St Pancras in 66 minutes. Faversham connects to 3 London terminals: St Pancras, London Bridge, Victoria.
 
 ### Which London station should I travel to from Faversham?
 
-London Bridge is the quickest at 68 minutes, on a direct service. Direct trains run to London Bridge.
+St Pancras is the quickest at 66 minutes, on a direct service. Direct trains run to St Pancras, London Bridge, Victoria.
 
 ### Is Faversham a good commuter town for London?
 
-At 68 minutes to London London Bridge, Faversham is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
+At 66 minutes to London St Pancras, Faversham is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from Faversham to London?
 
-Yes. Direct services run to London Bridge.
+Yes. Direct services run to St Pancras, London Bridge, Victoria.
 
 ### What are the nearest stations to Faversham?
 

@@ -1,37 +1,38 @@
 # Train times from Hornsey to London
 
-Hornsey connects to 1 London terminal. The fastest route is Kings Cross in 9 minutes on a direct train.
+Hornsey connects to 2 London terminals. The fastest route is Kings Cross in 12 minutes on a direct train.
 
-- Fastest journey to London: 9 minutes to Kings Cross
+- Fastest journey to London: 12 minutes to Kings Cross
 - Direct service: Yes
-- London terminals served: 1 (Kings Cross)
-- Operator: Great Northern, Thameslink, LNER
+- London terminals served: 2 (Kings Cross, Moorgate)
+- Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Hornsey to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Kings Cross | 9 min | Direct | Great Northern, Thameslink, LNER |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Kings Cross | 12 min | - | - | Great Northern, LNER, Hull Trains, Lumo |
+| Moorgate | 19 min | 20 | 6.0 | Great Northern |
 
 ## Frequently asked questions
 
 ### How long does the train from Hornsey to London take?
 
-The fastest train from Hornsey reaches London Kings Cross in 9 minutes. Hornsey connects to 1 London terminal: Kings Cross.
+The fastest train from Hornsey reaches London Kings Cross in 12 minutes. Hornsey connects to 2 London terminals: Kings Cross, Moorgate.
 
 ### Which London station should I travel to from Hornsey?
 
-Kings Cross is the quickest at 9 minutes, on a direct service. Direct trains run to Kings Cross.
+Kings Cross is the quickest at 12 minutes, on a direct service. Direct trains run to Kings Cross, Moorgate.
 
 ### Is Hornsey a good commuter town for London?
 
-At 9 minutes to London Kings Cross, Hornsey is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 12 minutes to London Kings Cross, Hornsey is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Hornsey to London?
 
-Yes. Direct services run to Kings Cross.
+Yes. Direct services run to Kings Cross, Moorgate.
 
 ### What are the nearest stations to Hornsey?
 

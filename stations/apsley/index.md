@@ -1,33 +1,33 @@
 # Train times from Apsley to London
 
-Apsley connects to 1 London terminal. The fastest route is Euston in 24 minutes on a direct train.
+Apsley connects to 1 London terminal. The fastest route is Euston in 28 minutes on a direct train.
 
-- Fastest journey to London: 24 minutes to Euston
+- Fastest journey to London: 28 minutes to Euston
 - Direct service: Yes
 - London terminals served: 1 (Euston)
 - Operator: Avanti West Coast, London Northwestern
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Apsley to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Euston | 24 min | Direct | Avanti West Coast, London Northwestern |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Euston | 28 min | 29 | 3.6 | Avanti West Coast, London Northwestern |
 
 ## Frequently asked questions
 
 ### How long does the train from Apsley to London take?
 
-The fastest train from Apsley reaches London Euston in 24 minutes. Apsley connects to 1 London terminal: Euston.
+The fastest train from Apsley reaches London Euston in 28 minutes. Apsley connects to 1 London terminal: Euston.
 
 ### Which London station should I travel to from Apsley?
 
-Euston is the quickest at 24 minutes, on a direct service. Direct trains run to Euston.
+Euston is the quickest at 28 minutes, on a direct service. Direct trains run to Euston.
 
 ### Is Apsley a good commuter town for London?
 
-At 24 minutes to London Euston, Apsley is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 28 minutes to London Euston, Apsley is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Apsley to London?
 

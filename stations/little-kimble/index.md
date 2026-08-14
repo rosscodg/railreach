@@ -1,33 +1,33 @@
 # Train times from Little Kimble to London
 
-Little Kimble connects to 1 London terminal. The fastest route is Marylebone in 43 minutes on a direct train.
+Little Kimble connects to 1 London terminal. The fastest route is Marylebone in 69 minutes on a direct train.
 
-- Fastest journey to London: 43 minutes to Marylebone
+- Fastest journey to London: 69 minutes to Marylebone
 - Direct service: Yes
 - London terminals served: 1 (Marylebone)
 - Operator: Chiltern Railways
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Little Kimble to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Marylebone | 43 min | Direct | Chiltern Railways |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Marylebone | 69 min | - | - | Chiltern Railways |
 
 ## Frequently asked questions
 
 ### How long does the train from Little Kimble to London take?
 
-The fastest train from Little Kimble reaches London Marylebone in 43 minutes. Little Kimble connects to 1 London terminal: Marylebone.
+The fastest train from Little Kimble reaches London Marylebone in 69 minutes. Little Kimble connects to 1 London terminal: Marylebone.
 
 ### Which London station should I travel to from Little Kimble?
 
-Marylebone is the quickest at 43 minutes, on a direct service. Direct trains run to Marylebone.
+Marylebone is the quickest at 69 minutes, on a direct service. Direct trains run to Marylebone.
 
 ### Is Little Kimble a good commuter town for London?
 
-At 43 minutes to London Marylebone, Little Kimble is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 69 minutes to London Marylebone, Little Kimble is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from Little Kimble to London?
 

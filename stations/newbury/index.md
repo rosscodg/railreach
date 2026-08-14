@@ -1,33 +1,33 @@
 # Train times from Newbury to London
 
-Newbury connects to 1 London terminal. The fastest route is Paddington in 39 minutes on a direct train.
+Newbury connects to 1 London terminal. The fastest route is Paddington in 40 minutes on a direct train.
 
-- Fastest journey to London: 39 minutes to Paddington
+- Fastest journey to London: 40 minutes to Paddington
 - Direct service: Yes
 - London terminals served: 1 (Paddington)
 - Operator: Great Western Railway, Elizabeth line
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Newbury to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Paddington | 39 min | Direct | Great Western Railway, Elizabeth line |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Paddington | 40 min | 51 | 2.8 | Great Western Railway, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Newbury to London take?
 
-The fastest train from Newbury reaches London Paddington in 39 minutes. Newbury connects to 1 London terminal: Paddington.
+The fastest train from Newbury reaches London Paddington in 40 minutes. Newbury connects to 1 London terminal: Paddington.
 
 ### Which London station should I travel to from Newbury?
 
-Paddington is the quickest at 39 minutes, on a direct service. Direct trains run to Paddington.
+Paddington is the quickest at 40 minutes, on a direct service. Direct trains run to Paddington.
 
 ### Is Newbury a good commuter town for London?
 
-At 39 minutes to London Paddington, Newbury is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 40 minutes to London Paddington, Newbury is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Newbury to London?
 

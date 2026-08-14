@@ -1,37 +1,38 @@
 # Train times from Wimbledon to London
 
-Wimbledon connects to 1 London terminal. The fastest route is Waterloo in 13 minutes on a direct train.
+Wimbledon connects to 2 London terminals. The fastest route is Waterloo in 15 minutes on a direct train.
 
-- Fastest journey to London: 13 minutes to Waterloo
+- Fastest journey to London: 15 minutes to Waterloo
 - Direct service: Yes
-- London terminals served: 1 (Waterloo)
+- London terminals served: 2 (Waterloo, St Pancras)
 - Operator: South Western Railway
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Wimbledon to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Waterloo | 13 min | Direct | South Western Railway |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Waterloo | 15 min | 20 | 16.8 | South Western Railway |
+| St Pancras | 40 min | 41 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 
 ### How long does the train from Wimbledon to London take?
 
-The fastest train from Wimbledon reaches London Waterloo in 13 minutes. Wimbledon connects to 1 London terminal: Waterloo.
+The fastest train from Wimbledon reaches London Waterloo in 15 minutes. Wimbledon connects to 2 London terminals: Waterloo, St Pancras.
 
 ### Which London station should I travel to from Wimbledon?
 
-Waterloo is the quickest at 13 minutes, on a direct service. Direct trains run to Waterloo.
+Waterloo is the quickest at 15 minutes, on a direct service. Direct trains run to Waterloo, St Pancras.
 
 ### Is Wimbledon a good commuter town for London?
 
-At 13 minutes to London Waterloo, Wimbledon is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 15 minutes to London Waterloo, Wimbledon is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Wimbledon to London?
 
-Yes. Direct services run to Waterloo.
+Yes. Direct services run to Waterloo, St Pancras.
 
 ### What are the nearest stations to Wimbledon?
 

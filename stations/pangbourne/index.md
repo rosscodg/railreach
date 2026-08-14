@@ -1,33 +1,33 @@
 # Train times from Pangbourne to London
 
-Pangbourne connects to 1 London terminal. The fastest route is Paddington in 35 minutes on a direct train.
+Pangbourne connects to 1 London terminal. The fastest route is Paddington in 46 minutes on a direct train.
 
-- Fastest journey to London: 35 minutes to Paddington
+- Fastest journey to London: 46 minutes to Paddington
 - Direct service: Yes
 - London terminals served: 1 (Paddington)
 - Operator: Great Western Railway, Elizabeth line
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Pangbourne to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Paddington | 35 min | Direct | Great Western Railway, Elizabeth line |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Paddington | 46 min | 53 | 2.0 | Great Western Railway, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Pangbourne to London take?
 
-The fastest train from Pangbourne reaches London Paddington in 35 minutes. Pangbourne connects to 1 London terminal: Paddington.
+The fastest train from Pangbourne reaches London Paddington in 46 minutes. Pangbourne connects to 1 London terminal: Paddington.
 
 ### Which London station should I travel to from Pangbourne?
 
-Paddington is the quickest at 35 minutes, on a direct service. Direct trains run to Paddington.
+Paddington is the quickest at 46 minutes, on a direct service. Direct trains run to Paddington.
 
 ### Is Pangbourne a good commuter town for London?
 
-At 35 minutes to London Paddington, Pangbourne is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 46 minutes to London Paddington, Pangbourne is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Pangbourne to London?
 

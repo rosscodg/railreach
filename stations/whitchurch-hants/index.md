@@ -1,33 +1,33 @@
 # Train times from Whitchurch (Hants) to London
 
-Whitchurch (Hants) connects to 1 London terminal. The fastest route is Waterloo in 60 minutes on a direct train.
+Whitchurch (Hants) connects to 1 London terminal. The fastest route is Waterloo in 59 minutes on a direct train.
 
-- Fastest journey to London: 60 minutes to Waterloo
+- Fastest journey to London: 59 minutes to Waterloo
 - Direct service: Yes
 - London terminals served: 1 (Waterloo)
 - Operator: South Western Railway
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Whitchurch (Hants) to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Waterloo | 60 min | Direct | South Western Railway |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Waterloo | 59 min | 61 | 1.9 | South Western Railway |
 
 ## Frequently asked questions
 
 ### How long does the train from Whitchurch (Hants) to London take?
 
-The fastest train from Whitchurch (Hants) reaches London Waterloo in 60 minutes. Whitchurch (Hants) connects to 1 London terminal: Waterloo.
+The fastest train from Whitchurch (Hants) reaches London Waterloo in 59 minutes. Whitchurch (Hants) connects to 1 London terminal: Waterloo.
 
 ### Which London station should I travel to from Whitchurch (Hants)?
 
-Waterloo is the quickest at 60 minutes, on a direct service. Direct trains run to Waterloo.
+Waterloo is the quickest at 59 minutes, on a direct service. Direct trains run to Waterloo.
 
 ### Is Whitchurch (Hants) a good commuter town for London?
 
-At 60 minutes to London Waterloo, Whitchurch (Hants) is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
+At 59 minutes to London Waterloo, Whitchurch (Hants) is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Whitchurch (Hants) to London?
 

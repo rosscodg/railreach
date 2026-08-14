@@ -1,33 +1,33 @@
 # Train times from Stoneleigh to London
 
-Stoneleigh connects to 1 London terminal. The fastest route is Waterloo in 24 minutes on a direct train.
+Stoneleigh connects to 1 London terminal. The fastest route is Waterloo in 30 minutes on a direct train.
 
-- Fastest journey to London: 24 minutes to Waterloo
+- Fastest journey to London: 30 minutes to Waterloo
 - Direct service: Yes
 - London terminals served: 1 (Waterloo)
 - Operator: South Western Railway
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Stoneleigh to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Waterloo | 24 min | Direct | South Western Railway |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Waterloo | 30 min | 34 | 3.2 | South Western Railway |
 
 ## Frequently asked questions
 
 ### How long does the train from Stoneleigh to London take?
 
-The fastest train from Stoneleigh reaches London Waterloo in 24 minutes. Stoneleigh connects to 1 London terminal: Waterloo.
+The fastest train from Stoneleigh reaches London Waterloo in 30 minutes. Stoneleigh connects to 1 London terminal: Waterloo.
 
 ### Which London station should I travel to from Stoneleigh?
 
-Waterloo is the quickest at 24 minutes, on a direct service. Direct trains run to Waterloo.
+Waterloo is the quickest at 30 minutes, on a direct service. Direct trains run to Waterloo.
 
 ### Is Stoneleigh a good commuter town for London?
 
-At 24 minutes to London Waterloo, Stoneleigh is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 30 minutes to London Waterloo, Stoneleigh is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Stoneleigh to London?
 

@@ -1,33 +1,33 @@
 # Train times from Beaconsfield to London
 
-Beaconsfield connects to 1 London terminal. The fastest route is Marylebone in 24 minutes on a direct train.
+Beaconsfield connects to 1 London terminal. The fastest route is Marylebone in 25 minutes on a direct train.
 
-- Fastest journey to London: 24 minutes to Marylebone
+- Fastest journey to London: 25 minutes to Marylebone
 - Direct service: Yes
 - London terminals served: 1 (Marylebone)
 - Operator: Chiltern Railways
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Beaconsfield to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Marylebone | 24 min | Direct | Chiltern Railways |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Marylebone | 25 min | 32 | 3.6 | Chiltern Railways |
 
 ## Frequently asked questions
 
 ### How long does the train from Beaconsfield to London take?
 
-The fastest train from Beaconsfield reaches London Marylebone in 24 minutes. Beaconsfield connects to 1 London terminal: Marylebone.
+The fastest train from Beaconsfield reaches London Marylebone in 25 minutes. Beaconsfield connects to 1 London terminal: Marylebone.
 
 ### Which London station should I travel to from Beaconsfield?
 
-Marylebone is the quickest at 24 minutes, on a direct service. Direct trains run to Marylebone.
+Marylebone is the quickest at 25 minutes, on a direct service. Direct trains run to Marylebone.
 
 ### Is Beaconsfield a good commuter town for London?
 
-At 24 minutes to London Marylebone, Beaconsfield is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 25 minutes to London Marylebone, Beaconsfield is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Beaconsfield to London?
 

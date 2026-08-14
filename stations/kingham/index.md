@@ -1,33 +1,33 @@
 # Train times from Kingham to London
 
-Kingham connects to 1 London terminal. The fastest route is Paddington in 79 minutes on a direct train.
+Kingham connects to 1 London terminal. The fastest route is Paddington in 80 minutes on a direct train.
 
-- Fastest journey to London: 79 minutes to Paddington
+- Fastest journey to London: 80 minutes to Paddington
 - Direct service: Yes
 - London terminals served: 1 (Paddington)
 - Operator: Great Western Railway, Elizabeth line
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Kingham to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Paddington | 79 min | Direct | Great Western Railway, Elizabeth line |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Paddington | 80 min | 82 | 1.2 | Great Western Railway, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Kingham to London take?
 
-The fastest train from Kingham reaches London Paddington in 79 minutes. Kingham connects to 1 London terminal: Paddington.
+The fastest train from Kingham reaches London Paddington in 80 minutes. Kingham connects to 1 London terminal: Paddington.
 
 ### Which London station should I travel to from Kingham?
 
-Paddington is the quickest at 79 minutes, on a direct service. Direct trains run to Paddington.
+Paddington is the quickest at 80 minutes, on a direct service. Direct trains run to Paddington.
 
 ### Is Kingham a good commuter town for London?
 
-At 79 minutes to London Paddington, Kingham is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
+At 80 minutes to London Paddington, Kingham is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from Kingham to London?
 

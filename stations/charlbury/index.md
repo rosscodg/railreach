@@ -1,33 +1,33 @@
 # Train times from Charlbury to London
 
-Charlbury connects to 1 London terminal. The fastest route is Paddington in 72 minutes on a direct train.
+Charlbury connects to 1 London terminal. The fastest route is Paddington in 69 minutes on a direct train.
 
-- Fastest journey to London: 72 minutes to Paddington
+- Fastest journey to London: 69 minutes to Paddington
 - Direct service: Yes
 - London terminals served: 1 (Paddington)
 - Operator: Great Western Railway, Elizabeth line
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Charlbury to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Paddington | 72 min | Direct | Great Western Railway, Elizabeth line |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Paddington | 69 min | 72 | 1.2 | Great Western Railway, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Charlbury to London take?
 
-The fastest train from Charlbury reaches London Paddington in 72 minutes. Charlbury connects to 1 London terminal: Paddington.
+The fastest train from Charlbury reaches London Paddington in 69 minutes. Charlbury connects to 1 London terminal: Paddington.
 
 ### Which London station should I travel to from Charlbury?
 
-Paddington is the quickest at 72 minutes, on a direct service. Direct trains run to Paddington.
+Paddington is the quickest at 69 minutes, on a direct service. Direct trains run to Paddington.
 
 ### Is Charlbury a good commuter town for London?
 
-At 72 minutes to London Paddington, Charlbury is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
+At 69 minutes to London Paddington, Charlbury is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from Charlbury to London?
 

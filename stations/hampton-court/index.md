@@ -1,33 +1,33 @@
 # Train times from Hampton Court to London
 
-Hampton Court connects to 1 London terminal. The fastest route is Waterloo in 33 minutes on a direct train.
+Hampton Court connects to 1 London terminal. The fastest route is Waterloo in 38 minutes on a direct train.
 
-- Fastest journey to London: 33 minutes to Waterloo
+- Fastest journey to London: 38 minutes to Waterloo
 - Direct service: Yes
 - London terminals served: 1 (Waterloo)
 - Operator: South Western Railway
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Hampton Court to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Waterloo | 33 min | Direct | South Western Railway |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Waterloo | 38 min | 40 | 2.0 | South Western Railway |
 
 ## Frequently asked questions
 
 ### How long does the train from Hampton Court to London take?
 
-The fastest train from Hampton Court reaches London Waterloo in 33 minutes. Hampton Court connects to 1 London terminal: Waterloo.
+The fastest train from Hampton Court reaches London Waterloo in 38 minutes. Hampton Court connects to 1 London terminal: Waterloo.
 
 ### Which London station should I travel to from Hampton Court?
 
-Waterloo is the quickest at 33 minutes, on a direct service. Direct trains run to Waterloo.
+Waterloo is the quickest at 38 minutes, on a direct service. Direct trains run to Waterloo.
 
 ### Is Hampton Court a good commuter town for London?
 
-At 33 minutes to London Waterloo, Hampton Court is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 38 minutes to London Waterloo, Hampton Court is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Hampton Court to London?
 

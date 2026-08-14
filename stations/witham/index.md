@@ -1,33 +1,33 @@
 # Train times from Witham to London
 
-Witham connects to 1 London terminal. The fastest route is Liverpool Street in 40 minutes on a direct train.
+Witham connects to 1 London terminal. The fastest route is Liverpool Street in 43 minutes on a direct train.
 
-- Fastest journey to London: 40 minutes to Liverpool Street
+- Fastest journey to London: 43 minutes to Liverpool Street
 - Direct service: Yes
 - London terminals served: 1 (Liverpool Street)
-- Operator: Greater Anglia
+- Operator: Greater Anglia, Elizabeth line
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Witham to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Liverpool Street | 40 min | Direct | Greater Anglia |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Liverpool Street | 43 min | 48 | 7.2 | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Witham to London take?
 
-The fastest train from Witham reaches London Liverpool Street in 40 minutes. Witham connects to 1 London terminal: Liverpool Street.
+The fastest train from Witham reaches London Liverpool Street in 43 minutes. Witham connects to 1 London terminal: Liverpool Street.
 
 ### Which London station should I travel to from Witham?
 
-Liverpool Street is the quickest at 40 minutes, on a direct service. Direct trains run to Liverpool Street.
+Liverpool Street is the quickest at 43 minutes, on a direct service. Direct trains run to Liverpool Street.
 
 ### Is Witham a good commuter town for London?
 
-At 40 minutes to London Liverpool Street, Witham is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 43 minutes to London Liverpool Street, Witham is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Witham to London?
 

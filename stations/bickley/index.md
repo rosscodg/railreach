@@ -1,37 +1,38 @@
 # Train times from Bickley to London
 
-Bickley connects to 1 London terminal. The fastest route is Victoria in 20 minutes on a direct train.
+Bickley connects to 2 London terminals. The fastest route is Victoria in 25 minutes on a direct train.
 
-- Fastest journey to London: 20 minutes to Victoria
+- Fastest journey to London: 25 minutes to Victoria
 - Direct service: Yes
-- London terminals served: 1 (Victoria)
+- London terminals served: 2 (Victoria, St Pancras)
 - Operator: Southeastern, Southern
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Bickley to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Victoria | 20 min | Direct | Southeastern, Southern |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Victoria | 25 min | 35 | 2.0 | Southeastern, Southern |
+| St Pancras | 48 min | 48 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 
 ### How long does the train from Bickley to London take?
 
-The fastest train from Bickley reaches London Victoria in 20 minutes. Bickley connects to 1 London terminal: Victoria.
+The fastest train from Bickley reaches London Victoria in 25 minutes. Bickley connects to 2 London terminals: Victoria, St Pancras.
 
 ### Which London station should I travel to from Bickley?
 
-Victoria is the quickest at 20 minutes, on a direct service. Direct trains run to Victoria.
+Victoria is the quickest at 25 minutes, on a direct service. Direct trains run to Victoria, St Pancras.
 
 ### Is Bickley a good commuter town for London?
 
-At 20 minutes to London Victoria, Bickley is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 25 minutes to London Victoria, Bickley is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Bickley to London?
 
-Yes. Direct services run to Victoria.
+Yes. Direct services run to Victoria, St Pancras.
 
 ### What are the nearest stations to Bickley?
 

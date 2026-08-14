@@ -1,33 +1,33 @@
 # Train times from Southend Victoria to London
 
-Southend Victoria connects to 1 London terminal. The fastest route is Liverpool Street in 55 minutes on a direct train.
+Southend Victoria connects to 1 London terminal. The fastest route is Liverpool Street in 57 minutes on a direct train.
 
-- Fastest journey to London: 55 minutes to Liverpool Street
+- Fastest journey to London: 57 minutes to Liverpool Street
 - Direct service: Yes
 - London terminals served: 1 (Liverpool Street)
-- Operator: Greater Anglia
+- Operator: Greater Anglia, Elizabeth line
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Southend Victoria to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Liverpool Street | 55 min | Direct | Greater Anglia |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Liverpool Street | 57 min | 62 | 4.4 | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Southend Victoria to London take?
 
-The fastest train from Southend Victoria reaches London Liverpool Street in 55 minutes. Southend Victoria connects to 1 London terminal: Liverpool Street.
+The fastest train from Southend Victoria reaches London Liverpool Street in 57 minutes. Southend Victoria connects to 1 London terminal: Liverpool Street.
 
 ### Which London station should I travel to from Southend Victoria?
 
-Liverpool Street is the quickest at 55 minutes, on a direct service. Direct trains run to Liverpool Street.
+Liverpool Street is the quickest at 57 minutes, on a direct service. Direct trains run to Liverpool Street.
 
 ### Is Southend Victoria a good commuter town for London?
 
-At 55 minutes to London Liverpool Street, Southend Victoria is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 57 minutes to London Liverpool Street, Southend Victoria is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Southend Victoria to London?
 

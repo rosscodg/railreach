@@ -1,37 +1,38 @@
 # Train times from Shenfield to London
 
-Shenfield connects to 1 London terminal. The fastest route is Liverpool Street in 24 minutes on a direct train.
+Shenfield connects to 2 London terminals. The fastest route is Liverpool Street in 23 minutes on a direct train.
 
-- Fastest journey to London: 24 minutes to Liverpool Street
+- Fastest journey to London: 23 minutes to Liverpool Street
 - Direct service: Yes
-- London terminals served: 1 (Liverpool Street)
-- Operator: Greater Anglia
+- London terminals served: 2 (Liverpool Street, Paddington)
+- Operator: Greater Anglia, Elizabeth line
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Shenfield to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Liverpool Street | 24 min | Direct | Greater Anglia |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Liverpool Street | 23 min | 36 | 22.4 | Greater Anglia, Elizabeth line |
+| Paddington | 54 min | 56 | 11.2 | Great Western Railway, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Shenfield to London take?
 
-The fastest train from Shenfield reaches London Liverpool Street in 24 minutes. Shenfield connects to 1 London terminal: Liverpool Street.
+The fastest train from Shenfield reaches London Liverpool Street in 23 minutes. Shenfield connects to 2 London terminals: Liverpool Street, Paddington.
 
 ### Which London station should I travel to from Shenfield?
 
-Liverpool Street is the quickest at 24 minutes, on a direct service. Direct trains run to Liverpool Street.
+Liverpool Street is the quickest at 23 minutes, on a direct service. Direct trains run to Liverpool Street, Paddington.
 
 ### Is Shenfield a good commuter town for London?
 
-At 24 minutes to London Liverpool Street, Shenfield is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 23 minutes to London Liverpool Street, Shenfield is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Shenfield to London?
 
-Yes. Direct services run to Liverpool Street.
+Yes. Direct services run to Liverpool Street, Paddington.
 
 ### What are the nearest stations to Shenfield?
 

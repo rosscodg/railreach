@@ -1,33 +1,33 @@
 # Train times from Shepreth to London
 
-Shepreth connects to 1 London terminal. The fastest route is Kings Cross in 52 minutes on a direct train.
+Shepreth connects to 1 London terminal. The fastest route is Kings Cross in 55 minutes on a direct train.
 
-- Fastest journey to London: 52 minutes to Kings Cross
+- Fastest journey to London: 55 minutes to Kings Cross
 - Direct service: Yes
 - London terminals served: 1 (Kings Cross)
-- Operator: Great Northern, Thameslink, LNER
+- Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Shepreth to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Kings Cross | 52 min | Direct | Great Northern, Thameslink, LNER |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Kings Cross | 55 min | 55 | 2.0 | Great Northern, LNER, Hull Trains, Lumo |
 
 ## Frequently asked questions
 
 ### How long does the train from Shepreth to London take?
 
-The fastest train from Shepreth reaches London Kings Cross in 52 minutes. Shepreth connects to 1 London terminal: Kings Cross.
+The fastest train from Shepreth reaches London Kings Cross in 55 minutes. Shepreth connects to 1 London terminal: Kings Cross.
 
 ### Which London station should I travel to from Shepreth?
 
-Kings Cross is the quickest at 52 minutes, on a direct service. Direct trains run to Kings Cross.
+Kings Cross is the quickest at 55 minutes, on a direct service. Direct trains run to Kings Cross.
 
 ### Is Shepreth a good commuter town for London?
 
-At 52 minutes to London Kings Cross, Shepreth is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 55 minutes to London Kings Cross, Shepreth is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Shepreth to London?
 

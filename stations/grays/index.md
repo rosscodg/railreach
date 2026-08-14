@@ -1,33 +1,33 @@
 # Train times from Grays to London
 
-Grays connects to 1 London terminal. The fastest route is Fenchurch Street in 27 minutes on a direct train.
+Grays connects to 1 London terminal. The fastest route is Fenchurch Street in 35 minutes on a direct train.
 
-- Fastest journey to London: 27 minutes to Fenchurch Street
+- Fastest journey to London: 35 minutes to Fenchurch Street
 - Direct service: Yes
 - London terminals served: 1 (Fenchurch Street)
 - Operator: c2c
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Grays to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Fenchurch Street | 27 min | Direct | c2c |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Fenchurch Street | 35 min | 39 | 6.8 | c2c |
 
 ## Frequently asked questions
 
 ### How long does the train from Grays to London take?
 
-The fastest train from Grays reaches London Fenchurch Street in 27 minutes. Grays connects to 1 London terminal: Fenchurch Street.
+The fastest train from Grays reaches London Fenchurch Street in 35 minutes. Grays connects to 1 London terminal: Fenchurch Street.
 
 ### Which London station should I travel to from Grays?
 
-Fenchurch Street is the quickest at 27 minutes, on a direct service. Direct trains run to Fenchurch Street.
+Fenchurch Street is the quickest at 35 minutes, on a direct service. Direct trains run to Fenchurch Street.
 
 ### Is Grays a good commuter town for London?
 
-At 27 minutes to London Fenchurch Street, Grays is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 35 minutes to London Fenchurch Street, Grays is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Grays to London?
 

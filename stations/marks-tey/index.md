@@ -1,33 +1,33 @@
 # Train times from Marks Tey to London
 
-Marks Tey connects to 1 London terminal. The fastest route is Liverpool Street in 48 minutes on a direct train.
+Marks Tey connects to 1 London terminal. The fastest route is Liverpool Street in 52 minutes on a direct train.
 
-- Fastest journey to London: 48 minutes to Liverpool Street
+- Fastest journey to London: 52 minutes to Liverpool Street
 - Direct service: Yes
 - London terminals served: 1 (Liverpool Street)
-- Operator: Greater Anglia
+- Operator: Greater Anglia, Elizabeth line
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Marks Tey to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Liverpool Street | 48 min | Direct | Greater Anglia |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Liverpool Street | 52 min | 58 | 3.2 | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Marks Tey to London take?
 
-The fastest train from Marks Tey reaches London Liverpool Street in 48 minutes. Marks Tey connects to 1 London terminal: Liverpool Street.
+The fastest train from Marks Tey reaches London Liverpool Street in 52 minutes. Marks Tey connects to 1 London terminal: Liverpool Street.
 
 ### Which London station should I travel to from Marks Tey?
 
-Liverpool Street is the quickest at 48 minutes, on a direct service. Direct trains run to Liverpool Street.
+Liverpool Street is the quickest at 52 minutes, on a direct service. Direct trains run to Liverpool Street.
 
 ### Is Marks Tey a good commuter town for London?
 
-At 48 minutes to London Liverpool Street, Marks Tey is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 52 minutes to London Liverpool Street, Marks Tey is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Marks Tey to London?
 

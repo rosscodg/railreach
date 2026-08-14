@@ -1,33 +1,33 @@
 # Train times from Grove Park to London
 
-Grove Park connects to 1 London terminal. The fastest route is London Bridge in 14 minutes on a direct train.
+Grove Park connects to 1 London terminal. The fastest route is London Bridge in 13 minutes on a direct train.
 
-- Fastest journey to London: 14 minutes to London Bridge
+- Fastest journey to London: 13 minutes to London Bridge
 - Direct service: Yes
 - London terminals served: 1 (London Bridge)
 - Operator: Southeastern, Southern, Thameslink
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Grove Park to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| London Bridge | 14 min | Direct | Southeastern, Southern, Thameslink |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| London Bridge | 13 min | 19 | 4.0 | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 
 ### How long does the train from Grove Park to London take?
 
-The fastest train from Grove Park reaches London London Bridge in 14 minutes. Grove Park connects to 1 London terminal: London Bridge.
+The fastest train from Grove Park reaches London London Bridge in 13 minutes. Grove Park connects to 1 London terminal: London Bridge.
 
 ### Which London station should I travel to from Grove Park?
 
-London Bridge is the quickest at 14 minutes, on a direct service. Direct trains run to London Bridge.
+London Bridge is the quickest at 13 minutes, on a direct service. Direct trains run to London Bridge.
 
 ### Is Grove Park a good commuter town for London?
 
-At 14 minutes to London London Bridge, Grove Park is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 13 minutes to London London Bridge, Grove Park is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Grove Park to London?
 

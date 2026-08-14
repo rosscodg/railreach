@@ -1,33 +1,33 @@
 # Train times from Birmingham New Street to London
 
-Birmingham New Street connects to 1 London terminal. The fastest route is Euston in 76 minutes on a direct train.
+Birmingham New Street connects to 1 London terminal. The fastest route is Euston in 79 minutes on a direct train.
 
-- Fastest journey to London: 76 minutes to Euston
+- Fastest journey to London: 79 minutes to Euston
 - Direct service: Yes
 - London terminals served: 1 (Euston)
 - Operator: Avanti West Coast, London Northwestern
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Birmingham New Street to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Euston | 76 min | Direct | Avanti West Coast, London Northwestern |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Euston | 79 min | 91 | 4.5 | Avanti West Coast, London Northwestern |
 
 ## Frequently asked questions
 
 ### How long does the train from Birmingham New Street to London take?
 
-The fastest train from Birmingham New Street reaches London Euston in 76 minutes. Birmingham New Street connects to 1 London terminal: Euston.
+The fastest train from Birmingham New Street reaches London Euston in 79 minutes. Birmingham New Street connects to 1 London terminal: Euston.
 
 ### Which London station should I travel to from Birmingham New Street?
 
-Euston is the quickest at 76 minutes, on a direct service. Direct trains run to Euston.
+Euston is the quickest at 79 minutes, on a direct service. Direct trains run to Euston.
 
 ### Is Birmingham New Street a good commuter town for London?
 
-At 76 minutes to London Euston, Birmingham New Street is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
+At 79 minutes to London Euston, Birmingham New Street is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from Birmingham New Street to London?
 

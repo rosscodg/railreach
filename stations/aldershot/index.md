@@ -1,33 +1,33 @@
 # Train times from Aldershot to London
 
-Aldershot connects to 1 London terminal. The fastest route is Waterloo in 48 minutes on a direct train.
+Aldershot connects to 1 London terminal. The fastest route is Waterloo in 46 minutes on a direct train.
 
-- Fastest journey to London: 48 minutes to Waterloo
+- Fastest journey to London: 46 minutes to Waterloo
 - Direct service: Yes
 - London terminals served: 1 (Waterloo)
 - Operator: South Western Railway
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Aldershot to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Waterloo | 48 min | Direct | South Western Railway |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Waterloo | 46 min | 48 | 2.8 | South Western Railway |
 
 ## Frequently asked questions
 
 ### How long does the train from Aldershot to London take?
 
-The fastest train from Aldershot reaches London Waterloo in 48 minutes. Aldershot connects to 1 London terminal: Waterloo.
+The fastest train from Aldershot reaches London Waterloo in 46 minutes. Aldershot connects to 1 London terminal: Waterloo.
 
 ### Which London station should I travel to from Aldershot?
 
-Waterloo is the quickest at 48 minutes, on a direct service. Direct trains run to Waterloo.
+Waterloo is the quickest at 46 minutes, on a direct service. Direct trains run to Waterloo.
 
 ### Is Aldershot a good commuter town for London?
 
-At 48 minutes to London Waterloo, Aldershot is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 46 minutes to London Waterloo, Aldershot is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Aldershot to London?
 

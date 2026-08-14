@@ -1,37 +1,38 @@
 # Train times from Reigate to London
 
-Reigate connects to 1 London terminal. The fastest route is London Bridge in 40 minutes, with one change.
+Reigate connects to 2 London terminals. The fastest route is Victoria in 45 minutes on a direct train.
 
-- Fastest journey to London: 40 minutes to London Bridge
-- Direct service: No - one change required
-- London terminals served: 1 (London Bridge)
-- Operator: Southeastern, Southern, Thameslink
+- Fastest journey to London: 45 minutes to Victoria
+- Direct service: Yes
+- London terminals served: 2 (Victoria, London Bridge)
+- Operator: Southeastern, Southern
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Reigate to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| London Bridge | 40 min | Change required | Southeastern, Southern, Thameslink |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Victoria | 45 min | 50 | 2.0 | Southeastern, Southern |
+| London Bridge | change required | - | - | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 
 ### How long does the train from Reigate to London take?
 
-The fastest train from Reigate reaches London London Bridge in 40 minutes. Reigate connects to 1 London terminal: London Bridge.
+The fastest train from Reigate reaches London Victoria in 45 minutes. Reigate connects to 2 London terminals: Victoria, London Bridge.
 
 ### Which London station should I travel to from Reigate?
 
-London Bridge is the quickest at 40 minutes, though it requires a change. Direct trains run to none; all routes require a change.
+Victoria is the quickest at 45 minutes, on a direct service. Direct trains run to Victoria.
 
 ### Is Reigate a good commuter town for London?
 
-At 40 minutes to London London Bridge, Reigate is a practical commuter choice, with the fastest journey under an hour. Most services require one change.
+At 45 minutes to London Victoria, Reigate is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Reigate to London?
 
-No direct service is recorded from Reigate; all routes into London require one change.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Reigate?
 

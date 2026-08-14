@@ -1,37 +1,39 @@
 # Train times from Balcombe to London
 
-Balcombe connects to 1 London terminal. The fastest route is Victoria in 43 minutes on a direct train.
+Balcombe connects to 3 London terminals. The fastest route is London Bridge in 40 minutes on a direct train.
 
-- Fastest journey to London: 43 minutes to Victoria
+- Fastest journey to London: 40 minutes to London Bridge
 - Direct service: Yes
-- London terminals served: 1 (Victoria)
-- Operator: Southeastern, Southern
+- London terminals served: 3 (London Bridge, St Pancras, Victoria)
+- Operator: Southeastern, Southern, Thameslink
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Balcombe to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Victoria | 43 min | Direct | Southeastern, Southern |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| London Bridge | 40 min | 40 | 2.0 | Southeastern, Southern, Thameslink |
+| St Pancras | 55 min | 55 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Victoria | change required | - | - | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from Balcombe to London take?
 
-The fastest train from Balcombe reaches London Victoria in 43 minutes. Balcombe connects to 1 London terminal: Victoria.
+The fastest train from Balcombe reaches London London Bridge in 40 minutes. Balcombe connects to 3 London terminals: London Bridge, St Pancras, Victoria.
 
 ### Which London station should I travel to from Balcombe?
 
-Victoria is the quickest at 43 minutes, on a direct service. Direct trains run to Victoria.
+London Bridge is the quickest at 40 minutes, on a direct service. Direct trains run to London Bridge, St Pancras.
 
 ### Is Balcombe a good commuter town for London?
 
-At 43 minutes to London Victoria, Balcombe is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 40 minutes to London London Bridge, Balcombe is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Balcombe to London?
 
-Yes. Direct services run to Victoria.
+Yes. Direct services run to London Bridge, St Pancras.
 
 ### What are the nearest stations to Balcombe?
 

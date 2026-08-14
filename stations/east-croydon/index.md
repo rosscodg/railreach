@@ -1,38 +1,39 @@
 # Train times from East Croydon to London
 
-East Croydon connects to 2 London terminals. The fastest route is London Bridge in 14 minutes on a direct train.
+East Croydon connects to 3 London terminals. The fastest route is London Bridge in 13 minutes on a direct train.
 
-- Fastest journey to London: 14 minutes to London Bridge
+- Fastest journey to London: 13 minutes to London Bridge
 - Direct service: Yes
-- London terminals served: 2 (London Bridge, Victoria)
+- London terminals served: 3 (London Bridge, Victoria, St Pancras)
 - Operator: Southeastern, Southern, Thameslink
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## East Croydon to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| London Bridge | 14 min | Direct | Southeastern, Southern, Thameslink |
-| Victoria | 15 min | Direct | Southeastern, Southern |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| London Bridge | 13 min | 15 | 12.8 | Southeastern, Southern, Thameslink |
+| Victoria | 16 min | 17 | 9.2 | Southeastern, Southern |
+| St Pancras | 29 min | 30 | 8.8 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 
 ### How long does the train from East Croydon to London take?
 
-The fastest train from East Croydon reaches London London Bridge in 14 minutes. East Croydon connects to 2 London terminals: London Bridge, Victoria.
+The fastest train from East Croydon reaches London London Bridge in 13 minutes. East Croydon connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from East Croydon?
 
-London Bridge is the quickest at 14 minutes, on a direct service. Direct trains run to London Bridge, Victoria.
+London Bridge is the quickest at 13 minutes, on a direct service. Direct trains run to London Bridge, Victoria, St Pancras.
 
 ### Is East Croydon a good commuter town for London?
 
-At 14 minutes to London London Bridge, East Croydon is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 13 minutes to London London Bridge, East Croydon is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from East Croydon to London?
 
-Yes. Direct services run to London Bridge, Victoria.
+Yes. Direct services run to London Bridge, Victoria, St Pancras.
 
 ### What are the nearest stations to East Croydon?
 

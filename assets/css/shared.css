@@ -322,6 +322,15 @@ a:focus-visible, button:focus-visible, select:focus-visible {
 .t-mid  { background: rgba(230,159,0,0.18); color: #855c00; }
 .t-slow { background: rgba(213,94,0,0.14); color: #a34700; }
 
+/* Journey measures. The gap between fastest and typical is the point, so it
+   is marked where it is large rather than left for the reader to spot. */
+.t-change {
+  background: var(--surface); color: var(--text-muted);
+  font-weight: 500; font-size: 11px;
+}
+.muted { color: var(--text-muted); }
+.gap-wide { color: #a34700; font-weight: 600; }
+
 /* === Key facts (citable, dated summary block) === */
 .key-facts {
   display: grid; gap: 0; margin: 20px 0 8px;
@@ -521,6 +530,7 @@ a:focus-visible, button:focus-visible, select:focus-visible {
   .t-fast { background: rgba(0,114,178,0.28); color: #7cc4f0; }
   .t-mid  { background: rgba(230,159,0,0.22); color: #f0bd5c; }
   .t-slow { background: rgba(213,94,0,0.24); color: #ff9a5c; }
+  .gap-wide { color: #ff9a5c; }
   .page-content tbody tr:hover td { background: rgba(255,255,255,0.03); }
   .skip-link { background: var(--blue); }
 }

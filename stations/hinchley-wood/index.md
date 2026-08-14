@@ -1,33 +1,33 @@
 # Train times from Hinchley Wood to London
 
-Hinchley Wood connects to 1 London terminal. The fastest route is Waterloo in 27 minutes on a direct train.
+Hinchley Wood connects to 1 London terminal. The fastest route is Waterloo in 29 minutes on a direct train.
 
-- Fastest journey to London: 27 minutes to Waterloo
+- Fastest journey to London: 29 minutes to Waterloo
 - Direct service: Yes
 - London terminals served: 1 (Waterloo)
 - Operator: South Western Railway
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Hinchley Wood to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Waterloo | 27 min | Direct | South Western Railway |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Waterloo | 29 min | 36 | 2.0 | South Western Railway |
 
 ## Frequently asked questions
 
 ### How long does the train from Hinchley Wood to London take?
 
-The fastest train from Hinchley Wood reaches London Waterloo in 27 minutes. Hinchley Wood connects to 1 London terminal: Waterloo.
+The fastest train from Hinchley Wood reaches London Waterloo in 29 minutes. Hinchley Wood connects to 1 London terminal: Waterloo.
 
 ### Which London station should I travel to from Hinchley Wood?
 
-Waterloo is the quickest at 27 minutes, on a direct service. Direct trains run to Waterloo.
+Waterloo is the quickest at 29 minutes, on a direct service. Direct trains run to Waterloo.
 
 ### Is Hinchley Wood a good commuter town for London?
 
-At 27 minutes to London Waterloo, Hinchley Wood is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 29 minutes to London Waterloo, Hinchley Wood is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Hinchley Wood to London?
 

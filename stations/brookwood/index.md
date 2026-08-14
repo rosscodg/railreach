@@ -1,33 +1,33 @@
 # Train times from Brookwood to London
 
-Brookwood connects to 1 London terminal. The fastest route is Waterloo in 29 minutes on a direct train.
+Brookwood connects to 1 London terminal. The fastest route is Waterloo in 34 minutes on a direct train.
 
-- Fastest journey to London: 29 minutes to Waterloo
+- Fastest journey to London: 34 minutes to Waterloo
 - Direct service: Yes
 - London terminals served: 1 (Waterloo)
 - Operator: South Western Railway
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Brookwood to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Waterloo | 29 min | Direct | South Western Railway |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Waterloo | 34 min | 36 | 4.0 | South Western Railway |
 
 ## Frequently asked questions
 
 ### How long does the train from Brookwood to London take?
 
-The fastest train from Brookwood reaches London Waterloo in 29 minutes. Brookwood connects to 1 London terminal: Waterloo.
+The fastest train from Brookwood reaches London Waterloo in 34 minutes. Brookwood connects to 1 London terminal: Waterloo.
 
 ### Which London station should I travel to from Brookwood?
 
-Waterloo is the quickest at 29 minutes, on a direct service. Direct trains run to Waterloo.
+Waterloo is the quickest at 34 minutes, on a direct service. Direct trains run to Waterloo.
 
 ### Is Brookwood a good commuter town for London?
 
-At 29 minutes to London Waterloo, Brookwood is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 34 minutes to London Waterloo, Brookwood is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Brookwood to London?
 

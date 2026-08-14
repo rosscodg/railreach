@@ -1,33 +1,33 @@
 # Train times from Stansted Airport to London
 
-Stansted Airport connects to 1 London terminal. The fastest route is Liverpool Street in 47 minutes on a direct train.
+Stansted Airport connects to 1 London terminal. The fastest route is Liverpool Street in 46 minutes on a direct train.
 
-- Fastest journey to London: 47 minutes to Liverpool Street
+- Fastest journey to London: 46 minutes to Liverpool Street
 - Direct service: Yes
 - London terminals served: 1 (Liverpool Street)
-- Operator: Greater Anglia
+- Operator: Greater Anglia, Elizabeth line
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Stansted Airport to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Liverpool Street | 47 min | Direct | Greater Anglia |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Liverpool Street | 46 min | 55 | 3.6 | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Stansted Airport to London take?
 
-The fastest train from Stansted Airport reaches London Liverpool Street in 47 minutes. Stansted Airport connects to 1 London terminal: Liverpool Street.
+The fastest train from Stansted Airport reaches London Liverpool Street in 46 minutes. Stansted Airport connects to 1 London terminal: Liverpool Street.
 
 ### Which London station should I travel to from Stansted Airport?
 
-Liverpool Street is the quickest at 47 minutes, on a direct service. Direct trains run to Liverpool Street.
+Liverpool Street is the quickest at 46 minutes, on a direct service. Direct trains run to Liverpool Street.
 
 ### Is Stansted Airport a good commuter town for London?
 
-At 47 minutes to London Liverpool Street, Stansted Airport is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 46 minutes to London Liverpool Street, Stansted Airport is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Stansted Airport to London?
 

@@ -1,37 +1,38 @@
 # Train times from Hildenborough to London
 
-Hildenborough connects to 1 London terminal. The fastest route is Victoria in 38 minutes on a direct train.
+Hildenborough connects to 2 London terminals. The fastest route is London Bridge in 32 minutes on a direct train.
 
-- Fastest journey to London: 38 minutes to Victoria
+- Fastest journey to London: 32 minutes to London Bridge
 - Direct service: Yes
-- London terminals served: 1 (Victoria)
-- Operator: Southeastern, Southern
+- London terminals served: 2 (London Bridge, Victoria)
+- Operator: Southeastern, Southern, Thameslink
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Hildenborough to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Victoria | 38 min | Direct | Southeastern, Southern |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| London Bridge | 32 min | 34 | 1.2 | Southeastern, Southern, Thameslink |
+| Victoria | 38 min | 43 | 2.0 | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from Hildenborough to London take?
 
-The fastest train from Hildenborough reaches London Victoria in 38 minutes. Hildenborough connects to 1 London terminal: Victoria.
+The fastest train from Hildenborough reaches London London Bridge in 32 minutes. Hildenborough connects to 2 London terminals: London Bridge, Victoria.
 
 ### Which London station should I travel to from Hildenborough?
 
-Victoria is the quickest at 38 minutes, on a direct service. Direct trains run to Victoria.
+London Bridge is the quickest at 32 minutes, on a direct service. Direct trains run to London Bridge, Victoria.
 
 ### Is Hildenborough a good commuter town for London?
 
-At 38 minutes to London Victoria, Hildenborough is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 32 minutes to London London Bridge, Hildenborough is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Hildenborough to London?
 
-Yes. Direct services run to Victoria.
+Yes. Direct services run to London Bridge, Victoria.
 
 ### What are the nearest stations to Hildenborough?
 

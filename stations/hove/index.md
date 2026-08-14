@@ -1,33 +1,33 @@
 # Train times from Hove to London
 
-Hove connects to 1 London terminal. The fastest route is Victoria in 61 minutes on a direct train.
+Hove connects to 1 London terminal. The fastest route is Victoria in 67 minutes on a direct train.
 
-- Fastest journey to London: 61 minutes to Victoria
+- Fastest journey to London: 67 minutes to Victoria
 - Direct service: Yes
 - London terminals served: 1 (Victoria)
 - Operator: Southeastern, Southern
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Hove to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Victoria | 61 min | Direct | Southeastern, Southern |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Victoria | 67 min | 69 | 1.6 | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from Hove to London take?
 
-The fastest train from Hove reaches London Victoria in 61 minutes. Hove connects to 1 London terminal: Victoria.
+The fastest train from Hove reaches London Victoria in 67 minutes. Hove connects to 1 London terminal: Victoria.
 
 ### Which London station should I travel to from Hove?
 
-Victoria is the quickest at 61 minutes, on a direct service. Direct trains run to Victoria.
+Victoria is the quickest at 67 minutes, on a direct service. Direct trains run to Victoria.
 
 ### Is Hove a good commuter town for London?
 
-At 61 minutes to London Victoria, Hove is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
+At 67 minutes to London Victoria, Hove is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from Hove to London?
 

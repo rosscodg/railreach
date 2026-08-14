@@ -1,33 +1,33 @@
 # Train times from Maidstone East to London
 
-Maidstone East connects to 1 London terminal. The fastest route is Victoria in 58 minutes on a direct train.
+Maidstone East connects to 1 London terminal. The fastest route is Victoria in 63 minutes on a direct train.
 
-- Fastest journey to London: 58 minutes to Victoria
+- Fastest journey to London: 63 minutes to Victoria
 - Direct service: Yes
 - London terminals served: 1 (Victoria)
 - Operator: Southeastern, Southern
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Maidstone East to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Victoria | 58 min | Direct | Southeastern, Southern |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Victoria | 63 min | 70 | 4.0 | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from Maidstone East to London take?
 
-The fastest train from Maidstone East reaches London Victoria in 58 minutes. Maidstone East connects to 1 London terminal: Victoria.
+The fastest train from Maidstone East reaches London Victoria in 63 minutes. Maidstone East connects to 1 London terminal: Victoria.
 
 ### Which London station should I travel to from Maidstone East?
 
-Victoria is the quickest at 58 minutes, on a direct service. Direct trains run to Victoria.
+Victoria is the quickest at 63 minutes, on a direct service. Direct trains run to Victoria.
 
 ### Is Maidstone East a good commuter town for London?
 
-At 58 minutes to London Victoria, Maidstone East is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 63 minutes to London Victoria, Maidstone East is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from Maidstone East to London?
 

@@ -1,30 +1,31 @@
 # Train times from Horsham to London
 
-Horsham connects to 2 London terminals. The fastest route is Victoria in 54 minutes on a direct train.
+Horsham connects to 3 London terminals. The fastest route is Victoria in 54 minutes on a direct train.
 
 - Fastest journey to London: 54 minutes to Victoria
 - Direct service: Yes
-- London terminals served: 2 (Victoria, London Bridge)
+- London terminals served: 3 (Victoria, London Bridge, St Pancras)
 - Operator: Southeastern, Southern
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Horsham to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Victoria | 54 min | Direct | Southeastern, Southern |
-| London Bridge | 56 min | Direct | Southeastern, Southern, Thameslink |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Victoria | 54 min | 55 | 3.2 | Southeastern, Southern |
+| London Bridge | 65 min | 66 | 2.8 | Southeastern, Southern, Thameslink |
+| St Pancras | 80 min | 82 | 2.4 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 
 ### How long does the train from Horsham to London take?
 
-The fastest train from Horsham reaches London Victoria in 54 minutes. Horsham connects to 2 London terminals: Victoria, London Bridge.
+The fastest train from Horsham reaches London Victoria in 54 minutes. Horsham connects to 3 London terminals: Victoria, London Bridge, St Pancras.
 
 ### Which London station should I travel to from Horsham?
 
-Victoria is the quickest at 54 minutes, on a direct service. Direct trains run to Victoria, London Bridge.
+Victoria is the quickest at 54 minutes, on a direct service. Direct trains run to Victoria, London Bridge, St Pancras.
 
 ### Is Horsham a good commuter town for London?
 
@@ -32,7 +33,7 @@ At 54 minutes to London Victoria, Horsham is a practical commuter choice, with t
 
 ### Are there direct trains from Horsham to London?
 
-Yes. Direct services run to Victoria, London Bridge.
+Yes. Direct services run to Victoria, London Bridge, St Pancras.
 
 ### What are the nearest stations to Horsham?
 

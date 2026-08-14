@@ -1,33 +1,33 @@
 # Train times from Bicester North to London
 
-Bicester North connects to 1 London terminal. The fastest route is Marylebone in 49 minutes on a direct train.
+Bicester North connects to 1 London terminal. The fastest route is Marylebone in 48 minutes on a direct train.
 
-- Fastest journey to London: 49 minutes to Marylebone
+- Fastest journey to London: 48 minutes to Marylebone
 - Direct service: Yes
 - London terminals served: 1 (Marylebone)
 - Operator: Chiltern Railways
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Bicester North to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Marylebone | 49 min | Direct | Chiltern Railways |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Marylebone | 48 min | 52 | 2.4 | Chiltern Railways |
 
 ## Frequently asked questions
 
 ### How long does the train from Bicester North to London take?
 
-The fastest train from Bicester North reaches London Marylebone in 49 minutes. Bicester North connects to 1 London terminal: Marylebone.
+The fastest train from Bicester North reaches London Marylebone in 48 minutes. Bicester North connects to 1 London terminal: Marylebone.
 
 ### Which London station should I travel to from Bicester North?
 
-Marylebone is the quickest at 49 minutes, on a direct service. Direct trains run to Marylebone.
+Marylebone is the quickest at 48 minutes, on a direct service. Direct trains run to Marylebone.
 
 ### Is Bicester North a good commuter town for London?
 
-At 49 minutes to London Marylebone, Bicester North is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 48 minutes to London Marylebone, Bicester North is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Bicester North to London?
 

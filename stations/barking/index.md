@@ -1,33 +1,33 @@
 # Train times from Barking to London
 
-Barking connects to 1 London terminal. The fastest route is Fenchurch Street in 10 minutes on a direct train.
+Barking connects to 1 London terminal. The fastest route is Fenchurch Street in 14 minutes on a direct train.
 
-- Fastest journey to London: 10 minutes to Fenchurch Street
+- Fastest journey to London: 14 minutes to Fenchurch Street
 - Direct service: Yes
 - London terminals served: 1 (Fenchurch Street)
 - Operator: c2c
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Barking to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Fenchurch Street | 10 min | Direct | c2c |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Fenchurch Street | 14 min | 16 | 11.6 | c2c |
 
 ## Frequently asked questions
 
 ### How long does the train from Barking to London take?
 
-The fastest train from Barking reaches London Fenchurch Street in 10 minutes. Barking connects to 1 London terminal: Fenchurch Street.
+The fastest train from Barking reaches London Fenchurch Street in 14 minutes. Barking connects to 1 London terminal: Fenchurch Street.
 
 ### Which London station should I travel to from Barking?
 
-Fenchurch Street is the quickest at 10 minutes, on a direct service. Direct trains run to Fenchurch Street.
+Fenchurch Street is the quickest at 14 minutes, on a direct service. Direct trains run to Fenchurch Street.
 
 ### Is Barking a good commuter town for London?
 
-At 10 minutes to London Fenchurch Street, Barking is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 14 minutes to London Fenchurch Street, Barking is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Barking to London?
 

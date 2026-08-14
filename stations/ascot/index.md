@@ -1,33 +1,33 @@
 # Train times from Ascot to London
 
-Ascot connects to 1 London terminal. The fastest route is Waterloo in 52 minutes on a direct train.
+Ascot connects to 1 London terminal. The fastest route is Waterloo in 55 minutes on a direct train.
 
-- Fastest journey to London: 52 minutes to Waterloo
+- Fastest journey to London: 55 minutes to Waterloo
 - Direct service: Yes
 - London terminals served: 1 (Waterloo)
 - Operator: South Western Railway
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Ascot to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Waterloo | 52 min | Direct | South Western Railway |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Waterloo | 55 min | 60 | 2.8 | South Western Railway |
 
 ## Frequently asked questions
 
 ### How long does the train from Ascot to London take?
 
-The fastest train from Ascot reaches London Waterloo in 52 minutes. Ascot connects to 1 London terminal: Waterloo.
+The fastest train from Ascot reaches London Waterloo in 55 minutes. Ascot connects to 1 London terminal: Waterloo.
 
 ### Which London station should I travel to from Ascot?
 
-Waterloo is the quickest at 52 minutes, on a direct service. Direct trains run to Waterloo.
+Waterloo is the quickest at 55 minutes, on a direct service. Direct trains run to Waterloo.
 
 ### Is Ascot a good commuter town for London?
 
-At 52 minutes to London Waterloo, Ascot is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 55 minutes to London Waterloo, Ascot is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Ascot to London?
 

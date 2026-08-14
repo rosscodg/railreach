@@ -1,33 +1,33 @@
 # Train times from Audley End to London
 
-Audley End connects to 1 London terminal. The fastest route is Liverpool Street in 52 minutes on a direct train.
+Audley End connects to 1 London terminal. The fastest route is Liverpool Street in 55 minutes on a direct train.
 
-- Fastest journey to London: 52 minutes to Liverpool Street
+- Fastest journey to London: 55 minutes to Liverpool Street
 - Direct service: Yes
 - London terminals served: 1 (Liverpool Street)
-- Operator: Greater Anglia
+- Operator: Greater Anglia, Elizabeth line
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Audley End to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Liverpool Street | 52 min | Direct | Greater Anglia |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Liverpool Street | 55 min | 67 | 3.3 | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Audley End to London take?
 
-The fastest train from Audley End reaches London Liverpool Street in 52 minutes. Audley End connects to 1 London terminal: Liverpool Street.
+The fastest train from Audley End reaches London Liverpool Street in 55 minutes. Audley End connects to 1 London terminal: Liverpool Street.
 
 ### Which London station should I travel to from Audley End?
 
-Liverpool Street is the quickest at 52 minutes, on a direct service. Direct trains run to Liverpool Street.
+Liverpool Street is the quickest at 55 minutes, on a direct service. Direct trains run to Liverpool Street.
 
 ### Is Audley End a good commuter town for London?
 
-At 52 minutes to London Liverpool Street, Audley End is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 55 minutes to London Liverpool Street, Audley End is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Audley End to London?
 

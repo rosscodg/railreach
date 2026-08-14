@@ -1,33 +1,33 @@
 # Train times from Dagenham Dock to London
 
-Dagenham Dock connects to 1 London terminal. The fastest route is Fenchurch Street in 14 minutes on a direct train.
+Dagenham Dock connects to 1 London terminal. The fastest route is Fenchurch Street in 20 minutes on a direct train.
 
-- Fastest journey to London: 14 minutes to Fenchurch Street
+- Fastest journey to London: 20 minutes to Fenchurch Street
 - Direct service: Yes
 - London terminals served: 1 (Fenchurch Street)
 - Operator: c2c
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Dagenham Dock to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Fenchurch Street | 14 min | Direct | c2c |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Fenchurch Street | 20 min | 22 | 3.2 | c2c |
 
 ## Frequently asked questions
 
 ### How long does the train from Dagenham Dock to London take?
 
-The fastest train from Dagenham Dock reaches London Fenchurch Street in 14 minutes. Dagenham Dock connects to 1 London terminal: Fenchurch Street.
+The fastest train from Dagenham Dock reaches London Fenchurch Street in 20 minutes. Dagenham Dock connects to 1 London terminal: Fenchurch Street.
 
 ### Which London station should I travel to from Dagenham Dock?
 
-Fenchurch Street is the quickest at 14 minutes, on a direct service. Direct trains run to Fenchurch Street.
+Fenchurch Street is the quickest at 20 minutes, on a direct service. Direct trains run to Fenchurch Street.
 
 ### Is Dagenham Dock a good commuter town for London?
 
-At 14 minutes to London Fenchurch Street, Dagenham Dock is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 20 minutes to London Fenchurch Street, Dagenham Dock is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Dagenham Dock to London?
 

@@ -1,37 +1,40 @@
 # Train times from Welwyn Garden City to London
 
-Welwyn Garden City connects to 1 London terminal. The fastest route is Kings Cross in 25 minutes on a direct train.
+Welwyn Garden City connects to 4 London terminals. The fastest route is St Pancras in 22 minutes on a direct train.
 
-- Fastest journey to London: 25 minutes to Kings Cross
+- Fastest journey to London: 22 minutes to St Pancras
 - Direct service: Yes
-- London terminals served: 1 (Kings Cross)
-- Operator: Great Northern, Thameslink, LNER
+- London terminals served: 4 (St Pancras, Kings Cross, London Bridge, Moorgate)
+- Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Welwyn Garden City to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Kings Cross | 25 min | Direct | Great Northern, Thameslink, LNER |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| St Pancras | 22 min | 37 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Kings Cross | 29 min | 32 | 2.0 | Great Northern, LNER, Hull Trains, Lumo |
+| London Bridge | 37 min | - | - | Southeastern, Southern, Thameslink |
+| Moorgate | 47 min | 52 | 4.0 | Great Northern |
 
 ## Frequently asked questions
 
 ### How long does the train from Welwyn Garden City to London take?
 
-The fastest train from Welwyn Garden City reaches London Kings Cross in 25 minutes. Welwyn Garden City connects to 1 London terminal: Kings Cross.
+The fastest train from Welwyn Garden City reaches London St Pancras in 22 minutes. Welwyn Garden City connects to 4 London terminals: St Pancras, Kings Cross, London Bridge, Moorgate.
 
 ### Which London station should I travel to from Welwyn Garden City?
 
-Kings Cross is the quickest at 25 minutes, on a direct service. Direct trains run to Kings Cross.
+St Pancras is the quickest at 22 minutes, on a direct service. Direct trains run to St Pancras, Kings Cross, London Bridge, Moorgate.
 
 ### Is Welwyn Garden City a good commuter town for London?
 
-At 25 minutes to London Kings Cross, Welwyn Garden City is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 22 minutes to London St Pancras, Welwyn Garden City is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Welwyn Garden City to London?
 
-Yes. Direct services run to Kings Cross.
+Yes. Direct services run to St Pancras, Kings Cross, London Bridge, Moorgate.
 
 ### What are the nearest stations to Welwyn Garden City?
 

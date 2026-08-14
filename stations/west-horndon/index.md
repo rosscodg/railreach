@@ -1,33 +1,33 @@
 # Train times from West Horndon to London
 
-West Horndon connects to 1 London terminal. The fastest route is Fenchurch Street in 24 minutes on a direct train.
+West Horndon connects to 1 London terminal. The fastest route is Fenchurch Street in 27 minutes on a direct train.
 
-- Fastest journey to London: 24 minutes to Fenchurch Street
+- Fastest journey to London: 27 minutes to Fenchurch Street
 - Direct service: Yes
 - London terminals served: 1 (Fenchurch Street)
 - Operator: c2c
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## West Horndon to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Fenchurch Street | 24 min | Direct | c2c |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Fenchurch Street | 27 min | 30 | 3.6 | c2c |
 
 ## Frequently asked questions
 
 ### How long does the train from West Horndon to London take?
 
-The fastest train from West Horndon reaches London Fenchurch Street in 24 minutes. West Horndon connects to 1 London terminal: Fenchurch Street.
+The fastest train from West Horndon reaches London Fenchurch Street in 27 minutes. West Horndon connects to 1 London terminal: Fenchurch Street.
 
 ### Which London station should I travel to from West Horndon?
 
-Fenchurch Street is the quickest at 24 minutes, on a direct service. Direct trains run to Fenchurch Street.
+Fenchurch Street is the quickest at 27 minutes, on a direct service. Direct trains run to Fenchurch Street.
 
 ### Is West Horndon a good commuter town for London?
 
-At 24 minutes to London Fenchurch Street, West Horndon is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 27 minutes to London Fenchurch Street, West Horndon is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from West Horndon to London?
 

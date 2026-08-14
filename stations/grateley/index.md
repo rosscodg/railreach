@@ -1,33 +1,33 @@
 # Train times from Grateley to London
 
-Grateley connects to 1 London terminal. The fastest route is Waterloo in 72 minutes on a direct train.
+Grateley connects to 1 London terminal. The fastest route is Waterloo in 75 minutes on a direct train.
 
-- Fastest journey to London: 72 minutes to Waterloo
+- Fastest journey to London: 75 minutes to Waterloo
 - Direct service: Yes
 - London terminals served: 1 (Waterloo)
 - Operator: South Western Railway
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Grateley to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Waterloo | 72 min | Direct | South Western Railway |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Waterloo | 75 min | 77 | 1.9 | South Western Railway |
 
 ## Frequently asked questions
 
 ### How long does the train from Grateley to London take?
 
-The fastest train from Grateley reaches London Waterloo in 72 minutes. Grateley connects to 1 London terminal: Waterloo.
+The fastest train from Grateley reaches London Waterloo in 75 minutes. Grateley connects to 1 London terminal: Waterloo.
 
 ### Which London station should I travel to from Grateley?
 
-Waterloo is the quickest at 72 minutes, on a direct service. Direct trains run to Waterloo.
+Waterloo is the quickest at 75 minutes, on a direct service. Direct trains run to Waterloo.
 
 ### Is Grateley a good commuter town for London?
 
-At 72 minutes to London Waterloo, Grateley is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
+At 75 minutes to London Waterloo, Grateley is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from Grateley to London?
 

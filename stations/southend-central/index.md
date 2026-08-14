@@ -1,33 +1,33 @@
 # Train times from Southend Central to London
 
-Southend Central connects to 1 London terminal. The fastest route is Fenchurch Street in 52 minutes on a direct train.
+Southend Central connects to 1 London terminal. The fastest route is Fenchurch Street in 47 minutes on a direct train.
 
-- Fastest journey to London: 52 minutes to Fenchurch Street
+- Fastest journey to London: 47 minutes to Fenchurch Street
 - Direct service: Yes
 - London terminals served: 1 (Fenchurch Street)
 - Operator: c2c
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Southend Central to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Fenchurch Street | 52 min | Direct | c2c |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Fenchurch Street | 47 min | 57 | 6.8 | c2c |
 
 ## Frequently asked questions
 
 ### How long does the train from Southend Central to London take?
 
-The fastest train from Southend Central reaches London Fenchurch Street in 52 minutes. Southend Central connects to 1 London terminal: Fenchurch Street.
+The fastest train from Southend Central reaches London Fenchurch Street in 47 minutes. Southend Central connects to 1 London terminal: Fenchurch Street.
 
 ### Which London station should I travel to from Southend Central?
 
-Fenchurch Street is the quickest at 52 minutes, on a direct service. Direct trains run to Fenchurch Street.
+Fenchurch Street is the quickest at 47 minutes, on a direct service. Direct trains run to Fenchurch Street.
 
 ### Is Southend Central a good commuter town for London?
 
-At 52 minutes to London Fenchurch Street, Southend Central is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 47 minutes to London Fenchurch Street, Southend Central is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Southend Central to London?
 

@@ -1,33 +1,33 @@
 # Train times from Haslemere to London
 
-Haslemere connects to 1 London terminal. The fastest route is Waterloo in 50 minutes on a direct train.
+Haslemere connects to 1 London terminal. The fastest route is Waterloo in 49 minutes on a direct train.
 
-- Fastest journey to London: 50 minutes to Waterloo
+- Fastest journey to London: 49 minutes to Waterloo
 - Direct service: Yes
 - London terminals served: 1 (Waterloo)
 - Operator: South Western Railway
 - Source: National Rail timetables, 2026
-- Data reviewed: 2026-07-28
+- Data reviewed: 2026-08-14
 
 ## Haslemere to each London terminal
 
-| London terminal | Journey time | Service | Operator |
-| --- | --- | --- | --- |
-| Waterloo | 50 min | Direct | South Western Railway |
+| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| --- | --- | --- | --- | --- |
+| Waterloo | 49 min | 60 | 4.4 | South Western Railway |
 
 ## Frequently asked questions
 
 ### How long does the train from Haslemere to London take?
 
-The fastest train from Haslemere reaches London Waterloo in 50 minutes. Haslemere connects to 1 London terminal: Waterloo.
+The fastest train from Haslemere reaches London Waterloo in 49 minutes. Haslemere connects to 1 London terminal: Waterloo.
 
 ### Which London station should I travel to from Haslemere?
 
-Waterloo is the quickest at 50 minutes, on a direct service. Direct trains run to Waterloo.
+Waterloo is the quickest at 49 minutes, on a direct service. Direct trains run to Waterloo.
 
 ### Is Haslemere a good commuter town for London?
 
-At 50 minutes to London Waterloo, Haslemere is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 49 minutes to London Waterloo, Haslemere is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Haslemere to London?
 
