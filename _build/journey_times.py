@@ -124,7 +124,7 @@ def in_peak(arrival):
     return PEAK_START <= arrival <= PEAK_END
 
 
-def measure(services, origin_tiplocs, terminal_tiplocs):
+def measure(services, origin_tiplocs, terminal_tiplocs, days=1):
     """Return the three measures, plus the evidence behind them.
 
     Every field is None when there is nothing to compute it from, rather than
@@ -139,6 +139,7 @@ def measure(services, origin_tiplocs, terminal_tiplocs):
             'peak_trains_per_hour': None,
             'peak_services': 0,
             'total_services': 0,
+            'days_sampled': days,
             'direct': False,
         }
 
@@ -148,9 +149,12 @@ def measure(services, origin_tiplocs, terminal_tiplocs):
     return {
         'fastest_mins': min(all_mins),
         'typical_peak_mins': round(statistics.median(peak)) if peak else None,
-        'peak_trains_per_hour': round(len(peak) / PEAK_HOURS, 1) if peak else None,
+        # Divided by the number of days pooled, or three midweek days would
+        # look like three times the service.
+        'peak_trains_per_hour': round(len(peak) / (PEAK_HOURS * days), 1) if peak else None,
         'peak_services': len(peak),
         'total_services': len(pairs),
+        'days_sampled': days,
         'direct': True,
     }
 

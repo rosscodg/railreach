@@ -105,6 +105,18 @@ def main():
     ok &= check('services arriving exactly on the peak boundary count',
                 measure(edges, RDG, PAD)['peak_services'], 2)
 
+    # --- pooling several days ----------------------------------------------
+    three_days = []
+    for d in range(3):
+        three_days += [svc(f'P{d}a', [('RDNGSTN', None, '07:00'), ('PADTON', '07:30', None)]),
+                       svc(f'P{d}b', [('RDNGSTN', None, '08:00'), ('PADTON', '08:34', None)])]
+    m4 = measure(three_days, RDG, PAD, days=3)
+    ok &= check('pooling 3 days does not treble the apparent frequency',
+                m4['peak_trains_per_hour'], 0.8)
+    ok &= check('...and the median is unchanged by repetition',
+                m4['typical_peak_mins'], 32)
+    ok &= check('...with the day count recorded', m4['days_sampled'], 3)
+
     # --- nothing at all ----------------------------------------------------
     m3 = measure([], RDG, PAD)
     ok &= check('no services yields nulls, not zeros', m3['fastest_mins'], None)
