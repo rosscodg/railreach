@@ -261,8 +261,8 @@
 <script>
 const map=RR.createMap('map');
 L.circleMarker([51.523562,-0.68137],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Taplow</strong><br>This station').addTo(map);
-RR.terminalMarker(map,51.515996,-0.176174,'<strong>London Paddington</strong><br>38 min from Taplow<br>Direct<br><a class="popup-link" href="/terminals/paddington/">Terminal guide &rarr;</a>');
-RR.terminalMarker(map,51.517991,-0.081426,'<strong>London Liverpool Street</strong><br>49 min from Taplow<br>Direct<br><a class="popup-link" href="/terminals/liverpool-street/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.515996,-0.176174,'<strong>London Paddington</strong><div class="pop-sub">from Taplow</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>38 min</dd></div><div><dt>Typical peak</dt><dd>40 min</dd></div><div><dt>Peak trains</dt><dd>4.0/hr</dd></div></dl><a class="popup-link" href="/terminals/paddington/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.517991,-0.081426,'<strong>London Liverpool Street</strong><div class="pop-sub">from Taplow</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>49 min</dd></div><div><dt>Typical peak</dt><dd>52 min</dd></div><div><dt>Peak trains</dt><dd>4.0/hr</dd></div></dl><a class="popup-link" href="/terminals/liverpool-street/">Terminal guide &rarr;</a>');
 L.polyline([[51.523562,-0.68137],[51.515996,-0.176174]],{color:RR.colour(38),weight:3,opacity:0.75,}).addTo(map);
 L.polyline([[51.523562,-0.68137],[51.517991,-0.081426]],{color:RR.colour(49),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Taplow: 2 London terminals';

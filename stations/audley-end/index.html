@@ -258,7 +258,7 @@
 <script>
 const map=RR.createMap('map');
 L.circleMarker([52.00444,0.207306],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Audley End</strong><br>This station').addTo(map);
-RR.terminalMarker(map,51.517991,-0.081426,'<strong>London Liverpool Street</strong><br>55 min from Audley End<br>Direct<br><a class="popup-link" href="/terminals/liverpool-street/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.517991,-0.081426,'<strong>London Liverpool Street</strong><div class="pop-sub">from Audley End</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>55 min</dd></div><div class="pop-gap"><dt>Typical peak</dt><dd>67 min</dd></div><div><dt>Peak trains</dt><dd>3.3/hr</dd></div></dl><a class="popup-link" href="/terminals/liverpool-street/">Terminal guide &rarr;</a>');
 L.polyline([[52.00444,0.207306],[51.517991,-0.081426]],{color:RR.colour(55),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Audley End: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.

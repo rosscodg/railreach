@@ -134,6 +134,7 @@ window.RR = (function () {
     // otherwise be projected against an undefined zoom.
     map.setView(opts.center || [52.0, -0.7], opts.zoom || 7, { animate: false });
     addGestureHandling(map, map.getContainer());
+    keepPopupClear(map);
     return map;
   }
 
@@ -194,17 +195,163 @@ window.RR = (function () {
     });
   }
 
+
+  /* Centre a point so that it, and the popup above it, sit clear of the
+   * control panel. Relying on Leaflet's auto-pan here was not reliable: it
+   * pans correctly, then the in-flight setView animation settles and puts the
+   * marker back under the panel. Positioning deliberately is deterministic. */
+  function focusPoint(map, latlng, zoom) {
+    zoom = zoom || map.getZoom();
+    var size = map.getSize();
+    var mapTop = map.getContainer().getBoundingClientRect().top;
+
+    /* Use the panel's BOTTOM EDGE relative to the map, not its height: the
+     * panel starts below the site header, so its height under-counts by the
+     * header and the popup still lands underneath it.
+     *
+     * Raising the popup's z-index cannot fix this. The popup lives inside
+     * #map, which is its own stacking context, so it can never paint above a
+     * sibling of #map however high its z-index. The only reliable fix is to
+     * move the map so the popup has somewhere clear to open. */
+    var obstructedTo = 0;
+    var panel = document.querySelector('.controls');
+    if (panel) {
+      var pr = panel.getBoundingClientRect();
+      if (pr.height) obstructedTo = Math.max(0, pr.bottom - mapTop);
+    }
+
+    // Popups open above their marker, so the marker needs to sit a popup's
+    // height below the obstruction. 210 covers the tallest popup plus its tip.
+    var targetY = obstructedTo + 210;
+    // ...but never so low that the marker leaves the map.
+    targetY = Math.min(targetY, size.y - 60);
+
+    var centre = map.project(L.latLng(latlng), zoom)
+                    .add([0, size.y / 2 - targetY]);
+    map.setView(map.unproject(centre, zoom), zoom, { animate: true });
+  }
+
+  /* Move an open popup clear of the panels floating over the map.
+   *
+   * This runs after the popup is in the DOM, so it measures the real thing
+   * rather than guessing its height, and it is bound once in createMap so
+   * every route in behaves the same: search, marker tap, deep link, and the
+   * terminal and station pages. Guessing per-path is what let a direct marker
+   * tap open a popup 83px underneath the control panel while the search path
+   * looked fine. */
+  function keepPopupClear(map) {
+    map.on('popupopen', function (e) {
+      var popup = e.popup;
+      var tries = 0;
+
+      /* Returns true if it had to move the map. */
+      function correct() {
+        var el = popup.getElement();
+        if (!el) return false;
+        var shell = map.getContainer().getBoundingClientRect();
+        var r = el.getBoundingClientRect();
+
+        function bottomOf(sel) {
+          var o = document.querySelector(sel);
+          if (!o) return shell.top;
+          var b = o.getBoundingClientRect();
+          return b.height ? b.bottom : shell.top;
+        }
+        function topOf(sel) {
+          var o = document.querySelector(sel);
+          if (!o) return shell.bottom;
+          var b = o.getBoundingClientRect();
+          return b.height ? b.top : shell.bottom;
+        }
+
+        var clearTop = Math.max(shell.top, bottomOf('.controls')) + 8;
+        var clearBottom = Math.min(shell.bottom, topOf('.legend'),
+                                   topOf('#promo-banner')) - 8;
+
+        var dy = 0;
+        if (r.top < clearTop) {
+          dy = clearTop - r.top;
+        } else if (r.bottom > clearBottom) {
+          // If the popup is taller than the clear band, show its top: the
+          // station name and the fastest time matter more than the link.
+          dy = Math.max(clearBottom - r.bottom, clearTop - r.top);
+        }
+
+        var dx = 0;
+        if (r.left < shell.left + 8) dx = shell.left + 8 - r.left;
+        else if (r.right > shell.right - 8) dx = shell.right - 8 - r.right;
+
+        if (!dx && !dy) return false;
+
+        /* animate:false deliberately. An animated pan is applied and then
+         * cancelled by whatever map animation is still in flight, which is why
+         * one tap landed 176px under the panel while the next was fine. An
+         * instant pan is synchronous and cannot be cancelled. */
+        map.panBy([-dx, -dy], { animate: false });
+        return true;
+      }
+
+      /* Correcting once is not enough for the first popup after page load: the
+       * opening fitBounds animation is still in flight and its final view
+       * discards the pan. Re-assert when the map settles, a bounded number of
+       * times so this can never loop. */
+      function settle() {
+        if (tries++ >= 3 || !map.hasLayer(popup)) {
+          stop();
+          return;
+        }
+        correct();
+      }
+      function stop() {
+        map.off('moveend', settle);
+        map.off('zoomend', settle);
+        map.off('popupclose', stop);
+      }
+
+      correct();
+      map.on('moveend', settle);
+      map.on('zoomend', settle);
+      map.on('popupclose', stop);
+    });
+  }
+
+
   /* ---- Markers and popups ----------------------------------------------- */
   function stationPopup(station, terminalName, journey) {
-    var html = '<strong>' + esc(station.name) + '</strong><br>' +
-      'To ' + esc(terminalName) + ': <strong>' + journey.mins + ' min</strong><br>' +
-      (journey.direct ? 'Direct train' : 'Requires a change');
-    // The map used to dead-end here, with no route through to the station page.
+    /* All three measures, not just the fastest. A single early express is no
+     * use if the train you can actually catch takes twenty minutes longer, and
+     * the popup is where most people meet the number. */
+    var html = '<strong>' + esc(station.name) + '</strong>' +
+      '<div class="pop-sub">to ' + esc(terminalName) +
+      (journey.direct ? '' : ', with a change') + '</div>' +
+      '<dl class="pop-stats">' +
+      '<div><dt>Fastest</dt><dd>' + journey.mins + ' min</dd></div>';
+
+    if (journey.typical) {
+      var gap = journey.typical - journey.mins;
+      html += '<div' + (gap >= 10 ? ' class="pop-gap"' : '') +
+        '><dt>Typical peak</dt><dd>' + journey.typical + ' min</dd></div>';
+    } else {
+      html += '<div><dt>Typical peak</dt><dd class="pop-none">no peak service</dd></div>';
+    }
+
+    if (journey.tph) {
+      html += '<div><dt>Peak trains</dt><dd>' + journey.tph + '/hr</dd></div>';
+    }
+    html += '</dl>';
+
     if (station.slug) {
-      html += '<br><a class="popup-link" href="/stations/' + station.slug + '/">' +
+      html += '<a class="popup-link" href="/stations/' + station.slug + '/">' +
         'Journey guide &rarr;</a>';
     }
     return html;
+  }
+
+  function popupOptions() {
+    /* autoPan off: it pans against padding guessed from panel heights, which
+     * got a direct marker tap wrong by 83px. keepPopupClear corrects after the
+     * popup exists, measuring it rather than estimating it. */
+    return { autoPan: false };
   }
 
   function stationMarker(map, station, mins, popupHtml) {
@@ -216,7 +363,7 @@ window.RR = (function () {
       opacity: 1,
       fillOpacity: 0.9
     });
-    m.bindPopup(popupHtml);
+    m.bindPopup(popupHtml, popupOptions());
     m.addTo(map);
     return m;
   }
@@ -230,7 +377,7 @@ window.RR = (function () {
       opacity: 1,
       fillOpacity: 0.95
     });
-    m.bindPopup(popupHtml);
+    m.bindPopup(popupHtml, popupOptions());
     m.addTo(map);
     return m;
   }
@@ -304,6 +451,8 @@ window.RR = (function () {
     stationRadius: stationRadius,
     createMap: createMap,
     fit: fit,
+    focusPoint: focusPoint,
+    popupOptions: popupOptions,
     stationPopup: stationPopup,
     stationMarker: stationMarker,
     terminalMarker: terminalMarker,

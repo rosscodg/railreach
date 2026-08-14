@@ -258,7 +258,7 @@
 <script>
 const map=RR.createMap('map');
 L.circleMarker([52.2375,-0.906653],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Northampton</strong><br>This station').addTo(map);
-RR.terminalMarker(map,51.528136,-0.133924,'<strong>London Euston</strong><br>50 min from Northampton<br>Direct<br><a class="popup-link" href="/terminals/euston/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.528136,-0.133924,'<strong>London Euston</strong><div class="pop-sub">from Northampton</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>50 min</dd></div><div><dt>Typical peak</dt><dd>59 min</dd></div><div><dt>Peak trains</dt><dd>3.6/hr</dd></div></dl><a class="popup-link" href="/terminals/euston/">Terminal guide &rarr;</a>');
 L.polyline([[52.2375,-0.906653],[51.528136,-0.133924]],{color:RR.colour(50),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Northampton: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.

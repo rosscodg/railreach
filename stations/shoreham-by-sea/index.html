@@ -258,7 +258,7 @@
 <script>
 const map=RR.createMap('map');
 L.circleMarker([50.834427,-0.27172],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Shoreham-by-Sea</strong><br>This station').addTo(map);
-RR.terminalMarker(map,51.495257,-0.144559,'<strong>London Victoria</strong><br>75 min from Shoreham-by-Sea<br>Direct<br><a class="popup-link" href="/terminals/victoria/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.495257,-0.144559,'<strong>London Victoria</strong><div class="pop-sub">from Shoreham-by-Sea</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>75 min</dd></div><div><dt>Typical peak</dt><dd>77 min</dd></div><div><dt>Peak trains</dt><dd>1.6/hr</dd></div></dl><a class="popup-link" href="/terminals/victoria/">Terminal guide &rarr;</a>');
 L.polyline([[50.834427,-0.27172],[51.495257,-0.144559]],{color:RR.colour(75),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Shoreham-by-Sea: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.

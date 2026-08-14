@@ -258,7 +258,7 @@
 <script>
 const map=RR.createMap('map');
 L.circleMarker([51.27783,0.521295],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Maidstone East</strong><br>This station').addTo(map);
-RR.terminalMarker(map,51.495257,-0.144559,'<strong>London Victoria</strong><br>63 min from Maidstone East<br>Direct<br><a class="popup-link" href="/terminals/victoria/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.495257,-0.144559,'<strong>London Victoria</strong><div class="pop-sub">from Maidstone East</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>63 min</dd></div><div><dt>Typical peak</dt><dd>70 min</dd></div><div><dt>Peak trains</dt><dd>4.0/hr</dd></div></dl><a class="popup-link" href="/terminals/victoria/">Terminal guide &rarr;</a>');
 L.polyline([[51.27783,0.521295],[51.495257,-0.144559]],{color:RR.colour(63),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Maidstone East: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.

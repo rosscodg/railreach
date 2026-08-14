@@ -258,7 +258,7 @@
 <script>
 const map=RR.createMap('map');
 L.circleMarker([51.272247,-0.721649],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Ash Vale</strong><br>This station').addTo(map);
-RR.terminalMarker(map,51.503299,-0.113109,'<strong>London Waterloo</strong><br>41 min from Ash Vale<br>Direct<br><a class="popup-link" href="/terminals/waterloo/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.503299,-0.113109,'<strong>London Waterloo</strong><div class="pop-sub">from Ash Vale</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>41 min</dd></div><div><dt>Typical peak</dt><dd>43 min</dd></div><div><dt>Peak trains</dt><dd>2.8/hr</dd></div></dl><a class="popup-link" href="/terminals/waterloo/">Terminal guide &rarr;</a>');
 L.polyline([[51.272247,-0.721649],[51.503299,-0.113109]],{color:RR.colour(41),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Ash Vale: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.

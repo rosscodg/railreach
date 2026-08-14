@@ -259,8 +259,8 @@
 <script>
 const map=RR.createMap('map');
 L.circleMarker([51.462121,0.027498],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Kidbrooke</strong><br>This station').addTo(map);
-RR.terminalMarker(map,51.505019,-0.086092,'<strong>London London Bridge</strong><br>18 min from Kidbrooke<br>Direct<br><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
-RR.terminalMarker(map,51.495257,-0.144559,'<strong>London Victoria</strong><br>29 min from Kidbrooke<br>Direct<br><a class="popup-link" href="/terminals/victoria/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.505019,-0.086092,'<strong>London London Bridge</strong><div class="pop-sub">from Kidbrooke</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>18 min</dd></div><div><dt>Typical peak</dt><dd>20 min</dd></div><div><dt>Peak trains</dt><dd>4.8/hr</dd></div></dl><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.495257,-0.144559,'<strong>London Victoria</strong><div class="pop-sub">from Kidbrooke</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>29 min</dd></div><div><dt>Typical peak</dt><dd>30 min</dd></div><div><dt>Peak trains</dt><dd>2.0/hr</dd></div></dl><a class="popup-link" href="/terminals/victoria/">Terminal guide &rarr;</a>');
 L.polyline([[51.462121,0.027498],[51.505019,-0.086092]],{color:RR.colour(18),weight:3,opacity:0.75,}).addTo(map);
 L.polyline([[51.462121,0.027498],[51.495257,-0.144559]],{color:RR.colour(29),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Kidbrooke: 2 London terminals';

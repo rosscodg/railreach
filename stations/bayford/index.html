@@ -255,7 +255,7 @@
 <script>
 const map=RR.createMap('map');
 L.circleMarker([51.757716,-0.09561],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Bayford</strong><br>This station').addTo(map);
-RR.terminalMarker(map,51.518491,-0.088943,'<strong>London Moorgate</strong><br>46 min from Bayford<br>Direct<br><a class="popup-link" href="/terminals/moorgate/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.518491,-0.088943,'<strong>London Moorgate</strong><div class="pop-sub">from Bayford</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>46 min</dd></div><div><dt>Typical peak</dt><dd>48 min</dd></div><div><dt>Peak trains</dt><dd>4.8/hr</dd></div></dl><a class="popup-link" href="/terminals/moorgate/">Terminal guide &rarr;</a>');
 L.polyline([[51.757716,-0.09561],[51.518491,-0.088943]],{color:RR.colour(46),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Bayford: 2 London terminals';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.

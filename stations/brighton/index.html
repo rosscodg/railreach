@@ -264,9 +264,9 @@
 <script>
 const map=RR.createMap('map');
 L.circleMarker([50.829005,-0.14128],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Brighton</strong><br>This station').addTo(map);
-RR.terminalMarker(map,51.495257,-0.144559,'<strong>London Victoria</strong><br>60 min from Brighton<br>Direct<br><a class="popup-link" href="/terminals/victoria/">Terminal guide &rarr;</a>');
-RR.terminalMarker(map,51.505019,-0.086092,'<strong>London London Bridge</strong><br>61 min from Brighton<br>Direct<br><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
-RR.terminalMarker(map,51.532514,-0.126463,'<strong>London St Pancras</strong><br>76 min from Brighton<br>Direct<br><a class="popup-link" href="/terminals/st-pancras/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.495257,-0.144559,'<strong>London Victoria</strong><div class="pop-sub">from Brighton</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>60 min</dd></div><div><dt>Typical peak</dt><dd>65 min</dd></div><div><dt>Peak trains</dt><dd>2.0/hr</dd></div></dl><a class="popup-link" href="/terminals/victoria/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.505019,-0.086092,'<strong>London London Bridge</strong><div class="pop-sub">from Brighton</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>61 min</dd></div><div><dt>Typical peak</dt><dd>68 min</dd></div><div><dt>Peak trains</dt><dd>4.0/hr</dd></div></dl><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.532514,-0.126463,'<strong>London St Pancras</strong><div class="pop-sub">from Brighton</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>76 min</dd></div><div><dt>Typical peak</dt><dd>82 min</dd></div><div><dt>Peak trains</dt><dd>4.0/hr</dd></div></dl><a class="popup-link" href="/terminals/st-pancras/">Terminal guide &rarr;</a>');
 L.polyline([[50.829005,-0.14128],[51.495257,-0.144559]],{color:RR.colour(60),weight:3,opacity:0.75,}).addTo(map);
 L.polyline([[50.829005,-0.14128],[51.505019,-0.086092]],{color:RR.colour(61),weight:3,opacity:0.75,}).addTo(map);
 L.polyline([[50.829005,-0.14128],[51.532514,-0.126463]],{color:RR.colour(76),weight:3,opacity:0.75,}).addTo(map);

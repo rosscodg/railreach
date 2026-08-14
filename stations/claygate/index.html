@@ -258,7 +258,7 @@
 <script>
 const map=RR.createMap('map');
 L.circleMarker([51.361214,-0.348248],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Claygate</strong><br>This station').addTo(map);
-RR.terminalMarker(map,51.503299,-0.113109,'<strong>London Waterloo</strong><br>32 min from Claygate<br>Direct<br><a class="popup-link" href="/terminals/waterloo/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.503299,-0.113109,'<strong>London Waterloo</strong><div class="pop-sub">from Claygate</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>32 min</dd></div><div><dt>Typical peak</dt><dd>39 min</dd></div><div><dt>Peak trains</dt><dd>2.0/hr</dd></div></dl><a class="popup-link" href="/terminals/waterloo/">Terminal guide &rarr;</a>');
 L.polyline([[51.361214,-0.348248],[51.503299,-0.113109]],{color:RR.colour(32),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Claygate: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.

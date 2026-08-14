@@ -262,9 +262,11 @@
       if (f.j.mins > state.max) state.max = 90;
       writeUrl(true);
       render({ fit: false });
-      map.setView([s.lat, s.lng], Math.max(map.getZoom(), 10), { animate: true });
       var m = markerBySlug[s.slug];
-      if (m) m.openPopup();
+      // Position so the marker and its popup clear the control panel, then open
+      // once the movement has settled.
+      if (m) map.once('moveend', function () { m.openPopup(); });
+      RR.focusPoint(map, [s.lat, s.lng], Math.max(map.getZoom(), 10));
       input.value = s.name;
       close();
     }

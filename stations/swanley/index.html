@@ -258,8 +258,8 @@
 <script>
 const map=RR.createMap('map');
 L.circleMarker([51.393387,0.169225],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Swanley</strong><br>This station').addTo(map);
-RR.terminalMarker(map,51.495257,-0.144559,'<strong>London Victoria</strong><br>27 min from Swanley<br>Direct<br><a class="popup-link" href="/terminals/victoria/">Terminal guide &rarr;</a>');
-RR.terminalMarker(map,51.532514,-0.126463,'<strong>London St Pancras</strong><br>57 min from Swanley<br>Direct<br><a class="popup-link" href="/terminals/st-pancras/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.495257,-0.144559,'<strong>London Victoria</strong><div class="pop-sub">from Swanley</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>27 min</dd></div><div><dt>Typical peak</dt><dd>35 min</dd></div><div><dt>Peak trains</dt><dd>6.0/hr</dd></div></dl><a class="popup-link" href="/terminals/victoria/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.532514,-0.126463,'<strong>London St Pancras</strong><div class="pop-sub">from Swanley</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>57 min</dd></div><div><dt>Typical peak</dt><dd>57 min</dd></div><div><dt>Peak trains</dt><dd>2.0/hr</dd></div></dl><a class="popup-link" href="/terminals/st-pancras/">Terminal guide &rarr;</a>');
 L.polyline([[51.393387,0.169225],[51.495257,-0.144559]],{color:RR.colour(27),weight:3,opacity:0.75,}).addTo(map);
 L.polyline([[51.393387,0.169225],[51.532514,-0.126463]],{color:RR.colour(57),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Swanley: 3 London terminals';

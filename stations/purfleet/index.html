@@ -254,7 +254,7 @@
 <script>
 const map=RR.createMap('map');
 L.circleMarker([51.481013,0.236767],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Purfleet</strong><br>This station').addTo(map);
-RR.terminalMarker(map,51.511646,-0.078897,'<strong>London Fenchurch Street</strong><br>29 min from Purfleet<br>Direct<br><a class="popup-link" href="/terminals/fenchurch-street/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.511646,-0.078897,'<strong>London Fenchurch Street</strong><div class="pop-sub">from Purfleet</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>29 min</dd></div><div><dt>Typical peak</dt><dd>32 min</dd></div><div><dt>Peak trains</dt><dd>3.2/hr</dd></div></dl><a class="popup-link" href="/terminals/fenchurch-street/">Terminal guide &rarr;</a>');
 L.polyline([[51.481013,0.236767],[51.511646,-0.078897]],{color:RR.colour(29),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Purfleet: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.

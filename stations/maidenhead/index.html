@@ -258,8 +258,8 @@
 <script>
 const map=RR.createMap('map');
 L.circleMarker([51.518669,-0.72266],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Maidenhead</strong><br>This station').addTo(map);
-RR.terminalMarker(map,51.515996,-0.176174,'<strong>London Paddington</strong><br>18 min from Maidenhead<br>Direct<br><a class="popup-link" href="/terminals/paddington/">Terminal guide &rarr;</a>');
-RR.terminalMarker(map,51.517991,-0.081426,'<strong>London Liverpool Street</strong><br>47 min from Maidenhead<br>Direct<br><a class="popup-link" href="/terminals/liverpool-street/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.515996,-0.176174,'<strong>London Paddington</strong><div class="pop-sub">from Maidenhead</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>18 min</dd></div><div class="pop-gap"><dt>Typical peak</dt><dd>38 min</dd></div><div><dt>Peak trains</dt><dd>10.0/hr</dd></div></dl><a class="popup-link" href="/terminals/paddington/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.517991,-0.081426,'<strong>London Liverpool Street</strong><div class="pop-sub">from Maidenhead</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>47 min</dd></div><div><dt>Typical peak</dt><dd>53 min</dd></div><div><dt>Peak trains</dt><dd>6.0/hr</dd></div></dl><a class="popup-link" href="/terminals/liverpool-street/">Terminal guide &rarr;</a>');
 L.polyline([[51.518669,-0.72266],[51.515996,-0.176174]],{color:RR.colour(18),weight:3,opacity:0.75,}).addTo(map);
 L.polyline([[51.518669,-0.72266],[51.517991,-0.081426]],{color:RR.colour(47),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Maidenhead: 2 London terminals';

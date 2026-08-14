@@ -258,7 +258,7 @@
 <script>
 const map=RR.createMap('map');
 L.circleMarker([52.021351,-1.280931],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Kings Sutton</strong><br>This station').addTo(map);
-RR.terminalMarker(map,51.522524,-0.162911,'<strong>London Marylebone</strong><br>71 min from Kings Sutton<br>Direct<br><a class="popup-link" href="/terminals/marylebone/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.522524,-0.162911,'<strong>London Marylebone</strong><div class="pop-sub">from Kings Sutton</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>71 min</dd></div><div class="pop-gap"><dt>Typical peak</dt><dd>83 min</dd></div><div><dt>Peak trains</dt><dd>0.4/hr</dd></div></dl><a class="popup-link" href="/terminals/marylebone/">Terminal guide &rarr;</a>');
 L.polyline([[52.021351,-1.280931],[51.522524,-0.162911]],{color:RR.colour(71),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Kings Sutton: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.

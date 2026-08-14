@@ -257,8 +257,8 @@
 <script>
 const map=RR.createMap('map');
 L.circleMarker([51.400104,0.045241],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Bickley</strong><br>This station').addTo(map);
-RR.terminalMarker(map,51.495257,-0.144559,'<strong>London Victoria</strong><br>25 min from Bickley<br>Direct<br><a class="popup-link" href="/terminals/victoria/">Terminal guide &rarr;</a>');
-RR.terminalMarker(map,51.532514,-0.126463,'<strong>London St Pancras</strong><br>48 min from Bickley<br>Direct<br><a class="popup-link" href="/terminals/st-pancras/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.495257,-0.144559,'<strong>London Victoria</strong><div class="pop-sub">from Bickley</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>25 min</dd></div><div class="pop-gap"><dt>Typical peak</dt><dd>35 min</dd></div><div><dt>Peak trains</dt><dd>2.0/hr</dd></div></dl><a class="popup-link" href="/terminals/victoria/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.532514,-0.126463,'<strong>London St Pancras</strong><div class="pop-sub">from Bickley</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>48 min</dd></div><div><dt>Typical peak</dt><dd>48 min</dd></div><div><dt>Peak trains</dt><dd>4.0/hr</dd></div></dl><a class="popup-link" href="/terminals/st-pancras/">Terminal guide &rarr;</a>');
 L.polyline([[51.400104,0.045241],[51.495257,-0.144559]],{color:RR.colour(25),weight:3,opacity:0.75,}).addTo(map);
 L.polyline([[51.400104,0.045241],[51.532514,-0.126463]],{color:RR.colour(48),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Bickley: 2 London terminals';

@@ -258,7 +258,7 @@
 <script>
 const map=RR.createMap('map');
 L.circleMarker([53.081758,-0.799855],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Newark Northgate</strong><br>This station').addTo(map);
-RR.terminalMarker(map,51.530883,-0.122926,'<strong>London Kings Cross</strong><br>75 min from Newark Northgate<br>Direct<br><a class="popup-link" href="/terminals/kings-cross/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.530883,-0.122926,'<strong>London Kings Cross</strong><div class="pop-sub">from Newark Northgate</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>75 min</dd></div><div><dt>Typical peak</dt><dd>84 min</dd></div><div><dt>Peak trains</dt><dd>2.8/hr</dd></div></dl><a class="popup-link" href="/terminals/kings-cross/">Terminal guide &rarr;</a>');
 L.polyline([[53.081758,-0.799855],[51.530883,-0.122926]],{color:RR.colour(75),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Newark Northgate: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.

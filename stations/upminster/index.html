@@ -254,7 +254,7 @@
 <script>
 const map=RR.createMap('map');
 L.circleMarker([51.559018,0.25088],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Upminster</strong><br>This station').addTo(map);
-RR.terminalMarker(map,51.511646,-0.078897,'<strong>London Fenchurch Street</strong><br>21 min from Upminster<br>Direct<br><a class="popup-link" href="/terminals/fenchurch-street/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.511646,-0.078897,'<strong>London Fenchurch Street</strong><div class="pop-sub">from Upminster</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>21 min</dd></div><div><dt>Typical peak</dt><dd>24 min</dd></div><div><dt>Peak trains</dt><dd>8.8/hr</dd></div></dl><a class="popup-link" href="/terminals/fenchurch-street/">Terminal guide &rarr;</a>');
 L.polyline([[51.559018,0.25088],[51.511646,-0.078897]],{color:RR.colour(21),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Upminster: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.

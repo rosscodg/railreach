@@ -878,12 +878,38 @@ def generate_station_page(station_name, slug, terminals, stations, total):
             "" if j['direct'] else "dashArray:'8,6',")
         for c, j in timed)
 
+    def terminal_popup(c, j):
+        """The same three measures the homepage popup shows.
+
+        A reader who clicks a terminal here is asking the same question as one
+        clicking a station there, so give the same answer: the fastest time on
+        its own flatters a route where the train you can actually catch is
+        twenty minutes slower.
+        """
+        sub = 'from {}{}'.format(json_esc(station_name),
+                                 '' if j['direct'] else ', with a change')
+        stats = '<div><dt>Fastest</dt><dd>{} min</dd></div>'.format(j['mins'])
+        typical = j.get('typicalPeakMins')
+        if typical is None:
+            stats += ('<div><dt>Typical peak</dt>'
+                      '<dd class="pop-none">no peak service</dd></div>')
+        else:
+            gap = ' class="pop-gap"' if typical - j['mins'] >= 10 else ''
+            stats += ('<div{}><dt>Typical peak</dt>'
+                      '<dd>{} min</dd></div>'.format(gap, typical))
+        tph = j.get('peakTrainsPerHour')
+        if tph:
+            stats += '<div><dt>Peak trains</dt><dd>{}/hr</dd></div>'.format(tph)
+        return (
+            '<strong>London {}</strong><div class="pop-sub">{}</div>'
+            '<dl class="pop-stats">{}</dl>'
+            '<a class="popup-link" href="/terminals/{}/">Terminal guide &rarr;</a>'
+        ).format(json_esc(TERMINAL_META[c]['name']), sub, stats,
+                 TERMINAL_META[c]['slug'])
+
     term_markers = '\n'.join(
-        "RR.terminalMarker(map,{},{},'<strong>London {}</strong><br>{} min from {}<br>{}"
-        "<br><a class=\"popup-link\" href=\"/terminals/{}/\">Terminal guide &rarr;</a>');".format(
-            terminals[c]['lat'], terminals[c]['lng'], json_esc(TERMINAL_META[c]['name']),
-            j['mins'], json_esc(station_name),
-            "Direct" if j['direct'] else "Requires a change", TERMINAL_META[c]['slug'])
+        "RR.terminalMarker(map,{},{},'{}');".format(
+            terminals[c]['lat'], terminals[c]['lng'], terminal_popup(c, j))
         for c, j in timed)
 
     # Every point the map must frame: the station plus each terminal it reaches.
