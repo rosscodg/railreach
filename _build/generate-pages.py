@@ -20,6 +20,7 @@ Run from anywhere:  python3 _build/generate-pages.py
 import os
 import re
 import json
+import hashlib
 import math
 import datetime
 
@@ -314,11 +315,21 @@ PROMO = '''<div id="promo-banner">
 </a>
 </div>'''
 
-DATA_NOTE = ('<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday '
-             'service on each route, computed from Darwin Timetable Files published by the '
-             'Rail Delivery Group under the Open Government Licence. '
-             'They exclude engineering works and disruption, and are not live departure times. '
-             f'Last reviewed {REVIEW_DATE}. <a href="/about/">Read the full methodology &rarr;</a></div>')
+def data_note():
+    """The provenance line shown on every page.
+
+    A function, not a module-level constant. As a constant its f-string was
+    evaluated at import time, when REVIEW_DATE still holds its BUILD_DATE
+    default, so every page claimed the timetable was reviewed on the day the
+    site was last generated. That went unnoticed while the two dates happened
+    to coincide. main() sets REVIEW_DATE from the dataset, so this must not be
+    read until after that.
+    """
+    return ('<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday '
+            'service on each route, computed from Darwin Timetable Files published by the '
+            'Rail Delivery Group under the Open Government Licence. '
+            'They exclude engineering works and disruption, and are not live departure times. '
+            f'Last reviewed {REVIEW_DATE}. <a href="/about/">Read the full methodology &rarr;</a></div>')
 
 
 def site_footer(total):
@@ -422,6 +433,66 @@ def write_shared_js(data_js):
         print(f"  wrote assets/js/{name}")
 
 
+
+
+# ── Asset versioning ───────────────────────────────────────────────────────
+# GitHub Pages serves every file with max-age=600 and gives us no control over
+# that header. Without a version in the URL a returning visitor can hold the
+# previous JS or CSS for up to ten minutes after a deploy while already having
+# the new HTML, so fresh markup runs against stale script. Stamping each URL
+# with a hash of that file's own contents makes a changed asset a different
+# URL, which is fetched immediately, while an unchanged one keeps its URL and
+# stays cached.
+#
+# A query string rather than a hashed filename, deliberately: the file keeps
+# its real name on disk, so HTML cached from an earlier build still requests a
+# URL that exists and gets the current file, instead of 404ing on a hashed
+# filename that has since been replaced.
+ASSET_VERSIONS = {}
+
+# Every asset the pages reference. Two are generated during this run, so they
+# are hashed from the exact bytes about to be written rather than from whatever
+# the previous build happened to leave on disk.
+VERSIONED_ASSETS = ('assets/css/shared.css', 'assets/js/map-ui.js',
+                    'assets/js/home-map.js', 'assets/js/stations-data.js',
+                    'assets/js/map-core.js')
+
+
+def compute_asset_versions(data_js):
+    generated = {
+        'assets/js/stations-data.js': (data_js + '\n').encode(),
+        'assets/js/map-core.js': MAP_CORE_JS.encode(),
+    }
+    for rel in VERSIONED_ASSETS:
+        blob = generated.get(rel)
+        if blob is None:
+            with open(os.path.join(BASE, rel), 'rb') as f:
+                blob = f.read()
+        ASSET_VERSIONS['/' + rel] = hashlib.sha256(blob).hexdigest()[:8]
+
+
+ASSET_REF = re.compile(r'(/assets/(?:js|css)/[A-Za-z0-9._-]+)(\?v=[0-9a-f]+)?')
+
+
+def stamp_assets(html):
+    """Rewrite every /assets/ reference to carry its content hash.
+
+    Applied at write time rather than in each template, so a reference added
+    later cannot quietly miss out. Matching an existing ?v= makes it
+    idempotent: index.html is both source and output, so it gets re-stamped in
+    place on every build rather than accumulating versions.
+    """
+    def sub(m):
+        path = m.group(1)
+        v = ASSET_VERSIONS.get(path)
+        return f'{path}?v={v}' if v else path
+    return ASSET_REF.sub(sub, html)
+
+
+def write_html(path, html):
+    """Single writer for every generated page, so stamping is unmissable."""
+    with open(path, 'w') as f:
+        f.write(stamp_assets(html))
 
 
 # ── Timetable currency ─────────────────────────────────────────────────────
@@ -676,7 +747,7 @@ def generate_terminal_page(code, terminals, stations, total):
 <p>Compare journey times into each of the nine London main line termini.</p>
 <div class="terminal-nav">{terminal_nav}</div>
 
-{DATA_NOTE}
+{data_note()}
 </div>
 </main>
 
@@ -715,8 +786,7 @@ RR.fit(map,pts,{{animate:false}});
 
     outdir = os.path.join(BASE, 'terminals', slug)
     os.makedirs(outdir, exist_ok=True)
-    with open(os.path.join(outdir, 'index.html'), 'w') as f:
-        f.write(html)
+    write_html(os.path.join(outdir, 'index.html'), html)
 
     md_rows = '\n'.join(
         f"| {n} | {m} min | {j.get('typicalPeakMins') or '-'} | "
@@ -1007,7 +1077,7 @@ def generate_station_page(station_name, slug, terminals, stations, total):
 <h2>All London terminals</h2>
 <div class="terminal-nav">{terminal_nav}</div>
 
-{DATA_NOTE}
+{data_note()}
 </div>
 </main>
 
@@ -1037,8 +1107,7 @@ RR.fit(map,{fit_points},{{animate:false}});
 
     outdir = os.path.join(BASE, 'stations', slug)
     os.makedirs(outdir, exist_ok=True)
-    with open(os.path.join(outdir, 'index.html'), 'w') as f:
-        f.write(html)
+    write_html(os.path.join(outdir, 'index.html'), html)
 
     md_rows = '\n'.join(
         f"| {TERMINAL_META[c]['name']} | "
@@ -1179,7 +1248,7 @@ def generate_indirect_station_page(station_name, slug, sdata, sorted_journeys,
 {chr(10).join(nearby_cards)}
 </ul>
 
-{DATA_NOTE}
+{data_note()}
 </div>
 </main>
 
@@ -1205,8 +1274,7 @@ RR.fit(map,[[{sdata['lat']},{sdata['lng']}]],{{maxZoom:12,animate:false}});
 
     outdir = os.path.join(BASE, 'stations', slug)
     os.makedirs(outdir, exist_ok=True)
-    with open(os.path.join(outdir, 'index.html'), 'w') as f:
-        f.write(html)
+    write_html(os.path.join(outdir, 'index.html'), html)
 
     write_markdown(f'stations/{slug}', f"""# Train times from {station_name} to London
 
@@ -1306,7 +1374,7 @@ def generate_terminal_hub(stations, counts, total):
 <h2>Frequently asked questions</h2>
 {faqs_html}
 
-{DATA_NOTE}
+{data_note()}
 </div>
 </main>
 <script type="application/ld+json">{ld}</script>
@@ -1314,8 +1382,7 @@ def generate_terminal_hub(stations, counts, total):
 
     outdir = os.path.join(BASE, 'terminals')
     os.makedirs(outdir, exist_ok=True)
-    with open(os.path.join(outdir, 'index.html'), 'w') as f:
-        f.write(html)
+    write_html(os.path.join(outdir, 'index.html'), html)
     print("  wrote terminals/index.html")
 
 
@@ -1394,7 +1461,7 @@ def generate_station_hub(page_info, total):
 <h2>Frequently asked questions</h2>
 {faqs_html}
 
-{DATA_NOTE}
+{data_note()}
 </div>
 </main>
 <script type="application/ld+json">{ld}</script>
@@ -1402,8 +1469,7 @@ def generate_station_hub(page_info, total):
 
     outdir = os.path.join(BASE, 'stations')
     os.makedirs(outdir, exist_ok=True)
-    with open(os.path.join(outdir, 'index.html'), 'w') as f:
-        f.write(html)
+    write_html(os.path.join(outdir, 'index.html'), html)
     print("  wrote stations/index.html")
 
 
@@ -1509,7 +1575,7 @@ def generate_about(stations, counts, total, n_station_pages):
 <h2>Frequently asked questions</h2>
 {faqs_html}
 
-{DATA_NOTE}
+{data_note()}
 </div>
 </main>
 <script type="application/ld+json">{ld}</script>
@@ -1517,8 +1583,7 @@ def generate_about(stations, counts, total, n_station_pages):
 
     outdir = os.path.join(BASE, 'about')
     os.makedirs(outdir, exist_ok=True)
-    with open(os.path.join(outdir, 'index.html'), 'w') as f:
-        f.write(html)
+    write_html(os.path.join(outdir, 'index.html'), html)
     print("  wrote about/index.html")
 
 
@@ -1678,24 +1743,23 @@ def generate_sw():
     Hashing the assets means each build gets its own cache and old ones are
     dropped on activate.
     """
-    import hashlib
-    h = hashlib.sha256()
-    for rel in ('assets/css/shared.css', 'assets/js/stations-data.js',
-                'assets/js/map-core.js', 'assets/js/map-ui.js', 'assets/js/home-map.js'):
-        with open(os.path.join(BASE, rel), 'rb') as f:
-            h.update(f.read())
-    version = h.hexdigest()[:10]
+    # Derive the cache name from the per-asset hashes already computed, so the
+    # worker and the pages agree by construction rather than by two separate
+    # passes over the files.
+    version = hashlib.sha256(
+        ''.join(ASSET_VERSIONS[k] for k in sorted(ASSET_VERSIONS)).encode()
+    ).hexdigest()[:10]
+
+    # Precache the versioned URLs, which are what the pages actually request.
+    # Precaching the bare paths would store entries nothing ever asks for.
+    precache = ''.join(
+        "  '{}',\n".format(stamp_assets('/' + rel)) for rel in VERSIONED_ASSETS)
 
     sw = f'''// RailReach Service Worker. Cache name is stamped per build by _build/generate-pages.py
 const CACHE_NAME = 'railreach-{version}';
 const PRECACHE = [
   '/',
-  '/assets/css/shared.css',
-  '/assets/js/stations-data.js',
-  '/assets/js/map-ui.js',
-  '/assets/js/home-map.js',
-  '/assets/js/map-core.js',
-  '/favicon.svg',
+{precache}  '/favicon.svg',
   '/manifest.json'
 ];
 
@@ -1757,6 +1821,32 @@ self.addEventListener('fetch', e => {{
     with open(os.path.join(BASE, 'sw.js'), 'w') as f:
         f.write(sw)
     print(f"  wrote sw.js (cache railreach-{version})")
+
+
+def check_review_date(sample_pages):
+    """Fail the build if a page claims a review date the dataset does not.
+
+    The generated pages are the only thing a reader sees, so a date baked at
+    import time rather than read from the dataset is a claim about data
+    freshness that nothing backs. That is worth stopping a build over.
+    """
+    bad = []
+    for rel in sample_pages:
+        path = os.path.join(BASE, rel)
+        if not os.path.exists(path):
+            continue
+        html = open(path, encoding='utf-8').read()
+        found = set(re.findall(r'Last reviewed (\d{4}-\d{2}-\d{2})', html))
+        found |= set(re.findall(r'<dt>Data reviewed</dt><dd>(\d{4}-\d{2}-\d{2})</dd>', html))
+        wrong = found - {REVIEW_DATE}
+        if wrong:
+            bad.append((rel, sorted(wrong)))
+    if bad:
+        raise SystemExit(
+            "ERROR: pages claim a review date the dataset does not support.\n"
+            f"  dataset lastReviewed: {REVIEW_DATE}\n" +
+            ''.join(f"  {rel}: {dates}\n" for rel, dates in bad))
+    print(f"  review date on published pages matches the dataset ({REVIEW_DATE})")
 
 
 # ── Sitemap ────────────────────────────────────────────────────────────────
@@ -1901,8 +1991,7 @@ def sync_index(terminals, stations, counts, total, data_js):
     html = replace_marked(html, 'data-table', table)
     html = replace_marked(html, 'map-data', data_js, comment='js')
 
-    with open(path, 'w') as f:
-        f.write(html)
+    write_html(path, html)
     print(f"  synced index.html ({len(featured)} featured, {total} rows in data table)")
 
 
@@ -1998,6 +2087,9 @@ def main():
 
     print("\nSyncing index.html and shared assets from the dataset...")
     data_js = js_data_block(terminals, stations)
+    # Before any page is written: every emitted /assets/ URL is stamped with
+    # the hash of the bytes this build produces.
+    compute_asset_versions(data_js)
     sync_index(terminals, stations, counts, total, data_js)
     # After the rewrite, so it validates what will actually be published.
     check_prose_figures(stations)
@@ -2023,6 +2115,9 @@ def main():
 
     print("\nService worker, sitemap, llms.txt and dataset exports...")
     generate_sw()
+    check_review_date(['index.html', 'about/index.html',
+                       'stations/lingfield/index.html',
+                       'terminals/victoria/index.html'])
     generate_sitemap()
     generate_llms(stations, counts, page_info, total)
     generate_llms_full(terminals, stations, counts, total)
