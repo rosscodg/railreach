@@ -685,3 +685,89 @@ a:focus-visible, button:focus-visible, select:focus-visible {
   .control-foot .control-search { flex: 0 0 auto; }
   .control-foot .station-count { flex: 1 1 auto; min-width: 0; }
 }
+
+/* ── Collapsible control panel ───────────────────────────────────────────────
+   Panel height is not free: it feeds the map's fit padding. Measured on a
+   1280x699 map, the panel forced 242px of top padding and the legend 161px of
+   bottom, so the raw 403px hit the 50% cap and left exactly half the map
+   usable. The panel is 60% of that.
+
+   It is the control for setting up a query. Once you are exploring the map it
+   is in the way, so it folds to a one-line summary on the first deliberate map
+   interaction, and can be reopened. Collapsed, the panel asks for ~78px of
+   padding instead of 242, which drops the raw total under the cap: nothing is
+   clamped and the usable band goes from 349px to roughly 460px.
+   ------------------------------------------------------------------------ */
+
+.panel-toggle {
+  display: none;                      /* only exists once collapsed */
+  align-items: center; gap: 10px; width: 100%;
+  padding: 3px 2px;
+  background: none; border: none; cursor: pointer;
+  font-family: var(--font); font-size: 13px; font-weight: 600;
+  color: var(--text-primary); text-align: left;
+}
+
+.panel-toggle-text { flex: 1 1 auto; min-width: 0; white-space: nowrap;
+                     overflow: hidden; text-overflow: ellipsis; }
+
+.panel-toggle-cta {
+  flex: 0 0 auto;
+  padding: 3px 10px; border-radius: var(--radius-pill);
+  background: var(--surface); color: var(--text-secondary);
+  font-size: 11px; font-weight: 600;
+}
+
+.panel-toggle:hover .panel-toggle-cta { background: var(--blue); color: #fff; }
+
+.controls.collapsed > .panel-toggle { display: flex; }
+.controls.collapsed > .ask,
+.controls.collapsed > .control-row,
+.controls.collapsed > .control-foot { display: none; }
+
+/* The mobile rules lift .control-row children into the panel's flex flow with
+   display:contents, at equal specificity, so these come later to win. */
+@media (max-width: 768px) {
+  .controls.collapsed > .control-row:not(.control-search) { display: none; }
+  .controls.collapsed { flex-flow: row nowrap; }
+}
+
+/* ── Legend, compacted ───────────────────────────────────────────────────────
+   At 129px tall it reached 151px from the map's bottom edge and so set the
+   bottom fit padding, beating the ad banner's 112px. Bottom padding is a max,
+   not a sum, so any legend shorter than the banner's 112px is free: there is
+   nothing to gain by shrinking further. Laying it out as a horizontal strip
+   did shrink it, to 33px, but made it wide enough to collide with the centred
+   banner and clip its own first item. Staying vertical and merely tightening
+   it clears the 112px line with the labels and title intact. ---------------- */
+@media (min-width: 769px) {
+  /* Target: <=112px from the map's bottom edge, which is where the ad banner
+     already sits. Reaching that line means the banner sets the padding and the
+     legend costs nothing; going below it buys nothing further. */
+  .legend { padding: 7px 13px; line-height: 1.2; }
+  .legend .legend-title { margin-bottom: 4px; }
+  .legend .legend-item { margin-bottom: 1px; gap: 7px; font-size: 11px; }
+  .legend .legend-item:last-child { margin-bottom: 0; }
+  .legend .legend-dot { width: 8px; height: 8px; }
+}
+
+@media (max-width: 768px) {
+  /* Narrow screens: the summary is the whole panel, so give it the room. */
+  .panel-toggle { font-size: 12px; gap: 8px; }
+  .panel-toggle-cta { padding: 3px 9px; font-size: 10.5px; }
+}
+
+@media (max-width: 768px) {
+  /* Pre-existing, and not caused by the collapsing panel: the panel is full
+     width at the top of the map, so Leaflet's zoom control sat underneath it
+     and neither button could be tapped. Verified against production, where a
+     hit test lands on the panel for both.
+
+     Moving it to the lower left rather than simply pushing it down: the panel
+     changes height when it collapses and again when the search field opens, so
+     any fixed offset from the top is a coupling that will break. The lower
+     left is clear of the panel above, and sits above the legend (bottom 90,
+     ~30 tall) and the ad banner (bottom 20, 64 tall). */
+  .leaflet-top.leaflet-left { top: auto; bottom: 140px; }
+  .leaflet-top.leaflet-left .leaflet-control-zoom { margin-top: 0; margin-left: 12px; }
+}

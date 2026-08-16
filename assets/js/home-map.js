@@ -28,6 +28,9 @@
     els.results = document.getElementById('station-search-results');
     els.searchToggle = document.getElementById('search-toggle');
     els.searchField = document.getElementById('search-field');
+    els.panel = document.querySelector('.controls');
+    els.panelToggle = document.getElementById('panel-toggle');
+    els.panelToggleText = document.getElementById('panel-toggle-text');
     els.discovery = document.getElementById('discovery-list');
     els.discoveryNote = document.getElementById('discovery-note');
   }
@@ -116,12 +119,69 @@
     });
 
     renderDiscovery(code, terminal);
+    updateSummary(terminal, list.length);
 
     if (opts.fit !== false) {
       var pts = list.map(function (s) { return [s.lat, s.lng]; });
       pts.push([terminal.lat, terminal.lng]);
       RR.fit(map, pts, { animate: opts.animate !== false });
     }
+  }
+
+  /* ---- Collapsing the panel ---------------------------------------------
+   * The panel is for setting up a query. The moment someone starts working the
+   * map they want the map, and the panel's height is charged straight to the
+   * fit padding, so folding it to one line is worth roughly a third more
+   * usable map height.
+   *
+   * This re-arms every time: whenever the panel is open and you touch the map,
+   * it folds away. Firing only once meant that after reopening it with Change
+   * no amount of panning or zooming would fold it again, which is the state
+   * people actually spend their time in.
+   *
+   * It keys off real input on the map container rather than Leaflet's own
+   * dragstart/zoomstart, because those also fire for our programmatic fit:
+   * pressing Change refits the map, which would instantly re-collapse the
+   * panel you just asked to open. A pointerdown or a zoom gesture cannot be
+   * produced by our own code. The panel is a sibling of the map container, so
+   * using its chips and buttons never triggers this. */
+  function updateSummary(terminal, count) {
+    if (!els.panelToggleText) return;
+    /* The time budget appears only when one is actually set. At the 90-minute
+     * default there is no filter to disclose, and "any journey time" was both
+     * the longest part of the line and the least informative: on a 375px
+     * screen it pushed the station count into an ellipsis. An active filter is
+     * still always shown, since a hidden filter silently changing the results
+     * is the one thing a collapsed panel must not do. */
+    var parts = [terminal.name];
+    if (state.max !== 90) parts.push('under ' + state.max + ' min');
+    parts.push(count + ' station' + (count === 1 ? '' : 's'));
+    els.panelToggleText.textContent = parts.join(' \u00b7 ');
+  }
+
+  function setCollapsed(on, refit) {
+    if (!els.panel) return;
+    els.panel.classList.toggle('collapsed', on);
+    if (els.panelToggle) els.panelToggle.setAttribute('aria-expanded', on ? 'false' : 'true');
+    /* Only refit when the user asked for the change. Refitting after an
+     * auto-collapse would undo the very pan or zoom that triggered it. */
+    if (refit) render({ animate: true });
+  }
+
+  function armAutoCollapse() {
+    var el = map.getContainer();
+    function onMapUse() {
+      if (els.panel && !els.panel.classList.contains('collapsed')) {
+        setCollapsed(true, false);
+      }
+    }
+    el.addEventListener('pointerdown', onMapUse, { passive: true });
+    el.addEventListener('touchstart', onMapUse, { passive: true });
+    /* Plain wheel scrolls the page here by design, so only a ctrl+wheel zoom
+     * counts as working the map. */
+    el.addEventListener('wheel', function (e) {
+      if (e.ctrlKey) onMapUse();
+    }, { passive: true });
   }
 
   /* The reason the map exists: surfacing places people would not have thought
@@ -337,6 +397,14 @@
     input.addEventListener('blur', function () { setTimeout(close, 120); });
   }
 
+  function buildPanelToggle() {
+    if (!els.panelToggle) return;
+    els.panelToggle.addEventListener('click', function () {
+      var collapsing = !els.panel.classList.contains('collapsed');
+      setCollapsed(collapsing, true);
+    });
+  }
+
   /* ---- Boot ------------------------------------------------------------- */
   function boot() {
     collectElements();
@@ -344,6 +412,8 @@
     buildTerminalControls();
     buildBudgetControls();
     buildSearch();
+    buildPanelToggle();
+    armAutoCollapse();
     writeUrl(false);
     render({ animate: false });
   }

@@ -34,7 +34,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<link rel="stylesheet" href="/assets/css/shared.css?v=c3747ad8">
+<link rel="stylesheet" href="/assets/css/shared.css?v=3a0f934b">
 <style>
 /* Leave a sliver of the content section above the fold as a scroll affordance */
 :root { --map-h: calc(100dvh - var(--header-h) - 44px); }
@@ -56,7 +56,12 @@
 <a class="skip-map" href="#all-journey-times">Skip the map and read the journey times as a table</a>
 <div id="map"></div>
 <div class="controls">
-  <p class="ask">Where could you live?</p>
+  <button type="button" class="panel-toggle" id="panel-toggle"
+          aria-expanded="true" aria-controls="panel-body">
+    <span class="panel-toggle-text" id="panel-toggle-text"></span>
+    <span class="panel-toggle-cta">Change</span>
+  </button>
+  <p class="ask" id="panel-body">Where could you live?</p>
   <div class="control-row row-terminal">
     <span class="control-label" id="dest-label">Commuting into</span>
     <div id="terminal-buttons" role="group" aria-labelledby="dest-label"></div>
@@ -470,7 +475,7 @@ const STATIONS = [
 /* /GEN:map-data */
 </script>
 <script src="/assets/js/map-ui.js?v=5e70ab40"></script>
-<script src="/assets/js/home-map.js?v=f0f547d9"></script>
+<script src="/assets/js/home-map.js?v=1235eeae"></script>
 
 <main id="content" class="page-content">
 <div class="wrap">
