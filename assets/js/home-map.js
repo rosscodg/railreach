@@ -86,8 +86,21 @@
       if (s.slug) markerBySlug[s.slug] = m;
     });
 
-    els.count.textContent = list.length + ' station' + (list.length === 1 ? '' : 's') +
-      ' within ' + state.max + ' min of ' + terminal.name;
+    /* The destination is already named by the selected chip, so repeating it
+     * here only pushed the line to two rows in a narrow panel. Screen readers
+     * get the full sentence, since this is an aria-live region and the
+     * announcement has no chip to refer to. */
+    var noun = ' station' + (list.length === 1 ? '' : 's');
+    els.count.textContent = '';
+    var seen = document.createElement('span');
+    seen.setAttribute('aria-hidden', 'true');
+    seen.textContent = list.length + noun + ' within ' + state.max + ' min';
+    var spoken = document.createElement('span');
+    spoken.className = 'sr-only';
+    spoken.textContent = list.length + noun + ' within ' + state.max +
+      ' min of ' + terminal.name;
+    els.count.appendChild(seen);
+    els.count.appendChild(spoken);
 
     document.querySelectorAll('.terminal-btn').forEach(function (b) {
       var on = b.dataset.code === code;

@@ -554,3 +554,134 @@ a:focus-visible, button:focus-visible, select:focus-visible {
   .page-content tbody tr:hover td { background: rgba(255,255,255,0.03); }
   .skip-link { background: var(--blue); }
 }
+
+/* ── Map control panel, tidied ───────────────────────────────────────────────
+   Eleven destinations laid out with flex-wrap produced three rows whose right
+   edges landed at 499px, 567px and 233px, with chip widths ranging 69-128px.
+   Nothing aligned horizontally and nothing lined up vertically, which is what
+   read as messy. Fixes, in order of how much they matter:
+
+   1. A fixed grid, so every chip is the same width. Both edges align and the
+      rows gain a vertical rhythm. The last row is short but starts on the same
+      column as the others, so it reads as deliberate rather than ragged.
+   2. One accent colour. Selecting a destination was near-black while selecting
+      a time budget was blue, for what is the same act of choosing. Worse, that
+      near-black is exactly what the legend uses to mean "London Terminal", so
+      one colour carried two unrelated meanings on the same screen. Blue now
+      means "your current selection" everywhere, which is what dark mode
+      already did.
+   3. The time budget becomes one segmented control rather than four loose
+      pills. It is an ordered scale, so joined segments say so, and it reads as
+      a single control instead of competing with the destination grid.
+   These are scoped to >=769px: below that the panel already swaps the grid for
+   a native select, and an unscoped rule would override that display:none.
+   ------------------------------------------------------------------------ */
+
+@media (min-width: 769px) {
+  /* Tight vertical rhythm: the grid costs a third row, so the room for it
+     comes out of padding and chip height rather than out of the map. */
+  .controls { padding: 10px 13px; gap: 7px; }
+
+  /* Label above its grid, since the chips need the full width. */
+  .control-row.row-terminal { flex-direction: column; align-items: stretch; gap: 4px; }
+
+  #terminal-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 4px;
+    width: 100%;
+  }
+
+  .terminal-btn {
+    padding: 5px 8px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;   /* safety net only: the longest name fits */
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* The panel is narrower here, but three columns pushed eleven chips onto a
+     fourth row and made the panel taller than it is on a big screen. Four
+     narrower columns keep it to three rows; the longest name still fits. */
+  .terminal-btn { padding: 6px 6px; font-size: 11px; }
+  .control-foot { flex-wrap: wrap; }
+}
+
+/* Selection is blue everywhere. Near-black is reserved for the terminal
+   markers it already means on the map. */
+.terminal-btn.active,
+.terminal-btn.active:hover {
+  background: var(--blue); color: #fff; border-color: var(--blue);
+}
+
+/* The time budget as one segmented control. */
+#budget-filter {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  gap: 0;
+  padding: 2px;
+  background: var(--surface);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-pill);
+}
+
+.budget-btn {
+  padding: 5px 12px;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: var(--radius-pill);
+  white-space: nowrap;
+}
+
+.budget-btn:hover:not(.active) { background: rgba(0, 0, 0, 0.05); }
+
+.budget-btn.active,
+.budget-btn.active:hover {
+  background: var(--blue); color: #fff; border-color: var(--blue);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+}
+
+/* Secondary by design, but it was a bare underlined hyperlink among styled
+   controls, which is why it read as unfinished. Muted, with a search icon so
+   its purpose is legible before you read it. */
+#search-toggle {
+  display: inline-flex; align-items: center;
+  padding: 4px 2px 4px 20px;
+  color: var(--text-muted);
+  font-weight: 500;
+  text-decoration: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%2371717a' stroke-width='2.2' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M20 20l-3.2-3.2'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+#search-toggle:hover {
+  color: var(--text-primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .budget-btn:hover:not(.active) { background: rgba(255, 255, 255, 0.08); }
+  #budget-filter { background: rgba(255, 255, 255, 0.06); }
+}
+
+/* The result count and the search escape hatch share a line on desktop. Two
+   short items each taking a full row is what made the panel tall, and panel
+   height is not free: it feeds the map's fit padding, so a tall panel squeezes
+   the usable band and forces the map to zoom out further than the stations
+   warrant. display:contents below 769px lifts both children back into the
+   panel's own flex flow, so the existing mobile layout is untouched. */
+.control-foot { display: contents; }
+
+@media (min-width: 769px) {
+  .control-foot {
+    display: flex; align-items: baseline; justify-content: space-between;
+    gap: 14px; width: 100%;
+  }
+  .control-foot .control-search { flex: 0 0 auto; }
+  .control-foot .station-count { flex: 1 1 auto; min-width: 0; }
+}

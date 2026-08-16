@@ -34,7 +34,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<link rel="stylesheet" href="/assets/css/shared.css?v=059a3256">
+<link rel="stylesheet" href="/assets/css/shared.css?v=c3747ad8">
 <style>
 /* Leave a sliver of the content section above the fold as a scroll affordance */
 :root { --map-h: calc(100dvh - var(--header-h) - 44px); }
@@ -57,16 +57,17 @@
 <div id="map"></div>
 <div class="controls">
   <p class="ask">Where could you live?</p>
-  <div class="control-row">
+  <div class="control-row row-terminal">
     <span class="control-label" id="dest-label">Commuting into</span>
     <div id="terminal-buttons" role="group" aria-labelledby="dest-label"></div>
     <label class="sr-only" for="terminal-select">London terminal</label>
     <select id="terminal-select"></select>
   </div>
-  <div class="control-row">
+  <div class="control-row row-budget">
     <span class="control-label" id="budget-label">Journey under</span>
     <div id="budget-filter" role="group" aria-labelledby="budget-label"></div>
   </div>
+  <div class="control-foot">
   <p class="station-count" id="station-count" role="status" aria-live="polite"></p>
   <div class="control-row control-search">
     <button type="button" id="search-toggle" aria-expanded="false" aria-controls="search-field">
@@ -79,6 +80,7 @@
              autocomplete="off" spellcheck="false" placeholder="Station name, e.g. Reading">
       <ul id="station-search-results" role="listbox" aria-label="Matching stations" hidden></ul>
     </div>
+  </div>
   </div>
 </div>
 <div class="legend">
@@ -468,7 +470,7 @@ const STATIONS = [
 /* /GEN:map-data */
 </script>
 <script src="/assets/js/map-ui.js?v=5e70ab40"></script>
-<script src="/assets/js/home-map.js?v=a0a10d3a"></script>
+<script src="/assets/js/home-map.js?v=f0f547d9"></script>
 
 <main id="content" class="page-content">
 <div class="wrap">
