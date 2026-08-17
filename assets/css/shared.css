@@ -809,7 +809,7 @@ a:focus-visible, button:focus-visible, select:focus-visible {
    is wrong the moment it moves and nobody re-checks it. */
 .promo-brand {
   flex: 0 0 auto; margin: 0 18px;
-  display: flex; flex-direction: column; align-items: center; gap: 7px;
+  display: flex; flex-direction: column; align-items: center; gap: 11px;
 }
 .promo-mark { width: 112px; height: auto; margin: 0; }
 .promo-trust {
@@ -820,7 +820,7 @@ a:focus-visible, button:focus-visible, select:focus-visible {
 .promo-stars { width: 86px; height: auto; display: block; }
 
 @media (max-width: 768px) {
-  .promo-brand { margin: 0 8px; gap: 5px; }
+  .promo-brand { margin: 0 8px; gap: 8px; }
   .promo-mark { width: 74px; }
   .promo-stars { width: 58px; }
   /* The word costs ~30px of width here, which came straight out of the
