@@ -7,15 +7,15 @@ Rochester connects to 3 London terminals. The fastest route is St Pancras in 36 
 - London terminals served: 3 (St Pancras, London Bridge, Victoria)
 - Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Rochester to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| St Pancras | 36 min | 64 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
-| London Bridge | 37 min | 57 | 4.8 | Southeastern, Southern, Thameslink |
-| Victoria | 41 min | 60 | 4.0 | Southeastern, Southern |
+| St Pancras | 36 min | same as fastest | 64 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 37 min | same as fastest | 57 | 4.8 | Southeastern, Southern, Thameslink |
+| Victoria | 41 min | same as fastest | 60 | 4.0 | Southeastern, Southern |
 
 ## Frequently asked questions
 

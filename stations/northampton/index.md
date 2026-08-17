@@ -7,13 +7,13 @@ Northampton connects to 1 London terminal. The fastest route is Euston in 50 min
 - London terminals served: 1 (Euston)
 - Operator: Avanti West Coast, London Northwestern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Northampton to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Euston | 50 min | 59 | 3.6 | Avanti West Coast, London Northwestern |
+| Euston | 50 min | same as fastest | 59 | 3.6 | Avanti West Coast, London Northwestern |
 
 ## Frequently asked questions
 

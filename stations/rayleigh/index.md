@@ -7,13 +7,13 @@ Rayleigh connects to 1 London terminal. The fastest route is Liverpool Street in
 - London terminals served: 1 (Liverpool Street)
 - Operator: Greater Anglia, Elizabeth line
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Rayleigh to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Liverpool Street | 42 min | 47 | 4.4 | Greater Anglia, Elizabeth line |
+| Liverpool Street | 42 min | same as fastest | 47 | 4.4 | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 

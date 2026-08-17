@@ -27,7 +27,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<link rel="stylesheet" href="/assets/css/shared.css?v=874b3afd">
+<link rel="stylesheet" href="/assets/css/shared.css?v=b2e3cd6b">
 <style>:root { --map-h: 56vh; }</style>
 </head>
 <body>
@@ -81,16 +81,16 @@
 <div class="fact"><dt>London terminals served</dt><dd>1 (Marylebone)</dd></div>
 <div class="fact"><dt>Operator</dt><dd>Chiltern Railways</dd></div>
 <div class="fact"><dt>Source</dt><dd>Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0</dd></div>
-<div class="fact"><dt>Data reviewed</dt><dd>2026-08-14</dd></div>
+<div class="fact"><dt>Data reviewed</dt><dd>2026-08-17</dd></div>
 </dl>
 
 <h2 id="journey-comparison">Haddenham & Thame Parkway to each London terminal</h2>
 <div class="table-scroll">
 <table>
 <caption>Journey times from Haddenham & Thame Parkway to London terminals</caption>
-<thead><tr><th>London terminal</th><th>Fastest</th><th>Typical peak</th><th>Peak trains</th><th>Operator</th></tr></thead>
+<thead><tr><th>London terminal</th><th>Fastest</th><th>Fastest direct</th><th>Typical peak</th><th>Peak trains</th><th>Operator</th></tr></thead>
 <tbody>
-<tr><td><a href="/terminals/marylebone/">Marylebone</a></td><td><span class="t-badge t-mid">39 min</span></td><td><span class="gap-wide">52 min</span></td><td>2.8/hr</td><td>Chiltern Railways</td></tr>
+<tr><td><a href="/terminals/marylebone/">Marylebone</a></td><td><span class="t-badge t-mid">39 min</span></td><td><span class="muted">same as fastest</span></td><td><span class="gap-wide">52 min</span></td><td>2.8/hr</td><td>Chiltern Railways</td></tr>
 </tbody>
 </table>
 </div>
@@ -122,10 +122,10 @@
 <h2>Nearby stations</h2>
 <p>Alternative departure points close to Haddenham & Thame Parkway, for comparing platforms rather than places.</p>
 <ul class="link-grid">
-<li><a class="card" href="/stations/monks-risborough/"><span class="card-title">Monks Risborough</span><span class="card-meta"><span class="t-badge t-slow">65 min</span> fastest to London &middot; 9 km away</span></a></li>
+<li><a class="card" href="/stations/monks-risborough/"><span class="card-title">Monks Risborough</span><span class="card-meta"><span class="t-badge t-mid">54 min</span> fastest to London &middot; 9 km away</span></a></li>
 <li><a class="card" href="/stations/aylesbury-vale-parkway/"><span class="card-title">Aylesbury Vale Parkway</span><span class="card-meta"><span class="t-badge t-slow">60 min</span> fastest to London &middot; 9 km away</span></a></li>
 <li><a class="card" href="/stations/princes-risborough/"><span class="card-title">Princes Risborough</span><span class="card-meta"><span class="t-badge t-mid">39 min</span> fastest to London &middot; 9 km away</span></a></li>
-<li><a class="card" href="/stations/little-kimble/"><span class="card-title">Little Kimble</span><span class="card-meta"><span class="t-badge t-slow">69 min</span> fastest to London &middot; 9 km away</span></a></li>
+<li><a class="card" href="/stations/little-kimble/"><span class="card-title">Little Kimble</span><span class="card-meta"><span class="t-badge t-mid">58 min</span> fastest to London &middot; 9 km away</span></a></li>
 <li><a class="card" href="/stations/aylesbury/"><span class="card-title">Aylesbury</span><span class="card-meta"><span class="t-badge t-mid">55 min</span> fastest to London &middot; 10 km away</span></a></li>
 <li><a class="card" href="/stations/stoke-mandeville/"><span class="card-title">Stoke Mandeville</span><span class="card-meta"><span class="t-badge t-mid">50 min</span> fastest to London &middot; 11 km away</span></a></li>
 </ul>
@@ -143,7 +143,7 @@
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a>
 <a href="/terminals/moorgate/">Moorgate</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, computed from Darwin Timetable Files published by the Rail Delivery Group under the Open Government Licence. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-14. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, computed from Darwin Timetable Files published by the Rail Delivery Group under the Open Government Licence. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-17. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -179,7 +179,7 @@
 "description": "Haddenham & Thame Parkway reaches London Marylebone in 39 minutes, the fastest of 1 London terminal it serves.",
 "url": "https://railreach.co.uk/stations/haddenham-and-thame-parkway/",
 "inLanguage": "en-GB",
-"dateModified": "2026-08-14",
+"dateModified": "2026-08-17",
 "isPartOf": {
 "@type": "WebSite",
 "name": "RailReach",
@@ -256,8 +256,8 @@
 }
 ]</script>
 
-<script src="/assets/js/stations-data.js?v=7c6cc3f4"></script>
-<script src="/assets/js/map-ui.js?v=5e70ab40"></script>
+<script src="/assets/js/stations-data.js?v=98f6f1f6"></script>
+<script src="/assets/js/map-ui.js?v=afe4b8dd"></script>
 <script>
 const map=RR.createMap('map');
 L.circleMarker([51.770855,-0.942137],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Haddenham & Thame Parkway</strong><br>This station').addTo(map);

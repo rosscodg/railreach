@@ -7,13 +7,13 @@ Bicester North connects to 1 London terminal. The fastest route is Marylebone in
 - London terminals served: 1 (Marylebone)
 - Operator: Chiltern Railways
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Bicester North to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Marylebone | 48 min | 52 | 2.4 | Chiltern Railways |
+| Marylebone | 48 min | same as fastest | 52 | 2.4 | Chiltern Railways |
 
 ## Frequently asked questions
 

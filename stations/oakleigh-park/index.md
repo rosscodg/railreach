@@ -7,15 +7,15 @@ Oakleigh Park connects to 3 London terminals. The fastest route is St Pancras in
 - London terminals served: 3 (St Pancras, Kings Cross, Moorgate)
 - Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Oakleigh Park to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| St Pancras | 17 min | 18 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
-| Kings Cross | 22 min | - | - | Great Northern, LNER, Hull Trains, Lumo |
-| Moorgate | 25 min | 30 | 4.0 | Great Northern |
+| St Pancras | 17 min | same as fastest | 18 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Kings Cross | 22 min | same as fastest | - | - | Great Northern, LNER, Hull Trains, Lumo |
+| Moorgate | 25 min | same as fastest | 30 | 4.0 | Great Northern |
 
 ## Frequently asked questions
 

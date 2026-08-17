@@ -7,14 +7,14 @@ Iver connects to 2 London terminals. The fastest route is Paddington in 24 minut
 - London terminals served: 2 (Paddington, Liverpool Street)
 - Operator: Great Western Railway, Elizabeth line
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Iver to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Paddington | 24 min | 27 | 4.0 | Great Western Railway, Elizabeth line |
-| Liverpool Street | 35 min | 38 | 4.0 | Greater Anglia, Elizabeth line |
+| Paddington | 24 min | same as fastest | 27 | 4.0 | Great Western Railway, Elizabeth line |
+| Liverpool Street | 35 min | same as fastest | 38 | 4.0 | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 

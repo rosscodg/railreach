@@ -318,14 +318,22 @@ window.RR = (function () {
 
   /* ---- Markers and popups ----------------------------------------------- */
   function stationPopup(station, terminalName, journey) {
-    /* All three measures, not just the fastest. A single early express is no
-     * use if the train you can actually catch takes twenty minutes longer, and
-     * the popup is where most people meet the number. */
+    /* Four measures, and they answer different questions. "Fastest" is the
+     * quickest way there and may involve a change, so it names where; "fastest
+     * direct" is what you can do without changing, shown only when the two
+     * differ, since repeating the same number twice tells the reader nothing.
+     * The peak figures describe direct services, and say so. */
     var html = '<strong>' + esc(station.name) + '</strong>' +
-      '<div class="pop-sub">to ' + esc(terminalName) +
-      (journey.direct ? '' : ', with a change') + '</div>' +
+      '<div class="pop-sub">to ' + esc(terminalName) + '</div>' +
       '<dl class="pop-stats">' +
-      '<div><dt>Fastest</dt><dd>' + journey.mins + ' min</dd></div>';
+      '<div><dt>Fastest</dt><dd>' + journey.mins + ' min' +
+      (journey.direct ? '' : '<span class="pop-via">change at ' +
+                             esc(journey.at || 'one station') + '</span>') +
+      '</dd></div>';
+
+    if (!journey.direct && journey.dm) {
+      html += '<div><dt>Fastest direct</dt><dd>' + journey.dm + ' min</dd></div>';
+    }
 
     if (journey.typical) {
       var gap = journey.typical - journey.mins;
@@ -335,9 +343,7 @@ window.RR = (function () {
       html += '<div><dt>Typical peak</dt><dd class="pop-none">no peak service</dd></div>';
     }
 
-    if (journey.tph) {
-      html += '<div><dt>Peak trains</dt><dd>' + journey.tph + '/hr</dd></div>';
-    }
+    if (journey.tph) html += '<div><dt>Peak trains</dt><dd>' + journey.tph + '/hr</dd></div>';
     html += '</dl>';
 
     if (station.slug) {

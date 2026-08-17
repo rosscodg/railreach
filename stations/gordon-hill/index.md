@@ -7,14 +7,14 @@ Gordon Hill connects to 2 London terminals. The fastest route is Kings Cross in 
 - London terminals served: 2 (Kings Cross, Moorgate)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Gordon Hill to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Kings Cross | 26 min | - | - | Great Northern, LNER, Hull Trains, Lumo |
-| Moorgate | 31 min | 37 | 4.8 | Great Northern |
+| Kings Cross | 26 min | same as fastest | - | - | Great Northern, LNER, Hull Trains, Lumo |
+| Moorgate | 31 min | same as fastest | 37 | 4.8 | Great Northern |
 
 ## Frequently asked questions
 

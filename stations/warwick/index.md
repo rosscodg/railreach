@@ -7,13 +7,13 @@ Warwick connects to 1 London terminal. The fastest route is Marylebone in 88 min
 - London terminals served: 1 (Marylebone)
 - Operator: Chiltern Railways
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Warwick to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Marylebone | 88 min | 89 | 2.0 | Chiltern Railways |
+| Marylebone | 88 min | same as fastest | 89 | 2.0 | Chiltern Railways |
 
 ## Frequently asked questions
 

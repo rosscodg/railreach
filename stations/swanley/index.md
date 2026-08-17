@@ -4,28 +4,28 @@ Swanley connects to 3 London terminals. The fastest route is Victoria in 27 minu
 
 - Fastest journey to London: 27 minutes to Victoria
 - Direct service: Yes
-- London terminals served: 3 (Victoria, St Pancras, London Bridge)
+- London terminals served: 3 (Victoria, London Bridge, St Pancras)
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Swanley to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Victoria | 27 min | 35 | 6.0 | Southeastern, Southern |
-| St Pancras | 57 min | 57 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
-| London Bridge | change required | - | - | Southeastern, Southern, Thameslink |
+| Victoria | 27 min | same as fastest | 35 | 6.0 | Southeastern, Southern |
+| London Bridge | 49 min (change at London Blackfriars) | no direct service | - | - | Southeastern, Southern, Thameslink |
+| St Pancras | 54 min (change at London Blackfriars) | 57 min | 57 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 
 ### How long does the train from Swanley to London take?
 
-The fastest train from Swanley reaches London Victoria in 27 minutes. Swanley connects to 3 London terminals: Victoria, St Pancras, London Bridge.
+The fastest train from Swanley reaches London Victoria in 27 minutes. Swanley connects to 3 London terminals: Victoria, London Bridge, St Pancras.
 
 ### Which London station should I travel to from Swanley?
 
-Victoria is the quickest at 27 minutes, on a direct service. Direct trains run to Victoria, St Pancras.
+Victoria is the quickest at 27 minutes, on a direct service. Direct trains run to Victoria.
 
 ### Is Swanley a good commuter town for London?
 
@@ -33,7 +33,7 @@ At 27 minutes to London Victoria, Swanley is an excellent commuter base, with a 
 
 ### Are there direct trains from Swanley to London?
 
-Yes. Direct services run to Victoria, St Pancras.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Swanley?
 

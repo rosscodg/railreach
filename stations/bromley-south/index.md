@@ -7,14 +7,14 @@ Bromley South connects to 2 London terminals. The fastest route is Victoria in 1
 - London terminals served: 2 (Victoria, St Pancras)
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Bromley South to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Victoria | 15 min | 23 | 12.0 | Southeastern, Southern |
-| St Pancras | 45 min | 46 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Victoria | 15 min | same as fastest | 23 | 12.0 | Southeastern, Southern |
+| St Pancras | 43 min (change at London Blackfriars) | 45 min | 46 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 
@@ -24,7 +24,7 @@ The fastest train from Bromley South reaches London Victoria in 15 minutes. Brom
 
 ### Which London station should I travel to from Bromley South?
 
-Victoria is the quickest at 15 minutes, on a direct service. Direct trains run to Victoria, St Pancras.
+Victoria is the quickest at 15 minutes, on a direct service. Direct trains run to Victoria.
 
 ### Is Bromley South a good commuter town for London?
 
@@ -32,7 +32,7 @@ At 15 minutes to London Victoria, Bromley South is an excellent commuter base, w
 
 ### Are there direct trains from Bromley South to London?
 
-Yes. Direct services run to Victoria, St Pancras.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Bromley South?
 

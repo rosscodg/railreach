@@ -27,7 +27,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<link rel="stylesheet" href="/assets/css/shared.css?v=874b3afd">
+<link rel="stylesheet" href="/assets/css/shared.css?v=b2e3cd6b">
 <style>:root { --map-h: 56vh; }</style>
 </head>
 <body>
@@ -81,22 +81,22 @@
 <div class="fact"><dt>London terminals served</dt><dd>1 (Paddington)</dd></div>
 <div class="fact"><dt>Operator</dt><dd>Great Western Railway, Elizabeth line</dd></div>
 <div class="fact"><dt>Source</dt><dd>Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0</dd></div>
-<div class="fact"><dt>Data reviewed</dt><dd>2026-08-14</dd></div>
+<div class="fact"><dt>Data reviewed</dt><dd>2026-08-17</dd></div>
 </dl>
 
 <h2 id="journey-comparison">Hanborough to each London terminal</h2>
 <div class="table-scroll">
 <table>
 <caption>Journey times from Hanborough to London terminals</caption>
-<thead><tr><th>London terminal</th><th>Fastest</th><th>Typical peak</th><th>Peak trains</th><th>Operator</th></tr></thead>
+<thead><tr><th>London terminal</th><th>Fastest</th><th>Fastest direct</th><th>Typical peak</th><th>Peak trains</th><th>Operator</th></tr></thead>
 <tbody>
-<tr><td><a href="/terminals/paddington/">Paddington</a></td><td><span class="t-badge t-slow">63 min</span></td><td><span>65 min</span></td><td>1.2/hr</td><td>Great Western Railway, Elizabeth line</td></tr>
+<tr><td><a href="/terminals/paddington/">Paddington</a></td><td><span class="t-badge t-slow">63 min</span></td><td><span class="muted">same as fastest</span></td><td><span>65 min</span></td><td>1.2/hr</td><td>Great Western Railway, Elizabeth line</td></tr>
 </tbody>
 </table>
 </div>
 
 <h2>Hanborough to Paddington</h2>
-<p>The fastest train from Hanborough to London Paddington takes <strong>63 minutes</strong> and involves a direct train with no change. The route is operated by Great Western Railway, Elizabeth line. That makes Hanborough the 34th quickest of the 41 stations with a service into Paddington inside 90 minutes.</p>
+<p>The fastest train from Hanborough to London Paddington takes <strong>63 minutes</strong> and involves a direct train with no change. The route is operated by Great Western Railway, Elizabeth line. That makes Hanborough the 36th quickest of the 44 stations with a service into Paddington inside 90 minutes.</p>
 <h2>Frequently asked questions</h2>
 <h3>How long does the train from Hanborough to London take?</h3>
 <p>The fastest train from Hanborough reaches London Paddington in 63 minutes. Hanborough connects to 1 London terminal: Paddington.</p>
@@ -144,7 +144,7 @@
 <a href="/terminals/fenchurch-street/">Fenchurch Street</a>
 <a href="/terminals/moorgate/">Moorgate</a></div>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, computed from Darwin Timetable Files published by the Rail Delivery Group under the Open Government Licence. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-14. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, computed from Darwin Timetable Files published by the Rail Delivery Group under the Open Government Licence. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-17. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 
@@ -180,7 +180,7 @@
 "description": "Hanborough reaches London Paddington in 63 minutes, the fastest of 1 London terminal it serves.",
 "url": "https://railreach.co.uk/stations/hanborough/",
 "inLanguage": "en-GB",
-"dateModified": "2026-08-14",
+"dateModified": "2026-08-17",
 "isPartOf": {
 "@type": "WebSite",
 "name": "RailReach",
@@ -257,8 +257,8 @@
 }
 ]</script>
 
-<script src="/assets/js/stations-data.js?v=7c6cc3f4"></script>
-<script src="/assets/js/map-ui.js?v=5e70ab40"></script>
+<script src="/assets/js/stations-data.js?v=98f6f1f6"></script>
+<script src="/assets/js/map-ui.js?v=afe4b8dd"></script>
 <script>
 const map=RR.createMap('map');
 L.circleMarker([51.825158,-1.373525],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Hanborough</strong><br>This station').addTo(map);

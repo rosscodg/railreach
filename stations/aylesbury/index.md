@@ -7,13 +7,13 @@ Aylesbury connects to 1 London terminal. The fastest route is Marylebone in 55 m
 - London terminals served: 1 (Marylebone)
 - Operator: Chiltern Railways
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Aylesbury to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Marylebone | 55 min | 61 | 3.2 | Chiltern Railways |
+| Marylebone | 55 min | same as fastest | 61 | 3.2 | Chiltern Railways |
 
 ## Frequently asked questions
 

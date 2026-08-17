@@ -7,13 +7,13 @@ Hanborough connects to 1 London terminal. The fastest route is Paddington in 63 
 - London terminals served: 1 (Paddington)
 - Operator: Great Western Railway, Elizabeth line
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Hanborough to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Paddington | 63 min | 65 | 1.2 | Great Western Railway, Elizabeth line |
+| Paddington | 63 min | same as fastest | 65 | 1.2 | Great Western Railway, Elizabeth line |
 
 ## Frequently asked questions
 

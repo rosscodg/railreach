@@ -7,15 +7,15 @@ Sevenoaks connects to 3 London terminals. The fastest route is London Bridge in 
 - London terminals served: 3 (London Bridge, Victoria, St Pancras)
 - Operator: Southeastern, Southern, Thameslink
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Sevenoaks to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| London Bridge | 24 min | 27 | 8.4 | Southeastern, Southern, Thameslink |
-| Victoria | 31 min | 35 | 2.0 | Southeastern, Southern |
-| St Pancras | 76 min | 76 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 24 min | same as fastest | 27 | 8.4 | Southeastern, Southern, Thameslink |
+| Victoria | 31 min | same as fastest | 35 | 2.0 | Southeastern, Southern |
+| St Pancras | 48 min (change at London Bridge) | 76 min | 76 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 
@@ -25,7 +25,7 @@ The fastest train from Sevenoaks reaches London London Bridge in 24 minutes. Sev
 
 ### Which London station should I travel to from Sevenoaks?
 
-London Bridge is the quickest at 24 minutes, on a direct service. Direct trains run to London Bridge, Victoria, St Pancras.
+London Bridge is the quickest at 24 minutes, on a direct service. Direct trains run to London Bridge, Victoria.
 
 ### Is Sevenoaks a good commuter town for London?
 
@@ -33,7 +33,7 @@ At 24 minutes to London London Bridge, Sevenoaks is an excellent commuter base, 
 
 ### Are there direct trains from Sevenoaks to London?
 
-Yes. Direct services run to London Bridge, Victoria, St Pancras.
+Yes. Direct services run to London Bridge, Victoria.
 
 ### What are the nearest stations to Sevenoaks?
 

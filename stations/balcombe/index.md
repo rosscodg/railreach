@@ -4,24 +4,24 @@ Balcombe connects to 3 London terminals. The fastest route is London Bridge in 4
 
 - Fastest journey to London: 40 minutes to London Bridge
 - Direct service: Yes
-- London terminals served: 3 (London Bridge, St Pancras, Victoria)
+- London terminals served: 3 (London Bridge, Victoria, St Pancras)
 - Operator: Southeastern, Southern, Thameslink
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Balcombe to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| London Bridge | 40 min | 40 | 2.0 | Southeastern, Southern, Thameslink |
-| St Pancras | 55 min | 55 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
-| Victoria | change required | - | - | Southeastern, Southern |
+| London Bridge | 40 min | same as fastest | 40 | 2.0 | Southeastern, Southern, Thameslink |
+| Victoria | 49 min (change at Gatwick Airport) | no direct service | - | - | Southeastern, Southern |
+| St Pancras | 55 min | same as fastest | 55 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 
 ### How long does the train from Balcombe to London take?
 
-The fastest train from Balcombe reaches London London Bridge in 40 minutes. Balcombe connects to 3 London terminals: London Bridge, St Pancras, Victoria.
+The fastest train from Balcombe reaches London London Bridge in 40 minutes. Balcombe connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Balcombe?
 

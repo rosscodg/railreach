@@ -9,34 +9,34 @@ direct train. Services are operated by c2c.
 - Fastest station: Limehouse - 4 minutes
 - Operators: c2c
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Every station to Fenchurch Street
 
-| Station | Fastest | Typical peak | Peak trains/hr |
+| Station | Fastest | Fastest direct | Typical peak | Peak trains/hr |
 | --- | --- | --- | --- |
-| Limehouse | 4 min | 5 | 15.2 |
-| West Ham | 9 min | 10 | 15.6 |
-| Barking | 14 min | 16 | 11.6 |
-| Dagenham Dock | 20 min | 22 | 3.2 |
-| Upminster | 21 min | 24 | 8.8 |
-| Rainham (Essex) | 24 min | 26 | 3.2 |
-| West Horndon | 27 min | 30 | 3.6 |
-| Ockendon | 28 min | 31 | 3.6 |
-| Laindon | 29 min | 34 | 6.4 |
-| Purfleet | 29 min | 32 | 3.2 |
-| Basildon | 32 min | 36 | 6.8 |
-| Chafford Hundred | 33 min | 36 | 3.6 |
-| Grays | 35 min | 39 | 6.8 |
-| Benfleet | 37 min | 44 | 8.0 |
-| Pitsea | 37 min | 44 | 8.0 |
-| Tilbury Town | 38 min | 42 | 3.2 |
-| Leigh-on-Sea | 41 min | 48 | 8.0 |
-| Chalkwell | 42 min | 52 | 6.8 |
-| East Tilbury | 44 min | 48 | 3.2 |
-| Westcliff | 45 min | 55 | 6.8 |
-| Southend Central | 47 min | 57 | 6.8 |
-| Stanford-le-Hope | 48 min | 52 | 3.2 |
+| Limehouse | 4 min | same as fastest | 5 | 15.2 |
+| West Ham | 9 min | same as fastest | 10 | 15.6 |
+| Barking | 14 min | same as fastest | 16 | 11.6 |
+| Dagenham Dock | 20 min | same as fastest | 22 | 3.2 |
+| Upminster | 21 min | same as fastest | 24 | 8.8 |
+| Rainham (Essex) | 24 min | same as fastest | 26 | 3.2 |
+| West Horndon | 27 min | same as fastest | 30 | 3.6 |
+| Ockendon | 28 min | same as fastest | 31 | 3.6 |
+| Laindon | 29 min | same as fastest | 34 | 6.4 |
+| Purfleet | 29 min | same as fastest | 32 | 3.2 |
+| Basildon | 32 min | same as fastest | 36 | 6.8 |
+| Chafford Hundred | 33 min | same as fastest | 36 | 3.6 |
+| Grays | 35 min | same as fastest | 39 | 6.8 |
+| Benfleet | 37 min | same as fastest | 44 | 8.0 |
+| Pitsea | 37 min | same as fastest | 44 | 8.0 |
+| Tilbury Town | 38 min | same as fastest | 42 | 3.2 |
+| Leigh-on-Sea | 41 min | same as fastest | 48 | 8.0 |
+| Chalkwell | 42 min | same as fastest | 52 | 6.8 |
+| East Tilbury | 44 min | same as fastest | 48 | 3.2 |
+| Westcliff | 45 min | same as fastest | 55 | 6.8 |
+| Southend Central | 47 min | same as fastest | 57 | 6.8 |
+| Stanford-le-Hope | 48 min | same as fastest | 52 | 3.2 |
 
 ## Frequently asked questions
 

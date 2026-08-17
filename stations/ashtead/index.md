@@ -7,14 +7,14 @@ Ashtead connects to 2 London terminals. The fastest route is Waterloo in 41 minu
 - London terminals served: 2 (Waterloo, Victoria)
 - Operator: South Western Railway
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Ashtead to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Waterloo | 41 min | 46 | 3.2 | South Western Railway |
-| Victoria | 46 min | 51 | 2.0 | Southeastern, Southern |
+| Waterloo | 41 min | same as fastest | 46 | 3.2 | South Western Railway |
+| Victoria | 46 min | same as fastest | 51 | 2.0 | Southeastern, Southern |
 
 ## Frequently asked questions
 

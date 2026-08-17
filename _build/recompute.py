@@ -19,7 +19,8 @@ from collections import defaultdict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from darwin_adapter import load
-from journey_times import measure
+from journey_times import (measure, build_terminal_index, fastest_one_change,
+                           calling_points_abs, MIN_INTERCHANGE_MINS)
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(BASE, '_build', 'data')
@@ -111,6 +112,7 @@ def main():
 
     print("Loading timetables")
     services = []
+    per_day = []          # kept separate as well: see the note on connections
     for fname, date in FILES:
         path = os.path.join(DATA, fname)
         if not os.path.exists(path):
@@ -119,8 +121,17 @@ def main():
         svcs, skipped = load(path, service_date=date)
         print(f"  {date}: {len(svcs):,} passenger services")
         services.extend(svcs)
-    days = len([f for f, _ in FILES if os.path.exists(os.path.join(DATA, f))])
+        per_day.append((date, svcs))
+    days = len(per_day)
     print(f"  pooled: {len(services):,} services across {days} midweek days\n")
+
+    # Direct journeys can be measured on the pooled set, because a direct
+    # journey never spans two services. Connections cannot: pooling would let
+    # one day's arrival meet the next day's departure, which is not a journey
+    # anybody can make. So the one-change search runs a day at a time and the
+    # best result is taken across days, which is what "fastest" already means.
+    print(f"Indexing connections (interchange allowance {MIN_INTERCHANGE_MINS} min)")
+    day_calls = [{id(s): calling_points_abs(s) for s in svcs} for _, svcs in per_day]
 
     # Index by TIPLOC so we test each station against only the services that
     # actually call there, rather than all 75,000.
@@ -129,22 +140,67 @@ def main():
         for cp in s.calling_points:
             by_tiploc[cp.tiploc].append(s)
 
+    # One connection index per terminal per day, built once and reused for
+    # every station rather than rebuilt 345 times.
+    indexes = {}
+    for code, tips in terminal_tiplocs.items():
+        indexes[code] = [build_terminal_index(svcs, tips, calls_cache=day_calls[i])
+                         for i, (_d, svcs) in enumerate(per_day)]
+    print(f"  built {sum(len(v) for v in indexes.values())} connection indexes\n")
+
+    # Services calling at each TIPLOC, per day, so the change search only looks
+    # at trains that actually serve the origin.
+    day_by_tiploc = []
+    for _d, svcs in per_day:
+        m = defaultdict(list)
+        for s in svcs:
+            for cp in s.calling_points:
+                m[cp.tiploc].append(s)
+        day_by_tiploc.append(m)
+
+    print("Measuring")
     results = {}
     for st in stations:
         candidates = []
         seen = set()
-        for t in expand(st['tiplocs'], tpl_to_crs, crs_to_tpls):
+        station_tips = expand(st['tiplocs'], tpl_to_crs, crs_to_tpls)
+        for t in station_tips:
             for s in by_tiploc.get(t, []):
                 if id(s) not in seen:
                     seen.add(id(s))
                     candidates.append(s)
         if not candidates:
             continue
-        station_tips = expand(st['tiplocs'], tpl_to_crs, crs_to_tpls)
         for code, tips in terminal_tiplocs.items():
             m = measure(candidates, station_tips, tips, days=days)
-            if m['fastest_mins'] is not None and m['fastest_mins'] <= MAX_MINUTES:
-                results.setdefault(st['name'], {})[code] = m
+
+            # Best single-change itinerary, taken as the best across days.
+            change_mins, change_at = None, None
+            for i in range(days):
+                pool, seen_d = [], set()
+                for t in station_tips:
+                    for s in day_by_tiploc[i].get(t, []):
+                        if id(s) not in seen_d:
+                            seen_d.add(id(s))
+                            pool.append(s)
+                if not pool:
+                    continue
+                cm, ca = fastest_one_change(pool, station_tips, tips, indexes[code][i],
+                                            calls_cache=day_calls[i])
+                if cm is not None and (change_mins is None or cm < change_mins):
+                    change_mins, change_at = cm, ca
+
+            direct_mins = m['fastest_mins']
+            best = min([x for x in (direct_mins, change_mins) if x is not None], default=None)
+            if best is None or best > MAX_MINUTES:
+                continue
+            m['direct_mins'] = direct_mins
+            m['change_mins'] = change_mins
+            m['change_at'] = change_at
+            m['fastest_mins'] = best
+            m['fastest_is_direct'] = (direct_mins is not None and direct_mins <= (
+                change_mins if change_mins is not None else direct_mins))
+            results.setdefault(st['name'], {})[code] = m
 
     # ---- comparison -------------------------------------------------------
     published = {s['name']: s['journeys'] for s in stations}
@@ -152,6 +208,7 @@ def main():
     new_pairs = []
     lost_pairs = []
     drift_rows = []
+    newly_timed = []
 
     for st in stations:
         name = st['name']
@@ -162,6 +219,12 @@ def main():
             alt = got.get(code) or (got.get('STP') if code == 'KGX' else None)
             if not alt:
                 lost_pairs.append((name, code, j['mins']))
+                continue
+            if j['mins'] is None:
+                # Published as change-required with no time. Now measurable,
+                # so there is nothing to compare it against: count it as newly
+                # timed rather than as drift.
+                newly_timed.append((name, code, alt['fastest_mins'], alt.get('change_at')))
                 continue
             d = alt['fastest_mins'] - j['mins']
             if d == 0:
@@ -184,6 +247,22 @@ def main():
     print(f"  differs by 3+ minutes:  {drifted}")
     print(f"  published but no service found: {len(lost_pairs)}")
     print(f"  services found that were not published: {len(new_pairs)}")
+
+    if newly_timed:
+        print(f"\njourneys published with no time that are now measurable ({len(newly_timed)}):")
+        for name, code, m, at in newly_timed[:20]:
+            print(f"    {name:<26} {TERMINAL_NAMES[code]:<17} {m:>3} min via {at}")
+
+    changed_better = [(n, c, m) for n, c, m in
+                      ((st['name'], code, res) for st in stations
+                       for code, res in results.get(st['name'], {}).items())
+                      if m.get('change_mins') is not None and m.get('direct_mins') is not None
+                      and m['change_mins'] < m['direct_mins'] - 1]
+    print(f"\njourneys where one change beats the direct service: {len(changed_better)}")
+    for n, c, m in sorted(changed_better, key=lambda x: x[2]['direct_mins'] - x[2]['change_mins'],
+                          reverse=True)[:12]:
+        print(f"    {n:<26} {TERMINAL_NAMES[c]:<17} direct {m['direct_mins']:>3} -> "
+              f"{m['change_mins']:>3} via {m['change_at']}")
 
     if drift_rows:
         print("\nlargest disagreements (published -> measured):")

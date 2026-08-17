@@ -7,14 +7,14 @@ Twyford connects to 2 London terminals. The fastest route is Paddington in 21 mi
 - London terminals served: 2 (Paddington, Liverpool Street)
 - Operator: Great Western Railway, Elizabeth line
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Twyford to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Paddington | 21 min | 45 | 6.4 | Great Western Railway, Elizabeth line |
-| Liverpool Street | 55 min | 58 | 4.0 | Greater Anglia, Elizabeth line |
+| Paddington | 21 min | same as fastest | 45 | 6.4 | Great Western Railway, Elizabeth line |
+| Liverpool Street | 55 min | same as fastest | 58 | 4.0 | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 

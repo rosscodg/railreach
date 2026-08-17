@@ -7,14 +7,14 @@ Maidenhead connects to 2 London terminals. The fastest route is Paddington in 18
 - London terminals served: 2 (Paddington, Liverpool Street)
 - Operator: Great Western Railway, Elizabeth line
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Maidenhead to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Paddington | 18 min | 38 | 10.0 | Great Western Railway, Elizabeth line |
-| Liverpool Street | 47 min | 53 | 6.0 | Greater Anglia, Elizabeth line |
+| Paddington | 18 min | same as fastest | 38 | 10.0 | Great Western Railway, Elizabeth line |
+| Liverpool Street | 47 min | same as fastest | 53 | 6.0 | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 

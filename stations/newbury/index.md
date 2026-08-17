@@ -7,13 +7,13 @@ Newbury connects to 1 London terminal. The fastest route is Paddington in 40 min
 - London terminals served: 1 (Paddington)
 - Operator: Great Western Railway, Elizabeth line
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Newbury to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Paddington | 40 min | 51 | 2.8 | Great Western Railway, Elizabeth line |
+| Paddington | 40 min | same as fastest | 51 | 2.8 | Great Western Railway, Elizabeth line |
 
 ## Frequently asked questions
 

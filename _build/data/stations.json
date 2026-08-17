@@ -1,8 +1,8 @@
 {
   "source": "Darwin Timetable Files (Rail Delivery Group), via Rail Data Marketplace",
-  "basis": "fastest and median-peak weekday service, measured from published timetables",
+  "basis": "fastest weekday journey allowing at most one change, with the fastest direct service and the median peak service alongside, measured from published timetables",
   "maxMinutes": 90,
-  "lastReviewed": "2026-08-14",
+  "lastReviewed": "2026-08-17",
   "terminals": {
     "KGX": {
       "name": "Kings Cross",
@@ -70,6 +70,8 @@
         "STP": {
           "mins": 45,
           "direct": true,
+          "directMins": 45,
+          "changeAt": null,
           "typicalPeakMins": 45,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -78,6 +80,8 @@
         "PAD": {
           "mins": 28,
           "direct": true,
+          "directMins": 28,
+          "changeAt": null,
           "typicalPeakMins": 30,
           "peakTrainsPerHour": 11.6,
           "peakServices": 87,
@@ -86,6 +90,8 @@
         "LBG": {
           "mins": 27,
           "direct": true,
+          "directMins": 27,
+          "changeAt": null,
           "typicalPeakMins": 30,
           "peakTrainsPerHour": 9.6,
           "peakServices": 72,
@@ -94,6 +100,8 @@
         "LST": {
           "mins": 18,
           "direct": true,
+          "directMins": 18,
+          "changeAt": null,
           "typicalPeakMins": 18,
           "peakTrainsPerHour": 11.6,
           "peakServices": 87,
@@ -113,6 +121,8 @@
         "PAD": {
           "mins": 7,
           "direct": true,
+          "directMins": 7,
+          "changeAt": null,
           "typicalPeakMins": 8,
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
@@ -121,6 +131,8 @@
         "LST": {
           "mins": 18,
           "direct": true,
+          "directMins": 18,
+          "changeAt": null,
           "typicalPeakMins": 19,
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
@@ -140,6 +152,8 @@
         "WAT": {
           "mins": 46,
           "direct": true,
+          "directMins": 46,
+          "changeAt": null,
           "typicalPeakMins": 48,
           "peakTrainsPerHour": 2.8,
           "peakServices": 21,
@@ -159,6 +173,8 @@
         "KGX": {
           "mins": 11,
           "direct": true,
+          "directMins": 11,
+          "changeAt": null,
           "typicalPeakMins": 12,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -167,6 +183,8 @@
         "MOG": {
           "mins": 19,
           "direct": true,
+          "directMins": 19,
+          "changeAt": null,
           "typicalPeakMins": 22,
           "peakTrainsPerHour": 8.8,
           "peakServices": 66,
@@ -186,6 +204,8 @@
         "WAT": {
           "mins": 66,
           "direct": true,
+          "directMins": 66,
+          "changeAt": null,
           "typicalPeakMins": 67,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -205,6 +225,8 @@
         "WAT": {
           "mins": 62,
           "direct": true,
+          "directMins": 62,
+          "changeAt": null,
           "typicalPeakMins": 70,
           "peakTrainsPerHour": 1.9,
           "peakServices": 14,
@@ -225,6 +247,8 @@
           "mins": null,
           "direct": false,
           "changeRequired": true,
+          "directMins": null,
+          "changeAt": null,
           "typicalPeakMins": null,
           "peakTrainsPerHour": null
         }
@@ -242,6 +266,8 @@
         "EUS": {
           "mins": 28,
           "direct": true,
+          "directMins": 28,
+          "changeAt": null,
           "typicalPeakMins": 29,
           "peakTrainsPerHour": 3.6,
           "peakServices": 27,
@@ -261,6 +287,8 @@
         "KGX": {
           "mins": 38,
           "direct": true,
+          "directMins": 38,
+          "changeAt": null,
           "typicalPeakMins": null,
           "peakTrainsPerHour": null,
           "peakServices": 0,
@@ -269,6 +297,8 @@
         "STP": {
           "mins": 39,
           "direct": true,
+          "directMins": 39,
+          "changeAt": null,
           "typicalPeakMins": 41,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -277,6 +307,8 @@
         "LBG": {
           "mins": 54,
           "direct": true,
+          "directMins": 54,
+          "changeAt": null,
           "typicalPeakMins": 56,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -296,6 +328,8 @@
         "WAT": {
           "mins": 55,
           "direct": true,
+          "directMins": 55,
+          "changeAt": null,
           "typicalPeakMins": 60,
           "peakTrainsPerHour": 2.8,
           "peakServices": 21,
@@ -315,6 +349,8 @@
         "WAT": {
           "mins": 41,
           "direct": true,
+          "directMins": 41,
+          "changeAt": null,
           "typicalPeakMins": 43,
           "peakTrainsPerHour": 2.8,
           "peakServices": 21,
@@ -334,6 +370,8 @@
         "STP": {
           "mins": 36,
           "direct": true,
+          "directMins": 36,
+          "changeAt": null,
           "typicalPeakMins": 38,
           "peakTrainsPerHour": 3.6,
           "peakServices": 27,
@@ -342,6 +380,8 @@
         "LBG": {
           "mins": 71,
           "direct": true,
+          "directMins": 71,
+          "changeAt": null,
           "typicalPeakMins": 74,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -351,6 +391,8 @@
           "mins": null,
           "direct": false,
           "changeRequired": true,
+          "directMins": null,
+          "changeAt": null,
           "typicalPeakMins": null,
           "peakTrainsPerHour": null
         }
@@ -368,6 +410,8 @@
         "WAT": {
           "mins": 41,
           "direct": true,
+          "directMins": 41,
+          "changeAt": null,
           "typicalPeakMins": 46,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -376,6 +420,8 @@
         "VIC": {
           "mins": 46,
           "direct": true,
+          "directMins": 46,
+          "changeAt": null,
           "typicalPeakMins": 51,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -395,6 +441,8 @@
         "KGX": {
           "mins": 42,
           "direct": true,
+          "directMins": 42,
+          "changeAt": null,
           "typicalPeakMins": 42,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -403,6 +451,8 @@
         "STP": {
           "mins": 46,
           "direct": true,
+          "directMins": 46,
+          "changeAt": null,
           "typicalPeakMins": 47,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -411,6 +461,8 @@
         "LBG": {
           "mins": 61,
           "direct": true,
+          "directMins": 61,
+          "changeAt": null,
           "typicalPeakMins": 62,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -430,6 +482,8 @@
         "LST": {
           "mins": 55,
           "direct": true,
+          "directMins": 55,
+          "changeAt": null,
           "typicalPeakMins": 67,
           "peakTrainsPerHour": 3.3,
           "peakServices": 25,
@@ -449,6 +503,8 @@
         "MYB": {
           "mins": 55,
           "direct": true,
+          "directMins": 55,
+          "changeAt": null,
           "typicalPeakMins": 61,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -468,6 +524,8 @@
         "MYB": {
           "mins": 60,
           "direct": true,
+          "directMins": 60,
+          "changeAt": null,
           "typicalPeakMins": 67,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -487,6 +545,8 @@
         "STP": {
           "mins": 55,
           "direct": true,
+          "directMins": 55,
+          "changeAt": null,
           "typicalPeakMins": 55,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -495,17 +555,22 @@
         "LBG": {
           "mins": 40,
           "direct": true,
+          "directMins": 40,
+          "changeAt": null,
           "typicalPeakMins": 40,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 108
         },
         "VIC": {
-          "mins": null,
+          "mins": 49,
           "direct": false,
-          "changeRequired": true,
+          "directMins": null,
+          "changeAt": "Gatwick Airport",
           "typicalPeakMins": null,
-          "peakTrainsPerHour": null
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -521,6 +586,8 @@
         "KGX": {
           "mins": 36,
           "direct": true,
+          "directMins": 36,
+          "changeAt": null,
           "typicalPeakMins": 36,
           "peakTrainsPerHour": 2.4,
           "peakServices": 18,
@@ -529,6 +596,8 @@
         "STP": {
           "mins": 41,
           "direct": true,
+          "directMins": 41,
+          "changeAt": null,
           "typicalPeakMins": 42,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -537,6 +606,8 @@
         "LBG": {
           "mins": 56,
           "direct": true,
+          "directMins": 56,
+          "changeAt": null,
           "typicalPeakMins": 57,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -556,6 +627,8 @@
         "LBG": {
           "mins": 39,
           "direct": true,
+          "directMins": 39,
+          "changeAt": null,
           "typicalPeakMins": 44,
           "peakTrainsPerHour": 1.6,
           "peakServices": 12,
@@ -564,6 +637,8 @@
         "VIC": {
           "mins": 12,
           "direct": true,
+          "directMins": 12,
+          "changeAt": null,
           "typicalPeakMins": 14,
           "peakTrainsPerHour": 10.8,
           "peakServices": 81,
@@ -583,6 +658,8 @@
         "PAD": {
           "mins": 74,
           "direct": true,
+          "directMins": 74,
+          "changeAt": null,
           "typicalPeakMins": null,
           "peakTrainsPerHour": null,
           "peakServices": 0,
@@ -591,6 +668,8 @@
         "MYB": {
           "mins": 62,
           "direct": true,
+          "directMins": 62,
+          "changeAt": null,
           "typicalPeakMins": 65,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -610,6 +689,8 @@
         "FST": {
           "mins": 14,
           "direct": true,
+          "directMins": 14,
+          "changeAt": null,
           "typicalPeakMins": 16,
           "peakTrainsPerHour": 11.6,
           "peakServices": 87,
@@ -629,6 +710,8 @@
         "LBG": {
           "mins": 33,
           "direct": true,
+          "directMins": 33,
+          "changeAt": null,
           "typicalPeakMins": 36,
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
@@ -637,6 +720,8 @@
         "VIC": {
           "mins": 44,
           "direct": true,
+          "directMins": 44,
+          "changeAt": null,
           "typicalPeakMins": 46,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -656,6 +741,8 @@
         "WAT": {
           "mins": 19,
           "direct": true,
+          "directMins": 19,
+          "changeAt": null,
           "typicalPeakMins": 22,
           "peakTrainsPerHour": 9.6,
           "peakServices": 72,
@@ -675,6 +762,8 @@
         "FST": {
           "mins": 32,
           "direct": true,
+          "directMins": 32,
+          "changeAt": null,
           "typicalPeakMins": 36,
           "peakTrainsPerHour": 6.8,
           "peakServices": 51,
@@ -694,6 +783,8 @@
         "WAT": {
           "mins": 42,
           "direct": true,
+          "directMins": 42,
+          "changeAt": null,
           "typicalPeakMins": 51,
           "peakTrainsPerHour": 7.5,
           "peakServices": 56,
@@ -713,6 +804,8 @@
         "STP": {
           "mins": 73,
           "direct": true,
+          "directMins": 73,
+          "changeAt": null,
           "typicalPeakMins": 73,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -721,6 +814,8 @@
         "VIC": {
           "mins": 49,
           "direct": true,
+          "directMins": 49,
+          "changeAt": null,
           "typicalPeakMins": null,
           "peakTrainsPerHour": null,
           "peakServices": 0,
@@ -740,6 +835,8 @@
         "PAD": {
           "mins": 76,
           "direct": true,
+          "directMins": 76,
+          "changeAt": null,
           "typicalPeakMins": 83,
           "peakTrainsPerHour": 1.6,
           "peakServices": 12,
@@ -757,8 +854,10 @@
       "lng": -0.147533,
       "journeys": {
         "LBG": {
-          "mins": 49,
-          "direct": true,
+          "mins": 33,
+          "direct": false,
+          "directMins": 49,
+          "changeAt": "Peckham Rye",
           "typicalPeakMins": 54,
           "peakTrainsPerHour": 1.6,
           "peakServices": 12,
@@ -767,6 +866,8 @@
         "VIC": {
           "mins": 4,
           "direct": true,
+          "directMins": 4,
+          "changeAt": null,
           "typicalPeakMins": 4,
           "peakTrainsPerHour": 8.8,
           "peakServices": 66,
@@ -786,17 +887,22 @@
         "MOG": {
           "mins": 46,
           "direct": true,
+          "directMins": 46,
+          "changeAt": null,
           "typicalPeakMins": 48,
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
           "totalServices": 155
         },
         "KGX": {
-          "mins": null,
+          "mins": 46,
           "direct": false,
-          "changeRequired": true,
+          "directMins": null,
+          "changeAt": "Stevenage",
           "typicalPeakMins": null,
-          "peakTrainsPerHour": null
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -812,6 +918,8 @@
         "MYB": {
           "mins": 25,
           "direct": true,
+          "directMins": 25,
+          "changeAt": null,
           "typicalPeakMins": 32,
           "peakTrainsPerHour": 3.6,
           "peakServices": 27,
@@ -831,17 +939,22 @@
         "STP": {
           "mins": 38,
           "direct": true,
+          "directMins": 38,
+          "changeAt": null,
           "typicalPeakMins": 38,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 75
         },
         "LBG": {
-          "mins": null,
+          "mins": 44,
           "direct": false,
-          "changeRequired": true,
+          "directMins": null,
+          "changeAt": "London Blackfriars",
           "typicalPeakMins": null,
-          "peakTrainsPerHour": null
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -857,6 +970,8 @@
         "STP": {
           "mins": 39,
           "direct": true,
+          "directMins": 39,
+          "changeAt": null,
           "typicalPeakMins": 63,
           "peakTrainsPerHour": 7.2,
           "peakServices": 54,
@@ -865,6 +980,8 @@
         "LBG": {
           "mins": 66,
           "direct": true,
+          "directMins": 66,
+          "changeAt": null,
           "typicalPeakMins": 78,
           "peakTrainsPerHour": 5.2,
           "peakServices": 39,
@@ -884,6 +1001,8 @@
         "PAD": {
           "mins": 56,
           "direct": true,
+          "directMins": 56,
+          "changeAt": null,
           "typicalPeakMins": 69,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -903,6 +1022,8 @@
         "STP": {
           "mins": 36,
           "direct": true,
+          "directMins": 36,
+          "changeAt": null,
           "typicalPeakMins": 36,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -911,17 +1032,22 @@
         "VIC": {
           "mins": 24,
           "direct": true,
+          "directMins": 24,
+          "changeAt": null,
           "typicalPeakMins": 25,
           "peakTrainsPerHour": 1.2,
           "peakServices": 9,
           "totalServices": 12
         },
         "LBG": {
-          "mins": null,
+          "mins": 42,
           "direct": false,
-          "changeRequired": true,
+          "directMins": null,
+          "changeAt": "London Blackfriars",
           "typicalPeakMins": null,
-          "peakTrainsPerHour": null
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -937,6 +1063,8 @@
         "FST": {
           "mins": 37,
           "direct": true,
+          "directMins": 37,
+          "changeAt": null,
           "typicalPeakMins": 44,
           "peakTrainsPerHour": 8.0,
           "peakServices": 60,
@@ -956,6 +1084,8 @@
         "WAT": {
           "mins": 59,
           "direct": true,
+          "directMins": 59,
+          "changeAt": null,
           "typicalPeakMins": 60,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -975,6 +1105,8 @@
         "EUS": {
           "mins": 31,
           "direct": true,
+          "directMins": 31,
+          "changeAt": null,
           "typicalPeakMins": 37,
           "peakTrainsPerHour": 5.2,
           "peakServices": 39,
@@ -994,6 +1126,8 @@
         "LBG": {
           "mins": 30,
           "direct": true,
+          "directMins": 30,
+          "changeAt": null,
           "typicalPeakMins": 32,
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
@@ -1002,6 +1136,8 @@
         "VIC": {
           "mins": 41,
           "direct": true,
+          "directMins": 41,
+          "changeAt": null,
           "typicalPeakMins": 42,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -1021,6 +1157,8 @@
         "MYB": {
           "mins": 48,
           "direct": true,
+          "directMins": 48,
+          "changeAt": null,
           "typicalPeakMins": 52,
           "peakTrainsPerHour": 2.4,
           "peakServices": 18,
@@ -1040,6 +1178,8 @@
         "STP": {
           "mins": 48,
           "direct": true,
+          "directMins": 48,
+          "changeAt": null,
           "typicalPeakMins": 48,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -1048,6 +1188,8 @@
         "VIC": {
           "mins": 25,
           "direct": true,
+          "directMins": 25,
+          "changeAt": null,
           "typicalPeakMins": 35,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -1067,6 +1209,8 @@
         "KGX": {
           "mins": 30,
           "direct": true,
+          "directMins": 30,
+          "changeAt": null,
           "typicalPeakMins": 35,
           "peakTrainsPerHour": 1.5,
           "peakServices": 11,
@@ -1075,6 +1219,8 @@
         "STP": {
           "mins": 44,
           "direct": true,
+          "directMins": 44,
+          "changeAt": null,
           "typicalPeakMins": 46,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -1083,6 +1229,8 @@
         "LBG": {
           "mins": 59,
           "direct": true,
+          "directMins": 59,
+          "changeAt": null,
           "typicalPeakMins": 61,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -1102,6 +1250,8 @@
         "LST": {
           "mins": 31,
           "direct": true,
+          "directMins": 31,
+          "changeAt": null,
           "typicalPeakMins": 35,
           "peakTrainsPerHour": 5.6,
           "peakServices": 42,
@@ -1121,6 +1271,8 @@
         "EUS": {
           "mins": 68,
           "direct": true,
+          "directMins": 68,
+          "changeAt": null,
           "typicalPeakMins": 79,
           "peakTrainsPerHour": 4.9,
           "peakServices": 37,
@@ -1140,6 +1292,8 @@
         "EUS": {
           "mins": 79,
           "direct": true,
+          "directMins": 79,
+          "changeAt": null,
           "typicalPeakMins": 91,
           "peakTrainsPerHour": 4.5,
           "peakServices": 34,
@@ -1159,6 +1313,8 @@
         "LST": {
           "mins": 37,
           "direct": true,
+          "directMins": 37,
+          "changeAt": null,
           "typicalPeakMins": 46,
           "peakTrainsPerHour": 6.9,
           "peakServices": 52,
@@ -1178,6 +1334,8 @@
         "LBG": {
           "mins": 14,
           "direct": true,
+          "directMins": 14,
+          "changeAt": null,
           "typicalPeakMins": 15,
           "peakTrainsPerHour": 6.8,
           "peakServices": 51,
@@ -1186,6 +1344,8 @@
         "VIC": {
           "mins": 25,
           "direct": true,
+          "directMins": 25,
+          "changeAt": null,
           "typicalPeakMins": 26,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -1205,6 +1365,8 @@
         "EUS": {
           "mins": 37,
           "direct": true,
+          "directMins": 37,
+          "changeAt": null,
           "typicalPeakMins": 61,
           "peakTrainsPerHour": 4.4,
           "peakServices": 33,
@@ -1224,6 +1386,8 @@
         "WAT": {
           "mins": 50,
           "direct": true,
+          "directMins": 50,
+          "changeAt": null,
           "typicalPeakMins": 54,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -1232,6 +1396,8 @@
         "VIC": {
           "mins": 59,
           "direct": true,
+          "directMins": 59,
+          "changeAt": null,
           "typicalPeakMins": 61,
           "peakTrainsPerHour": 1.2,
           "peakServices": 9,
@@ -1251,6 +1417,8 @@
         "LST": {
           "mins": 60,
           "direct": true,
+          "directMins": 60,
+          "changeAt": null,
           "typicalPeakMins": 67,
           "peakTrainsPerHour": 1.2,
           "peakServices": 9,
@@ -1270,6 +1438,8 @@
         "WAT": {
           "mins": 29,
           "direct": true,
+          "directMins": 29,
+          "changeAt": null,
           "typicalPeakMins": 33,
           "peakTrainsPerHour": 4.4,
           "peakServices": 33,
@@ -1289,14 +1459,18 @@
         "PAD": {
           "mins": 50,
           "direct": true,
+          "directMins": 50,
+          "changeAt": null,
           "typicalPeakMins": 52,
           "peakTrainsPerHour": 11.2,
           "peakServices": 84,
           "totalServices": 492
         },
         "LST": {
-          "mins": 39,
-          "direct": true,
+          "mins": 36,
+          "direct": false,
+          "directMins": 39,
+          "changeAt": "Romford",
           "typicalPeakMins": 40,
           "peakTrainsPerHour": 11.2,
           "peakServices": 84,
@@ -1316,6 +1490,8 @@
         "STP": {
           "mins": 76,
           "direct": true,
+          "directMins": 76,
+          "changeAt": null,
           "typicalPeakMins": 82,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -1324,6 +1500,8 @@
         "LBG": {
           "mins": 61,
           "direct": true,
+          "directMins": 61,
+          "changeAt": null,
           "typicalPeakMins": 68,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -1332,6 +1510,8 @@
         "VIC": {
           "mins": 60,
           "direct": true,
+          "directMins": 60,
+          "changeAt": null,
           "typicalPeakMins": 65,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -1351,6 +1531,8 @@
         "PAD": {
           "mins": 89,
           "direct": true,
+          "directMins": 89,
+          "changeAt": null,
           "typicalPeakMins": 99,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -1368,8 +1550,10 @@
       "lng": 0.017344,
       "journeys": {
         "STP": {
-          "mins": 45,
-          "direct": true,
+          "mins": 43,
+          "direct": false,
+          "directMins": 45,
+          "changeAt": "London Blackfriars",
           "typicalPeakMins": 46,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -1378,6 +1562,8 @@
         "VIC": {
           "mins": 15,
           "direct": true,
+          "directMins": 15,
+          "changeAt": null,
           "typicalPeakMins": 23,
           "peakTrainsPerHour": 12.0,
           "peakServices": 90,
@@ -1395,8 +1581,10 @@
       "lng": -0.204549,
       "journeys": {
         "KGX": {
-          "mins": 36,
-          "direct": true,
+          "mins": 33,
+          "direct": false,
+          "directMins": 36,
+          "changeAt": "Potters Bar",
           "typicalPeakMins": null,
           "peakTrainsPerHour": null,
           "peakServices": 0,
@@ -1405,6 +1593,8 @@
         "MOG": {
           "mins": 37,
           "direct": true,
+          "directMins": 37,
+          "changeAt": null,
           "typicalPeakMins": 42,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -1424,6 +1614,8 @@
         "WAT": {
           "mins": 34,
           "direct": true,
+          "directMins": 34,
+          "changeAt": null,
           "typicalPeakMins": 36,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -1443,6 +1635,8 @@
         "LST": {
           "mins": 27,
           "direct": true,
+          "directMins": 27,
+          "changeAt": null,
           "typicalPeakMins": 31,
           "peakTrainsPerHour": 5.3,
           "peakServices": 40,
@@ -1462,6 +1656,8 @@
         "STP": {
           "mins": 65,
           "direct": true,
+          "directMins": 65,
+          "changeAt": null,
           "typicalPeakMins": 67,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -1470,6 +1666,8 @@
         "LBG": {
           "mins": 50,
           "direct": true,
+          "directMins": 50,
+          "changeAt": null,
           "typicalPeakMins": 53,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -1478,6 +1676,8 @@
         "VIC": {
           "mins": 50,
           "direct": true,
+          "directMins": 50,
+          "changeAt": null,
           "typicalPeakMins": 50,
           "peakTrainsPerHour": 3.6,
           "peakServices": 27,
@@ -1495,8 +1695,10 @@
       "lng": -0.646374,
       "journeys": {
         "PAD": {
-          "mins": 33,
-          "direct": true,
+          "mins": 26,
+          "direct": false,
+          "directMins": 33,
+          "changeAt": "Slough",
           "typicalPeakMins": 36,
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
@@ -1505,6 +1707,8 @@
         "LST": {
           "mins": 43,
           "direct": true,
+          "directMins": 43,
+          "changeAt": null,
           "typicalPeakMins": 47,
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
@@ -1524,6 +1728,8 @@
         "EUS": {
           "mins": 16,
           "direct": true,
+          "directMins": 16,
+          "changeAt": null,
           "typicalPeakMins": 21,
           "peakTrainsPerHour": 7.9,
           "peakServices": 59,
@@ -1544,6 +1750,8 @@
         "WAT": {
           "mins": 38,
           "direct": true,
+          "directMins": 38,
+          "changeAt": null,
           "typicalPeakMins": 40,
           "peakTrainsPerHour": 2.4,
           "peakServices": 18,
@@ -1563,6 +1771,8 @@
         "KGX": {
           "mins": 50,
           "direct": true,
+          "directMins": 50,
+          "changeAt": null,
           "typicalPeakMins": 68,
           "peakTrainsPerHour": 3.9,
           "peakServices": 29,
@@ -1571,6 +1781,8 @@
         "STP": {
           "mins": 68,
           "direct": true,
+          "directMins": 68,
+          "changeAt": null,
           "typicalPeakMins": 68,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -1579,6 +1791,8 @@
         "LBG": {
           "mins": 83,
           "direct": true,
+          "directMins": 83,
+          "changeAt": null,
           "typicalPeakMins": 83,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -1587,6 +1801,8 @@
         "LST": {
           "mins": 73,
           "direct": true,
+          "directMins": 73,
+          "changeAt": null,
           "typicalPeakMins": 87,
           "peakTrainsPerHour": 3.3,
           "peakServices": 25,
@@ -1606,17 +1822,22 @@
         "STP": {
           "mins": 33,
           "direct": true,
+          "directMins": 33,
+          "changeAt": null,
           "typicalPeakMins": 33,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 75
         },
         "LBG": {
-          "mins": null,
+          "mins": 39,
           "direct": false,
-          "changeRequired": true,
+          "directMins": null,
+          "changeAt": "London Blackfriars",
           "typicalPeakMins": null,
-          "peakTrainsPerHour": null
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -1632,6 +1853,8 @@
         "FST": {
           "mins": 33,
           "direct": true,
+          "directMins": 33,
+          "changeAt": null,
           "typicalPeakMins": 36,
           "peakTrainsPerHour": 3.6,
           "peakServices": 27,
@@ -1651,6 +1874,8 @@
         "FST": {
           "mins": 42,
           "direct": true,
+          "directMins": 42,
+          "changeAt": null,
           "typicalPeakMins": 52,
           "peakTrainsPerHour": 6.8,
           "peakServices": 51,
@@ -1670,6 +1895,8 @@
         "PAD": {
           "mins": 69,
           "direct": true,
+          "directMins": 69,
+          "changeAt": null,
           "typicalPeakMins": 72,
           "peakTrainsPerHour": 1.2,
           "peakServices": 9,
@@ -1689,6 +1916,8 @@
         "STP": {
           "mins": 39,
           "direct": true,
+          "directMins": 39,
+          "changeAt": null,
           "typicalPeakMins": 68,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -1697,6 +1926,8 @@
         "LBG": {
           "mins": 40,
           "direct": true,
+          "directMins": 40,
+          "changeAt": null,
           "typicalPeakMins": 60,
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
@@ -1705,6 +1936,8 @@
         "VIC": {
           "mins": 44,
           "direct": true,
+          "directMins": 44,
+          "changeAt": null,
           "typicalPeakMins": 64,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -1722,8 +1955,10 @@
       "lng": -0.662152,
       "journeys": {
         "EUS": {
-          "mins": 49,
-          "direct": true,
+          "mins": 44,
+          "direct": false,
+          "directMins": 49,
+          "changeAt": "Tring",
           "typicalPeakMins": 50,
           "peakTrainsPerHour": 2.4,
           "peakServices": 18,
@@ -1743,6 +1978,8 @@
         "LST": {
           "mins": 29,
           "direct": true,
+          "directMins": 29,
+          "changeAt": null,
           "typicalPeakMins": 38,
           "peakTrainsPerHour": 7.2,
           "peakServices": 54,
@@ -1762,6 +1999,8 @@
         "LST": {
           "mins": 23,
           "direct": true,
+          "directMins": 23,
+          "changeAt": null,
           "typicalPeakMins": 26,
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
@@ -1781,6 +2020,8 @@
         "WAT": {
           "mins": 36,
           "direct": true,
+          "directMins": 36,
+          "changeAt": null,
           "typicalPeakMins": 39,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -1800,6 +2041,8 @@
         "PAD": {
           "mins": 63,
           "direct": true,
+          "directMins": 63,
+          "changeAt": null,
           "typicalPeakMins": 70,
           "peakTrainsPerHour": 1.6,
           "peakServices": 12,
@@ -1819,6 +2062,8 @@
         "LBG": {
           "mins": 20,
           "direct": true,
+          "directMins": 20,
+          "changeAt": null,
           "typicalPeakMins": 26,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -1836,8 +2081,10 @@
       "lng": -1.158023,
       "journeys": {
         "PAD": {
-          "mins": 55,
-          "direct": true,
+          "mins": 49,
+          "direct": false,
+          "directMins": 55,
+          "changeAt": "Reading",
           "typicalPeakMins": 61,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -1857,6 +2104,8 @@
         "WAT": {
           "mins": 51,
           "direct": true,
+          "directMins": 51,
+          "changeAt": null,
           "typicalPeakMins": 58,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -1876,14 +2125,18 @@
         "WAT": {
           "mins": 8,
           "direct": true,
+          "directMins": 8,
+          "changeAt": null,
           "typicalPeakMins": 12,
           "peakTrainsPerHour": 30.4,
           "peakServices": 228,
           "totalServices": 1590
         },
         "LBG": {
-          "mins": 44,
-          "direct": true,
+          "mins": 33,
+          "direct": false,
+          "directMins": 44,
+          "changeAt": "East Croydon",
           "typicalPeakMins": 50,
           "peakTrainsPerHour": 1.6,
           "peakServices": 12,
@@ -1892,6 +2145,8 @@
         "VIC": {
           "mins": 6,
           "direct": true,
+          "directMins": 6,
+          "changeAt": null,
           "typicalPeakMins": 8,
           "peakTrainsPerHour": 20.0,
           "peakServices": 150,
@@ -1915,6 +2170,8 @@
         "WAT": {
           "mins": 32,
           "direct": true,
+          "directMins": 32,
+          "changeAt": null,
           "typicalPeakMins": 39,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -1934,6 +2191,8 @@
         "WAT": {
           "mins": 39,
           "direct": true,
+          "directMins": 39,
+          "changeAt": null,
           "typicalPeakMins": 46,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -1953,6 +2212,8 @@
         "LST": {
           "mins": 47,
           "direct": true,
+          "directMins": 47,
+          "changeAt": null,
           "typicalPeakMins": 62,
           "peakTrainsPerHour": 6.8,
           "peakServices": 51,
@@ -1972,6 +2233,8 @@
         "STP": {
           "mins": 36,
           "direct": true,
+          "directMins": 36,
+          "changeAt": null,
           "typicalPeakMins": 36,
           "peakTrainsPerHour": 2.8,
           "peakServices": 21,
@@ -1980,6 +2243,8 @@
         "LBG": {
           "mins": 21,
           "direct": true,
+          "directMins": 21,
+          "changeAt": null,
           "typicalPeakMins": 21,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -1988,6 +2253,8 @@
         "VIC": {
           "mins": 30,
           "direct": true,
+          "directMins": 30,
+          "changeAt": null,
           "typicalPeakMins": 30,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -2007,6 +2274,8 @@
         "EUS": {
           "mins": 56,
           "direct": true,
+          "directMins": 56,
+          "changeAt": null,
           "typicalPeakMins": 67,
           "peakTrainsPerHour": 4.9,
           "peakServices": 37,
@@ -2024,16 +2293,20 @@
       "lng": -0.186673,
       "journeys": {
         "STP": {
-          "mins": 66,
-          "direct": true,
+          "mins": 62,
+          "direct": false,
+          "directMins": 66,
+          "changeAt": "Three Bridges",
           "typicalPeakMins": 68,
           "peakTrainsPerHour": 2.4,
           "peakServices": 18,
           "totalServices": 111
         },
         "LBG": {
-          "mins": 51,
-          "direct": true,
+          "mins": 47,
+          "direct": false,
+          "directMins": 51,
+          "changeAt": "Three Bridges",
           "typicalPeakMins": 52,
           "peakTrainsPerHour": 2.8,
           "peakServices": 21,
@@ -2042,6 +2315,8 @@
         "VIC": {
           "mins": 43,
           "direct": true,
+          "directMins": 43,
+          "changeAt": null,
           "typicalPeakMins": 43,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -2061,17 +2336,22 @@
         "MOG": {
           "mins": 39,
           "direct": true,
+          "directMins": 39,
+          "changeAt": null,
           "typicalPeakMins": 41,
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
           "totalServices": 155
         },
         "KGX": {
-          "mins": null,
+          "mins": 40,
           "direct": false,
-          "changeRequired": true,
+          "directMins": null,
+          "changeAt": "Alexandra Palace",
           "typicalPeakMins": null,
-          "peakTrainsPerHour": null
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -2087,6 +2367,8 @@
         "STP": {
           "mins": 13,
           "direct": true,
+          "directMins": 13,
+          "changeAt": null,
           "typicalPeakMins": 13,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -2106,6 +2388,8 @@
         "KGX": {
           "mins": 31,
           "direct": true,
+          "directMins": 31,
+          "changeAt": null,
           "typicalPeakMins": null,
           "peakTrainsPerHour": null,
           "peakServices": 0,
@@ -2114,6 +2398,8 @@
         "MOG": {
           "mins": 42,
           "direct": true,
+          "directMins": 42,
+          "changeAt": null,
           "typicalPeakMins": 44,
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
@@ -2133,6 +2419,8 @@
         "FST": {
           "mins": 20,
           "direct": true,
+          "directMins": 20,
+          "changeAt": null,
           "typicalPeakMins": 22,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -2150,8 +2438,10 @@
       "lng": 0.219248,
       "journeys": {
         "STP": {
-          "mins": 56,
-          "direct": true,
+          "mins": 42,
+          "direct": false,
+          "directMins": 56,
+          "changeAt": "Gravesend",
           "typicalPeakMins": 57,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -2160,6 +2450,8 @@
         "LBG": {
           "mins": 38,
           "direct": true,
+          "directMins": 38,
+          "changeAt": null,
           "typicalPeakMins": 42,
           "peakTrainsPerHour": 7.2,
           "peakServices": 54,
@@ -2168,6 +2460,8 @@
         "VIC": {
           "mins": 51,
           "direct": true,
+          "directMins": 51,
+          "changeAt": null,
           "typicalPeakMins": 53,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -2187,6 +2481,8 @@
         "MYB": {
           "mins": 19,
           "direct": true,
+          "directMins": 19,
+          "changeAt": null,
           "typicalPeakMins": 22,
           "peakTrainsPerHour": 1.6,
           "peakServices": 12,
@@ -2206,6 +2502,8 @@
         "MYB": {
           "mins": 22,
           "direct": true,
+          "directMins": 22,
+          "changeAt": null,
           "typicalPeakMins": 24,
           "peakTrainsPerHour": 0.8,
           "peakServices": 6,
@@ -2225,6 +2523,8 @@
         "STP": {
           "mins": 20,
           "direct": true,
+          "directMins": 20,
+          "changeAt": null,
           "typicalPeakMins": 20,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -2233,6 +2533,8 @@
         "VIC": {
           "mins": 9,
           "direct": true,
+          "directMins": 9,
+          "changeAt": null,
           "typicalPeakMins": 10,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -2252,6 +2554,8 @@
         "PAD": {
           "mins": 37,
           "direct": true,
+          "directMins": 37,
+          "changeAt": null,
           "typicalPeakMins": 43,
           "peakTrainsPerHour": 5.6,
           "peakServices": 42,
@@ -2271,6 +2575,8 @@
         "WAT": {
           "mins": 53,
           "direct": true,
+          "directMins": 53,
+          "changeAt": null,
           "typicalPeakMins": 57,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -2279,6 +2585,8 @@
         "VIC": {
           "mins": 57,
           "direct": true,
+          "directMins": 57,
+          "changeAt": null,
           "typicalPeakMins": 64,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -2298,6 +2606,8 @@
         "PAD": {
           "mins": 8,
           "direct": true,
+          "directMins": 8,
+          "changeAt": null,
           "typicalPeakMins": 11,
           "peakTrainsPerHour": 12.0,
           "peakServices": 90,
@@ -2306,6 +2616,8 @@
         "LST": {
           "mins": 20,
           "direct": true,
+          "directMins": 20,
+          "changeAt": null,
           "typicalPeakMins": 22,
           "peakTrainsPerHour": 12.0,
           "peakServices": 90,
@@ -2325,6 +2637,8 @@
         "WAT": {
           "mins": 13,
           "direct": true,
+          "directMins": 13,
+          "changeAt": null,
           "typicalPeakMins": 15,
           "peakTrainsPerHour": 16.4,
           "peakServices": 123,
@@ -2344,6 +2658,8 @@
         "STP": {
           "mins": 46,
           "direct": true,
+          "directMins": 46,
+          "changeAt": null,
           "typicalPeakMins": 52,
           "peakTrainsPerHour": 1.6,
           "peakServices": 12,
@@ -2352,6 +2668,8 @@
         "LBG": {
           "mins": 31,
           "direct": true,
+          "directMins": 31,
+          "changeAt": null,
           "typicalPeakMins": 38,
           "peakTrainsPerHour": 1.6,
           "peakServices": 12,
@@ -2371,6 +2689,8 @@
         "STP": {
           "mins": 29,
           "direct": true,
+          "directMins": 29,
+          "changeAt": null,
           "typicalPeakMins": 30,
           "peakTrainsPerHour": 8.8,
           "peakServices": 66,
@@ -2379,6 +2699,8 @@
         "LBG": {
           "mins": 13,
           "direct": true,
+          "directMins": 13,
+          "changeAt": null,
           "typicalPeakMins": 15,
           "peakTrainsPerHour": 12.8,
           "peakServices": 96,
@@ -2387,6 +2709,8 @@
         "VIC": {
           "mins": 16,
           "direct": true,
+          "directMins": 16,
+          "changeAt": null,
           "typicalPeakMins": 17,
           "peakTrainsPerHour": 9.2,
           "peakServices": 69,
@@ -2406,6 +2730,8 @@
         "STP": {
           "mins": 67,
           "direct": true,
+          "directMins": 67,
+          "changeAt": null,
           "typicalPeakMins": 71,
           "peakTrainsPerHour": 1.2,
           "peakServices": 9,
@@ -2414,6 +2740,8 @@
         "LBG": {
           "mins": 51,
           "direct": true,
+          "directMins": 51,
+          "changeAt": null,
           "typicalPeakMins": 55,
           "peakTrainsPerHour": 1.2,
           "peakServices": 9,
@@ -2422,6 +2750,8 @@
         "VIC": {
           "mins": 56,
           "direct": true,
+          "directMins": 56,
+          "changeAt": null,
           "typicalPeakMins": 56,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -2441,6 +2771,8 @@
         "FST": {
           "mins": 44,
           "direct": true,
+          "directMins": 44,
+          "changeAt": null,
           "typicalPeakMins": 48,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -2460,6 +2792,8 @@
         "WAT": {
           "mins": 43,
           "direct": true,
+          "directMins": 43,
+          "changeAt": null,
           "typicalPeakMins": 50,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -2479,6 +2813,8 @@
         "WAT": {
           "mins": 42,
           "direct": true,
+          "directMins": 42,
+          "changeAt": null,
           "typicalPeakMins": 48,
           "peakTrainsPerHour": 4.4,
           "peakServices": 33,
@@ -2498,6 +2834,8 @@
         "LST": {
           "mins": 51,
           "direct": true,
+          "directMins": 51,
+          "changeAt": null,
           "typicalPeakMins": 59,
           "peakTrainsPerHour": 1.9,
           "peakServices": 14,
@@ -2517,6 +2855,8 @@
         "STP": {
           "mins": 23,
           "direct": true,
+          "directMins": 23,
+          "changeAt": null,
           "typicalPeakMins": 26,
           "peakTrainsPerHour": 6.4,
           "peakServices": 48,
@@ -2525,6 +2865,8 @@
         "LBG": {
           "mins": 38,
           "direct": true,
+          "directMins": 38,
+          "changeAt": null,
           "typicalPeakMins": 38,
           "peakTrainsPerHour": 0.4,
           "peakServices": 3,
@@ -2544,6 +2886,8 @@
         "LBG": {
           "mins": 21,
           "direct": true,
+          "directMins": 21,
+          "changeAt": null,
           "typicalPeakMins": 24,
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
@@ -2552,6 +2896,8 @@
         "VIC": {
           "mins": 32,
           "direct": true,
+          "directMins": 32,
+          "changeAt": null,
           "typicalPeakMins": 34,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -2571,6 +2917,8 @@
         "KGX": {
           "mins": 24,
           "direct": true,
+          "directMins": 24,
+          "changeAt": null,
           "typicalPeakMins": null,
           "peakTrainsPerHour": null,
           "peakServices": 0,
@@ -2579,6 +2927,8 @@
         "MOG": {
           "mins": 29,
           "direct": true,
+          "directMins": 29,
+          "changeAt": null,
           "typicalPeakMins": 35,
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
@@ -2598,6 +2948,8 @@
         "WAT": {
           "mins": 36,
           "direct": true,
+          "directMins": 36,
+          "changeAt": null,
           "typicalPeakMins": 41,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -2606,6 +2958,8 @@
         "LBG": {
           "mins": 42,
           "direct": true,
+          "directMins": 42,
+          "changeAt": null,
           "typicalPeakMins": 43,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -2614,6 +2968,8 @@
         "VIC": {
           "mins": 41,
           "direct": true,
+          "directMins": 41,
+          "changeAt": null,
           "typicalPeakMins": 44,
           "peakTrainsPerHour": 2.4,
           "peakServices": 18,
@@ -2633,6 +2989,8 @@
         "LBG": {
           "mins": 33,
           "direct": true,
+          "directMins": 33,
+          "changeAt": null,
           "typicalPeakMins": 40,
           "peakTrainsPerHour": 7.6,
           "peakServices": 57,
@@ -2652,6 +3010,8 @@
         "WAT": {
           "mins": 23,
           "direct": true,
+          "directMins": 23,
+          "changeAt": null,
           "typicalPeakMins": 24,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -2671,6 +3031,8 @@
         "WAT": {
           "mins": 33,
           "direct": true,
+          "directMins": 33,
+          "changeAt": null,
           "typicalPeakMins": 37,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -2690,6 +3052,8 @@
         "WAT": {
           "mins": 34,
           "direct": true,
+          "directMins": 34,
+          "changeAt": null,
           "typicalPeakMins": 41,
           "peakTrainsPerHour": 3.6,
           "peakServices": 27,
@@ -2709,6 +3073,8 @@
         "WAT": {
           "mins": 39,
           "direct": true,
+          "directMins": 39,
+          "changeAt": null,
           "typicalPeakMins": 47,
           "peakTrainsPerHour": 2.8,
           "peakServices": 21,
@@ -2728,6 +3094,8 @@
         "WAT": {
           "mins": 52,
           "direct": true,
+          "directMins": 52,
+          "changeAt": null,
           "typicalPeakMins": 54,
           "peakTrainsPerHour": 2.8,
           "peakServices": 21,
@@ -2747,6 +3115,8 @@
         "STP": {
           "mins": 66,
           "direct": true,
+          "directMins": 66,
+          "changeAt": null,
           "typicalPeakMins": 68,
           "peakTrainsPerHour": 2.4,
           "peakServices": 18,
@@ -2755,6 +3125,8 @@
         "LBG": {
           "mins": 71,
           "direct": true,
+          "directMins": 71,
+          "changeAt": null,
           "typicalPeakMins": 71,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -2763,6 +3135,8 @@
         "VIC": {
           "mins": 72,
           "direct": true,
+          "directMins": 72,
+          "changeAt": null,
           "typicalPeakMins": 80,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -2782,6 +3156,8 @@
         "WAT": {
           "mins": 29,
           "direct": true,
+          "directMins": 29,
+          "changeAt": null,
           "typicalPeakMins": 35,
           "peakTrainsPerHour": 6.8,
           "peakServices": 51,
@@ -2801,6 +3177,8 @@
         "KGX": {
           "mins": 6,
           "direct": true,
+          "directMins": 6,
+          "changeAt": null,
           "typicalPeakMins": 7,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -2809,6 +3187,8 @@
         "STP": {
           "mins": 7,
           "direct": true,
+          "directMins": 7,
+          "changeAt": null,
           "typicalPeakMins": 7,
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
@@ -2817,6 +3197,8 @@
         "LBG": {
           "mins": 22,
           "direct": true,
+          "directMins": 22,
+          "changeAt": null,
           "typicalPeakMins": 22,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -2825,6 +3207,8 @@
         "MOG": {
           "mins": 14,
           "direct": true,
+          "directMins": 14,
+          "changeAt": null,
           "typicalPeakMins": 14,
           "peakTrainsPerHour": 8.8,
           "peakServices": 66,
@@ -2844,6 +3228,8 @@
         "WAT": {
           "mins": 40,
           "direct": true,
+          "directMins": 40,
+          "changeAt": null,
           "typicalPeakMins": 48,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -2863,6 +3249,8 @@
         "STP": {
           "mins": 41,
           "direct": true,
+          "directMins": 41,
+          "changeAt": null,
           "typicalPeakMins": 51,
           "peakTrainsPerHour": 5.2,
           "peakServices": 39,
@@ -2871,6 +3259,8 @@
         "LBG": {
           "mins": 56,
           "direct": true,
+          "directMins": 56,
+          "changeAt": null,
           "typicalPeakMins": 66,
           "peakTrainsPerHour": 5.2,
           "peakServices": 39,
@@ -2890,6 +3280,8 @@
         "KGX": {
           "mins": 57,
           "direct": true,
+          "directMins": 57,
+          "changeAt": null,
           "typicalPeakMins": 57,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -2909,6 +3301,8 @@
         "STP": {
           "mins": 44,
           "direct": true,
+          "directMins": 44,
+          "changeAt": null,
           "typicalPeakMins": 44,
           "peakTrainsPerHour": 7.6,
           "peakServices": 57,
@@ -2917,6 +3311,8 @@
         "LBG": {
           "mins": 29,
           "direct": true,
+          "directMins": 29,
+          "changeAt": null,
           "typicalPeakMins": 36,
           "peakTrainsPerHour": 8.0,
           "peakServices": 60,
@@ -2925,6 +3321,8 @@
         "VIC": {
           "mins": 29,
           "direct": true,
+          "directMins": 29,
+          "changeAt": null,
           "typicalPeakMins": 32,
           "peakTrainsPerHour": 6.8,
           "peakServices": 51,
@@ -2944,6 +3342,8 @@
         "MYB": {
           "mins": 19,
           "direct": true,
+          "directMins": 19,
+          "changeAt": null,
           "typicalPeakMins": 28,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -2963,6 +3363,8 @@
         "STP": {
           "mins": 43,
           "direct": true,
+          "directMins": 43,
+          "changeAt": null,
           "typicalPeakMins": 72,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -2971,6 +3373,8 @@
         "LBG": {
           "mins": 44,
           "direct": true,
+          "directMins": 44,
+          "changeAt": null,
           "typicalPeakMins": 65,
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
@@ -2979,6 +3383,8 @@
         "VIC": {
           "mins": 48,
           "direct": true,
+          "directMins": 48,
+          "changeAt": null,
           "typicalPeakMins": 68,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -2998,6 +3404,8 @@
         "WAT": {
           "mins": 39,
           "direct": true,
+          "directMins": 39,
+          "changeAt": null,
           "typicalPeakMins": 48,
           "peakTrainsPerHour": 4.4,
           "peakServices": 33,
@@ -3017,6 +3425,8 @@
         "KGX": {
           "mins": 26,
           "direct": true,
+          "directMins": 26,
+          "changeAt": null,
           "typicalPeakMins": null,
           "peakTrainsPerHour": null,
           "peakServices": 0,
@@ -3025,6 +3435,8 @@
         "MOG": {
           "mins": 31,
           "direct": true,
+          "directMins": 31,
+          "changeAt": null,
           "typicalPeakMins": 37,
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
@@ -3042,8 +3454,10 @@
       "lng": -1.133049,
       "journeys": {
         "PAD": {
-          "mins": 50,
-          "direct": true,
+          "mins": 45,
+          "direct": false,
+          "directMins": 50,
+          "changeAt": "Reading",
           "typicalPeakMins": 56,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -3063,6 +3477,8 @@
         "KGX": {
           "mins": 65,
           "direct": true,
+          "directMins": 65,
+          "changeAt": null,
           "typicalPeakMins": 72,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -3082,6 +3498,8 @@
         "WAT": {
           "mins": 75,
           "direct": true,
+          "directMins": 75,
+          "changeAt": null,
           "typicalPeakMins": 77,
           "peakTrainsPerHour": 1.9,
           "peakServices": 14,
@@ -3101,6 +3519,8 @@
         "STP": {
           "mins": 22,
           "direct": true,
+          "directMins": 22,
+          "changeAt": null,
           "typicalPeakMins": 25,
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
@@ -3109,6 +3529,8 @@
         "LBG": {
           "mins": 56,
           "direct": true,
+          "directMins": 56,
+          "changeAt": null,
           "typicalPeakMins": 59,
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
@@ -3117,6 +3539,8 @@
         "VIC": {
           "mins": 63,
           "direct": true,
+          "directMins": 63,
+          "changeAt": null,
           "typicalPeakMins": 65,
           "peakTrainsPerHour": 1.2,
           "peakServices": 9,
@@ -3136,6 +3560,8 @@
         "FST": {
           "mins": 35,
           "direct": true,
+          "directMins": 35,
+          "changeAt": null,
           "typicalPeakMins": 39,
           "peakTrainsPerHour": 6.8,
           "peakServices": 51,
@@ -3155,6 +3581,8 @@
         "MYB": {
           "mins": 39,
           "direct": true,
+          "directMins": 39,
+          "changeAt": null,
           "typicalPeakMins": 46,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -3174,6 +3602,8 @@
         "LBG": {
           "mins": 13,
           "direct": true,
+          "directMins": 13,
+          "changeAt": null,
           "typicalPeakMins": 19,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -3193,6 +3623,8 @@
         "WAT": {
           "mins": 32,
           "direct": true,
+          "directMins": 32,
+          "changeAt": null,
           "typicalPeakMins": 44,
           "peakTrainsPerHour": 8.0,
           "peakServices": 60,
@@ -3212,6 +3644,8 @@
         "MYB": {
           "mins": 39,
           "direct": true,
+          "directMins": 39,
+          "changeAt": null,
           "typicalPeakMins": 52,
           "peakTrainsPerHour": 2.8,
           "peakServices": 21,
@@ -3231,6 +3665,8 @@
         "KGX": {
           "mins": 27,
           "direct": true,
+          "directMins": 27,
+          "changeAt": null,
           "typicalPeakMins": null,
           "peakTrainsPerHour": null,
           "peakServices": 0,
@@ -3239,6 +3675,8 @@
         "MOG": {
           "mins": 30,
           "direct": true,
+          "directMins": 30,
+          "changeAt": null,
           "typicalPeakMins": 35,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -3256,8 +3694,10 @@
       "lng": -0.342748,
       "journeys": {
         "WAT": {
-          "mins": 38,
-          "direct": true,
+          "mins": 31,
+          "direct": false,
+          "directMins": 38,
+          "changeAt": "Surbiton",
           "typicalPeakMins": 40,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -3277,6 +3717,8 @@
         "WAT": {
           "mins": 32,
           "direct": true,
+          "directMins": 32,
+          "changeAt": null,
           "typicalPeakMins": 37,
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
@@ -3296,6 +3738,8 @@
         "PAD": {
           "mins": 63,
           "direct": true,
+          "directMins": 63,
+          "changeAt": null,
           "typicalPeakMins": 65,
           "peakTrainsPerHour": 1.2,
           "peakServices": 9,
@@ -3315,6 +3759,8 @@
         "PAD": {
           "mins": 14,
           "direct": true,
+          "directMins": 14,
+          "changeAt": null,
           "typicalPeakMins": 15,
           "peakTrainsPerHour": 5.2,
           "peakServices": 39,
@@ -3323,6 +3769,8 @@
         "LST": {
           "mins": 25,
           "direct": true,
+          "directMins": 25,
+          "changeAt": null,
           "typicalPeakMins": 26,
           "peakTrainsPerHour": 5.2,
           "peakServices": 39,
@@ -3342,6 +3790,8 @@
         "LST": {
           "mins": 37,
           "direct": true,
+          "directMins": 37,
+          "changeAt": null,
           "typicalPeakMins": 42,
           "peakTrainsPerHour": 1.9,
           "peakServices": 14,
@@ -3361,6 +3811,8 @@
         "LST": {
           "mins": 30,
           "direct": true,
+          "directMins": 30,
+          "changeAt": null,
           "typicalPeakMins": 36,
           "peakTrainsPerHour": 5.5,
           "peakServices": 41,
@@ -3380,6 +3832,8 @@
         "STP": {
           "mins": 25,
           "direct": true,
+          "directMins": 25,
+          "changeAt": null,
           "typicalPeakMins": 29,
           "peakTrainsPerHour": 7.6,
           "peakServices": 57,
@@ -3388,6 +3842,8 @@
         "LBG": {
           "mins": 41,
           "direct": true,
+          "directMins": 41,
+          "changeAt": null,
           "typicalPeakMins": 42,
           "peakTrainsPerHour": 5.6,
           "peakServices": 42,
@@ -3407,6 +3863,8 @@
         "EUS": {
           "mins": 13,
           "direct": true,
+          "directMins": 13,
+          "changeAt": null,
           "typicalPeakMins": 34,
           "peakTrainsPerHour": 7.5,
           "peakServices": 56,
@@ -3427,6 +3885,8 @@
         "WAT": {
           "mins": 49,
           "direct": true,
+          "directMins": 49,
+          "changeAt": null,
           "typicalPeakMins": 60,
           "peakTrainsPerHour": 4.4,
           "peakServices": 33,
@@ -3446,6 +3906,8 @@
         "STP": {
           "mins": 70,
           "direct": true,
+          "directMins": 70,
+          "changeAt": null,
           "typicalPeakMins": 73,
           "peakTrainsPerHour": 3.6,
           "peakServices": 27,
@@ -3454,6 +3916,8 @@
         "LBG": {
           "mins": 55,
           "direct": true,
+          "directMins": 55,
+          "changeAt": null,
           "typicalPeakMins": 58,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -3462,6 +3926,8 @@
         "VIC": {
           "mins": 54,
           "direct": true,
+          "directMins": 54,
+          "changeAt": null,
           "typicalPeakMins": 54,
           "peakTrainsPerHour": 3.6,
           "peakServices": 27,
@@ -3481,6 +3947,8 @@
         "KGX": {
           "mins": 26,
           "direct": true,
+          "directMins": 26,
+          "changeAt": null,
           "typicalPeakMins": 29,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -3489,14 +3957,18 @@
         "STP": {
           "mins": 30,
           "direct": true,
+          "directMins": 30,
+          "changeAt": null,
           "typicalPeakMins": 32,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 30
         },
         "MOG": {
-          "mins": 42,
-          "direct": true,
+          "mins": 41,
+          "direct": false,
+          "directMins": 42,
+          "changeAt": "Finsbury Park",
           "typicalPeakMins": 47,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -3516,6 +3988,8 @@
         "LST": {
           "mins": 39,
           "direct": true,
+          "directMins": 39,
+          "changeAt": null,
           "typicalPeakMins": 46,
           "peakTrainsPerHour": 2.8,
           "peakServices": 21,
@@ -3535,6 +4009,8 @@
         "WAT": {
           "mins": 77,
           "direct": true,
+          "directMins": 77,
+          "changeAt": null,
           "typicalPeakMins": 97,
           "peakTrainsPerHour": 4.4,
           "peakServices": 33,
@@ -3554,6 +4030,8 @@
         "PAD": {
           "mins": 16,
           "direct": true,
+          "directMins": 16,
+          "changeAt": null,
           "typicalPeakMins": 21,
           "peakTrainsPerHour": 10.0,
           "peakServices": 75,
@@ -3562,6 +4040,8 @@
         "LST": {
           "mins": 28,
           "direct": true,
+          "directMins": 28,
+          "changeAt": null,
           "typicalPeakMins": 32,
           "peakTrainsPerHour": 10.0,
           "peakServices": 75,
@@ -3581,6 +4061,8 @@
         "STP": {
           "mins": 59,
           "direct": true,
+          "directMins": 59,
+          "changeAt": null,
           "typicalPeakMins": 61,
           "peakTrainsPerHour": 4.4,
           "peakServices": 33,
@@ -3589,6 +4071,8 @@
         "LBG": {
           "mins": 44,
           "direct": true,
+          "directMins": 44,
+          "changeAt": null,
           "typicalPeakMins": 46,
           "peakTrainsPerHour": 4.4,
           "peakServices": 33,
@@ -3597,6 +4081,8 @@
         "VIC": {
           "mins": 43,
           "direct": true,
+          "directMins": 43,
+          "changeAt": null,
           "typicalPeakMins": 47,
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
@@ -3616,17 +4102,22 @@
         "LBG": {
           "mins": 58,
           "direct": true,
+          "directMins": 58,
+          "changeAt": null,
           "typicalPeakMins": 61,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 120
         },
         "VIC": {
-          "mins": null,
+          "mins": 81,
           "direct": false,
-          "changeRequired": true,
+          "directMins": null,
+          "changeAt": "Tonbridge",
           "typicalPeakMins": null,
-          "peakTrainsPerHour": null
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -3642,6 +4133,8 @@
         "EUS": {
           "mins": 27,
           "direct": true,
+          "directMins": 27,
+          "changeAt": null,
           "typicalPeakMins": 32,
           "peakTrainsPerHour": 5.2,
           "peakServices": 39,
@@ -3659,11 +4152,14 @@
       "lng": -0.900212,
       "journeys": {
         "PAD": {
-          "mins": null,
+          "mins": 52,
           "direct": false,
-          "changeRequired": true,
+          "directMins": null,
+          "changeAt": "Twyford",
           "typicalPeakMins": null,
-          "peakTrainsPerHour": null
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -3679,6 +4175,8 @@
         "LST": {
           "mins": 49,
           "direct": true,
+          "directMins": 49,
+          "changeAt": null,
           "typicalPeakMins": 52,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -3698,6 +4196,8 @@
         "KGX": {
           "mins": 38,
           "direct": true,
+          "directMins": 38,
+          "changeAt": null,
           "typicalPeakMins": null,
           "peakTrainsPerHour": null,
           "peakServices": 0,
@@ -3706,6 +4206,8 @@
         "MOG": {
           "mins": 50,
           "direct": true,
+          "directMins": 50,
+          "changeAt": null,
           "typicalPeakMins": 52,
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
@@ -3725,6 +4227,8 @@
         "MYB": {
           "mins": 25,
           "direct": true,
+          "directMins": 25,
+          "changeAt": null,
           "typicalPeakMins": 39,
           "peakTrainsPerHour": 5.2,
           "peakServices": 39,
@@ -3744,6 +4248,8 @@
         "LBG": {
           "mins": 32,
           "direct": true,
+          "directMins": 32,
+          "changeAt": null,
           "typicalPeakMins": 34,
           "peakTrainsPerHour": 1.2,
           "peakServices": 9,
@@ -3752,6 +4258,8 @@
         "VIC": {
           "mins": 38,
           "direct": true,
+          "directMins": 38,
+          "changeAt": null,
           "typicalPeakMins": 43,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -3771,6 +4279,8 @@
         "WAT": {
           "mins": 29,
           "direct": true,
+          "directMins": 29,
+          "changeAt": null,
           "typicalPeakMins": 36,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -3790,6 +4300,8 @@
         "KGX": {
           "mins": 28,
           "direct": true,
+          "directMins": 28,
+          "changeAt": null,
           "typicalPeakMins": 40,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -3798,6 +4310,8 @@
         "STP": {
           "mins": 33,
           "direct": true,
+          "directMins": 33,
+          "changeAt": null,
           "typicalPeakMins": 34,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -3806,6 +4320,8 @@
         "LBG": {
           "mins": 48,
           "direct": true,
+          "directMins": 48,
+          "changeAt": null,
           "typicalPeakMins": 50,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -3825,6 +4341,8 @@
         "LBG": {
           "mins": 9,
           "direct": true,
+          "directMins": 9,
+          "changeAt": null,
           "typicalPeakMins": 16,
           "peakTrainsPerHour": 10.0,
           "peakServices": 75,
@@ -3844,6 +4362,8 @@
         "LST": {
           "mins": 46,
           "direct": true,
+          "directMins": 46,
+          "changeAt": null,
           "typicalPeakMins": 51,
           "peakTrainsPerHour": 4.4,
           "peakServices": 33,
@@ -3863,6 +4383,8 @@
         "WAT": {
           "mins": 54,
           "direct": true,
+          "directMins": 54,
+          "changeAt": null,
           "typicalPeakMins": 60,
           "peakTrainsPerHour": 2.4,
           "peakServices": 18,
@@ -3882,6 +4404,8 @@
         "STP": {
           "mins": 52,
           "direct": true,
+          "directMins": 52,
+          "changeAt": null,
           "typicalPeakMins": 58,
           "peakTrainsPerHour": 3.6,
           "peakServices": 27,
@@ -3890,6 +4414,8 @@
         "LBG": {
           "mins": 37,
           "direct": true,
+          "directMins": 37,
+          "changeAt": null,
           "typicalPeakMins": 41,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -3898,6 +4424,8 @@
         "VIC": {
           "mins": 31,
           "direct": true,
+          "directMins": 31,
+          "changeAt": null,
           "typicalPeakMins": 31,
           "peakTrainsPerHour": 1.2,
           "peakServices": 9,
@@ -3917,6 +4445,8 @@
         "KGX": {
           "mins": 12,
           "direct": true,
+          "directMins": 12,
+          "changeAt": null,
           "typicalPeakMins": null,
           "peakTrainsPerHour": null,
           "peakServices": 0,
@@ -3925,6 +4455,8 @@
         "MOG": {
           "mins": 19,
           "direct": true,
+          "directMins": 19,
+          "changeAt": null,
           "typicalPeakMins": 20,
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
@@ -3942,16 +4474,20 @@
       "lng": -0.319269,
       "journeys": {
         "STP": {
-          "mins": 80,
-          "direct": true,
+          "mins": 75,
+          "direct": false,
+          "directMins": 80,
+          "changeAt": "Three Bridges",
           "typicalPeakMins": 82,
           "peakTrainsPerHour": 2.4,
           "peakServices": 18,
           "totalServices": 111
         },
         "LBG": {
-          "mins": 65,
-          "direct": true,
+          "mins": 60,
+          "direct": false,
+          "directMins": 65,
+          "changeAt": "Three Bridges",
           "typicalPeakMins": 66,
           "peakTrainsPerHour": 2.8,
           "peakServices": 21,
@@ -3960,6 +4496,8 @@
         "VIC": {
           "mins": 54,
           "direct": true,
+          "directMins": 54,
+          "changeAt": null,
           "typicalPeakMins": 55,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -3979,6 +4517,8 @@
         "WAT": {
           "mins": 47,
           "direct": true,
+          "directMins": 47,
+          "changeAt": null,
           "typicalPeakMins": 54,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -3998,6 +4538,8 @@
         "WAT": {
           "mins": 37,
           "direct": true,
+          "directMins": 37,
+          "changeAt": null,
           "typicalPeakMins": 42,
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
@@ -4017,6 +4559,8 @@
         "VIC": {
           "mins": 67,
           "direct": true,
+          "directMins": 67,
+          "changeAt": null,
           "typicalPeakMins": 69,
           "peakTrainsPerHour": 1.6,
           "peakServices": 12,
@@ -4036,6 +4580,8 @@
         "PAD": {
           "mins": 46,
           "direct": true,
+          "directMins": 46,
+          "changeAt": null,
           "typicalPeakMins": 63,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -4055,6 +4601,8 @@
         "KGX": {
           "mins": 47,
           "direct": true,
+          "directMins": 47,
+          "changeAt": null,
           "typicalPeakMins": 53,
           "peakTrainsPerHour": 1.5,
           "peakServices": 11,
@@ -4063,6 +4611,8 @@
         "STP": {
           "mins": 64,
           "direct": true,
+          "directMins": 64,
+          "changeAt": null,
           "typicalPeakMins": 66,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -4071,6 +4621,8 @@
         "LBG": {
           "mins": 79,
           "direct": true,
+          "directMins": 79,
+          "changeAt": null,
           "typicalPeakMins": 81,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -4090,6 +4642,8 @@
         "STP": {
           "mins": 53,
           "direct": true,
+          "directMins": 53,
+          "changeAt": null,
           "typicalPeakMins": 57,
           "peakTrainsPerHour": 1.2,
           "peakServices": 9,
@@ -4098,6 +4652,8 @@
         "LBG": {
           "mins": 37,
           "direct": true,
+          "directMins": 37,
+          "changeAt": null,
           "typicalPeakMins": 41,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -4106,6 +4662,8 @@
         "VIC": {
           "mins": 42,
           "direct": true,
+          "directMins": 42,
+          "changeAt": null,
           "typicalPeakMins": 42,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -4125,6 +4683,8 @@
         "LST": {
           "mins": 29,
           "direct": true,
+          "directMins": 29,
+          "changeAt": null,
           "typicalPeakMins": 32,
           "peakTrainsPerHour": 2.8,
           "peakServices": 21,
@@ -4144,6 +4704,8 @@
         "LST": {
           "mins": 60,
           "direct": true,
+          "directMins": 60,
+          "changeAt": null,
           "typicalPeakMins": 74,
           "peakTrainsPerHour": 2.8,
           "peakServices": 21,
@@ -4163,6 +4725,8 @@
         "WAT": {
           "mins": 34,
           "direct": true,
+          "directMins": 34,
+          "changeAt": null,
           "typicalPeakMins": 39,
           "peakTrainsPerHour": 4.4,
           "peakServices": 33,
@@ -4182,6 +4746,8 @@
         "PAD": {
           "mins": 24,
           "direct": true,
+          "directMins": 24,
+          "changeAt": null,
           "typicalPeakMins": 27,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -4190,6 +4756,8 @@
         "LST": {
           "mins": 35,
           "direct": true,
+          "directMins": 35,
+          "changeAt": null,
           "typicalPeakMins": 38,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -4209,6 +4777,8 @@
         "LST": {
           "mins": 50,
           "direct": true,
+          "directMins": 50,
+          "changeAt": null,
           "typicalPeakMins": 55,
           "peakTrainsPerHour": 3.6,
           "peakServices": 27,
@@ -4228,6 +4798,8 @@
         "STP": {
           "mins": 5,
           "direct": true,
+          "directMins": 5,
+          "changeAt": null,
           "typicalPeakMins": 5,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -4236,6 +4808,8 @@
         "LBG": {
           "mins": 20,
           "direct": true,
+          "directMins": 20,
+          "changeAt": null,
           "typicalPeakMins": null,
           "peakTrainsPerHour": null,
           "peakServices": 0,
@@ -4255,6 +4829,8 @@
         "LBG": {
           "mins": 18,
           "direct": true,
+          "directMins": 18,
+          "changeAt": null,
           "typicalPeakMins": 20,
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
@@ -4263,6 +4839,8 @@
         "VIC": {
           "mins": 29,
           "direct": true,
+          "directMins": 29,
+          "changeAt": null,
           "typicalPeakMins": 30,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -4282,6 +4860,8 @@
         "PAD": {
           "mins": 80,
           "direct": true,
+          "directMins": 80,
+          "changeAt": null,
           "typicalPeakMins": 82,
           "peakTrainsPerHour": 1.2,
           "peakServices": 9,
@@ -4301,6 +4881,8 @@
         "EUS": {
           "mins": 25,
           "direct": true,
+          "directMins": 25,
+          "changeAt": null,
           "typicalPeakMins": 27,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -4320,6 +4902,8 @@
         "MYB": {
           "mins": 71,
           "direct": true,
+          "directMins": 71,
+          "changeAt": null,
           "typicalPeakMins": 83,
           "peakTrainsPerHour": 0.4,
           "peakServices": 3,
@@ -4339,6 +4923,8 @@
         "WAT": {
           "mins": 29,
           "direct": true,
+          "directMins": 29,
+          "changeAt": null,
           "typicalPeakMins": 34,
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
@@ -4358,6 +4944,8 @@
         "PAD": {
           "mins": 58,
           "direct": true,
+          "directMins": 58,
+          "changeAt": null,
           "typicalPeakMins": 59,
           "peakTrainsPerHour": 1.2,
           "peakServices": 9,
@@ -4375,8 +4963,10 @@
       "lng": -0.187289,
       "journeys": {
         "KGX": {
-          "mins": 38,
-          "direct": true,
+          "mins": 33,
+          "direct": false,
+          "directMins": 38,
+          "changeAt": "Finsbury Park",
           "typicalPeakMins": 41,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -4385,6 +4975,8 @@
         "STP": {
           "mins": 25,
           "direct": true,
+          "directMins": 25,
+          "changeAt": null,
           "typicalPeakMins": 25,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -4393,6 +4985,8 @@
         "LBG": {
           "mins": 40,
           "direct": true,
+          "directMins": 40,
+          "changeAt": null,
           "typicalPeakMins": 40,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -4412,6 +5006,8 @@
         "FST": {
           "mins": 29,
           "direct": true,
+          "directMins": 29,
+          "changeAt": null,
           "typicalPeakMins": 34,
           "peakTrainsPerHour": 6.4,
           "peakServices": 48,
@@ -4431,6 +5027,8 @@
         "VIC": {
           "mins": 79,
           "direct": true,
+          "directMins": 79,
+          "changeAt": null,
           "typicalPeakMins": 82,
           "peakTrainsPerHour": 1.6,
           "peakServices": 12,
@@ -4450,6 +5048,8 @@
         "PAD": {
           "mins": 26,
           "direct": true,
+          "directMins": 26,
+          "changeAt": null,
           "typicalPeakMins": 30,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -4458,6 +5058,8 @@
         "LST": {
           "mins": 37,
           "direct": true,
+          "directMins": 37,
+          "changeAt": null,
           "typicalPeakMins": 41,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -4477,6 +5079,8 @@
         "MYB": {
           "mins": 82,
           "direct": true,
+          "directMins": 82,
+          "changeAt": null,
           "typicalPeakMins": 83,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -4496,6 +5100,8 @@
         "WAT": {
           "mins": 45,
           "direct": true,
+          "directMins": 45,
+          "changeAt": null,
           "typicalPeakMins": 50,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -4504,6 +5110,8 @@
         "VIC": {
           "mins": 50,
           "direct": true,
+          "directMins": 50,
+          "changeAt": null,
           "typicalPeakMins": 56,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -4523,6 +5131,8 @@
         "FST": {
           "mins": 41,
           "direct": true,
+          "directMins": 41,
+          "changeAt": null,
           "typicalPeakMins": 48,
           "peakTrainsPerHour": 8.0,
           "peakServices": 60,
@@ -4542,6 +5152,8 @@
         "EUS": {
           "mins": 30,
           "direct": true,
+          "directMins": 30,
+          "changeAt": null,
           "typicalPeakMins": 44,
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
@@ -4561,6 +5173,8 @@
         "KGX": {
           "mins": 29,
           "direct": true,
+          "directMins": 29,
+          "changeAt": null,
           "typicalPeakMins": 33,
           "peakTrainsPerHour": 5.9,
           "peakServices": 44,
@@ -4569,6 +5183,8 @@
         "STP": {
           "mins": 38,
           "direct": true,
+          "directMins": 38,
+          "changeAt": null,
           "typicalPeakMins": 39,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -4577,6 +5193,8 @@
         "LBG": {
           "mins": 53,
           "direct": true,
+          "directMins": 53,
+          "changeAt": null,
           "typicalPeakMins": 54,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -4596,6 +5214,8 @@
         "LBG": {
           "mins": 7,
           "direct": true,
+          "directMins": 7,
+          "changeAt": null,
           "typicalPeakMins": 11,
           "peakTrainsPerHour": 14.0,
           "peakServices": 105,
@@ -4604,6 +5224,8 @@
         "VIC": {
           "mins": 21,
           "direct": true,
+          "directMins": 21,
+          "changeAt": null,
           "typicalPeakMins": 22,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -4623,6 +5245,8 @@
         "FST": {
           "mins": 4,
           "direct": true,
+          "directMins": 4,
+          "changeAt": null,
           "typicalPeakMins": 5,
           "peakTrainsPerHour": 15.2,
           "peakServices": 114,
@@ -4642,6 +5266,8 @@
         "STP": {
           "mins": 60,
           "direct": true,
+          "directMins": 60,
+          "changeAt": null,
           "typicalPeakMins": 64,
           "peakTrainsPerHour": 1.2,
           "peakServices": 9,
@@ -4650,6 +5276,8 @@
         "LBG": {
           "mins": 44,
           "direct": true,
+          "directMins": 44,
+          "changeAt": null,
           "typicalPeakMins": 48,
           "peakTrainsPerHour": 1.2,
           "peakServices": 9,
@@ -4658,6 +5286,8 @@
         "VIC": {
           "mins": 49,
           "direct": true,
+          "directMins": 49,
+          "changeAt": null,
           "typicalPeakMins": 49,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -4677,6 +5307,8 @@
         "WAT": {
           "mins": 59,
           "direct": true,
+          "directMins": 59,
+          "changeAt": null,
           "typicalPeakMins": 70,
           "peakTrainsPerHour": 2.4,
           "peakServices": 18,
@@ -4696,6 +5328,8 @@
         "WAT": {
           "mins": 65,
           "direct": true,
+          "directMins": 65,
+          "changeAt": null,
           "typicalPeakMins": 77,
           "peakTrainsPerHour": 2.4,
           "peakServices": 18,
@@ -4713,8 +5347,10 @@
       "lng": -0.808452,
       "journeys": {
         "MYB": {
-          "mins": 69,
-          "direct": true,
+          "mins": 58,
+          "direct": false,
+          "directMins": 69,
+          "changeAt": "Princes Risborough",
           "typicalPeakMins": null,
           "peakTrainsPerHour": null,
           "peakServices": 0,
@@ -4735,6 +5371,8 @@
           "mins": null,
           "direct": false,
           "changeRequired": true,
+          "directMins": null,
+          "changeAt": null,
           "typicalPeakMins": null,
           "peakTrainsPerHour": null
         }
@@ -4752,6 +5390,8 @@
         "EUS": {
           "mins": 68,
           "direct": true,
+          "directMins": 68,
+          "changeAt": null,
           "typicalPeakMins": 74,
           "peakTrainsPerHour": 2.4,
           "peakServices": 18,
@@ -4771,6 +5411,8 @@
         "STP": {
           "mins": 26,
           "direct": true,
+          "directMins": 26,
+          "changeAt": null,
           "typicalPeakMins": 36,
           "peakTrainsPerHour": 9.6,
           "peakServices": 72,
@@ -4779,6 +5421,8 @@
         "LBG": {
           "mins": 47,
           "direct": true,
+          "directMins": 47,
+          "changeAt": null,
           "typicalPeakMins": 51,
           "peakTrainsPerHour": 5.6,
           "peakServices": 42,
@@ -4798,6 +5442,8 @@
         "STP": {
           "mins": 23,
           "direct": true,
+          "directMins": 23,
+          "changeAt": null,
           "typicalPeakMins": 33,
           "peakTrainsPerHour": 8.4,
           "peakServices": 63,
@@ -4806,6 +5452,8 @@
         "LBG": {
           "mins": 48,
           "direct": true,
+          "directMins": 48,
+          "changeAt": null,
           "typicalPeakMins": 48,
           "peakTrainsPerHour": 4.4,
           "peakServices": 33,
@@ -4825,6 +5473,8 @@
         "PAD": {
           "mins": 18,
           "direct": true,
+          "directMins": 18,
+          "changeAt": null,
           "typicalPeakMins": 38,
           "peakTrainsPerHour": 10.0,
           "peakServices": 75,
@@ -4833,6 +5483,8 @@
         "LST": {
           "mins": 47,
           "direct": true,
+          "directMins": 47,
+          "changeAt": null,
           "typicalPeakMins": 53,
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
@@ -4852,6 +5504,8 @@
         "VIC": {
           "mins": 63,
           "direct": true,
+          "directMins": 63,
+          "changeAt": null,
           "typicalPeakMins": 70,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -4871,6 +5525,8 @@
         "LST": {
           "mins": 56,
           "direct": true,
+          "directMins": 56,
+          "changeAt": null,
           "typicalPeakMins": 65,
           "peakTrainsPerHour": 3.6,
           "peakServices": 27,
@@ -4890,17 +5546,22 @@
         "LBG": {
           "mins": 48,
           "direct": true,
+          "directMins": 48,
+          "changeAt": null,
           "typicalPeakMins": 51,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
           "totalServices": 114
         },
         "VIC": {
-          "mins": null,
+          "mins": 80,
           "direct": false,
-          "changeRequired": true,
+          "directMins": null,
+          "changeAt": "Tonbridge",
           "typicalPeakMins": null,
-          "peakTrainsPerHour": null
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -4916,6 +5577,8 @@
         "LST": {
           "mins": 52,
           "direct": true,
+          "directMins": 52,
+          "changeAt": null,
           "typicalPeakMins": 58,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -4933,11 +5596,14 @@
       "lng": -0.766431,
       "journeys": {
         "PAD": {
-          "mins": null,
+          "mins": 70,
           "direct": false,
-          "changeRequired": true,
+          "directMins": null,
+          "changeAt": "Maidenhead",
           "typicalPeakMins": null,
-          "peakTrainsPerHour": null
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -4953,6 +5619,8 @@
         "KGX": {
           "mins": 51,
           "direct": true,
+          "directMins": 51,
+          "changeAt": null,
           "typicalPeakMins": 51,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -4972,6 +5640,8 @@
         "STP": {
           "mins": 41,
           "direct": true,
+          "directMins": 41,
+          "changeAt": null,
           "typicalPeakMins": 42,
           "peakTrainsPerHour": 2.8,
           "peakServices": 21,
@@ -4980,6 +5650,8 @@
         "LBG": {
           "mins": 26,
           "direct": true,
+          "directMins": 26,
+          "changeAt": null,
           "typicalPeakMins": 27,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -4988,6 +5660,8 @@
         "VIC": {
           "mins": 35,
           "direct": true,
+          "directMins": 35,
+          "changeAt": null,
           "typicalPeakMins": 35,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -5007,6 +5681,8 @@
         "WAT": {
           "mins": 52,
           "direct": true,
+          "directMins": 52,
+          "changeAt": null,
           "typicalPeakMins": 56,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -5026,6 +5702,8 @@
         "STP": {
           "mins": 19,
           "direct": true,
+          "directMins": 19,
+          "changeAt": null,
           "typicalPeakMins": 22,
           "peakTrainsPerHour": 6.4,
           "peakServices": 48,
@@ -5034,6 +5712,8 @@
         "LBG": {
           "mins": 34,
           "direct": true,
+          "directMins": 34,
+          "changeAt": null,
           "typicalPeakMins": 34,
           "peakTrainsPerHour": 0.4,
           "peakServices": 3,
@@ -5053,6 +5733,8 @@
         "EUS": {
           "mins": 32,
           "direct": true,
+          "directMins": 32,
+          "changeAt": null,
           "typicalPeakMins": 36,
           "peakTrainsPerHour": 8.9,
           "peakServices": 67,
@@ -5070,8 +5752,10 @@
       "lng": -0.829334,
       "journeys": {
         "MYB": {
-          "mins": 65,
-          "direct": true,
+          "mins": 54,
+          "direct": false,
+          "directMins": 65,
+          "changeAt": "Princes Risborough",
           "typicalPeakMins": null,
           "peakTrainsPerHour": null,
           "peakServices": 0,
@@ -5091,6 +5775,8 @@
         "PAD": {
           "mins": 88,
           "direct": true,
+          "directMins": 88,
+          "changeAt": null,
           "typicalPeakMins": 90,
           "peakTrainsPerHour": 1.2,
           "peakServices": 9,
@@ -5110,6 +5796,8 @@
         "WAT": {
           "mins": 24,
           "direct": true,
+          "directMins": 24,
+          "changeAt": null,
           "typicalPeakMins": 27,
           "peakTrainsPerHour": 5.2,
           "peakServices": 39,
@@ -5129,6 +5817,8 @@
         "KGX": {
           "mins": 18,
           "direct": true,
+          "directMins": 18,
+          "changeAt": null,
           "typicalPeakMins": 18,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -5137,6 +5827,8 @@
         "STP": {
           "mins": 19,
           "direct": true,
+          "directMins": 19,
+          "changeAt": null,
           "typicalPeakMins": 20,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -5145,6 +5837,8 @@
         "MOG": {
           "mins": 27,
           "direct": true,
+          "directMins": 27,
+          "changeAt": null,
           "typicalPeakMins": 32,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -5164,6 +5858,8 @@
         "LBG": {
           "mins": 5,
           "direct": true,
+          "directMins": 5,
+          "changeAt": null,
           "typicalPeakMins": 6,
           "peakTrainsPerHour": 12.8,
           "peakServices": 96,
@@ -5183,6 +5879,8 @@
         "LBG": {
           "mins": 21,
           "direct": true,
+          "directMins": 21,
+          "changeAt": null,
           "typicalPeakMins": 26,
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
@@ -5202,6 +5900,8 @@
         "WAT": {
           "mins": 23,
           "direct": true,
+          "directMins": 23,
+          "changeAt": null,
           "typicalPeakMins": 26,
           "peakTrainsPerHour": 9.2,
           "peakServices": 69,
@@ -5221,6 +5921,8 @@
         "KGX": {
           "mins": 75,
           "direct": true,
+          "directMins": 75,
+          "changeAt": null,
           "typicalPeakMins": 84,
           "peakTrainsPerHour": 2.8,
           "peakServices": 21,
@@ -5240,6 +5942,8 @@
         "PAD": {
           "mins": 40,
           "direct": true,
+          "directMins": 40,
+          "changeAt": null,
           "typicalPeakMins": 51,
           "peakTrainsPerHour": 2.8,
           "peakServices": 21,
@@ -5259,6 +5963,8 @@
         "WAT": {
           "mins": 27,
           "direct": true,
+          "directMins": 27,
+          "changeAt": null,
           "typicalPeakMins": 32,
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
@@ -5278,6 +5984,8 @@
         "EUS": {
           "mins": 50,
           "direct": true,
+          "directMins": 50,
+          "changeAt": null,
           "typicalPeakMins": 59,
           "peakTrainsPerHour": 3.6,
           "peakServices": 27,
@@ -5297,6 +6005,8 @@
         "KGX": {
           "mins": 22,
           "direct": true,
+          "directMins": 22,
+          "changeAt": null,
           "typicalPeakMins": null,
           "peakTrainsPerHour": null,
           "peakServices": 0,
@@ -5305,6 +6015,8 @@
         "STP": {
           "mins": 17,
           "direct": true,
+          "directMins": 17,
+          "changeAt": null,
           "typicalPeakMins": 18,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -5313,6 +6025,8 @@
         "MOG": {
           "mins": 25,
           "direct": true,
+          "directMins": 25,
+          "changeAt": null,
           "typicalPeakMins": 30,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -5332,6 +6046,8 @@
         "FST": {
           "mins": 28,
           "direct": true,
+          "directMins": 28,
+          "changeAt": null,
           "typicalPeakMins": 31,
           "peakTrainsPerHour": 3.6,
           "peakServices": 27,
@@ -5349,8 +6065,10 @@
       "lng": 0.089091,
       "journeys": {
         "STP": {
-          "mins": 58,
-          "direct": true,
+          "mins": 39,
+          "direct": false,
+          "directMins": 58,
+          "changeAt": "London Bridge",
           "typicalPeakMins": 58,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -5359,6 +6077,8 @@
         "LBG": {
           "mins": 15,
           "direct": true,
+          "directMins": 15,
+          "changeAt": null,
           "typicalPeakMins": 31,
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
@@ -5367,6 +6087,8 @@
         "VIC": {
           "mins": 22,
           "direct": true,
+          "directMins": 22,
+          "changeAt": null,
           "typicalPeakMins": 34,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -5384,8 +6106,10 @@
       "lng": 0.196779,
       "journeys": {
         "STP": {
-          "mins": 69,
-          "direct": true,
+          "mins": 65,
+          "direct": false,
+          "directMins": 69,
+          "changeAt": "London Blackfriars",
           "typicalPeakMins": 69,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -5394,6 +6118,8 @@
         "VIC": {
           "mins": 39,
           "direct": true,
+          "directMins": 39,
+          "changeAt": null,
           "typicalPeakMins": 44,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -5413,6 +6139,8 @@
         "WAT": {
           "mins": 53,
           "direct": true,
+          "directMins": 53,
+          "changeAt": null,
           "typicalPeakMins": 55,
           "peakTrainsPerHour": 1.9,
           "peakServices": 14,
@@ -5432,6 +6160,8 @@
         "PAD": {
           "mins": 51,
           "direct": true,
+          "directMins": 51,
+          "changeAt": null,
           "typicalPeakMins": 54,
           "peakTrainsPerHour": 2.4,
           "peakServices": 18,
@@ -5440,6 +6170,8 @@
         "MYB": {
           "mins": 74,
           "direct": true,
+          "directMins": 74,
+          "changeAt": null,
           "typicalPeakMins": 87,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -5459,6 +6191,8 @@
         "WAT": {
           "mins": 35,
           "direct": true,
+          "directMins": 35,
+          "changeAt": null,
           "typicalPeakMins": 42,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -5478,6 +6212,8 @@
         "STP": {
           "mins": 49,
           "direct": true,
+          "directMins": 49,
+          "changeAt": null,
           "typicalPeakMins": 54,
           "peakTrainsPerHour": 1.2,
           "peakServices": 9,
@@ -5486,6 +6222,8 @@
         "LBG": {
           "mins": 33,
           "direct": true,
+          "directMins": 33,
+          "changeAt": null,
           "typicalPeakMins": 38,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -5494,6 +6232,8 @@
         "VIC": {
           "mins": 38,
           "direct": true,
+          "directMins": 38,
+          "changeAt": null,
           "typicalPeakMins": 39,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -5514,17 +6254,22 @@
         "LBG": {
           "mins": 42,
           "direct": true,
+          "directMins": 42,
+          "changeAt": null,
           "typicalPeakMins": 46,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 120
         },
         "VIC": {
-          "mins": null,
+          "mins": 68,
           "direct": false,
-          "changeRequired": true,
+          "directMins": null,
+          "changeAt": "Tonbridge",
           "typicalPeakMins": null,
-          "peakTrainsPerHour": null
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -5538,8 +6283,10 @@
       "lng": -1.09047,
       "journeys": {
         "PAD": {
-          "mins": 46,
-          "direct": true,
+          "mins": 41,
+          "direct": false,
+          "directMins": 46,
+          "changeAt": "Reading",
           "typicalPeakMins": 53,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -5559,6 +6306,8 @@
         "STP": {
           "mins": 23,
           "direct": true,
+          "directMins": 23,
+          "changeAt": null,
           "typicalPeakMins": 24,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -5567,6 +6316,8 @@
         "LBG": {
           "mins": 9,
           "direct": true,
+          "directMins": 9,
+          "changeAt": null,
           "typicalPeakMins": 10,
           "peakTrainsPerHour": 4.4,
           "peakServices": 33,
@@ -5575,6 +6326,8 @@
         "VIC": {
           "mins": 13,
           "direct": true,
+          "directMins": 13,
+          "changeAt": null,
           "typicalPeakMins": 13,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -5595,14 +6348,18 @@
         "KGX": {
           "mins": 47,
           "direct": true,
+          "directMins": 47,
+          "changeAt": null,
           "typicalPeakMins": 56,
           "peakTrainsPerHour": 5.1,
           "peakServices": 38,
           "totalServices": 185
         },
         "STP": {
-          "mins": 79,
-          "direct": true,
+          "mins": 68,
+          "direct": false,
+          "directMins": 79,
+          "changeAt": "Stevenage",
           "typicalPeakMins": 81,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -5622,6 +6379,8 @@
         "WAT": {
           "mins": 63,
           "direct": true,
+          "directMins": 63,
+          "changeAt": null,
           "typicalPeakMins": 79,
           "peakTrainsPerHour": 4.4,
           "peakServices": 33,
@@ -5639,8 +6398,10 @@
       "lng": 0.074481,
       "journeys": {
         "STP": {
-          "mins": 55,
-          "direct": true,
+          "mins": 47,
+          "direct": false,
+          "directMins": 55,
+          "changeAt": "London Bridge",
           "typicalPeakMins": 55,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -5649,14 +6410,18 @@
         "LBG": {
           "mins": 23,
           "direct": true,
+          "directMins": 23,
+          "changeAt": null,
           "typicalPeakMins": 29,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 219
         },
         "VIC": {
-          "mins": 39,
-          "direct": true,
+          "mins": 35,
+          "direct": false,
+          "directMins": 39,
+          "changeAt": "Orpington",
           "typicalPeakMins": 40,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -5676,6 +6441,8 @@
         "PAD": {
           "mins": 62,
           "direct": true,
+          "directMins": 62,
+          "changeAt": null,
           "typicalPeakMins": 79,
           "peakTrainsPerHour": 1.6,
           "peakServices": 12,
@@ -5695,6 +6462,8 @@
         "FST": {
           "mins": 37,
           "direct": true,
+          "directMins": 37,
+          "changeAt": null,
           "typicalPeakMins": 44,
           "peakTrainsPerHour": 8.0,
           "peakServices": 60,
@@ -5714,6 +6483,8 @@
         "LBG": {
           "mins": 64,
           "direct": true,
+          "directMins": 64,
+          "changeAt": null,
           "typicalPeakMins": 67,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -5723,6 +6494,8 @@
           "mins": null,
           "direct": false,
           "changeRequired": true,
+          "directMins": null,
+          "changeAt": null,
           "typicalPeakMins": null,
           "peakTrainsPerHour": null
         }
@@ -5740,6 +6513,8 @@
         "STP": {
           "mins": 42,
           "direct": true,
+          "directMins": 42,
+          "changeAt": null,
           "typicalPeakMins": 42,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -5748,6 +6523,8 @@
         "LBG": {
           "mins": 24,
           "direct": true,
+          "directMins": 24,
+          "changeAt": null,
           "typicalPeakMins": 27,
           "peakTrainsPerHour": 9.6,
           "peakServices": 72,
@@ -5767,6 +6544,8 @@
         "VIC": {
           "mins": 70,
           "direct": true,
+          "directMins": 70,
+          "changeAt": null,
           "typicalPeakMins": 72,
           "peakTrainsPerHour": 1.6,
           "peakServices": 12,
@@ -5786,6 +6565,8 @@
         "KGX": {
           "mins": 20,
           "direct": true,
+          "directMins": 20,
+          "changeAt": null,
           "typicalPeakMins": 23,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -5794,6 +6575,8 @@
         "STP": {
           "mins": 24,
           "direct": true,
+          "directMins": 24,
+          "changeAt": null,
           "typicalPeakMins": 25,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -5802,6 +6585,8 @@
         "MOG": {
           "mins": 33,
           "direct": true,
+          "directMins": 33,
+          "changeAt": null,
           "typicalPeakMins": 38,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -5821,6 +6606,8 @@
         "STP": {
           "mins": 77,
           "direct": true,
+          "directMins": 77,
+          "changeAt": null,
           "typicalPeakMins": 80,
           "peakTrainsPerHour": 3.6,
           "peakServices": 27,
@@ -5829,6 +6616,8 @@
         "LBG": {
           "mins": 62,
           "direct": true,
+          "directMins": 62,
+          "changeAt": null,
           "typicalPeakMins": 64,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -5837,6 +6626,8 @@
         "VIC": {
           "mins": 61,
           "direct": true,
+          "directMins": 61,
+          "changeAt": null,
           "typicalPeakMins": 61,
           "peakTrainsPerHour": 3.6,
           "peakServices": 27,
@@ -5856,6 +6647,8 @@
         "MYB": {
           "mins": 39,
           "direct": true,
+          "directMins": 39,
+          "changeAt": null,
           "typicalPeakMins": 49,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -5875,6 +6668,8 @@
         "FST": {
           "mins": 29,
           "direct": true,
+          "directMins": 29,
+          "changeAt": null,
           "typicalPeakMins": 32,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -5894,6 +6689,8 @@
         "STP": {
           "mins": 37,
           "direct": true,
+          "directMins": 37,
+          "changeAt": null,
           "typicalPeakMins": 38,
           "peakTrainsPerHour": 1.6,
           "peakServices": 12,
@@ -5902,6 +6699,8 @@
         "LBG": {
           "mins": 22,
           "direct": true,
+          "directMins": 22,
+          "changeAt": null,
           "typicalPeakMins": 24,
           "peakTrainsPerHour": 3.6,
           "peakServices": 27,
@@ -5910,6 +6709,8 @@
         "VIC": {
           "mins": 25,
           "direct": true,
+          "directMins": 25,
+          "changeAt": null,
           "typicalPeakMins": 25,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -5929,6 +6730,8 @@
         "WAT": {
           "mins": 14,
           "direct": true,
+          "directMins": 14,
+          "changeAt": null,
           "typicalPeakMins": 19,
           "peakTrainsPerHour": 12.0,
           "peakServices": 90,
@@ -5948,6 +6751,8 @@
         "STP": {
           "mins": 26,
           "direct": true,
+          "directMins": 26,
+          "changeAt": null,
           "typicalPeakMins": 30,
           "peakTrainsPerHour": 6.4,
           "peakServices": 48,
@@ -5956,6 +6761,8 @@
         "LBG": {
           "mins": 41,
           "direct": true,
+          "directMins": 41,
+          "changeAt": null,
           "typicalPeakMins": 41,
           "peakTrainsPerHour": 0.4,
           "peakServices": 3,
@@ -5975,6 +6782,8 @@
         "FST": {
           "mins": 24,
           "direct": true,
+          "directMins": 24,
+          "changeAt": null,
           "typicalPeakMins": 26,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -5994,6 +6803,8 @@
         "STP": {
           "mins": 49,
           "direct": true,
+          "directMins": 49,
+          "changeAt": null,
           "typicalPeakMins": 78,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -6002,6 +6813,8 @@
         "LBG": {
           "mins": 55,
           "direct": true,
+          "directMins": 55,
+          "changeAt": null,
           "typicalPeakMins": 70,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -6010,6 +6823,8 @@
         "VIC": {
           "mins": 54,
           "direct": true,
+          "directMins": 54,
+          "changeAt": null,
           "typicalPeakMins": 61,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -6029,6 +6844,8 @@
         "LST": {
           "mins": 42,
           "direct": true,
+          "directMins": 42,
+          "changeAt": null,
           "typicalPeakMins": 47,
           "peakTrainsPerHour": 4.4,
           "peakServices": 33,
@@ -6048,6 +6865,8 @@
         "WAT": {
           "mins": 20,
           "direct": true,
+          "directMins": 20,
+          "changeAt": null,
           "typicalPeakMins": 23,
           "peakTrainsPerHour": 13.6,
           "peakServices": 102,
@@ -6065,8 +6884,10 @@
       "lng": -0.971849,
       "journeys": {
         "WAT": {
-          "mins": 85,
-          "direct": true,
+          "mins": 80,
+          "direct": false,
+          "directMins": 85,
+          "changeAt": "Basingstoke",
           "typicalPeakMins": 88,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -6075,6 +6896,8 @@
         "PAD": {
           "mins": 23,
           "direct": true,
+          "directMins": 23,
+          "changeAt": null,
           "typicalPeakMins": 28,
           "peakTrainsPerHour": 15.6,
           "peakServices": 117,
@@ -6083,6 +6906,8 @@
         "LST": {
           "mins": 60,
           "direct": true,
+          "directMins": 60,
+          "changeAt": null,
           "typicalPeakMins": 63,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -6103,6 +6928,8 @@
         "STP": {
           "mins": 40,
           "direct": true,
+          "directMins": 40,
+          "changeAt": null,
           "typicalPeakMins": 46,
           "peakTrainsPerHour": 3.6,
           "peakServices": 27,
@@ -6111,6 +6938,8 @@
         "LBG": {
           "mins": 24,
           "direct": true,
+          "directMins": 24,
+          "changeAt": null,
           "typicalPeakMins": 31,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -6119,6 +6948,8 @@
         "VIC": {
           "mins": 34,
           "direct": true,
+          "directMins": 34,
+          "changeAt": null,
           "typicalPeakMins": 39,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -6138,17 +6969,22 @@
         "VIC": {
           "mins": 45,
           "direct": true,
+          "directMins": 45,
+          "changeAt": null,
           "typicalPeakMins": 50,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 105
         },
         "LBG": {
-          "mins": null,
+          "mins": 46,
           "direct": false,
-          "changeRequired": true,
+          "directMins": null,
+          "changeAt": "Redhill",
           "typicalPeakMins": null,
-          "peakTrainsPerHour": null
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -6164,6 +7000,8 @@
         "WAT": {
           "mins": 19,
           "direct": true,
+          "directMins": 19,
+          "changeAt": null,
           "typicalPeakMins": 28,
           "peakTrainsPerHour": 11.6,
           "peakServices": 87,
@@ -6183,6 +7021,8 @@
         "STP": {
           "mins": 36,
           "direct": true,
+          "directMins": 36,
+          "changeAt": null,
           "typicalPeakMins": 64,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -6191,6 +7031,8 @@
         "LBG": {
           "mins": 37,
           "direct": true,
+          "directMins": 37,
+          "changeAt": null,
           "typicalPeakMins": 57,
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
@@ -6199,6 +7041,8 @@
         "VIC": {
           "mins": 41,
           "direct": true,
+          "directMins": 41,
+          "changeAt": null,
           "typicalPeakMins": 60,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -6218,6 +7062,8 @@
         "LST": {
           "mins": 50,
           "direct": true,
+          "directMins": 50,
+          "changeAt": null,
           "typicalPeakMins": 55,
           "peakTrainsPerHour": 4.4,
           "peakServices": 33,
@@ -6235,8 +7081,10 @@
       "lng": 0.183237,
       "journeys": {
         "PAD": {
-          "mins": 40,
-          "direct": true,
+          "mins": 39,
+          "direct": false,
+          "directMins": 40,
+          "changeAt": "Stratford (London)",
           "typicalPeakMins": 41,
           "peakTrainsPerHour": 11.6,
           "peakServices": 87,
@@ -6245,6 +7093,8 @@
         "LST": {
           "mins": 18,
           "direct": true,
+          "directMins": 18,
+          "changeAt": null,
           "typicalPeakMins": 29,
           "peakTrainsPerHour": 13.6,
           "peakServices": 102,
@@ -6264,6 +7114,8 @@
         "KGX": {
           "mins": 37,
           "direct": true,
+          "directMins": 37,
+          "changeAt": null,
           "typicalPeakMins": 46,
           "peakTrainsPerHour": 4.3,
           "peakServices": 32,
@@ -6272,6 +7124,8 @@
         "STP": {
           "mins": 51,
           "direct": true,
+          "directMins": 51,
+          "changeAt": null,
           "typicalPeakMins": 52,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -6280,6 +7134,8 @@
         "LBG": {
           "mins": 66,
           "direct": true,
+          "directMins": 66,
+          "changeAt": null,
           "typicalPeakMins": 67,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -6299,6 +7155,8 @@
         "EUS": {
           "mins": 49,
           "direct": true,
+          "directMins": 49,
+          "changeAt": null,
           "typicalPeakMins": 58,
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
@@ -6318,6 +7176,8 @@
         "STP": {
           "mins": 50,
           "direct": true,
+          "directMins": 50,
+          "changeAt": null,
           "typicalPeakMins": 56,
           "peakTrainsPerHour": 1.6,
           "peakServices": 12,
@@ -6326,6 +7186,8 @@
         "LBG": {
           "mins": 35,
           "direct": true,
+          "directMins": 35,
+          "changeAt": null,
           "typicalPeakMins": 41,
           "peakTrainsPerHour": 1.6,
           "peakServices": 12,
@@ -6345,6 +7207,8 @@
         "WAT": {
           "mins": 80,
           "direct": true,
+          "directMins": 80,
+          "changeAt": null,
           "typicalPeakMins": 90,
           "peakTrainsPerHour": 1.9,
           "peakServices": 14,
@@ -6364,6 +7228,8 @@
         "KGX": {
           "mins": 48,
           "direct": true,
+          "directMins": 48,
+          "changeAt": null,
           "typicalPeakMins": null,
           "peakTrainsPerHour": null,
           "peakServices": 0,
@@ -6372,6 +7238,8 @@
         "STP": {
           "mins": 49,
           "direct": true,
+          "directMins": 49,
+          "changeAt": null,
           "typicalPeakMins": 51,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -6380,6 +7248,8 @@
         "LBG": {
           "mins": 64,
           "direct": true,
+          "directMins": 64,
+          "changeAt": null,
           "typicalPeakMins": 66,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -6399,6 +7269,8 @@
         "MYB": {
           "mins": 35,
           "direct": true,
+          "directMins": 35,
+          "changeAt": null,
           "typicalPeakMins": 46,
           "peakTrainsPerHour": 1.6,
           "peakServices": 12,
@@ -6418,6 +7290,8 @@
         "LST": {
           "mins": 40,
           "direct": true,
+          "directMins": 40,
+          "changeAt": null,
           "typicalPeakMins": 44,
           "peakTrainsPerHour": 3.1,
           "peakServices": 23,
@@ -6437,6 +7311,8 @@
         "MYB": {
           "mins": 24,
           "direct": true,
+          "directMins": 24,
+          "changeAt": null,
           "typicalPeakMins": 33,
           "peakTrainsPerHour": 1.6,
           "peakServices": 12,
@@ -6454,8 +7330,10 @@
       "lng": 0.181669,
       "journeys": {
         "STP": {
-          "mins": 76,
-          "direct": true,
+          "mins": 48,
+          "direct": false,
+          "directMins": 76,
+          "changeAt": "London Bridge",
           "typicalPeakMins": 76,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -6464,6 +7342,8 @@
         "LBG": {
           "mins": 24,
           "direct": true,
+          "directMins": 24,
+          "changeAt": null,
           "typicalPeakMins": 27,
           "peakTrainsPerHour": 8.4,
           "peakServices": 63,
@@ -6472,6 +7352,8 @@
         "VIC": {
           "mins": 31,
           "direct": true,
+          "directMins": 31,
+          "changeAt": null,
           "typicalPeakMins": 35,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -6489,8 +7371,10 @@
       "lng": 0.329851,
       "journeys": {
         "PAD": {
-          "mins": 54,
-          "direct": true,
+          "mins": 42,
+          "direct": false,
+          "directMins": 54,
+          "changeAt": "Stratford (London)",
           "typicalPeakMins": 56,
           "peakTrainsPerHour": 11.2,
           "peakServices": 84,
@@ -6499,6 +7383,8 @@
         "LST": {
           "mins": 23,
           "direct": true,
+          "directMins": 23,
+          "changeAt": null,
           "typicalPeakMins": 36,
           "peakTrainsPerHour": 22.4,
           "peakServices": 168,
@@ -6518,6 +7404,8 @@
         "WAT": {
           "mins": 45,
           "direct": true,
+          "directMins": 45,
+          "changeAt": null,
           "typicalPeakMins": 56,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -6537,6 +7425,8 @@
         "KGX": {
           "mins": 55,
           "direct": true,
+          "directMins": 55,
+          "changeAt": null,
           "typicalPeakMins": 55,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -6556,6 +7446,8 @@
         "VIC": {
           "mins": 75,
           "direct": true,
+          "directMins": 75,
+          "changeAt": null,
           "typicalPeakMins": 77,
           "peakTrainsPerHour": 1.6,
           "peakServices": 12,
@@ -6575,6 +7467,8 @@
         "LBG": {
           "mins": 25,
           "direct": true,
+          "directMins": 25,
+          "changeAt": null,
           "typicalPeakMins": 29,
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
@@ -6594,6 +7488,8 @@
         "STP": {
           "mins": 58,
           "direct": true,
+          "directMins": 58,
+          "changeAt": null,
           "typicalPeakMins": 59,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -6602,6 +7498,8 @@
         "LBG": {
           "mins": 63,
           "direct": true,
+          "directMins": 63,
+          "changeAt": null,
           "typicalPeakMins": 63,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -6610,6 +7508,8 @@
         "VIC": {
           "mins": 64,
           "direct": true,
+          "directMins": 64,
+          "changeAt": null,
           "typicalPeakMins": 69,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -6629,6 +7529,8 @@
         "STP": {
           "mins": 51,
           "direct": true,
+          "directMins": 51,
+          "changeAt": null,
           "typicalPeakMins": 51,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -6637,6 +7539,8 @@
         "LBG": {
           "mins": 34,
           "direct": true,
+          "directMins": 34,
+          "changeAt": null,
           "typicalPeakMins": 39,
           "peakTrainsPerHour": 9.6,
           "peakServices": 72,
@@ -6656,6 +7560,8 @@
         "PAD": {
           "mins": 14,
           "direct": true,
+          "directMins": 14,
+          "changeAt": null,
           "typicalPeakMins": 32,
           "peakTrainsPerHour": 6.4,
           "peakServices": 48,
@@ -6664,6 +7570,8 @@
         "LST": {
           "mins": 39,
           "direct": true,
+          "directMins": 39,
+          "changeAt": null,
           "typicalPeakMins": 43,
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
@@ -6683,6 +7591,8 @@
         "PAD": {
           "mins": 13,
           "direct": true,
+          "directMins": 13,
+          "changeAt": null,
           "typicalPeakMins": 18,
           "peakTrainsPerHour": 9.2,
           "peakServices": 69,
@@ -6691,6 +7601,8 @@
         "LST": {
           "mins": 24,
           "direct": true,
+          "directMins": 24,
+          "changeAt": null,
           "typicalPeakMins": 29,
           "peakTrainsPerHour": 9.2,
           "peakServices": 69,
@@ -6710,6 +7622,8 @@
         "WAT": {
           "mins": 76,
           "direct": true,
+          "directMins": 76,
+          "changeAt": null,
           "typicalPeakMins": 82,
           "peakTrainsPerHour": 2.4,
           "peakServices": 18,
@@ -6729,6 +7643,8 @@
         "FST": {
           "mins": 47,
           "direct": true,
+          "directMins": 47,
+          "changeAt": null,
           "typicalPeakMins": 57,
           "peakTrainsPerHour": 6.8,
           "peakServices": 51,
@@ -6748,6 +7664,8 @@
         "LST": {
           "mins": 57,
           "direct": true,
+          "directMins": 57,
+          "changeAt": null,
           "typicalPeakMins": 62,
           "peakTrainsPerHour": 4.4,
           "peakServices": 33,
@@ -6767,6 +7685,8 @@
         "STP": {
           "mins": 20,
           "direct": true,
+          "directMins": 20,
+          "changeAt": null,
           "typicalPeakMins": 32,
           "peakTrainsPerHour": 11.6,
           "peakServices": 87,
@@ -6775,6 +7695,8 @@
         "LBG": {
           "mins": 36,
           "direct": true,
+          "directMins": 36,
+          "changeAt": null,
           "typicalPeakMins": 37,
           "peakTrainsPerHour": 5.6,
           "peakServices": 42,
@@ -6794,6 +7716,8 @@
         "KGX": {
           "mins": 39,
           "direct": true,
+          "directMins": 39,
+          "changeAt": null,
           "typicalPeakMins": 45,
           "peakTrainsPerHour": 1.5,
           "peakServices": 11,
@@ -6802,6 +7726,8 @@
         "STP": {
           "mins": 56,
           "direct": true,
+          "directMins": 56,
+          "changeAt": null,
           "typicalPeakMins": 58,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -6810,6 +7736,8 @@
         "LBG": {
           "mins": 71,
           "direct": true,
+          "directMins": 71,
+          "changeAt": null,
           "typicalPeakMins": 73,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -6829,6 +7757,8 @@
         "WAT": {
           "mins": 35,
           "direct": true,
+          "directMins": 35,
+          "changeAt": null,
           "typicalPeakMins": 43,
           "peakTrainsPerHour": 6.8,
           "peakServices": 51,
@@ -6848,6 +7778,8 @@
         "FST": {
           "mins": 48,
           "direct": true,
+          "directMins": 48,
+          "changeAt": null,
           "typicalPeakMins": 52,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -6867,6 +7799,8 @@
         "LST": {
           "mins": 46,
           "direct": true,
+          "directMins": 46,
+          "changeAt": null,
           "typicalPeakMins": 55,
           "peakTrainsPerHour": 3.6,
           "peakServices": 27,
@@ -6886,6 +7820,8 @@
         "LST": {
           "mins": 42,
           "direct": true,
+          "directMins": 42,
+          "changeAt": null,
           "typicalPeakMins": 56,
           "peakTrainsPerHour": 2.7,
           "peakServices": 20,
@@ -6905,17 +7841,22 @@
         "LBG": {
           "mins": 53,
           "direct": true,
+          "directMins": 53,
+          "changeAt": null,
           "typicalPeakMins": 56,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 120
         },
         "VIC": {
-          "mins": null,
+          "mins": 76,
           "direct": false,
-          "changeRequired": true,
+          "directMins": null,
+          "changeAt": "Tonbridge",
           "typicalPeakMins": null,
-          "peakTrainsPerHour": null
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -6931,6 +7872,8 @@
         "KGX": {
           "mins": 20,
           "direct": true,
+          "directMins": 20,
+          "changeAt": null,
           "typicalPeakMins": 26,
           "peakTrainsPerHour": 5.1,
           "peakServices": 38,
@@ -6939,6 +7882,8 @@
         "STP": {
           "mins": 27,
           "direct": true,
+          "directMins": 27,
+          "changeAt": null,
           "typicalPeakMins": 28,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -6947,14 +7892,18 @@
         "LBG": {
           "mins": 42,
           "direct": true,
+          "directMins": 42,
+          "changeAt": null,
           "typicalPeakMins": 44,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 195
         },
         "MOG": {
-          "mins": 65,
-          "direct": true,
+          "mins": 42,
+          "direct": false,
+          "directMins": 65,
+          "changeAt": "Finsbury Park",
           "typicalPeakMins": 66,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -6974,6 +7923,8 @@
         "MYB": {
           "mins": 50,
           "direct": true,
+          "directMins": 50,
+          "changeAt": null,
           "typicalPeakMins": 56,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -6993,6 +7944,8 @@
         "WAT": {
           "mins": 30,
           "direct": true,
+          "directMins": 30,
+          "changeAt": null,
           "typicalPeakMins": 34,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -7012,6 +7965,8 @@
         "PAD": {
           "mins": 19,
           "direct": true,
+          "directMins": 19,
+          "changeAt": null,
           "typicalPeakMins": 20,
           "peakTrainsPerHour": 11.6,
           "peakServices": 87,
@@ -7020,6 +7975,8 @@
         "LST": {
           "mins": 6,
           "direct": true,
+          "directMins": 6,
+          "changeAt": null,
           "typicalPeakMins": 10,
           "peakTrainsPerHour": 28.0,
           "peakServices": 210,
@@ -7039,6 +7996,8 @@
         "WAT": {
           "mins": 30,
           "direct": true,
+          "directMins": 30,
+          "changeAt": null,
           "typicalPeakMins": 44,
           "peakTrainsPerHour": 5.2,
           "peakServices": 39,
@@ -7058,14 +8017,18 @@
         "STP": {
           "mins": 32,
           "direct": true,
+          "directMins": 32,
+          "changeAt": null,
           "typicalPeakMins": 36,
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
           "totalServices": 186
         },
         "LBG": {
-          "mins": 69,
-          "direct": true,
+          "mins": 56,
+          "direct": false,
+          "directMins": 69,
+          "changeAt": "Rochester",
           "typicalPeakMins": 69,
           "peakTrainsPerHour": 2.4,
           "peakServices": 18,
@@ -7085,6 +8048,8 @@
         "WAT": {
           "mins": 15,
           "direct": true,
+          "directMins": 15,
+          "changeAt": null,
           "typicalPeakMins": 29,
           "peakTrainsPerHour": 8.4,
           "peakServices": 63,
@@ -7104,6 +8069,8 @@
         "STP": {
           "mins": 47,
           "direct": true,
+          "directMins": 47,
+          "changeAt": null,
           "typicalPeakMins": 53,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -7112,6 +8079,8 @@
         "LBG": {
           "mins": 32,
           "direct": true,
+          "directMins": 32,
+          "changeAt": null,
           "typicalPeakMins": 32,
           "peakTrainsPerHour": 2.4,
           "peakServices": 18,
@@ -7120,6 +8089,8 @@
         "VIC": {
           "mins": 32,
           "direct": true,
+          "directMins": 32,
+          "changeAt": null,
           "typicalPeakMins": 48,
           "peakTrainsPerHour": 6.4,
           "peakServices": 48,
@@ -7137,8 +8108,10 @@
       "lng": 0.169225,
       "journeys": {
         "STP": {
-          "mins": 57,
-          "direct": true,
+          "mins": 54,
+          "direct": false,
+          "directMins": 57,
+          "changeAt": "London Blackfriars",
           "typicalPeakMins": 57,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -7147,17 +8120,22 @@
         "VIC": {
           "mins": 27,
           "direct": true,
+          "directMins": 27,
+          "changeAt": null,
           "typicalPeakMins": 35,
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
           "totalServices": 234
         },
         "LBG": {
-          "mins": null,
+          "mins": 49,
           "direct": false,
-          "changeRequired": true,
+          "directMins": null,
+          "changeAt": "London Blackfriars",
           "typicalPeakMins": null,
-          "peakTrainsPerHour": null
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -7173,6 +8151,8 @@
         "PAD": {
           "mins": 47,
           "direct": true,
+          "directMins": 47,
+          "changeAt": null,
           "typicalPeakMins": 57,
           "peakTrainsPerHour": 4.4,
           "peakServices": 33,
@@ -7190,8 +8170,10 @@
       "lng": -0.68137,
       "journeys": {
         "PAD": {
-          "mins": 38,
-          "direct": true,
+          "mins": 30,
+          "direct": false,
+          "directMins": 38,
+          "changeAt": "Maidenhead",
           "typicalPeakMins": 40,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -7200,6 +8182,8 @@
         "LST": {
           "mins": 49,
           "direct": true,
+          "directMins": 49,
+          "changeAt": null,
           "typicalPeakMins": 52,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -7219,6 +8203,8 @@
         "WAT": {
           "mins": 34,
           "direct": true,
+          "directMins": 34,
+          "changeAt": null,
           "typicalPeakMins": 40,
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
@@ -7236,8 +8222,10 @@
       "lng": -0.339152,
       "journeys": {
         "WAT": {
-          "mins": 36,
-          "direct": true,
+          "mins": 29,
+          "direct": false,
+          "directMins": 36,
+          "changeAt": "Surbiton",
           "typicalPeakMins": 38,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -7257,6 +8245,8 @@
         "PAD": {
           "mins": 42,
           "direct": true,
+          "directMins": 42,
+          "changeAt": null,
           "typicalPeakMins": 46,
           "peakTrainsPerHour": 1.6,
           "peakServices": 12,
@@ -7276,6 +8266,8 @@
         "PAD": {
           "mins": 34,
           "direct": true,
+          "directMins": 34,
+          "changeAt": null,
           "typicalPeakMins": 38,
           "peakTrainsPerHour": 1.6,
           "peakServices": 12,
@@ -7295,6 +8287,8 @@
         "STP": {
           "mins": 49,
           "direct": true,
+          "directMins": 49,
+          "changeAt": null,
           "typicalPeakMins": 50,
           "peakTrainsPerHour": 7.2,
           "peakServices": 54,
@@ -7303,6 +8297,8 @@
         "LBG": {
           "mins": 34,
           "direct": true,
+          "directMins": 34,
+          "changeAt": null,
           "typicalPeakMins": 42,
           "peakTrainsPerHour": 8.0,
           "peakServices": 60,
@@ -7311,6 +8307,8 @@
         "VIC": {
           "mins": 36,
           "direct": true,
+          "directMins": 36,
+          "changeAt": null,
           "typicalPeakMins": 38,
           "peakTrainsPerHour": 2.4,
           "peakServices": 18,
@@ -7330,6 +8328,8 @@
         "FST": {
           "mins": 38,
           "direct": true,
+          "directMins": 38,
+          "changeAt": null,
           "typicalPeakMins": 42,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -7347,8 +8347,10 @@
       "lng": -1.029816,
       "journeys": {
         "PAD": {
-          "mins": 41,
-          "direct": true,
+          "mins": 37,
+          "direct": false,
+          "directMins": 41,
+          "changeAt": "Reading",
           "typicalPeakMins": 48,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -7368,6 +8370,8 @@
         "LBG": {
           "mins": 33,
           "direct": true,
+          "directMins": 33,
+          "changeAt": null,
           "typicalPeakMins": 37,
           "peakTrainsPerHour": 6.8,
           "peakServices": 51,
@@ -7376,6 +8380,8 @@
         "VIC": {
           "mins": 42,
           "direct": true,
+          "directMins": 42,
+          "changeAt": null,
           "typicalPeakMins": 47,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -7395,6 +8401,8 @@
         "LST": {
           "mins": 14,
           "direct": true,
+          "directMins": 14,
+          "changeAt": null,
           "typicalPeakMins": 17,
           "peakTrainsPerHour": 8.9,
           "peakServices": 67,
@@ -7414,6 +8422,8 @@
         "EUS": {
           "mins": 28,
           "direct": true,
+          "directMins": 28,
+          "changeAt": null,
           "typicalPeakMins": 42,
           "peakTrainsPerHour": 5.2,
           "peakServices": 39,
@@ -7433,6 +8443,8 @@
         "LBG": {
           "mins": 44,
           "direct": true,
+          "directMins": 44,
+          "changeAt": null,
           "typicalPeakMins": 48,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -7441,6 +8453,8 @@
         "VIC": {
           "mins": 52,
           "direct": true,
+          "directMins": 52,
+          "changeAt": null,
           "typicalPeakMins": 58,
           "peakTrainsPerHour": 1.6,
           "peakServices": 12,
@@ -7460,6 +8474,8 @@
         "WAT": {
           "mins": 23,
           "direct": true,
+          "directMins": 23,
+          "changeAt": null,
           "typicalPeakMins": 35,
           "peakTrainsPerHour": 12.8,
           "peakServices": 96,
@@ -7479,6 +8495,8 @@
         "PAD": {
           "mins": 21,
           "direct": true,
+          "directMins": 21,
+          "changeAt": null,
           "typicalPeakMins": 45,
           "peakTrainsPerHour": 6.4,
           "peakServices": 48,
@@ -7487,6 +8505,8 @@
         "LST": {
           "mins": 55,
           "direct": true,
+          "directMins": 55,
+          "changeAt": null,
           "typicalPeakMins": 58,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -7506,6 +8526,8 @@
         "FST": {
           "mins": 21,
           "direct": true,
+          "directMins": 21,
+          "changeAt": null,
           "typicalPeakMins": 24,
           "peakTrainsPerHour": 8.8,
           "peakServices": 66,
@@ -7526,6 +8548,8 @@
         "WAT": {
           "mins": 4,
           "direct": true,
+          "directMins": 4,
+          "changeAt": null,
           "typicalPeakMins": 7,
           "peakTrainsPerHour": 27.2,
           "peakServices": 204,
@@ -7546,6 +8570,8 @@
         "WAT": {
           "mins": 45,
           "direct": true,
+          "directMins": 45,
+          "changeAt": null,
           "typicalPeakMins": 51,
           "peakTrainsPerHour": 4.4,
           "peakServices": 33,
@@ -7565,6 +8591,8 @@
         "WAT": {
           "mins": 22,
           "direct": true,
+          "directMins": 22,
+          "changeAt": null,
           "typicalPeakMins": 31,
           "peakTrainsPerHour": 3.6,
           "peakServices": 27,
@@ -7584,6 +8612,8 @@
         "LBG": {
           "mins": 41,
           "direct": true,
+          "directMins": 41,
+          "changeAt": null,
           "typicalPeakMins": 47,
           "peakTrainsPerHour": 1.6,
           "peakServices": 12,
@@ -7592,6 +8622,8 @@
         "VIC": {
           "mins": 12,
           "direct": true,
+          "directMins": 12,
+          "changeAt": null,
           "typicalPeakMins": 12,
           "peakTrainsPerHour": 6.8,
           "peakServices": 51,
@@ -7611,6 +8643,8 @@
         "MYB": {
           "mins": 88,
           "direct": true,
+          "directMins": 88,
+          "changeAt": null,
           "typicalPeakMins": 89,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -7631,6 +8665,8 @@
           "mins": null,
           "direct": false,
           "changeRequired": true,
+          "directMins": null,
+          "changeAt": null,
           "typicalPeakMins": null,
           "peakTrainsPerHour": null
         }
@@ -7648,6 +8684,8 @@
         "EUS": {
           "mins": 15,
           "direct": true,
+          "directMins": 15,
+          "changeAt": null,
           "typicalPeakMins": 23,
           "peakTrainsPerHour": 10.7,
           "peakServices": 80,
@@ -7666,8 +8704,10 @@
       "lng": -0.210692,
       "journeys": {
         "KGX": {
-          "mins": 38,
-          "direct": true,
+          "mins": 35,
+          "direct": false,
+          "directMins": 38,
+          "changeAt": "Potters Bar",
           "typicalPeakMins": null,
           "peakTrainsPerHour": null,
           "peakServices": 0,
@@ -7676,6 +8716,8 @@
         "MOG": {
           "mins": 39,
           "direct": true,
+          "directMins": 39,
+          "changeAt": null,
           "typicalPeakMins": 44,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -7695,6 +8737,8 @@
         "LBG": {
           "mins": 27,
           "direct": true,
+          "directMins": 27,
+          "changeAt": null,
           "typicalPeakMins": 29,
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
@@ -7703,6 +8747,8 @@
         "VIC": {
           "mins": 38,
           "direct": true,
+          "directMins": 38,
+          "changeAt": null,
           "typicalPeakMins": 39,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -7722,6 +8768,8 @@
         "KGX": {
           "mins": 29,
           "direct": true,
+          "directMins": 29,
+          "changeAt": null,
           "typicalPeakMins": 32,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -7730,6 +8778,8 @@
         "STP": {
           "mins": 22,
           "direct": true,
+          "directMins": 22,
+          "changeAt": null,
           "typicalPeakMins": 37,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -7738,14 +8788,18 @@
         "LBG": {
           "mins": 37,
           "direct": true,
+          "directMins": 37,
+          "changeAt": null,
           "typicalPeakMins": null,
           "peakTrainsPerHour": null,
           "peakServices": 0,
           "totalServices": 3
         },
         "MOG": {
-          "mins": 47,
-          "direct": true,
+          "mins": 39,
+          "direct": false,
+          "directMins": 47,
+          "changeAt": "Finsbury Park",
           "typicalPeakMins": 52,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -7765,6 +8819,8 @@
         "KGX": {
           "mins": 19,
           "direct": true,
+          "directMins": 19,
+          "changeAt": null,
           "typicalPeakMins": 28,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -7784,6 +8840,8 @@
         "WAT": {
           "mins": 27,
           "direct": true,
+          "directMins": 27,
+          "changeAt": null,
           "typicalPeakMins": 42,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -7803,6 +8861,8 @@
         "LBG": {
           "mins": 18,
           "direct": true,
+          "directMins": 18,
+          "changeAt": null,
           "typicalPeakMins": 18,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -7811,6 +8871,8 @@
         "VIC": {
           "mins": 31,
           "direct": true,
+          "directMins": 31,
+          "changeAt": null,
           "typicalPeakMins": 35,
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
@@ -7830,6 +8892,8 @@
         "PAD": {
           "mins": 20,
           "direct": true,
+          "directMins": 20,
+          "changeAt": null,
           "typicalPeakMins": 23,
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
@@ -7838,6 +8902,8 @@
         "LST": {
           "mins": 32,
           "direct": true,
+          "directMins": 32,
+          "changeAt": null,
           "typicalPeakMins": 35,
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
@@ -7857,6 +8923,8 @@
         "FST": {
           "mins": 9,
           "direct": true,
+          "directMins": 9,
+          "changeAt": null,
           "typicalPeakMins": 10,
           "peakTrainsPerHour": 15.6,
           "peakServices": 117,
@@ -7876,6 +8944,8 @@
         "STP": {
           "mins": 8,
           "direct": true,
+          "directMins": 8,
+          "changeAt": null,
           "typicalPeakMins": 10,
           "peakTrainsPerHour": 8.8,
           "peakServices": 66,
@@ -7884,6 +8954,8 @@
         "LBG": {
           "mins": 24,
           "direct": true,
+          "directMins": 24,
+          "changeAt": null,
           "typicalPeakMins": 25,
           "peakTrainsPerHour": 2.8,
           "peakServices": 21,
@@ -7903,6 +8975,8 @@
         "FST": {
           "mins": 27,
           "direct": true,
+          "directMins": 27,
+          "changeAt": null,
           "typicalPeakMins": 30,
           "peakTrainsPerHour": 3.6,
           "peakServices": 27,
@@ -7922,6 +8996,8 @@
         "FST": {
           "mins": 45,
           "direct": true,
+          "directMins": 45,
+          "changeAt": null,
           "typicalPeakMins": 55,
           "peakTrainsPerHour": 6.8,
           "peakServices": 51,
@@ -7941,6 +9017,8 @@
         "WAT": {
           "mins": 24,
           "direct": true,
+          "directMins": 24,
+          "changeAt": null,
           "typicalPeakMins": 36,
           "peakTrainsPerHour": 5.6,
           "peakServices": 42,
@@ -7961,6 +9039,8 @@
         "WAT": {
           "mins": 59,
           "direct": true,
+          "directMins": 59,
+          "changeAt": null,
           "typicalPeakMins": 61,
           "peakTrainsPerHour": 1.9,
           "peakServices": 14,
@@ -7980,6 +9060,8 @@
         "LST": {
           "mins": 63,
           "direct": true,
+          "directMins": 63,
+          "changeAt": null,
           "typicalPeakMins": 77,
           "peakTrainsPerHour": 3.3,
           "peakServices": 25,
@@ -7999,6 +9081,8 @@
         "LST": {
           "mins": 36,
           "direct": true,
+          "directMins": 36,
+          "changeAt": null,
           "typicalPeakMins": 41,
           "peakTrainsPerHour": 5.6,
           "peakServices": 42,
@@ -8018,6 +9102,8 @@
         "STP": {
           "mins": 40,
           "direct": true,
+          "directMins": 40,
+          "changeAt": null,
           "typicalPeakMins": 41,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -8026,6 +9112,8 @@
         "WAT": {
           "mins": 15,
           "direct": true,
+          "directMins": 15,
+          "changeAt": null,
           "typicalPeakMins": 20,
           "peakTrainsPerHour": 16.8,
           "peakServices": 126,
@@ -8046,6 +9134,8 @@
         "WAT": {
           "mins": 58,
           "direct": true,
+          "directMins": 58,
+          "changeAt": null,
           "typicalPeakMins": 70,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
@@ -8065,6 +9155,8 @@
         "WAT": {
           "mins": 50,
           "direct": true,
+          "directMins": 50,
+          "changeAt": null,
           "typicalPeakMins": 56,
           "peakTrainsPerHour": 2.4,
           "peakServices": 18,
@@ -8082,11 +9174,14 @@
       "lng": -0.61038,
       "journeys": {
         "PAD": {
-          "mins": null,
+          "mins": 32,
           "direct": false,
-          "changeRequired": true,
+          "directMins": null,
+          "changeAt": "Slough",
           "typicalPeakMins": null,
-          "peakTrainsPerHour": null
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -8102,6 +9197,8 @@
         "LST": {
           "mins": 43,
           "direct": true,
+          "directMins": 43,
+          "changeAt": null,
           "typicalPeakMins": 48,
           "peakTrainsPerHour": 7.2,
           "peakServices": 54,
@@ -8121,6 +9218,8 @@
         "WAT": {
           "mins": 56,
           "direct": true,
+          "directMins": 56,
+          "changeAt": null,
           "typicalPeakMins": 60,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -8140,6 +9239,8 @@
         "STP": {
           "mins": 66,
           "direct": true,
+          "directMins": 66,
+          "changeAt": null,
           "typicalPeakMins": 66,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -8148,6 +9249,8 @@
         "LBG": {
           "mins": 51,
           "direct": true,
+          "directMins": 51,
+          "changeAt": null,
           "typicalPeakMins": 51,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -8156,6 +9259,8 @@
         "VIC": {
           "mins": 54,
           "direct": true,
+          "directMins": 54,
+          "changeAt": null,
           "typicalPeakMins": 55,
           "peakTrainsPerHour": 1.2,
           "peakServices": 9,
@@ -8175,6 +9280,8 @@
         "WAT": {
           "mins": 24,
           "direct": true,
+          "directMins": 24,
+          "changeAt": null,
           "typicalPeakMins": 30,
           "peakTrainsPerHour": 14.4,
           "peakServices": 108,
@@ -8194,6 +9301,8 @@
         "STP": {
           "mins": 39,
           "direct": true,
+          "directMins": 39,
+          "changeAt": null,
           "typicalPeakMins": 39,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
@@ -8202,6 +9311,8 @@
         "LBG": {
           "mins": 21,
           "direct": true,
+          "directMins": 21,
+          "changeAt": null,
           "typicalPeakMins": 24,
           "peakTrainsPerHour": 9.6,
           "peakServices": 72,
@@ -8221,6 +9332,8 @@
         "WAT": {
           "mins": 27,
           "direct": true,
+          "directMins": 27,
+          "changeAt": null,
           "typicalPeakMins": 31,
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
@@ -8240,6 +9353,8 @@
         "VIC": {
           "mins": 85,
           "direct": true,
+          "directMins": 85,
+          "changeAt": null,
           "typicalPeakMins": 86,
           "peakTrainsPerHour": 1.6,
           "peakServices": 12,
@@ -8254,7 +9369,7 @@
   "geoSource": "NaPTAN (Department for Transport), ATCO area 910",
   "geoUpdated": "2026-08-13",
   "sourceLicence": "Open Government Licence v3.0",
-  "method": "Journey times computed from Darwin PPTimetable files for three midweek days (2026-08-11, 2026-08-12, 2026-08-13). Only passenger services are counted; passing points, operational stops and cancelled services are excluded. Stations and terminals are matched on TIPLOC using Darwin reference data. \"Fastest\" is the quickest service of the day; \"typical peak\" is the median of services arriving at the London terminal between 07:00 and 09:30.",
+  "method": "Journey times computed from Darwin PPTimetable files for three midweek days (2026-08-11, 2026-08-12, 2026-08-13). Only passenger services are counted; passing points, operational stops and cancelled services are excluded. Stations and terminals are matched on TIPLOC using Darwin reference data. \"Fastest\" is the quickest journey of the day allowing at most one change, and names the interchange where it uses one; \"fastest direct\" is the quickest service that does not require changing. Connections allow 8 minutes to change, applied uniformly because station-by-station minimum connection times are not published in the feed, and are searched within a single day so that one day's arrival is never matched to the next day's departure. \"Typical peak\" is the median of direct services arriving at the London terminal between 07:00 and 09:30, and the peak frequency counts those same direct services.",
   "sampleDays": [
     "2026-08-11",
     "2026-08-12",

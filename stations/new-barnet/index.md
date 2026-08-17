@@ -7,15 +7,15 @@ New Barnet connects to 3 London terminals. The fastest route is Kings Cross in 1
 - London terminals served: 3 (Kings Cross, St Pancras, Moorgate)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## New Barnet to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Kings Cross | 18 min | 18 | 2.0 | Great Northern, LNER, Hull Trains, Lumo |
-| St Pancras | 19 min | 20 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
-| Moorgate | 27 min | 32 | 4.0 | Great Northern |
+| Kings Cross | 18 min | same as fastest | 18 | 2.0 | Great Northern, LNER, Hull Trains, Lumo |
+| St Pancras | 19 min | same as fastest | 20 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Moorgate | 27 min | same as fastest | 32 | 4.0 | Great Northern |
 
 ## Frequently asked questions
 

@@ -7,14 +7,14 @@ Peterborough connects to 2 London terminals. The fastest route is Kings Cross in
 - London terminals served: 2 (Kings Cross, St Pancras)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Peterborough to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Kings Cross | 47 min | 56 | 5.1 | Great Northern, LNER, Hull Trains, Lumo |
-| St Pancras | 79 min | 81 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Kings Cross | 47 min | same as fastest | 56 | 5.1 | Great Northern, LNER, Hull Trains, Lumo |
+| St Pancras | 68 min (change at Stevenage) | 79 min | 81 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 
@@ -24,7 +24,7 @@ The fastest train from Peterborough reaches London Kings Cross in 47 minutes. Pe
 
 ### Which London station should I travel to from Peterborough?
 
-Kings Cross is the quickest at 47 minutes, on a direct service. Direct trains run to Kings Cross, St Pancras.
+Kings Cross is the quickest at 47 minutes, on a direct service. Direct trains run to Kings Cross.
 
 ### Is Peterborough a good commuter town for London?
 
@@ -32,7 +32,7 @@ At 47 minutes to London Kings Cross, Peterborough is a practical commuter choice
 
 ### Are there direct trains from Peterborough to London?
 
-Yes. Direct services run to Kings Cross, St Pancras.
+Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Peterborough?
 

@@ -7,14 +7,14 @@ Harpenden connects to 2 London terminals. The fastest route is St Pancras in 25 
 - London terminals served: 2 (St Pancras, London Bridge)
 - Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Harpenden to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| St Pancras | 25 min | 29 | 7.6 | Thameslink, East Midlands Railway, Southeastern high speed |
-| London Bridge | 41 min | 42 | 5.6 | Southeastern, Southern, Thameslink |
+| St Pancras | 25 min | same as fastest | 29 | 7.6 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 41 min | same as fastest | 42 | 5.6 | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 

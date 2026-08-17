@@ -7,13 +7,13 @@ Cobham & Stoke d'Abernon connects to 1 London terminal. The fastest route is Wat
 - London terminals served: 1 (Waterloo)
 - Operator: South Western Railway
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Cobham & Stoke d'Abernon to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Waterloo | 39 min | 46 | 2.0 | South Western Railway |
+| Waterloo | 39 min | same as fastest | 46 | 2.0 | South Western Railway |
 
 ## Frequently asked questions
 

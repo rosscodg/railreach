@@ -7,15 +7,15 @@ Reading connects to 3 London terminals. The fastest route is Paddington in 23 mi
 - London terminals served: 3 (Paddington, Liverpool Street, Waterloo)
 - Operator: Great Western Railway, Elizabeth line
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Reading to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Paddington | 23 min | 28 | 15.6 | Great Western Railway, Elizabeth line |
-| Liverpool Street | 60 min | 63 | 4.0 | Greater Anglia, Elizabeth line |
-| Waterloo | 85 min | 88 | 2.0 | South Western Railway |
+| Paddington | 23 min | same as fastest | 28 | 15.6 | Great Western Railway, Elizabeth line |
+| Liverpool Street | 60 min | same as fastest | 63 | 4.0 | Greater Anglia, Elizabeth line |
+| Waterloo | 80 min (change at Basingstoke) | 85 min | 88 | 2.0 | South Western Railway |
 
 ## Frequently asked questions
 
@@ -25,7 +25,7 @@ The fastest train from Reading reaches London Paddington in 23 minutes. Reading 
 
 ### Which London station should I travel to from Reading?
 
-Paddington is the quickest at 23 minutes, on a direct service. Direct trains run to Paddington, Liverpool Street, Waterloo.
+Paddington is the quickest at 23 minutes, on a direct service. Direct trains run to Paddington, Liverpool Street.
 
 ### Is Reading a good commuter town for London?
 
@@ -33,7 +33,7 @@ At 23 minutes to London Paddington, Reading is an excellent commuter base, with 
 
 ### Are there direct trains from Reading to London?
 
-Yes. Direct services run to Paddington, Liverpool Street, Waterloo.
+Yes. Direct services run to Paddington, Liverpool Street.
 
 ### What are the nearest stations to Reading?
 

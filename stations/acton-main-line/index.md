@@ -7,14 +7,14 @@ Acton Main Line connects to 2 London terminals. The fastest route is Paddington 
 - London terminals served: 2 (Paddington, Liverpool Street)
 - Operator: Great Western Railway, Elizabeth line
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Acton Main Line to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Paddington | 7 min | 8 | 6.0 | Great Western Railway, Elizabeth line |
-| Liverpool Street | 18 min | 19 | 6.0 | Greater Anglia, Elizabeth line |
+| Paddington | 7 min | same as fastest | 8 | 6.0 | Great Western Railway, Elizabeth line |
+| Liverpool Street | 18 min | same as fastest | 19 | 6.0 | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 

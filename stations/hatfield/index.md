@@ -7,15 +7,15 @@ Hatfield connects to 3 London terminals. The fastest route is Kings Cross in 26 
 - London terminals served: 3 (Kings Cross, St Pancras, Moorgate)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Hatfield to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Kings Cross | 26 min | 29 | 2.0 | Great Northern, LNER, Hull Trains, Lumo |
-| St Pancras | 30 min | 32 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
-| Moorgate | 42 min | 47 | 4.0 | Great Northern |
+| Kings Cross | 26 min | same as fastest | 29 | 2.0 | Great Northern, LNER, Hull Trains, Lumo |
+| St Pancras | 30 min | same as fastest | 32 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Moorgate | 41 min (change at Finsbury Park) | 42 min | 47 | 4.0 | Great Northern |
 
 ## Frequently asked questions
 
@@ -25,7 +25,7 @@ The fastest train from Hatfield reaches London Kings Cross in 26 minutes. Hatfie
 
 ### Which London station should I travel to from Hatfield?
 
-Kings Cross is the quickest at 26 minutes, on a direct service. Direct trains run to Kings Cross, St Pancras, Moorgate.
+Kings Cross is the quickest at 26 minutes, on a direct service. Direct trains run to Kings Cross, St Pancras.
 
 ### Is Hatfield a good commuter town for London?
 
@@ -33,7 +33,7 @@ At 26 minutes to London Kings Cross, Hatfield is an excellent commuter base, wit
 
 ### Are there direct trains from Hatfield to London?
 
-Yes. Direct services run to Kings Cross, St Pancras, Moorgate.
+Yes. Direct services run to Kings Cross, St Pancras.
 
 ### What are the nearest stations to Hatfield?
 

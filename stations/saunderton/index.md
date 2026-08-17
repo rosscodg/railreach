@@ -7,13 +7,13 @@ Saunderton connects to 1 London terminal. The fastest route is Marylebone in 35 
 - London terminals served: 1 (Marylebone)
 - Operator: Chiltern Railways
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Saunderton to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Marylebone | 35 min | 46 | 1.6 | Chiltern Railways |
+| Marylebone | 35 min | same as fastest | 46 | 1.6 | Chiltern Railways |
 
 ## Frequently asked questions
 

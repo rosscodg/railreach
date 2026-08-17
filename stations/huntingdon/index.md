@@ -7,15 +7,15 @@ Huntingdon connects to 3 London terminals. The fastest route is Kings Cross in 4
 - London terminals served: 3 (Kings Cross, St Pancras, London Bridge)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Huntingdon to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Kings Cross | 47 min | 53 | 1.5 | Great Northern, LNER, Hull Trains, Lumo |
-| St Pancras | 64 min | 66 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
-| London Bridge | 79 min | 81 | 2.0 | Southeastern, Southern, Thameslink |
+| Kings Cross | 47 min | same as fastest | 53 | 1.5 | Great Northern, LNER, Hull Trains, Lumo |
+| St Pancras | 64 min | same as fastest | 66 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 79 min | same as fastest | 81 | 2.0 | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 

@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/shared.css?v=874b3afd">
+<link rel="stylesheet" href="/assets/css/shared.css?v=b2e3cd6b">
 </head>
 <body>
 <a class="skip-link" href="#content">Skip to content</a>
@@ -40,7 +40,7 @@
 <main id="content" class="page-content">
 <div class="wrap">
 <h1>About the data</h1>
-<p class="lede">RailReach publishes train journey times from 345 stations to all 11 London terminals: 550 station-to-terminal journeys in total, 530 of them direct. This page explains where those numbers come from, and where they should not be relied on.</p>
+<p class="lede">RailReach publishes train journey times from 345 stations to all 11 London terminals: 550 station-to-terminal journeys in total, 493 of them direct. This page explains where those numbers come from, and where they should not be relied on.</p>
 
 <h2>What RailReach is</h2>
 <p>RailReach is a free planning tool for anyone weighing up where to live against how long they will spend on a train. It is built for homebuyers, renters, relocators and daily commuters who need to compare towns on a like-for-like basis, rather than check a specific departure.</p>
@@ -48,7 +48,8 @@
 
 <h2>Sources and method</h2>
 <p>Journey times are computed from Darwin Timetable Files, published by the Rail Delivery Group through the Rail Data Marketplace under the Open Government Licence v3.0. The operators covered are Avanti West Coast, Chiltern Railways, East Midlands Railway, Elizabeth line, Great Northern, Great Western Railway, Greater Anglia, Hull Trains, LNER, London Northwestern, Lumo, South Western Railway, Southeastern, Southeastern high speed, Southern, Thameslink, c2c.</p>
-<p><strong>Fastest</strong> is the quickest scheduled service of the day. <strong>Typical peak</strong> is the median journey time of services arriving at the London terminal between 07:00 and 09:30, which is closer to what a commuter actually experiences. Where the two differ sharply the fastest figure is flattering: a single early express is no help if the train you can catch takes twenty minutes longer. Neither is an average, because off-peak and late-night stopping services distort one.</p>
+<p><strong>Fastest</strong> is the quickest scheduled journey of the day, allowing at most one change. Where it uses one, the interchange is named, because a time that quietly depends on changing trains is misleading on its own. <strong>Fastest direct</strong> is the quickest service that does not require changing; for most routes the two are the same, and it is shown separately only where they differ. Connections allow a uniform eight minutes to change. Station-by-station minimum connection times are not published in the timetable feed, and eight minutes is deliberately more cautious than the five a journey planner will offer at a simple same-platform change, because publishing a connection nobody can make is worse than publishing a slightly slow one.</p>
+<p><strong>Typical peak</strong> is the median journey time of direct services arriving at the London terminal between 07:00 and 09:30, which is closer to what a commuter actually experiences. Where it and the fastest figure differ sharply, the fastest is flattering: a single early express is no help if the train you can catch takes twenty minutes longer. <strong>Peak trains</strong> counts those same direct services. Neither is an average, because off-peak and late-night stopping services distort one.</p>
 <p>Where no direct service exists, the time reflects the quickest routing with one change, including a realistic interchange allowance. Those journeys are marked "change required" throughout the site.</p>
 
 <h2>Station positions</h2>
@@ -61,12 +62,12 @@
 <caption>Stations within 90 minutes of each London terminal</caption>
 <thead><tr><th>Terminal</th><th>Stations within 90 min</th><th>Operators</th></tr></thead>
 <tbody>
-<tr><td>Kings Cross</td><td>35</td><td>Great Northern, LNER, Hull Trains, Lumo</td></tr>
+<tr><td>Kings Cross</td><td>37</td><td>Great Northern, LNER, Hull Trains, Lumo</td></tr>
 <tr><td>St Pancras</td><td>84</td><td>Thameslink, East Midlands Railway, Southeastern high speed</td></tr>
 <tr><td>Waterloo</td><td>79</td><td>South Western Railway</td></tr>
-<tr><td>Paddington</td><td>41</td><td>Great Western Railway, Elizabeth line</td></tr>
-<tr><td>London Bridge</td><td>96</td><td>Southeastern, Southern, Thameslink</td></tr>
-<tr><td>Victoria</td><td>67</td><td>Southeastern, Southern</td></tr>
+<tr><td>Paddington</td><td>44</td><td>Great Western Railway, Elizabeth line</td></tr>
+<tr><td>London Bridge</td><td>101</td><td>Southeastern, Southern, Thameslink</td></tr>
+<tr><td>Victoria</td><td>72</td><td>Southeastern, Southern</td></tr>
 <tr><td>Liverpool Street</td><td>49</td><td>Greater Anglia, Elizabeth line</td></tr>
 <tr><td>Euston</td><td>18</td><td>Avanti West Coast, London Northwestern</td></tr>
 <tr><td>Marylebone</td><td>21</td><td>Chiltern Railways</td></tr>
@@ -75,7 +76,7 @@
 </tbody>
 </table>
 </div>
-<p>Every one of these 339 stations has its own journey guide, listed on the <a href="/stations/">stations index</a> and plotted on the <a href="/">interactive map</a>.</p>
+<p>Every one of these 342 stations has its own journey guide, listed on the <a href="/stations/">stations index</a> and plotted on the <a href="/">interactive map</a>.</p>
 
 <h2>Limitations</h2>
 <ul>
@@ -107,7 +108,7 @@
 <h3>Can I reuse this data?</h3>
 <p>Yes. The journey time dataset is published under a Creative Commons Attribution 4.0 licence. Please credit RailReach and link back to this site.</p>
 
-<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, computed from Darwin Timetable Files published by the Rail Delivery Group under the Open Government Licence. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-14. <a href="/about/">Read the full methodology &rarr;</a></div>
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, computed from Darwin Timetable Files published by the Rail Delivery Group under the Open Government Licence. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-17. <a href="/about/">Read the full methodology &rarr;</a></div>
 </div>
 </main>
 <script type="application/ld+json">[
@@ -196,7 +197,7 @@
 "url": "https://railreach.co.uk/"
 },
 "temporalCoverage": "2026",
-"dateModified": "2026-08-14",
+"dateModified": "2026-08-17",
 "spatialCoverage": {
 "@type": "Place",
 "name": "England and Wales"

@@ -7,13 +7,13 @@ Shoreham-by-Sea connects to 1 London terminal. The fastest route is Victoria in 
 - London terminals served: 1 (Victoria)
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Shoreham-by-Sea to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Victoria | 75 min | 77 | 1.6 | Southeastern, Southern |
+| Victoria | 75 min | same as fastest | 77 | 1.6 | Southeastern, Southern |
 
 ## Frequently asked questions
 

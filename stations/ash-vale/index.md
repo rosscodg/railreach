@@ -7,13 +7,13 @@ Ash Vale connects to 1 London terminal. The fastest route is Waterloo in 41 minu
 - London terminals served: 1 (Waterloo)
 - Operator: South Western Railway
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Ash Vale to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Waterloo | 41 min | 43 | 2.8 | South Western Railway |
+| Waterloo | 41 min | same as fastest | 43 | 2.8 | South Western Railway |
 
 ## Frequently asked questions
 

@@ -7,15 +7,15 @@ Faversham connects to 3 London terminals. The fastest route is St Pancras in 66 
 - London terminals served: 3 (St Pancras, London Bridge, Victoria)
 - Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Faversham to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| St Pancras | 66 min | 68 | 2.4 | Thameslink, East Midlands Railway, Southeastern high speed |
-| London Bridge | 71 min | 71 | 2.0 | Southeastern, Southern, Thameslink |
-| Victoria | 72 min | 80 | 2.0 | Southeastern, Southern |
+| St Pancras | 66 min | same as fastest | 68 | 2.4 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 71 min | same as fastest | 71 | 2.0 | Southeastern, Southern, Thameslink |
+| Victoria | 72 min | same as fastest | 80 | 2.0 | Southeastern, Southern |
 
 ## Frequently asked questions
 

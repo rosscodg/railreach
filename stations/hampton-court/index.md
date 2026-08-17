@@ -1,37 +1,37 @@
 # Train times from Hampton Court to London
 
-Hampton Court connects to 1 London terminal. The fastest route is Waterloo in 38 minutes on a direct train.
+Hampton Court connects to 1 London terminal. The fastest route is Waterloo in 31 minutes, with one change.
 
-- Fastest journey to London: 38 minutes to Waterloo
-- Direct service: Yes
+- Fastest journey to London: 31 minutes to Waterloo
+- Direct service: No - one change required
 - London terminals served: 1 (Waterloo)
 - Operator: South Western Railway
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Hampton Court to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Waterloo | 38 min | 40 | 2.0 | South Western Railway |
+| Waterloo | 31 min (change at Surbiton) | 38 min | 40 | 2.0 | South Western Railway |
 
 ## Frequently asked questions
 
 ### How long does the train from Hampton Court to London take?
 
-The fastest train from Hampton Court reaches London Waterloo in 38 minutes. Hampton Court connects to 1 London terminal: Waterloo.
+The fastest train from Hampton Court reaches London Waterloo in 31 minutes. Hampton Court connects to 1 London terminal: Waterloo.
 
 ### Which London station should I travel to from Hampton Court?
 
-Waterloo is the quickest at 38 minutes, on a direct service. Direct trains run to Waterloo.
+Waterloo is the quickest at 31 minutes, though it requires a change. Direct trains run to none; all routes require a change.
 
 ### Is Hampton Court a good commuter town for London?
 
-At 38 minutes to London Waterloo, Hampton Court is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 31 minutes to London Waterloo, Hampton Court is a practical commuter choice, with the fastest journey under an hour. Most services require one change.
 
 ### Are there direct trains from Hampton Court to London?
 
-Yes. Direct services run to Waterloo.
+No direct service is recorded from Hampton Court; all routes into London require one change.
 
 ### What are the nearest stations to Hampton Court?
 

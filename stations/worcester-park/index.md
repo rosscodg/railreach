@@ -7,13 +7,13 @@ Worcester Park connects to 1 London terminal. The fastest route is Waterloo in 2
 - London terminals served: 1 (Waterloo)
 - Operator: South Western Railway
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Worcester Park to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Waterloo | 27 min | 31 | 3.2 | South Western Railway |
+| Waterloo | 27 min | same as fastest | 31 | 3.2 | South Western Railway |
 
 ## Frequently asked questions
 

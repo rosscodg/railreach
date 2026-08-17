@@ -7,15 +7,15 @@ Crawley connects to 3 London terminals. The fastest route is Victoria in 43 minu
 - London terminals served: 3 (Victoria, London Bridge, St Pancras)
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Crawley to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Victoria | 43 min | 43 | 2.0 | Southeastern, Southern |
-| London Bridge | 51 min | 52 | 2.8 | Southeastern, Southern, Thameslink |
-| St Pancras | 66 min | 68 | 2.4 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Victoria | 43 min | same as fastest | 43 | 2.0 | Southeastern, Southern |
+| London Bridge | 47 min (change at Three Bridges) | 51 min | 52 | 2.8 | Southeastern, Southern, Thameslink |
+| St Pancras | 62 min (change at Three Bridges) | 66 min | 68 | 2.4 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 
@@ -25,7 +25,7 @@ The fastest train from Crawley reaches London Victoria in 43 minutes. Crawley co
 
 ### Which London station should I travel to from Crawley?
 
-Victoria is the quickest at 43 minutes, on a direct service. Direct trains run to Victoria, London Bridge, St Pancras.
+Victoria is the quickest at 43 minutes, on a direct service. Direct trains run to Victoria.
 
 ### Is Crawley a good commuter town for London?
 
@@ -33,7 +33,7 @@ At 43 minutes to London Victoria, Crawley is a practical commuter choice, with t
 
 ### Are there direct trains from Crawley to London?
 
-Yes. Direct services run to Victoria, London Bridge, St Pancras.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Crawley?
 

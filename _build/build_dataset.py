@@ -20,6 +20,7 @@ Usage:  python3 _build/build_dataset.py [--write]
 
 import csv
 import json
+import re
 import math
 import os
 import sys
@@ -32,7 +33,7 @@ MEASURED = os.path.join(DATA, 'measured.json')
 STATIONS = os.path.join(DATA, 'stations.json')
 NAPTAN = os.path.join(DATA, 'naptan-rail-stations.csv')
 
-MEASURED_ON = '2026-08-14'
+MEASURED_ON = '2026-08-17'
 SAMPLE_DAYS = ['2026-08-11', '2026-08-12', '2026-08-13']
 
 TERMINALS = {
@@ -51,6 +52,9 @@ TERMINALS = {
 
 MAX_MINUTES = 90
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from journey_times import MIN_INTERCHANGE_MINS
+
 
 def terminal_coords():
     """Positions for the terminals, from NaPTAN like the stations."""
@@ -68,8 +72,39 @@ def terminal_coords():
     return out
 
 
+def tiploc_names():
+    """TIPLOC to human station name, from Darwin's own reference data.
+
+    The measurement works in TIPLOCs, but "change at RDNGSTN" is no use to a
+    reader. Darwin publishes a locname for every location, so the name comes
+    from the same source as the timetable rather than a hand-built mapping that
+    would drift. Platform-specific entries ("Reading Platform 4") are trimmed
+    back to the station.
+    """
+    import gzip
+    import xml.etree.ElementTree as ET
+    ref = os.path.join(DATA, 'PPTimetable_20260812020537_ref_v4.xml.gz')
+    with gzip.open(ref, 'rb') as f:
+        root = ET.fromstring(f.read())
+    out = {}
+    for c in root:
+        if not c.tag.endswith('LocationRef'):
+            continue
+        tpl, name = c.get('tpl'), c.get('locname')
+        if not tpl or not name:
+            continue
+        name = re.sub(r'\s+(Platform|Plat)\s+\S+$', '', name).strip()
+        # An all-caps locname is Darwin's placeholder for an operational point,
+        # not a station anybody changes at.
+        if name.isupper() and len(name) > 3:
+            continue
+        out[tpl] = name
+    return out
+
+
 def main():
     write = '--write' in sys.argv
+    names = tiploc_names()
     measured = json.load(open(MEASURED))['results']
     data = json.load(open(STATIONS))
     coords = terminal_coords()
@@ -88,45 +123,56 @@ def main():
     }
 
     # ---- journeys ---------------------------------------------------------
-    kept = replaced = unverified = added = 0
+    # The published set of station-to-terminal pairs is left alone. Allowing a
+    # change makes 265 further pairs reachable within 90 minutes, which would
+    # grow the dataset by half and change what every page and the map show;
+    # that is a decision about coverage, not about measuring what we already
+    # publish correctly, so it is deliberately not taken here.
+    kept = improved = rescued = unverified = 0
     for st in data['stations']:
-        old = st.get('journeys', {})
+        published = st.get('journeys', {})
         got = measured.get(st['name'], {})
         new = {}
 
-        for code, m in got.items():
-            if m['fastest_mins'] is None or m['fastest_mins'] > MAX_MINUTES:
+        for code, old in published.items():
+            m = got.get(code)
+            if not m or m.get('fastest_mins') is None or m['fastest_mins'] > MAX_MINUTES:
+                # Still nothing we can measure: keep the pair so the page can
+                # say a change is needed, but publish no time for it.
+                new[code] = {
+                    'mins': None, 'direct': False, 'changeRequired': True,
+                    'directMins': None, 'changeAt': None,
+                    'typicalPeakMins': None, 'peakTrainsPerHour': None,
+                }
+                unverified += 1
                 continue
-            new[code] = {
-                'mins': m['fastest_mins'],
-                'direct': True,
-                'typicalPeakMins': m['typical_peak_mins'],
-                'peakTrainsPerHour': m['peak_trains_per_hour'],
-                'peakServices': m['peak_services'],
-                'totalServices': m['total_services'],
-            }
-            if code in old:
-                replaced += 1
-            else:
-                added += 1
 
-        # A published journey with no direct service in the timetable. Keep the
-        # pair so the station page can say a change is needed, but drop the
-        # unverifiable time rather than republish it.
-        for code, j in old.items():
-            target = code
-            if code == 'KGX' and 'KGX' not in got and 'STP' in got:
-                continue          # it was really St Pancras all along
-            if target in new:
-                continue
-            new[target] = {
-                'mins': None,
-                'direct': False,
-                'changeRequired': True,
-                'typicalPeakMins': None,
-                'peakTrainsPerHour': None,
+            direct_mins = m.get('direct_mins')
+            change_mins = m.get('change_mins')
+            fastest_is_direct = bool(m.get('fastest_is_direct'))
+
+            entry = {
+                # Headline: the quickest way there, with at most one change.
+                # Drives the map colour, the journey-time filter and sorting.
+                'mins': m['fastest_mins'],
+                'direct': fastest_is_direct,
+                # The quickest without changing, when such a service exists.
+                'directMins': direct_mins,
+                # Where the change happens, when the quickest way needs one.
+                'changeAt': None if fastest_is_direct
+                            else names.get(m.get('change_at'), m.get('change_at')),
+                # Peak measures describe direct services only, which is what a
+                # regular commuter travels on. Labelled as such wherever shown.
+                'typicalPeakMins': m.get('typical_peak_mins'),
+                'peakTrainsPerHour': m.get('peak_trains_per_hour'),
+                'peakServices': m.get('peak_services'),
+                'totalServices': m.get('total_services'),
             }
-            unverified += 1
+            new[code] = entry
+            if old.get('mins') is None:
+                rescued += 1
+            elif direct_mins is not None and change_mins is not None and change_mins < direct_mins:
+                improved += 1
 
         st['journeys'] = new
         kept += len(new)
@@ -134,26 +180,37 @@ def main():
     # ---- provenance -------------------------------------------------------
     data['source'] = 'Darwin Timetable Files (Rail Delivery Group), via Rail Data Marketplace'
     data['sourceLicence'] = 'Open Government Licence v3.0'
-    data['basis'] = ('fastest and median-peak weekday service, measured from published '
-                     'timetables')
+    data['basis'] = ('fastest weekday journey allowing at most one change, with the '
+                     'fastest direct service and the median peak service alongside, '
+                     'measured from published timetables')
     data['method'] = (
         'Journey times computed from Darwin PPTimetable files for three midweek days '
         f'({", ".join(SAMPLE_DAYS)}). Only passenger services are counted; passing '
         'points, operational stops and cancelled services are excluded. Stations and '
         'terminals are matched on TIPLOC using Darwin reference data. "Fastest" is the '
-        'quickest service of the day; "typical peak" is the median of services arriving '
-        'at the London terminal between 07:00 and 09:30.'
+        'quickest journey of the day allowing at most one change, and names the '
+        'interchange where it uses one; "fastest direct" is the quickest service that '
+        'does not require changing. Connections allow '
+        f'{MIN_INTERCHANGE_MINS} minutes to change, applied uniformly because '
+        'station-by-station minimum connection times are not published in the feed, '
+        'and are searched within a single day so that one day\'s arrival is never '
+        'matched to the next day\'s departure. "Typical peak" is the median of direct '
+        'services arriving at the London terminal between 07:00 and 09:30, and the '
+        'peak frequency counts those same direct services.'
     )
     data['lastReviewed'] = MEASURED_ON
     data['sampleDays'] = SAMPLE_DAYS
     data['maxMinutes'] = MAX_MINUTES
 
     direct = sum(1 for s in data['stations'] for j in s['journeys'].values() if j['direct'])
+    via_change = sum(1 for s in data['stations'] for j in s['journeys'].values()
+                     if j.get('mins') is not None and not j['direct'])
     with_typical = sum(1 for s in data['stations'] for j in s['journeys'].values()
                        if j.get('typicalPeakMins'))
     print(f"terminals: {len(data['terminals'])}")
-    print(f"journeys:  {kept}   ({replaced} replaced, {added} newly found, "
-          f"{unverified} kept as change-required with no time)")
+    print(f"journeys:  {kept}   ({improved} now quicker with a change, {rescued} "
+          f"newly timed, {unverified} still with no time)")
+    print(f"  fastest is via a change:     {via_change}")
     print(f"  direct with a measured time: {direct}")
     print(f"  with a typical peak figure:  {with_typical}")
     stations_with = sum(1 for s in data['stations'] if s['journeys'])

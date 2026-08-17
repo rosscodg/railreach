@@ -1,531 +1,546 @@
-station,station_slug,latitude,longitude,london_terminal,terminal_code,fastest_minutes,typical_peak_minutes,peak_trains_per_hour,direct,operators
-Harrow & Wealdstone,harrow-and-wealdstone,51.592178,-0.334571,Euston,EUS,13,34,7.5,yes,"Avanti West Coast, London Northwestern"
-Watford Junction,watford,51.663529,-0.396517,Euston,EUS,15,23,10.7,yes,"Avanti West Coast, London Northwestern"
-Bushey,bushey,51.645582,-0.384749,Euston,EUS,16,21,7.9,yes,"Avanti West Coast, London Northwestern"
-Kings Langley,kings-langley,51.706356,-0.438422,Euston,EUS,25,27,3.2,yes,"Avanti West Coast, London Northwestern"
-Hemel Hempstead,hemel-hempstead,51.742333,-0.490774,Euston,EUS,27,32,5.2,yes,"Avanti West Coast, London Northwestern"
-Apsley,apsley,51.732522,-0.462935,Euston,EUS,28,29,3.6,yes,"Avanti West Coast, London Northwestern"
-Tring,tring,51.800741,-0.622439,Euston,EUS,28,42,5.2,yes,"Avanti West Coast, London Northwestern"
-Leighton Buzzard,leighton-buzzard,51.916306,-0.677007,Euston,EUS,30,44,4.8,yes,"Avanti West Coast, London Northwestern"
-Berkhamsted,berkhamsted,51.763134,-0.562013,Euston,EUS,31,37,5.2,yes,"Avanti West Coast, London Northwestern"
-Milton Keynes Central,milton-keynes,52.034288,-0.774146,Euston,EUS,32,36,8.9,yes,"Avanti West Coast, London Northwestern"
-Bletchley,bletchley,51.995334,-0.73632,Euston,EUS,37,61,4.4,yes,"Avanti West Coast, London Northwestern"
-Cheddington,cheddington,51.857918,-0.662152,Euston,EUS,49,50,2.4,yes,"Avanti West Coast, London Northwestern"
-Rugby,rugby,52.379094,-1.250484,Euston,EUS,49,58,6.0,yes,"Avanti West Coast, London Northwestern"
-Northampton,northampton,52.2375,-0.906653,Euston,EUS,50,59,3.6,yes,"Avanti West Coast, London Northwestern"
-Coventry,coventry,52.400814,-1.51346,Euston,EUS,56,67,4.9,yes,"Avanti West Coast, London Northwestern"
-Birmingham International,birmingham-international,52.450807,-1.725857,Euston,EUS,68,79,4.9,yes,"Avanti West Coast, London Northwestern"
-Long Buckby,long-buckby,52.294716,-1.086467,Euston,EUS,68,74,2.4,yes,"Avanti West Coast, London Northwestern"
-Birmingham New Street,birmingham-new-street,52.477818,-1.900205,Euston,EUS,79,91,4.5,yes,"Avanti West Coast, London Northwestern"
-Limehouse,limehouse,51.512537,-0.039803,Fenchurch Street,FST,4,5,15.2,yes,c2c
-West Ham,west-ham,51.528489,0.005431,Fenchurch Street,FST,9,10,15.6,yes,c2c
-Barking,barking,51.539495,0.080903,Fenchurch Street,FST,14,16,11.6,yes,c2c
-Dagenham Dock,dagenham-dock,51.52609,0.146103,Fenchurch Street,FST,20,22,3.2,yes,c2c
-Upminster,upminster,51.559018,0.25088,Fenchurch Street,FST,21,24,8.8,yes,c2c
-Rainham (Essex),rainham-essex,51.516723,0.190634,Fenchurch Street,FST,24,26,3.2,yes,c2c
-West Horndon,west-horndon,51.567945,0.340644,Fenchurch Street,FST,27,30,3.6,yes,c2c
-Ockendon,ockendon,51.521992,0.290469,Fenchurch Street,FST,28,31,3.6,yes,c2c
-Laindon,laindon,51.567524,0.424289,Fenchurch Street,FST,29,34,6.4,yes,c2c
-Purfleet,purfleet,51.481013,0.236767,Fenchurch Street,FST,29,32,3.2,yes,c2c
-Basildon,basildon,51.568106,0.456789,Fenchurch Street,FST,32,36,6.8,yes,c2c
-Chafford Hundred,chafford-hundred,51.485557,0.287447,Fenchurch Street,FST,33,36,3.6,yes,c2c
-Grays,grays,51.476248,0.321832,Fenchurch Street,FST,35,39,6.8,yes,c2c
-Benfleet,benfleet,51.543945,0.561713,Fenchurch Street,FST,37,44,8.0,yes,c2c
-Pitsea,pitsea,51.560359,0.506293,Fenchurch Street,FST,37,44,8.0,yes,c2c
-Tilbury Town,tilbury-town,51.462359,0.354039,Fenchurch Street,FST,38,42,3.2,yes,c2c
-Leigh-on-Sea,leigh-on-sea,51.541273,0.640411,Fenchurch Street,FST,41,48,8.0,yes,c2c
-Chalkwell,chalkwell,51.538719,0.670593,Fenchurch Street,FST,42,52,6.8,yes,c2c
-East Tilbury,east-tilbury,51.484831,0.412928,Fenchurch Street,FST,44,48,3.2,yes,c2c
-Westcliff,westcliff,51.537334,0.691466,Fenchurch Street,FST,45,55,6.8,yes,c2c
-Southend Central,southend-central,51.537065,0.711727,Fenchurch Street,FST,47,57,6.8,yes,c2c
-Stanford-le-Hope,stanford-le-hope,51.514364,0.423036,Fenchurch Street,FST,48,52,3.2,yes,c2c
-Finsbury Park,finsbury-park,51.564302,-0.106285,Kings Cross,KGX,6,7,2.0,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Alexandra Palace,alexandra-palace,51.597924,-0.120235,Kings Cross,KGX,11,12,2.0,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Hornsey,hornsey,51.586461,-0.111975,Kings Cross,KGX,12,,,yes,"Great Northern, LNER, Hull Trains, Lumo"
-New Barnet,new-barnet,51.648575,-0.172997,Kings Cross,KGX,18,18,2.0,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Welwyn North,welwyn-north,51.823497,-0.192091,Kings Cross,KGX,19,28,4.0,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Potters Bar,potters-bar,51.697067,-0.192605,Kings Cross,KGX,20,23,2.0,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Stevenage,stevenage,51.901688,-0.207109,Kings Cross,KGX,20,26,5.1,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Oakleigh Park,oakleigh-park,51.637678,-0.166209,Kings Cross,KGX,22,,,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Enfield Chase,enfield-chase,51.653254,-0.090696,Kings Cross,KGX,24,,,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Gordon Hill,gordon-hill,51.663335,-0.09461,Kings Cross,KGX,26,,,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Hatfield,hatfield,51.763879,-0.215589,Kings Cross,KGX,26,29,2.0,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Hadley Wood,hadley-wood,51.668497,-0.176172,Kings Cross,KGX,27,,,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Hitchin,hitchin,51.953283,-0.263481,Kings Cross,KGX,28,40,4.0,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Letchworth Garden City,letchworth-garden-city,51.979964,-0.229264,Kings Cross,KGX,29,33,5.9,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Welwyn Garden City,welwyn-garden-city,51.801048,-0.20407,Kings Cross,KGX,29,32,2.0,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Biggleswade,biggleswade,52.08468,-0.261187,Kings Cross,KGX,30,35,1.5,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Cuffley,cuffley,51.708722,-0.109783,Kings Cross,KGX,31,,,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Baldock,baldock,51.992871,-0.187564,Kings Cross,KGX,36,36,2.4,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Brookmans Park,brookmans-park,51.721062,-0.204549,Kings Cross,KGX,36,,,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Royston,royston,52.05308,-0.026921,Kings Cross,KGX,37,46,4.3,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Arlesey,arlesey,52.026031,-0.26632,Kings Cross,KGX,38,,,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Hertford North,hertford-north,51.798857,-0.091788,Kings Cross,KGX,38,,,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Knebworth,knebworth,51.866855,-0.187289,Kings Cross,KGX,38,41,2.0,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Welham Green,welham-green,51.736352,-0.210692,Kings Cross,KGX,38,,,yes,"Great Northern, LNER, Hull Trains, Lumo"
-St Neots,st-neots,52.231568,-0.247414,Kings Cross,KGX,39,45,1.5,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Ashwell & Morden,ashwell-and-morden,52.030772,-0.109789,Kings Cross,KGX,42,42,2.0,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Huntingdon,huntingdon,52.328649,-0.192068,Kings Cross,KGX,47,53,1.5,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Peterborough,peterborough,52.574975,-0.249837,Kings Cross,KGX,47,56,5.1,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Sandy,sandy,52.124734,-0.28119,Kings Cross,KGX,48,,,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Cambridge,cambridge,52.194067,0.137457,Kings Cross,KGX,50,68,3.9,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Meldreth,meldreth,52.090717,0.008941,Kings Cross,KGX,51,51,2.0,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Shepreth,shepreth,52.114162,0.031319,Kings Cross,KGX,55,55,2.0,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Foxton,foxton,52.119214,0.056308,Kings Cross,KGX,57,57,2.0,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Grantham,grantham,52.906472,-0.64245,Kings Cross,KGX,65,72,3.2,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Newark Northgate,newark-northgate,53.081758,-0.799855,Kings Cross,KGX,75,84,2.8,yes,"Great Northern, LNER, Hull Trains, Lumo"
-Stratford,stratford,51.541895,-0.003397,Liverpool Street,LST,6,10,28.0,yes,"Greater Anglia, Elizabeth line"
-Tottenham Hale,tottenham-hale,51.58831,-0.059929,Liverpool Street,LST,14,17,8.9,yes,"Greater Anglia, Elizabeth line"
-Abbey Wood,abbey-wood,51.491062,0.121394,Liverpool Street,LST,18,18,11.6,yes,"Greater Anglia, Elizabeth line"
-Acton Main Line,acton-main-line,51.51718,-0.266756,Liverpool Street,LST,18,19,6.0,yes,"Greater Anglia, Elizabeth line"
-Romford,romford,51.574829,0.183237,Liverpool Street,LST,18,29,13.6,yes,"Greater Anglia, Elizabeth line"
-Ealing Broadway,ealing-broadway,51.514841,-0.301752,Liverpool Street,LST,20,22,12.0,yes,"Greater Anglia, Elizabeth line"
-Cheshunt,cheshunt,51.702876,-0.02396,Liverpool Street,LST,23,26,6.0,yes,"Greater Anglia, Elizabeth line"
-Shenfield,shenfield,51.630877,0.329851,Liverpool Street,LST,23,36,22.4,yes,"Greater Anglia, Elizabeth line"
-Southall,southall,51.505957,-0.37861,Liverpool Street,LST,24,29,9.2,yes,"Greater Anglia, Elizabeth line"
-Hanwell,hanwell,51.511835,-0.338583,Liverpool Street,LST,25,26,5.2,yes,"Greater Anglia, Elizabeth line"
-Broxbourne,broxbourne,51.74691,-0.011087,Liverpool Street,LST,27,31,5.3,yes,"Greater Anglia, Elizabeth line"
-Hayes & Harlington,hayes-and-harlington,51.503096,-0.420683,Liverpool Street,LST,28,32,10.0,yes,"Greater Anglia, Elizabeth line"
-Chelmsford,chelmsford,51.736373,0.468572,Liverpool Street,LST,29,38,7.2,yes,"Greater Anglia, Elizabeth line"
-Ingatestone,ingatestone,51.667043,0.384247,Liverpool Street,LST,29,32,2.8,yes,"Greater Anglia, Elizabeth line"
-Harlow Town,harlow-town,51.78107,0.095132,Liverpool Street,LST,30,36,5.5,yes,"Greater Anglia, Elizabeth line"
-Billericay,billericay,51.628884,0.41863,Liverpool Street,LST,31,35,5.6,yes,"Greater Anglia, Elizabeth line"
-West Drayton,west-drayton,51.510055,-0.472234,Liverpool Street,LST,32,35,6.0,yes,"Greater Anglia, Elizabeth line"
-Iver,iver,51.508503,-0.506726,Liverpool Street,LST,35,38,4.0,yes,"Greater Anglia, Elizabeth line"
-Wickford,wickford,51.615023,0.519185,Liverpool Street,LST,36,41,5.6,yes,"Greater Anglia, Elizabeth line"
-Bishops Stortford,bishops-stortford,51.866691,0.164894,Liverpool Street,LST,37,46,6.9,yes,"Greater Anglia, Elizabeth line"
-Harlow Mill,harlow-mill,51.790365,0.132308,Liverpool Street,LST,37,42,1.9,yes,"Greater Anglia, Elizabeth line"
-Langley,langley,51.508062,-0.541756,Liverpool Street,LST,37,41,4.0,yes,"Greater Anglia, Elizabeth line"
-Brentwood,brentwood,51.613605,0.299586,Liverpool Street,LST,39,40,11.2,yes,"Greater Anglia, Elizabeth line"
-Hatfield Peverel,hatfield-peverel,51.779864,0.592124,Liverpool Street,LST,39,46,2.8,yes,"Greater Anglia, Elizabeth line"
-Slough,slough,51.51188,-0.59151,Liverpool Street,LST,39,43,6.0,yes,"Greater Anglia, Elizabeth line"
-Sawbridgeworth,sawbridgeworth,51.814348,0.160411,Liverpool Street,LST,40,44,3.1,yes,"Greater Anglia, Elizabeth line"
-Rayleigh,rayleigh,51.589293,0.599983,Liverpool Street,LST,42,47,4.4,yes,"Greater Anglia, Elizabeth line"
-Stansted Mountfitchet,stansted-mountfitchet,51.901438,0.199781,Liverpool Street,LST,42,56,2.7,yes,"Greater Anglia, Elizabeth line"
-Burnham,burnham,51.523506,-0.646374,Liverpool Street,LST,43,47,6.0,yes,"Greater Anglia, Elizabeth line"
-Witham,witham,51.805969,0.63913,Liverpool Street,LST,43,48,7.2,yes,"Greater Anglia, Elizabeth line"
-Hockley,hockley,51.603556,0.659001,Liverpool Street,LST,46,51,4.4,yes,"Greater Anglia, Elizabeth line"
-Stansted Airport,stansted-airport,51.888591,0.260816,Liverpool Street,LST,46,55,3.6,yes,"Greater Anglia, Elizabeth line"
-Colchester,colchester,51.900714,0.892598,Liverpool Street,LST,47,62,6.8,yes,"Greater Anglia, Elizabeth line"
-Maidenhead,maidenhead,51.518669,-0.72266,Liverpool Street,LST,47,53,6.0,yes,"Greater Anglia, Elizabeth line"
-Hertford East,hertford-east,51.799035,-0.072941,Liverpool Street,LST,49,52,2.0,yes,"Greater Anglia, Elizabeth line"
-Taplow,taplow,51.523562,-0.68137,Liverpool Street,LST,49,52,4.0,yes,"Greater Anglia, Elizabeth line"
-Kelvedon,kelvedon,51.840702,0.702386,Liverpool Street,LST,50,55,3.6,yes,"Greater Anglia, Elizabeth line"
-Rochford,rochford,51.581729,0.702303,Liverpool Street,LST,50,55,4.4,yes,"Greater Anglia, Elizabeth line"
-Elsenham,elsenham,51.920546,0.22807,Liverpool Street,LST,51,59,1.9,yes,"Greater Anglia, Elizabeth line"
-Marks Tey,marks-tey,51.880939,0.783328,Liverpool Street,LST,52,58,3.2,yes,"Greater Anglia, Elizabeth line"
-Audley End,audley-end,52.00444,0.207306,Liverpool Street,LST,55,67,3.3,yes,"Greater Anglia, Elizabeth line"
-Twyford,twyford,51.475534,-0.863293,Liverpool Street,LST,55,58,4.0,yes,"Greater Anglia, Elizabeth line"
-Manningtree,manningtree,51.949052,1.04524,Liverpool Street,LST,56,65,3.6,yes,"Greater Anglia, Elizabeth line"
-Southend Victoria,southend-victoria,51.541513,0.711501,Liverpool Street,LST,57,62,4.4,yes,"Greater Anglia, Elizabeth line"
-Braintree,braintree,51.875392,0.556687,Liverpool Street,LST,60,67,1.2,yes,"Greater Anglia, Elizabeth line"
-Ipswich,ipswich,52.050592,1.144426,Liverpool Street,LST,60,74,2.8,yes,"Greater Anglia, Elizabeth line"
-Reading,reading,51.458786,-0.971849,Liverpool Street,LST,60,63,4.0,yes,"Greater Anglia, Elizabeth line"
-Whittlesford Parkway,whittlesford-parkway,52.103588,0.165617,Liverpool Street,LST,63,77,3.3,yes,"Greater Anglia, Elizabeth line"
-Cambridge,cambridge,52.194067,0.137457,Liverpool Street,LST,73,87,3.3,yes,"Greater Anglia, Elizabeth line"
-New Cross,new-cross,51.476344,-0.032426,London Bridge,LBG,5,6,12.8,yes,"Southeastern, Southern, Thameslink"
-Lewisham,lewisham,51.465692,-0.014024,London Bridge,LBG,7,11,14.0,yes,"Southeastern, Southern, Thameslink"
-Hither Green,hither-green,51.452025,-0.000944,London Bridge,LBG,9,16,10.0,yes,"Southeastern, Southern, Thameslink"
-Peckham Rye,peckham-rye,51.470034,-0.069414,London Bridge,LBG,9,10,4.4,yes,"Southeastern, Southern, Thameslink"
-East Croydon,east-croydon,51.375454,-0.09278,London Bridge,LBG,13,15,12.8,yes,"Southeastern, Southern, Thameslink"
-Grove Park,grove-park,51.430863,0.021726,London Bridge,LBG,13,19,4.0,yes,"Southeastern, Southern, Thameslink"
-Blackheath,blackheath,51.465796,0.008872,London Bridge,LBG,14,15,6.8,yes,"Southeastern, Southern, Thameslink"
-Orpington,orpington,51.373296,0.089091,London Bridge,LBG,15,31,4.8,yes,"Southeastern, Southern, Thameslink"
-Kidbrooke,kidbrooke,51.462121,0.027498,London Bridge,LBG,18,20,4.8,yes,"Southeastern, Southern, Thameslink"
-West Croydon,west-croydon,51.378428,-0.102585,London Bridge,LBG,18,18,2.0,yes,"Southeastern, Southern, Thameslink"
-Chislehurst,chislehurst,51.405557,0.057418,London Bridge,LBG,20,26,4.0,yes,"Southeastern, Southern, Thameslink"
-Kentish Town,kentish-town,51.550495,-0.140365,London Bridge,LBG,20,,,yes,"Southeastern, Southern, Thameslink"
-Coulsdon South,coulsdon-south,51.315838,-0.137887,London Bridge,LBG,21,21,3.2,yes,"Southeastern, Southern, Thameslink"
-Eltham,eltham,51.455644,0.052472,London Bridge,LBG,21,24,4.8,yes,"Southeastern, Southern, Thameslink"
-New Eltham,new-eltham,51.43806,0.070533,London Bridge,LBG,21,26,6.0,yes,"Southeastern, Southern, Thameslink"
-Woolwich Arsenal,woolwich-arsenal,51.489909,0.069194,London Bridge,LBG,21,24,9.6,yes,"Southeastern, Southern, Thameslink"
-Finsbury Park,finsbury-park,51.564302,-0.106285,London Bridge,LBG,22,22,4.0,yes,"Southeastern, Southern, Thameslink"
-Purley,purley,51.337579,-0.114035,London Bridge,LBG,22,24,3.6,yes,"Southeastern, Southern, Thameslink"
-Petts Wood,petts-wood,51.388619,0.074481,London Bridge,LBG,23,29,4.0,yes,"Southeastern, Southern, Thameslink"
-Plumstead,plumstead,51.489795,0.084257,London Bridge,LBG,24,27,9.6,yes,"Southeastern, Southern, Thameslink"
-Redhill,redhill,51.240201,-0.1659,London Bridge,LBG,24,31,4.0,yes,"Southeastern, Southern, Thameslink"
-Sevenoaks,sevenoaks,51.276865,0.181669,London Bridge,LBG,24,27,8.4,yes,"Southeastern, Southern, Thameslink"
-West Hampstead Thameslink,west-hampstead-thameslink,51.548476,-0.191837,London Bridge,LBG,24,25,2.8,yes,"Southeastern, Southern, Thameslink"
-Sidcup,sidcup,51.43387,0.103795,London Bridge,LBG,25,29,6.0,yes,"Southeastern, Southern, Thameslink"
-Merstham,merstham,51.264154,-0.150226,London Bridge,LBG,26,27,3.2,yes,"Southeastern, Southern, Thameslink"
-Abbey Wood,abbey-wood,51.491062,0.121394,London Bridge,LBG,27,30,9.6,yes,"Southeastern, Southern, Thameslink"
-Welling,welling,51.464798,0.10169,London Bridge,LBG,27,29,4.8,yes,"Southeastern, Southern, Thameslink"
-Gatwick Airport,gatwick-airport,51.156491,-0.161041,London Bridge,LBG,29,36,8.0,yes,"Southeastern, Southern, Thameslink"
-Bexleyheath,bexleyheath,51.4635,0.133735,London Bridge,LBG,30,32,4.8,yes,"Southeastern, Southern, Thameslink"
-Earlswood,earlswood,51.227328,-0.170823,London Bridge,LBG,31,38,1.6,yes,"Southeastern, Southern, Thameslink"
-Hildenborough,hildenborough,51.214486,0.22759,London Bridge,LBG,32,34,1.2,yes,"Southeastern, Southern, Thameslink"
-Sutton,sutton,51.359533,-0.191215,London Bridge,LBG,32,32,2.4,yes,"Southeastern, Southern, Thameslink"
-Barnehurst,barnehurst,51.464959,0.159646,London Bridge,LBG,33,36,4.8,yes,"Southeastern, Southern, Thameslink"
-Erith,erith,51.481671,0.175055,London Bridge,LBG,33,40,7.6,yes,"Southeastern, Southern, Thameslink"
-Oxted,oxted,51.257908,-0.004819,London Bridge,LBG,33,38,2.0,yes,"Southeastern, Southern, Thameslink"
-Tonbridge,tonbridge,51.191411,0.270973,London Bridge,LBG,33,37,6.8,yes,"Southeastern, Southern, Thameslink"
-Mill Hill Broadway,mill-hill-broadway,51.613093,-0.24924,London Bridge,LBG,34,34,0.4,yes,"Southeastern, Southern, Thameslink"
-Slade Green,slade-green,51.467786,0.190491,London Bridge,LBG,34,39,9.6,yes,"Southeastern, Southern, Thameslink"
-Three Bridges,three-bridges,51.116924,-0.161184,London Bridge,LBG,34,42,8.0,yes,"Southeastern, Southern, Thameslink"
-Salfords,salfords,51.201748,-0.162489,London Bridge,LBG,35,41,1.6,yes,"Southeastern, Southern, Thameslink"
-St Albans City,st-albans,51.750473,-0.327538,London Bridge,LBG,36,37,5.6,yes,"Southeastern, Southern, Thameslink"
-Horley,horley,51.168775,-0.161054,London Bridge,LBG,37,41,4.0,yes,"Southeastern, Southern, Thameslink"
-Hurst Green,hurst-green,51.244431,0.003939,London Bridge,LBG,37,41,2.0,yes,"Southeastern, Southern, Thameslink"
-Rochester,rochester,51.389652,0.506855,London Bridge,LBG,37,57,4.8,yes,"Southeastern, Southern, Thameslink"
-Welwyn Garden City,welwyn-garden-city,51.801048,-0.20407,London Bridge,LBG,37,,,yes,"Southeastern, Southern, Thameslink"
-Dartford,dartford,51.447371,0.219248,London Bridge,LBG,38,42,7.2,yes,"Southeastern, Southern, Thameslink"
-Elstree & Borehamwood,elstree-and-borehamwood,51.653069,-0.280081,London Bridge,LBG,38,38,0.4,yes,"Southeastern, Southern, Thameslink"
-Balham,balham,51.443225,-0.152424,London Bridge,LBG,39,44,1.6,yes,"Southeastern, Southern, Thameslink"
-Balcombe,balcombe,51.055522,-0.136934,London Bridge,LBG,40,40,2.0,yes,"Southeastern, Southern, Thameslink"
-Chatham,chatham,51.380379,0.521151,London Bridge,LBG,40,60,4.8,yes,"Southeastern, Southern, Thameslink"
-Knebworth,knebworth,51.866855,-0.187289,London Bridge,LBG,40,40,2.0,yes,"Southeastern, Southern, Thameslink"
-Harpenden,harpenden,51.814645,-0.35148,London Bridge,LBG,41,42,5.6,yes,"Southeastern, Southern, Thameslink"
-Radlett,radlett,51.685188,-0.317244,London Bridge,LBG,41,41,0.4,yes,"Southeastern, Southern, Thameslink"
-Wandsworth Common,wandsworth-common,51.446185,-0.163386,London Bridge,LBG,41,47,1.6,yes,"Southeastern, Southern, Thameslink"
-Epsom,epsom,51.334393,-0.268778,London Bridge,LBG,42,43,2.0,yes,"Southeastern, Southern, Thameslink"
-Paddock Wood,paddock-wood,51.182267,0.389149,London Bridge,LBG,42,46,4.0,yes,"Southeastern, Southern, Thameslink"
-Stevenage,stevenage,51.901688,-0.207109,London Bridge,LBG,42,44,4.0,yes,"Southeastern, Southern, Thameslink"
-Clapham Junction,clapham-junction,51.464188,-0.170293,London Bridge,LBG,44,50,1.6,yes,"Southeastern, Southern, Thameslink"
-Gillingham,gillingham,51.386565,0.54985,London Bridge,LBG,44,65,4.8,yes,"Southeastern, Southern, Thameslink"
-Haywards Heath,haywards-heath,51.005682,-0.105078,London Bridge,LBG,44,46,4.4,yes,"Southeastern, Southern, Thameslink"
-Lingfield,lingfield,51.176453,-0.007165,London Bridge,LBG,44,48,1.2,yes,"Southeastern, Southern, Thameslink"
-Tunbridge Wells,tunbridge-wells,51.130234,0.26281,London Bridge,LBG,44,48,3.2,yes,"Southeastern, Southern, Thameslink"
-Luton,luton,51.882305,-0.41404,London Bridge,LBG,47,51,5.6,yes,"Southeastern, Southern, Thameslink"
-Hitchin,hitchin,51.953283,-0.263481,London Bridge,LBG,48,50,4.0,yes,"Southeastern, Southern, Thameslink"
-Luton Airport Parkway,luton-airport-parkway,51.872438,-0.395881,London Bridge,LBG,48,48,4.4,yes,"Southeastern, Southern, Thameslink"
-Marden,marden,51.175176,0.493169,London Bridge,LBG,48,51,3.2,yes,"Southeastern, Southern, Thameslink"
-Battersea Park,battersea-park,51.47696,-0.147533,London Bridge,LBG,49,54,1.6,yes,"Southeastern, Southern, Thameslink"
-Burgess Hill,burgess-hill,50.953656,-0.127413,London Bridge,LBG,50,53,4.0,yes,"Southeastern, Southern, Thameslink"
-Crawley,crawley,51.112214,-0.186673,London Bridge,LBG,51,52,2.8,yes,"Southeastern, Southern, Thameslink"
-East Grinstead,east-grinstead,51.126274,-0.0179,London Bridge,LBG,51,55,1.2,yes,"Southeastern, Southern, Thameslink"
-Wivelsfield,wivelsfield,50.964297,-0.12079,London Bridge,LBG,51,51,2.0,yes,"Southeastern, Southern, Thameslink"
-Letchworth Garden City,letchworth-garden-city,51.979964,-0.229264,London Bridge,LBG,53,54,2.0,yes,"Southeastern, Southern, Thameslink"
-Staplehurst,staplehurst,51.171467,0.550439,London Bridge,LBG,53,56,4.0,yes,"Southeastern, Southern, Thameslink"
-Arlesey,arlesey,52.026031,-0.26632,London Bridge,LBG,54,56,2.0,yes,"Southeastern, Southern, Thameslink"
-Hassocks,hassocks,50.924616,-0.145953,London Bridge,LBG,55,58,4.0,yes,"Southeastern, Southern, Thameslink"
-Rainham (Kent),rainham-kent,51.366306,0.611337,London Bridge,LBG,55,70,4.0,yes,"Southeastern, Southern, Thameslink"
-Baldock,baldock,51.992871,-0.187564,London Bridge,LBG,56,57,2.0,yes,"Southeastern, Southern, Thameslink"
-Flitwick,flitwick,52.003642,-0.495258,London Bridge,LBG,56,66,5.2,yes,"Southeastern, Southern, Thameslink"
-Gravesend,gravesend,51.441348,0.366643,London Bridge,LBG,56,59,4.8,yes,"Southeastern, Southern, Thameslink"
-Headcorn,headcorn,51.165714,0.627482,London Bridge,LBG,58,61,4.0,yes,"Southeastern, Southern, Thameslink"
-Biggleswade,biggleswade,52.08468,-0.261187,London Bridge,LBG,59,61,2.0,yes,"Southeastern, Southern, Thameslink"
-Ashwell & Morden,ashwell-and-morden,52.030772,-0.109789,London Bridge,LBG,61,62,2.0,yes,"Southeastern, Southern, Thameslink"
-Brighton,brighton,50.829005,-0.14128,London Bridge,LBG,61,68,4.0,yes,"Southeastern, Southern, Thameslink"
-Preston Park,preston-park,50.845944,-0.155168,London Bridge,LBG,62,64,4.0,yes,"Southeastern, Southern, Thameslink"
-Sittingbourne,sittingbourne,51.341977,0.734684,London Bridge,LBG,63,63,2.0,yes,"Southeastern, Southern, Thameslink"
-Pluckley,pluckley,51.156473,0.747396,London Bridge,LBG,64,67,3.2,yes,"Southeastern, Southern, Thameslink"
-Sandy,sandy,52.124734,-0.28119,London Bridge,LBG,64,66,2.0,yes,"Southeastern, Southern, Thameslink"
-Horsham,horsham,51.066065,-0.319269,London Bridge,LBG,65,66,2.8,yes,"Southeastern, Southern, Thameslink"
-Bedford,bedford,52.136187,-0.479442,London Bridge,LBG,66,78,5.2,yes,"Southeastern, Southern, Thameslink"
-Royston,royston,52.05308,-0.026921,London Bridge,LBG,66,67,2.0,yes,"Southeastern, Southern, Thameslink"
-Strood,strood,51.396549,0.500188,London Bridge,LBG,69,69,2.4,yes,"Southeastern, Southern, Thameslink"
-Ashford International,ashford-international,51.143706,0.876197,London Bridge,LBG,71,74,4.0,yes,"Southeastern, Southern, Thameslink"
-Faversham,faversham,51.311714,0.891045,London Bridge,LBG,71,71,2.0,yes,"Southeastern, Southern, Thameslink"
-St Neots,st-neots,52.231568,-0.247414,London Bridge,LBG,71,73,2.0,yes,"Southeastern, Southern, Thameslink"
-Huntingdon,huntingdon,52.328649,-0.192068,London Bridge,LBG,79,81,2.0,yes,"Southeastern, Southern, Thameslink"
-Cambridge,cambridge,52.194067,0.137457,London Bridge,LBG,83,83,2.0,yes,"Southeastern, Southern, Thameslink"
-Denham,denham,51.578837,-0.497437,Marylebone,MYB,19,22,1.6,yes,Chiltern Railways
-Gerrards Cross,gerrards-cross,51.589023,-0.555275,Marylebone,MYB,19,28,4.0,yes,Chiltern Railways
-Denham Golf Club,denham-golf-club,51.580598,-0.517787,Marylebone,MYB,22,24,0.8,yes,Chiltern Railways
-Seer Green & Jordans,seer-green-and-jordans,51.609845,-0.607818,Marylebone,MYB,24,33,1.6,yes,Chiltern Railways
-Beaconsfield,beaconsfield,51.611291,-0.643822,Marylebone,MYB,25,32,3.6,yes,Chiltern Railways
-High Wycombe,high-wycombe,51.629586,-0.74541,Marylebone,MYB,25,39,5.2,yes,Chiltern Railways
-Saunderton,saunderton,51.675903,-0.825468,Marylebone,MYB,35,46,1.6,yes,Chiltern Railways
-Great Missenden,great-missenden,51.703519,-0.709141,Marylebone,MYB,39,46,3.2,yes,Chiltern Railways
-Haddenham & Thame Parkway,haddenham-and-thame-parkway,51.770855,-0.942137,Marylebone,MYB,39,52,2.8,yes,Chiltern Railways
-Princes Risborough,princes-risborough,51.71786,-0.843881,Marylebone,MYB,39,49,2.0,yes,Chiltern Railways
-Bicester North,bicester-north,51.903483,-1.150383,Marylebone,MYB,48,52,2.4,yes,Chiltern Railways
-Stoke Mandeville,stoke-mandeville,51.787796,-0.784086,Marylebone,MYB,50,56,3.2,yes,Chiltern Railways
-Aylesbury,aylesbury,51.813891,-0.815096,Marylebone,MYB,55,61,3.2,yes,Chiltern Railways
-Aylesbury Vale Parkway,aylesbury-vale-parkway,51.831159,-0.860182,Marylebone,MYB,60,67,2.0,yes,Chiltern Railways
-Banbury,banbury,52.060308,-1.328133,Marylebone,MYB,62,65,2.0,yes,Chiltern Railways
-Monks Risborough,monks-risborough,51.735762,-0.829334,Marylebone,MYB,65,,,yes,Chiltern Railways
-Little Kimble,little-kimble,51.752232,-0.808452,Marylebone,MYB,69,,,yes,Chiltern Railways
-Kings Sutton,kings-sutton,52.021351,-1.280931,Marylebone,MYB,71,83,0.4,yes,Chiltern Railways
-Oxford,oxford,51.753496,-1.270153,Marylebone,MYB,74,87,2.0,yes,Chiltern Railways
-Leamington Spa,leamington-spa,52.28449,-1.53621,Marylebone,MYB,82,83,2.0,yes,Chiltern Railways
-Warwick,warwick,52.28654,-1.581854,Marylebone,MYB,88,89,2.0,yes,Chiltern Railways
-Finsbury Park,finsbury-park,51.564302,-0.106285,Moorgate,MOG,14,14,8.8,yes,Great Northern
-Alexandra Palace,alexandra-palace,51.597924,-0.120235,Moorgate,MOG,19,22,8.8,yes,Great Northern
-Hornsey,hornsey,51.586461,-0.111975,Moorgate,MOG,19,20,6.0,yes,Great Northern
-Oakleigh Park,oakleigh-park,51.637678,-0.166209,Moorgate,MOG,25,30,4.0,yes,Great Northern
-New Barnet,new-barnet,51.648575,-0.172997,Moorgate,MOG,27,32,4.0,yes,Great Northern
-Enfield Chase,enfield-chase,51.653254,-0.090696,Moorgate,MOG,29,35,4.8,yes,Great Northern
-Hadley Wood,hadley-wood,51.668497,-0.176172,Moorgate,MOG,30,35,4.0,yes,Great Northern
-Gordon Hill,gordon-hill,51.663335,-0.09461,Moorgate,MOG,31,37,4.8,yes,Great Northern
-Potters Bar,potters-bar,51.697067,-0.192605,Moorgate,MOG,33,38,4.0,yes,Great Northern
-Brookmans Park,brookmans-park,51.721062,-0.204549,Moorgate,MOG,37,42,4.0,yes,Great Northern
-Crews Hill,crews-hill,51.684486,-0.106887,Moorgate,MOG,39,41,4.8,yes,Great Northern
-Welham Green,welham-green,51.736352,-0.210692,Moorgate,MOG,39,44,4.0,yes,Great Northern
-Cuffley,cuffley,51.708722,-0.109783,Moorgate,MOG,42,44,4.8,yes,Great Northern
-Hatfield,hatfield,51.763879,-0.215589,Moorgate,MOG,42,47,4.0,yes,Great Northern
-Bayford,bayford,51.757716,-0.09561,Moorgate,MOG,46,48,4.8,yes,Great Northern
-Welwyn Garden City,welwyn-garden-city,51.801048,-0.20407,Moorgate,MOG,47,52,4.0,yes,Great Northern
-Hertford North,hertford-north,51.798857,-0.091788,Moorgate,MOG,50,52,4.8,yes,Great Northern
-Stevenage,stevenage,51.901688,-0.207109,Moorgate,MOG,65,66,2.0,yes,Great Northern
-Acton Main Line,acton-main-line,51.51718,-0.266756,Paddington,PAD,7,8,6.0,yes,"Great Western Railway, Elizabeth line"
-Ealing Broadway,ealing-broadway,51.514841,-0.301752,Paddington,PAD,8,11,12.0,yes,"Great Western Railway, Elizabeth line"
-Southall,southall,51.505957,-0.37861,Paddington,PAD,13,18,9.2,yes,"Great Western Railway, Elizabeth line"
-Hanwell,hanwell,51.511835,-0.338583,Paddington,PAD,14,15,5.2,yes,"Great Western Railway, Elizabeth line"
-Slough,slough,51.51188,-0.59151,Paddington,PAD,14,32,6.4,yes,"Great Western Railway, Elizabeth line"
-Hayes & Harlington,hayes-and-harlington,51.503096,-0.420683,Paddington,PAD,16,21,10.0,yes,"Great Western Railway, Elizabeth line"
-Maidenhead,maidenhead,51.518669,-0.72266,Paddington,PAD,18,38,10.0,yes,"Great Western Railway, Elizabeth line"
-Stratford,stratford,51.541895,-0.003397,Paddington,PAD,19,20,11.6,yes,"Great Western Railway, Elizabeth line"
-West Drayton,west-drayton,51.510055,-0.472234,Paddington,PAD,20,23,6.0,yes,"Great Western Railway, Elizabeth line"
-Twyford,twyford,51.475534,-0.863293,Paddington,PAD,21,45,6.4,yes,"Great Western Railway, Elizabeth line"
-Reading,reading,51.458786,-0.971849,Paddington,PAD,23,28,15.6,yes,"Great Western Railway, Elizabeth line"
-Iver,iver,51.508503,-0.506726,Paddington,PAD,24,27,4.0,yes,"Great Western Railway, Elizabeth line"
-Langley,langley,51.508062,-0.541756,Paddington,PAD,26,30,4.0,yes,"Great Western Railway, Elizabeth line"
-Abbey Wood,abbey-wood,51.491062,0.121394,Paddington,PAD,28,30,11.6,yes,"Great Western Railway, Elizabeth line"
-Burnham,burnham,51.523506,-0.646374,Paddington,PAD,33,36,6.0,yes,"Great Western Railway, Elizabeth line"
-Theale,theale,51.433452,-1.074973,Paddington,PAD,34,38,1.6,yes,"Great Western Railway, Elizabeth line"
-Didcot Parkway,didcot-parkway,51.610954,-1.242893,Paddington,PAD,37,43,5.6,yes,"Great Western Railway, Elizabeth line"
-Taplow,taplow,51.523562,-0.68137,Paddington,PAD,38,40,4.0,yes,"Great Western Railway, Elizabeth line"
-Newbury,newbury,51.397649,-1.322861,Paddington,PAD,40,51,2.8,yes,"Great Western Railway, Elizabeth line"
-Romford,romford,51.574829,0.183237,Paddington,PAD,40,41,11.6,yes,"Great Western Railway, Elizabeth line"
-Tilehurst,tilehurst,51.471509,-1.029816,Paddington,PAD,41,48,2.0,yes,"Great Western Railway, Elizabeth line"
-Thatcham,thatcham,51.393844,-1.24319,Paddington,PAD,42,46,1.6,yes,"Great Western Railway, Elizabeth line"
-Hungerford,hungerford,51.41491,-1.512287,Paddington,PAD,46,63,2.0,yes,"Great Western Railway, Elizabeth line"
-Pangbourne,pangbourne,51.485401,-1.09047,Paddington,PAD,46,53,2.0,yes,"Great Western Railway, Elizabeth line"
-Swindon,swindon,51.565472,-1.785511,Paddington,PAD,47,57,4.4,yes,"Great Western Railway, Elizabeth line"
-Brentwood,brentwood,51.613605,0.299586,Paddington,PAD,50,52,11.2,yes,"Great Western Railway, Elizabeth line"
-Goring & Streatley,goring-and-streatley,51.521493,-1.133049,Paddington,PAD,50,56,2.0,yes,"Great Western Railway, Elizabeth line"
-Oxford,oxford,51.753496,-1.270153,Paddington,PAD,51,54,2.4,yes,"Great Western Railway, Elizabeth line"
-Shenfield,shenfield,51.630877,0.329851,Paddington,PAD,54,56,11.2,yes,"Great Western Railway, Elizabeth line"
-Cholsey,cholsey,51.570202,-1.158023,Paddington,PAD,55,61,2.0,yes,"Great Western Railway, Elizabeth line"
-Bedwyn,bedwyn,51.37964,-1.598786,Paddington,PAD,56,69,2.0,yes,"Great Western Railway, Elizabeth line"
-Kintbury,kintbury,51.402522,-1.445989,Paddington,PAD,58,59,1.2,yes,"Great Western Railway, Elizabeth line"
-Pewsey,pewsey,51.342193,-1.770675,Paddington,PAD,62,79,1.6,yes,"Great Western Railway, Elizabeth line"
-Chippenham,chippenham,51.462488,-2.115394,Paddington,PAD,63,70,1.6,yes,"Great Western Railway, Elizabeth line"
-Hanborough,hanborough,51.825158,-1.373525,Paddington,PAD,63,65,1.2,yes,"Great Western Railway, Elizabeth line"
-Charlbury,charlbury,51.872428,-1.489694,Paddington,PAD,69,72,1.2,yes,"Great Western Railway, Elizabeth line"
-Banbury,banbury,52.060308,-1.328133,Paddington,PAD,74,,,yes,"Great Western Railway, Elizabeth line"
-Bath Spa,bath-spa,51.377686,-2.357018,Paddington,PAD,76,83,1.6,yes,"Great Western Railway, Elizabeth line"
-Kingham,kingham,51.90225,-1.628786,Paddington,PAD,80,82,1.2,yes,"Great Western Railway, Elizabeth line"
-Moreton-in-Marsh,moreton-in-marsh,51.992281,-1.70038,Paddington,PAD,88,90,1.2,yes,"Great Western Railway, Elizabeth line"
-Bristol Temple Meads,bristol-temple-meads,51.449144,-2.581315,Paddington,PAD,89,99,2.0,yes,"Great Western Railway, Elizabeth line"
-Kentish Town,kentish-town,51.550495,-0.140365,St Pancras,STP,5,5,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Finsbury Park,finsbury-park,51.564302,-0.106285,St Pancras,STP,7,7,6.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-West Hampstead Thameslink,west-hampstead-thameslink,51.548476,-0.191837,St Pancras,STP,8,10,8.8,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Cricklewood,cricklewood,51.558453,-0.212677,St Pancras,STP,13,13,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Oakleigh Park,oakleigh-park,51.637678,-0.166209,St Pancras,STP,17,18,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Mill Hill Broadway,mill-hill-broadway,51.613093,-0.24924,St Pancras,STP,19,22,6.4,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-New Barnet,new-barnet,51.648575,-0.172997,St Pancras,STP,19,20,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Denmark Hill,denmark-hill,51.468203,-0.089361,St Pancras,STP,20,20,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-St Albans City,st-albans,51.750473,-0.327538,St Pancras,STP,20,32,11.6,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Gravesend,gravesend,51.441348,0.366643,St Pancras,STP,22,25,4.8,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Welwyn Garden City,welwyn-garden-city,51.801048,-0.20407,St Pancras,STP,22,37,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Elstree & Borehamwood,elstree-and-borehamwood,51.653069,-0.280081,St Pancras,STP,23,26,6.4,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Luton Airport Parkway,luton-airport-parkway,51.872438,-0.395881,St Pancras,STP,23,33,8.4,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Peckham Rye,peckham-rye,51.470034,-0.069414,St Pancras,STP,23,24,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Potters Bar,potters-bar,51.697067,-0.192605,St Pancras,STP,24,25,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Harpenden,harpenden,51.814645,-0.35148,St Pancras,STP,25,29,7.6,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Knebworth,knebworth,51.866855,-0.187289,St Pancras,STP,25,25,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Luton,luton,51.882305,-0.41404,St Pancras,STP,26,36,9.6,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Radlett,radlett,51.685188,-0.317244,St Pancras,STP,26,30,6.4,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Stevenage,stevenage,51.901688,-0.207109,St Pancras,STP,27,28,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-East Croydon,east-croydon,51.375454,-0.09278,St Pancras,STP,29,30,8.8,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Hatfield,hatfield,51.763879,-0.215589,St Pancras,STP,30,32,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Strood,strood,51.396549,0.500188,St Pancras,STP,32,36,4.8,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Catford,catford,51.444407,-0.026317,St Pancras,STP,33,33,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Hitchin,hitchin,51.953283,-0.263481,St Pancras,STP,33,34,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Ashford International,ashford-international,51.143706,0.876197,St Pancras,STP,36,38,3.6,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Bellingham,bellingham,51.432913,-0.019331,St Pancras,STP,36,36,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Coulsdon South,coulsdon-south,51.315838,-0.137887,St Pancras,STP,36,36,2.8,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Rochester,rochester,51.389652,0.506855,St Pancras,STP,36,64,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Purley,purley,51.337579,-0.114035,St Pancras,STP,37,38,1.6,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Beckenham Hill,beckenham-hill,51.424583,-0.015951,St Pancras,STP,38,38,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Letchworth Garden City,letchworth-garden-city,51.979964,-0.229264,St Pancras,STP,38,39,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Arlesey,arlesey,52.026031,-0.26632,St Pancras,STP,39,41,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Bedford,bedford,52.136187,-0.479442,St Pancras,STP,39,63,7.2,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Chatham,chatham,51.380379,0.521151,St Pancras,STP,39,68,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Woolwich Arsenal,woolwich-arsenal,51.489909,0.069194,St Pancras,STP,39,39,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Redhill,redhill,51.240201,-0.1659,St Pancras,STP,40,46,3.6,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Wimbledon,wimbledon,51.421222,-0.206371,St Pancras,STP,40,41,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Baldock,baldock,51.992871,-0.187564,St Pancras,STP,41,42,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Flitwick,flitwick,52.003642,-0.495258,St Pancras,STP,41,51,5.2,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Merstham,merstham,51.264154,-0.150226,St Pancras,STP,41,42,2.8,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Plumstead,plumstead,51.489795,0.084257,St Pancras,STP,42,42,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Gillingham,gillingham,51.386565,0.54985,St Pancras,STP,43,72,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Biggleswade,biggleswade,52.08468,-0.261187,St Pancras,STP,44,46,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Gatwick Airport,gatwick-airport,51.156491,-0.161041,St Pancras,STP,44,44,7.6,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Abbey Wood,abbey-wood,51.491062,0.121394,St Pancras,STP,45,45,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Bromley South,bromley-south,51.399976,0.017344,St Pancras,STP,45,46,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Ashwell & Morden,ashwell-and-morden,52.030772,-0.109789,St Pancras,STP,46,47,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Earlswood,earlswood,51.227328,-0.170823,St Pancras,STP,46,52,1.6,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Sutton,sutton,51.359533,-0.191215,St Pancras,STP,47,53,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Bickley,bickley,51.400104,0.045241,St Pancras,STP,48,48,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Oxted,oxted,51.257908,-0.004819,St Pancras,STP,49,54,1.2,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Rainham (Kent),rainham-kent,51.366306,0.611337,St Pancras,STP,49,78,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Sandy,sandy,52.124734,-0.28119,St Pancras,STP,49,51,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Three Bridges,three-bridges,51.116924,-0.161184,St Pancras,STP,49,50,7.2,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Salfords,salfords,51.201748,-0.162489,St Pancras,STP,50,56,1.6,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Royston,royston,52.05308,-0.026921,St Pancras,STP,51,52,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Slade Green,slade-green,51.467786,0.190491,St Pancras,STP,51,51,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Horley,horley,51.168775,-0.161054,St Pancras,STP,52,58,3.6,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Hurst Green,hurst-green,51.244431,0.003939,St Pancras,STP,53,57,1.2,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Balcombe,balcombe,51.055522,-0.136934,St Pancras,STP,55,55,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Petts Wood,petts-wood,51.388619,0.074481,St Pancras,STP,55,55,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Dartford,dartford,51.447371,0.219248,St Pancras,STP,56,57,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-St Neots,st-neots,52.231568,-0.247414,St Pancras,STP,56,58,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Swanley,swanley,51.393387,0.169225,St Pancras,STP,57,57,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Orpington,orpington,51.373296,0.089091,St Pancras,STP,58,58,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Sittingbourne,sittingbourne,51.341977,0.734684,St Pancras,STP,58,59,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Haywards Heath,haywards-heath,51.005682,-0.105078,St Pancras,STP,59,61,4.4,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Lingfield,lingfield,51.176453,-0.007165,St Pancras,STP,60,64,1.2,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Huntingdon,huntingdon,52.328649,-0.192068,St Pancras,STP,64,66,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Burgess Hill,burgess-hill,50.953656,-0.127413,St Pancras,STP,65,67,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Crawley,crawley,51.112214,-0.186673,St Pancras,STP,66,68,2.4,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Faversham,faversham,51.311714,0.891045,St Pancras,STP,66,68,2.4,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Wivelsfield,wivelsfield,50.964297,-0.12079,St Pancras,STP,66,66,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-East Grinstead,east-grinstead,51.126274,-0.0179,St Pancras,STP,67,71,1.2,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Cambridge,cambridge,52.194067,0.137457,St Pancras,STP,68,68,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Otford,otford,51.313158,0.196779,St Pancras,STP,69,69,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Hassocks,hassocks,50.924616,-0.145953,St Pancras,STP,70,73,3.6,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Bat & Ball,bat-and-ball,51.289761,0.194228,St Pancras,STP,73,73,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Brighton,brighton,50.829005,-0.14128,St Pancras,STP,76,82,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Sevenoaks,sevenoaks,51.276865,0.181669,St Pancras,STP,76,76,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Preston Park,preston-park,50.845944,-0.155168,St Pancras,STP,77,80,3.6,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Peterborough,peterborough,52.574975,-0.249837,St Pancras,STP,79,81,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Horsham,horsham,51.066065,-0.319269,St Pancras,STP,80,82,2.4,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
-Battersea Park,battersea-park,51.47696,-0.147533,Victoria,VIC,4,4,8.8,yes,"Southeastern, Southern"
-Clapham Junction,clapham-junction,51.464188,-0.170293,Victoria,VIC,6,8,20.0,yes,"Southeastern, Southern"
-Denmark Hill,denmark-hill,51.468203,-0.089361,Victoria,VIC,9,10,4.0,yes,"Southeastern, Southern"
-Balham,balham,51.443225,-0.152424,Victoria,VIC,12,14,10.8,yes,"Southeastern, Southern"
-Wandsworth Common,wandsworth-common,51.446185,-0.163386,Victoria,VIC,12,12,6.8,yes,"Southeastern, Southern"
-Peckham Rye,peckham-rye,51.470034,-0.069414,Victoria,VIC,13,13,2.0,yes,"Southeastern, Southern"
-Bromley South,bromley-south,51.399976,0.017344,Victoria,VIC,15,23,12.0,yes,"Southeastern, Southern"
-East Croydon,east-croydon,51.375454,-0.09278,Victoria,VIC,16,17,9.2,yes,"Southeastern, Southern"
-Lewisham,lewisham,51.465692,-0.014024,Victoria,VIC,21,22,2.0,yes,"Southeastern, Southern"
-Orpington,orpington,51.373296,0.089091,Victoria,VIC,22,34,4.0,yes,"Southeastern, Southern"
-Bellingham,bellingham,51.432913,-0.019331,Victoria,VIC,24,25,1.2,yes,"Southeastern, Southern"
-Bickley,bickley,51.400104,0.045241,Victoria,VIC,25,35,2.0,yes,"Southeastern, Southern"
-Blackheath,blackheath,51.465796,0.008872,Victoria,VIC,25,26,2.0,yes,"Southeastern, Southern"
-Purley,purley,51.337579,-0.114035,Victoria,VIC,25,25,2.0,yes,"Southeastern, Southern"
-Swanley,swanley,51.393387,0.169225,Victoria,VIC,27,35,6.0,yes,"Southeastern, Southern"
-Gatwick Airport,gatwick-airport,51.156491,-0.161041,Victoria,VIC,29,32,6.8,yes,"Southeastern, Southern"
-Kidbrooke,kidbrooke,51.462121,0.027498,Victoria,VIC,29,30,2.0,yes,"Southeastern, Southern"
-Coulsdon South,coulsdon-south,51.315838,-0.137887,Victoria,VIC,30,30,2.0,yes,"Southeastern, Southern"
-Horley,horley,51.168775,-0.161054,Victoria,VIC,31,31,1.2,yes,"Southeastern, Southern"
-Sevenoaks,sevenoaks,51.276865,0.181669,Victoria,VIC,31,35,2.0,yes,"Southeastern, Southern"
-West Croydon,west-croydon,51.378428,-0.102585,Victoria,VIC,31,35,6.0,yes,"Southeastern, Southern"
-Eltham,eltham,51.455644,0.052472,Victoria,VIC,32,34,2.0,yes,"Southeastern, Southern"
-Sutton,sutton,51.359533,-0.191215,Victoria,VIC,32,48,6.4,yes,"Southeastern, Southern"
-Redhill,redhill,51.240201,-0.1659,Victoria,VIC,34,39,2.0,yes,"Southeastern, Southern"
-Merstham,merstham,51.264154,-0.150226,Victoria,VIC,35,35,2.0,yes,"Southeastern, Southern"
-Three Bridges,three-bridges,51.116924,-0.161184,Victoria,VIC,36,38,2.4,yes,"Southeastern, Southern"
-Hildenborough,hildenborough,51.214486,0.22759,Victoria,VIC,38,43,2.0,yes,"Southeastern, Southern"
-Oxted,oxted,51.257908,-0.004819,Victoria,VIC,38,39,2.0,yes,"Southeastern, Southern"
-Welling,welling,51.464798,0.10169,Victoria,VIC,38,39,2.0,yes,"Southeastern, Southern"
-Otford,otford,51.313158,0.196779,Victoria,VIC,39,44,4.0,yes,"Southeastern, Southern"
-Petts Wood,petts-wood,51.388619,0.074481,Victoria,VIC,39,40,2.0,yes,"Southeastern, Southern"
-Bexleyheath,bexleyheath,51.4635,0.133735,Victoria,VIC,41,42,2.0,yes,"Southeastern, Southern"
-Epsom,epsom,51.334393,-0.268778,Victoria,VIC,41,44,2.4,yes,"Southeastern, Southern"
-Rochester,rochester,51.389652,0.506855,Victoria,VIC,41,60,4.0,yes,"Southeastern, Southern"
-Hurst Green,hurst-green,51.244431,0.003939,Victoria,VIC,42,42,2.0,yes,"Southeastern, Southern"
-Tonbridge,tonbridge,51.191411,0.270973,Victoria,VIC,42,47,2.0,yes,"Southeastern, Southern"
-Crawley,crawley,51.112214,-0.186673,Victoria,VIC,43,43,2.0,yes,"Southeastern, Southern"
-Haywards Heath,haywards-heath,51.005682,-0.105078,Victoria,VIC,43,47,4.8,yes,"Southeastern, Southern"
-Barnehurst,barnehurst,51.464959,0.159646,Victoria,VIC,44,46,2.0,yes,"Southeastern, Southern"
-Chatham,chatham,51.380379,0.521151,Victoria,VIC,44,64,4.0,yes,"Southeastern, Southern"
-Reigate,reigate,51.241958,-0.203825,Victoria,VIC,45,50,2.0,yes,"Southeastern, Southern"
-Ashtead,ashtead,51.317874,-0.307572,Victoria,VIC,46,51,2.0,yes,"Southeastern, Southern"
-Gillingham,gillingham,51.386565,0.54985,Victoria,VIC,48,68,4.0,yes,"Southeastern, Southern"
-Bat & Ball,bat-and-ball,51.289761,0.194228,Victoria,VIC,49,,,yes,"Southeastern, Southern"
-Lingfield,lingfield,51.176453,-0.007165,Victoria,VIC,49,49,2.0,yes,"Southeastern, Southern"
-Burgess Hill,burgess-hill,50.953656,-0.127413,Victoria,VIC,50,50,3.6,yes,"Southeastern, Southern"
-Leatherhead,leatherhead,51.298818,-0.333232,Victoria,VIC,50,56,2.0,yes,"Southeastern, Southern"
-Dartford,dartford,51.447371,0.219248,Victoria,VIC,51,53,2.0,yes,"Southeastern, Southern"
-Tunbridge Wells,tunbridge-wells,51.130234,0.26281,Victoria,VIC,52,58,1.6,yes,"Southeastern, Southern"
-Hassocks,hassocks,50.924616,-0.145953,Victoria,VIC,54,54,3.6,yes,"Southeastern, Southern"
-Horsham,horsham,51.066065,-0.319269,Victoria,VIC,54,55,3.2,yes,"Southeastern, Southern"
-Rainham (Kent),rainham-kent,51.366306,0.611337,Victoria,VIC,54,61,2.0,yes,"Southeastern, Southern"
-Wivelsfield,wivelsfield,50.964297,-0.12079,Victoria,VIC,54,55,1.2,yes,"Southeastern, Southern"
-East Grinstead,east-grinstead,51.126274,-0.0179,Victoria,VIC,56,56,2.0,yes,"Southeastern, Southern"
-Dorking,dorking,51.24093,-0.324251,Victoria,VIC,57,64,2.0,yes,"Southeastern, Southern"
-Box Hill & Westhumble,box-hill-and-westhumble,51.254012,-0.32849,Victoria,VIC,59,61,1.2,yes,"Southeastern, Southern"
-Brighton,brighton,50.829005,-0.14128,Victoria,VIC,60,65,2.0,yes,"Southeastern, Southern"
-Preston Park,preston-park,50.845944,-0.155168,Victoria,VIC,61,61,3.6,yes,"Southeastern, Southern"
-Gravesend,gravesend,51.441348,0.366643,Victoria,VIC,63,65,1.2,yes,"Southeastern, Southern"
-Maidstone East,maidstone-east,51.27783,0.521295,Victoria,VIC,63,70,4.0,yes,"Southeastern, Southern"
-Sittingbourne,sittingbourne,51.341977,0.734684,Victoria,VIC,64,69,2.0,yes,"Southeastern, Southern"
-Hove,hove,50.835216,-0.170687,Victoria,VIC,67,69,1.6,yes,"Southeastern, Southern"
-Portslade,portslade,50.835683,-0.205336,Victoria,VIC,70,72,1.6,yes,"Southeastern, Southern"
-Faversham,faversham,51.311714,0.891045,Victoria,VIC,72,80,2.0,yes,"Southeastern, Southern"
-Shoreham-by-Sea,shoreham-by-sea,50.834427,-0.27172,Victoria,VIC,75,77,1.6,yes,"Southeastern, Southern"
-Lancing,lancing,50.827083,-0.323109,Victoria,VIC,79,82,1.6,yes,"Southeastern, Southern"
-Worthing,worthing,50.818499,-0.376171,Victoria,VIC,85,86,1.6,yes,"Southeastern, Southern"
-Vauxhall,vauxhall,51.48619,-0.122875,Waterloo,WAT,4,7,27.2,yes,South Western Railway
-Clapham Junction,clapham-junction,51.464188,-0.170293,Waterloo,WAT,8,12,30.4,yes,South Western Railway
-Earlsfield,earlsfield,51.442337,-0.187715,Waterloo,WAT,13,15,16.4,yes,South Western Railway
-Putney,putney,51.461303,-0.216475,Waterloo,WAT,14,19,12.0,yes,South Western Railway
-Surbiton,surbiton,51.39246,-0.303958,Waterloo,WAT,15,29,8.4,yes,South Western Railway
-Wimbledon,wimbledon,51.421222,-0.206371,Waterloo,WAT,15,20,16.8,yes,South Western Railway
-Barnes,barnes,51.467086,-0.242164,Waterloo,WAT,19,22,9.6,yes,South Western Railway
-Richmond,richmond,51.463061,-0.301558,Waterloo,WAT,19,28,11.6,yes,South Western Railway
-Raynes Park,raynes-park,51.409173,-0.230151,Waterloo,WAT,20,23,13.6,yes,South Western Railway
-Walton-on-Thames,walton-on-thames,51.372931,-0.414635,Waterloo,WAT,22,31,3.6,yes,South Western Railway
-Esher,esher,51.379891,-0.353338,Waterloo,WAT,23,24,3.2,yes,South Western Railway
-New Malden,new-malden,51.404075,-0.25594,Waterloo,WAT,23,26,9.2,yes,South Western Railway
-Twickenham,twickenham,51.450031,-0.330394,Waterloo,WAT,23,35,12.8,yes,South Western Railway
-Motspur Park,motspur-park,51.395196,-0.239531,Waterloo,WAT,24,27,5.2,yes,South Western Railway
-Weybridge,weybridge,51.361771,-0.457739,Waterloo,WAT,24,36,5.6,yes,South Western Railway
-Woking,woking,51.318469,-0.55696,Waterloo,WAT,24,30,14.4,yes,South Western Railway
-Norbiton,norbiton,51.412358,-0.284025,Waterloo,WAT,27,32,6.0,yes,South Western Railway
-West Byfleet,west-byfleet,51.339226,-0.505485,Waterloo,WAT,27,42,3.2,yes,South Western Railway
-Worcester Park,worcester-park,51.381253,-0.245167,Waterloo,WAT,27,31,3.2,yes,South Western Railway
-Brentford,brentford,51.487547,-0.309651,Waterloo,WAT,29,33,4.4,yes,South Western Railway
-Feltham,feltham,51.447898,-0.409838,Waterloo,WAT,29,35,6.8,yes,South Western Railway
-Hinchley Wood,hinchley-wood,51.374998,-0.340524,Waterloo,WAT,29,36,2.0,yes,South Western Railway
-Kingston,kingston,51.412751,-0.301166,Waterloo,WAT,29,34,6.0,yes,South Western Railway
-Stoneleigh,stoneleigh,51.363401,-0.248665,Waterloo,WAT,30,34,3.2,yes,South Western Railway
-Strawberry Hill,strawberry-hill,51.438963,-0.339358,Waterloo,WAT,30,44,5.2,yes,South Western Railway
-Claygate,claygate,51.361214,-0.348248,Waterloo,WAT,32,39,2.0,yes,South Western Railway
-Guildford,guildford,51.23697,-0.580425,Waterloo,WAT,32,44,8.0,yes,South Western Railway
-Hampton Wick,hampton-wick,51.414524,-0.312489,Waterloo,WAT,32,37,6.0,yes,South Western Railway
-Ewell West,ewell-west,51.350045,-0.256987,Waterloo,WAT,33,37,3.2,yes,South Western Railway
-Brookwood,brookwood,51.303758,-0.635748,Waterloo,WAT,34,36,4.0,yes,South Western Railway
-Farnborough (Main),farnborough-main,51.296692,-0.755436,Waterloo,WAT,34,41,3.6,yes,South Western Railway
-Isleworth,isleworth,51.474763,-0.336907,Waterloo,WAT,34,39,4.4,yes,South Western Railway
-Teddington,teddington,51.424481,-0.332706,Waterloo,WAT,34,40,6.0,yes,South Western Railway
-Oxshott,oxshott,51.336396,-0.362419,Waterloo,WAT,35,42,2.0,yes,South Western Railway
-Staines,staines,51.432455,-0.503164,Waterloo,WAT,35,43,6.8,yes,South Western Railway
-Chessington South,chessington-south,51.35655,-0.308157,Waterloo,WAT,36,39,2.0,yes,South Western Railway
-Epsom,epsom,51.334393,-0.268778,Waterloo,WAT,36,41,3.2,yes,South Western Railway
-Thames Ditton,thames-ditton,51.389097,-0.339152,Waterloo,WAT,36,38,2.0,yes,South Western Railway
-Hounslow,hounslow,51.461946,-0.362277,Waterloo,WAT,37,42,4.8,yes,South Western Railway
-Byfleet & New Haw,byfleet-and-new-haw,51.349797,-0.48139,Waterloo,WAT,38,40,2.4,yes,South Western Railway
-Hampton Court,hampton-court,51.402556,-0.342748,Waterloo,WAT,38,40,2.0,yes,South Western Railway
-Cobham & Stoke d'Abernon,cobham-and-stoke-dabernon,51.318101,-0.389346,Waterloo,WAT,39,46,2.0,yes,South Western Railway
-Farncombe,farncombe,51.197154,-0.604549,Waterloo,WAT,39,47,2.8,yes,South Western Railway
-Godalming,godalming,51.186587,-0.618862,Waterloo,WAT,39,48,4.4,yes,South Western Railway
-Fleet,fleet,51.290635,-0.830806,Waterloo,WAT,40,48,3.2,yes,South Western Railway
-Ash Vale,ash-vale,51.272247,-0.721649,Waterloo,WAT,41,43,2.8,yes,South Western Railway
-Ashtead,ashtead,51.317874,-0.307572,Waterloo,WAT,41,46,3.2,yes,South Western Railway
-Basingstoke,basingstoke,51.268357,-1.087264,Waterloo,WAT,42,51,7.5,yes,South Western Railway
-Egham,egham,51.429647,-0.546512,Waterloo,WAT,42,48,4.4,yes,South Western Railway
-Effingham Junction,effingham-junction,51.291495,-0.419965,Waterloo,WAT,43,50,3.2,yes,South Western Railway
-Leatherhead,leatherhead,51.298818,-0.333232,Waterloo,WAT,45,50,3.2,yes,South Western Railway
-Shepperton,shepperton,51.396805,-0.446786,Waterloo,WAT,45,56,3.2,yes,South Western Railway
-Virginia Water,virginia-water,51.401802,-0.562174,Waterloo,WAT,45,51,4.4,yes,South Western Railway
-Aldershot,aldershot,51.246418,-0.75986,Waterloo,WAT,46,48,2.8,yes,South Western Railway
-Horsley,horsley,51.279347,-0.435409,Waterloo,WAT,47,54,3.2,yes,South Western Railway
-Haslemere,haslemere,51.088648,-0.719163,Waterloo,WAT,49,60,4.4,yes,South Western Railway
-Box Hill & Westhumble,box-hill-and-westhumble,51.254012,-0.32849,Waterloo,WAT,50,54,2.0,yes,South Western Railway
-Winchfield,winchfield,51.28495,-0.906977,Waterloo,WAT,50,56,2.4,yes,South Western Railway
-Clandon,clandon,51.264005,-0.502766,Waterloo,WAT,51,58,3.2,yes,South Western Railway
-Farnham,farnham,51.211905,-0.792427,Waterloo,WAT,52,54,2.8,yes,South Western Railway
-Milford,milford,51.163319,-0.636948,Waterloo,WAT,52,56,2.0,yes,South Western Railway
-Dorking,dorking,51.24093,-0.324251,Waterloo,WAT,53,57,2.0,yes,South Western Railway
-Overton,overton,51.254294,-1.259268,Waterloo,WAT,53,55,1.9,yes,South Western Railway
-Hook,hook,51.279998,-0.961636,Waterloo,WAT,54,60,2.4,yes,South Western Railway
-Ascot,ascot,51.406244,-0.675833,Waterloo,WAT,55,60,2.8,yes,South Western Railway
-Witley,witley,51.133162,-0.645783,Waterloo,WAT,56,60,2.0,yes,South Western Railway
-Winchester,winchester,51.067211,-1.3197,Waterloo,WAT,58,70,4.0,yes,South Western Railway
-Bentley,bentley,51.181233,-0.868127,Waterloo,WAT,59,60,2.0,yes,South Western Railway
-Liphook,liphook,51.071316,-0.800228,Waterloo,WAT,59,70,2.4,yes,South Western Railway
-Whitchurch (Hants),whitchurch-hants,51.237544,-1.337747,Waterloo,WAT,59,61,1.9,yes,South Western Railway
-Andover,andover,51.211547,-1.492233,Waterloo,WAT,62,70,1.9,yes,South Western Railway
-Petersfield,petersfield,51.006726,-0.941137,Waterloo,WAT,63,79,4.4,yes,South Western Railway
-Liss,liss,51.043571,-0.892867,Waterloo,WAT,65,77,2.4,yes,South Western Railway
-Alton,alton,51.151969,-0.966913,Waterloo,WAT,66,67,2.0,yes,South Western Railway
-Grateley,grateley,51.170059,-1.620774,Waterloo,WAT,75,77,1.9,yes,South Western Railway
-Southampton Central,southampton-central,50.907448,-1.413596,Waterloo,WAT,76,82,2.4,yes,South Western Railway
-Havant,havant,50.854427,-0.981611,Waterloo,WAT,77,97,4.4,yes,South Western Railway
-Salisbury,salisbury,51.070548,-1.806387,Waterloo,WAT,80,90,1.9,yes,South Western Railway
-Reading,reading,51.458786,-0.971849,Waterloo,WAT,85,88,2.0,yes,South Western Railway
+station,station_slug,latitude,longitude,london_terminal,terminal_code,fastest_minutes,fastest_direct_minutes,change_at,typical_peak_minutes,peak_trains_per_hour,direct,operators
+Harrow & Wealdstone,harrow-and-wealdstone,51.592178,-0.334571,Euston,EUS,13,13,,34,7.5,yes,"Avanti West Coast, London Northwestern"
+Watford Junction,watford,51.663529,-0.396517,Euston,EUS,15,15,,23,10.7,yes,"Avanti West Coast, London Northwestern"
+Bushey,bushey,51.645582,-0.384749,Euston,EUS,16,16,,21,7.9,yes,"Avanti West Coast, London Northwestern"
+Kings Langley,kings-langley,51.706356,-0.438422,Euston,EUS,25,25,,27,3.2,yes,"Avanti West Coast, London Northwestern"
+Hemel Hempstead,hemel-hempstead,51.742333,-0.490774,Euston,EUS,27,27,,32,5.2,yes,"Avanti West Coast, London Northwestern"
+Apsley,apsley,51.732522,-0.462935,Euston,EUS,28,28,,29,3.6,yes,"Avanti West Coast, London Northwestern"
+Tring,tring,51.800741,-0.622439,Euston,EUS,28,28,,42,5.2,yes,"Avanti West Coast, London Northwestern"
+Leighton Buzzard,leighton-buzzard,51.916306,-0.677007,Euston,EUS,30,30,,44,4.8,yes,"Avanti West Coast, London Northwestern"
+Berkhamsted,berkhamsted,51.763134,-0.562013,Euston,EUS,31,31,,37,5.2,yes,"Avanti West Coast, London Northwestern"
+Milton Keynes Central,milton-keynes,52.034288,-0.774146,Euston,EUS,32,32,,36,8.9,yes,"Avanti West Coast, London Northwestern"
+Bletchley,bletchley,51.995334,-0.73632,Euston,EUS,37,37,,61,4.4,yes,"Avanti West Coast, London Northwestern"
+Cheddington,cheddington,51.857918,-0.662152,Euston,EUS,44,49,Tring,50,2.4,no,"Avanti West Coast, London Northwestern"
+Rugby,rugby,52.379094,-1.250484,Euston,EUS,49,49,,58,6.0,yes,"Avanti West Coast, London Northwestern"
+Northampton,northampton,52.2375,-0.906653,Euston,EUS,50,50,,59,3.6,yes,"Avanti West Coast, London Northwestern"
+Coventry,coventry,52.400814,-1.51346,Euston,EUS,56,56,,67,4.9,yes,"Avanti West Coast, London Northwestern"
+Birmingham International,birmingham-international,52.450807,-1.725857,Euston,EUS,68,68,,79,4.9,yes,"Avanti West Coast, London Northwestern"
+Long Buckby,long-buckby,52.294716,-1.086467,Euston,EUS,68,68,,74,2.4,yes,"Avanti West Coast, London Northwestern"
+Birmingham New Street,birmingham-new-street,52.477818,-1.900205,Euston,EUS,79,79,,91,4.5,yes,"Avanti West Coast, London Northwestern"
+Limehouse,limehouse,51.512537,-0.039803,Fenchurch Street,FST,4,4,,5,15.2,yes,c2c
+West Ham,west-ham,51.528489,0.005431,Fenchurch Street,FST,9,9,,10,15.6,yes,c2c
+Barking,barking,51.539495,0.080903,Fenchurch Street,FST,14,14,,16,11.6,yes,c2c
+Dagenham Dock,dagenham-dock,51.52609,0.146103,Fenchurch Street,FST,20,20,,22,3.2,yes,c2c
+Upminster,upminster,51.559018,0.25088,Fenchurch Street,FST,21,21,,24,8.8,yes,c2c
+Rainham (Essex),rainham-essex,51.516723,0.190634,Fenchurch Street,FST,24,24,,26,3.2,yes,c2c
+West Horndon,west-horndon,51.567945,0.340644,Fenchurch Street,FST,27,27,,30,3.6,yes,c2c
+Ockendon,ockendon,51.521992,0.290469,Fenchurch Street,FST,28,28,,31,3.6,yes,c2c
+Laindon,laindon,51.567524,0.424289,Fenchurch Street,FST,29,29,,34,6.4,yes,c2c
+Purfleet,purfleet,51.481013,0.236767,Fenchurch Street,FST,29,29,,32,3.2,yes,c2c
+Basildon,basildon,51.568106,0.456789,Fenchurch Street,FST,32,32,,36,6.8,yes,c2c
+Chafford Hundred,chafford-hundred,51.485557,0.287447,Fenchurch Street,FST,33,33,,36,3.6,yes,c2c
+Grays,grays,51.476248,0.321832,Fenchurch Street,FST,35,35,,39,6.8,yes,c2c
+Benfleet,benfleet,51.543945,0.561713,Fenchurch Street,FST,37,37,,44,8.0,yes,c2c
+Pitsea,pitsea,51.560359,0.506293,Fenchurch Street,FST,37,37,,44,8.0,yes,c2c
+Tilbury Town,tilbury-town,51.462359,0.354039,Fenchurch Street,FST,38,38,,42,3.2,yes,c2c
+Leigh-on-Sea,leigh-on-sea,51.541273,0.640411,Fenchurch Street,FST,41,41,,48,8.0,yes,c2c
+Chalkwell,chalkwell,51.538719,0.670593,Fenchurch Street,FST,42,42,,52,6.8,yes,c2c
+East Tilbury,east-tilbury,51.484831,0.412928,Fenchurch Street,FST,44,44,,48,3.2,yes,c2c
+Westcliff,westcliff,51.537334,0.691466,Fenchurch Street,FST,45,45,,55,6.8,yes,c2c
+Southend Central,southend-central,51.537065,0.711727,Fenchurch Street,FST,47,47,,57,6.8,yes,c2c
+Stanford-le-Hope,stanford-le-hope,51.514364,0.423036,Fenchurch Street,FST,48,48,,52,3.2,yes,c2c
+Finsbury Park,finsbury-park,51.564302,-0.106285,Kings Cross,KGX,6,6,,7,2.0,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Alexandra Palace,alexandra-palace,51.597924,-0.120235,Kings Cross,KGX,11,11,,12,2.0,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Hornsey,hornsey,51.586461,-0.111975,Kings Cross,KGX,12,12,,,,yes,"Great Northern, LNER, Hull Trains, Lumo"
+New Barnet,new-barnet,51.648575,-0.172997,Kings Cross,KGX,18,18,,18,2.0,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Welwyn North,welwyn-north,51.823497,-0.192091,Kings Cross,KGX,19,19,,28,4.0,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Potters Bar,potters-bar,51.697067,-0.192605,Kings Cross,KGX,20,20,,23,2.0,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Stevenage,stevenage,51.901688,-0.207109,Kings Cross,KGX,20,20,,26,5.1,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Oakleigh Park,oakleigh-park,51.637678,-0.166209,Kings Cross,KGX,22,22,,,,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Enfield Chase,enfield-chase,51.653254,-0.090696,Kings Cross,KGX,24,24,,,,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Gordon Hill,gordon-hill,51.663335,-0.09461,Kings Cross,KGX,26,26,,,,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Hatfield,hatfield,51.763879,-0.215589,Kings Cross,KGX,26,26,,29,2.0,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Hadley Wood,hadley-wood,51.668497,-0.176172,Kings Cross,KGX,27,27,,,,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Hitchin,hitchin,51.953283,-0.263481,Kings Cross,KGX,28,28,,40,4.0,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Letchworth Garden City,letchworth-garden-city,51.979964,-0.229264,Kings Cross,KGX,29,29,,33,5.9,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Welwyn Garden City,welwyn-garden-city,51.801048,-0.20407,Kings Cross,KGX,29,29,,32,2.0,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Biggleswade,biggleswade,52.08468,-0.261187,Kings Cross,KGX,30,30,,35,1.5,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Cuffley,cuffley,51.708722,-0.109783,Kings Cross,KGX,31,31,,,,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Brookmans Park,brookmans-park,51.721062,-0.204549,Kings Cross,KGX,33,36,Potters Bar,,,no,"Great Northern, LNER, Hull Trains, Lumo"
+Knebworth,knebworth,51.866855,-0.187289,Kings Cross,KGX,33,38,Finsbury Park,41,2.0,no,"Great Northern, LNER, Hull Trains, Lumo"
+Welham Green,welham-green,51.736352,-0.210692,Kings Cross,KGX,35,38,Potters Bar,,,no,"Great Northern, LNER, Hull Trains, Lumo"
+Baldock,baldock,51.992871,-0.187564,Kings Cross,KGX,36,36,,36,2.4,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Royston,royston,52.05308,-0.026921,Kings Cross,KGX,37,37,,46,4.3,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Arlesey,arlesey,52.026031,-0.26632,Kings Cross,KGX,38,38,,,,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Hertford North,hertford-north,51.798857,-0.091788,Kings Cross,KGX,38,38,,,,yes,"Great Northern, LNER, Hull Trains, Lumo"
+St Neots,st-neots,52.231568,-0.247414,Kings Cross,KGX,39,39,,45,1.5,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Crews Hill,crews-hill,51.684486,-0.106887,Kings Cross,KGX,40,,Alexandra Palace,,,no,"Great Northern, LNER, Hull Trains, Lumo"
+Ashwell & Morden,ashwell-and-morden,52.030772,-0.109789,Kings Cross,KGX,42,42,,42,2.0,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Bayford,bayford,51.757716,-0.09561,Kings Cross,KGX,46,,Stevenage,,,no,"Great Northern, LNER, Hull Trains, Lumo"
+Huntingdon,huntingdon,52.328649,-0.192068,Kings Cross,KGX,47,47,,53,1.5,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Peterborough,peterborough,52.574975,-0.249837,Kings Cross,KGX,47,47,,56,5.1,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Sandy,sandy,52.124734,-0.28119,Kings Cross,KGX,48,48,,,,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Cambridge,cambridge,52.194067,0.137457,Kings Cross,KGX,50,50,,68,3.9,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Meldreth,meldreth,52.090717,0.008941,Kings Cross,KGX,51,51,,51,2.0,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Shepreth,shepreth,52.114162,0.031319,Kings Cross,KGX,55,55,,55,2.0,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Foxton,foxton,52.119214,0.056308,Kings Cross,KGX,57,57,,57,2.0,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Grantham,grantham,52.906472,-0.64245,Kings Cross,KGX,65,65,,72,3.2,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Newark Northgate,newark-northgate,53.081758,-0.799855,Kings Cross,KGX,75,75,,84,2.8,yes,"Great Northern, LNER, Hull Trains, Lumo"
+Stratford,stratford,51.541895,-0.003397,Liverpool Street,LST,6,6,,10,28.0,yes,"Greater Anglia, Elizabeth line"
+Tottenham Hale,tottenham-hale,51.58831,-0.059929,Liverpool Street,LST,14,14,,17,8.9,yes,"Greater Anglia, Elizabeth line"
+Abbey Wood,abbey-wood,51.491062,0.121394,Liverpool Street,LST,18,18,,18,11.6,yes,"Greater Anglia, Elizabeth line"
+Acton Main Line,acton-main-line,51.51718,-0.266756,Liverpool Street,LST,18,18,,19,6.0,yes,"Greater Anglia, Elizabeth line"
+Romford,romford,51.574829,0.183237,Liverpool Street,LST,18,18,,29,13.6,yes,"Greater Anglia, Elizabeth line"
+Ealing Broadway,ealing-broadway,51.514841,-0.301752,Liverpool Street,LST,20,20,,22,12.0,yes,"Greater Anglia, Elizabeth line"
+Cheshunt,cheshunt,51.702876,-0.02396,Liverpool Street,LST,23,23,,26,6.0,yes,"Greater Anglia, Elizabeth line"
+Shenfield,shenfield,51.630877,0.329851,Liverpool Street,LST,23,23,,36,22.4,yes,"Greater Anglia, Elizabeth line"
+Southall,southall,51.505957,-0.37861,Liverpool Street,LST,24,24,,29,9.2,yes,"Greater Anglia, Elizabeth line"
+Hanwell,hanwell,51.511835,-0.338583,Liverpool Street,LST,25,25,,26,5.2,yes,"Greater Anglia, Elizabeth line"
+Broxbourne,broxbourne,51.74691,-0.011087,Liverpool Street,LST,27,27,,31,5.3,yes,"Greater Anglia, Elizabeth line"
+Hayes & Harlington,hayes-and-harlington,51.503096,-0.420683,Liverpool Street,LST,28,28,,32,10.0,yes,"Greater Anglia, Elizabeth line"
+Chelmsford,chelmsford,51.736373,0.468572,Liverpool Street,LST,29,29,,38,7.2,yes,"Greater Anglia, Elizabeth line"
+Ingatestone,ingatestone,51.667043,0.384247,Liverpool Street,LST,29,29,,32,2.8,yes,"Greater Anglia, Elizabeth line"
+Harlow Town,harlow-town,51.78107,0.095132,Liverpool Street,LST,30,30,,36,5.5,yes,"Greater Anglia, Elizabeth line"
+Billericay,billericay,51.628884,0.41863,Liverpool Street,LST,31,31,,35,5.6,yes,"Greater Anglia, Elizabeth line"
+West Drayton,west-drayton,51.510055,-0.472234,Liverpool Street,LST,32,32,,35,6.0,yes,"Greater Anglia, Elizabeth line"
+Iver,iver,51.508503,-0.506726,Liverpool Street,LST,35,35,,38,4.0,yes,"Greater Anglia, Elizabeth line"
+Brentwood,brentwood,51.613605,0.299586,Liverpool Street,LST,36,39,Romford,40,11.2,no,"Greater Anglia, Elizabeth line"
+Wickford,wickford,51.615023,0.519185,Liverpool Street,LST,36,36,,41,5.6,yes,"Greater Anglia, Elizabeth line"
+Bishops Stortford,bishops-stortford,51.866691,0.164894,Liverpool Street,LST,37,37,,46,6.9,yes,"Greater Anglia, Elizabeth line"
+Harlow Mill,harlow-mill,51.790365,0.132308,Liverpool Street,LST,37,37,,42,1.9,yes,"Greater Anglia, Elizabeth line"
+Langley,langley,51.508062,-0.541756,Liverpool Street,LST,37,37,,41,4.0,yes,"Greater Anglia, Elizabeth line"
+Hatfield Peverel,hatfield-peverel,51.779864,0.592124,Liverpool Street,LST,39,39,,46,2.8,yes,"Greater Anglia, Elizabeth line"
+Slough,slough,51.51188,-0.59151,Liverpool Street,LST,39,39,,43,6.0,yes,"Greater Anglia, Elizabeth line"
+Sawbridgeworth,sawbridgeworth,51.814348,0.160411,Liverpool Street,LST,40,40,,44,3.1,yes,"Greater Anglia, Elizabeth line"
+Rayleigh,rayleigh,51.589293,0.599983,Liverpool Street,LST,42,42,,47,4.4,yes,"Greater Anglia, Elizabeth line"
+Stansted Mountfitchet,stansted-mountfitchet,51.901438,0.199781,Liverpool Street,LST,42,42,,56,2.7,yes,"Greater Anglia, Elizabeth line"
+Burnham,burnham,51.523506,-0.646374,Liverpool Street,LST,43,43,,47,6.0,yes,"Greater Anglia, Elizabeth line"
+Witham,witham,51.805969,0.63913,Liverpool Street,LST,43,43,,48,7.2,yes,"Greater Anglia, Elizabeth line"
+Hockley,hockley,51.603556,0.659001,Liverpool Street,LST,46,46,,51,4.4,yes,"Greater Anglia, Elizabeth line"
+Stansted Airport,stansted-airport,51.888591,0.260816,Liverpool Street,LST,46,46,,55,3.6,yes,"Greater Anglia, Elizabeth line"
+Colchester,colchester,51.900714,0.892598,Liverpool Street,LST,47,47,,62,6.8,yes,"Greater Anglia, Elizabeth line"
+Maidenhead,maidenhead,51.518669,-0.72266,Liverpool Street,LST,47,47,,53,6.0,yes,"Greater Anglia, Elizabeth line"
+Hertford East,hertford-east,51.799035,-0.072941,Liverpool Street,LST,49,49,,52,2.0,yes,"Greater Anglia, Elizabeth line"
+Taplow,taplow,51.523562,-0.68137,Liverpool Street,LST,49,49,,52,4.0,yes,"Greater Anglia, Elizabeth line"
+Kelvedon,kelvedon,51.840702,0.702386,Liverpool Street,LST,50,50,,55,3.6,yes,"Greater Anglia, Elizabeth line"
+Rochford,rochford,51.581729,0.702303,Liverpool Street,LST,50,50,,55,4.4,yes,"Greater Anglia, Elizabeth line"
+Elsenham,elsenham,51.920546,0.22807,Liverpool Street,LST,51,51,,59,1.9,yes,"Greater Anglia, Elizabeth line"
+Marks Tey,marks-tey,51.880939,0.783328,Liverpool Street,LST,52,52,,58,3.2,yes,"Greater Anglia, Elizabeth line"
+Audley End,audley-end,52.00444,0.207306,Liverpool Street,LST,55,55,,67,3.3,yes,"Greater Anglia, Elizabeth line"
+Twyford,twyford,51.475534,-0.863293,Liverpool Street,LST,55,55,,58,4.0,yes,"Greater Anglia, Elizabeth line"
+Manningtree,manningtree,51.949052,1.04524,Liverpool Street,LST,56,56,,65,3.6,yes,"Greater Anglia, Elizabeth line"
+Southend Victoria,southend-victoria,51.541513,0.711501,Liverpool Street,LST,57,57,,62,4.4,yes,"Greater Anglia, Elizabeth line"
+Braintree,braintree,51.875392,0.556687,Liverpool Street,LST,60,60,,67,1.2,yes,"Greater Anglia, Elizabeth line"
+Ipswich,ipswich,52.050592,1.144426,Liverpool Street,LST,60,60,,74,2.8,yes,"Greater Anglia, Elizabeth line"
+Reading,reading,51.458786,-0.971849,Liverpool Street,LST,60,60,,63,4.0,yes,"Greater Anglia, Elizabeth line"
+Whittlesford Parkway,whittlesford-parkway,52.103588,0.165617,Liverpool Street,LST,63,63,,77,3.3,yes,"Greater Anglia, Elizabeth line"
+Cambridge,cambridge,52.194067,0.137457,Liverpool Street,LST,73,73,,87,3.3,yes,"Greater Anglia, Elizabeth line"
+New Cross,new-cross,51.476344,-0.032426,London Bridge,LBG,5,5,,6,12.8,yes,"Southeastern, Southern, Thameslink"
+Lewisham,lewisham,51.465692,-0.014024,London Bridge,LBG,7,7,,11,14.0,yes,"Southeastern, Southern, Thameslink"
+Hither Green,hither-green,51.452025,-0.000944,London Bridge,LBG,9,9,,16,10.0,yes,"Southeastern, Southern, Thameslink"
+Peckham Rye,peckham-rye,51.470034,-0.069414,London Bridge,LBG,9,9,,10,4.4,yes,"Southeastern, Southern, Thameslink"
+East Croydon,east-croydon,51.375454,-0.09278,London Bridge,LBG,13,13,,15,12.8,yes,"Southeastern, Southern, Thameslink"
+Grove Park,grove-park,51.430863,0.021726,London Bridge,LBG,13,13,,19,4.0,yes,"Southeastern, Southern, Thameslink"
+Blackheath,blackheath,51.465796,0.008872,London Bridge,LBG,14,14,,15,6.8,yes,"Southeastern, Southern, Thameslink"
+Orpington,orpington,51.373296,0.089091,London Bridge,LBG,15,15,,31,4.8,yes,"Southeastern, Southern, Thameslink"
+Kidbrooke,kidbrooke,51.462121,0.027498,London Bridge,LBG,18,18,,20,4.8,yes,"Southeastern, Southern, Thameslink"
+West Croydon,west-croydon,51.378428,-0.102585,London Bridge,LBG,18,18,,18,2.0,yes,"Southeastern, Southern, Thameslink"
+Chislehurst,chislehurst,51.405557,0.057418,London Bridge,LBG,20,20,,26,4.0,yes,"Southeastern, Southern, Thameslink"
+Kentish Town,kentish-town,51.550495,-0.140365,London Bridge,LBG,20,20,,,,yes,"Southeastern, Southern, Thameslink"
+Coulsdon South,coulsdon-south,51.315838,-0.137887,London Bridge,LBG,21,21,,21,3.2,yes,"Southeastern, Southern, Thameslink"
+Eltham,eltham,51.455644,0.052472,London Bridge,LBG,21,21,,24,4.8,yes,"Southeastern, Southern, Thameslink"
+New Eltham,new-eltham,51.43806,0.070533,London Bridge,LBG,21,21,,26,6.0,yes,"Southeastern, Southern, Thameslink"
+Woolwich Arsenal,woolwich-arsenal,51.489909,0.069194,London Bridge,LBG,21,21,,24,9.6,yes,"Southeastern, Southern, Thameslink"
+Finsbury Park,finsbury-park,51.564302,-0.106285,London Bridge,LBG,22,22,,22,4.0,yes,"Southeastern, Southern, Thameslink"
+Purley,purley,51.337579,-0.114035,London Bridge,LBG,22,22,,24,3.6,yes,"Southeastern, Southern, Thameslink"
+Petts Wood,petts-wood,51.388619,0.074481,London Bridge,LBG,23,23,,29,4.0,yes,"Southeastern, Southern, Thameslink"
+Plumstead,plumstead,51.489795,0.084257,London Bridge,LBG,24,24,,27,9.6,yes,"Southeastern, Southern, Thameslink"
+Redhill,redhill,51.240201,-0.1659,London Bridge,LBG,24,24,,31,4.0,yes,"Southeastern, Southern, Thameslink"
+Sevenoaks,sevenoaks,51.276865,0.181669,London Bridge,LBG,24,24,,27,8.4,yes,"Southeastern, Southern, Thameslink"
+West Hampstead Thameslink,west-hampstead-thameslink,51.548476,-0.191837,London Bridge,LBG,24,24,,25,2.8,yes,"Southeastern, Southern, Thameslink"
+Sidcup,sidcup,51.43387,0.103795,London Bridge,LBG,25,25,,29,6.0,yes,"Southeastern, Southern, Thameslink"
+Merstham,merstham,51.264154,-0.150226,London Bridge,LBG,26,26,,27,3.2,yes,"Southeastern, Southern, Thameslink"
+Abbey Wood,abbey-wood,51.491062,0.121394,London Bridge,LBG,27,27,,30,9.6,yes,"Southeastern, Southern, Thameslink"
+Welling,welling,51.464798,0.10169,London Bridge,LBG,27,27,,29,4.8,yes,"Southeastern, Southern, Thameslink"
+Gatwick Airport,gatwick-airport,51.156491,-0.161041,London Bridge,LBG,29,29,,36,8.0,yes,"Southeastern, Southern, Thameslink"
+Bexleyheath,bexleyheath,51.4635,0.133735,London Bridge,LBG,30,30,,32,4.8,yes,"Southeastern, Southern, Thameslink"
+Earlswood,earlswood,51.227328,-0.170823,London Bridge,LBG,31,31,,38,1.6,yes,"Southeastern, Southern, Thameslink"
+Hildenborough,hildenborough,51.214486,0.22759,London Bridge,LBG,32,32,,34,1.2,yes,"Southeastern, Southern, Thameslink"
+Sutton,sutton,51.359533,-0.191215,London Bridge,LBG,32,32,,32,2.4,yes,"Southeastern, Southern, Thameslink"
+Barnehurst,barnehurst,51.464959,0.159646,London Bridge,LBG,33,33,,36,4.8,yes,"Southeastern, Southern, Thameslink"
+Battersea Park,battersea-park,51.47696,-0.147533,London Bridge,LBG,33,49,Peckham Rye,54,1.6,no,"Southeastern, Southern, Thameslink"
+Clapham Junction,clapham-junction,51.464188,-0.170293,London Bridge,LBG,33,44,East Croydon,50,1.6,no,"Southeastern, Southern, Thameslink"
+Erith,erith,51.481671,0.175055,London Bridge,LBG,33,33,,40,7.6,yes,"Southeastern, Southern, Thameslink"
+Oxted,oxted,51.257908,-0.004819,London Bridge,LBG,33,33,,38,2.0,yes,"Southeastern, Southern, Thameslink"
+Tonbridge,tonbridge,51.191411,0.270973,London Bridge,LBG,33,33,,37,6.8,yes,"Southeastern, Southern, Thameslink"
+Mill Hill Broadway,mill-hill-broadway,51.613093,-0.24924,London Bridge,LBG,34,34,,34,0.4,yes,"Southeastern, Southern, Thameslink"
+Slade Green,slade-green,51.467786,0.190491,London Bridge,LBG,34,34,,39,9.6,yes,"Southeastern, Southern, Thameslink"
+Three Bridges,three-bridges,51.116924,-0.161184,London Bridge,LBG,34,34,,42,8.0,yes,"Southeastern, Southern, Thameslink"
+Salfords,salfords,51.201748,-0.162489,London Bridge,LBG,35,35,,41,1.6,yes,"Southeastern, Southern, Thameslink"
+St Albans City,st-albans,51.750473,-0.327538,London Bridge,LBG,36,36,,37,5.6,yes,"Southeastern, Southern, Thameslink"
+Horley,horley,51.168775,-0.161054,London Bridge,LBG,37,37,,41,4.0,yes,"Southeastern, Southern, Thameslink"
+Hurst Green,hurst-green,51.244431,0.003939,London Bridge,LBG,37,37,,41,2.0,yes,"Southeastern, Southern, Thameslink"
+Rochester,rochester,51.389652,0.506855,London Bridge,LBG,37,37,,57,4.8,yes,"Southeastern, Southern, Thameslink"
+Welwyn Garden City,welwyn-garden-city,51.801048,-0.20407,London Bridge,LBG,37,37,,,,yes,"Southeastern, Southern, Thameslink"
+Dartford,dartford,51.447371,0.219248,London Bridge,LBG,38,38,,42,7.2,yes,"Southeastern, Southern, Thameslink"
+Elstree & Borehamwood,elstree-and-borehamwood,51.653069,-0.280081,London Bridge,LBG,38,38,,38,0.4,yes,"Southeastern, Southern, Thameslink"
+Balham,balham,51.443225,-0.152424,London Bridge,LBG,39,39,,44,1.6,yes,"Southeastern, Southern, Thameslink"
+Catford,catford,51.444407,-0.026317,London Bridge,LBG,39,,London Blackfriars,,,no,"Southeastern, Southern, Thameslink"
+Balcombe,balcombe,51.055522,-0.136934,London Bridge,LBG,40,40,,40,2.0,yes,"Southeastern, Southern, Thameslink"
+Chatham,chatham,51.380379,0.521151,London Bridge,LBG,40,40,,60,4.8,yes,"Southeastern, Southern, Thameslink"
+Knebworth,knebworth,51.866855,-0.187289,London Bridge,LBG,40,40,,40,2.0,yes,"Southeastern, Southern, Thameslink"
+Harpenden,harpenden,51.814645,-0.35148,London Bridge,LBG,41,41,,42,5.6,yes,"Southeastern, Southern, Thameslink"
+Radlett,radlett,51.685188,-0.317244,London Bridge,LBG,41,41,,41,0.4,yes,"Southeastern, Southern, Thameslink"
+Wandsworth Common,wandsworth-common,51.446185,-0.163386,London Bridge,LBG,41,41,,47,1.6,yes,"Southeastern, Southern, Thameslink"
+Bellingham,bellingham,51.432913,-0.019331,London Bridge,LBG,42,,London Blackfriars,,,no,"Southeastern, Southern, Thameslink"
+Epsom,epsom,51.334393,-0.268778,London Bridge,LBG,42,42,,43,2.0,yes,"Southeastern, Southern, Thameslink"
+Paddock Wood,paddock-wood,51.182267,0.389149,London Bridge,LBG,42,42,,46,4.0,yes,"Southeastern, Southern, Thameslink"
+Stevenage,stevenage,51.901688,-0.207109,London Bridge,LBG,42,42,,44,4.0,yes,"Southeastern, Southern, Thameslink"
+Beckenham Hill,beckenham-hill,51.424583,-0.015951,London Bridge,LBG,44,,London Blackfriars,,,no,"Southeastern, Southern, Thameslink"
+Gillingham,gillingham,51.386565,0.54985,London Bridge,LBG,44,44,,65,4.8,yes,"Southeastern, Southern, Thameslink"
+Haywards Heath,haywards-heath,51.005682,-0.105078,London Bridge,LBG,44,44,,46,4.4,yes,"Southeastern, Southern, Thameslink"
+Lingfield,lingfield,51.176453,-0.007165,London Bridge,LBG,44,44,,48,1.2,yes,"Southeastern, Southern, Thameslink"
+Tunbridge Wells,tunbridge-wells,51.130234,0.26281,London Bridge,LBG,44,44,,48,3.2,yes,"Southeastern, Southern, Thameslink"
+Reigate,reigate,51.241958,-0.203825,London Bridge,LBG,46,,Redhill,,,no,"Southeastern, Southern, Thameslink"
+Crawley,crawley,51.112214,-0.186673,London Bridge,LBG,47,51,Three Bridges,52,2.8,no,"Southeastern, Southern, Thameslink"
+Luton,luton,51.882305,-0.41404,London Bridge,LBG,47,47,,51,5.6,yes,"Southeastern, Southern, Thameslink"
+Hitchin,hitchin,51.953283,-0.263481,London Bridge,LBG,48,48,,50,4.0,yes,"Southeastern, Southern, Thameslink"
+Luton Airport Parkway,luton-airport-parkway,51.872438,-0.395881,London Bridge,LBG,48,48,,48,4.4,yes,"Southeastern, Southern, Thameslink"
+Marden,marden,51.175176,0.493169,London Bridge,LBG,48,48,,51,3.2,yes,"Southeastern, Southern, Thameslink"
+Swanley,swanley,51.393387,0.169225,London Bridge,LBG,49,,London Blackfriars,,,no,"Southeastern, Southern, Thameslink"
+Burgess Hill,burgess-hill,50.953656,-0.127413,London Bridge,LBG,50,50,,53,4.0,yes,"Southeastern, Southern, Thameslink"
+East Grinstead,east-grinstead,51.126274,-0.0179,London Bridge,LBG,51,51,,55,1.2,yes,"Southeastern, Southern, Thameslink"
+Wivelsfield,wivelsfield,50.964297,-0.12079,London Bridge,LBG,51,51,,51,2.0,yes,"Southeastern, Southern, Thameslink"
+Letchworth Garden City,letchworth-garden-city,51.979964,-0.229264,London Bridge,LBG,53,53,,54,2.0,yes,"Southeastern, Southern, Thameslink"
+Staplehurst,staplehurst,51.171467,0.550439,London Bridge,LBG,53,53,,56,4.0,yes,"Southeastern, Southern, Thameslink"
+Arlesey,arlesey,52.026031,-0.26632,London Bridge,LBG,54,54,,56,2.0,yes,"Southeastern, Southern, Thameslink"
+Hassocks,hassocks,50.924616,-0.145953,London Bridge,LBG,55,55,,58,4.0,yes,"Southeastern, Southern, Thameslink"
+Rainham (Kent),rainham-kent,51.366306,0.611337,London Bridge,LBG,55,55,,70,4.0,yes,"Southeastern, Southern, Thameslink"
+Baldock,baldock,51.992871,-0.187564,London Bridge,LBG,56,56,,57,2.0,yes,"Southeastern, Southern, Thameslink"
+Flitwick,flitwick,52.003642,-0.495258,London Bridge,LBG,56,56,,66,5.2,yes,"Southeastern, Southern, Thameslink"
+Gravesend,gravesend,51.441348,0.366643,London Bridge,LBG,56,56,,59,4.8,yes,"Southeastern, Southern, Thameslink"
+Strood,strood,51.396549,0.500188,London Bridge,LBG,56,69,Rochester,69,2.4,no,"Southeastern, Southern, Thameslink"
+Headcorn,headcorn,51.165714,0.627482,London Bridge,LBG,58,58,,61,4.0,yes,"Southeastern, Southern, Thameslink"
+Biggleswade,biggleswade,52.08468,-0.261187,London Bridge,LBG,59,59,,61,2.0,yes,"Southeastern, Southern, Thameslink"
+Horsham,horsham,51.066065,-0.319269,London Bridge,LBG,60,65,Three Bridges,66,2.8,no,"Southeastern, Southern, Thameslink"
+Ashwell & Morden,ashwell-and-morden,52.030772,-0.109789,London Bridge,LBG,61,61,,62,2.0,yes,"Southeastern, Southern, Thameslink"
+Brighton,brighton,50.829005,-0.14128,London Bridge,LBG,61,61,,68,4.0,yes,"Southeastern, Southern, Thameslink"
+Preston Park,preston-park,50.845944,-0.155168,London Bridge,LBG,62,62,,64,4.0,yes,"Southeastern, Southern, Thameslink"
+Sittingbourne,sittingbourne,51.341977,0.734684,London Bridge,LBG,63,63,,63,2.0,yes,"Southeastern, Southern, Thameslink"
+Pluckley,pluckley,51.156473,0.747396,London Bridge,LBG,64,64,,67,3.2,yes,"Southeastern, Southern, Thameslink"
+Sandy,sandy,52.124734,-0.28119,London Bridge,LBG,64,64,,66,2.0,yes,"Southeastern, Southern, Thameslink"
+Bedford,bedford,52.136187,-0.479442,London Bridge,LBG,66,66,,78,5.2,yes,"Southeastern, Southern, Thameslink"
+Royston,royston,52.05308,-0.026921,London Bridge,LBG,66,66,,67,2.0,yes,"Southeastern, Southern, Thameslink"
+Ashford International,ashford-international,51.143706,0.876197,London Bridge,LBG,71,71,,74,4.0,yes,"Southeastern, Southern, Thameslink"
+Faversham,faversham,51.311714,0.891045,London Bridge,LBG,71,71,,71,2.0,yes,"Southeastern, Southern, Thameslink"
+St Neots,st-neots,52.231568,-0.247414,London Bridge,LBG,71,71,,73,2.0,yes,"Southeastern, Southern, Thameslink"
+Huntingdon,huntingdon,52.328649,-0.192068,London Bridge,LBG,79,79,,81,2.0,yes,"Southeastern, Southern, Thameslink"
+Cambridge,cambridge,52.194067,0.137457,London Bridge,LBG,83,83,,83,2.0,yes,"Southeastern, Southern, Thameslink"
+Denham,denham,51.578837,-0.497437,Marylebone,MYB,19,19,,22,1.6,yes,Chiltern Railways
+Gerrards Cross,gerrards-cross,51.589023,-0.555275,Marylebone,MYB,19,19,,28,4.0,yes,Chiltern Railways
+Denham Golf Club,denham-golf-club,51.580598,-0.517787,Marylebone,MYB,22,22,,24,0.8,yes,Chiltern Railways
+Seer Green & Jordans,seer-green-and-jordans,51.609845,-0.607818,Marylebone,MYB,24,24,,33,1.6,yes,Chiltern Railways
+Beaconsfield,beaconsfield,51.611291,-0.643822,Marylebone,MYB,25,25,,32,3.6,yes,Chiltern Railways
+High Wycombe,high-wycombe,51.629586,-0.74541,Marylebone,MYB,25,25,,39,5.2,yes,Chiltern Railways
+Saunderton,saunderton,51.675903,-0.825468,Marylebone,MYB,35,35,,46,1.6,yes,Chiltern Railways
+Great Missenden,great-missenden,51.703519,-0.709141,Marylebone,MYB,39,39,,46,3.2,yes,Chiltern Railways
+Haddenham & Thame Parkway,haddenham-and-thame-parkway,51.770855,-0.942137,Marylebone,MYB,39,39,,52,2.8,yes,Chiltern Railways
+Princes Risborough,princes-risborough,51.71786,-0.843881,Marylebone,MYB,39,39,,49,2.0,yes,Chiltern Railways
+Bicester North,bicester-north,51.903483,-1.150383,Marylebone,MYB,48,48,,52,2.4,yes,Chiltern Railways
+Stoke Mandeville,stoke-mandeville,51.787796,-0.784086,Marylebone,MYB,50,50,,56,3.2,yes,Chiltern Railways
+Monks Risborough,monks-risborough,51.735762,-0.829334,Marylebone,MYB,54,65,Princes Risborough,,,no,Chiltern Railways
+Aylesbury,aylesbury,51.813891,-0.815096,Marylebone,MYB,55,55,,61,3.2,yes,Chiltern Railways
+Little Kimble,little-kimble,51.752232,-0.808452,Marylebone,MYB,58,69,Princes Risborough,,,no,Chiltern Railways
+Aylesbury Vale Parkway,aylesbury-vale-parkway,51.831159,-0.860182,Marylebone,MYB,60,60,,67,2.0,yes,Chiltern Railways
+Banbury,banbury,52.060308,-1.328133,Marylebone,MYB,62,62,,65,2.0,yes,Chiltern Railways
+Kings Sutton,kings-sutton,52.021351,-1.280931,Marylebone,MYB,71,71,,83,0.4,yes,Chiltern Railways
+Oxford,oxford,51.753496,-1.270153,Marylebone,MYB,74,74,,87,2.0,yes,Chiltern Railways
+Leamington Spa,leamington-spa,52.28449,-1.53621,Marylebone,MYB,82,82,,83,2.0,yes,Chiltern Railways
+Warwick,warwick,52.28654,-1.581854,Marylebone,MYB,88,88,,89,2.0,yes,Chiltern Railways
+Finsbury Park,finsbury-park,51.564302,-0.106285,Moorgate,MOG,14,14,,14,8.8,yes,Great Northern
+Alexandra Palace,alexandra-palace,51.597924,-0.120235,Moorgate,MOG,19,19,,22,8.8,yes,Great Northern
+Hornsey,hornsey,51.586461,-0.111975,Moorgate,MOG,19,19,,20,6.0,yes,Great Northern
+Oakleigh Park,oakleigh-park,51.637678,-0.166209,Moorgate,MOG,25,25,,30,4.0,yes,Great Northern
+New Barnet,new-barnet,51.648575,-0.172997,Moorgate,MOG,27,27,,32,4.0,yes,Great Northern
+Enfield Chase,enfield-chase,51.653254,-0.090696,Moorgate,MOG,29,29,,35,4.8,yes,Great Northern
+Hadley Wood,hadley-wood,51.668497,-0.176172,Moorgate,MOG,30,30,,35,4.0,yes,Great Northern
+Gordon Hill,gordon-hill,51.663335,-0.09461,Moorgate,MOG,31,31,,37,4.8,yes,Great Northern
+Potters Bar,potters-bar,51.697067,-0.192605,Moorgate,MOG,33,33,,38,4.0,yes,Great Northern
+Brookmans Park,brookmans-park,51.721062,-0.204549,Moorgate,MOG,37,37,,42,4.0,yes,Great Northern
+Crews Hill,crews-hill,51.684486,-0.106887,Moorgate,MOG,39,39,,41,4.8,yes,Great Northern
+Welham Green,welham-green,51.736352,-0.210692,Moorgate,MOG,39,39,,44,4.0,yes,Great Northern
+Welwyn Garden City,welwyn-garden-city,51.801048,-0.20407,Moorgate,MOG,39,47,Finsbury Park,52,4.0,no,Great Northern
+Hatfield,hatfield,51.763879,-0.215589,Moorgate,MOG,41,42,Finsbury Park,47,4.0,no,Great Northern
+Cuffley,cuffley,51.708722,-0.109783,Moorgate,MOG,42,42,,44,4.8,yes,Great Northern
+Stevenage,stevenage,51.901688,-0.207109,Moorgate,MOG,42,65,Finsbury Park,66,2.0,no,Great Northern
+Bayford,bayford,51.757716,-0.09561,Moorgate,MOG,46,46,,48,4.8,yes,Great Northern
+Hertford North,hertford-north,51.798857,-0.091788,Moorgate,MOG,50,50,,52,4.8,yes,Great Northern
+Acton Main Line,acton-main-line,51.51718,-0.266756,Paddington,PAD,7,7,,8,6.0,yes,"Great Western Railway, Elizabeth line"
+Ealing Broadway,ealing-broadway,51.514841,-0.301752,Paddington,PAD,8,8,,11,12.0,yes,"Great Western Railway, Elizabeth line"
+Southall,southall,51.505957,-0.37861,Paddington,PAD,13,13,,18,9.2,yes,"Great Western Railway, Elizabeth line"
+Hanwell,hanwell,51.511835,-0.338583,Paddington,PAD,14,14,,15,5.2,yes,"Great Western Railway, Elizabeth line"
+Slough,slough,51.51188,-0.59151,Paddington,PAD,14,14,,32,6.4,yes,"Great Western Railway, Elizabeth line"
+Hayes & Harlington,hayes-and-harlington,51.503096,-0.420683,Paddington,PAD,16,16,,21,10.0,yes,"Great Western Railway, Elizabeth line"
+Maidenhead,maidenhead,51.518669,-0.72266,Paddington,PAD,18,18,,38,10.0,yes,"Great Western Railway, Elizabeth line"
+Stratford,stratford,51.541895,-0.003397,Paddington,PAD,19,19,,20,11.6,yes,"Great Western Railway, Elizabeth line"
+West Drayton,west-drayton,51.510055,-0.472234,Paddington,PAD,20,20,,23,6.0,yes,"Great Western Railway, Elizabeth line"
+Twyford,twyford,51.475534,-0.863293,Paddington,PAD,21,21,,45,6.4,yes,"Great Western Railway, Elizabeth line"
+Reading,reading,51.458786,-0.971849,Paddington,PAD,23,23,,28,15.6,yes,"Great Western Railway, Elizabeth line"
+Iver,iver,51.508503,-0.506726,Paddington,PAD,24,24,,27,4.0,yes,"Great Western Railway, Elizabeth line"
+Burnham,burnham,51.523506,-0.646374,Paddington,PAD,26,33,Slough,36,6.0,no,"Great Western Railway, Elizabeth line"
+Langley,langley,51.508062,-0.541756,Paddington,PAD,26,26,,30,4.0,yes,"Great Western Railway, Elizabeth line"
+Abbey Wood,abbey-wood,51.491062,0.121394,Paddington,PAD,28,28,,30,11.6,yes,"Great Western Railway, Elizabeth line"
+Taplow,taplow,51.523562,-0.68137,Paddington,PAD,30,38,Maidenhead,40,4.0,no,"Great Western Railway, Elizabeth line"
+Windsor & Eton Central,windsor-and-eton-central,51.483268,-0.61038,Paddington,PAD,32,,Slough,,,no,"Great Western Railway, Elizabeth line"
+Theale,theale,51.433452,-1.074973,Paddington,PAD,34,34,,38,1.6,yes,"Great Western Railway, Elizabeth line"
+Didcot Parkway,didcot-parkway,51.610954,-1.242893,Paddington,PAD,37,37,,43,5.6,yes,"Great Western Railway, Elizabeth line"
+Tilehurst,tilehurst,51.471509,-1.029816,Paddington,PAD,37,41,Reading,48,2.0,no,"Great Western Railway, Elizabeth line"
+Romford,romford,51.574829,0.183237,Paddington,PAD,39,40,Stratford (London),41,11.6,no,"Great Western Railway, Elizabeth line"
+Newbury,newbury,51.397649,-1.322861,Paddington,PAD,40,40,,51,2.8,yes,"Great Western Railway, Elizabeth line"
+Pangbourne,pangbourne,51.485401,-1.09047,Paddington,PAD,41,46,Reading,53,2.0,no,"Great Western Railway, Elizabeth line"
+Shenfield,shenfield,51.630877,0.329851,Paddington,PAD,42,54,Stratford (London),56,11.2,no,"Great Western Railway, Elizabeth line"
+Thatcham,thatcham,51.393844,-1.24319,Paddington,PAD,42,42,,46,1.6,yes,"Great Western Railway, Elizabeth line"
+Goring & Streatley,goring-and-streatley,51.521493,-1.133049,Paddington,PAD,45,50,Reading,56,2.0,no,"Great Western Railway, Elizabeth line"
+Hungerford,hungerford,51.41491,-1.512287,Paddington,PAD,46,46,,63,2.0,yes,"Great Western Railway, Elizabeth line"
+Swindon,swindon,51.565472,-1.785511,Paddington,PAD,47,47,,57,4.4,yes,"Great Western Railway, Elizabeth line"
+Cholsey,cholsey,51.570202,-1.158023,Paddington,PAD,49,55,Reading,61,2.0,no,"Great Western Railway, Elizabeth line"
+Brentwood,brentwood,51.613605,0.299586,Paddington,PAD,50,50,,52,11.2,yes,"Great Western Railway, Elizabeth line"
+Oxford,oxford,51.753496,-1.270153,Paddington,PAD,51,51,,54,2.4,yes,"Great Western Railway, Elizabeth line"
+Henley-on-Thames,henley-on-thames,51.53418,-0.900212,Paddington,PAD,52,,Twyford,,,no,"Great Western Railway, Elizabeth line"
+Bedwyn,bedwyn,51.37964,-1.598786,Paddington,PAD,56,56,,69,2.0,yes,"Great Western Railway, Elizabeth line"
+Kintbury,kintbury,51.402522,-1.445989,Paddington,PAD,58,58,,59,1.2,yes,"Great Western Railway, Elizabeth line"
+Pewsey,pewsey,51.342193,-1.770675,Paddington,PAD,62,62,,79,1.6,yes,"Great Western Railway, Elizabeth line"
+Chippenham,chippenham,51.462488,-2.115394,Paddington,PAD,63,63,,70,1.6,yes,"Great Western Railway, Elizabeth line"
+Hanborough,hanborough,51.825158,-1.373525,Paddington,PAD,63,63,,65,1.2,yes,"Great Western Railway, Elizabeth line"
+Charlbury,charlbury,51.872428,-1.489694,Paddington,PAD,69,69,,72,1.2,yes,"Great Western Railway, Elizabeth line"
+Marlow,marlow,51.570993,-0.766431,Paddington,PAD,70,,Maidenhead,,,no,"Great Western Railway, Elizabeth line"
+Banbury,banbury,52.060308,-1.328133,Paddington,PAD,74,74,,,,yes,"Great Western Railway, Elizabeth line"
+Bath Spa,bath-spa,51.377686,-2.357018,Paddington,PAD,76,76,,83,1.6,yes,"Great Western Railway, Elizabeth line"
+Kingham,kingham,51.90225,-1.628786,Paddington,PAD,80,80,,82,1.2,yes,"Great Western Railway, Elizabeth line"
+Moreton-in-Marsh,moreton-in-marsh,51.992281,-1.70038,Paddington,PAD,88,88,,90,1.2,yes,"Great Western Railway, Elizabeth line"
+Bristol Temple Meads,bristol-temple-meads,51.449144,-2.581315,Paddington,PAD,89,89,,99,2.0,yes,"Great Western Railway, Elizabeth line"
+Kentish Town,kentish-town,51.550495,-0.140365,St Pancras,STP,5,5,,5,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Finsbury Park,finsbury-park,51.564302,-0.106285,St Pancras,STP,7,7,,7,6.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+West Hampstead Thameslink,west-hampstead-thameslink,51.548476,-0.191837,St Pancras,STP,8,8,,10,8.8,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Cricklewood,cricklewood,51.558453,-0.212677,St Pancras,STP,13,13,,13,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Oakleigh Park,oakleigh-park,51.637678,-0.166209,St Pancras,STP,17,17,,18,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Mill Hill Broadway,mill-hill-broadway,51.613093,-0.24924,St Pancras,STP,19,19,,22,6.4,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+New Barnet,new-barnet,51.648575,-0.172997,St Pancras,STP,19,19,,20,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Denmark Hill,denmark-hill,51.468203,-0.089361,St Pancras,STP,20,20,,20,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+St Albans City,st-albans,51.750473,-0.327538,St Pancras,STP,20,20,,32,11.6,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Gravesend,gravesend,51.441348,0.366643,St Pancras,STP,22,22,,25,4.8,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Welwyn Garden City,welwyn-garden-city,51.801048,-0.20407,St Pancras,STP,22,22,,37,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Elstree & Borehamwood,elstree-and-borehamwood,51.653069,-0.280081,St Pancras,STP,23,23,,26,6.4,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Luton Airport Parkway,luton-airport-parkway,51.872438,-0.395881,St Pancras,STP,23,23,,33,8.4,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Peckham Rye,peckham-rye,51.470034,-0.069414,St Pancras,STP,23,23,,24,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Potters Bar,potters-bar,51.697067,-0.192605,St Pancras,STP,24,24,,25,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Harpenden,harpenden,51.814645,-0.35148,St Pancras,STP,25,25,,29,7.6,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Knebworth,knebworth,51.866855,-0.187289,St Pancras,STP,25,25,,25,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Luton,luton,51.882305,-0.41404,St Pancras,STP,26,26,,36,9.6,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Radlett,radlett,51.685188,-0.317244,St Pancras,STP,26,26,,30,6.4,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Stevenage,stevenage,51.901688,-0.207109,St Pancras,STP,27,27,,28,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+East Croydon,east-croydon,51.375454,-0.09278,St Pancras,STP,29,29,,30,8.8,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Hatfield,hatfield,51.763879,-0.215589,St Pancras,STP,30,30,,32,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Strood,strood,51.396549,0.500188,St Pancras,STP,32,32,,36,4.8,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Catford,catford,51.444407,-0.026317,St Pancras,STP,33,33,,33,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Hitchin,hitchin,51.953283,-0.263481,St Pancras,STP,33,33,,34,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Ashford International,ashford-international,51.143706,0.876197,St Pancras,STP,36,36,,38,3.6,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Bellingham,bellingham,51.432913,-0.019331,St Pancras,STP,36,36,,36,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Coulsdon South,coulsdon-south,51.315838,-0.137887,St Pancras,STP,36,36,,36,2.8,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Rochester,rochester,51.389652,0.506855,St Pancras,STP,36,36,,64,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Purley,purley,51.337579,-0.114035,St Pancras,STP,37,37,,38,1.6,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Beckenham Hill,beckenham-hill,51.424583,-0.015951,St Pancras,STP,38,38,,38,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Letchworth Garden City,letchworth-garden-city,51.979964,-0.229264,St Pancras,STP,38,38,,39,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Arlesey,arlesey,52.026031,-0.26632,St Pancras,STP,39,39,,41,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Bedford,bedford,52.136187,-0.479442,St Pancras,STP,39,39,,63,7.2,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Chatham,chatham,51.380379,0.521151,St Pancras,STP,39,39,,68,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Orpington,orpington,51.373296,0.089091,St Pancras,STP,39,58,London Bridge,58,2.0,no,"Thameslink, East Midlands Railway, Southeastern high speed"
+Woolwich Arsenal,woolwich-arsenal,51.489909,0.069194,St Pancras,STP,39,39,,39,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Redhill,redhill,51.240201,-0.1659,St Pancras,STP,40,40,,46,3.6,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Wimbledon,wimbledon,51.421222,-0.206371,St Pancras,STP,40,40,,41,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Baldock,baldock,51.992871,-0.187564,St Pancras,STP,41,41,,42,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Flitwick,flitwick,52.003642,-0.495258,St Pancras,STP,41,41,,51,5.2,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Merstham,merstham,51.264154,-0.150226,St Pancras,STP,41,41,,42,2.8,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Dartford,dartford,51.447371,0.219248,St Pancras,STP,42,56,Gravesend,57,2.0,no,"Thameslink, East Midlands Railway, Southeastern high speed"
+Plumstead,plumstead,51.489795,0.084257,St Pancras,STP,42,42,,42,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Bromley South,bromley-south,51.399976,0.017344,St Pancras,STP,43,45,London Blackfriars,46,4.0,no,"Thameslink, East Midlands Railway, Southeastern high speed"
+Gillingham,gillingham,51.386565,0.54985,St Pancras,STP,43,43,,72,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Biggleswade,biggleswade,52.08468,-0.261187,St Pancras,STP,44,44,,46,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Gatwick Airport,gatwick-airport,51.156491,-0.161041,St Pancras,STP,44,44,,44,7.6,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Abbey Wood,abbey-wood,51.491062,0.121394,St Pancras,STP,45,45,,45,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Ashwell & Morden,ashwell-and-morden,52.030772,-0.109789,St Pancras,STP,46,46,,47,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Earlswood,earlswood,51.227328,-0.170823,St Pancras,STP,46,46,,52,1.6,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Petts Wood,petts-wood,51.388619,0.074481,St Pancras,STP,47,55,London Bridge,55,2.0,no,"Thameslink, East Midlands Railway, Southeastern high speed"
+Sutton,sutton,51.359533,-0.191215,St Pancras,STP,47,47,,53,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Bickley,bickley,51.400104,0.045241,St Pancras,STP,48,48,,48,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Sevenoaks,sevenoaks,51.276865,0.181669,St Pancras,STP,48,76,London Bridge,76,2.0,no,"Thameslink, East Midlands Railway, Southeastern high speed"
+Oxted,oxted,51.257908,-0.004819,St Pancras,STP,49,49,,54,1.2,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Rainham (Kent),rainham-kent,51.366306,0.611337,St Pancras,STP,49,49,,78,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Sandy,sandy,52.124734,-0.28119,St Pancras,STP,49,49,,51,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Three Bridges,three-bridges,51.116924,-0.161184,St Pancras,STP,49,49,,50,7.2,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Salfords,salfords,51.201748,-0.162489,St Pancras,STP,50,50,,56,1.6,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Royston,royston,52.05308,-0.026921,St Pancras,STP,51,51,,52,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Slade Green,slade-green,51.467786,0.190491,St Pancras,STP,51,51,,51,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Horley,horley,51.168775,-0.161054,St Pancras,STP,52,52,,58,3.6,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Hurst Green,hurst-green,51.244431,0.003939,St Pancras,STP,53,53,,57,1.2,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Swanley,swanley,51.393387,0.169225,St Pancras,STP,54,57,London Blackfriars,57,2.0,no,"Thameslink, East Midlands Railway, Southeastern high speed"
+Balcombe,balcombe,51.055522,-0.136934,St Pancras,STP,55,55,,55,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+St Neots,st-neots,52.231568,-0.247414,St Pancras,STP,56,56,,58,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Sittingbourne,sittingbourne,51.341977,0.734684,St Pancras,STP,58,58,,59,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Haywards Heath,haywards-heath,51.005682,-0.105078,St Pancras,STP,59,59,,61,4.4,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Lingfield,lingfield,51.176453,-0.007165,St Pancras,STP,60,60,,64,1.2,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Crawley,crawley,51.112214,-0.186673,St Pancras,STP,62,66,Three Bridges,68,2.4,no,"Thameslink, East Midlands Railway, Southeastern high speed"
+Huntingdon,huntingdon,52.328649,-0.192068,St Pancras,STP,64,64,,66,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Burgess Hill,burgess-hill,50.953656,-0.127413,St Pancras,STP,65,65,,67,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Otford,otford,51.313158,0.196779,St Pancras,STP,65,69,London Blackfriars,69,2.0,no,"Thameslink, East Midlands Railway, Southeastern high speed"
+Faversham,faversham,51.311714,0.891045,St Pancras,STP,66,66,,68,2.4,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Wivelsfield,wivelsfield,50.964297,-0.12079,St Pancras,STP,66,66,,66,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+East Grinstead,east-grinstead,51.126274,-0.0179,St Pancras,STP,67,67,,71,1.2,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Cambridge,cambridge,52.194067,0.137457,St Pancras,STP,68,68,,68,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Peterborough,peterborough,52.574975,-0.249837,St Pancras,STP,68,79,Stevenage,81,2.0,no,"Thameslink, East Midlands Railway, Southeastern high speed"
+Hassocks,hassocks,50.924616,-0.145953,St Pancras,STP,70,70,,73,3.6,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Bat & Ball,bat-and-ball,51.289761,0.194228,St Pancras,STP,73,73,,73,2.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Horsham,horsham,51.066065,-0.319269,St Pancras,STP,75,80,Three Bridges,82,2.4,no,"Thameslink, East Midlands Railway, Southeastern high speed"
+Brighton,brighton,50.829005,-0.14128,St Pancras,STP,76,76,,82,4.0,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Preston Park,preston-park,50.845944,-0.155168,St Pancras,STP,77,77,,80,3.6,yes,"Thameslink, East Midlands Railway, Southeastern high speed"
+Battersea Park,battersea-park,51.47696,-0.147533,Victoria,VIC,4,4,,4,8.8,yes,"Southeastern, Southern"
+Clapham Junction,clapham-junction,51.464188,-0.170293,Victoria,VIC,6,6,,8,20.0,yes,"Southeastern, Southern"
+Denmark Hill,denmark-hill,51.468203,-0.089361,Victoria,VIC,9,9,,10,4.0,yes,"Southeastern, Southern"
+Balham,balham,51.443225,-0.152424,Victoria,VIC,12,12,,14,10.8,yes,"Southeastern, Southern"
+Wandsworth Common,wandsworth-common,51.446185,-0.163386,Victoria,VIC,12,12,,12,6.8,yes,"Southeastern, Southern"
+Peckham Rye,peckham-rye,51.470034,-0.069414,Victoria,VIC,13,13,,13,2.0,yes,"Southeastern, Southern"
+Bromley South,bromley-south,51.399976,0.017344,Victoria,VIC,15,15,,23,12.0,yes,"Southeastern, Southern"
+East Croydon,east-croydon,51.375454,-0.09278,Victoria,VIC,16,16,,17,9.2,yes,"Southeastern, Southern"
+Lewisham,lewisham,51.465692,-0.014024,Victoria,VIC,21,21,,22,2.0,yes,"Southeastern, Southern"
+Orpington,orpington,51.373296,0.089091,Victoria,VIC,22,22,,34,4.0,yes,"Southeastern, Southern"
+Bellingham,bellingham,51.432913,-0.019331,Victoria,VIC,24,24,,25,1.2,yes,"Southeastern, Southern"
+Bickley,bickley,51.400104,0.045241,Victoria,VIC,25,25,,35,2.0,yes,"Southeastern, Southern"
+Blackheath,blackheath,51.465796,0.008872,Victoria,VIC,25,25,,26,2.0,yes,"Southeastern, Southern"
+Purley,purley,51.337579,-0.114035,Victoria,VIC,25,25,,25,2.0,yes,"Southeastern, Southern"
+Swanley,swanley,51.393387,0.169225,Victoria,VIC,27,27,,35,6.0,yes,"Southeastern, Southern"
+Gatwick Airport,gatwick-airport,51.156491,-0.161041,Victoria,VIC,29,29,,32,6.8,yes,"Southeastern, Southern"
+Kidbrooke,kidbrooke,51.462121,0.027498,Victoria,VIC,29,29,,30,2.0,yes,"Southeastern, Southern"
+Coulsdon South,coulsdon-south,51.315838,-0.137887,Victoria,VIC,30,30,,30,2.0,yes,"Southeastern, Southern"
+Horley,horley,51.168775,-0.161054,Victoria,VIC,31,31,,31,1.2,yes,"Southeastern, Southern"
+Sevenoaks,sevenoaks,51.276865,0.181669,Victoria,VIC,31,31,,35,2.0,yes,"Southeastern, Southern"
+West Croydon,west-croydon,51.378428,-0.102585,Victoria,VIC,31,31,,35,6.0,yes,"Southeastern, Southern"
+Eltham,eltham,51.455644,0.052472,Victoria,VIC,32,32,,34,2.0,yes,"Southeastern, Southern"
+Sutton,sutton,51.359533,-0.191215,Victoria,VIC,32,32,,48,6.4,yes,"Southeastern, Southern"
+Redhill,redhill,51.240201,-0.1659,Victoria,VIC,34,34,,39,2.0,yes,"Southeastern, Southern"
+Merstham,merstham,51.264154,-0.150226,Victoria,VIC,35,35,,35,2.0,yes,"Southeastern, Southern"
+Petts Wood,petts-wood,51.388619,0.074481,Victoria,VIC,35,39,Orpington,40,2.0,no,"Southeastern, Southern"
+Three Bridges,three-bridges,51.116924,-0.161184,Victoria,VIC,36,36,,38,2.4,yes,"Southeastern, Southern"
+Hildenborough,hildenborough,51.214486,0.22759,Victoria,VIC,38,38,,43,2.0,yes,"Southeastern, Southern"
+Oxted,oxted,51.257908,-0.004819,Victoria,VIC,38,38,,39,2.0,yes,"Southeastern, Southern"
+Welling,welling,51.464798,0.10169,Victoria,VIC,38,38,,39,2.0,yes,"Southeastern, Southern"
+Otford,otford,51.313158,0.196779,Victoria,VIC,39,39,,44,4.0,yes,"Southeastern, Southern"
+Bexleyheath,bexleyheath,51.4635,0.133735,Victoria,VIC,41,41,,42,2.0,yes,"Southeastern, Southern"
+Epsom,epsom,51.334393,-0.268778,Victoria,VIC,41,41,,44,2.4,yes,"Southeastern, Southern"
+Rochester,rochester,51.389652,0.506855,Victoria,VIC,41,41,,60,4.0,yes,"Southeastern, Southern"
+Hurst Green,hurst-green,51.244431,0.003939,Victoria,VIC,42,42,,42,2.0,yes,"Southeastern, Southern"
+Tonbridge,tonbridge,51.191411,0.270973,Victoria,VIC,42,42,,47,2.0,yes,"Southeastern, Southern"
+Crawley,crawley,51.112214,-0.186673,Victoria,VIC,43,43,,43,2.0,yes,"Southeastern, Southern"
+Haywards Heath,haywards-heath,51.005682,-0.105078,Victoria,VIC,43,43,,47,4.8,yes,"Southeastern, Southern"
+Barnehurst,barnehurst,51.464959,0.159646,Victoria,VIC,44,44,,46,2.0,yes,"Southeastern, Southern"
+Chatham,chatham,51.380379,0.521151,Victoria,VIC,44,44,,64,4.0,yes,"Southeastern, Southern"
+Reigate,reigate,51.241958,-0.203825,Victoria,VIC,45,45,,50,2.0,yes,"Southeastern, Southern"
+Ashtead,ashtead,51.317874,-0.307572,Victoria,VIC,46,46,,51,2.0,yes,"Southeastern, Southern"
+Gillingham,gillingham,51.386565,0.54985,Victoria,VIC,48,48,,68,4.0,yes,"Southeastern, Southern"
+Balcombe,balcombe,51.055522,-0.136934,Victoria,VIC,49,,Gatwick Airport,,,no,"Southeastern, Southern"
+Bat & Ball,bat-and-ball,51.289761,0.194228,Victoria,VIC,49,49,,,,yes,"Southeastern, Southern"
+Lingfield,lingfield,51.176453,-0.007165,Victoria,VIC,49,49,,49,2.0,yes,"Southeastern, Southern"
+Burgess Hill,burgess-hill,50.953656,-0.127413,Victoria,VIC,50,50,,50,3.6,yes,"Southeastern, Southern"
+Leatherhead,leatherhead,51.298818,-0.333232,Victoria,VIC,50,50,,56,2.0,yes,"Southeastern, Southern"
+Dartford,dartford,51.447371,0.219248,Victoria,VIC,51,51,,53,2.0,yes,"Southeastern, Southern"
+Tunbridge Wells,tunbridge-wells,51.130234,0.26281,Victoria,VIC,52,52,,58,1.6,yes,"Southeastern, Southern"
+Hassocks,hassocks,50.924616,-0.145953,Victoria,VIC,54,54,,54,3.6,yes,"Southeastern, Southern"
+Horsham,horsham,51.066065,-0.319269,Victoria,VIC,54,54,,55,3.2,yes,"Southeastern, Southern"
+Rainham (Kent),rainham-kent,51.366306,0.611337,Victoria,VIC,54,54,,61,2.0,yes,"Southeastern, Southern"
+Wivelsfield,wivelsfield,50.964297,-0.12079,Victoria,VIC,54,54,,55,1.2,yes,"Southeastern, Southern"
+East Grinstead,east-grinstead,51.126274,-0.0179,Victoria,VIC,56,56,,56,2.0,yes,"Southeastern, Southern"
+Dorking,dorking,51.24093,-0.324251,Victoria,VIC,57,57,,64,2.0,yes,"Southeastern, Southern"
+Box Hill & Westhumble,box-hill-and-westhumble,51.254012,-0.32849,Victoria,VIC,59,59,,61,1.2,yes,"Southeastern, Southern"
+Brighton,brighton,50.829005,-0.14128,Victoria,VIC,60,60,,65,2.0,yes,"Southeastern, Southern"
+Preston Park,preston-park,50.845944,-0.155168,Victoria,VIC,61,61,,61,3.6,yes,"Southeastern, Southern"
+Gravesend,gravesend,51.441348,0.366643,Victoria,VIC,63,63,,65,1.2,yes,"Southeastern, Southern"
+Maidstone East,maidstone-east,51.27783,0.521295,Victoria,VIC,63,63,,70,4.0,yes,"Southeastern, Southern"
+Sittingbourne,sittingbourne,51.341977,0.734684,Victoria,VIC,64,64,,69,2.0,yes,"Southeastern, Southern"
+Hove,hove,50.835216,-0.170687,Victoria,VIC,67,67,,69,1.6,yes,"Southeastern, Southern"
+Paddock Wood,paddock-wood,51.182267,0.389149,Victoria,VIC,68,,Tonbridge,,,no,"Southeastern, Southern"
+Portslade,portslade,50.835683,-0.205336,Victoria,VIC,70,70,,72,1.6,yes,"Southeastern, Southern"
+Faversham,faversham,51.311714,0.891045,Victoria,VIC,72,72,,80,2.0,yes,"Southeastern, Southern"
+Shoreham-by-Sea,shoreham-by-sea,50.834427,-0.27172,Victoria,VIC,75,75,,77,1.6,yes,"Southeastern, Southern"
+Staplehurst,staplehurst,51.171467,0.550439,Victoria,VIC,76,,Tonbridge,,,no,"Southeastern, Southern"
+Lancing,lancing,50.827083,-0.323109,Victoria,VIC,79,79,,82,1.6,yes,"Southeastern, Southern"
+Marden,marden,51.175176,0.493169,Victoria,VIC,80,,Tonbridge,,,no,"Southeastern, Southern"
+Headcorn,headcorn,51.165714,0.627482,Victoria,VIC,81,,Tonbridge,,,no,"Southeastern, Southern"
+Worthing,worthing,50.818499,-0.376171,Victoria,VIC,85,85,,86,1.6,yes,"Southeastern, Southern"
+Vauxhall,vauxhall,51.48619,-0.122875,Waterloo,WAT,4,4,,7,27.2,yes,South Western Railway
+Clapham Junction,clapham-junction,51.464188,-0.170293,Waterloo,WAT,8,8,,12,30.4,yes,South Western Railway
+Earlsfield,earlsfield,51.442337,-0.187715,Waterloo,WAT,13,13,,15,16.4,yes,South Western Railway
+Putney,putney,51.461303,-0.216475,Waterloo,WAT,14,14,,19,12.0,yes,South Western Railway
+Surbiton,surbiton,51.39246,-0.303958,Waterloo,WAT,15,15,,29,8.4,yes,South Western Railway
+Wimbledon,wimbledon,51.421222,-0.206371,Waterloo,WAT,15,15,,20,16.8,yes,South Western Railway
+Barnes,barnes,51.467086,-0.242164,Waterloo,WAT,19,19,,22,9.6,yes,South Western Railway
+Richmond,richmond,51.463061,-0.301558,Waterloo,WAT,19,19,,28,11.6,yes,South Western Railway
+Raynes Park,raynes-park,51.409173,-0.230151,Waterloo,WAT,20,20,,23,13.6,yes,South Western Railway
+Walton-on-Thames,walton-on-thames,51.372931,-0.414635,Waterloo,WAT,22,22,,31,3.6,yes,South Western Railway
+Esher,esher,51.379891,-0.353338,Waterloo,WAT,23,23,,24,3.2,yes,South Western Railway
+New Malden,new-malden,51.404075,-0.25594,Waterloo,WAT,23,23,,26,9.2,yes,South Western Railway
+Twickenham,twickenham,51.450031,-0.330394,Waterloo,WAT,23,23,,35,12.8,yes,South Western Railway
+Motspur Park,motspur-park,51.395196,-0.239531,Waterloo,WAT,24,24,,27,5.2,yes,South Western Railway
+Weybridge,weybridge,51.361771,-0.457739,Waterloo,WAT,24,24,,36,5.6,yes,South Western Railway
+Woking,woking,51.318469,-0.55696,Waterloo,WAT,24,24,,30,14.4,yes,South Western Railway
+Norbiton,norbiton,51.412358,-0.284025,Waterloo,WAT,27,27,,32,6.0,yes,South Western Railway
+West Byfleet,west-byfleet,51.339226,-0.505485,Waterloo,WAT,27,27,,42,3.2,yes,South Western Railway
+Worcester Park,worcester-park,51.381253,-0.245167,Waterloo,WAT,27,27,,31,3.2,yes,South Western Railway
+Brentford,brentford,51.487547,-0.309651,Waterloo,WAT,29,29,,33,4.4,yes,South Western Railway
+Feltham,feltham,51.447898,-0.409838,Waterloo,WAT,29,29,,35,6.8,yes,South Western Railway
+Hinchley Wood,hinchley-wood,51.374998,-0.340524,Waterloo,WAT,29,29,,36,2.0,yes,South Western Railway
+Kingston,kingston,51.412751,-0.301166,Waterloo,WAT,29,29,,34,6.0,yes,South Western Railway
+Thames Ditton,thames-ditton,51.389097,-0.339152,Waterloo,WAT,29,36,Surbiton,38,2.0,no,South Western Railway
+Stoneleigh,stoneleigh,51.363401,-0.248665,Waterloo,WAT,30,30,,34,3.2,yes,South Western Railway
+Strawberry Hill,strawberry-hill,51.438963,-0.339358,Waterloo,WAT,30,30,,44,5.2,yes,South Western Railway
+Hampton Court,hampton-court,51.402556,-0.342748,Waterloo,WAT,31,38,Surbiton,40,2.0,no,South Western Railway
+Claygate,claygate,51.361214,-0.348248,Waterloo,WAT,32,32,,39,2.0,yes,South Western Railway
+Guildford,guildford,51.23697,-0.580425,Waterloo,WAT,32,32,,44,8.0,yes,South Western Railway
+Hampton Wick,hampton-wick,51.414524,-0.312489,Waterloo,WAT,32,32,,37,6.0,yes,South Western Railway
+Ewell West,ewell-west,51.350045,-0.256987,Waterloo,WAT,33,33,,37,3.2,yes,South Western Railway
+Brookwood,brookwood,51.303758,-0.635748,Waterloo,WAT,34,34,,36,4.0,yes,South Western Railway
+Farnborough (Main),farnborough-main,51.296692,-0.755436,Waterloo,WAT,34,34,,41,3.6,yes,South Western Railway
+Isleworth,isleworth,51.474763,-0.336907,Waterloo,WAT,34,34,,39,4.4,yes,South Western Railway
+Teddington,teddington,51.424481,-0.332706,Waterloo,WAT,34,34,,40,6.0,yes,South Western Railway
+Oxshott,oxshott,51.336396,-0.362419,Waterloo,WAT,35,35,,42,2.0,yes,South Western Railway
+Staines,staines,51.432455,-0.503164,Waterloo,WAT,35,35,,43,6.8,yes,South Western Railway
+Chessington South,chessington-south,51.35655,-0.308157,Waterloo,WAT,36,36,,39,2.0,yes,South Western Railway
+Epsom,epsom,51.334393,-0.268778,Waterloo,WAT,36,36,,41,3.2,yes,South Western Railway
+Hounslow,hounslow,51.461946,-0.362277,Waterloo,WAT,37,37,,42,4.8,yes,South Western Railway
+Byfleet & New Haw,byfleet-and-new-haw,51.349797,-0.48139,Waterloo,WAT,38,38,,40,2.4,yes,South Western Railway
+Cobham & Stoke d'Abernon,cobham-and-stoke-dabernon,51.318101,-0.389346,Waterloo,WAT,39,39,,46,2.0,yes,South Western Railway
+Farncombe,farncombe,51.197154,-0.604549,Waterloo,WAT,39,39,,47,2.8,yes,South Western Railway
+Godalming,godalming,51.186587,-0.618862,Waterloo,WAT,39,39,,48,4.4,yes,South Western Railway
+Fleet,fleet,51.290635,-0.830806,Waterloo,WAT,40,40,,48,3.2,yes,South Western Railway
+Ash Vale,ash-vale,51.272247,-0.721649,Waterloo,WAT,41,41,,43,2.8,yes,South Western Railway
+Ashtead,ashtead,51.317874,-0.307572,Waterloo,WAT,41,41,,46,3.2,yes,South Western Railway
+Basingstoke,basingstoke,51.268357,-1.087264,Waterloo,WAT,42,42,,51,7.5,yes,South Western Railway
+Egham,egham,51.429647,-0.546512,Waterloo,WAT,42,42,,48,4.4,yes,South Western Railway
+Effingham Junction,effingham-junction,51.291495,-0.419965,Waterloo,WAT,43,43,,50,3.2,yes,South Western Railway
+Leatherhead,leatherhead,51.298818,-0.333232,Waterloo,WAT,45,45,,50,3.2,yes,South Western Railway
+Shepperton,shepperton,51.396805,-0.446786,Waterloo,WAT,45,45,,56,3.2,yes,South Western Railway
+Virginia Water,virginia-water,51.401802,-0.562174,Waterloo,WAT,45,45,,51,4.4,yes,South Western Railway
+Aldershot,aldershot,51.246418,-0.75986,Waterloo,WAT,46,46,,48,2.8,yes,South Western Railway
+Horsley,horsley,51.279347,-0.435409,Waterloo,WAT,47,47,,54,3.2,yes,South Western Railway
+Haslemere,haslemere,51.088648,-0.719163,Waterloo,WAT,49,49,,60,4.4,yes,South Western Railway
+Box Hill & Westhumble,box-hill-and-westhumble,51.254012,-0.32849,Waterloo,WAT,50,50,,54,2.0,yes,South Western Railway
+Winchfield,winchfield,51.28495,-0.906977,Waterloo,WAT,50,50,,56,2.4,yes,South Western Railway
+Clandon,clandon,51.264005,-0.502766,Waterloo,WAT,51,51,,58,3.2,yes,South Western Railway
+Farnham,farnham,51.211905,-0.792427,Waterloo,WAT,52,52,,54,2.8,yes,South Western Railway
+Milford,milford,51.163319,-0.636948,Waterloo,WAT,52,52,,56,2.0,yes,South Western Railway
+Dorking,dorking,51.24093,-0.324251,Waterloo,WAT,53,53,,57,2.0,yes,South Western Railway
+Overton,overton,51.254294,-1.259268,Waterloo,WAT,53,53,,55,1.9,yes,South Western Railway
+Hook,hook,51.279998,-0.961636,Waterloo,WAT,54,54,,60,2.4,yes,South Western Railway
+Ascot,ascot,51.406244,-0.675833,Waterloo,WAT,55,55,,60,2.8,yes,South Western Railway
+Witley,witley,51.133162,-0.645783,Waterloo,WAT,56,56,,60,2.0,yes,South Western Railway
+Winchester,winchester,51.067211,-1.3197,Waterloo,WAT,58,58,,70,4.0,yes,South Western Railway
+Bentley,bentley,51.181233,-0.868127,Waterloo,WAT,59,59,,60,2.0,yes,South Western Railway
+Liphook,liphook,51.071316,-0.800228,Waterloo,WAT,59,59,,70,2.4,yes,South Western Railway
+Whitchurch (Hants),whitchurch-hants,51.237544,-1.337747,Waterloo,WAT,59,59,,61,1.9,yes,South Western Railway
+Andover,andover,51.211547,-1.492233,Waterloo,WAT,62,62,,70,1.9,yes,South Western Railway
+Petersfield,petersfield,51.006726,-0.941137,Waterloo,WAT,63,63,,79,4.4,yes,South Western Railway
+Liss,liss,51.043571,-0.892867,Waterloo,WAT,65,65,,77,2.4,yes,South Western Railway
+Alton,alton,51.151969,-0.966913,Waterloo,WAT,66,66,,67,2.0,yes,South Western Railway
+Grateley,grateley,51.170059,-1.620774,Waterloo,WAT,75,75,,77,1.9,yes,South Western Railway
+Southampton Central,southampton-central,50.907448,-1.413596,Waterloo,WAT,76,76,,82,2.4,yes,South Western Railway
+Havant,havant,50.854427,-0.981611,Waterloo,WAT,77,77,,97,4.4,yes,South Western Railway
+Reading,reading,51.458786,-0.971849,Waterloo,WAT,80,85,Basingstoke,88,2.0,no,South Western Railway
+Salisbury,salisbury,51.070548,-1.806387,Waterloo,WAT,80,80,,90,1.9,yes,South Western Railway

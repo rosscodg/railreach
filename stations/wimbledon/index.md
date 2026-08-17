@@ -7,14 +7,14 @@ Wimbledon connects to 2 London terminals. The fastest route is Waterloo in 15 mi
 - London terminals served: 2 (Waterloo, St Pancras)
 - Operator: South Western Railway
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Wimbledon to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Waterloo | 15 min | 20 | 16.8 | South Western Railway |
-| St Pancras | 40 min | 41 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Waterloo | 15 min | same as fastest | 20 | 16.8 | South Western Railway |
+| St Pancras | 40 min | same as fastest | 41 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 

@@ -7,14 +7,14 @@ Catford connects to 2 London terminals. The fastest route is St Pancras in 33 mi
 - London terminals served: 2 (St Pancras, London Bridge)
 - Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Catford to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| St Pancras | 33 min | 33 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
-| London Bridge | change required | - | - | Southeastern, Southern, Thameslink |
+| St Pancras | 33 min | same as fastest | 33 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 39 min (change at London Blackfriars) | no direct service | - | - | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 

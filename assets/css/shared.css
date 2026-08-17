@@ -866,3 +866,19 @@ a:focus-visible, button:focus-visible, select:focus-visible {
   .promo-connells .promo-sub { display: none; }
   .promo-connells .promo-cta { margin: 0 6px; padding: 5px 8px; font-size: 9px; letter-spacing: 0.3px; }
 }
+
+/* "change at Reading" under the fastest time: the number alone would imply a
+   through train. Small and quiet, since it qualifies the figure rather than
+   competing with it. */
+.pop-via {
+  display: block; font-size: 10.5px; font-weight: 500;
+  color: var(--text-muted); letter-spacing: 0;
+}
+.leaflet-popup-content .pop-stats dd .pop-via { text-align: right; }
+
+/* "change at Reading" beneath a time in a table: the figure needs the
+   qualification, but not at the same weight as the number itself. */
+.t-via {
+  display: block; margin-top: 2px;
+  font-size: 11px; font-weight: 500; color: var(--text-muted);
+}

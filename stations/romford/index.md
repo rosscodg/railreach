@@ -7,14 +7,14 @@ Romford connects to 2 London terminals. The fastest route is Liverpool Street in
 - London terminals served: 2 (Liverpool Street, Paddington)
 - Operator: Greater Anglia, Elizabeth line
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Romford to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Liverpool Street | 18 min | 29 | 13.6 | Greater Anglia, Elizabeth line |
-| Paddington | 40 min | 41 | 11.6 | Great Western Railway, Elizabeth line |
+| Liverpool Street | 18 min | same as fastest | 29 | 13.6 | Greater Anglia, Elizabeth line |
+| Paddington | 39 min (change at Stratford (London)) | 40 min | 41 | 11.6 | Great Western Railway, Elizabeth line |
 
 ## Frequently asked questions
 
@@ -24,7 +24,7 @@ The fastest train from Romford reaches London Liverpool Street in 18 minutes. Ro
 
 ### Which London station should I travel to from Romford?
 
-Liverpool Street is the quickest at 18 minutes, on a direct service. Direct trains run to Liverpool Street, Paddington.
+Liverpool Street is the quickest at 18 minutes, on a direct service. Direct trains run to Liverpool Street.
 
 ### Is Romford a good commuter town for London?
 
@@ -32,7 +32,7 @@ At 18 minutes to London Liverpool Street, Romford is an excellent commuter base,
 
 ### Are there direct trains from Romford to London?
 
-Yes. Direct services run to Liverpool Street, Paddington.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Romford?
 

@@ -7,16 +7,16 @@ Finsbury Park connects to 4 London terminals. The fastest route is Kings Cross i
 - London terminals served: 4 (Kings Cross, St Pancras, Moorgate, London Bridge)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Finsbury Park to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Kings Cross | 6 min | 7 | 2.0 | Great Northern, LNER, Hull Trains, Lumo |
-| St Pancras | 7 min | 7 | 6.0 | Thameslink, East Midlands Railway, Southeastern high speed |
-| Moorgate | 14 min | 14 | 8.8 | Great Northern |
-| London Bridge | 22 min | 22 | 4.0 | Southeastern, Southern, Thameslink |
+| Kings Cross | 6 min | same as fastest | 7 | 2.0 | Great Northern, LNER, Hull Trains, Lumo |
+| St Pancras | 7 min | same as fastest | 7 | 6.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Moorgate | 14 min | same as fastest | 14 | 8.8 | Great Northern |
+| London Bridge | 22 min | same as fastest | 22 | 4.0 | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 

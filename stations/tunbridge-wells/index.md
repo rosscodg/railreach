@@ -7,14 +7,14 @@ Tunbridge Wells connects to 2 London terminals. The fastest route is London Brid
 - London terminals served: 2 (London Bridge, Victoria)
 - Operator: Southeastern, Southern, Thameslink
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Tunbridge Wells to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| London Bridge | 44 min | 48 | 3.2 | Southeastern, Southern, Thameslink |
-| Victoria | 52 min | 58 | 1.6 | Southeastern, Southern |
+| London Bridge | 44 min | same as fastest | 48 | 3.2 | Southeastern, Southern, Thameslink |
+| Victoria | 52 min | same as fastest | 58 | 1.6 | Southeastern, Southern |
 
 ## Frequently asked questions
 

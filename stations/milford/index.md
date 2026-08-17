@@ -7,13 +7,13 @@ Milford connects to 1 London terminal. The fastest route is Waterloo in 52 minut
 - London terminals served: 1 (Waterloo)
 - Operator: South Western Railway
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Milford to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Waterloo | 52 min | 56 | 2.0 | South Western Railway |
+| Waterloo | 52 min | same as fastest | 56 | 2.0 | South Western Railway |
 
 ## Frequently asked questions
 

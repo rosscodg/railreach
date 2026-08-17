@@ -7,15 +7,15 @@ Burgess Hill connects to 3 London terminals. The fastest route is London Bridge 
 - London terminals served: 3 (London Bridge, Victoria, St Pancras)
 - Operator: Southeastern, Southern, Thameslink
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Burgess Hill to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| London Bridge | 50 min | 53 | 4.0 | Southeastern, Southern, Thameslink |
-| Victoria | 50 min | 50 | 3.6 | Southeastern, Southern |
-| St Pancras | 65 min | 67 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 50 min | same as fastest | 53 | 4.0 | Southeastern, Southern, Thameslink |
+| Victoria | 50 min | same as fastest | 50 | 3.6 | Southeastern, Southern |
+| St Pancras | 65 min | same as fastest | 67 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 

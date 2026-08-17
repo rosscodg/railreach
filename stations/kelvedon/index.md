@@ -7,13 +7,13 @@ Kelvedon connects to 1 London terminal. The fastest route is Liverpool Street in
 - London terminals served: 1 (Liverpool Street)
 - Operator: Greater Anglia, Elizabeth line
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Kelvedon to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Liverpool Street | 50 min | 55 | 3.6 | Greater Anglia, Elizabeth line |
+| Liverpool Street | 50 min | same as fastest | 55 | 3.6 | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 

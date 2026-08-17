@@ -168,3 +168,122 @@ def compare_to_published(measured, published_mins):
     if measured.get('fastest_mins') is None or published_mins is None:
         return None
     return measured['fastest_mins'] - published_mins
+
+
+# ── Journeys with one change ────────────────────────────────────────────────
+# Measuring only direct services understated 50 of 530 published journeys, some
+# badly: Sevenoaks to St Pancras is 76 minutes direct and 43 with one change.
+# Twenty more pairs had no direct service at all and so carried no time.
+#
+# One change, not two. Each additional change multiplies the search and, more
+# to the point, a two-change itinerary is not a commute anybody sustains.
+
+# A uniform allowance, because National Rail's station-by-station minimum
+# connection times are not in the timetable feed. Eight minutes is deliberately
+# more cautious than the five a journey planner will offer at a simple
+# same-platform change: five also permits five-minute changes at termini where
+# that is not realistic, and publishing a connection nobody can make is worse
+# than publishing a slightly slow one. Stated on the methodology page, and one
+# constant to change if station-level data ever becomes available.
+MIN_INTERCHANGE_MINS = 8
+
+
+def calling_points_abs(service):
+    """Calling points as (tiploc, arrival, departure) in absolute minutes.
+
+    Times in the feed are wall-clock, so a service running past midnight goes
+    backwards. Walking the calls and adding a day whenever time decreases keeps
+    each service monotonic, which is what makes one service's arrival
+    comparable with another's departure.
+    """
+    out, bump, prev = [], 0, None
+    for cp in service.calling_points:
+        a = None if cp.arrival is None else cp.arrival.hour * 60 + cp.arrival.minute
+        d = None if cp.departure is None else cp.departure.hour * 60 + cp.departure.minute
+        base = a if a is not None else d
+        if base is None:
+            continue
+        if prev is not None and base + bump < prev:
+            bump += 24 * 60
+        a = None if a is None else a + bump
+        d = None if d is None else d + bump
+        prev = max(x for x in (a, d) if x is not None)
+        out.append((cp.tiploc, a, d))
+    return out
+
+
+def build_terminal_index(services, terminal_tiplocs, calls_cache=None):
+    """Where can I get to the terminal from, and how soon?
+
+    For every tiploc, the services calling there that later reach the terminal,
+    as (departure, arrival at terminal), sorted by departure with a suffix
+    minimum over arrivals. That turns "leave here no earlier than X, when do I
+    arrive" into one binary search rather than a scan.
+    """
+    import bisect  # noqa: F401  (documented dependency of the lookup below)
+    reach = {}
+    terminal_tiplocs = set(terminal_tiplocs)
+    for s in services:
+        if not s.runs_weekdays:
+            continue
+        cs = calls_cache[id(s)] if calls_cache else calling_points_abs(s)
+        arrives_at = None
+        for i in range(len(cs) - 1, -1, -1):
+            tpl, a, d = cs[i]
+            if tpl in terminal_tiplocs and a is not None:
+                arrives_at = a          # a later call at the terminal
+                continue
+            if arrives_at is not None and d is not None:
+                reach.setdefault(tpl, []).append((d, arrives_at))
+    index = {}
+    for tpl, pairs in reach.items():
+        pairs.sort()
+        deps = [p[0] for p in pairs]
+        best, running = [0] * len(pairs), None
+        for i in range(len(pairs) - 1, -1, -1):
+            running = pairs[i][1] if running is None else min(running, pairs[i][1])
+            best[i] = running
+        index[tpl] = (deps, best)
+    return index
+
+
+def earliest_arrival(index, tiploc, not_before):
+    """Soonest arrival at the terminal leaving `tiploc` at or after a time."""
+    import bisect
+    entry = index.get(tiploc)
+    if not entry:
+        return None
+    deps, best = entry
+    i = bisect.bisect_left(deps, not_before)
+    return best[i] if i < len(deps) else None
+
+
+def fastest_one_change(services, origin_tiplocs, terminal_tiplocs, index,
+                       min_connect=MIN_INTERCHANGE_MINS, calls_cache=None):
+    """Quickest origin-to-terminal journey changing exactly once.
+
+    Returns (minutes, interchange_tiploc), or (None, None). The terminal itself
+    is never treated as an interchange: arriving there is the journey ending,
+    not a place to change.
+    """
+    origin_tiplocs = set(origin_tiplocs)
+    terminal_tiplocs = set(terminal_tiplocs)
+    best, best_at = None, None
+    for s in services:
+        if not s.runs_weekdays:
+            continue
+        cs = calls_cache[id(s)] if calls_cache else calling_points_abs(s)
+        for i, (tpl, _a, dep) in enumerate(cs):
+            if tpl not in origin_tiplocs or dep is None:
+                continue
+            for j in range(i + 1, len(cs)):
+                via, arr, _d = cs[j]
+                if via in terminal_tiplocs or arr is None or via in origin_tiplocs:
+                    continue
+                reached = earliest_arrival(index, via, arr + min_connect)
+                if reached is None:
+                    continue
+                total = reached - dep
+                if 0 < total <= 24 * 60 and (best is None or total < best):
+                    best, best_at = total, via
+    return best, best_at

@@ -7,14 +7,14 @@ Stratford connects to 2 London terminals. The fastest route is Liverpool Street 
 - London terminals served: 2 (Liverpool Street, Paddington)
 - Operator: Greater Anglia, Elizabeth line
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Stratford to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Liverpool Street | 6 min | 10 | 28.0 | Greater Anglia, Elizabeth line |
-| Paddington | 19 min | 20 | 11.6 | Great Western Railway, Elizabeth line |
+| Liverpool Street | 6 min | same as fastest | 10 | 28.0 | Greater Anglia, Elizabeth line |
+| Paddington | 19 min | same as fastest | 20 | 11.6 | Great Western Railway, Elizabeth line |
 
 ## Frequently asked questions
 

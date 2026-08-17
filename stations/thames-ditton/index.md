@@ -1,37 +1,37 @@
 # Train times from Thames Ditton to London
 
-Thames Ditton connects to 1 London terminal. The fastest route is Waterloo in 36 minutes on a direct train.
+Thames Ditton connects to 1 London terminal. The fastest route is Waterloo in 29 minutes, with one change.
 
-- Fastest journey to London: 36 minutes to Waterloo
-- Direct service: Yes
+- Fastest journey to London: 29 minutes to Waterloo
+- Direct service: No - one change required
 - London terminals served: 1 (Waterloo)
 - Operator: South Western Railway
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Thames Ditton to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Waterloo | 36 min | 38 | 2.0 | South Western Railway |
+| Waterloo | 29 min (change at Surbiton) | 36 min | 38 | 2.0 | South Western Railway |
 
 ## Frequently asked questions
 
 ### How long does the train from Thames Ditton to London take?
 
-The fastest train from Thames Ditton reaches London Waterloo in 36 minutes. Thames Ditton connects to 1 London terminal: Waterloo.
+The fastest train from Thames Ditton reaches London Waterloo in 29 minutes. Thames Ditton connects to 1 London terminal: Waterloo.
 
 ### Which London station should I travel to from Thames Ditton?
 
-Waterloo is the quickest at 36 minutes, on a direct service. Direct trains run to Waterloo.
+Waterloo is the quickest at 29 minutes, though it requires a change. Direct trains run to none; all routes require a change.
 
 ### Is Thames Ditton a good commuter town for London?
 
-At 36 minutes to London Waterloo, Thames Ditton is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 29 minutes to London Waterloo, Thames Ditton is an excellent commuter base, with a sub-30-minute journey into central London. Most services require one change.
 
 ### Are there direct trains from Thames Ditton to London?
 
-Yes. Direct services run to Waterloo.
+No direct service is recorded from Thames Ditton; all routes into London require one change.
 
 ### What are the nearest stations to Thames Ditton?
 

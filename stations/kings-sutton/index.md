@@ -7,13 +7,13 @@ Kings Sutton connects to 1 London terminal. The fastest route is Marylebone in 7
 - London terminals served: 1 (Marylebone)
 - Operator: Chiltern Railways
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Kings Sutton to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Marylebone | 71 min | 83 | 0.4 | Chiltern Railways |
+| Marylebone | 71 min | same as fastest | 83 | 0.4 | Chiltern Railways |
 
 ## Frequently asked questions
 

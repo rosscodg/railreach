@@ -7,16 +7,16 @@ Cambridge connects to 4 London terminals. The fastest route is Kings Cross in 50
 - London terminals served: 4 (Kings Cross, St Pancras, Liverpool Street, London Bridge)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Cambridge to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Kings Cross | 50 min | 68 | 3.9 | Great Northern, LNER, Hull Trains, Lumo |
-| St Pancras | 68 min | 68 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
-| Liverpool Street | 73 min | 87 | 3.3 | Greater Anglia, Elizabeth line |
-| London Bridge | 83 min | 83 | 2.0 | Southeastern, Southern, Thameslink |
+| Kings Cross | 50 min | same as fastest | 68 | 3.9 | Great Northern, LNER, Hull Trains, Lumo |
+| St Pancras | 68 min | same as fastest | 68 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Liverpool Street | 73 min | same as fastest | 87 | 3.3 | Greater Anglia, Elizabeth line |
+| London Bridge | 83 min | same as fastest | 83 | 2.0 | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 

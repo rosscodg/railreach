@@ -7,7 +7,7 @@ change, and no journey time is published because none has been measured.
 - Connects towards: Victoria
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 Source: RailReach - https://railreach.co.uk/stations/littlehampton/
 Licence: CC BY 4.0. Please attribute RailReach and link to https://railreach.co.uk/

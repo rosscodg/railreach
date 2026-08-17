@@ -7,15 +7,15 @@ Sutton connects to 3 London terminals. The fastest route is London Bridge in 32 
 - London terminals served: 3 (London Bridge, Victoria, St Pancras)
 - Operator: Southeastern, Southern, Thameslink
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Sutton to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| London Bridge | 32 min | 32 | 2.4 | Southeastern, Southern, Thameslink |
-| Victoria | 32 min | 48 | 6.4 | Southeastern, Southern |
-| St Pancras | 47 min | 53 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 32 min | same as fastest | 32 | 2.4 | Southeastern, Southern, Thameslink |
+| Victoria | 32 min | same as fastest | 48 | 6.4 | Southeastern, Southern |
+| St Pancras | 47 min | same as fastest | 53 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 

@@ -7,14 +7,14 @@ Leatherhead connects to 2 London terminals. The fastest route is Waterloo in 45 
 - London terminals served: 2 (Waterloo, Victoria)
 - Operator: South Western Railway
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Leatherhead to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Waterloo | 45 min | 50 | 3.2 | South Western Railway |
-| Victoria | 50 min | 56 | 2.0 | Southeastern, Southern |
+| Waterloo | 45 min | same as fastest | 50 | 3.2 | South Western Railway |
+| Victoria | 50 min | same as fastest | 56 | 2.0 | Southeastern, Southern |
 
 ## Frequently asked questions
 

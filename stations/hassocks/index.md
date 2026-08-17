@@ -7,15 +7,15 @@ Hassocks connects to 3 London terminals. The fastest route is Victoria in 54 min
 - London terminals served: 3 (Victoria, London Bridge, St Pancras)
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Hassocks to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Victoria | 54 min | 54 | 3.6 | Southeastern, Southern |
-| London Bridge | 55 min | 58 | 4.0 | Southeastern, Southern, Thameslink |
-| St Pancras | 70 min | 73 | 3.6 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Victoria | 54 min | same as fastest | 54 | 3.6 | Southeastern, Southern |
+| London Bridge | 55 min | same as fastest | 58 | 4.0 | Southeastern, Southern, Thameslink |
+| St Pancras | 70 min | same as fastest | 73 | 3.6 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 

@@ -7,14 +7,14 @@ Reigate connects to 2 London terminals. The fastest route is Victoria in 45 minu
 - London terminals served: 2 (Victoria, London Bridge)
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Reigate to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Victoria | 45 min | 50 | 2.0 | Southeastern, Southern |
-| London Bridge | change required | - | - | Southeastern, Southern, Thameslink |
+| Victoria | 45 min | same as fastest | 50 | 2.0 | Southeastern, Southern |
+| London Bridge | 46 min (change at Redhill) | no direct service | - | - | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 

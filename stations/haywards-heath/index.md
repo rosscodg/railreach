@@ -7,15 +7,15 @@ Haywards Heath connects to 3 London terminals. The fastest route is Victoria in 
 - London terminals served: 3 (Victoria, London Bridge, St Pancras)
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Haywards Heath to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Victoria | 43 min | 47 | 4.8 | Southeastern, Southern |
-| London Bridge | 44 min | 46 | 4.4 | Southeastern, Southern, Thameslink |
-| St Pancras | 59 min | 61 | 4.4 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Victoria | 43 min | same as fastest | 47 | 4.8 | Southeastern, Southern |
+| London Bridge | 44 min | same as fastest | 46 | 4.4 | Southeastern, Southern, Thameslink |
+| St Pancras | 59 min | same as fastest | 61 | 4.4 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 

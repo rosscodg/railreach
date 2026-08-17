@@ -7,14 +7,14 @@ Shenfield connects to 2 London terminals. The fastest route is Liverpool Street 
 - London terminals served: 2 (Liverpool Street, Paddington)
 - Operator: Greater Anglia, Elizabeth line
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Shenfield to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Liverpool Street | 23 min | 36 | 22.4 | Greater Anglia, Elizabeth line |
-| Paddington | 54 min | 56 | 11.2 | Great Western Railway, Elizabeth line |
+| Liverpool Street | 23 min | same as fastest | 36 | 22.4 | Greater Anglia, Elizabeth line |
+| Paddington | 42 min (change at Stratford (London)) | 54 min | 56 | 11.2 | Great Western Railway, Elizabeth line |
 
 ## Frequently asked questions
 
@@ -24,7 +24,7 @@ The fastest train from Shenfield reaches London Liverpool Street in 23 minutes. 
 
 ### Which London station should I travel to from Shenfield?
 
-Liverpool Street is the quickest at 23 minutes, on a direct service. Direct trains run to Liverpool Street, Paddington.
+Liverpool Street is the quickest at 23 minutes, on a direct service. Direct trains run to Liverpool Street.
 
 ### Is Shenfield a good commuter town for London?
 
@@ -32,7 +32,7 @@ At 23 minutes to London Liverpool Street, Shenfield is an excellent commuter bas
 
 ### Are there direct trains from Shenfield to London?
 
-Yes. Direct services run to Liverpool Street, Paddington.
+Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Shenfield?
 

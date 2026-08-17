@@ -7,13 +7,13 @@ Byfleet & New Haw connects to 1 London terminal. The fastest route is Waterloo i
 - London terminals served: 1 (Waterloo)
 - Operator: South Western Railway
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Byfleet & New Haw to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Waterloo | 38 min | 40 | 2.4 | South Western Railway |
+| Waterloo | 38 min | same as fastest | 40 | 2.4 | South Western Railway |
 
 ## Frequently asked questions
 

@@ -7,15 +7,15 @@ Three Bridges connects to 3 London terminals. The fastest route is London Bridge
 - London terminals served: 3 (London Bridge, Victoria, St Pancras)
 - Operator: Southeastern, Southern, Thameslink
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Three Bridges to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| London Bridge | 34 min | 42 | 8.0 | Southeastern, Southern, Thameslink |
-| Victoria | 36 min | 38 | 2.4 | Southeastern, Southern |
-| St Pancras | 49 min | 50 | 7.2 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 34 min | same as fastest | 42 | 8.0 | Southeastern, Southern, Thameslink |
+| Victoria | 36 min | same as fastest | 38 | 2.4 | Southeastern, Southern |
+| St Pancras | 49 min | same as fastest | 50 | 7.2 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 

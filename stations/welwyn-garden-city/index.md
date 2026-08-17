@@ -7,16 +7,16 @@ Welwyn Garden City connects to 4 London terminals. The fastest route is St Pancr
 - London terminals served: 4 (St Pancras, Kings Cross, London Bridge, Moorgate)
 - Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Welwyn Garden City to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| St Pancras | 22 min | 37 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
-| Kings Cross | 29 min | 32 | 2.0 | Great Northern, LNER, Hull Trains, Lumo |
-| London Bridge | 37 min | - | - | Southeastern, Southern, Thameslink |
-| Moorgate | 47 min | 52 | 4.0 | Great Northern |
+| St Pancras | 22 min | same as fastest | 37 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Kings Cross | 29 min | same as fastest | 32 | 2.0 | Great Northern, LNER, Hull Trains, Lumo |
+| London Bridge | 37 min | same as fastest | - | - | Southeastern, Southern, Thameslink |
+| Moorgate | 39 min (change at Finsbury Park) | 47 min | 52 | 4.0 | Great Northern |
 
 ## Frequently asked questions
 
@@ -26,7 +26,7 @@ The fastest train from Welwyn Garden City reaches London St Pancras in 22 minute
 
 ### Which London station should I travel to from Welwyn Garden City?
 
-St Pancras is the quickest at 22 minutes, on a direct service. Direct trains run to St Pancras, Kings Cross, London Bridge, Moorgate.
+St Pancras is the quickest at 22 minutes, on a direct service. Direct trains run to St Pancras, Kings Cross, London Bridge.
 
 ### Is Welwyn Garden City a good commuter town for London?
 
@@ -34,7 +34,7 @@ At 22 minutes to London St Pancras, Welwyn Garden City is an excellent commuter 
 
 ### Are there direct trains from Welwyn Garden City to London?
 
-Yes. Direct services run to St Pancras, Kings Cross, London Bridge, Moorgate.
+Yes. Direct services run to St Pancras, Kings Cross, London Bridge.
 
 ### What are the nearest stations to Welwyn Garden City?
 

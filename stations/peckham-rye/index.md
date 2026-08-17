@@ -7,15 +7,15 @@ Peckham Rye connects to 3 London terminals. The fastest route is London Bridge i
 - London terminals served: 3 (London Bridge, Victoria, St Pancras)
 - Operator: Southeastern, Southern, Thameslink
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Peckham Rye to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| London Bridge | 9 min | 10 | 4.4 | Southeastern, Southern, Thameslink |
-| Victoria | 13 min | 13 | 2.0 | Southeastern, Southern |
-| St Pancras | 23 min | 24 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 9 min | same as fastest | 10 | 4.4 | Southeastern, Southern, Thameslink |
+| Victoria | 13 min | same as fastest | 13 | 2.0 | Southeastern, Southern |
+| St Pancras | 23 min | same as fastest | 24 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 

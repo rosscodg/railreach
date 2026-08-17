@@ -7,14 +7,14 @@ Bat & Ball connects to 2 London terminals. The fastest route is Victoria in 49 m
 - London terminals served: 2 (Victoria, St Pancras)
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Bat & Ball to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Victoria | 49 min | - | - | Southeastern, Southern |
-| St Pancras | 73 min | 73 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Victoria | 49 min | same as fastest | - | - | Southeastern, Southern |
+| St Pancras | 73 min | same as fastest | 73 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 

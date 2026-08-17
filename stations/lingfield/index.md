@@ -7,15 +7,15 @@ Lingfield connects to 3 London terminals. The fastest route is London Bridge in 
 - London terminals served: 3 (London Bridge, Victoria, St Pancras)
 - Operator: Southeastern, Southern, Thameslink
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Lingfield to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| London Bridge | 44 min | 48 | 1.2 | Southeastern, Southern, Thameslink |
-| Victoria | 49 min | 49 | 2.0 | Southeastern, Southern |
-| St Pancras | 60 min | 64 | 1.2 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 44 min | same as fastest | 48 | 1.2 | Southeastern, Southern, Thameslink |
+| Victoria | 49 min | same as fastest | 49 | 2.0 | Southeastern, Southern |
+| St Pancras | 60 min | same as fastest | 64 | 1.2 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 

@@ -7,15 +7,15 @@ Hitchin connects to 3 London terminals. The fastest route is Kings Cross in 28 m
 - London terminals served: 3 (Kings Cross, St Pancras, London Bridge)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Hitchin to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Kings Cross | 28 min | 40 | 4.0 | Great Northern, LNER, Hull Trains, Lumo |
-| St Pancras | 33 min | 34 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
-| London Bridge | 48 min | 50 | 4.0 | Southeastern, Southern, Thameslink |
+| Kings Cross | 28 min | same as fastest | 40 | 4.0 | Great Northern, LNER, Hull Trains, Lumo |
+| St Pancras | 33 min | same as fastest | 34 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 48 min | same as fastest | 50 | 4.0 | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 

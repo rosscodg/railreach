@@ -7,15 +7,15 @@ Gillingham connects to 3 London terminals. The fastest route is St Pancras in 43
 - London terminals served: 3 (St Pancras, London Bridge, Victoria)
 - Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Gillingham to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| St Pancras | 43 min | 72 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
-| London Bridge | 44 min | 65 | 4.8 | Southeastern, Southern, Thameslink |
-| Victoria | 48 min | 68 | 4.0 | Southeastern, Southern |
+| St Pancras | 43 min | same as fastest | 72 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 44 min | same as fastest | 65 | 4.8 | Southeastern, Southern, Thameslink |
+| Victoria | 48 min | same as fastest | 68 | 4.0 | Southeastern, Southern |
 
 ## Frequently asked questions
 

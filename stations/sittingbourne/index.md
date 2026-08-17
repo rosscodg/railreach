@@ -7,15 +7,15 @@ Sittingbourne connects to 3 London terminals. The fastest route is St Pancras in
 - London terminals served: 3 (St Pancras, London Bridge, Victoria)
 - Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Sittingbourne to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| St Pancras | 58 min | 59 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
-| London Bridge | 63 min | 63 | 2.0 | Southeastern, Southern, Thameslink |
-| Victoria | 64 min | 69 | 2.0 | Southeastern, Southern |
+| St Pancras | 58 min | same as fastest | 59 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 63 min | same as fastest | 63 | 2.0 | Southeastern, Southern, Thameslink |
+| Victoria | 64 min | same as fastest | 69 | 2.0 | Southeastern, Southern |
 
 ## Frequently asked questions
 

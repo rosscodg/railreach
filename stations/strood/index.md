@@ -7,14 +7,14 @@ Strood connects to 2 London terminals. The fastest route is St Pancras in 32 min
 - London terminals served: 2 (St Pancras, London Bridge)
 - Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Strood to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| St Pancras | 32 min | 36 | 4.8 | Thameslink, East Midlands Railway, Southeastern high speed |
-| London Bridge | 69 min | 69 | 2.4 | Southeastern, Southern, Thameslink |
+| St Pancras | 32 min | same as fastest | 36 | 4.8 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 56 min (change at Rochester) | 69 min | 69 | 2.4 | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 
@@ -24,7 +24,7 @@ The fastest train from Strood reaches London St Pancras in 32 minutes. Strood co
 
 ### Which London station should I travel to from Strood?
 
-St Pancras is the quickest at 32 minutes, on a direct service. Direct trains run to St Pancras, London Bridge.
+St Pancras is the quickest at 32 minutes, on a direct service. Direct trains run to St Pancras.
 
 ### Is Strood a good commuter town for London?
 
@@ -32,7 +32,7 @@ At 32 minutes to London St Pancras, Strood is a practical commuter choice, with 
 
 ### Are there direct trains from Strood to London?
 
-Yes. Direct services run to St Pancras, London Bridge.
+Yes. Direct services run to St Pancras.
 
 ### What are the nearest stations to Strood?
 

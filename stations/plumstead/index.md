@@ -7,14 +7,14 @@ Plumstead connects to 2 London terminals. The fastest route is London Bridge in 
 - London terminals served: 2 (London Bridge, St Pancras)
 - Operator: Southeastern, Southern, Thameslink
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Plumstead to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| London Bridge | 24 min | 27 | 9.6 | Southeastern, Southern, Thameslink |
-| St Pancras | 42 min | 42 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 24 min | same as fastest | 27 | 9.6 | Southeastern, Southern, Thameslink |
+| St Pancras | 42 min | same as fastest | 42 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 

@@ -7,13 +7,13 @@ Cricklewood connects to 1 London terminal. The fastest route is St Pancras in 13
 - London terminals served: 1 (St Pancras)
 - Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Cricklewood to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| St Pancras | 13 min | 13 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| St Pancras | 13 min | same as fastest | 13 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 

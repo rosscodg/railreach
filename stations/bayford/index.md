@@ -7,14 +7,14 @@ Bayford connects to 2 London terminals. The fastest route is Moorgate in 46 minu
 - London terminals served: 2 (Moorgate, Kings Cross)
 - Operator: Great Northern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Bayford to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Moorgate | 46 min | 48 | 4.8 | Great Northern |
-| Kings Cross | change required | - | - | Great Northern, LNER, Hull Trains, Lumo |
+| Moorgate | 46 min | same as fastest | 48 | 4.8 | Great Northern |
+| Kings Cross | 46 min (change at Stevenage) | no direct service | - | - | Great Northern, LNER, Hull Trains, Lumo |
 
 ## Frequently asked questions
 

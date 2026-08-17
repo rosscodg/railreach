@@ -7,13 +7,13 @@ Worthing connects to 1 London terminal. The fastest route is Victoria in 85 minu
 - London terminals served: 1 (Victoria)
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Worthing to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Victoria | 85 min | 86 | 1.6 | Southeastern, Southern |
+| Victoria | 85 min | same as fastest | 86 | 1.6 | Southeastern, Southern |
 
 ## Frequently asked questions
 

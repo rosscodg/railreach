@@ -7,14 +7,14 @@ Elstree & Borehamwood connects to 2 London terminals. The fastest route is St Pa
 - London terminals served: 2 (St Pancras, London Bridge)
 - Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Elstree & Borehamwood to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| St Pancras | 23 min | 26 | 6.4 | Thameslink, East Midlands Railway, Southeastern high speed |
-| London Bridge | 38 min | 38 | 0.4 | Southeastern, Southern, Thameslink |
+| St Pancras | 23 min | same as fastest | 26 | 6.4 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 38 min | same as fastest | 38 | 0.4 | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 

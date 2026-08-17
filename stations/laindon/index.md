@@ -7,13 +7,13 @@ Laindon connects to 1 London terminal. The fastest route is Fenchurch Street in 
 - London terminals served: 1 (Fenchurch Street)
 - Operator: c2c
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Laindon to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Fenchurch Street | 29 min | 34 | 6.4 | c2c |
+| Fenchurch Street | 29 min | same as fastest | 34 | 6.4 | c2c |
 
 ## Frequently asked questions
 

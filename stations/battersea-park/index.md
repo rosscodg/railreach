@@ -7,14 +7,14 @@ Battersea Park connects to 2 London terminals. The fastest route is Victoria in 
 - London terminals served: 2 (Victoria, London Bridge)
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Battersea Park to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Victoria | 4 min | 4 | 8.8 | Southeastern, Southern |
-| London Bridge | 49 min | 54 | 1.6 | Southeastern, Southern, Thameslink |
+| Victoria | 4 min | same as fastest | 4 | 8.8 | Southeastern, Southern |
+| London Bridge | 33 min (change at Peckham Rye) | 49 min | 54 | 1.6 | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 
@@ -24,7 +24,7 @@ The fastest train from Battersea Park reaches London Victoria in 4 minutes. Batt
 
 ### Which London station should I travel to from Battersea Park?
 
-Victoria is the quickest at 4 minutes, on a direct service. Direct trains run to Victoria, London Bridge.
+Victoria is the quickest at 4 minutes, on a direct service. Direct trains run to Victoria.
 
 ### Is Battersea Park a good commuter town for London?
 
@@ -32,7 +32,7 @@ At 4 minutes to London Victoria, Battersea Park is an excellent commuter base, w
 
 ### Are there direct trains from Battersea Park to London?
 
-Yes. Direct services run to Victoria, London Bridge.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Battersea Park?
 

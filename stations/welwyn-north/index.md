@@ -7,13 +7,13 @@ Welwyn North connects to 1 London terminal. The fastest route is Kings Cross in 
 - London terminals served: 1 (Kings Cross)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Welwyn North to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Kings Cross | 19 min | 28 | 4.0 | Great Northern, LNER, Hull Trains, Lumo |
+| Kings Cross | 19 min | same as fastest | 28 | 4.0 | Great Northern, LNER, Hull Trains, Lumo |
 
 ## Frequently asked questions
 

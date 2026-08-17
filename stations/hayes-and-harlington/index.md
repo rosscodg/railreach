@@ -7,14 +7,14 @@ Hayes & Harlington connects to 2 London terminals. The fastest route is Paddingt
 - London terminals served: 2 (Paddington, Liverpool Street)
 - Operator: Great Western Railway, Elizabeth line
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Hayes & Harlington to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Paddington | 16 min | 21 | 10.0 | Great Western Railway, Elizabeth line |
-| Liverpool Street | 28 min | 32 | 10.0 | Greater Anglia, Elizabeth line |
+| Paddington | 16 min | same as fastest | 21 | 10.0 | Great Western Railway, Elizabeth line |
+| Liverpool Street | 28 min | same as fastest | 32 | 10.0 | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 

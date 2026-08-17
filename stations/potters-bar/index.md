@@ -7,15 +7,15 @@ Potters Bar connects to 3 London terminals. The fastest route is Kings Cross in 
 - London terminals served: 3 (Kings Cross, St Pancras, Moorgate)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Potters Bar to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Kings Cross | 20 min | 23 | 2.0 | Great Northern, LNER, Hull Trains, Lumo |
-| St Pancras | 24 min | 25 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
-| Moorgate | 33 min | 38 | 4.0 | Great Northern |
+| Kings Cross | 20 min | same as fastest | 23 | 2.0 | Great Northern, LNER, Hull Trains, Lumo |
+| St Pancras | 24 min | same as fastest | 25 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Moorgate | 33 min | same as fastest | 38 | 4.0 | Great Northern |
 
 ## Frequently asked questions
 

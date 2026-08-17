@@ -7,16 +7,16 @@ Abbey Wood connects to 4 London terminals. The fastest route is Liverpool Street
 - London terminals served: 4 (Liverpool Street, London Bridge, Paddington, St Pancras)
 - Operator: Greater Anglia, Elizabeth line
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Abbey Wood to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Liverpool Street | 18 min | 18 | 11.6 | Greater Anglia, Elizabeth line |
-| London Bridge | 27 min | 30 | 9.6 | Southeastern, Southern, Thameslink |
-| Paddington | 28 min | 30 | 11.6 | Great Western Railway, Elizabeth line |
-| St Pancras | 45 min | 45 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Liverpool Street | 18 min | same as fastest | 18 | 11.6 | Greater Anglia, Elizabeth line |
+| London Bridge | 27 min | same as fastest | 30 | 9.6 | Southeastern, Southern, Thameslink |
+| Paddington | 28 min | same as fastest | 30 | 11.6 | Great Western Railway, Elizabeth line |
+| St Pancras | 45 min | same as fastest | 45 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 

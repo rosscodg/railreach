@@ -7,15 +7,15 @@ Knebworth connects to 3 London terminals. The fastest route is St Pancras in 25 
 - London terminals served: 3 (St Pancras, Kings Cross, London Bridge)
 - Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Knebworth to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| St Pancras | 25 min | 25 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
-| Kings Cross | 38 min | 41 | 2.0 | Great Northern, LNER, Hull Trains, Lumo |
-| London Bridge | 40 min | 40 | 2.0 | Southeastern, Southern, Thameslink |
+| St Pancras | 25 min | same as fastest | 25 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Kings Cross | 33 min (change at Finsbury Park) | 38 min | 41 | 2.0 | Great Northern, LNER, Hull Trains, Lumo |
+| London Bridge | 40 min | same as fastest | 40 | 2.0 | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 
@@ -25,7 +25,7 @@ The fastest train from Knebworth reaches London St Pancras in 25 minutes. Knebwo
 
 ### Which London station should I travel to from Knebworth?
 
-St Pancras is the quickest at 25 minutes, on a direct service. Direct trains run to St Pancras, Kings Cross, London Bridge.
+St Pancras is the quickest at 25 minutes, on a direct service. Direct trains run to St Pancras, London Bridge.
 
 ### Is Knebworth a good commuter town for London?
 
@@ -33,7 +33,7 @@ At 25 minutes to London St Pancras, Knebworth is an excellent commuter base, wit
 
 ### Are there direct trains from Knebworth to London?
 
-Yes. Direct services run to St Pancras, Kings Cross, London Bridge.
+Yes. Direct services run to St Pancras, London Bridge.
 
 ### What are the nearest stations to Knebworth?
 

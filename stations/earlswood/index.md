@@ -7,14 +7,14 @@ Earlswood connects to 2 London terminals. The fastest route is London Bridge in 
 - London terminals served: 2 (London Bridge, St Pancras)
 - Operator: Southeastern, Southern, Thameslink
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Earlswood to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| London Bridge | 31 min | 38 | 1.6 | Southeastern, Southern, Thameslink |
-| St Pancras | 46 min | 52 | 1.6 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 31 min | same as fastest | 38 | 1.6 | Southeastern, Southern, Thameslink |
+| St Pancras | 46 min | same as fastest | 52 | 1.6 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 

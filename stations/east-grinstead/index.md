@@ -7,15 +7,15 @@ East Grinstead connects to 3 London terminals. The fastest route is London Bridg
 - London terminals served: 3 (London Bridge, Victoria, St Pancras)
 - Operator: Southeastern, Southern, Thameslink
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## East Grinstead to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| London Bridge | 51 min | 55 | 1.2 | Southeastern, Southern, Thameslink |
-| Victoria | 56 min | 56 | 2.0 | Southeastern, Southern |
-| St Pancras | 67 min | 71 | 1.2 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 51 min | same as fastest | 55 | 1.2 | Southeastern, Southern, Thameslink |
+| Victoria | 56 min | same as fastest | 56 | 2.0 | Southeastern, Southern |
+| St Pancras | 67 min | same as fastest | 71 | 1.2 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 

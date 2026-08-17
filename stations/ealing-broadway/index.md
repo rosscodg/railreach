@@ -7,14 +7,14 @@ Ealing Broadway connects to 2 London terminals. The fastest route is Paddington 
 - London terminals served: 2 (Paddington, Liverpool Street)
 - Operator: Great Western Railway, Elizabeth line
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Ealing Broadway to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Paddington | 8 min | 11 | 12.0 | Great Western Railway, Elizabeth line |
-| Liverpool Street | 20 min | 22 | 12.0 | Greater Anglia, Elizabeth line |
+| Paddington | 8 min | same as fastest | 11 | 12.0 | Great Western Railway, Elizabeth line |
+| Liverpool Street | 20 min | same as fastest | 22 | 12.0 | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 

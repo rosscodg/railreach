@@ -7,13 +7,13 @@ Grove Park connects to 1 London terminal. The fastest route is London Bridge in 
 - London terminals served: 1 (London Bridge)
 - Operator: Southeastern, Southern, Thameslink
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Grove Park to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| London Bridge | 13 min | 19 | 4.0 | Southeastern, Southern, Thameslink |
+| London Bridge | 13 min | same as fastest | 19 | 4.0 | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 

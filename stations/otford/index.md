@@ -7,14 +7,14 @@ Otford connects to 2 London terminals. The fastest route is Victoria in 39 minut
 - London terminals served: 2 (Victoria, St Pancras)
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Otford to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Victoria | 39 min | 44 | 4.0 | Southeastern, Southern |
-| St Pancras | 69 min | 69 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Victoria | 39 min | same as fastest | 44 | 4.0 | Southeastern, Southern |
+| St Pancras | 65 min (change at London Blackfriars) | 69 min | 69 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 
@@ -24,7 +24,7 @@ The fastest train from Otford reaches London Victoria in 39 minutes. Otford conn
 
 ### Which London station should I travel to from Otford?
 
-Victoria is the quickest at 39 minutes, on a direct service. Direct trains run to Victoria, St Pancras.
+Victoria is the quickest at 39 minutes, on a direct service. Direct trains run to Victoria.
 
 ### Is Otford a good commuter town for London?
 
@@ -32,7 +32,7 @@ At 39 minutes to London Victoria, Otford is a practical commuter choice, with th
 
 ### Are there direct trains from Otford to London?
 
-Yes. Direct services run to Victoria, St Pancras.
+Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Otford?
 

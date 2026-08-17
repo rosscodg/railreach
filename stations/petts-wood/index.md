@@ -7,15 +7,15 @@ Petts Wood connects to 3 London terminals. The fastest route is London Bridge in
 - London terminals served: 3 (London Bridge, Victoria, St Pancras)
 - Operator: Southeastern, Southern, Thameslink
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Petts Wood to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| London Bridge | 23 min | 29 | 4.0 | Southeastern, Southern, Thameslink |
-| Victoria | 39 min | 40 | 2.0 | Southeastern, Southern |
-| St Pancras | 55 min | 55 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 23 min | same as fastest | 29 | 4.0 | Southeastern, Southern, Thameslink |
+| Victoria | 35 min (change at Orpington) | 39 min | 40 | 2.0 | Southeastern, Southern |
+| St Pancras | 47 min (change at London Bridge) | 55 min | 55 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 
@@ -25,7 +25,7 @@ The fastest train from Petts Wood reaches London London Bridge in 23 minutes. Pe
 
 ### Which London station should I travel to from Petts Wood?
 
-London Bridge is the quickest at 23 minutes, on a direct service. Direct trains run to London Bridge, Victoria, St Pancras.
+London Bridge is the quickest at 23 minutes, on a direct service. Direct trains run to London Bridge.
 
 ### Is Petts Wood a good commuter town for London?
 
@@ -33,7 +33,7 @@ At 23 minutes to London London Bridge, Petts Wood is an excellent commuter base,
 
 ### Are there direct trains from Petts Wood to London?
 
-Yes. Direct services run to London Bridge, Victoria, St Pancras.
+Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Petts Wood?
 

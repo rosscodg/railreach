@@ -7,13 +7,13 @@ West Horndon connects to 1 London terminal. The fastest route is Fenchurch Stree
 - London terminals served: 1 (Fenchurch Street)
 - Operator: c2c
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## West Horndon to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Fenchurch Street | 27 min | 30 | 3.6 | c2c |
+| Fenchurch Street | 27 min | same as fastest | 30 | 3.6 | c2c |
 
 ## Frequently asked questions
 

@@ -7,13 +7,13 @@ Tilbury Town connects to 1 London terminal. The fastest route is Fenchurch Stree
 - London terminals served: 1 (Fenchurch Street)
 - Operator: c2c
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Tilbury Town to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Fenchurch Street | 38 min | 42 | 3.2 | c2c |
+| Fenchurch Street | 38 min | same as fastest | 42 | 3.2 | c2c |
 
 ## Frequently asked questions
 

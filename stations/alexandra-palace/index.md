@@ -7,14 +7,14 @@ Alexandra Palace connects to 2 London terminals. The fastest route is Kings Cros
 - London terminals served: 2 (Kings Cross, Moorgate)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Alexandra Palace to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Kings Cross | 11 min | 12 | 2.0 | Great Northern, LNER, Hull Trains, Lumo |
-| Moorgate | 19 min | 22 | 8.8 | Great Northern |
+| Kings Cross | 11 min | same as fastest | 12 | 2.0 | Great Northern, LNER, Hull Trains, Lumo |
+| Moorgate | 19 min | same as fastest | 22 | 8.8 | Great Northern |
 
 ## Frequently asked questions
 

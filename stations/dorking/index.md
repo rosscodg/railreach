@@ -7,14 +7,14 @@ Dorking connects to 2 London terminals. The fastest route is Waterloo in 53 minu
 - London terminals served: 2 (Waterloo, Victoria)
 - Operator: South Western Railway
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Dorking to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Waterloo | 53 min | 57 | 2.0 | South Western Railway |
-| Victoria | 57 min | 64 | 2.0 | Southeastern, Southern |
+| Waterloo | 53 min | same as fastest | 57 | 2.0 | South Western Railway |
+| Victoria | 57 min | same as fastest | 64 | 2.0 | Southeastern, Southern |
 
 ## Frequently asked questions
 

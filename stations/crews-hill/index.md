@@ -7,14 +7,14 @@ Crews Hill connects to 2 London terminals. The fastest route is Moorgate in 39 m
 - London terminals served: 2 (Moorgate, Kings Cross)
 - Operator: Great Northern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Crews Hill to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Moorgate | 39 min | 41 | 4.8 | Great Northern |
-| Kings Cross | change required | - | - | Great Northern, LNER, Hull Trains, Lumo |
+| Moorgate | 39 min | same as fastest | 41 | 4.8 | Great Northern |
+| Kings Cross | 40 min (change at Alexandra Palace) | no direct service | - | - | Great Northern, LNER, Hull Trains, Lumo |
 
 ## Frequently asked questions
 

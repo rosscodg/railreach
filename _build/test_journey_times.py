@@ -122,6 +122,63 @@ def main():
     ok &= check('no services yields nulls, not zeros', m3['fastest_mins'], None)
     ok &= check('...and is not reported as a direct journey', m3['direct'], False)
 
+    # --- journeys with one change ------------------------------------------
+    from journey_times import (build_terminal_index, fastest_one_change,
+                               calling_points_abs, earliest_arrival)
+
+    # Tilehurst's real shape: a slow direct, and a fast connection at Reading.
+    net = [
+        svc('D1', [('TILHRST', None, '12:31'), ('PADTON', '13:12', None)]),   # direct, 41
+        svc('L1', [('TILHRST', None, '12:31'), ('RDNGSTN', '12:38', None)]),  # feeder, 7
+        svc('F1', [('RDNGSTN', None, '12:46'), ('PADTON', '13:09', None)]),   # fast, 23
+    ]
+    idx = build_terminal_index(net, PAD)
+    m, at = fastest_one_change(net, {'TILHRST'}, PAD, idx, min_connect=8)
+    ok &= check('one change beats a slow direct (12:31 -> 13:09)', m, 38)
+    ok &= check('...and reports where the change happens', at, 'RDNGSTN')
+    ok &= check('the direct service is still measured on its own',
+                measure(net, {'TILHRST'}, PAD)['fastest_mins'], 41)
+
+    # The interchange allowance is a real constraint, not decoration.
+    m2, _ = fastest_one_change(net, {'TILHRST'}, PAD, idx, min_connect=9)
+    ok &= check('a connection tighter than the allowance is not offered', m2, None)
+
+    # A pair with no direct service at all still yields a time.
+    nodirect = [
+        svc('A1', [('WELHAMG', None, '08:00'), ('FNPK', '08:20', None)]),
+        svc('B1', [('FNPK', None, '08:30'), ('PADTON', '08:55', None)]),
+    ]
+    idx2 = build_terminal_index(nodirect, PAD)
+    m3, at3 = fastest_one_change(nodirect, {'WELHAMG'}, PAD, idx2, min_connect=8)
+    ok &= check('a station with no direct service still gets a time', m3, 55)
+    ok &= check('...via the right interchange', at3, 'FNPK')
+    ok &= check('...and has no direct time to report',
+                measure(nodirect, {'WELHAMG'}, PAD)['fastest_mins'], None)
+
+    # The terminal is a destination, not an interchange.
+    silly = [
+        svc('C1', [('TILHRST', None, '09:00'), ('PADTON', '09:40', None)]),
+        svc('C2', [('PADTON', None, '09:50'), ('PADTON', '09:55', None)]),
+    ]
+    idx3 = build_terminal_index(silly, PAD)
+    m4, _ = fastest_one_change(silly, {'TILHRST'}, PAD, idx3, min_connect=8)
+    ok &= check('changing at the terminal itself is not a journey', m4, None)
+
+    # Crossing midnight must not produce a negative or absurd connection.
+    late = [
+        svc('N1', [('TILHRST', None, '23:40'), ('RDNGSTN', '23:50', None)]),
+        svc('N2', [('RDNGSTN', None, '00:05'), ('PADTON', '00:35', None)]),
+    ]
+    idx4 = build_terminal_index(late, PAD)
+    m5, _ = fastest_one_change(late, {'TILHRST'}, PAD, idx4, min_connect=8)
+    ok &= check('a connection over midnight is not offered as negative',
+                m5 is None or m5 > 0, True)
+
+    # Absolute times stay monotonic across midnight.
+    cs = calling_points_abs(late[0])
+    ok &= check('calling points are monotonic in absolute minutes',
+                [c[1] or c[2] for c in cs], [23*60+40, 23*60+50])
+
     print('\nALL TESTS PASSED' if ok else '\nFAILURES ABOVE')
     return 0 if ok else 1
 

@@ -7,15 +7,15 @@ Biggleswade connects to 3 London terminals. The fastest route is Kings Cross in 
 - London terminals served: 3 (Kings Cross, St Pancras, London Bridge)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Biggleswade to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Kings Cross | 30 min | 35 | 1.5 | Great Northern, LNER, Hull Trains, Lumo |
-| St Pancras | 44 min | 46 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
-| London Bridge | 59 min | 61 | 2.0 | Southeastern, Southern, Thameslink |
+| Kings Cross | 30 min | same as fastest | 35 | 1.5 | Great Northern, LNER, Hull Trains, Lumo |
+| St Pancras | 44 min | same as fastest | 46 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 59 min | same as fastest | 61 | 2.0 | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 

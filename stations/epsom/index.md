@@ -7,15 +7,15 @@ Epsom connects to 3 London terminals. The fastest route is Waterloo in 36 minute
 - London terminals served: 3 (Waterloo, Victoria, London Bridge)
 - Operator: South Western Railway
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Epsom to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Waterloo | 36 min | 41 | 3.2 | South Western Railway |
-| Victoria | 41 min | 44 | 2.4 | Southeastern, Southern |
-| London Bridge | 42 min | 43 | 2.0 | Southeastern, Southern, Thameslink |
+| Waterloo | 36 min | same as fastest | 41 | 3.2 | South Western Railway |
+| Victoria | 41 min | same as fastest | 44 | 2.4 | Southeastern, Southern |
+| London Bridge | 42 min | same as fastest | 43 | 2.0 | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 

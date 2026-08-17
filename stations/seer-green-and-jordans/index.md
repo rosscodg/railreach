@@ -7,13 +7,13 @@ Seer Green & Jordans connects to 1 London terminal. The fastest route is Maryleb
 - London terminals served: 1 (Marylebone)
 - Operator: Chiltern Railways
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Seer Green & Jordans to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Marylebone | 24 min | 33 | 1.6 | Chiltern Railways |
+| Marylebone | 24 min | same as fastest | 33 | 1.6 | Chiltern Railways |
 
 ## Frequently asked questions
 

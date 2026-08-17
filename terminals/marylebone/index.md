@@ -1,41 +1,41 @@
 # Train journey times to London Marylebone
 
-21 stations reach London Marylebone within 90 minutes, 21 of them on a
+21 stations reach London Marylebone within 90 minutes, 19 of them on a
 direct train. Services are operated by Chiltern Railways.
 
 - Stations within 90 minutes: 21
-- Direct services: 21 of 21
+- Direct services: 19 of 21
 - Stations under 30 minutes: 6
 - Fastest station: Denham - 19 minutes
 - Operators: Chiltern Railways
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Every station to Marylebone
 
-| Station | Fastest | Typical peak | Peak trains/hr |
+| Station | Fastest | Fastest direct | Typical peak | Peak trains/hr |
 | --- | --- | --- | --- |
-| Denham | 19 min | 22 | 1.6 |
-| Gerrards Cross | 19 min | 28 | 4.0 |
-| Denham Golf Club | 22 min | 24 | 0.8 |
-| Seer Green & Jordans | 24 min | 33 | 1.6 |
-| Beaconsfield | 25 min | 32 | 3.6 |
-| High Wycombe | 25 min | 39 | 5.2 |
-| Saunderton | 35 min | 46 | 1.6 |
-| Great Missenden | 39 min | 46 | 3.2 |
-| Haddenham & Thame Parkway | 39 min | 52 | 2.8 |
-| Princes Risborough | 39 min | 49 | 2.0 |
-| Bicester North | 48 min | 52 | 2.4 |
-| Stoke Mandeville | 50 min | 56 | 3.2 |
-| Aylesbury | 55 min | 61 | 3.2 |
-| Aylesbury Vale Parkway | 60 min | 67 | 2.0 |
-| Banbury | 62 min | 65 | 2.0 |
-| Monks Risborough | 65 min | - | - |
-| Little Kimble | 69 min | - | - |
-| Kings Sutton | 71 min | 83 | 0.4 |
-| Oxford | 74 min | 87 | 2.0 |
-| Leamington Spa | 82 min | 83 | 2.0 |
-| Warwick | 88 min | 89 | 2.0 |
+| Denham | 19 min | same as fastest | 22 | 1.6 |
+| Gerrards Cross | 19 min | same as fastest | 28 | 4.0 |
+| Denham Golf Club | 22 min | same as fastest | 24 | 0.8 |
+| Seer Green & Jordans | 24 min | same as fastest | 33 | 1.6 |
+| Beaconsfield | 25 min | same as fastest | 32 | 3.6 |
+| High Wycombe | 25 min | same as fastest | 39 | 5.2 |
+| Saunderton | 35 min | same as fastest | 46 | 1.6 |
+| Great Missenden | 39 min | same as fastest | 46 | 3.2 |
+| Haddenham & Thame Parkway | 39 min | same as fastest | 52 | 2.8 |
+| Princes Risborough | 39 min | same as fastest | 49 | 2.0 |
+| Bicester North | 48 min | same as fastest | 52 | 2.4 |
+| Stoke Mandeville | 50 min | same as fastest | 56 | 3.2 |
+| Monks Risborough | 54 min (change at Princes Risborough) | 65 min | - | - |
+| Aylesbury | 55 min | same as fastest | 61 | 3.2 |
+| Little Kimble | 58 min (change at Princes Risborough) | 69 min | - | - |
+| Aylesbury Vale Parkway | 60 min | same as fastest | 67 | 2.0 |
+| Banbury | 62 min | same as fastest | 65 | 2.0 |
+| Kings Sutton | 71 min | same as fastest | 83 | 0.4 |
+| Oxford | 74 min | same as fastest | 87 | 2.0 |
+| Leamington Spa | 82 min | same as fastest | 83 | 2.0 |
+| Warwick | 88 min | same as fastest | 89 | 2.0 |
 
 ## Frequently asked questions
 
@@ -49,7 +49,7 @@ The fastest connection is from Denham, at 19 minutes on a direct service. Servic
 
 ### How many stations connect to Marylebone?
 
-21 stations have a service to London Marylebone within 90 minutes, and 21 of those are direct trains with no change required.
+21 stations have a service to London Marylebone within 90 minutes, and 19 of those are direct trains with no change required.
 
 ### What areas does Marylebone serve?
 
@@ -57,7 +57,7 @@ London Marylebone primarily serves the Chilterns, Buckinghamshire and Oxfordshir
 
 ### Is Marylebone a good terminal to commute into?
 
-With 21 stations inside 90 minutes and 21 direct services, Marylebone serves a focused commuter corridor. The quickest option is Denham at 19 minutes.
+With 21 stations inside 90 minutes and 19 direct services, Marylebone serves a focused commuter corridor. The quickest option is Denham at 19 minutes.
 
 ## About this data
 

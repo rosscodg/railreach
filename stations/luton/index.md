@@ -7,14 +7,14 @@ Luton connects to 2 London terminals. The fastest route is St Pancras in 26 minu
 - London terminals served: 2 (St Pancras, London Bridge)
 - Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Luton to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| St Pancras | 26 min | 36 | 9.6 | Thameslink, East Midlands Railway, Southeastern high speed |
-| London Bridge | 47 min | 51 | 5.6 | Southeastern, Southern, Thameslink |
+| St Pancras | 26 min | same as fastest | 36 | 9.6 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 47 min | same as fastest | 51 | 5.6 | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 

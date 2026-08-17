@@ -113,7 +113,32 @@ def time_cell(j):
     """A journey time for a table cell, or an honest note when there is none."""
     if not has_time(j):
         return '<span class="t-badge t-change">Change required</span>'
-    return badge(j['mins'])
+    cell = badge(j['mins'])
+    if not j.get('direct') and j.get('changeAt'):
+        cell += f'<span class="t-via">change at {esc(j["changeAt"])}</span>'
+    return cell
+
+
+def md_direct(j):
+    """The fastest-direct column, in markdown."""
+    if j.get('direct') and has_time(j):
+        return 'same as fastest'
+    d = j.get('directMins')
+    return f'{d} min' if d is not None else 'no direct service'
+
+
+def direct_cell(j):
+    """The quickest service that does not require changing.
+
+    Blank rather than repeated when the fastest journey is already direct: the
+    same number twice in adjacent columns reads as an error.
+    """
+    if j.get('direct') and has_time(j):
+        return '<span class="muted">same as fastest</span>'
+    d = j.get('directMins')
+    if d is None:
+        return '<span class="muted">no direct service</span>'
+    return f'{d} min'
 
 
 def typical_cell(j):
@@ -427,6 +452,10 @@ def js_data_block(terminals, stations):
         pub = {c: v for c, v in s['journeys'].items() if v.get('mins') is not None}
         j = ', '.join(
             f'{c}: {{ mins: {v["mins"]}, direct: {str(v["direct"]).lower()}'
+            # Only carried when the quickest way needs a change, so the payload
+            # does not repeat the headline for the majority that are direct.
+            + (f', dm: {v["directMins"]}' if not v['direct'] and v.get('directMins') else '')
+            + (f', at: "{json_esc(v["changeAt"])}"' if not v['direct'] and v.get('changeAt') else '')
             + (f', typical: {v["typicalPeakMins"]}' if v.get('typicalPeakMins') else '')
             + (f', tph: {v["peakTrainsPerHour"]}' if v.get('peakTrainsPerHour') else '')
             + ' }'
@@ -712,7 +741,8 @@ def generate_terminal_page(code, terminals, stations, total):
         st_slug = STATION_SLUGS.get(st_name)
         cell = (f'<a href="/stations/{st_slug}/">{esc(st_name)}</a>'
                 if st_slug else esc(st_name))
-        row_parts.append(f'<tr><td>{cell}</td><td>{badge(st_mins)}</td>'
+        row_parts.append(f'<tr><td>{cell}</td><td>{time_cell(st_j)}</td>'
+                         f'<td>{direct_cell(st_j)}</td>'
                          f'<td>{typical_cell(st_j)}</td>'
                          f'<td>{frequency_cell(st_j)}</td></tr>')
     rows = '\n'.join(row_parts)
@@ -779,7 +809,7 @@ def generate_terminal_page(code, terminals, stations, total):
 <div class="table-scroll">
 <table>
 <caption>Journey times from {count} stations to London {name}</caption>
-<thead><tr><th>Station</th><th>Fastest</th><th>Typical peak</th><th>Peak trains</th></tr></thead>
+<thead><tr><th>Station</th><th>Fastest</th><th>Fastest direct</th><th>Typical peak</th><th>Peak trains</th></tr></thead>
 <tbody>
 {rows}
 </tbody>
@@ -835,7 +865,8 @@ RR.fit(map,pts,{{animate:false}});
     write_html(os.path.join(outdir, 'index.html'), html)
 
     md_rows = '\n'.join(
-        f"| {n} | {m} min | {j.get('typicalPeakMins') or '-'} | "
+        f"| {n} | {m} min{'' if j.get('direct') else ' (change at ' + str(j.get('changeAt')) + ')'} | "
+        f"{md_direct(j)} | {j.get('typicalPeakMins') or '-'} | "
         f"{j.get('peakTrainsPerHour') or '-'} |"
         for n, m, d, j in serving)
     md_faq = re.sub(r'<h3>(.*?)</h3>\s*<p>(.*?)</p>',
@@ -857,7 +888,7 @@ direct train. Services are operated by {operators}.
 
 ## Every station to {name}
 
-| Station | Fastest | Typical peak | Peak trains/hr |
+| Station | Fastest | Fastest direct | Typical peak | Peak trains/hr |
 | --- | --- | --- | --- |
 {md_rows}
 
@@ -940,7 +971,8 @@ def generate_station_page(station_name, slug, terminals, stations, total):
 
     table_rows = '\n'.join(
         f'<tr><td><a href="/terminals/{TERMINAL_META[c]["slug"]}/">{TERMINAL_META[c]["name"]}</a></td>'
-        f'<td>{time_cell(j)}</td><td>{typical_cell(j)}</td><td>{frequency_cell(j)}</td>'
+        f'<td>{time_cell(j)}</td><td>{direct_cell(j)}</td>'
+        f'<td>{typical_cell(j)}</td><td>{frequency_cell(j)}</td>'
         f'<td>{TERMINAL_META[c]["operators"]}</td></tr>'
         for c, j in sorted_journeys)
 
@@ -1102,7 +1134,7 @@ def generate_station_page(station_name, slug, terminals, stations, total):
 <div class="table-scroll">
 <table>
 <caption>Journey times from {station_name} to London terminals</caption>
-<thead><tr><th>London terminal</th><th>Fastest</th><th>Typical peak</th><th>Peak trains</th><th>Operator</th></tr></thead>
+<thead><tr><th>London terminal</th><th>Fastest</th><th>Fastest direct</th><th>Typical peak</th><th>Peak trains</th><th>Operator</th></tr></thead>
 <tbody>
 {table_rows}
 </tbody>
@@ -1157,7 +1189,9 @@ RR.fit(map,{fit_points},{{animate:false}});
 
     md_rows = '\n'.join(
         f"| {TERMINAL_META[c]['name']} | "
-        f"{str(j['mins']) + ' min' if j.get('mins') is not None else 'change required'} | "
+        f"{str(j['mins']) + ' min' if j.get('mins') is not None else 'change required'}"
+        f"{'' if j.get('direct') or j.get('mins') is None else ' (change at ' + str(j.get('changeAt')) + ')'} | "
+        f"{md_direct(j)} | "
         f"{j.get('typicalPeakMins') or '-'} | {j.get('peakTrainsPerHour') or '-'} | "
         f"{TERMINAL_META[c]['operators']} |"
         for c, j in sorted_journeys)
@@ -1180,7 +1214,7 @@ RR.fit(map,{fit_points},{{animate:false}});
 
 ## {station_name} to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 {md_rows}
 
@@ -1583,7 +1617,8 @@ def generate_about(stations, counts, total, n_station_pages):
 
 <h2>Sources and method</h2>
 <p>Journey times are computed from Darwin Timetable Files, published by the Rail Delivery Group through the Rail Data Marketplace under the Open Government Licence v3.0. The operators covered are {', '.join(op_list)}.</p>
-<p><strong>Fastest</strong> is the quickest scheduled service of the day. <strong>Typical peak</strong> is the median journey time of services arriving at the London terminal between 07:00 and 09:30, which is closer to what a commuter actually experiences. Where the two differ sharply the fastest figure is flattering: a single early express is no help if the train you can catch takes twenty minutes longer. Neither is an average, because off-peak and late-night stopping services distort one.</p>
+<p><strong>Fastest</strong> is the quickest scheduled journey of the day, allowing at most one change. Where it uses one, the interchange is named, because a time that quietly depends on changing trains is misleading on its own. <strong>Fastest direct</strong> is the quickest service that does not require changing; for most routes the two are the same, and it is shown separately only where they differ. Connections allow a uniform eight minutes to change. Station-by-station minimum connection times are not published in the timetable feed, and eight minutes is deliberately more cautious than the five a journey planner will offer at a simple same-platform change, because publishing a connection nobody can make is worse than publishing a slightly slow one.</p>
+<p><strong>Typical peak</strong> is the median journey time of direct services arriving at the London terminal between 07:00 and 09:30, which is closer to what a commuter actually experiences. Where it and the fastest figure differ sharply, the fastest is flattering: a single early express is no help if the train you can catch takes twenty minutes longer. <strong>Peak trains</strong> counts those same direct services. Neither is an average, because off-peak and late-night stopping services distort one.</p>
 <p>Where no direct service exists, the time reflects the quickest routing with one change, including a realistic interchange allowance. Those journeys are marked "change required" throughout the site.</p>
 
 <h2>Station positions</h2>
@@ -2016,13 +2051,14 @@ def sync_index(terminals, stations, counts, total, data_js):
                       key=lambda x: x[2]['mins'])
         body = '\n'.join(
             f'<tr><td><a href="/stations/{slug}/">{esc(nm)}</a></td><td>{m["name"]}</td>'
-            f'<td>{badge(j["mins"])}</td><td>{typical_cell(j)}</td>'
+            f'<td>{time_cell(j)}</td><td>{direct_cell(j)}</td>'
+            f'<td>{typical_cell(j)}</td>'
             f'<td>{frequency_cell(j)}</td></tr>'
             for nm, slug, j in rows)
         sections.append(
             f'<thead><tr><th colspan="4">{m["name"]}</th></tr></thead>\n'
             f'<thead><tr><th>Station</th><th>Terminal</th><th>Fastest</th>'
-            f'<th>Typical peak</th><th>Peak trains</th></tr></thead>\n'
+            f'<th>Fastest direct</th><th>Typical peak</th><th>Peak trains</th></tr></thead>\n'
             f'<tbody>\n{body}\n</tbody>')
 
     table = ('<div class="table-scroll">\n<table>\n'
@@ -2081,6 +2117,8 @@ def export_dataset(terminals, stations):
                 'london_terminal': TERMINAL_META[code]['name'],
                 'terminal_code': code,
                 'fastest_minutes': j['mins'],
+                'fastest_direct_minutes': j.get('directMins'),
+                'change_at': j.get('changeAt') or '',
                 'typical_peak_minutes': j.get('typicalPeakMins') or '',
                 'peak_trains_per_hour': j.get('peakTrainsPerHour') or '',
                 'direct': 'yes' if j['direct'] else 'no',

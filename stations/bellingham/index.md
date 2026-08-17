@@ -7,15 +7,15 @@ Bellingham connects to 3 London terminals. The fastest route is Victoria in 24 m
 - London terminals served: 3 (Victoria, St Pancras, London Bridge)
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Bellingham to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Victoria | 24 min | 25 | 1.2 | Southeastern, Southern |
-| St Pancras | 36 min | 36 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
-| London Bridge | change required | - | - | Southeastern, Southern, Thameslink |
+| Victoria | 24 min | same as fastest | 25 | 1.2 | Southeastern, Southern |
+| St Pancras | 36 min | same as fastest | 36 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 42 min (change at London Blackfriars) | no direct service | - | - | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 

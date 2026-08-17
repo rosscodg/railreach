@@ -7,15 +7,15 @@ Merstham connects to 3 London terminals. The fastest route is London Bridge in 2
 - London terminals served: 3 (London Bridge, Victoria, St Pancras)
 - Operator: Southeastern, Southern, Thameslink
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Merstham to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| London Bridge | 26 min | 27 | 3.2 | Southeastern, Southern, Thameslink |
-| Victoria | 35 min | 35 | 2.0 | Southeastern, Southern |
-| St Pancras | 41 min | 42 | 2.8 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 26 min | same as fastest | 27 | 3.2 | Southeastern, Southern, Thameslink |
+| Victoria | 35 min | same as fastest | 35 | 2.0 | Southeastern, Southern |
+| St Pancras | 41 min | same as fastest | 42 | 2.8 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 

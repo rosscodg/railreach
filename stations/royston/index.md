@@ -7,15 +7,15 @@ Royston connects to 3 London terminals. The fastest route is Kings Cross in 37 m
 - London terminals served: 3 (Kings Cross, St Pancras, London Bridge)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Royston to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Kings Cross | 37 min | 46 | 4.3 | Great Northern, LNER, Hull Trains, Lumo |
-| St Pancras | 51 min | 52 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
-| London Bridge | 66 min | 67 | 2.0 | Southeastern, Southern, Thameslink |
+| Kings Cross | 37 min | same as fastest | 46 | 4.3 | Great Northern, LNER, Hull Trains, Lumo |
+| St Pancras | 51 min | same as fastest | 52 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 66 min | same as fastest | 67 | 2.0 | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 

@@ -7,13 +7,13 @@ Southend Central connects to 1 London terminal. The fastest route is Fenchurch S
 - London terminals served: 1 (Fenchurch Street)
 - Operator: c2c
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Southend Central to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Fenchurch Street | 47 min | 57 | 6.8 | c2c |
+| Fenchurch Street | 47 min | same as fastest | 57 | 6.8 | c2c |
 
 ## Frequently asked questions
 

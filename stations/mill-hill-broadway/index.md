@@ -7,14 +7,14 @@ Mill Hill Broadway connects to 2 London terminals. The fastest route is St Pancr
 - London terminals served: 2 (St Pancras, London Bridge)
 - Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Mill Hill Broadway to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| St Pancras | 19 min | 22 | 6.4 | Thameslink, East Midlands Railway, Southeastern high speed |
-| London Bridge | 34 min | 34 | 0.4 | Southeastern, Southern, Thameslink |
+| St Pancras | 19 min | same as fastest | 22 | 6.4 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 34 min | same as fastest | 34 | 0.4 | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 

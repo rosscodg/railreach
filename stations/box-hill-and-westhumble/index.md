@@ -7,14 +7,14 @@ Box Hill & Westhumble connects to 2 London terminals. The fastest route is Water
 - London terminals served: 2 (Waterloo, Victoria)
 - Operator: South Western Railway
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Box Hill & Westhumble to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Waterloo | 50 min | 54 | 2.0 | South Western Railway |
-| Victoria | 59 min | 61 | 1.2 | Southeastern, Southern |
+| Waterloo | 50 min | same as fastest | 54 | 2.0 | South Western Railway |
+| Victoria | 59 min | same as fastest | 61 | 1.2 | Southeastern, Southern |
 
 ## Frequently asked questions
 

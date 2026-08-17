@@ -7,14 +7,14 @@ Wandsworth Common connects to 2 London terminals. The fastest route is Victoria 
 - London terminals served: 2 (Victoria, London Bridge)
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Wandsworth Common to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Victoria | 12 min | 12 | 6.8 | Southeastern, Southern |
-| London Bridge | 41 min | 47 | 1.6 | Southeastern, Southern, Thameslink |
+| Victoria | 12 min | same as fastest | 12 | 6.8 | Southeastern, Southern |
+| London Bridge | 41 min | same as fastest | 47 | 1.6 | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 

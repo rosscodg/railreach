@@ -7,15 +7,15 @@ Arlesey connects to 3 London terminals. The fastest route is Kings Cross in 38 m
 - London terminals served: 3 (Kings Cross, St Pancras, London Bridge)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Arlesey to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Kings Cross | 38 min | - | - | Great Northern, LNER, Hull Trains, Lumo |
-| St Pancras | 39 min | 41 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
-| London Bridge | 54 min | 56 | 2.0 | Southeastern, Southern, Thameslink |
+| Kings Cross | 38 min | same as fastest | - | - | Great Northern, LNER, Hull Trains, Lumo |
+| St Pancras | 39 min | same as fastest | 41 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 54 min | same as fastest | 56 | 2.0 | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 

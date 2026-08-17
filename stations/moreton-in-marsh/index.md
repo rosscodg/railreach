@@ -7,13 +7,13 @@ Moreton-in-Marsh connects to 1 London terminal. The fastest route is Paddington 
 - London terminals served: 1 (Paddington)
 - Operator: Great Western Railway, Elizabeth line
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Moreton-in-Marsh to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Paddington | 88 min | 90 | 1.2 | Great Western Railway, Elizabeth line |
+| Paddington | 88 min | same as fastest | 90 | 1.2 | Great Western Railway, Elizabeth line |
 
 ## Frequently asked questions
 

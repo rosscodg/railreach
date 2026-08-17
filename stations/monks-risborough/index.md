@@ -1,37 +1,37 @@
 # Train times from Monks Risborough to London
 
-Monks Risborough connects to 1 London terminal. The fastest route is Marylebone in 65 minutes on a direct train.
+Monks Risborough connects to 1 London terminal. The fastest route is Marylebone in 54 minutes, with one change.
 
-- Fastest journey to London: 65 minutes to Marylebone
-- Direct service: Yes
+- Fastest journey to London: 54 minutes to Marylebone
+- Direct service: No - one change required
 - London terminals served: 1 (Marylebone)
 - Operator: Chiltern Railways
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Monks Risborough to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Marylebone | 65 min | - | - | Chiltern Railways |
+| Marylebone | 54 min (change at Princes Risborough) | 65 min | - | - | Chiltern Railways |
 
 ## Frequently asked questions
 
 ### How long does the train from Monks Risborough to London take?
 
-The fastest train from Monks Risborough reaches London Marylebone in 65 minutes. Monks Risborough connects to 1 London terminal: Marylebone.
+The fastest train from Monks Risborough reaches London Marylebone in 54 minutes. Monks Risborough connects to 1 London terminal: Marylebone.
 
 ### Which London station should I travel to from Monks Risborough?
 
-Marylebone is the quickest at 65 minutes, on a direct service. Direct trains run to Marylebone.
+Marylebone is the quickest at 54 minutes, though it requires a change. Direct trains run to none; all routes require a change.
 
 ### Is Monks Risborough a good commuter town for London?
 
-At 65 minutes to London Marylebone, Monks Risborough is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
+At 54 minutes to London Marylebone, Monks Risborough is a practical commuter choice, with the fastest journey under an hour. Most services require one change.
 
 ### Are there direct trains from Monks Risborough to London?
 
-Yes. Direct services run to Marylebone.
+No direct service is recorded from Monks Risborough; all routes into London require one change.
 
 ### What are the nearest stations to Monks Risborough?
 

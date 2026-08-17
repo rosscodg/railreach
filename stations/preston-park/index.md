@@ -7,15 +7,15 @@ Preston Park connects to 3 London terminals. The fastest route is Victoria in 61
 - London terminals served: 3 (Victoria, London Bridge, St Pancras)
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Preston Park to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Victoria | 61 min | 61 | 3.6 | Southeastern, Southern |
-| London Bridge | 62 min | 64 | 4.0 | Southeastern, Southern, Thameslink |
-| St Pancras | 77 min | 80 | 3.6 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Victoria | 61 min | same as fastest | 61 | 3.6 | Southeastern, Southern |
+| London Bridge | 62 min | same as fastest | 64 | 4.0 | Southeastern, Southern, Thameslink |
+| St Pancras | 77 min | same as fastest | 80 | 3.6 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 

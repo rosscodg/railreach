@@ -7,14 +7,14 @@ Enfield Chase connects to 2 London terminals. The fastest route is Kings Cross i
 - London terminals served: 2 (Kings Cross, Moorgate)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Enfield Chase to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Kings Cross | 24 min | - | - | Great Northern, LNER, Hull Trains, Lumo |
-| Moorgate | 29 min | 35 | 4.8 | Great Northern |
+| Kings Cross | 24 min | same as fastest | - | - | Great Northern, LNER, Hull Trains, Lumo |
+| Moorgate | 29 min | same as fastest | 35 | 4.8 | Great Northern |
 
 ## Frequently asked questions
 

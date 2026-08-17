@@ -7,14 +7,14 @@ Langley connects to 2 London terminals. The fastest route is Paddington in 26 mi
 - London terminals served: 2 (Paddington, Liverpool Street)
 - Operator: Great Western Railway, Elizabeth line
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Langley to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Paddington | 26 min | 30 | 4.0 | Great Western Railway, Elizabeth line |
-| Liverpool Street | 37 min | 41 | 4.0 | Greater Anglia, Elizabeth line |
+| Paddington | 26 min | same as fastest | 30 | 4.0 | Great Western Railway, Elizabeth line |
+| Liverpool Street | 37 min | same as fastest | 41 | 4.0 | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 

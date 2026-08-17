@@ -7,14 +7,14 @@ Bedford connects to 2 London terminals. The fastest route is St Pancras in 39 mi
 - London terminals served: 2 (St Pancras, London Bridge)
 - Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Bedford to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| St Pancras | 39 min | 63 | 7.2 | Thameslink, East Midlands Railway, Southeastern high speed |
-| London Bridge | 66 min | 78 | 5.2 | Southeastern, Southern, Thameslink |
+| St Pancras | 39 min | same as fastest | 63 | 7.2 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 66 min | same as fastest | 78 | 5.2 | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 

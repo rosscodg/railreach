@@ -7,15 +7,15 @@ Clapham Junction connects to 3 London terminals. The fastest route is Victoria i
 - London terminals served: 3 (Victoria, Waterloo, London Bridge)
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Clapham Junction to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Victoria | 6 min | 8 | 20.0 | Southeastern, Southern |
-| Waterloo | 8 min | 12 | 30.4 | South Western Railway |
-| London Bridge | 44 min | 50 | 1.6 | Southeastern, Southern, Thameslink |
+| Victoria | 6 min | same as fastest | 8 | 20.0 | Southeastern, Southern |
+| Waterloo | 8 min | same as fastest | 12 | 30.4 | South Western Railway |
+| London Bridge | 33 min (change at East Croydon) | 44 min | 50 | 1.6 | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 
@@ -25,7 +25,7 @@ The fastest train from Clapham Junction reaches London Victoria in 6 minutes. Cl
 
 ### Which London station should I travel to from Clapham Junction?
 
-Victoria is the quickest at 6 minutes, on a direct service. Direct trains run to Victoria, Waterloo, London Bridge.
+Victoria is the quickest at 6 minutes, on a direct service. Direct trains run to Victoria, Waterloo.
 
 ### Is Clapham Junction a good commuter town for London?
 
@@ -33,7 +33,7 @@ At 6 minutes to London Victoria, Clapham Junction is an excellent commuter base,
 
 ### Are there direct trains from Clapham Junction to London?
 
-Yes. Direct services run to Victoria, Waterloo, London Bridge.
+Yes. Direct services run to Victoria, Waterloo.
 
 ### What are the nearest stations to Clapham Junction?
 

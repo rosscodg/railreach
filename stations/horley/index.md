@@ -7,15 +7,15 @@ Horley connects to 3 London terminals. The fastest route is Victoria in 31 minut
 - London terminals served: 3 (Victoria, London Bridge, St Pancras)
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Horley to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Victoria | 31 min | 31 | 1.2 | Southeastern, Southern |
-| London Bridge | 37 min | 41 | 4.0 | Southeastern, Southern, Thameslink |
-| St Pancras | 52 min | 58 | 3.6 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Victoria | 31 min | same as fastest | 31 | 1.2 | Southeastern, Southern |
+| London Bridge | 37 min | same as fastest | 41 | 4.0 | Southeastern, Southern, Thameslink |
+| St Pancras | 52 min | same as fastest | 58 | 3.6 | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 

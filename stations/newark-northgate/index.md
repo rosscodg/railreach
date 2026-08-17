@@ -7,13 +7,13 @@ Newark Northgate connects to 1 London terminal. The fastest route is Kings Cross
 - London terminals served: 1 (Kings Cross)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## Newark Northgate to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Kings Cross | 75 min | 84 | 2.8 | Great Northern, LNER, Hull Trains, Lumo |
+| Kings Cross | 75 min | same as fastest | 84 | 2.8 | Great Northern, LNER, Hull Trains, Lumo |
 
 ## Frequently asked questions
 

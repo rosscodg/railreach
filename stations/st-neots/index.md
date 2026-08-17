@@ -7,15 +7,15 @@ St Neots connects to 3 London terminals. The fastest route is Kings Cross in 39 
 - London terminals served: 3 (Kings Cross, St Pancras, London Bridge)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
-- Data reviewed: 2026-08-14
+- Data reviewed: 2026-08-17
 
 ## St Neots to each London terminal
 
-| London terminal | Fastest | Typical peak | Peak trains/hr | Operator |
+| London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Kings Cross | 39 min | 45 | 1.5 | Great Northern, LNER, Hull Trains, Lumo |
-| St Pancras | 56 min | 58 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
-| London Bridge | 71 min | 73 | 2.0 | Southeastern, Southern, Thameslink |
+| Kings Cross | 39 min | same as fastest | 45 | 1.5 | Great Northern, LNER, Hull Trains, Lumo |
+| St Pancras | 56 min | same as fastest | 58 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 71 min | same as fastest | 73 | 2.0 | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 
