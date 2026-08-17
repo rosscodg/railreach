@@ -302,35 +302,64 @@ def legend(extra=''):
 </div>'''
 
 
-# Promotes Just Move In, the site owner's own product, so no rel="sponsored":
-# that is for paid placements, and mislabelling a first-party link misreports
-# the relationship to search engines. UTM tags so the traffic is attributable
-# in GA alongside the rest of the site.
-#
-# Deliberately no review count in the copy. "3,805 reviews" is true today and
-# wrong next month, and a figure nobody re-checks is exactly the kind of stale
-# claim the timetable review date already taught us to avoid.
-# &amp; not & : a bare ampersand in an attribute is invalid HTML. Browsers
-# tolerate it here only because "&utm" is not a known entity name.
-PROMO_URL = ('https://app.justmovein.com/'
-             '?utm_source=railreach&amp;utm_medium=banner&amp;utm_campaign=commute_map')
+# The banner at the foot of the map is data, not markup buried in this file.
+# _build/data/promos.json holds every banner that has run, exactly one marked
+# active, so retiring an advertiser preserves their copy and styling and
+# reinstating one is a two-boolean change rather than an exercise in reading
+# git history.
+PROMOS_PATH = os.path.join(BASE, '_build', 'data', 'promos.json')
 
-PROMO = f'''<div id="promo-banner">
-<a id="promo-slot-1" href="{PROMO_URL}" target="_blank" rel="noopener"
-   aria-label="Just Move In: save hours of admin with our free AI home manager">
-<div class="promo-jmi">
-<div class="promo-brand">
-<img class="promo-mark" src="/assets/img/just-move-in-white.svg" alt="Just Move In" width="115" height="23" loading="lazy">
-<div class="promo-trust"><img class="promo-stars" src="/assets/img/trustpilot-stars.svg" alt="" width="108" height="20" loading="lazy"><span class="sr-only">Rated Excellent on Trustpilot</span><span class="promo-tp-name" aria-hidden="true">Trustpilot</span></div>
-</div>
-<div class="promo-body">
-<div class="promo-headline">Moving home? Save hours of admin with our <span>free AI home manager</span>.</div>
-<div class="promo-sub">Bills, council tax, broadband and insurance, handled.</div>
-</div>
-<div class="promo-cta">Get started</div>
-</div>
-</a>
-</div>'''
+
+def build_promo():
+    with open(PROMOS_PATH) as f:
+        promos = json.load(f)['promos']
+    live = [p for p in promos if p.get('active')]
+    if len(live) != 1:
+        raise SystemExit(
+            "ERROR: {} has {} active promos, expected exactly 1. Refusing to "
+            "guess which banner should be published.".format(PROMOS_PATH, len(live)))
+    p = live[0]
+
+    if p['variant'] == 'promo-jmi':
+        r = p['rating']
+        inner = (
+            '<div class="promo-brand">\n'
+            '<img class="promo-mark" src="{}" alt="{}" width="115" height="23" loading="lazy">\n'
+            '<div class="promo-trust"><img class="promo-stars" src="{}" alt="" '
+            'width="108" height="20" loading="lazy">'
+            '<span class="sr-only">{}</span>'
+            '<span class="promo-tp-name" aria-hidden="true">{}</span></div>\n'
+            '</div>\n'
+            '<div class="promo-body">\n'
+            '<div class="promo-headline">{}<span>{}</span>{}</div>\n'
+            '<div class="promo-sub">{}</div>\n'
+            '</div>\n'
+            '<div class="promo-cta">{}</div>'
+        ).format(p['wordmark'], esc(p['wordmarkAlt']), r['image'], esc(r['spokenAs']),
+                 esc(r['source']), esc(p['headline']), esc(p['headlineEmphasis']),
+                 esc(p['headlineTail']), esc(p['sub']), esc(p['cta']))
+    else:
+        inner = (
+            '<div class="promo-logo">{}<span>{}</span></div>\n'
+            '<div class="promo-body">\n'
+            '<div class="promo-headline">{}</div>\n'
+            '<div class="promo-sub">{}</div>\n'
+            '</div>\n'
+            '<div class="promo-cta">{}</div>'
+        ).format(esc(p['logoText']), esc(p['logoSub']), esc(p['headline']),
+                 p['sub'], esc(p['cta']))
+
+    # A bare & in an attribute is invalid HTML, so escape whatever the data holds.
+    href = p['href'].replace('&amp;', '&').replace('&', '&amp;')
+    return ('<div id="promo-banner">\n'
+            '<a id="promo-slot-1" href="{}" target="_blank" rel="{}"\n'
+            '   aria-label="{}">\n'
+            '<div class="{}">\n{}\n</div>\n</a>\n</div>').format(
+                href, p['rel'], esc(p['ariaLabel']), p['variant'], inner)
+
+
+PROMO = None   # populated by main(), before any page is written
+
 
 def data_note():
     """The provenance line shown on every page.
@@ -2114,6 +2143,8 @@ def main():
           f"{sum(len(s['journeys']) for s in stations)} journeys")
 
     print("\nSyncing index.html and shared assets from the dataset...")
+    global PROMO
+    PROMO = build_promo()
     data_js = js_data_block(terminals, stations)
     # Before any page is written: every emitted /assets/ URL is stamped with
     # the hash of the bytes this build produces.

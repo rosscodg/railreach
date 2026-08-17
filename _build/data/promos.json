@@ -1,0 +1,57 @@
+{
+  "_comment": [
+    "Banners for the slot at the foot of the map. Exactly one entry may have",
+    "\"active\": true; the build fails otherwise rather than guessing.",
+    "",
+    "Retired banners are kept here rather than deleted so a past advertiser can",
+    "be reinstated by flipping two booleans, with the copy and styling that ran",
+    "at the time still intact. Each entry's \"variant\" names a CSS block in",
+    "assets/css/shared.css (.promo-jmi, .promo-connells); those blocks are kept",
+    "for inactive banners too, or restoring one would produce unstyled markup.",
+    "",
+    "rel: use \"noopener sponsored\" for a paid placement and plain \"noopener\"",
+    "for the site owner's own product. Mislabelling either way misreports the",
+    "relationship to search engines."
+  ],
+  "promos": [
+    {
+      "id": "justmovein",
+      "active": true,
+      "advertiser": "Just Move In",
+      "relationship": "first-party, the site owner's own product",
+      "variant": "promo-jmi",
+      "href": "https://app.justmovein.com/?utm_source=railreach&utm_medium=banner&utm_campaign=commute_map",
+      "rel": "noopener",
+      "ariaLabel": "Just Move In: save hours of admin with our free AI home manager",
+      "wordmark": "/assets/img/just-move-in-white.svg",
+      "wordmarkAlt": "Just Move In",
+      "rating": {
+        "source": "Trustpilot",
+        "stars": 5,
+        "image": "/assets/img/trustpilot-stars.svg",
+        "spokenAs": "Rated Excellent on Trustpilot",
+        "note": "Five stars is what Trustpilot renders for this business; checked against the live widget, not inferred from the word Excellent, which spans 4.3 to 5.0. No review count: a hardcoded figure is wrong the moment it moves."
+      },
+      "headline": "Moving home? Save hours of admin with our ",
+      "headlineEmphasis": "free AI home manager",
+      "headlineTail": ".",
+      "sub": "Bills, council tax, broadband and insurance, handled.",
+      "cta": "Get started"
+    },
+    {
+      "id": "connells",
+      "active": false,
+      "advertiser": "Connells",
+      "relationship": "third-party placement",
+      "variant": "promo-connells",
+      "href": "https://www.connells.co.uk/",
+      "rel": "noopener sponsored",
+      "ariaLabel": "Connells estate agents: find your perfect home",
+      "logoText": "Connells",
+      "logoSub": "Est. 1936",
+      "headline": "Found your perfect commute? Now find your perfect home.",
+      "sub": "Over 150 branches nationwide &bull; Free online valuations &bull; Expert local knowledge",
+      "cta": "Search Now"
+    }
+  ]
+}
