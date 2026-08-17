@@ -115,26 +115,6 @@ a:focus-visible, button:focus-visible, select:focus-visible {
   box-shadow: 0 -2px 16px rgba(0,0,0,0.25);
   pointer-events: auto; cursor: pointer; text-decoration: none; display: flex;
 }
-.promo-connells {
-  display: flex; width: 100%; height: 100%; background: linear-gradient(135deg, #c8102e 0%, #a00d24 100%);
-  font-family: 'Segoe UI', Arial, sans-serif; color: white; align-items: center;
-}
-.promo-connells .promo-logo {
-  padding: 0 20px; font-size: 28px; font-weight: 700; letter-spacing: -0.5px;
-  line-height: 1.1; border-right: 1px solid rgba(255,255,255,0.25); white-space: nowrap;
-}
-.promo-connells .promo-logo span { font-size: 11px; font-weight: 400; display: block; letter-spacing: 1px; opacity: 0.85; text-transform: uppercase; margin-top: 2px; }
-.promo-connells .promo-body {
-  flex: 1; padding: 0 20px; display: flex; flex-direction: column; justify-content: center;
-}
-.promo-connells .promo-headline { font-size: 16px; font-weight: 600; margin-bottom: 3px; }
-.promo-connells .promo-sub { font-size: 12px; opacity: 0.9; }
-.promo-connells .promo-cta {
-  margin: 0 18px; padding: 8px 18px; background: white; color: #c8102e;
-  border-radius: 4px; font-size: 13px; font-weight: 700; white-space: nowrap;
-  text-transform: uppercase; letter-spacing: 0.5px;
-}
-
 /* === Controls === */
 .controls {
   position: absolute; top: 12px; left: 60px; z-index: 1000;
@@ -449,15 +429,9 @@ a:focus-visible, button:focus-visible, select:focus-visible {
      truncating advertiser copy mid-sentence is worse than 14 extra pixels. */
   #promo-banner { height: 64px; bottom: 20px; }
   #promo-slot-1 { width: 320px; height: 64px; border-radius: 4px; }
-  .promo-connells .promo-logo { padding: 0 8px; font-size: 14px; }
-  .promo-connells .promo-logo span { font-size: 7px; letter-spacing: 0.5px; }
-  .promo-connells .promo-body { padding: 0 8px; }
   /* The slot clips with overflow:hidden, and the headline had only 109px of
      width once the logo and CTA took their share. The sub line is dropped and
      the logo/CTA tightened so the full headline fits without truncation. */
-  .promo-connells .promo-headline { font-size: 11px; line-height: 1.25; margin-bottom: 0; }
-  .promo-connells .promo-sub { display: none; }
-  .promo-connells .promo-cta { margin: 0 6px; padding: 5px 8px; font-size: 9px; letter-spacing: 0.3px; }
   /* Compact: the panel measured 170px, a quarter of the map, and its height
      fed straight into the fit padding. Labels move to assistive text only. */
   .controls {
@@ -770,4 +744,82 @@ a:focus-visible, button:focus-visible, select:focus-visible {
      ~30 tall) and the ad banner (bottom 20, 64 tall). */
   .leaflet-top.leaflet-left { top: auto; bottom: 140px; }
   .leaflet-top.leaflet-left .leaflet-control-zoom { margin-top: 0; margin-left: 12px; }
+}
+
+/* ── Just Move In promo ──────────────────────────────────────────────────────
+   Same 728x90 / 320x64 footprint as the banner it replaces, deliberately. The
+   bottom fit padding is max(legend, banner, floor), and the banner currently
+   sets it at 112px from the map's bottom edge. A taller unit would take the
+   map height back that collapsing the control panel just recovered.
+
+   Brand values are taken from app.justmovein.com rather than guessed: purple
+   #5C33C1 (its primary button), deep aubergine #1B0025 (its body ink and the
+   Jay chat panel), coral #FB654D (the wordmark underline), Inter throughout,
+   and fully rounded pills for buttons. RailReach already loads Inter, so no
+   extra font is fetched.
+   ------------------------------------------------------------------------ */
+.promo-jmi {
+  display: flex; align-items: center; width: 100%; height: 100%;
+  background: linear-gradient(135deg, #2A0B45 0%, #5C33C1 100%);
+  font-family: var(--font); color: #fff;
+}
+
+.promo-mark {
+  flex: 0 0 auto; width: 112px; height: auto; margin: 0 18px;
+  /* The wordmark is dark by design; this is the white-on-purple variant. */
+}
+
+.promo-body {
+  flex: 1 1 auto; min-width: 0;
+  padding: 0 18px 0 0;
+  border-left: 1px solid rgba(255,255,255,0.18); padding-left: 18px;
+}
+
+.promo-headline {
+  font-size: 16px; font-weight: 600; line-height: 1.25; letter-spacing: -0.01em;
+}
+.promo-headline span { color: #FFC9BD; }   /* coral, lightened to stay legible on purple */
+
+.promo-sub {
+  font-size: 11.5px; line-height: 1.3; margin-top: 4px; color: rgba(255,255,255,0.75);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+
+/* A suggestion of the Jay chat screen rather than a screenshot: at 62px tall a
+   real capture is an unreadable smudge, while this reads as "phone, chat app"
+   instantly, costs no request, and stays sharp on any display. */
+.promo-phone {
+  flex: 0 0 auto; position: relative;
+  width: 36px; height: 62px; margin-right: 16px;
+  border-radius: 7px; background: #1B0025;
+  border: 1.5px solid rgba(255,255,255,0.35);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.28);
+  overflow: hidden;
+}
+.promo-phone .promo-bubble {
+  position: absolute; left: 5px; top: 12px; width: 22px; height: 12px;
+  border-radius: 5px 5px 5px 2px; background: rgba(255,255,255,0.92);
+}
+.promo-phone .promo-chip {
+  position: absolute; left: 8px; top: 30px; width: 19px; height: 8px;
+  border-radius: 999px; background: rgba(255,255,255,0.16);
+  border: 1px solid rgba(196,181,253,0.65);
+}
+
+.promo-cta {
+  flex: 0 0 auto; margin-right: 18px;
+  padding: 9px 20px; background: #fff; color: #5C33C1;
+  border-radius: 999px; font-size: 13px; font-weight: 700; white-space: nowrap;
+}
+
+#promo-slot-1:hover .promo-cta { background: #FFEDE9; }
+
+@media (max-width: 768px) {
+  /* 320x64: the wordmark and the call to action earn their place, the phone
+     and the supporting line do not. */
+  .promo-mark { width: 74px; margin: 0 8px; }
+  .promo-body { padding: 0 8px; border-left: none; }
+  .promo-headline { font-size: 10.5px; line-height: 1.25; }
+  .promo-sub, .promo-phone { display: none; }
+  .promo-cta { margin-right: 8px; padding: 6px 11px; font-size: 10.5px; }
 }

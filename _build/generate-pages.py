@@ -302,15 +302,30 @@ def legend(extra=''):
 </div>'''
 
 
-PROMO = '''<div id="promo-banner">
-<a id="promo-slot-1" href="https://www.connells.co.uk/" target="_blank" rel="noopener sponsored">
-<div class="promo-connells">
-<div class="promo-logo">Connells<span>Est. 1936</span></div>
+# Promotes Just Move In, the site owner's own product, so no rel="sponsored":
+# that is for paid placements, and mislabelling a first-party link misreports
+# the relationship to search engines. UTM tags so the traffic is attributable
+# in GA alongside the rest of the site.
+#
+# Deliberately no review count in the copy. "3,805 reviews" is true today and
+# wrong next month, and a figure nobody re-checks is exactly the kind of stale
+# claim the timetable review date already taught us to avoid.
+# &amp; not & : a bare ampersand in an attribute is invalid HTML. Browsers
+# tolerate it here only because "&utm" is not a known entity name.
+PROMO_URL = ('https://app.justmovein.com/'
+             '?utm_source=railreach&amp;utm_medium=banner&amp;utm_campaign=commute_map')
+
+PROMO = f'''<div id="promo-banner">
+<a id="promo-slot-1" href="{PROMO_URL}" target="_blank" rel="noopener"
+   aria-label="Just Move In: save hours of home admin with Jay, an AI home manager">
+<div class="promo-jmi">
+<img class="promo-mark" src="/assets/img/just-move-in-white.svg" alt="Just Move In" width="115" height="23" loading="lazy">
 <div class="promo-body">
-<div class="promo-headline">Found your perfect commute? Now find your perfect home.</div>
-<div class="promo-sub">Over 150 branches nationwide &bull; Free online valuations &bull; Expert local knowledge</div>
+<div class="promo-headline">Moving home? Save hours of admin with our <span>AI home manager</span>.</div>
+<div class="promo-sub">Bills, council tax, broadband and insurance, handled.</div>
 </div>
-<div class="promo-cta">Search Now</div>
+<div class="promo-phone" aria-hidden="true"><span class="promo-bubble"></span><span class="promo-chip"></span></div>
+<div class="promo-cta">Get started</div>
 </div>
 </a>
 </div>'''
@@ -455,7 +470,7 @@ ASSET_VERSIONS = {}
 # the previous build happened to leave on disk.
 VERSIONED_ASSETS = ('assets/css/shared.css', 'assets/js/map-ui.js',
                     'assets/js/home-map.js', 'assets/js/stations-data.js',
-                    'assets/js/map-core.js')
+                    'assets/js/map-core.js', 'assets/img/just-move-in-white.svg')
 
 
 def compute_asset_versions(data_js):
@@ -471,7 +486,7 @@ def compute_asset_versions(data_js):
         ASSET_VERSIONS['/' + rel] = hashlib.sha256(blob).hexdigest()[:8]
 
 
-ASSET_REF = re.compile(r'(/assets/(?:js|css)/[A-Za-z0-9._-]+)(\?v=[0-9a-f]+)?')
+ASSET_REF = re.compile(r'(/assets/(?:js|css|img)/[A-Za-z0-9._-]+)(\?v=[0-9a-f]+)?')
 
 
 def stamp_assets(html):
@@ -1990,6 +2005,17 @@ def sync_index(terminals, stations, counts, total, data_js):
     html = replace_marked(html, 'station-cards', station_cards)
     html = replace_marked(html, 'data-table', table)
     html = replace_marked(html, 'map-data', data_js, comment='js')
+
+    # The promo lives in index.html as plain markup rather than in a GEN
+    # region, so swapping the advertiser in PROMO updated all 360 generated
+    # pages and silently left the homepage - the one page most people see -
+    # still showing the previous one. Rewrite it from the same constant so the
+    # two cannot drift again.
+    html, n = re.subn(r'<div id="promo-banner">.*?</div>\s*</a>\s*</div>',
+                      lambda _m: PROMO, html, count=1, flags=re.DOTALL)
+    if n != 1:
+        raise SystemExit("ERROR: could not find the promo block in index.html; "
+                         "it must be rewritten from PROMO, not left stale.")
 
     write_html(path, html)
     print(f"  synced index.html ({len(featured)} featured, {total} rows in data table)")
