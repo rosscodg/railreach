@@ -1,10 +1,10 @@
 # Train times from Clapham Junction to London
 
-Clapham Junction connects to 3 London terminals. The fastest route is Victoria in 6 minutes on a direct train.
+Clapham Junction connects to 6 London terminals. The fastest route is Victoria in 6 minutes on a direct train.
 
 - Fastest journey to London: 6 minutes to Victoria
 - Direct service: Yes
-- London terminals served: 3 (Victoria, Waterloo, London Bridge)
+- London terminals served: 6 (Victoria, Waterloo, London Bridge, St Pancras, Euston, Liverpool Street)
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -16,12 +16,15 @@ Clapham Junction connects to 3 London terminals. The fastest route is Victoria i
 | Victoria | 6 min | same as fastest | 8 | 20.0 | Southeastern, Southern |
 | Waterloo | 8 min | same as fastest | 12 | 30.4 | South Western Railway |
 | London Bridge | 33 min (change at East Croydon) | 44 min | 50 | 1.6 | Southeastern, Southern, Thameslink |
+| St Pancras | 43 min (change at Denmark Hill) | no direct service | - | - | Thameslink, East Midlands Railway, Southeastern high speed |
+| Euston | 56 min (change at Harrow & Wealdstone) | no direct service | - | - | Avanti West Coast, London Northwestern |
+| Liverpool Street | 81 min (change at Stratford (London)) | no direct service | - | - | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Clapham Junction to London take?
 
-The fastest train from Clapham Junction reaches London Victoria in 6 minutes. Clapham Junction connects to 3 London terminals: Victoria, Waterloo, London Bridge.
+The fastest train from Clapham Junction reaches London Victoria in 6 minutes. Clapham Junction connects to 6 London terminals: Victoria, Waterloo, London Bridge, St Pancras, Euston, Liverpool Street.
 
 ### Which London station should I travel to from Clapham Junction?
 

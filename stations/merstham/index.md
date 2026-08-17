@@ -1,10 +1,10 @@
 # Train times from Merstham to London
 
-Merstham connects to 3 London terminals. The fastest route is London Bridge in 26 minutes on a direct train.
+Merstham connects to 5 London terminals. The fastest route is London Bridge in 26 minutes on a direct train.
 
 - Fastest journey to London: 26 minutes to London Bridge
 - Direct service: Yes
-- London terminals served: 3 (London Bridge, Victoria, St Pancras)
+- London terminals served: 5 (London Bridge, Victoria, St Pancras, Kings Cross, Moorgate)
 - Operator: Southeastern, Southern, Thameslink
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -16,12 +16,14 @@ Merstham connects to 3 London terminals. The fastest route is London Bridge in 2
 | London Bridge | 26 min | same as fastest | 27 | 3.2 | Southeastern, Southern, Thameslink |
 | Victoria | 35 min | same as fastest | 35 | 2.0 | Southeastern, Southern |
 | St Pancras | 41 min | same as fastest | 42 | 2.8 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Kings Cross | 67 min (change at Finsbury Park) | no direct service | - | - | Great Northern, LNER, Hull Trains, Lumo |
+| Moorgate | 72 min (change at Finsbury Park) | no direct service | - | - | Great Northern |
 
 ## Frequently asked questions
 
 ### How long does the train from Merstham to London take?
 
-The fastest train from Merstham reaches London London Bridge in 26 minutes. Merstham connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Merstham reaches London London Bridge in 26 minutes. Merstham connects to 5 London terminals: London Bridge, Victoria, St Pancras, Kings Cross, Moorgate.
 
 ### Which London station should I travel to from Merstham?
 

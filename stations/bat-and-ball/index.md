@@ -1,11 +1,11 @@
 # Train times from Bat & Ball to London
 
-Bat & Ball connects to 2 London terminals. The fastest route is Victoria in 49 minutes on a direct train.
+Bat & Ball connects to 3 London terminals. The fastest route is London Bridge in 41 minutes, with one change.
 
-- Fastest journey to London: 49 minutes to Victoria
-- Direct service: Yes
-- London terminals served: 2 (Victoria, St Pancras)
-- Operator: Southeastern, Southern
+- Fastest journey to London: 41 minutes to London Bridge
+- Direct service: No - one change required
+- London terminals served: 3 (London Bridge, Victoria, St Pancras)
+- Operator: Southeastern, Southern, Thameslink
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
 
@@ -13,6 +13,7 @@ Bat & Ball connects to 2 London terminals. The fastest route is Victoria in 49 m
 
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
+| London Bridge | 41 min (change at Sevenoaks) | no direct service | - | - | Southeastern, Southern, Thameslink |
 | Victoria | 49 min | same as fastest | - | - | Southeastern, Southern |
 | St Pancras | 73 min | same as fastest | 73 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 
@@ -20,15 +21,15 @@ Bat & Ball connects to 2 London terminals. The fastest route is Victoria in 49 m
 
 ### How long does the train from Bat & Ball to London take?
 
-The fastest train from Bat & Ball reaches London Victoria in 49 minutes. Bat & Ball connects to 2 London terminals: Victoria, St Pancras.
+The fastest train from Bat & Ball reaches London London Bridge in 41 minutes. Bat & Ball connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Bat & Ball?
 
-Victoria is the quickest at 49 minutes, on a direct service. Direct trains run to Victoria, St Pancras.
+London Bridge is the quickest at 41 minutes, though it requires a change. Direct trains run to Victoria, St Pancras.
 
 ### Is Bat & Ball a good commuter town for London?
 
-At 49 minutes to London Victoria, Bat & Ball is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 41 minutes to London London Bridge, Bat & Ball is a practical commuter choice, with the fastest journey under an hour. Most services require one change.
 
 ### Are there direct trains from Bat & Ball to London?
 

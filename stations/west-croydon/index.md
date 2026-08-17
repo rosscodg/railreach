@@ -1,10 +1,10 @@
 # Train times from West Croydon to London
 
-West Croydon connects to 2 London terminals. The fastest route is London Bridge in 18 minutes on a direct train.
+West Croydon connects to 4 London terminals. The fastest route is London Bridge in 18 minutes on a direct train.
 
 - Fastest journey to London: 18 minutes to London Bridge
 - Direct service: Yes
-- London terminals served: 2 (London Bridge, Victoria)
+- London terminals served: 4 (London Bridge, Victoria, St Pancras, Waterloo)
 - Operator: Southeastern, Southern, Thameslink
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -15,12 +15,14 @@ West Croydon connects to 2 London terminals. The fastest route is London Bridge 
 | --- | --- | --- | --- | --- |
 | London Bridge | 18 min | same as fastest | 18 | 2.0 | Southeastern, Southern, Thameslink |
 | Victoria | 31 min | same as fastest | 35 | 6.0 | Southeastern, Southern |
+| St Pancras | 42 min (change at Norwood Junction) | no direct service | - | - | Thameslink, East Midlands Railway, Southeastern high speed |
+| Waterloo | 69 min (change at Epsom) | no direct service | - | - | South Western Railway |
 
 ## Frequently asked questions
 
 ### How long does the train from West Croydon to London take?
 
-The fastest train from West Croydon reaches London London Bridge in 18 minutes. West Croydon connects to 2 London terminals: London Bridge, Victoria.
+The fastest train from West Croydon reaches London London Bridge in 18 minutes. West Croydon connects to 4 London terminals: London Bridge, Victoria, St Pancras, Waterloo.
 
 ### Which London station should I travel to from West Croydon?
 

@@ -15,17 +15,17 @@ Licence: Creative Commons Attribution 4.0. Reuse permitted with attribution to R
 
 ## Terminal Pages
 
-- https://railreach.co.uk/terminals/kings-cross/ : Kings Cross train times, 37 stations within 90 minutes via Great Northern, LNER, Hull Trains, Lumo
-- https://railreach.co.uk/terminals/st-pancras/ : St Pancras train times, 84 stations within 90 minutes via Thameslink, East Midlands Railway, Southeastern high speed
-- https://railreach.co.uk/terminals/waterloo/ : Waterloo train times, 79 stations within 90 minutes via South Western Railway
-- https://railreach.co.uk/terminals/paddington/ : Paddington train times, 44 stations within 90 minutes via Great Western Railway, Elizabeth line
-- https://railreach.co.uk/terminals/london-bridge/ : London Bridge train times, 101 stations within 90 minutes via Southeastern, Southern, Thameslink
-- https://railreach.co.uk/terminals/victoria/ : Victoria train times, 72 stations within 90 minutes via Southeastern, Southern
-- https://railreach.co.uk/terminals/liverpool-street/ : Liverpool Street train times, 49 stations within 90 minutes via Greater Anglia, Elizabeth line
-- https://railreach.co.uk/terminals/euston/ : Euston train times, 18 stations within 90 minutes via Avanti West Coast, London Northwestern
+- https://railreach.co.uk/terminals/kings-cross/ : Kings Cross train times, 61 stations within 90 minutes via Great Northern, LNER, Hull Trains, Lumo
+- https://railreach.co.uk/terminals/st-pancras/ : St Pancras train times, 135 stations within 90 minutes via Thameslink, East Midlands Railway, Southeastern high speed
+- https://railreach.co.uk/terminals/waterloo/ : Waterloo train times, 86 stations within 90 minutes via South Western Railway
+- https://railreach.co.uk/terminals/paddington/ : Paddington train times, 79 stations within 90 minutes via Great Western Railway, Elizabeth line
+- https://railreach.co.uk/terminals/london-bridge/ : London Bridge train times, 149 stations within 90 minutes via Southeastern, Southern, Thameslink
+- https://railreach.co.uk/terminals/victoria/ : Victoria train times, 121 stations within 90 minutes via Southeastern, Southern
+- https://railreach.co.uk/terminals/liverpool-street/ : Liverpool Street train times, 62 stations within 90 minutes via Greater Anglia, Elizabeth line
+- https://railreach.co.uk/terminals/euston/ : Euston train times, 23 stations within 90 minutes via Avanti West Coast, London Northwestern
 - https://railreach.co.uk/terminals/marylebone/ : Marylebone train times, 21 stations within 90 minutes via Chiltern Railways
 - https://railreach.co.uk/terminals/fenchurch-street/ : Fenchurch Street train times, 22 stations within 90 minutes via c2c
-- https://railreach.co.uk/terminals/moorgate/ : Moorgate train times, 18 stations within 90 minutes via Great Northern
+- https://railreach.co.uk/terminals/moorgate/ : Moorgate train times, 52 stations within 90 minutes via Great Northern
 
 ## Station Pages
 
@@ -187,6 +187,7 @@ Licence: Creative Commons Attribution 4.0. Reuse permitted with attribution to R
 - https://railreach.co.uk/stations/ewell-west/ : Ewell West to London, 33 min to Waterloo
 - https://railreach.co.uk/stations/oxted/ : Oxted to London, 33 min to London Bridge
 - https://railreach.co.uk/stations/tonbridge/ : Tonbridge to London, 33 min to London Bridge
+- https://railreach.co.uk/stations/beckenham-hill/ : Beckenham Hill to London, 34 min to Victoria
 - https://railreach.co.uk/stations/brookwood/ : Brookwood to London, 34 min to Waterloo
 - https://railreach.co.uk/stations/farnborough-main/ : Farnborough (Main) to London, 34 min to Waterloo
 - https://railreach.co.uk/stations/isleworth/ : Isleworth to London, 34 min to Waterloo
@@ -218,7 +219,6 @@ Licence: Creative Commons Attribution 4.0. Reuse permitted with attribution to R
 - https://railreach.co.uk/stations/royston/ : Royston to London, 37 min to Kings Cross
 - https://railreach.co.uk/stations/tilehurst/ : Tilehurst to London, 37 min to Paddington
 - https://railreach.co.uk/stations/arlesey/ : Arlesey to London, 38 min to Kings Cross
-- https://railreach.co.uk/stations/beckenham-hill/ : Beckenham Hill to London, 38 min to St Pancras
 - https://railreach.co.uk/stations/byfleet-and-new-haw/ : Byfleet & New Haw to London, 38 min to Waterloo
 - https://railreach.co.uk/stations/dartford/ : Dartford to London, 38 min to London Bridge
 - https://railreach.co.uk/stations/hertford-north/ : Hertford North to London, 38 min to Kings Cross
@@ -241,6 +241,7 @@ Licence: Creative Commons Attribution 4.0. Reuse permitted with attribution to R
 - https://railreach.co.uk/stations/sawbridgeworth/ : Sawbridgeworth to London, 40 min to Liverpool Street
 - https://railreach.co.uk/stations/ash-vale/ : Ash Vale to London, 41 min to Waterloo
 - https://railreach.co.uk/stations/ashtead/ : Ashtead to London, 41 min to Waterloo
+- https://railreach.co.uk/stations/bat-and-ball/ : Bat & Ball to London, 41 min to London Bridge
 - https://railreach.co.uk/stations/flitwick/ : Flitwick to London, 41 min to St Pancras
 - https://railreach.co.uk/stations/leigh-on-sea/ : Leigh-on-Sea to London, 41 min to Fenchurch Street
 - https://railreach.co.uk/stations/pangbourne/ : Pangbourne to London, 41 min to Paddington
@@ -268,7 +269,7 @@ Licence: Creative Commons Attribution 4.0. Reuse permitted with attribution to R
 - https://railreach.co.uk/stations/virginia-water/ : Virginia Water to London, 45 min to Waterloo
 - https://railreach.co.uk/stations/westcliff/ : Westcliff to London, 45 min to Fenchurch Street
 - https://railreach.co.uk/stations/aldershot/ : Aldershot to London, 46 min to Waterloo
-- https://railreach.co.uk/stations/bayford/ : Bayford to London, 46 min to Moorgate
+- https://railreach.co.uk/stations/bayford/ : Bayford to London, 46 min to Kings Cross
 - https://railreach.co.uk/stations/hockley/ : Hockley to London, 46 min to Liverpool Street
 - https://railreach.co.uk/stations/hungerford/ : Hungerford to London, 46 min to Paddington
 - https://railreach.co.uk/stations/stansted-airport/ : Stansted Airport to London, 46 min to Liverpool Street
@@ -282,7 +283,6 @@ Licence: Creative Commons Attribution 4.0. Reuse permitted with attribution to R
 - https://railreach.co.uk/stations/marden/ : Marden to London, 48 min to London Bridge
 - https://railreach.co.uk/stations/sandy/ : Sandy to London, 48 min to Kings Cross
 - https://railreach.co.uk/stations/stanford-le-hope/ : Stanford-le-Hope to London, 48 min to Fenchurch Street
-- https://railreach.co.uk/stations/bat-and-ball/ : Bat & Ball to London, 49 min to Victoria
 - https://railreach.co.uk/stations/cholsey/ : Cholsey to London, 49 min to Paddington
 - https://railreach.co.uk/stations/haslemere/ : Haslemere to London, 49 min to Waterloo
 - https://railreach.co.uk/stations/hertford-east/ : Hertford East to London, 49 min to Liverpool Street
@@ -308,6 +308,7 @@ Licence: Creative Commons Attribution 4.0. Reuse permitted with attribution to R
 - https://railreach.co.uk/stations/milford/ : Milford to London, 52 min to Waterloo
 - https://railreach.co.uk/stations/dorking/ : Dorking to London, 53 min to Waterloo
 - https://railreach.co.uk/stations/overton/ : Overton to London, 53 min to Waterloo
+- https://railreach.co.uk/stations/pluckley/ : Pluckley to London, 53 min to St Pancras
 - https://railreach.co.uk/stations/staplehurst/ : Staplehurst to London, 53 min to London Bridge
 - https://railreach.co.uk/stations/hassocks/ : Hassocks to London, 54 min to Victoria
 - https://railreach.co.uk/stations/hook/ : Hook to London, 54 min to Waterloo
@@ -344,7 +345,6 @@ Licence: Creative Commons Attribution 4.0. Reuse permitted with attribution to R
 - https://railreach.co.uk/stations/maidstone-east/ : Maidstone East to London, 63 min to Victoria
 - https://railreach.co.uk/stations/petersfield/ : Petersfield to London, 63 min to Waterloo
 - https://railreach.co.uk/stations/whittlesford-parkway/ : Whittlesford Parkway to London, 63 min to Liverpool Street
-- https://railreach.co.uk/stations/pluckley/ : Pluckley to London, 64 min to London Bridge
 - https://railreach.co.uk/stations/grantham/ : Grantham to London, 65 min to Kings Cross
 - https://railreach.co.uk/stations/liss/ : Liss to London, 65 min to Waterloo
 - https://railreach.co.uk/stations/alton/ : Alton to London, 66 min to Waterloo
@@ -366,7 +366,7 @@ Licence: Creative Commons Attribution 4.0. Reuse permitted with attribution to R
 - https://railreach.co.uk/stations/lancing/ : Lancing to London, 79 min to Victoria
 - https://railreach.co.uk/stations/kingham/ : Kingham to London, 80 min to Paddington
 - https://railreach.co.uk/stations/salisbury/ : Salisbury to London, 80 min to Waterloo
-- https://railreach.co.uk/stations/leamington-spa/ : Leamington Spa to London, 82 min to Marylebone
+- https://railreach.co.uk/stations/leamington-spa/ : Leamington Spa to London, 81 min to Euston
 - https://railreach.co.uk/stations/worthing/ : Worthing to London, 85 min to Victoria
 - https://railreach.co.uk/stations/moreton-in-marsh/ : Moreton-in-Marsh to London, 88 min to Paddington
 - https://railreach.co.uk/stations/warwick/ : Warwick to London, 88 min to Marylebone
@@ -376,7 +376,7 @@ Licence: Creative Commons Attribution 4.0. Reuse permitted with attribution to R
 
 - 345 stations covered, all within 90 minutes of a London terminal
 - 11 London terminals
-- 550 station-to-terminal journeys recorded, 493 of them direct services
+- 816 station-to-terminal journeys recorded, 493 of them direct services
 - 128 stations reach a London terminal in under 30 minutes
 - Times are scheduled, not live departures, and exclude engineering works and disruption
 - Colour coding: green (<30 min), amber (30–60 min), red (60–90 min)

@@ -1,10 +1,10 @@
 # Train times from Whittlesford Parkway to London
 
-Whittlesford Parkway connects to 1 London terminal. The fastest route is Liverpool Street in 63 minutes on a direct train.
+Whittlesford Parkway connects to 3 London terminals. The fastest route is Liverpool Street in 63 minutes on a direct train.
 
 - Fastest journey to London: 63 minutes to Liverpool Street
 - Direct service: Yes
-- London terminals served: 1 (Liverpool Street)
+- London terminals served: 3 (Liverpool Street, Kings Cross, St Pancras)
 - Operator: Greater Anglia, Elizabeth line
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,14 @@ Whittlesford Parkway connects to 1 London terminal. The fastest route is Liverpo
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Liverpool Street | 63 min | same as fastest | 77 | 3.3 | Greater Anglia, Elizabeth line |
+| Kings Cross | 67 min (change at Cambridge South) | no direct service | - | - | Great Northern, LNER, Hull Trains, Lumo |
+| St Pancras | 78 min (change at Cambridge South) | no direct service | - | - | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 
 ### How long does the train from Whittlesford Parkway to London take?
 
-The fastest train from Whittlesford Parkway reaches London Liverpool Street in 63 minutes. Whittlesford Parkway connects to 1 London terminal: Liverpool Street.
+The fastest train from Whittlesford Parkway reaches London Liverpool Street in 63 minutes. Whittlesford Parkway connects to 3 London terminals: Liverpool Street, Kings Cross, St Pancras.
 
 ### Which London station should I travel to from Whittlesford Parkway?
 

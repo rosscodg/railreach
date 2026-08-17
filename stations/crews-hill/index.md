@@ -1,10 +1,10 @@
 # Train times from Crews Hill to London
 
-Crews Hill connects to 2 London terminals. The fastest route is Moorgate in 39 minutes on a direct train.
+Crews Hill connects to 4 London terminals. The fastest route is Moorgate in 39 minutes on a direct train.
 
 - Fastest journey to London: 39 minutes to Moorgate
 - Direct service: Yes
-- London terminals served: 2 (Moorgate, Kings Cross)
+- London terminals served: 4 (Moorgate, Kings Cross, St Pancras, London Bridge)
 - Operator: Great Northern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -15,12 +15,14 @@ Crews Hill connects to 2 London terminals. The fastest route is Moorgate in 39 m
 | --- | --- | --- | --- | --- |
 | Moorgate | 39 min | same as fastest | 41 | 4.8 | Great Northern |
 | Kings Cross | 40 min (change at Alexandra Palace) | no direct service | - | - | Great Northern, LNER, Hull Trains, Lumo |
+| St Pancras | 40 min (change at Finsbury Park) | no direct service | - | - | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 55 min (change at Finsbury Park) | no direct service | - | - | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 
 ### How long does the train from Crews Hill to London take?
 
-The fastest train from Crews Hill reaches London Moorgate in 39 minutes. Crews Hill connects to 2 London terminals: Moorgate, Kings Cross.
+The fastest train from Crews Hill reaches London Moorgate in 39 minutes. Crews Hill connects to 4 London terminals: Moorgate, Kings Cross, St Pancras, London Bridge.
 
 ### Which London station should I travel to from Crews Hill?
 

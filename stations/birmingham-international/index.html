@@ -27,7 +27,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<link rel="stylesheet" href="/assets/css/shared.css?v=b2e3cd6b">
+<link rel="stylesheet" href="/assets/css/shared.css?v=a4c16675">
 <style>:root { --map-h: 56vh; }</style>
 </head>
 <body>
@@ -96,7 +96,7 @@
 </div>
 
 <h2>Birmingham International to Euston</h2>
-<p>The fastest train from Birmingham International to London Euston takes <strong>68 minutes</strong> and involves a direct train with no change. The route is operated by Avanti West Coast, London Northwestern. That makes Birmingham International the 16th quickest of the 18 stations with a service into Euston inside 90 minutes.</p>
+<p>The fastest train from Birmingham International to London Euston takes <strong>68 minutes</strong> and involves a direct train with no change. The route is operated by Avanti West Coast, London Northwestern. That makes Birmingham International the 18th quickest of the 23 stations with a service into Euston inside 90 minutes.</p>
 <h2>Frequently asked questions</h2>
 <h3>How long does the train from Birmingham International to London take?</h3>
 <p>The fastest train from Birmingham International reaches London Euston in 68 minutes. Birmingham International connects to 1 London terminal: Euston.</p>
@@ -127,7 +127,7 @@
 <li><a class="card" href="/stations/coventry/"><span class="card-title">Coventry</span><span class="card-meta"><span class="t-badge t-mid">56 min</span> fastest to London &middot; 15 km away</span></a></li>
 <li><a class="card" href="/stations/warwick-parkway/"><span class="card-title">Warwick Parkway</span><span class="card-meta">20 km away</span></a></li>
 <li><a class="card" href="/stations/warwick/"><span class="card-title">Warwick</span><span class="card-meta"><span class="t-badge t-slow">88 min</span> fastest to London &middot; 21 km away</span></a></li>
-<li><a class="card" href="/stations/leamington-spa/"><span class="card-title">Leamington Spa</span><span class="card-meta"><span class="t-badge t-slow">82 min</span> fastest to London &middot; 23 km away</span></a></li>
+<li><a class="card" href="/stations/leamington-spa/"><span class="card-title">Leamington Spa</span><span class="card-meta"><span class="t-badge t-slow">81 min</span> fastest to London &middot; 23 km away</span></a></li>
 <li><a class="card" href="/stations/rugby/"><span class="card-title">Rugby</span><span class="card-meta"><span class="t-badge t-mid">49 min</span> fastest to London &middot; 33 km away</span></a></li>
 </ul>
 
@@ -257,12 +257,12 @@
 }
 ]</script>
 
-<script src="/assets/js/stations-data.js?v=98f6f1f6"></script>
-<script src="/assets/js/map-ui.js?v=afe4b8dd"></script>
+<script src="/assets/js/stations-data.js?v=41b654d1"></script>
+<script src="/assets/js/map-ui.js?v=28af0e35"></script>
 <script>
 const map=RR.createMap('map');
 L.circleMarker([52.450807,-1.725857],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Birmingham International</strong><br>This station').addTo(map);
-RR.terminalMarker(map,51.528136,-0.133924,'<strong>London Euston</strong><div class="pop-sub">from Birmingham International</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>68 min</dd></div><div class="pop-gap"><dt>Typical peak</dt><dd>79 min</dd></div><div><dt>Peak trains</dt><dd>4.9/hr</dd></div></dl><a class="popup-link" href="/terminals/euston/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.528136,-0.133924,'<strong>London Euston</strong><div class="pop-sub">from Birmingham International</div><div class="pop-hero"><b>68</b> min</div><dl class="pop-stats"><div class="pop-gap"><dt>Typical peak</dt><dd>79 min</dd></div><div><dt>Peak trains</dt><dd>4.9/hr</dd></div></dl><a class="popup-link" href="/terminals/euston/">Terminal guide &rarr;</a>');
 L.polyline([[52.450807,-1.725857],[51.528136,-0.133924]],{color:RR.colour(68),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Birmingham International: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.

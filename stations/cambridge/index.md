@@ -1,10 +1,10 @@
 # Train times from Cambridge to London
 
-Cambridge connects to 4 London terminals. The fastest route is Kings Cross in 50 minutes on a direct train.
+Cambridge connects to 5 London terminals. The fastest route is Kings Cross in 50 minutes on a direct train.
 
 - Fastest journey to London: 50 minutes to Kings Cross
 - Direct service: Yes
-- London terminals served: 4 (Kings Cross, St Pancras, Liverpool Street, London Bridge)
+- London terminals served: 5 (Kings Cross, St Pancras, Liverpool Street, Moorgate, London Bridge)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -16,13 +16,14 @@ Cambridge connects to 4 London terminals. The fastest route is Kings Cross in 50
 | Kings Cross | 50 min | same as fastest | 68 | 3.9 | Great Northern, LNER, Hull Trains, Lumo |
 | St Pancras | 68 min | same as fastest | 68 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 | Liverpool Street | 73 min | same as fastest | 87 | 3.3 | Greater Anglia, Elizabeth line |
+| Moorgate | 82 min (change at Finsbury Park) | no direct service | - | - | Great Northern |
 | London Bridge | 83 min | same as fastest | 83 | 2.0 | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 
 ### How long does the train from Cambridge to London take?
 
-The fastest train from Cambridge reaches London Kings Cross in 50 minutes. Cambridge connects to 4 London terminals: Kings Cross, St Pancras, Liverpool Street, London Bridge.
+The fastest train from Cambridge reaches London Kings Cross in 50 minutes. Cambridge connects to 5 London terminals: Kings Cross, St Pancras, Liverpool Street, Moorgate, London Bridge.
 
 ### Which London station should I travel to from Cambridge?
 

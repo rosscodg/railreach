@@ -1,10 +1,10 @@
 # Train times from Horsham to London
 
-Horsham connects to 3 London terminals. The fastest route is Victoria in 54 minutes on a direct train.
+Horsham connects to 4 London terminals. The fastest route is Victoria in 54 minutes on a direct train.
 
 - Fastest journey to London: 54 minutes to Victoria
 - Direct service: Yes
-- London terminals served: 3 (Victoria, London Bridge, St Pancras)
+- London terminals served: 4 (Victoria, London Bridge, St Pancras, Waterloo)
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -16,12 +16,13 @@ Horsham connects to 3 London terminals. The fastest route is Victoria in 54 minu
 | Victoria | 54 min | same as fastest | 55 | 3.2 | Southeastern, Southern |
 | London Bridge | 60 min (change at Three Bridges) | 65 min | 66 | 2.8 | Southeastern, Southern, Thameslink |
 | St Pancras | 75 min (change at Three Bridges) | 80 min | 82 | 2.4 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Waterloo | 89 min (change at Dorking) | no direct service | - | - | South Western Railway |
 
 ## Frequently asked questions
 
 ### How long does the train from Horsham to London take?
 
-The fastest train from Horsham reaches London Victoria in 54 minutes. Horsham connects to 3 London terminals: Victoria, London Bridge, St Pancras.
+The fastest train from Horsham reaches London Victoria in 54 minutes. Horsham connects to 4 London terminals: Victoria, London Bridge, St Pancras, Waterloo.
 
 ### Which London station should I travel to from Horsham?
 

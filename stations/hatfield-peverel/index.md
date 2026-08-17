@@ -1,10 +1,10 @@
 # Train times from Hatfield Peverel to London
 
-Hatfield Peverel connects to 1 London terminal. The fastest route is Liverpool Street in 39 minutes on a direct train.
+Hatfield Peverel connects to 2 London terminals. The fastest route is Liverpool Street in 39 minutes on a direct train.
 
 - Fastest journey to London: 39 minutes to Liverpool Street
 - Direct service: Yes
-- London terminals served: 1 (Liverpool Street)
+- London terminals served: 2 (Liverpool Street, Paddington)
 - Operator: Greater Anglia, Elizabeth line
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,13 @@ Hatfield Peverel connects to 1 London terminal. The fastest route is Liverpool S
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Liverpool Street | 39 min | same as fastest | 46 | 2.8 | Greater Anglia, Elizabeth line |
+| Paddington | 61 min (change at Stratford (London)) | no direct service | - | - | Great Western Railway, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Hatfield Peverel to London take?
 
-The fastest train from Hatfield Peverel reaches London Liverpool Street in 39 minutes. Hatfield Peverel connects to 1 London terminal: Liverpool Street.
+The fastest train from Hatfield Peverel reaches London Liverpool Street in 39 minutes. Hatfield Peverel connects to 2 London terminals: Liverpool Street, Paddington.
 
 ### Which London station should I travel to from Hatfield Peverel?
 

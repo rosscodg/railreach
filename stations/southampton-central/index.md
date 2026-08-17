@@ -1,10 +1,10 @@
 # Train times from Southampton Central to London
 
-Southampton Central connects to 1 London terminal. The fastest route is Waterloo in 76 minutes on a direct train.
+Southampton Central connects to 2 London terminals. The fastest route is Waterloo in 76 minutes on a direct train.
 
 - Fastest journey to London: 76 minutes to Waterloo
 - Direct service: Yes
-- London terminals served: 1 (Waterloo)
+- London terminals served: 2 (Waterloo, Paddington)
 - Operator: South Western Railway
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,13 @@ Southampton Central connects to 1 London terminal. The fastest route is Waterloo
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Waterloo | 76 min | same as fastest | 82 | 2.4 | South Western Railway |
+| Paddington | 84 min (change at Reading) | no direct service | - | - | Great Western Railway, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Southampton Central to London take?
 
-The fastest train from Southampton Central reaches London Waterloo in 76 minutes. Southampton Central connects to 1 London terminal: Waterloo.
+The fastest train from Southampton Central reaches London Waterloo in 76 minutes. Southampton Central connects to 2 London terminals: Waterloo, Paddington.
 
 ### Which London station should I travel to from Southampton Central?
 

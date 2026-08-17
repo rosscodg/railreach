@@ -1,11 +1,11 @@
 # Train times from Bayford to London
 
-Bayford connects to 2 London terminals. The fastest route is Moorgate in 46 minutes on a direct train.
+Bayford connects to 4 London terminals. The fastest route is Kings Cross in 46 minutes, with one change.
 
-- Fastest journey to London: 46 minutes to Moorgate
-- Direct service: Yes
-- London terminals served: 2 (Moorgate, Kings Cross)
-- Operator: Great Northern
+- Fastest journey to London: 46 minutes to Kings Cross
+- Direct service: No - one change required
+- London terminals served: 4 (Kings Cross, Moorgate, St Pancras, London Bridge)
+- Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
 
@@ -13,22 +13,24 @@ Bayford connects to 2 London terminals. The fastest route is Moorgate in 46 minu
 
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
-| Moorgate | 46 min | same as fastest | 48 | 4.8 | Great Northern |
 | Kings Cross | 46 min (change at Stevenage) | no direct service | - | - | Great Northern, LNER, Hull Trains, Lumo |
+| Moorgate | 46 min | same as fastest | 48 | 4.8 | Great Northern |
+| St Pancras | 47 min (change at Finsbury Park) | no direct service | - | - | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 62 min (change at Finsbury Park) | no direct service | - | - | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 
 ### How long does the train from Bayford to London take?
 
-The fastest train from Bayford reaches London Moorgate in 46 minutes. Bayford connects to 2 London terminals: Moorgate, Kings Cross.
+The fastest train from Bayford reaches London Kings Cross in 46 minutes. Bayford connects to 4 London terminals: Kings Cross, Moorgate, St Pancras, London Bridge.
 
 ### Which London station should I travel to from Bayford?
 
-Moorgate is the quickest at 46 minutes, on a direct service. Direct trains run to Moorgate.
+Kings Cross is the quickest at 46 minutes, though it requires a change. Direct trains run to Moorgate.
 
 ### Is Bayford a good commuter town for London?
 
-At 46 minutes to London Moorgate, Bayford is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 46 minutes to London Kings Cross, Bayford is a practical commuter choice, with the fastest journey under an hour. Most services require one change.
 
 ### Are there direct trains from Bayford to London?
 

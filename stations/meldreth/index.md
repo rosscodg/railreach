@@ -1,10 +1,10 @@
 # Train times from Meldreth to London
 
-Meldreth connects to 1 London terminal. The fastest route is Kings Cross in 51 minutes on a direct train.
+Meldreth connects to 4 London terminals. The fastest route is Kings Cross in 51 minutes on a direct train.
 
 - Fastest journey to London: 51 minutes to Kings Cross
 - Direct service: Yes
-- London terminals served: 1 (Kings Cross)
+- London terminals served: 4 (Kings Cross, St Pancras, London Bridge, Moorgate)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,15 @@ Meldreth connects to 1 London terminal. The fastest route is Kings Cross in 51 m
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Kings Cross | 51 min | same as fastest | 51 | 2.0 | Great Northern, LNER, Hull Trains, Lumo |
+| St Pancras | 61 min (change at Hitchin) | no direct service | - | - | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 76 min (change at Hitchin) | no direct service | - | - | Southeastern, Southern, Thameslink |
+| Moorgate | 85 min (change at Finsbury Park) | no direct service | - | - | Great Northern |
 
 ## Frequently asked questions
 
 ### How long does the train from Meldreth to London take?
 
-The fastest train from Meldreth reaches London Kings Cross in 51 minutes. Meldreth connects to 1 London terminal: Kings Cross.
+The fastest train from Meldreth reaches London Kings Cross in 51 minutes. Meldreth connects to 4 London terminals: Kings Cross, St Pancras, London Bridge, Moorgate.
 
 ### Which London station should I travel to from Meldreth?
 

@@ -1,10 +1,10 @@
 # Train times from Box Hill & Westhumble to London
 
-Box Hill & Westhumble connects to 2 London terminals. The fastest route is Waterloo in 50 minutes on a direct train.
+Box Hill & Westhumble connects to 3 London terminals. The fastest route is Waterloo in 50 minutes on a direct train.
 
 - Fastest journey to London: 50 minutes to Waterloo
 - Direct service: Yes
-- London terminals served: 2 (Waterloo, Victoria)
+- London terminals served: 3 (Waterloo, Victoria, London Bridge)
 - Operator: South Western Railway
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -15,12 +15,13 @@ Box Hill & Westhumble connects to 2 London terminals. The fastest route is Water
 | --- | --- | --- | --- | --- |
 | Waterloo | 50 min | same as fastest | 54 | 2.0 | South Western Railway |
 | Victoria | 59 min | same as fastest | 61 | 1.2 | Southeastern, Southern |
+| London Bridge | 64 min (change at Epsom) | no direct service | - | - | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 
 ### How long does the train from Box Hill & Westhumble to London take?
 
-The fastest train from Box Hill & Westhumble reaches London Waterloo in 50 minutes. Box Hill & Westhumble connects to 2 London terminals: Waterloo, Victoria.
+The fastest train from Box Hill & Westhumble reaches London Waterloo in 50 minutes. Box Hill & Westhumble connects to 3 London terminals: Waterloo, Victoria, London Bridge.
 
 ### Which London station should I travel to from Box Hill & Westhumble?
 

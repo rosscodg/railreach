@@ -1,10 +1,10 @@
 # Train times from St Albans City to London
 
-St Albans City connects to 2 London terminals. The fastest route is St Pancras in 20 minutes on a direct train.
+St Albans City connects to 3 London terminals. The fastest route is St Pancras in 20 minutes on a direct train.
 
 - Fastest journey to London: 20 minutes to St Pancras
 - Direct service: Yes
-- London terminals served: 2 (St Pancras, London Bridge)
+- London terminals served: 3 (St Pancras, London Bridge, Victoria)
 - Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -15,12 +15,13 @@ St Albans City connects to 2 London terminals. The fastest route is St Pancras i
 | --- | --- | --- | --- | --- |
 | St Pancras | 20 min | same as fastest | 32 | 11.6 | Thameslink, East Midlands Railway, Southeastern high speed |
 | London Bridge | 36 min | same as fastest | 37 | 5.6 | Southeastern, Southern, Thameslink |
+| Victoria | 76 min (change at Denmark Hill) | no direct service | - | - | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from St Albans City to London take?
 
-The fastest train from St Albans City reaches London St Pancras in 20 minutes. St Albans City connects to 2 London terminals: St Pancras, London Bridge.
+The fastest train from St Albans City reaches London St Pancras in 20 minutes. St Albans City connects to 3 London terminals: St Pancras, London Bridge, Victoria.
 
 ### Which London station should I travel to from St Albans City?
 

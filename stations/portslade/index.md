@@ -1,10 +1,10 @@
 # Train times from Portslade to London
 
-Portslade connects to 1 London terminal. The fastest route is Victoria in 70 minutes on a direct train.
+Portslade connects to 2 London terminals. The fastest route is Victoria in 70 minutes on a direct train.
 
 - Fastest journey to London: 70 minutes to Victoria
 - Direct service: Yes
-- London terminals served: 1 (Victoria)
+- London terminals served: 2 (Victoria, London Bridge)
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,13 @@ Portslade connects to 1 London terminal. The fastest route is Victoria in 70 min
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Victoria | 70 min | same as fastest | 72 | 1.6 | Southeastern, Southern |
+| London Bridge | 77 min (change at Brighton) | no direct service | - | - | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 
 ### How long does the train from Portslade to London take?
 
-The fastest train from Portslade reaches London Victoria in 70 minutes. Portslade connects to 1 London terminal: Victoria.
+The fastest train from Portslade reaches London Victoria in 70 minutes. Portslade connects to 2 London terminals: Victoria, London Bridge.
 
 ### Which London station should I travel to from Portslade?
 

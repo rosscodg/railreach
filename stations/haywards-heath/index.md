@@ -1,10 +1,10 @@
 # Train times from Haywards Heath to London
 
-Haywards Heath connects to 3 London terminals. The fastest route is Victoria in 43 minutes on a direct train.
+Haywards Heath connects to 5 London terminals. The fastest route is Victoria in 43 minutes on a direct train.
 
 - Fastest journey to London: 43 minutes to Victoria
 - Direct service: Yes
-- London terminals served: 3 (Victoria, London Bridge, St Pancras)
+- London terminals served: 5 (Victoria, London Bridge, St Pancras, Kings Cross, Moorgate)
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -16,12 +16,14 @@ Haywards Heath connects to 3 London terminals. The fastest route is Victoria in 
 | Victoria | 43 min | same as fastest | 47 | 4.8 | Southeastern, Southern |
 | London Bridge | 44 min | same as fastest | 46 | 4.4 | Southeastern, Southern, Thameslink |
 | St Pancras | 59 min | same as fastest | 61 | 4.4 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Kings Cross | 81 min (change at Finsbury Park) | no direct service | - | - | Great Northern, LNER, Hull Trains, Lumo |
+| Moorgate | 88 min (change at Finsbury Park) | no direct service | - | - | Great Northern |
 
 ## Frequently asked questions
 
 ### How long does the train from Haywards Heath to London take?
 
-The fastest train from Haywards Heath reaches London Victoria in 43 minutes. Haywards Heath connects to 3 London terminals: Victoria, London Bridge, St Pancras.
+The fastest train from Haywards Heath reaches London Victoria in 43 minutes. Haywards Heath connects to 5 London terminals: Victoria, London Bridge, St Pancras, Kings Cross, Moorgate.
 
 ### Which London station should I travel to from Haywards Heath?
 

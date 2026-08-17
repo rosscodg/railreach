@@ -1,10 +1,10 @@
 # Train times from St Neots to London
 
-St Neots connects to 3 London terminals. The fastest route is Kings Cross in 39 minutes on a direct train.
+St Neots connects to 4 London terminals. The fastest route is Kings Cross in 39 minutes on a direct train.
 
 - Fastest journey to London: 39 minutes to Kings Cross
 - Direct service: Yes
-- London terminals served: 3 (Kings Cross, St Pancras, London Bridge)
+- London terminals served: 4 (Kings Cross, St Pancras, London Bridge, Moorgate)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -16,12 +16,13 @@ St Neots connects to 3 London terminals. The fastest route is Kings Cross in 39 
 | Kings Cross | 39 min | same as fastest | 45 | 1.5 | Great Northern, LNER, Hull Trains, Lumo |
 | St Pancras | 56 min | same as fastest | 58 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 | London Bridge | 71 min | same as fastest | 73 | 2.0 | Southeastern, Southern, Thameslink |
+| Moorgate | 71 min (change at Finsbury Park) | no direct service | - | - | Great Northern |
 
 ## Frequently asked questions
 
 ### How long does the train from St Neots to London take?
 
-The fastest train from St Neots reaches London Kings Cross in 39 minutes. St Neots connects to 3 London terminals: Kings Cross, St Pancras, London Bridge.
+The fastest train from St Neots reaches London Kings Cross in 39 minutes. St Neots connects to 4 London terminals: Kings Cross, St Pancras, London Bridge, Moorgate.
 
 ### Which London station should I travel to from St Neots?
 

@@ -1,10 +1,10 @@
 # Train times from East Croydon to London
 
-East Croydon connects to 3 London terminals. The fastest route is London Bridge in 13 minutes on a direct train.
+East Croydon connects to 6 London terminals. The fastest route is London Bridge in 13 minutes on a direct train.
 
 - Fastest journey to London: 13 minutes to London Bridge
 - Direct service: Yes
-- London terminals served: 3 (London Bridge, Victoria, St Pancras)
+- London terminals served: 6 (London Bridge, Victoria, St Pancras, Kings Cross, Moorgate, Euston)
 - Operator: Southeastern, Southern, Thameslink
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -16,12 +16,15 @@ East Croydon connects to 3 London terminals. The fastest route is London Bridge 
 | London Bridge | 13 min | same as fastest | 15 | 12.8 | Southeastern, Southern, Thameslink |
 | Victoria | 16 min | same as fastest | 17 | 9.2 | Southeastern, Southern |
 | St Pancras | 29 min | same as fastest | 30 | 8.8 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Kings Cross | 51 min (change at Finsbury Park) | no direct service | - | - | Great Northern, LNER, Hull Trains, Lumo |
+| Moorgate | 58 min (change at Finsbury Park) | no direct service | - | - | Great Northern |
+| Euston | 83 min (change at Harrow & Wealdstone) | no direct service | - | - | Avanti West Coast, London Northwestern |
 
 ## Frequently asked questions
 
 ### How long does the train from East Croydon to London take?
 
-The fastest train from East Croydon reaches London London Bridge in 13 minutes. East Croydon connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from East Croydon reaches London London Bridge in 13 minutes. East Croydon connects to 6 London terminals: London Bridge, Victoria, St Pancras, Kings Cross, Moorgate, Euston.
 
 ### Which London station should I travel to from East Croydon?
 

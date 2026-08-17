@@ -1,10 +1,10 @@
 # Train times from Harlow Mill to London
 
-Harlow Mill connects to 1 London terminal. The fastest route is Liverpool Street in 37 minutes on a direct train.
+Harlow Mill connects to 2 London terminals. The fastest route is Liverpool Street in 37 minutes on a direct train.
 
 - Fastest journey to London: 37 minutes to Liverpool Street
 - Direct service: Yes
-- London terminals served: 1 (Liverpool Street)
+- London terminals served: 2 (Liverpool Street, Paddington)
 - Operator: Greater Anglia, Elizabeth line
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,13 @@ Harlow Mill connects to 1 London terminal. The fastest route is Liverpool Street
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Liverpool Street | 37 min | same as fastest | 42 | 1.9 | Greater Anglia, Elizabeth line |
+| Paddington | 75 min (change at Stratford (London)) | no direct service | - | - | Great Western Railway, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Harlow Mill to London take?
 
-The fastest train from Harlow Mill reaches London Liverpool Street in 37 minutes. Harlow Mill connects to 1 London terminal: Liverpool Street.
+The fastest train from Harlow Mill reaches London Liverpool Street in 37 minutes. Harlow Mill connects to 2 London terminals: Liverpool Street, Paddington.
 
 ### Which London station should I travel to from Harlow Mill?
 

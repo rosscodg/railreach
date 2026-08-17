@@ -1,10 +1,10 @@
 # Train times from Balham to London
 
-Balham connects to 2 London terminals. The fastest route is Victoria in 12 minutes on a direct train.
+Balham connects to 5 London terminals. The fastest route is Victoria in 12 minutes on a direct train.
 
 - Fastest journey to London: 12 minutes to Victoria
 - Direct service: Yes
-- London terminals served: 2 (Victoria, London Bridge)
+- London terminals served: 5 (Victoria, London Bridge, St Pancras, Euston, Waterloo)
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -15,12 +15,15 @@ Balham connects to 2 London terminals. The fastest route is Victoria in 12 minut
 | --- | --- | --- | --- | --- |
 | Victoria | 12 min | same as fastest | 14 | 10.8 | Southeastern, Southern |
 | London Bridge | 39 min | same as fastest | 44 | 1.6 | Southeastern, Southern, Thameslink |
+| St Pancras | 59 min (change at East Croydon) | no direct service | - | - | Thameslink, East Midlands Railway, Southeastern high speed |
+| Euston | 64 min (change at Harrow & Wealdstone) | no direct service | - | - | Avanti West Coast, London Northwestern |
+| Waterloo | 82 min (change at Epsom) | no direct service | - | - | South Western Railway |
 
 ## Frequently asked questions
 
 ### How long does the train from Balham to London take?
 
-The fastest train from Balham reaches London Victoria in 12 minutes. Balham connects to 2 London terminals: Victoria, London Bridge.
+The fastest train from Balham reaches London Victoria in 12 minutes. Balham connects to 5 London terminals: Victoria, London Bridge, St Pancras, Euston, Waterloo.
 
 ### Which London station should I travel to from Balham?
 

@@ -1,10 +1,10 @@
 # Train times from Watford Junction to London
 
-Watford Junction connects to 1 London terminal. The fastest route is Euston in 15 minutes on a direct train.
+Watford Junction connects to 2 London terminals. The fastest route is Euston in 15 minutes on a direct train.
 
 - Fastest journey to London: 15 minutes to Euston
 - Direct service: Yes
-- London terminals served: 1 (Euston)
+- London terminals served: 2 (Euston, Victoria)
 - Operator: Avanti West Coast, London Northwestern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,13 @@ Watford Junction connects to 1 London terminal. The fastest route is Euston in 1
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Euston | 15 min | same as fastest | 23 | 10.7 | Avanti West Coast, London Northwestern |
+| Victoria | 52 min (change at Clapham Junction) | no direct service | - | - | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from Watford Junction to London take?
 
-The fastest train from Watford Junction reaches London Euston in 15 minutes. Watford Junction connects to 1 London terminal: Euston.
+The fastest train from Watford Junction reaches London Euston in 15 minutes. Watford Junction connects to 2 London terminals: Euston, Victoria.
 
 ### Which London station should I travel to from Watford Junction?
 

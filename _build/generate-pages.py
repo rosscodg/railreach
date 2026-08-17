@@ -141,9 +141,20 @@ def direct_cell(j):
     return f'{d} min'
 
 
+def no_direct(j):
+    """Reachable, but only by changing."""
+    return has_time(j) and j.get('directMins') is None
+
+
 def typical_cell(j):
     t = j.get('typicalPeakMins')
     if t is None:
+        # Peak figures are measured on direct services. Printing "no peak
+        # service" for a station that has no direct service at all reads as
+        # "you cannot do this in the peak", which is not what we know: we have
+        # not measured connections in the peak.
+        if no_direct(j):
+            return '<span class="muted">direct trains only</span>'
         return '<span class="muted">no peak service</span>'
     gap = t - j['mins']
     cls = ' class="gap-wide"' if gap >= 10 else ''
@@ -152,7 +163,10 @@ def typical_cell(j):
 
 def frequency_cell(j):
     f = j.get('peakTrainsPerHour')
-    return f'{f}/hr' if f else '<span class="muted">&ndash;</span>'
+    if f:
+        return f'{f}/hr'
+    return ('<span class="muted">direct trains only</span>' if no_direct(j)
+            else '<span class="muted">&ndash;</span>')
 
 
 def band(mins):
@@ -455,6 +469,9 @@ def js_data_block(terminals, stations):
             # Only carried when the quickest way needs a change, so the payload
             # does not repeat the headline for the majority that are direct.
             + (f', dm: {v["directMins"]}' if not v['direct'] and v.get('directMins') else '')
+            # Explicit, rather than inferred from a missing dm: "no direct
+            # service" and "direct exists but is slower" need different words.
+            + (', nd: 1' if v.get('directMins') is None else '')
             + (f', at: "{json_esc(v["changeAt"])}"' if not v['direct'] and v.get('changeAt') else '')
             + (f', typical: {v["typicalPeakMins"]}' if v.get('typicalPeakMins') else '')
             + (f', tph: {v["peakTrainsPerHour"]}' if v.get('peakTrainsPerHour') else '')
@@ -1027,33 +1044,44 @@ def generate_station_page(station_name, slug, terminals, stations, total):
         for c, j in timed)
 
     def terminal_popup(c, j):
-        """The same three measures the homepage popup shows.
+        """The station page's terminal popups, matching the map's layout.
 
-        A reader who clicks a terminal here is asking the same question as one
-        clicking a station there, so give the same answer: the fastest time on
-        its own flatters a route where the train you can actually catch is
-        twenty minutes slower.
+        Same shape as RR.stationPopup on the homepage: the journey time leads,
+        any change it depends on sits directly beneath it, and the peak rows
+        are omitted where no direct service exists rather than reporting "no
+        peak service" for something we have simply not measured.
         """
-        sub = 'from {}{}'.format(json_esc(station_name),
-                                 '' if j['direct'] else ', with a change')
-        stats = '<div><dt>Fastest</dt><dd>{} min</dd></div>'.format(j['mins'])
-        typical = j.get('typicalPeakMins')
-        if typical is None:
-            stats += ('<div><dt>Typical peak</dt>'
-                      '<dd class="pop-none">no peak service</dd></div>')
-        else:
-            gap = ' class="pop-gap"' if typical - j['mins'] >= 10 else ''
-            stats += ('<div{}><dt>Typical peak</dt>'
-                      '<dd>{} min</dd></div>'.format(gap, typical))
-        tph = j.get('peakTrainsPerHour')
-        if tph:
-            stats += '<div><dt>Peak trains</dt><dd>{}/hr</dd></div>'.format(tph)
-        return (
-            '<strong>London {}</strong><div class="pop-sub">{}</div>'
-            '<dl class="pop-stats">{}</dl>'
-            '<a class="popup-link" href="/terminals/{}/">Terminal guide &rarr;</a>'
-        ).format(json_esc(TERMINAL_META[c]['name']), sub, stats,
-                 TERMINAL_META[c]['slug'])
+        html = ('<strong>London {}</strong>'
+                '<div class="pop-sub">from {}</div>'
+                '<div class="pop-hero"><b>{}</b> min</div>').format(
+                    json_esc(TERMINAL_META[c]['name']), json_esc(station_name), j['mins'])
+        if not j['direct'] and j.get('changeAt'):
+            html += '<div class="pop-change">change at {}</div>'.format(json_esc(j['changeAt']))
+
+        rows = ''
+        if j.get('directMins') is None:
+            rows += '<div><dt>Direct train</dt><dd class="pop-none">none</dd></div>'
+        elif not j['direct']:
+            rows += '<div><dt>Fastest direct</dt><dd>{} min</dd></div>'.format(j['directMins'])
+
+        if j.get('directMins') is not None:
+            typical = j.get('typicalPeakMins')
+            if typical is None:
+                rows += ('<div><dt>Typical peak</dt>'
+                         '<dd class="pop-none">no peak service</dd></div>')
+            else:
+                gap = ' class="pop-gap"' if typical - j['mins'] >= 10 else ''
+                rows += ('<div{}><dt>Typical peak</dt>'
+                         '<dd>{} min</dd></div>').format(gap, typical)
+            tph = j.get('peakTrainsPerHour')
+            if tph:
+                rows += '<div><dt>Peak trains</dt><dd>{}/hr</dd></div>'.format(tph)
+
+        if rows:
+            html += '<dl class="pop-stats">{}</dl>'.format(rows)
+        html += ('<a class="popup-link" href="/terminals/{}/">Terminal guide &rarr;</a>'
+                 ).format(TERMINAL_META[c]['slug'])
+        return html
 
     term_markers = '\n'.join(
         "RR.terminalMarker(map,{},{},'{}');".format(

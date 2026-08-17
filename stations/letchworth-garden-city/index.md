@@ -1,10 +1,10 @@
 # Train times from Letchworth Garden City to London
 
-Letchworth Garden City connects to 3 London terminals. The fastest route is Kings Cross in 29 minutes on a direct train.
+Letchworth Garden City connects to 4 London terminals. The fastest route is Kings Cross in 29 minutes on a direct train.
 
 - Fastest journey to London: 29 minutes to Kings Cross
 - Direct service: Yes
-- London terminals served: 3 (Kings Cross, St Pancras, London Bridge)
+- London terminals served: 4 (Kings Cross, St Pancras, London Bridge, Moorgate)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -16,12 +16,13 @@ Letchworth Garden City connects to 3 London terminals. The fastest route is King
 | Kings Cross | 29 min | same as fastest | 33 | 5.9 | Great Northern, LNER, Hull Trains, Lumo |
 | St Pancras | 38 min | same as fastest | 39 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 | London Bridge | 53 min | same as fastest | 54 | 2.0 | Southeastern, Southern, Thameslink |
+| Moorgate | 53 min (change at Finsbury Park) | no direct service | - | - | Great Northern |
 
 ## Frequently asked questions
 
 ### How long does the train from Letchworth Garden City to London take?
 
-The fastest train from Letchworth Garden City reaches London Kings Cross in 29 minutes. Letchworth Garden City connects to 3 London terminals: Kings Cross, St Pancras, London Bridge.
+The fastest train from Letchworth Garden City reaches London Kings Cross in 29 minutes. Letchworth Garden City connects to 4 London terminals: Kings Cross, St Pancras, London Bridge, Moorgate.
 
 ### Which London station should I travel to from Letchworth Garden City?
 

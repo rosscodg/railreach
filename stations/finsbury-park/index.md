@@ -1,10 +1,10 @@
 # Train times from Finsbury Park to London
 
-Finsbury Park connects to 4 London terminals. The fastest route is Kings Cross in 6 minutes on a direct train.
+Finsbury Park connects to 5 London terminals. The fastest route is Kings Cross in 6 minutes on a direct train.
 
 - Fastest journey to London: 6 minutes to Kings Cross
 - Direct service: Yes
-- London terminals served: 4 (Kings Cross, St Pancras, Moorgate, London Bridge)
+- London terminals served: 5 (Kings Cross, St Pancras, Moorgate, London Bridge, Victoria)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -17,12 +17,13 @@ Finsbury Park connects to 4 London terminals. The fastest route is Kings Cross i
 | St Pancras | 7 min | same as fastest | 7 | 6.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 | Moorgate | 14 min | same as fastest | 14 | 8.8 | Great Northern |
 | London Bridge | 22 min | same as fastest | 22 | 4.0 | Southeastern, Southern, Thameslink |
+| Victoria | 54 min (change at Denmark Hill) | no direct service | - | - | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from Finsbury Park to London take?
 
-The fastest train from Finsbury Park reaches London Kings Cross in 6 minutes. Finsbury Park connects to 4 London terminals: Kings Cross, St Pancras, Moorgate, London Bridge.
+The fastest train from Finsbury Park reaches London Kings Cross in 6 minutes. Finsbury Park connects to 5 London terminals: Kings Cross, St Pancras, Moorgate, London Bridge, Victoria.
 
 ### Which London station should I travel to from Finsbury Park?
 

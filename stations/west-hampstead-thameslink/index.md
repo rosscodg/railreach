@@ -1,10 +1,10 @@
 # Train times from West Hampstead Thameslink to London
 
-West Hampstead Thameslink connects to 2 London terminals. The fastest route is St Pancras in 8 minutes on a direct train.
+West Hampstead Thameslink connects to 3 London terminals. The fastest route is St Pancras in 8 minutes on a direct train.
 
 - Fastest journey to London: 8 minutes to St Pancras
 - Direct service: Yes
-- London terminals served: 2 (St Pancras, London Bridge)
+- London terminals served: 3 (St Pancras, London Bridge, Victoria)
 - Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -15,12 +15,13 @@ West Hampstead Thameslink connects to 2 London terminals. The fastest route is S
 | --- | --- | --- | --- | --- |
 | St Pancras | 8 min | same as fastest | 10 | 8.8 | Thameslink, East Midlands Railway, Southeastern high speed |
 | London Bridge | 24 min | same as fastest | 25 | 2.8 | Southeastern, Southern, Thameslink |
+| Victoria | 54 min (change at Denmark Hill) | no direct service | - | - | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from West Hampstead Thameslink to London take?
 
-The fastest train from West Hampstead Thameslink reaches London St Pancras in 8 minutes. West Hampstead Thameslink connects to 2 London terminals: St Pancras, London Bridge.
+The fastest train from West Hampstead Thameslink reaches London St Pancras in 8 minutes. West Hampstead Thameslink connects to 3 London terminals: St Pancras, London Bridge, Victoria.
 
 ### Which London station should I travel to from West Hampstead Thameslink?
 

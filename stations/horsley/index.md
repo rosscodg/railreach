@@ -1,10 +1,10 @@
 # Train times from Horsley to London
 
-Horsley connects to 1 London terminal. The fastest route is Waterloo in 47 minutes on a direct train.
+Horsley connects to 3 London terminals. The fastest route is Waterloo in 47 minutes on a direct train.
 
 - Fastest journey to London: 47 minutes to Waterloo
 - Direct service: Yes
-- London terminals served: 1 (Waterloo)
+- London terminals served: 3 (Waterloo, London Bridge, Victoria)
 - Operator: South Western Railway
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,14 @@ Horsley connects to 1 London terminal. The fastest route is Waterloo in 47 minut
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Waterloo | 47 min | same as fastest | 54 | 3.2 | South Western Railway |
+| London Bridge | 74 min (change at Epsom) | no direct service | - | - | Southeastern, Southern, Thameslink |
+| Victoria | 77 min (change at Leatherhead) | no direct service | - | - | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from Horsley to London take?
 
-The fastest train from Horsley reaches London Waterloo in 47 minutes. Horsley connects to 1 London terminal: Waterloo.
+The fastest train from Horsley reaches London Waterloo in 47 minutes. Horsley connects to 3 London terminals: Waterloo, London Bridge, Victoria.
 
 ### Which London station should I travel to from Horsley?
 

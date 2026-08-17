@@ -1,10 +1,10 @@
 # Train times from Grantham to London
 
-Grantham connects to 1 London terminal. The fastest route is Kings Cross in 65 minutes on a direct train.
+Grantham connects to 2 London terminals. The fastest route is Kings Cross in 65 minutes on a direct train.
 
 - Fastest journey to London: 65 minutes to Kings Cross
 - Direct service: Yes
-- London terminals served: 1 (Kings Cross)
+- London terminals served: 2 (Kings Cross, St Pancras)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,13 @@ Grantham connects to 1 London terminal. The fastest route is Kings Cross in 65 m
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Kings Cross | 65 min | same as fastest | 72 | 3.2 | Great Northern, LNER, Hull Trains, Lumo |
+| St Pancras | 82 min (change at Stevenage) | no direct service | - | - | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 
 ### How long does the train from Grantham to London take?
 
-The fastest train from Grantham reaches London Kings Cross in 65 minutes. Grantham connects to 1 London terminal: Kings Cross.
+The fastest train from Grantham reaches London Kings Cross in 65 minutes. Grantham connects to 2 London terminals: Kings Cross, St Pancras.
 
 ### Which London station should I travel to from Grantham?
 

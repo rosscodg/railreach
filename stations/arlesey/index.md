@@ -1,10 +1,10 @@
 # Train times from Arlesey to London
 
-Arlesey connects to 3 London terminals. The fastest route is Kings Cross in 38 minutes on a direct train.
+Arlesey connects to 4 London terminals. The fastest route is Kings Cross in 38 minutes on a direct train.
 
 - Fastest journey to London: 38 minutes to Kings Cross
 - Direct service: Yes
-- London terminals served: 3 (Kings Cross, St Pancras, London Bridge)
+- London terminals served: 4 (Kings Cross, St Pancras, London Bridge, Moorgate)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -16,12 +16,13 @@ Arlesey connects to 3 London terminals. The fastest route is Kings Cross in 38 m
 | Kings Cross | 38 min | same as fastest | - | - | Great Northern, LNER, Hull Trains, Lumo |
 | St Pancras | 39 min | same as fastest | 41 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 | London Bridge | 54 min | same as fastest | 56 | 2.0 | Southeastern, Southern, Thameslink |
+| Moorgate | 54 min (change at Finsbury Park) | no direct service | - | - | Great Northern |
 
 ## Frequently asked questions
 
 ### How long does the train from Arlesey to London take?
 
-The fastest train from Arlesey reaches London Kings Cross in 38 minutes. Arlesey connects to 3 London terminals: Kings Cross, St Pancras, London Bridge.
+The fastest train from Arlesey reaches London Kings Cross in 38 minutes. Arlesey connects to 4 London terminals: Kings Cross, St Pancras, London Bridge, Moorgate.
 
 ### Which London station should I travel to from Arlesey?
 

@@ -1,10 +1,10 @@
 # Train times from Guildford to London
 
-Guildford connects to 1 London terminal. The fastest route is Waterloo in 32 minutes on a direct train.
+Guildford connects to 4 London terminals. The fastest route is Waterloo in 32 minutes on a direct train.
 
 - Fastest journey to London: 32 minutes to Waterloo
 - Direct service: Yes
-- London terminals served: 1 (Waterloo)
+- London terminals served: 4 (Waterloo, London Bridge, Paddington, Victoria)
 - Operator: South Western Railway
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,15 @@ Guildford connects to 1 London terminal. The fastest route is Waterloo in 32 min
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Waterloo | 32 min | same as fastest | 44 | 8.0 | South Western Railway |
+| London Bridge | 78 min (change at Redhill) | no direct service | - | - | Southeastern, Southern, Thameslink |
+| Paddington | 82 min (change at Reading) | no direct service | - | - | Great Western Railway, Elizabeth line |
+| Victoria | 87 min (change at Gatwick Airport) | no direct service | - | - | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from Guildford to London take?
 
-The fastest train from Guildford reaches London Waterloo in 32 minutes. Guildford connects to 1 London terminal: Waterloo.
+The fastest train from Guildford reaches London Waterloo in 32 minutes. Guildford connects to 4 London terminals: Waterloo, London Bridge, Paddington, Victoria.
 
 ### Which London station should I travel to from Guildford?
 

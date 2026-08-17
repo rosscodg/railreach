@@ -1,10 +1,10 @@
 # Train times from Swanley to London
 
-Swanley connects to 3 London terminals. The fastest route is Victoria in 27 minutes on a direct train.
+Swanley connects to 5 London terminals. The fastest route is Victoria in 27 minutes on a direct train.
 
 - Fastest journey to London: 27 minutes to Victoria
 - Direct service: Yes
-- London terminals served: 3 (Victoria, London Bridge, St Pancras)
+- London terminals served: 5 (Victoria, London Bridge, St Pancras, Moorgate, Kings Cross)
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -16,12 +16,14 @@ Swanley connects to 3 London terminals. The fastest route is Victoria in 27 minu
 | Victoria | 27 min | same as fastest | 35 | 6.0 | Southeastern, Southern |
 | London Bridge | 49 min (change at London Blackfriars) | no direct service | - | - | Southeastern, Southern, Thameslink |
 | St Pancras | 54 min (change at London Blackfriars) | 57 min | 57 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Moorgate | 86 min (change at Finsbury Park) | no direct service | - | - | Great Northern |
+| Kings Cross | 89 min (change at Finsbury Park) | no direct service | - | - | Great Northern, LNER, Hull Trains, Lumo |
 
 ## Frequently asked questions
 
 ### How long does the train from Swanley to London take?
 
-The fastest train from Swanley reaches London Victoria in 27 minutes. Swanley connects to 3 London terminals: Victoria, London Bridge, St Pancras.
+The fastest train from Swanley reaches London Victoria in 27 minutes. Swanley connects to 5 London terminals: Victoria, London Bridge, St Pancras, Moorgate, Kings Cross.
 
 ### Which London station should I travel to from Swanley?
 

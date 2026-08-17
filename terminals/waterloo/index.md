@@ -1,10 +1,10 @@
 # Train journey times to London Waterloo
 
-79 stations reach London Waterloo within 90 minutes, 76 of them on a
+86 stations reach London Waterloo within 90 minutes, 76 of them on a
 direct train. Services are operated by South Western Railway.
 
-- Stations within 90 minutes: 79
-- Direct services: 76 of 79
+- Stations within 90 minutes: 86
+- Direct services: 76 of 86
 - Stations under 30 minutes: 24
 - Fastest station: Vauxhall - 4 minutes
 - Operators: South Western Railway
@@ -80,6 +80,7 @@ direct train. Services are operated by South Western Railway.
 | Overton | 53 min | same as fastest | 55 | 1.9 |
 | Hook | 54 min | same as fastest | 60 | 2.4 |
 | Ascot | 55 min | same as fastest | 60 | 2.8 |
+| Sutton | 55 min (change at Epsom) | no direct service | - | - |
 | Witley | 56 min | same as fastest | 60 | 2.0 |
 | Winchester | 58 min | same as fastest | 70 | 4.0 |
 | Bentley | 59 min | same as fastest | 60 | 2.0 |
@@ -89,11 +90,17 @@ direct train. Services are operated by South Western Railway.
 | Petersfield | 63 min | same as fastest | 79 | 4.4 |
 | Liss | 65 min | same as fastest | 77 | 2.4 |
 | Alton | 66 min | same as fastest | 67 | 2.0 |
+| Reigate | 67 min (change at Guildford) | no direct service | - | - |
+| West Croydon | 69 min (change at Epsom) | no direct service | - | - |
+| Redhill | 72 min (change at Guildford) | no direct service | - | - |
 | Grateley | 75 min | same as fastest | 77 | 1.9 |
 | Southampton Central | 76 min | same as fastest | 82 | 2.4 |
 | Havant | 77 min | same as fastest | 97 | 4.4 |
 | Reading | 80 min (change at Basingstoke) | 85 min | 88 | 2.0 |
 | Salisbury | 80 min | same as fastest | 90 | 1.9 |
+| Balham | 82 min (change at Epsom) | no direct service | - | - |
+| Gatwick Airport | 83 min (change at Guildford) | no direct service | - | - |
+| Horsham | 89 min (change at Dorking) | no direct service | - | - |
 
 ## Frequently asked questions
 
@@ -107,7 +114,7 @@ The fastest connection is from Vauxhall, at 4 minutes on a direct service. Servi
 
 ### How many stations connect to Waterloo?
 
-79 stations have a service to London Waterloo within 90 minutes, and 76 of those are direct trains with no change required.
+86 stations have a service to London Waterloo within 90 minutes, and 76 of those are direct trains with no change required.
 
 ### What areas does Waterloo serve?
 
@@ -115,7 +122,7 @@ London Waterloo primarily serves Surrey, Hampshire and the South West. Key commu
 
 ### Is Waterloo a good terminal to commute into?
 
-With 79 stations inside 90 minutes and 76 direct services, Waterloo offers unusually broad commuter coverage. The quickest option is Vauxhall at 4 minutes.
+With 86 stations inside 90 minutes and 76 direct services, Waterloo offers unusually broad commuter coverage. The quickest option is Vauxhall at 4 minutes.
 
 ## About this data
 

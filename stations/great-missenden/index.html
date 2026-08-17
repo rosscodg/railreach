@@ -27,7 +27,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<link rel="stylesheet" href="/assets/css/shared.css?v=b2e3cd6b">
+<link rel="stylesheet" href="/assets/css/shared.css?v=a4c16675">
 <style>:root { --map-h: 56vh; }</style>
 </head>
 <body>
@@ -256,12 +256,12 @@
 }
 ]</script>
 
-<script src="/assets/js/stations-data.js?v=98f6f1f6"></script>
-<script src="/assets/js/map-ui.js?v=afe4b8dd"></script>
+<script src="/assets/js/stations-data.js?v=41b654d1"></script>
+<script src="/assets/js/map-ui.js?v=28af0e35"></script>
 <script>
 const map=RR.createMap('map');
 L.circleMarker([51.703519,-0.709141],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Great Missenden</strong><br>This station').addTo(map);
-RR.terminalMarker(map,51.522524,-0.162911,'<strong>London Marylebone</strong><div class="pop-sub">from Great Missenden</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>39 min</dd></div><div><dt>Typical peak</dt><dd>46 min</dd></div><div><dt>Peak trains</dt><dd>3.2/hr</dd></div></dl><a class="popup-link" href="/terminals/marylebone/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.522524,-0.162911,'<strong>London Marylebone</strong><div class="pop-sub">from Great Missenden</div><div class="pop-hero"><b>39</b> min</div><dl class="pop-stats"><div><dt>Typical peak</dt><dd>46 min</dd></div><div><dt>Peak trains</dt><dd>3.2/hr</dd></div></dl><a class="popup-link" href="/terminals/marylebone/">Terminal guide &rarr;</a>');
 L.polyline([[51.703519,-0.709141],[51.522524,-0.162911]],{color:RR.colour(39),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Great Missenden: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.

@@ -1,10 +1,10 @@
 # Train times from Upminster to London
 
-Upminster connects to 1 London terminal. The fastest route is Fenchurch Street in 21 minutes on a direct train.
+Upminster connects to 3 London terminals. The fastest route is Fenchurch Street in 21 minutes on a direct train.
 
 - Fastest journey to London: 21 minutes to Fenchurch Street
 - Direct service: Yes
-- London terminals served: 1 (Fenchurch Street)
+- London terminals served: 3 (Fenchurch Street, Liverpool Street, Paddington)
 - Operator: c2c
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,14 @@ Upminster connects to 1 London terminal. The fastest route is Fenchurch Street i
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Fenchurch Street | 21 min | same as fastest | 24 | 8.8 | c2c |
+| Liverpool Street | 38 min (change at Romford) | no direct service | - | - | Greater Anglia, Elizabeth line |
+| Paddington | 58 min (change at Romford) | no direct service | - | - | Great Western Railway, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Upminster to London take?
 
-The fastest train from Upminster reaches London Fenchurch Street in 21 minutes. Upminster connects to 1 London terminal: Fenchurch Street.
+The fastest train from Upminster reaches London Fenchurch Street in 21 minutes. Upminster connects to 3 London terminals: Fenchurch Street, Liverpool Street, Paddington.
 
 ### Which London station should I travel to from Upminster?
 

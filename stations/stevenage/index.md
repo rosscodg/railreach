@@ -1,10 +1,10 @@
 # Train times from Stevenage to London
 
-Stevenage connects to 4 London terminals. The fastest route is Kings Cross in 20 minutes on a direct train.
+Stevenage connects to 5 London terminals. The fastest route is Kings Cross in 20 minutes on a direct train.
 
 - Fastest journey to London: 20 minutes to Kings Cross
 - Direct service: Yes
-- London terminals served: 4 (Kings Cross, St Pancras, London Bridge, Moorgate)
+- London terminals served: 5 (Kings Cross, St Pancras, London Bridge, Moorgate, Victoria)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -17,12 +17,13 @@ Stevenage connects to 4 London terminals. The fastest route is Kings Cross in 20
 | St Pancras | 27 min | same as fastest | 28 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 | London Bridge | 42 min | same as fastest | 44 | 4.0 | Southeastern, Southern, Thameslink |
 | Moorgate | 42 min (change at Finsbury Park) | 65 min | 66 | 2.0 | Great Northern |
+| Victoria | 86 min (change at East Croydon) | no direct service | - | - | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from Stevenage to London take?
 
-The fastest train from Stevenage reaches London Kings Cross in 20 minutes. Stevenage connects to 4 London terminals: Kings Cross, St Pancras, London Bridge, Moorgate.
+The fastest train from Stevenage reaches London Kings Cross in 20 minutes. Stevenage connects to 5 London terminals: Kings Cross, St Pancras, London Bridge, Moorgate, Victoria.
 
 ### Which London station should I travel to from Stevenage?
 

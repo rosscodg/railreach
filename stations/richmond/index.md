@@ -1,10 +1,10 @@
 # Train times from Richmond to London
 
-Richmond connects to 1 London terminal. The fastest route is Waterloo in 19 minutes on a direct train.
+Richmond connects to 3 London terminals. The fastest route is Waterloo in 19 minutes on a direct train.
 
 - Fastest journey to London: 19 minutes to Waterloo
 - Direct service: Yes
-- London terminals served: 1 (Waterloo)
+- London terminals served: 3 (Waterloo, Liverpool Street, Paddington)
 - Operator: South Western Railway
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,14 @@ Richmond connects to 1 London terminal. The fastest route is Waterloo in 19 minu
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Waterloo | 19 min | same as fastest | 28 | 11.6 | South Western Railway |
+| Liverpool Street | 77 min (change at Stratford (London)) | no direct service | - | - | Greater Anglia, Elizabeth line |
+| Paddington | 88 min (change at Stratford (London)) | no direct service | - | - | Great Western Railway, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Richmond to London take?
 
-The fastest train from Richmond reaches London Waterloo in 19 minutes. Richmond connects to 1 London terminal: Waterloo.
+The fastest train from Richmond reaches London Waterloo in 19 minutes. Richmond connects to 3 London terminals: Waterloo, Liverpool Street, Paddington.
 
 ### Which London station should I travel to from Richmond?
 

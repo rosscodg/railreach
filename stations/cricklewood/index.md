@@ -1,10 +1,10 @@
 # Train times from Cricklewood to London
 
-Cricklewood connects to 1 London terminal. The fastest route is St Pancras in 13 minutes on a direct train.
+Cricklewood connects to 3 London terminals. The fastest route is St Pancras in 13 minutes on a direct train.
 
 - Fastest journey to London: 13 minutes to St Pancras
 - Direct service: Yes
-- London terminals served: 1 (St Pancras)
+- London terminals served: 3 (St Pancras, London Bridge, Victoria)
 - Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,14 @@ Cricklewood connects to 1 London terminal. The fastest route is St Pancras in 13
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | St Pancras | 13 min | same as fastest | 13 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 35 min (change at West Hampstead Thameslink) | no direct service | - | - | Southeastern, Southern, Thameslink |
+| Victoria | 58 min (change at Denmark Hill) | no direct service | - | - | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from Cricklewood to London take?
 
-The fastest train from Cricklewood reaches London St Pancras in 13 minutes. Cricklewood connects to 1 London terminal: St Pancras.
+The fastest train from Cricklewood reaches London St Pancras in 13 minutes. Cricklewood connects to 3 London terminals: St Pancras, London Bridge, Victoria.
 
 ### Which London station should I travel to from Cricklewood?
 

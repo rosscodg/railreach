@@ -1,10 +1,10 @@
 # Train times from Audley End to London
 
-Audley End connects to 1 London terminal. The fastest route is Liverpool Street in 55 minutes on a direct train.
+Audley End connects to 3 London terminals. The fastest route is Liverpool Street in 55 minutes on a direct train.
 
 - Fastest journey to London: 55 minutes to Liverpool Street
 - Direct service: Yes
-- London terminals served: 1 (Liverpool Street)
+- London terminals served: 3 (Liverpool Street, Kings Cross, St Pancras)
 - Operator: Greater Anglia, Elizabeth line
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,14 @@ Audley End connects to 1 London terminal. The fastest route is Liverpool Street 
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Liverpool Street | 55 min | same as fastest | 67 | 3.3 | Greater Anglia, Elizabeth line |
+| Kings Cross | 74 min (change at Cambridge South) | no direct service | - | - | Great Northern, LNER, Hull Trains, Lumo |
+| St Pancras | 86 min (change at Cambridge South) | no direct service | - | - | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 
 ### How long does the train from Audley End to London take?
 
-The fastest train from Audley End reaches London Liverpool Street in 55 minutes. Audley End connects to 1 London terminal: Liverpool Street.
+The fastest train from Audley End reaches London Liverpool Street in 55 minutes. Audley End connects to 3 London terminals: Liverpool Street, Kings Cross, St Pancras.
 
 ### Which London station should I travel to from Audley End?
 

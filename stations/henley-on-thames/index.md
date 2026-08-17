@@ -1,10 +1,10 @@
 # Train times from Henley-on-Thames to London
 
-Henley-on-Thames connects to 1 London terminal. The fastest route is Paddington in 52 minutes, with one change.
+Henley-on-Thames connects to 2 London terminals. The fastest route is Paddington in 52 minutes, with one change.
 
 - Fastest journey to London: 52 minutes to Paddington
 - Direct service: No - one change required
-- London terminals served: 1 (Paddington)
+- London terminals served: 2 (Paddington, Liverpool Street)
 - Operator: Great Western Railway, Elizabeth line
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,13 @@ Henley-on-Thames connects to 1 London terminal. The fastest route is Paddington 
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Paddington | 52 min (change at Twyford) | no direct service | - | - | Great Western Railway, Elizabeth line |
+| Liverpool Street | 77 min (change at Twyford) | no direct service | - | - | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Henley-on-Thames to London take?
 
-The fastest train from Henley-on-Thames reaches London Paddington in 52 minutes. Henley-on-Thames connects to 1 London terminal: Paddington.
+The fastest train from Henley-on-Thames reaches London Paddington in 52 minutes. Henley-on-Thames connects to 2 London terminals: Paddington, Liverpool Street.
 
 ### Which London station should I travel to from Henley-on-Thames?
 

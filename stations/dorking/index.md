@@ -1,10 +1,10 @@
 # Train times from Dorking to London
 
-Dorking connects to 2 London terminals. The fastest route is Waterloo in 53 minutes on a direct train.
+Dorking connects to 3 London terminals. The fastest route is Waterloo in 53 minutes on a direct train.
 
 - Fastest journey to London: 53 minutes to Waterloo
 - Direct service: Yes
-- London terminals served: 2 (Waterloo, Victoria)
+- London terminals served: 3 (Waterloo, Victoria, London Bridge)
 - Operator: South Western Railway
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -15,12 +15,13 @@ Dorking connects to 2 London terminals. The fastest route is Waterloo in 53 minu
 | --- | --- | --- | --- | --- |
 | Waterloo | 53 min | same as fastest | 57 | 2.0 | South Western Railway |
 | Victoria | 57 min | same as fastest | 64 | 2.0 | Southeastern, Southern |
+| London Bridge | 67 min (change at Epsom) | no direct service | - | - | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 
 ### How long does the train from Dorking to London take?
 
-The fastest train from Dorking reaches London Waterloo in 53 minutes. Dorking connects to 2 London terminals: Waterloo, Victoria.
+The fastest train from Dorking reaches London Waterloo in 53 minutes. Dorking connects to 3 London terminals: Waterloo, Victoria, London Bridge.
 
 ### Which London station should I travel to from Dorking?
 

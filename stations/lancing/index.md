@@ -1,10 +1,10 @@
 # Train times from Lancing to London
 
-Lancing connects to 1 London terminal. The fastest route is Victoria in 79 minutes on a direct train.
+Lancing connects to 2 London terminals. The fastest route is Victoria in 79 minutes on a direct train.
 
 - Fastest journey to London: 79 minutes to Victoria
 - Direct service: Yes
-- London terminals served: 1 (Victoria)
+- London terminals served: 2 (Victoria, London Bridge)
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,13 @@ Lancing connects to 1 London terminal. The fastest route is Victoria in 79 minut
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Victoria | 79 min | same as fastest | 82 | 1.6 | Southeastern, Southern |
+| London Bridge | 86 min (change at Gatwick Airport) | no direct service | - | - | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 
 ### How long does the train from Lancing to London take?
 
-The fastest train from Lancing reaches London Victoria in 79 minutes. Lancing connects to 1 London terminal: Victoria.
+The fastest train from Lancing reaches London Victoria in 79 minutes. Lancing connects to 2 London terminals: Victoria, London Bridge.
 
 ### Which London station should I travel to from Lancing?
 

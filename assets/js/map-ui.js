@@ -318,33 +318,47 @@ window.RR = (function () {
 
   /* ---- Markers and popups ----------------------------------------------- */
   function stationPopup(station, terminalName, journey) {
-    /* Four measures, and they answer different questions. "Fastest" is the
-     * quickest way there and may involve a change, so it names where; "fastest
-     * direct" is what you can do without changing, shown only when the two
-     * differ, since repeating the same number twice tells the reader nothing.
-     * The peak figures describe direct services, and say so. */
+    /* The journey time is the answer the reader came for, so it leads at a
+     * size nothing else competes with, and any change it depends on sits
+     * directly under it rather than being tucked into a row. The supporting
+     * measures follow as a quiet list.
+     *
+     * Where no through train runs, the peak rows are left out entirely. They
+     * are measured on direct services, so printing "no peak service" for a
+     * station that has no direct service at all would read as "you cannot do
+     * this in the peak" when what we mean is that we have not measured it. */
     var html = '<strong>' + esc(station.name) + '</strong>' +
       '<div class="pop-sub">to ' + esc(terminalName) + '</div>' +
-      '<dl class="pop-stats">' +
-      '<div><dt>Fastest</dt><dd>' + journey.mins + ' min' +
-      (journey.direct ? '' : '<span class="pop-via">change at ' +
-                             esc(journey.at || 'one station') + '</span>') +
-      '</dd></div>';
+      '<div class="pop-hero"><b>' + journey.mins + '</b> min</div>';
 
-    if (!journey.direct && journey.dm) {
-      html += '<div><dt>Fastest direct</dt><dd>' + journey.dm + ' min</dd></div>';
+    if (!journey.direct) {
+      html += '<div class="pop-change">change at ' +
+              esc(journey.at || 'one station') + '</div>';
     }
 
-    if (journey.typical) {
-      var gap = journey.typical - journey.mins;
-      html += '<div' + (gap >= 10 ? ' class="pop-gap"' : '') +
-        '><dt>Typical peak</dt><dd>' + journey.typical + ' min</dd></div>';
-    } else {
-      html += '<div><dt>Typical peak</dt><dd class="pop-none">no peak service</dd></div>';
+    var rows = '';
+    function row(label, value, cls) {
+      rows += '<div' + (cls ? ' class="' + cls + '"' : '') + '><dt>' + label +
+              '</dt><dd>' + value + '</dd></div>';
     }
 
-    if (journey.tph) html += '<div><dt>Peak trains</dt><dd>' + journey.tph + '/hr</dd></div>';
-    html += '</dl>';
+    if (journey.nd) {
+      row('Direct train', '<span class="pop-none">none</span>');
+    } else if (!journey.direct && journey.dm) {
+      row('Fastest direct', journey.dm + ' min');
+    }
+
+    if (!journey.nd) {
+      if (journey.typical) {
+        row('Typical peak', journey.typical + ' min',
+            journey.typical - journey.mins >= 10 ? 'pop-gap' : '');
+      } else {
+        row('Typical peak', '<span class="pop-none">no peak service</span>');
+      }
+      if (journey.tph) row('Peak trains', journey.tph + '/hr');
+    }
+
+    if (rows) html += '<dl class="pop-stats">' + rows + '</dl>';
 
     if (station.slug) {
       html += '<a class="popup-link" href="/stations/' + station.slug + '/">' +

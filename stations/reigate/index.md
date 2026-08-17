@@ -1,10 +1,10 @@
 # Train times from Reigate to London
 
-Reigate connects to 2 London terminals. The fastest route is Victoria in 45 minutes on a direct train.
+Reigate connects to 4 London terminals. The fastest route is Victoria in 45 minutes on a direct train.
 
 - Fastest journey to London: 45 minutes to Victoria
 - Direct service: Yes
-- London terminals served: 2 (Victoria, London Bridge)
+- London terminals served: 4 (Victoria, London Bridge, St Pancras, Waterloo)
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -15,12 +15,14 @@ Reigate connects to 2 London terminals. The fastest route is Victoria in 45 minu
 | --- | --- | --- | --- | --- |
 | Victoria | 45 min | same as fastest | 50 | 2.0 | Southeastern, Southern |
 | London Bridge | 46 min (change at Redhill) | no direct service | - | - | Southeastern, Southern, Thameslink |
+| St Pancras | 61 min (change at Redhill) | no direct service | - | - | Thameslink, East Midlands Railway, Southeastern high speed |
+| Waterloo | 67 min (change at Guildford) | no direct service | - | - | South Western Railway |
 
 ## Frequently asked questions
 
 ### How long does the train from Reigate to London take?
 
-The fastest train from Reigate reaches London Victoria in 45 minutes. Reigate connects to 2 London terminals: Victoria, London Bridge.
+The fastest train from Reigate reaches London Victoria in 45 minutes. Reigate connects to 4 London terminals: Victoria, London Bridge, St Pancras, Waterloo.
 
 ### Which London station should I travel to from Reigate?
 

@@ -1,10 +1,10 @@
 # Train times from Welwyn Garden City to London
 
-Welwyn Garden City connects to 4 London terminals. The fastest route is St Pancras in 22 minutes on a direct train.
+Welwyn Garden City connects to 5 London terminals. The fastest route is St Pancras in 22 minutes on a direct train.
 
 - Fastest journey to London: 22 minutes to St Pancras
 - Direct service: Yes
-- London terminals served: 4 (St Pancras, Kings Cross, London Bridge, Moorgate)
+- London terminals served: 5 (St Pancras, Kings Cross, London Bridge, Moorgate, Victoria)
 - Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -17,12 +17,13 @@ Welwyn Garden City connects to 4 London terminals. The fastest route is St Pancr
 | Kings Cross | 29 min | same as fastest | 32 | 2.0 | Great Northern, LNER, Hull Trains, Lumo |
 | London Bridge | 37 min | same as fastest | - | - | Southeastern, Southern, Thameslink |
 | Moorgate | 39 min (change at Finsbury Park) | 47 min | 52 | 4.0 | Great Northern |
+| Victoria | 82 min (change at Denmark Hill) | no direct service | - | - | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from Welwyn Garden City to London take?
 
-The fastest train from Welwyn Garden City reaches London St Pancras in 22 minutes. Welwyn Garden City connects to 4 London terminals: St Pancras, Kings Cross, London Bridge, Moorgate.
+The fastest train from Welwyn Garden City reaches London St Pancras in 22 minutes. Welwyn Garden City connects to 5 London terminals: St Pancras, Kings Cross, London Bridge, Moorgate, Victoria.
 
 ### Which London station should I travel to from Welwyn Garden City?
 

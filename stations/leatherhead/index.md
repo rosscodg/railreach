@@ -1,10 +1,10 @@
 # Train times from Leatherhead to London
 
-Leatherhead connects to 2 London terminals. The fastest route is Waterloo in 45 minutes on a direct train.
+Leatherhead connects to 4 London terminals. The fastest route is Waterloo in 45 minutes on a direct train.
 
 - Fastest journey to London: 45 minutes to Waterloo
 - Direct service: Yes
-- London terminals served: 2 (Waterloo, Victoria)
+- London terminals served: 4 (Waterloo, Victoria, London Bridge, St Pancras)
 - Operator: South Western Railway
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -15,12 +15,14 @@ Leatherhead connects to 2 London terminals. The fastest route is Waterloo in 45 
 | --- | --- | --- | --- | --- |
 | Waterloo | 45 min | same as fastest | 50 | 3.2 | South Western Railway |
 | Victoria | 50 min | same as fastest | 56 | 2.0 | Southeastern, Southern |
+| London Bridge | 59 min (change at Epsom) | no direct service | - | - | Southeastern, Southern, Thameslink |
+| St Pancras | 84 min (change at Sutton (London)) | no direct service | - | - | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 
 ### How long does the train from Leatherhead to London take?
 
-The fastest train from Leatherhead reaches London Waterloo in 45 minutes. Leatherhead connects to 2 London terminals: Waterloo, Victoria.
+The fastest train from Leatherhead reaches London Waterloo in 45 minutes. Leatherhead connects to 4 London terminals: Waterloo, Victoria, London Bridge, St Pancras.
 
 ### Which London station should I travel to from Leatherhead?
 

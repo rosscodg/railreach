@@ -78,8 +78,8 @@
     "days_sampled": 3,
     "direct": true,
     "direct_mins": 7,
-    "change_mins": 20,
-    "change_at": "EALINGB",
+    "change_mins": 23,
+    "change_at": "BONDST",
     "fastest_is_direct": true
    },
    "LST": {
@@ -936,8 +936,8 @@
     "days_sampled": 3,
     "direct": true,
     "direct_mins": 4,
-    "change_mins": 19,
-    "change_at": "CLPHMJC",
+    "change_mins": null,
+    "change_at": null,
     "fastest_is_direct": true
    }
   },
@@ -2928,8 +2928,8 @@
     "days_sampled": 3,
     "direct": true,
     "direct_mins": 19,
-    "change_mins": 34,
-    "change_at": "GERRDSX",
+    "change_mins": 37,
+    "change_at": "SRUISLP",
     "fastest_is_direct": true
    }
   },
@@ -2997,8 +2997,8 @@
     "days_sampled": 3,
     "direct": true,
     "direct_mins": 9,
-    "change_mins": 26,
-    "change_at": "PCKHMRY",
+    "change_mins": 36,
+    "change_at": "BATRSPK",
     "fastest_is_direct": true
    },
    "MOG": {
@@ -3825,8 +3825,8 @@
     "days_sampled": 3,
     "direct": true,
     "direct_mins": 6,
-    "change_mins": 26,
-    "change_at": "ALEXNDP",
+    "change_mins": null,
+    "change_at": null,
     "fastest_is_direct": true
    },
    "STP": {
@@ -4056,8 +4056,8 @@
     "days_sampled": 3,
     "direct": true,
     "direct_mins": 19,
-    "change_mins": 42,
-    "change_at": "BCNSFLD",
+    "change_mins": 43,
+    "change_at": "SRUISLP",
     "fastest_is_direct": true
    }
   },
@@ -4696,8 +4696,8 @@
     "days_sampled": 3,
     "direct": true,
     "direct_mins": 13,
-    "change_mins": 31,
-    "change_at": "WATFDJ",
+    "change_mins": 42,
+    "change_at": "QPRK",
     "fastest_is_direct": true
    }
   },
@@ -6039,8 +6039,8 @@
     "days_sampled": 3,
     "direct": true,
     "direct_mins": 25,
-    "change_mins": 39,
-    "change_at": "STEVNGE",
+    "change_mins": 40,
+    "change_at": "FNPK",
     "fastest_is_direct": true
    },
    "LBG": {
@@ -6371,8 +6371,8 @@
     "days_sampled": 3,
     "direct": true,
     "direct_mins": 4,
-    "change_mins": 22,
-    "change_at": "WHAMHL",
+    "change_mins": null,
+    "change_at": null,
     "fastest_is_direct": true
    }
   },
@@ -6529,7 +6529,7 @@
     "direct": true,
     "direct_mins": 23,
     "change_mins": 39,
-    "change_at": "HRPNDN",
+    "change_at": "STALBCY",
     "fastest_is_direct": true
    },
    "LBG": {
@@ -6941,7 +6941,7 @@
     "direct": true,
     "direct_mins": 32,
     "change_mins": 49,
-    "change_at": "BLTCHLY",
+    "change_at": "LTNBZRD",
     "fastest_is_direct": true
    }
   },
@@ -7106,8 +7106,8 @@
     "days_sampled": 3,
     "direct": true,
     "direct_mins": 5,
-    "change_mins": 17,
-    "change_at": "STJOHNS",
+    "change_mins": 20,
+    "change_at": "CANONST",
     "fastest_is_direct": true
    },
    "VIC": {
@@ -8475,8 +8475,8 @@
     "days_sampled": 3,
     "direct": true,
     "direct_mins": 37,
-    "change_mins": 57,
-    "change_at": "CHATHAM",
+    "change_mins": 60,
+    "change_at": "CANONST",
     "fastest_is_direct": true
    },
    "VIC": {
@@ -8488,8 +8488,8 @@
     "days_sampled": 3,
     "direct": true,
     "direct_mins": 41,
-    "change_mins": 56,
-    "change_at": "CHATHAM",
+    "change_mins": 57,
+    "change_at": "BROMLYS",
     "fastest_is_direct": true
    }
   },
@@ -9111,8 +9111,8 @@
     "days_sampled": 3,
     "direct": true,
     "direct_mins": 14,
-    "change_mins": 36,
-    "change_at": "MDNHEAD",
+    "change_mins": 37,
+    "change_at": "EALINGB",
     "fastest_is_direct": true
    },
    "LST": {
@@ -10238,8 +10238,8 @@
     "days_sampled": 3,
     "direct": true,
     "direct_mins": 4,
-    "change_mins": 20,
-    "change_at": "QTRDBAT",
+    "change_mins": null,
+    "change_at": null,
     "fastest_is_direct": true
    },
    "LBG": {
@@ -10379,7 +10379,7 @@
     "direct": true,
     "direct_mins": 15,
     "change_mins": 29,
-    "change_at": "BUSHEY",
+    "change_at": "HROW",
     "fastest_is_direct": true
    }
   },
@@ -10555,8 +10555,8 @@
     "days_sampled": 3,
     "direct": true,
     "direct_mins": 19,
-    "change_mins": 39,
-    "change_at": "STEVNGE",
+    "change_mins": 46,
+    "change_at": "FNPK",
     "fastest_is_direct": true
    },
    "STP": {

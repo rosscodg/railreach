@@ -1,10 +1,10 @@
 # Train times from Hatfield to London
 
-Hatfield connects to 3 London terminals. The fastest route is Kings Cross in 26 minutes on a direct train.
+Hatfield connects to 5 London terminals. The fastest route is Kings Cross in 26 minutes on a direct train.
 
 - Fastest journey to London: 26 minutes to Kings Cross
 - Direct service: Yes
-- London terminals served: 3 (Kings Cross, St Pancras, Moorgate)
+- London terminals served: 5 (Kings Cross, St Pancras, Moorgate, London Bridge, Victoria)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -16,12 +16,14 @@ Hatfield connects to 3 London terminals. The fastest route is Kings Cross in 26 
 | Kings Cross | 26 min | same as fastest | 29 | 2.0 | Great Northern, LNER, Hull Trains, Lumo |
 | St Pancras | 30 min | same as fastest | 32 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 | Moorgate | 41 min (change at Finsbury Park) | 42 min | 47 | 4.0 | Great Northern |
+| London Bridge | 50 min (change at Finsbury Park) | no direct service | - | - | Southeastern, Southern, Thameslink |
+| Victoria | 77 min (change at Denmark Hill) | no direct service | - | - | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from Hatfield to London take?
 
-The fastest train from Hatfield reaches London Kings Cross in 26 minutes. Hatfield connects to 3 London terminals: Kings Cross, St Pancras, Moorgate.
+The fastest train from Hatfield reaches London Kings Cross in 26 minutes. Hatfield connects to 5 London terminals: Kings Cross, St Pancras, Moorgate, London Bridge, Victoria.
 
 ### Which London station should I travel to from Hatfield?
 

@@ -27,7 +27,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<link rel="stylesheet" href="/assets/css/shared.css?v=b2e3cd6b">
+<link rel="stylesheet" href="/assets/css/shared.css?v=a4c16675">
 <style>:root { --map-h: 56vh; }</style>
 </head>
 <body>
@@ -124,7 +124,7 @@
 <p>Alternative departure points close to Warwick, for comparing platforms rather than places.</p>
 <ul class="link-grid">
 <li><a class="card" href="/stations/warwick-parkway/"><span class="card-title">Warwick Parkway</span><span class="card-meta">2 km away</span></a></li>
-<li><a class="card" href="/stations/leamington-spa/"><span class="card-title">Leamington Spa</span><span class="card-meta"><span class="t-badge t-slow">82 min</span> fastest to London &middot; 3 km away</span></a></li>
+<li><a class="card" href="/stations/leamington-spa/"><span class="card-title">Leamington Spa</span><span class="card-meta"><span class="t-badge t-slow">81 min</span> fastest to London &middot; 3 km away</span></a></li>
 <li><a class="card" href="/stations/coventry/"><span class="card-title">Coventry</span><span class="card-meta"><span class="t-badge t-mid">56 min</span> fastest to London &middot; 14 km away</span></a></li>
 <li><a class="card" href="/stations/birmingham-international/"><span class="card-title">Birmingham International</span><span class="card-meta"><span class="t-badge t-slow">68 min</span> fastest to London &middot; 21 km away</span></a></li>
 <li><a class="card" href="/stations/rugby/"><span class="card-title">Rugby</span><span class="card-meta"><span class="t-badge t-mid">49 min</span> fastest to London &middot; 25 km away</span></a></li>
@@ -257,12 +257,12 @@
 }
 ]</script>
 
-<script src="/assets/js/stations-data.js?v=98f6f1f6"></script>
-<script src="/assets/js/map-ui.js?v=afe4b8dd"></script>
+<script src="/assets/js/stations-data.js?v=41b654d1"></script>
+<script src="/assets/js/map-ui.js?v=28af0e35"></script>
 <script>
 const map=RR.createMap('map');
 L.circleMarker([52.28654,-1.581854],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Warwick</strong><br>This station').addTo(map);
-RR.terminalMarker(map,51.522524,-0.162911,'<strong>London Marylebone</strong><div class="pop-sub">from Warwick</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>88 min</dd></div><div><dt>Typical peak</dt><dd>89 min</dd></div><div><dt>Peak trains</dt><dd>2.0/hr</dd></div></dl><a class="popup-link" href="/terminals/marylebone/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.522524,-0.162911,'<strong>London Marylebone</strong><div class="pop-sub">from Warwick</div><div class="pop-hero"><b>88</b> min</div><dl class="pop-stats"><div><dt>Typical peak</dt><dd>89 min</dd></div><div><dt>Peak trains</dt><dd>2.0/hr</dd></div></dl><a class="popup-link" href="/terminals/marylebone/">Terminal guide &rarr;</a>');
 L.polyline([[52.28654,-1.581854],[51.522524,-0.162911]],{color:RR.colour(88),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Warwick: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.

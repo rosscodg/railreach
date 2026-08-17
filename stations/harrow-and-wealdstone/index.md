@@ -1,10 +1,10 @@
 # Train times from Harrow & Wealdstone to London
 
-Harrow & Wealdstone connects to 1 London terminal. The fastest route is Euston in 13 minutes on a direct train.
+Harrow & Wealdstone connects to 3 London terminals. The fastest route is Euston in 13 minutes on a direct train.
 
 - Fastest journey to London: 13 minutes to Euston
 - Direct service: Yes
-- London terminals served: 1 (Euston)
+- London terminals served: 3 (Euston, Victoria, London Bridge)
 - Operator: Avanti West Coast, London Northwestern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,14 @@ Harrow & Wealdstone connects to 1 London terminal. The fastest route is Euston i
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Euston | 13 min | same as fastest | 34 | 7.5 | Avanti West Coast, London Northwestern |
+| Victoria | 46 min (change at Clapham Junction) | no direct service | - | - | Southeastern, Southern |
+| London Bridge | 85 min (change at East Croydon) | no direct service | - | - | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 
 ### How long does the train from Harrow & Wealdstone to London take?
 
-The fastest train from Harrow & Wealdstone reaches London Euston in 13 minutes. Harrow & Wealdstone connects to 1 London terminal: Euston.
+The fastest train from Harrow & Wealdstone reaches London Euston in 13 minutes. Harrow & Wealdstone connects to 3 London terminals: Euston, Victoria, London Bridge.
 
 ### Which London station should I travel to from Harrow & Wealdstone?
 

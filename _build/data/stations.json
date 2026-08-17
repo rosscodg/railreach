@@ -67,26 +67,6 @@
       "lat": 51.491062,
       "lng": 0.121394,
       "journeys": {
-        "STP": {
-          "mins": 45,
-          "direct": true,
-          "directMins": 45,
-          "changeAt": null,
-          "typicalPeakMins": 45,
-          "peakTrainsPerHour": 2.0,
-          "peakServices": 15,
-          "totalServices": 78
-        },
-        "PAD": {
-          "mins": 28,
-          "direct": true,
-          "directMins": 28,
-          "changeAt": null,
-          "typicalPeakMins": 30,
-          "peakTrainsPerHour": 11.6,
-          "peakServices": 87,
-          "totalServices": 495
-        },
         "LBG": {
           "mins": 27,
           "direct": true,
@@ -106,6 +86,36 @@
           "peakTrainsPerHour": 11.6,
           "peakServices": 87,
           "totalServices": 495
+        },
+        "PAD": {
+          "mins": 28,
+          "direct": true,
+          "directMins": 28,
+          "changeAt": null,
+          "typicalPeakMins": 30,
+          "peakTrainsPerHour": 11.6,
+          "peakServices": 87,
+          "totalServices": 495
+        },
+        "STP": {
+          "mins": 45,
+          "direct": true,
+          "directMins": 45,
+          "changeAt": null,
+          "typicalPeakMins": 45,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 78
+        },
+        "VIC": {
+          "mins": 59,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Blackheath",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -118,22 +128,22 @@
       "lat": 51.51718,
       "lng": -0.266756,
       "journeys": {
-        "PAD": {
-          "mins": 7,
-          "direct": true,
-          "directMins": 7,
-          "changeAt": null,
-          "typicalPeakMins": 8,
-          "peakTrainsPerHour": 6.0,
-          "peakServices": 45,
-          "totalServices": 237
-        },
         "LST": {
           "mins": 18,
           "direct": true,
           "directMins": 18,
           "changeAt": null,
           "typicalPeakMins": 19,
+          "peakTrainsPerHour": 6.0,
+          "peakServices": 45,
+          "totalServices": 237
+        },
+        "PAD": {
+          "mins": 7,
+          "direct": true,
+          "directMins": 7,
+          "changeAt": null,
+          "typicalPeakMins": 8,
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
           "totalServices": 237
@@ -180,6 +190,16 @@
           "peakServices": 15,
           "totalServices": 122
         },
+        "LBG": {
+          "mins": 34,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "MOG": {
           "mins": 19,
           "direct": true,
@@ -189,6 +209,16 @@
           "peakTrainsPerHour": 8.8,
           "peakServices": 66,
           "totalServices": 317
+        },
+        "STP": {
+          "mins": 19,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -222,6 +252,16 @@
       "lat": 51.211547,
       "lng": -1.492233,
       "journeys": {
+        "PAD": {
+          "mins": 77,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Reading",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "WAT": {
           "mins": 62,
           "direct": true,
@@ -294,22 +334,32 @@
           "peakServices": 0,
           "totalServices": 12
         },
-        "STP": {
-          "mins": 39,
-          "direct": true,
-          "directMins": 39,
-          "changeAt": null,
-          "typicalPeakMins": 41,
-          "peakTrainsPerHour": 2.0,
-          "peakServices": 15,
-          "totalServices": 108
-        },
         "LBG": {
           "mins": 54,
           "direct": true,
           "directMins": 54,
           "changeAt": null,
           "typicalPeakMins": 56,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 108
+        },
+        "MOG": {
+          "mins": 54,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 39,
+          "direct": true,
+          "directMins": 39,
+          "changeAt": null,
+          "typicalPeakMins": 41,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 108
@@ -367,16 +417,6 @@
       "lat": 51.143706,
       "lng": 0.876197,
       "journeys": {
-        "STP": {
-          "mins": 36,
-          "direct": true,
-          "directMins": 36,
-          "changeAt": null,
-          "typicalPeakMins": 38,
-          "peakTrainsPerHour": 3.6,
-          "peakServices": 27,
-          "totalServices": 123
-        },
         "LBG": {
           "mins": 71,
           "direct": true,
@@ -386,6 +426,16 @@
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 120
+        },
+        "STP": {
+          "mins": 36,
+          "direct": true,
+          "directMins": 36,
+          "changeAt": null,
+          "typicalPeakMins": 38,
+          "peakTrainsPerHour": 3.6,
+          "peakServices": 27,
+          "totalServices": 123
         },
         "VIC": {
           "mins": null,
@@ -407,15 +457,25 @@
       "lat": 51.317874,
       "lng": -0.307572,
       "journeys": {
-        "WAT": {
-          "mins": 41,
-          "direct": true,
-          "directMins": 41,
-          "changeAt": null,
-          "typicalPeakMins": 46,
-          "peakTrainsPerHour": 3.2,
-          "peakServices": 24,
-          "totalServices": 123
+        "LBG": {
+          "mins": 56,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Epsom",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 80,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Sutton (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "VIC": {
           "mins": 46,
@@ -426,6 +486,16 @@
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 105
+        },
+        "WAT": {
+          "mins": 41,
+          "direct": true,
+          "directMins": 41,
+          "changeAt": null,
+          "typicalPeakMins": 46,
+          "peakTrainsPerHour": 3.2,
+          "peakServices": 24,
+          "totalServices": 123
         }
       },
       "tiplocs": [
@@ -448,22 +518,32 @@
           "peakServices": 15,
           "totalServices": 63
         },
-        "STP": {
-          "mins": 46,
-          "direct": true,
-          "directMins": 46,
-          "changeAt": null,
-          "typicalPeakMins": 47,
-          "peakTrainsPerHour": 2.0,
-          "peakServices": 15,
-          "totalServices": 84
-        },
         "LBG": {
           "mins": 61,
           "direct": true,
           "directMins": 61,
           "changeAt": null,
           "typicalPeakMins": 62,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 84
+        },
+        "MOG": {
+          "mins": 61,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 46,
+          "direct": true,
+          "directMins": 46,
+          "changeAt": null,
+          "typicalPeakMins": 47,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 84
@@ -479,6 +559,16 @@
       "lat": 52.00444,
       "lng": 0.207306,
       "journeys": {
+        "KGX": {
+          "mins": 74,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Cambridge South",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "LST": {
           "mins": 55,
           "direct": true,
@@ -488,6 +578,16 @@
           "peakTrainsPerHour": 3.3,
           "peakServices": 25,
           "totalServices": 128
+        },
+        "STP": {
+          "mins": 86,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Cambridge South",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -542,15 +642,15 @@
       "lat": 51.055522,
       "lng": -0.136934,
       "journeys": {
-        "STP": {
-          "mins": 55,
-          "direct": true,
-          "directMins": 55,
-          "changeAt": null,
-          "typicalPeakMins": 55,
-          "peakTrainsPerHour": 2.0,
-          "peakServices": 15,
-          "totalServices": 117
+        "KGX": {
+          "mins": 77,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "LBG": {
           "mins": 40,
@@ -561,6 +661,26 @@
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 108
+        },
+        "MOG": {
+          "mins": 85,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 55,
+          "direct": true,
+          "directMins": 55,
+          "changeAt": null,
+          "typicalPeakMins": 55,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 117
         },
         "VIC": {
           "mins": 49,
@@ -593,22 +713,32 @@
           "peakServices": 18,
           "totalServices": 99
         },
-        "STP": {
-          "mins": 41,
-          "direct": true,
-          "directMins": 41,
-          "changeAt": null,
-          "typicalPeakMins": 42,
-          "peakTrainsPerHour": 2.0,
-          "peakServices": 15,
-          "totalServices": 84
-        },
         "LBG": {
           "mins": 56,
           "direct": true,
           "directMins": 56,
           "changeAt": null,
           "typicalPeakMins": 57,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 84
+        },
+        "MOG": {
+          "mins": 56,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 41,
+          "direct": true,
+          "directMins": 41,
+          "changeAt": null,
+          "typicalPeakMins": 42,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 84
@@ -624,6 +754,16 @@
       "lat": 51.443225,
       "lng": -0.152424,
       "journeys": {
+        "EUS": {
+          "mins": 64,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Harrow & Wealdstone",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "LBG": {
           "mins": 39,
           "direct": true,
@@ -634,6 +774,16 @@
           "peakServices": 12,
           "totalServices": 102
         },
+        "STP": {
+          "mins": 59,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "East Croydon",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "VIC": {
           "mins": 12,
           "direct": true,
@@ -643,6 +793,16 @@
           "peakTrainsPerHour": 10.8,
           "peakServices": 81,
           "totalServices": 459
+        },
+        "WAT": {
+          "mins": 82,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Epsom",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -655,16 +815,6 @@
       "lat": 52.060308,
       "lng": -1.328133,
       "journeys": {
-        "PAD": {
-          "mins": 74,
-          "direct": true,
-          "directMins": 74,
-          "changeAt": null,
-          "typicalPeakMins": null,
-          "peakTrainsPerHour": null,
-          "peakServices": 0,
-          "totalServices": 3
-        },
         "MYB": {
           "mins": 62,
           "direct": true,
@@ -674,6 +824,16 @@
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 86
+        },
+        "PAD": {
+          "mins": 74,
+          "direct": true,
+          "directMins": 74,
+          "changeAt": null,
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 3
         }
       },
       "tiplocs": [
@@ -716,6 +876,16 @@
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
           "totalServices": 222
+        },
+        "STP": {
+          "mins": 49,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Gravesend",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "VIC": {
           "mins": 44,
@@ -780,6 +950,16 @@
       "lat": 51.268357,
       "lng": -1.087264,
       "journeys": {
+        "PAD": {
+          "mins": 50,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Reading",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "WAT": {
           "mins": 42,
           "direct": true,
@@ -801,6 +981,16 @@
       "lat": 51.289761,
       "lng": 0.194228,
       "journeys": {
+        "LBG": {
+          "mins": 41,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Sevenoaks",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "STP": {
           "mins": 73,
           "direct": true,
@@ -863,6 +1053,16 @@
           "peakServices": 12,
           "totalServices": 102
         },
+        "STP": {
+          "mins": 55,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Denmark Hill",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "VIC": {
           "mins": 4,
           "direct": true,
@@ -884,6 +1084,26 @@
       "lat": 51.757716,
       "lng": -0.09561,
       "journeys": {
+        "KGX": {
+          "mins": 46,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stevenage",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "LBG": {
+          "mins": 62,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "MOG": {
           "mins": 46,
           "direct": true,
@@ -894,11 +1114,11 @@
           "peakServices": 36,
           "totalServices": 155
         },
-        "KGX": {
-          "mins": 46,
+        "STP": {
+          "mins": 47,
           "direct": false,
           "directMins": null,
-          "changeAt": "Stevenage",
+          "changeAt": "Finsbury Park",
           "typicalPeakMins": null,
           "peakTrainsPerHour": null,
           "peakServices": 0,
@@ -936,6 +1156,36 @@
       "lat": 51.424583,
       "lng": -0.015951,
       "journeys": {
+        "KGX": {
+          "mins": 70,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "LBG": {
+          "mins": 44,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Blackfriars",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "MOG": {
+          "mins": 67,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "STP": {
           "mins": 38,
           "direct": true,
@@ -946,11 +1196,11 @@
           "peakServices": 30,
           "totalServices": 75
         },
-        "LBG": {
-          "mins": 44,
+        "VIC": {
+          "mins": 34,
           "direct": false,
           "directMins": null,
-          "changeAt": "London Blackfriars",
+          "changeAt": "Bromley South",
           "typicalPeakMins": null,
           "peakTrainsPerHour": null,
           "peakServices": 0,
@@ -967,15 +1217,15 @@
       "lat": 52.136187,
       "lng": -0.479442,
       "journeys": {
-        "STP": {
-          "mins": 39,
-          "direct": true,
-          "directMins": 39,
-          "changeAt": null,
-          "typicalPeakMins": 63,
-          "peakTrainsPerHour": 7.2,
-          "peakServices": 54,
-          "totalServices": 333
+        "EUS": {
+          "mins": 88,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Bletchley",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "LBG": {
           "mins": 66,
@@ -986,6 +1236,16 @@
           "peakTrainsPerHour": 5.2,
           "peakServices": 39,
           "totalServices": 207
+        },
+        "STP": {
+          "mins": 39,
+          "direct": true,
+          "directMins": 39,
+          "changeAt": null,
+          "typicalPeakMins": 63,
+          "peakTrainsPerHour": 7.2,
+          "peakServices": 54,
+          "totalServices": 333
         }
       },
       "tiplocs": [
@@ -1019,6 +1279,36 @@
       "lat": 51.432913,
       "lng": -0.019331,
       "journeys": {
+        "KGX": {
+          "mins": 68,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "LBG": {
+          "mins": 42,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Blackfriars",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "MOG": {
+          "mins": 65,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "STP": {
           "mins": 36,
           "direct": true,
@@ -1038,16 +1328,6 @@
           "peakTrainsPerHour": 1.2,
           "peakServices": 9,
           "totalServices": 12
-        },
-        "LBG": {
-          "mins": 42,
-          "direct": false,
-          "directMins": null,
-          "changeAt": "London Blackfriars",
-          "typicalPeakMins": null,
-          "peakTrainsPerHour": null,
-          "peakServices": 0,
-          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -1133,6 +1413,16 @@
           "peakServices": 36,
           "totalServices": 222
         },
+        "STP": {
+          "mins": 52,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Gravesend",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "VIC": {
           "mins": 41,
           "direct": true,
@@ -1175,6 +1465,36 @@
       "lat": 51.400104,
       "lng": 0.045241,
       "journeys": {
+        "KGX": {
+          "mins": 80,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "LBG": {
+          "mins": 37,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Orpington",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "MOG": {
+          "mins": 77,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "STP": {
           "mins": 48,
           "direct": true,
@@ -1216,22 +1536,32 @@
           "peakServices": 11,
           "totalServices": 26
         },
-        "STP": {
-          "mins": 44,
-          "direct": true,
-          "directMins": 44,
-          "changeAt": null,
-          "typicalPeakMins": 46,
-          "peakTrainsPerHour": 2.0,
-          "peakServices": 15,
-          "totalServices": 108
-        },
         "LBG": {
           "mins": 59,
           "direct": true,
           "directMins": 59,
           "changeAt": null,
           "typicalPeakMins": 61,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 108
+        },
+        "MOG": {
+          "mins": 59,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 44,
+          "direct": true,
+          "directMins": 44,
+          "changeAt": null,
+          "typicalPeakMins": 46,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 108
@@ -1256,6 +1586,16 @@
           "peakTrainsPerHour": 5.6,
           "peakServices": 42,
           "totalServices": 189
+        },
+        "PAD": {
+          "mins": 50,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -1310,6 +1650,16 @@
       "lat": 51.866691,
       "lng": 0.164894,
       "journeys": {
+        "KGX": {
+          "mins": 86,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Cambridge South",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "LST": {
           "mins": 37,
           "direct": true,
@@ -1319,6 +1669,16 @@
           "peakTrainsPerHour": 6.9,
           "peakServices": 52,
           "totalServices": 263
+        },
+        "PAD": {
+          "mins": 82,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -1340,6 +1700,16 @@
           "peakTrainsPerHour": 6.8,
           "peakServices": 51,
           "totalServices": 331
+        },
+        "STP": {
+          "mins": 37,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Bridge",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "VIC": {
           "mins": 25,
@@ -1383,15 +1753,15 @@
       "lat": 51.254012,
       "lng": -0.32849,
       "journeys": {
-        "WAT": {
-          "mins": 50,
-          "direct": true,
-          "directMins": 50,
-          "changeAt": null,
-          "typicalPeakMins": 54,
-          "peakTrainsPerHour": 2.0,
-          "peakServices": 15,
-          "totalServices": 57
+        "LBG": {
+          "mins": 64,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Epsom",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "VIC": {
           "mins": 59,
@@ -1401,6 +1771,16 @@
           "typicalPeakMins": 61,
           "peakTrainsPerHour": 1.2,
           "peakServices": 9,
+          "totalServices": 57
+        },
+        "WAT": {
+          "mins": 50,
+          "direct": true,
+          "directMins": 50,
+          "changeAt": null,
+          "typicalPeakMins": 54,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
           "totalServices": 57
         }
       },
@@ -1423,6 +1803,16 @@
           "peakTrainsPerHour": 1.2,
           "peakServices": 9,
           "totalServices": 48
+        },
+        "PAD": {
+          "mins": 81,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -1456,16 +1846,6 @@
       "lat": 51.613605,
       "lng": 0.299586,
       "journeys": {
-        "PAD": {
-          "mins": 50,
-          "direct": true,
-          "directMins": 50,
-          "changeAt": null,
-          "typicalPeakMins": 52,
-          "peakTrainsPerHour": 11.2,
-          "peakServices": 84,
-          "totalServices": 492
-        },
         "LST": {
           "mins": 36,
           "direct": false,
@@ -1475,6 +1855,16 @@
           "peakTrainsPerHour": 11.2,
           "peakServices": 84,
           "totalServices": 498
+        },
+        "PAD": {
+          "mins": 50,
+          "direct": true,
+          "directMins": 50,
+          "changeAt": null,
+          "typicalPeakMins": 52,
+          "peakTrainsPerHour": 11.2,
+          "peakServices": 84,
+          "totalServices": 492
         }
       },
       "tiplocs": [
@@ -1487,16 +1877,6 @@
       "lat": 50.829005,
       "lng": -0.14128,
       "journeys": {
-        "STP": {
-          "mins": 76,
-          "direct": true,
-          "directMins": 76,
-          "changeAt": null,
-          "typicalPeakMins": 82,
-          "peakTrainsPerHour": 4.0,
-          "peakServices": 30,
-          "totalServices": 201
-        },
         "LBG": {
           "mins": 61,
           "direct": true,
@@ -1506,6 +1886,16 @@
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 195
+        },
+        "STP": {
+          "mins": 76,
+          "direct": true,
+          "directMins": 76,
+          "changeAt": null,
+          "typicalPeakMins": 82,
+          "peakTrainsPerHour": 4.0,
+          "peakServices": 30,
+          "totalServices": 201
         },
         "VIC": {
           "mins": 60,
@@ -1549,6 +1939,36 @@
       "lat": 51.399976,
       "lng": 0.017344,
       "journeys": {
+        "KGX": {
+          "mins": 77,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "LBG": {
+          "mins": 38,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Blackfriars",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "MOG": {
+          "mins": 74,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "STP": {
           "mins": 43,
           "direct": false,
@@ -1590,6 +2010,16 @@
           "peakServices": 0,
           "totalServices": 2
         },
+        "LBG": {
+          "mins": 53,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "MOG": {
           "mins": 37,
           "direct": true,
@@ -1599,6 +2029,16 @@
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 150
+        },
+        "STP": {
+          "mins": 38,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -1641,6 +2081,16 @@
           "peakTrainsPerHour": 5.3,
           "peakServices": 40,
           "totalServices": 236
+        },
+        "PAD": {
+          "mins": 55,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -1653,15 +2103,15 @@
       "lat": 50.953656,
       "lng": -0.127413,
       "journeys": {
-        "STP": {
-          "mins": 65,
-          "direct": true,
-          "directMins": 65,
-          "changeAt": null,
-          "typicalPeakMins": 67,
-          "peakTrainsPerHour": 4.0,
-          "peakServices": 30,
-          "totalServices": 198
+        "KGX": {
+          "mins": 87,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "LBG": {
           "mins": 50,
@@ -1672,6 +2122,16 @@
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 192
+        },
+        "STP": {
+          "mins": 65,
+          "direct": true,
+          "directMins": 65,
+          "changeAt": null,
+          "typicalPeakMins": 67,
+          "peakTrainsPerHour": 4.0,
+          "peakServices": 30,
+          "totalServices": 198
         },
         "VIC": {
           "mins": 50,
@@ -1694,16 +2154,6 @@
       "lat": 51.523506,
       "lng": -0.646374,
       "journeys": {
-        "PAD": {
-          "mins": 26,
-          "direct": false,
-          "directMins": 33,
-          "changeAt": "Slough",
-          "typicalPeakMins": 36,
-          "peakTrainsPerHour": 6.0,
-          "peakServices": 45,
-          "totalServices": 234
-        },
         "LST": {
           "mins": 43,
           "direct": true,
@@ -1713,6 +2163,16 @@
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
           "totalServices": 228
+        },
+        "PAD": {
+          "mins": 26,
+          "direct": false,
+          "directMins": 33,
+          "changeAt": "Slough",
+          "typicalPeakMins": 36,
+          "peakTrainsPerHour": 6.0,
+          "peakServices": 45,
+          "totalServices": 234
         }
       },
       "tiplocs": [
@@ -1778,16 +2238,6 @@
           "peakServices": 29,
           "totalServices": 203
         },
-        "STP": {
-          "mins": 68,
-          "direct": true,
-          "directMins": 68,
-          "changeAt": null,
-          "typicalPeakMins": 68,
-          "peakTrainsPerHour": 2.0,
-          "peakServices": 15,
-          "totalServices": 84
-        },
         "LBG": {
           "mins": 83,
           "direct": true,
@@ -1807,6 +2257,26 @@
           "peakTrainsPerHour": 3.3,
           "peakServices": 25,
           "totalServices": 128
+        },
+        "MOG": {
+          "mins": 82,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 68,
+          "direct": true,
+          "directMins": 68,
+          "changeAt": null,
+          "typicalPeakMins": 68,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 84
         }
       },
       "tiplocs": [
@@ -1819,6 +2289,36 @@
       "lat": 51.444407,
       "lng": -0.026317,
       "journeys": {
+        "KGX": {
+          "mins": 65,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "LBG": {
+          "mins": 39,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Blackfriars",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "MOG": {
+          "mins": 62,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "STP": {
           "mins": 33,
           "direct": true,
@@ -1829,11 +2329,11 @@
           "peakServices": 30,
           "totalServices": 75
         },
-        "LBG": {
-          "mins": 39,
+        "VIC": {
+          "mins": 35,
           "direct": false,
           "directMins": null,
-          "changeAt": "London Blackfriars",
+          "changeAt": "Denmark Hill",
           "typicalPeakMins": null,
           "peakTrainsPerHour": null,
           "peakServices": 0,
@@ -1913,16 +2413,6 @@
       "lat": 51.380379,
       "lng": 0.521151,
       "journeys": {
-        "STP": {
-          "mins": 39,
-          "direct": true,
-          "directMins": 39,
-          "changeAt": null,
-          "typicalPeakMins": 68,
-          "peakTrainsPerHour": 4.0,
-          "peakServices": 30,
-          "totalServices": 180
-        },
         "LBG": {
           "mins": 40,
           "direct": true,
@@ -1932,6 +2422,16 @@
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
           "totalServices": 102
+        },
+        "STP": {
+          "mins": 39,
+          "direct": true,
+          "directMins": 39,
+          "changeAt": null,
+          "typicalPeakMins": 68,
+          "peakTrainsPerHour": 4.0,
+          "peakServices": 30,
+          "totalServices": 180
         },
         "VIC": {
           "mins": 44,
@@ -1984,6 +2484,16 @@
           "peakTrainsPerHour": 7.2,
           "peakServices": 54,
           "totalServices": 303
+        },
+        "PAD": {
+          "mins": 53,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -2005,6 +2515,16 @@
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
           "totalServices": 340
+        },
+        "PAD": {
+          "mins": 51,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -2068,6 +2588,26 @@
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 219
+        },
+        "STP": {
+          "mins": 44,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Bridge",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 40,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Orpington",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -2080,6 +2620,16 @@
       "lat": 51.570202,
       "lng": -1.158023,
       "journeys": {
+        "LST": {
+          "mins": 87,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Reading",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "PAD": {
           "mins": 49,
           "direct": false,
@@ -2101,6 +2651,26 @@
       "lat": 51.264005,
       "lng": -0.502766,
       "journeys": {
+        "LBG": {
+          "mins": 79,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Epsom",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 81,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Leatherhead",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "WAT": {
           "mins": 51,
           "direct": true,
@@ -2122,15 +2692,15 @@
       "lat": 51.464188,
       "lng": -0.170293,
       "journeys": {
-        "WAT": {
-          "mins": 8,
-          "direct": true,
-          "directMins": 8,
-          "changeAt": null,
-          "typicalPeakMins": 12,
-          "peakTrainsPerHour": 30.4,
-          "peakServices": 228,
-          "totalServices": 1590
+        "EUS": {
+          "mins": 56,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Harrow & Wealdstone",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "LBG": {
           "mins": 33,
@@ -2142,6 +2712,26 @@
           "peakServices": 12,
           "totalServices": 102
         },
+        "LST": {
+          "mins": 81,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 43,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Denmark Hill",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "VIC": {
           "mins": 6,
           "direct": true,
@@ -2151,6 +2741,16 @@
           "peakTrainsPerHour": 20.0,
           "peakServices": 150,
           "totalServices": 986
+        },
+        "WAT": {
+          "mins": 8,
+          "direct": true,
+          "directMins": 8,
+          "changeAt": null,
+          "typicalPeakMins": 12,
+          "peakTrainsPerHour": 30.4,
+          "peakServices": 228,
+          "totalServices": 1590
         }
       },
       "tiplocs": [
@@ -2218,6 +2818,16 @@
           "peakTrainsPerHour": 6.8,
           "peakServices": 51,
           "totalServices": 285
+        },
+        "PAD": {
+          "mins": 70,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -2230,15 +2840,15 @@
       "lat": 51.315838,
       "lng": -0.137887,
       "journeys": {
-        "STP": {
-          "mins": 36,
-          "direct": true,
-          "directMins": 36,
-          "changeAt": null,
-          "typicalPeakMins": 36,
-          "peakTrainsPerHour": 2.8,
-          "peakServices": 21,
-          "totalServices": 105
+        "KGX": {
+          "mins": 61,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "LBG": {
           "mins": 21,
@@ -2249,6 +2859,26 @@
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
           "totalServices": 102
+        },
+        "MOG": {
+          "mins": 66,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 36,
+          "direct": true,
+          "directMins": 36,
+          "changeAt": null,
+          "typicalPeakMins": 36,
+          "peakTrainsPerHour": 2.8,
+          "peakServices": 21,
+          "totalServices": 105
         },
         "VIC": {
           "mins": 30,
@@ -2292,16 +2922,6 @@
       "lat": 51.112214,
       "lng": -0.186673,
       "journeys": {
-        "STP": {
-          "mins": 62,
-          "direct": false,
-          "directMins": 66,
-          "changeAt": "Three Bridges",
-          "typicalPeakMins": 68,
-          "peakTrainsPerHour": 2.4,
-          "peakServices": 18,
-          "totalServices": 111
-        },
         "LBG": {
           "mins": 47,
           "direct": false,
@@ -2311,6 +2931,16 @@
           "peakTrainsPerHour": 2.8,
           "peakServices": 21,
           "totalServices": 108
+        },
+        "STP": {
+          "mins": 62,
+          "direct": false,
+          "directMins": 66,
+          "changeAt": "Three Bridges",
+          "typicalPeakMins": 68,
+          "peakTrainsPerHour": 2.4,
+          "peakServices": 18,
+          "totalServices": 111
         },
         "VIC": {
           "mins": 43,
@@ -2333,6 +2963,26 @@
       "lat": 51.684486,
       "lng": -0.106887,
       "journeys": {
+        "KGX": {
+          "mins": 40,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Alexandra Palace",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "LBG": {
+          "mins": 55,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "MOG": {
           "mins": 39,
           "direct": true,
@@ -2343,11 +2993,11 @@
           "peakServices": 36,
           "totalServices": 155
         },
-        "KGX": {
+        "STP": {
           "mins": 40,
           "direct": false,
           "directMins": null,
-          "changeAt": "Alexandra Palace",
+          "changeAt": "Finsbury Park",
           "typicalPeakMins": null,
           "peakTrainsPerHour": null,
           "peakServices": 0,
@@ -2364,6 +3014,16 @@
       "lat": 51.558453,
       "lng": -0.212677,
       "journeys": {
+        "LBG": {
+          "mins": 35,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "West Hampstead Thameslink",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "STP": {
           "mins": 13,
           "direct": true,
@@ -2373,6 +3033,16 @@
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 231
+        },
+        "VIC": {
+          "mins": 58,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Denmark Hill",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -2395,6 +3065,16 @@
           "peakServices": 0,
           "totalServices": 3
         },
+        "LBG": {
+          "mins": 58,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "MOG": {
           "mins": 42,
           "direct": true,
@@ -2404,6 +3084,16 @@
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
           "totalServices": 155
+        },
+        "STP": {
+          "mins": 43,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -2437,16 +3127,6 @@
       "lat": 51.447371,
       "lng": 0.219248,
       "journeys": {
-        "STP": {
-          "mins": 42,
-          "direct": false,
-          "directMins": 56,
-          "changeAt": "Gravesend",
-          "typicalPeakMins": 57,
-          "peakTrainsPerHour": 2.0,
-          "peakServices": 15,
-          "totalServices": 78
-        },
         "LBG": {
           "mins": 38,
           "direct": true,
@@ -2456,6 +3136,16 @@
           "peakTrainsPerHour": 7.2,
           "peakServices": 54,
           "totalServices": 390
+        },
+        "STP": {
+          "mins": 42,
+          "direct": false,
+          "directMins": 56,
+          "changeAt": "Gravesend",
+          "typicalPeakMins": 57,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 78
         },
         "VIC": {
           "mins": 51,
@@ -2520,6 +3210,36 @@
       "lat": 51.468203,
       "lng": -0.089361,
       "journeys": {
+        "KGX": {
+          "mins": 53,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "LBG": {
+          "mins": 22,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Peckham Rye",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "MOG": {
+          "mins": 50,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "STP": {
           "mins": 20,
           "direct": true,
@@ -2551,6 +3271,16 @@
       "lat": 51.610954,
       "lng": -1.242893,
       "journeys": {
+        "LST": {
+          "mins": 87,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Reading",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "PAD": {
           "mins": 37,
           "direct": true,
@@ -2572,15 +3302,15 @@
       "lat": 51.24093,
       "lng": -0.324251,
       "journeys": {
-        "WAT": {
-          "mins": 53,
-          "direct": true,
-          "directMins": 53,
-          "changeAt": null,
-          "typicalPeakMins": 57,
-          "peakTrainsPerHour": 2.0,
-          "peakServices": 15,
-          "totalServices": 57
+        "LBG": {
+          "mins": 67,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Epsom",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "VIC": {
           "mins": 57,
@@ -2591,6 +3321,16 @@
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 105
+        },
+        "WAT": {
+          "mins": 53,
+          "direct": true,
+          "directMins": 53,
+          "changeAt": null,
+          "typicalPeakMins": 57,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 57
         }
       },
       "tiplocs": [
@@ -2603,16 +3343,6 @@
       "lat": 51.514841,
       "lng": -0.301752,
       "journeys": {
-        "PAD": {
-          "mins": 8,
-          "direct": true,
-          "directMins": 8,
-          "changeAt": null,
-          "typicalPeakMins": 11,
-          "peakTrainsPerHour": 12.0,
-          "peakServices": 90,
-          "totalServices": 572
-        },
         "LST": {
           "mins": 20,
           "direct": true,
@@ -2622,6 +3352,16 @@
           "peakTrainsPerHour": 12.0,
           "peakServices": 90,
           "totalServices": 549
+        },
+        "PAD": {
+          "mins": 8,
+          "direct": true,
+          "directMins": 8,
+          "changeAt": null,
+          "typicalPeakMins": 11,
+          "peakTrainsPerHour": 12.0,
+          "peakServices": 90,
+          "totalServices": 572
         }
       },
       "tiplocs": [
@@ -2634,6 +3374,26 @@
       "lat": 51.442337,
       "lng": -0.187715,
       "journeys": {
+        "LBG": {
+          "mins": 82,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Epsom",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 75,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Epsom",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "WAT": {
           "mins": 13,
           "direct": true,
@@ -2655,15 +3415,15 @@
       "lat": 51.227328,
       "lng": -0.170823,
       "journeys": {
-        "STP": {
-          "mins": 46,
-          "direct": true,
-          "directMins": 46,
-          "changeAt": null,
-          "typicalPeakMins": 52,
-          "peakTrainsPerHour": 1.6,
-          "peakServices": 12,
-          "totalServices": 87
+        "KGX": {
+          "mins": 74,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "LBG": {
           "mins": 31,
@@ -2674,6 +3434,36 @@
           "peakTrainsPerHour": 1.6,
           "peakServices": 12,
           "totalServices": 87
+        },
+        "MOG": {
+          "mins": 81,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 46,
+          "direct": true,
+          "directMins": 46,
+          "changeAt": null,
+          "typicalPeakMins": 52,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 87
+        },
+        "VIC": {
+          "mins": 46,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "East Croydon",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -2686,15 +3476,25 @@
       "lat": 51.375454,
       "lng": -0.09278,
       "journeys": {
-        "STP": {
-          "mins": 29,
-          "direct": true,
-          "directMins": 29,
-          "changeAt": null,
-          "typicalPeakMins": 30,
-          "peakTrainsPerHour": 8.8,
-          "peakServices": 66,
-          "totalServices": 429
+        "EUS": {
+          "mins": 83,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Harrow & Wealdstone",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "KGX": {
+          "mins": 51,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "LBG": {
           "mins": 13,
@@ -2705,6 +3505,26 @@
           "peakTrainsPerHour": 12.8,
           "peakServices": 96,
           "totalServices": 672
+        },
+        "MOG": {
+          "mins": 58,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 29,
+          "direct": true,
+          "directMins": 29,
+          "changeAt": null,
+          "typicalPeakMins": 30,
+          "peakTrainsPerHour": 8.8,
+          "peakServices": 66,
+          "totalServices": 429
         },
         "VIC": {
           "mins": 16,
@@ -2727,16 +3547,6 @@
       "lat": 51.126274,
       "lng": -0.0179,
       "journeys": {
-        "STP": {
-          "mins": 67,
-          "direct": true,
-          "directMins": 67,
-          "changeAt": null,
-          "typicalPeakMins": 71,
-          "peakTrainsPerHour": 1.2,
-          "peakServices": 9,
-          "totalServices": 15
-        },
         "LBG": {
           "mins": 51,
           "direct": true,
@@ -2746,6 +3556,16 @@
           "peakTrainsPerHour": 1.2,
           "peakServices": 9,
           "totalServices": 21
+        },
+        "STP": {
+          "mins": 67,
+          "direct": true,
+          "directMins": 67,
+          "changeAt": null,
+          "typicalPeakMins": 71,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 15
         },
         "VIC": {
           "mins": 56,
@@ -2789,6 +3609,26 @@
       "lat": 51.291495,
       "lng": -0.419965,
       "journeys": {
+        "LBG": {
+          "mins": 70,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Epsom",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 73,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Leatherhead",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "WAT": {
           "mins": 43,
           "direct": true,
@@ -2852,6 +3692,16 @@
       "lat": 51.653069,
       "lng": -0.280081,
       "journeys": {
+        "LBG": {
+          "mins": 38,
+          "direct": true,
+          "directMins": 38,
+          "changeAt": null,
+          "typicalPeakMins": 38,
+          "peakTrainsPerHour": 0.4,
+          "peakServices": 3,
+          "totalServices": 36
+        },
         "STP": {
           "mins": 23,
           "direct": true,
@@ -2862,15 +3712,15 @@
           "peakServices": 48,
           "totalServices": 282
         },
-        "LBG": {
-          "mins": 38,
-          "direct": true,
-          "directMins": 38,
-          "changeAt": null,
-          "typicalPeakMins": 38,
-          "peakTrainsPerHour": 0.4,
-          "peakServices": 3,
-          "totalServices": 36
+        "VIC": {
+          "mins": 67,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Denmark Hill",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -2892,6 +3742,16 @@
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
           "totalServices": 222
+        },
+        "STP": {
+          "mins": 45,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Bridge",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "VIC": {
           "mins": 32,
@@ -2924,6 +3784,16 @@
           "peakServices": 0,
           "totalServices": 3
         },
+        "LBG": {
+          "mins": 48,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "MOG": {
           "mins": 29,
           "direct": true,
@@ -2933,6 +3803,16 @@
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
           "totalServices": 158
+        },
+        "STP": {
+          "mins": 33,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -2945,16 +3825,6 @@
       "lat": 51.334393,
       "lng": -0.268778,
       "journeys": {
-        "WAT": {
-          "mins": 36,
-          "direct": true,
-          "directMins": 36,
-          "changeAt": null,
-          "typicalPeakMins": 41,
-          "peakTrainsPerHour": 3.2,
-          "peakServices": 24,
-          "totalServices": 126
-        },
         "LBG": {
           "mins": 42,
           "direct": true,
@@ -2965,6 +3835,16 @@
           "peakServices": 15,
           "totalServices": 105
         },
+        "STP": {
+          "mins": 70,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Sutton (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "VIC": {
           "mins": 41,
           "direct": true,
@@ -2974,6 +3854,16 @@
           "peakTrainsPerHour": 2.4,
           "peakServices": 18,
           "totalServices": 108
+        },
+        "WAT": {
+          "mins": 36,
+          "direct": true,
+          "directMins": 36,
+          "changeAt": null,
+          "typicalPeakMins": 41,
+          "peakTrainsPerHour": 3.2,
+          "peakServices": 24,
+          "totalServices": 126
         }
       },
       "tiplocs": [
@@ -2995,6 +3885,26 @@
           "peakTrainsPerHour": 7.6,
           "peakServices": 57,
           "totalServices": 393
+        },
+        "STP": {
+          "mins": 56,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Bridge",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 65,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Blackheath",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -3028,6 +3938,26 @@
       "lat": 51.350045,
       "lng": -0.256987,
       "journeys": {
+        "LBG": {
+          "mins": 63,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Epsom",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 56,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Epsom",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "WAT": {
           "mins": 33,
           "direct": true,
@@ -3112,16 +4042,6 @@
       "lat": 51.311714,
       "lng": 0.891045,
       "journeys": {
-        "STP": {
-          "mins": 66,
-          "direct": true,
-          "directMins": 66,
-          "changeAt": null,
-          "typicalPeakMins": 68,
-          "peakTrainsPerHour": 2.4,
-          "peakServices": 18,
-          "totalServices": 105
-        },
         "LBG": {
           "mins": 71,
           "direct": true,
@@ -3131,6 +4051,16 @@
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 21
+        },
+        "STP": {
+          "mins": 66,
+          "direct": true,
+          "directMins": 66,
+          "changeAt": null,
+          "typicalPeakMins": 68,
+          "peakTrainsPerHour": 2.4,
+          "peakServices": 18,
+          "totalServices": 105
         },
         "VIC": {
           "mins": 72,
@@ -3184,16 +4114,6 @@
           "peakServices": 15,
           "totalServices": 143
         },
-        "STP": {
-          "mins": 7,
-          "direct": true,
-          "directMins": 7,
-          "changeAt": null,
-          "typicalPeakMins": 7,
-          "peakTrainsPerHour": 6.0,
-          "peakServices": 45,
-          "totalServices": 231
-        },
         "LBG": {
           "mins": 22,
           "direct": true,
@@ -3213,6 +4133,26 @@
           "peakTrainsPerHour": 8.8,
           "peakServices": 66,
           "totalServices": 332
+        },
+        "STP": {
+          "mins": 7,
+          "direct": true,
+          "directMins": 7,
+          "changeAt": null,
+          "typicalPeakMins": 7,
+          "peakTrainsPerHour": 6.0,
+          "peakServices": 45,
+          "totalServices": 231
+        },
+        "VIC": {
+          "mins": 54,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Denmark Hill",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -3246,16 +4186,6 @@
       "lat": 52.003642,
       "lng": -0.495258,
       "journeys": {
-        "STP": {
-          "mins": 41,
-          "direct": true,
-          "directMins": 41,
-          "changeAt": null,
-          "typicalPeakMins": 51,
-          "peakTrainsPerHour": 5.2,
-          "peakServices": 39,
-          "totalServices": 222
-        },
         "LBG": {
           "mins": 56,
           "direct": true,
@@ -3265,6 +4195,16 @@
           "peakTrainsPerHour": 5.2,
           "peakServices": 39,
           "totalServices": 198
+        },
+        "STP": {
+          "mins": 41,
+          "direct": true,
+          "directMins": 41,
+          "changeAt": null,
+          "typicalPeakMins": 51,
+          "peakTrainsPerHour": 5.2,
+          "peakServices": 39,
+          "totalServices": 222
         }
       },
       "tiplocs": [
@@ -3286,6 +4226,26 @@
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 90
+        },
+        "LBG": {
+          "mins": 82,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Hitchin",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 67,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Hitchin",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -3298,15 +4258,15 @@
       "lat": 51.156491,
       "lng": -0.161041,
       "journeys": {
-        "STP": {
-          "mins": 44,
-          "direct": true,
-          "directMins": 44,
-          "changeAt": null,
-          "typicalPeakMins": 44,
-          "peakTrainsPerHour": 7.6,
-          "peakServices": 57,
-          "totalServices": 414
+        "KGX": {
+          "mins": 66,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "LBG": {
           "mins": 29,
@@ -3318,6 +4278,26 @@
           "peakServices": 60,
           "totalServices": 393
         },
+        "MOG": {
+          "mins": 73,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 44,
+          "direct": true,
+          "directMins": 44,
+          "changeAt": null,
+          "typicalPeakMins": 44,
+          "peakTrainsPerHour": 7.6,
+          "peakServices": 57,
+          "totalServices": 414
+        },
         "VIC": {
           "mins": 29,
           "direct": true,
@@ -3327,6 +4307,16 @@
           "peakTrainsPerHour": 6.8,
           "peakServices": 51,
           "totalServices": 423
+        },
+        "WAT": {
+          "mins": 83,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Guildford",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -3360,16 +4350,6 @@
       "lat": 51.386565,
       "lng": 0.54985,
       "journeys": {
-        "STP": {
-          "mins": 43,
-          "direct": true,
-          "directMins": 43,
-          "changeAt": null,
-          "typicalPeakMins": 72,
-          "peakTrainsPerHour": 4.0,
-          "peakServices": 30,
-          "totalServices": 180
-        },
         "LBG": {
           "mins": 44,
           "direct": true,
@@ -3379,6 +4359,16 @@
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
           "totalServices": 102
+        },
+        "STP": {
+          "mins": 43,
+          "direct": true,
+          "directMins": 43,
+          "changeAt": null,
+          "typicalPeakMins": 72,
+          "peakTrainsPerHour": 4.0,
+          "peakServices": 30,
+          "totalServices": 180
         },
         "VIC": {
           "mins": 48,
@@ -3432,6 +4422,16 @@
           "peakServices": 0,
           "totalServices": 3
         },
+        "LBG": {
+          "mins": 50,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "MOG": {
           "mins": 31,
           "direct": true,
@@ -3441,6 +4441,16 @@
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
           "totalServices": 158
+        },
+        "STP": {
+          "mins": 35,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -3453,6 +4463,16 @@
       "lat": 51.521493,
       "lng": -1.133049,
       "journeys": {
+        "LST": {
+          "mins": 82,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Reading",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "PAD": {
           "mins": 45,
           "direct": false,
@@ -3483,6 +4503,16 @@
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
           "totalServices": 143
+        },
+        "STP": {
+          "mins": 82,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stevenage",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -3495,6 +4525,16 @@
       "lat": 51.170059,
       "lng": -1.620774,
       "journeys": {
+        "PAD": {
+          "mins": 84,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Reading",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "WAT": {
           "mins": 75,
           "direct": true,
@@ -3516,16 +4556,6 @@
       "lat": 51.441348,
       "lng": 0.366643,
       "journeys": {
-        "STP": {
-          "mins": 22,
-          "direct": true,
-          "directMins": 22,
-          "changeAt": null,
-          "typicalPeakMins": 25,
-          "peakTrainsPerHour": 4.8,
-          "peakServices": 36,
-          "totalServices": 186
-        },
         "LBG": {
           "mins": 56,
           "direct": true,
@@ -3535,6 +4565,16 @@
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
           "totalServices": 201
+        },
+        "STP": {
+          "mins": 22,
+          "direct": true,
+          "directMins": 22,
+          "changeAt": null,
+          "typicalPeakMins": 25,
+          "peakTrainsPerHour": 4.8,
+          "peakServices": 36,
+          "totalServices": 186
         },
         "VIC": {
           "mins": 63,
@@ -3608,6 +4648,26 @@
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 219
+        },
+        "STP": {
+          "mins": 38,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Bridge",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 46,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Orpington",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -3620,6 +4680,36 @@
       "lat": 51.23697,
       "lng": -0.580425,
       "journeys": {
+        "LBG": {
+          "mins": 78,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Redhill",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "PAD": {
+          "mins": 82,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Reading",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 87,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Gatwick Airport",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "WAT": {
           "mins": 32,
           "direct": true,
@@ -3672,6 +4762,16 @@
           "peakServices": 0,
           "totalServices": 5
         },
+        "LBG": {
+          "mins": 45,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "MOG": {
           "mins": 30,
           "direct": true,
@@ -3681,6 +4781,16 @@
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 150
+        },
+        "STP": {
+          "mins": 30,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -3756,22 +4866,22 @@
       "lat": 51.511835,
       "lng": -0.338583,
       "journeys": {
-        "PAD": {
-          "mins": 14,
-          "direct": true,
-          "directMins": 14,
-          "changeAt": null,
-          "typicalPeakMins": 15,
-          "peakTrainsPerHour": 5.2,
-          "peakServices": 39,
-          "totalServices": 231
-        },
         "LST": {
           "mins": 25,
           "direct": true,
           "directMins": 25,
           "changeAt": null,
           "typicalPeakMins": 26,
+          "peakTrainsPerHour": 5.2,
+          "peakServices": 39,
+          "totalServices": 231
+        },
+        "PAD": {
+          "mins": 14,
+          "direct": true,
+          "directMins": 14,
+          "changeAt": null,
+          "typicalPeakMins": 15,
           "peakTrainsPerHour": 5.2,
           "peakServices": 39,
           "totalServices": 231
@@ -3796,6 +4906,16 @@
           "peakTrainsPerHour": 1.9,
           "peakServices": 14,
           "totalServices": 69
+        },
+        "PAD": {
+          "mins": 75,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -3817,6 +4937,16 @@
           "peakTrainsPerHour": 5.5,
           "peakServices": 41,
           "totalServices": 249
+        },
+        "PAD": {
+          "mins": 63,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -3829,6 +4959,16 @@
       "lat": 51.814645,
       "lng": -0.35148,
       "journeys": {
+        "LBG": {
+          "mins": 41,
+          "direct": true,
+          "directMins": 41,
+          "changeAt": null,
+          "typicalPeakMins": 42,
+          "peakTrainsPerHour": 5.6,
+          "peakServices": 42,
+          "totalServices": 252
+        },
         "STP": {
           "mins": 25,
           "direct": true,
@@ -3839,15 +4979,15 @@
           "peakServices": 57,
           "totalServices": 309
         },
-        "LBG": {
-          "mins": 41,
-          "direct": true,
-          "directMins": 41,
-          "changeAt": null,
-          "typicalPeakMins": 42,
-          "peakTrainsPerHour": 5.6,
-          "peakServices": 42,
-          "totalServices": 252
+        "VIC": {
+          "mins": 82,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Denmark Hill",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -3869,6 +5009,26 @@
           "peakTrainsPerHour": 7.5,
           "peakServices": 56,
           "totalServices": 428
+        },
+        "LBG": {
+          "mins": 85,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "East Croydon",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 46,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Clapham Junction",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -3903,16 +5063,6 @@
       "lat": 50.924616,
       "lng": -0.145953,
       "journeys": {
-        "STP": {
-          "mins": 70,
-          "direct": true,
-          "directMins": 70,
-          "changeAt": null,
-          "typicalPeakMins": 73,
-          "peakTrainsPerHour": 3.6,
-          "peakServices": 27,
-          "totalServices": 132
-        },
         "LBG": {
           "mins": 55,
           "direct": true,
@@ -3922,6 +5072,16 @@
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 126
+        },
+        "STP": {
+          "mins": 70,
+          "direct": true,
+          "directMins": 70,
+          "changeAt": null,
+          "typicalPeakMins": 73,
+          "peakTrainsPerHour": 3.6,
+          "peakServices": 27,
+          "totalServices": 132
         },
         "VIC": {
           "mins": 54,
@@ -3954,15 +5114,15 @@
           "peakServices": 15,
           "totalServices": 119
         },
-        "STP": {
-          "mins": 30,
-          "direct": true,
-          "directMins": 30,
-          "changeAt": null,
-          "typicalPeakMins": 32,
-          "peakTrainsPerHour": 2.0,
-          "peakServices": 15,
-          "totalServices": 30
+        "LBG": {
+          "mins": 50,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "MOG": {
           "mins": 41,
@@ -3973,6 +5133,26 @@
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 150
+        },
+        "STP": {
+          "mins": 30,
+          "direct": true,
+          "directMins": 30,
+          "changeAt": null,
+          "typicalPeakMins": 32,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 30
+        },
+        "VIC": {
+          "mins": 77,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Denmark Hill",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -3994,6 +5174,16 @@
           "peakTrainsPerHour": 2.8,
           "peakServices": 21,
           "totalServices": 81
+        },
+        "PAD": {
+          "mins": 61,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -4027,16 +5217,6 @@
       "lat": 51.503096,
       "lng": -0.420683,
       "journeys": {
-        "PAD": {
-          "mins": 16,
-          "direct": true,
-          "directMins": 16,
-          "changeAt": null,
-          "typicalPeakMins": 21,
-          "peakTrainsPerHour": 10.0,
-          "peakServices": 75,
-          "totalServices": 554
-        },
         "LST": {
           "mins": 28,
           "direct": true,
@@ -4046,6 +5226,16 @@
           "peakTrainsPerHour": 10.0,
           "peakServices": 75,
           "totalServices": 534
+        },
+        "PAD": {
+          "mins": 16,
+          "direct": true,
+          "directMins": 16,
+          "changeAt": null,
+          "typicalPeakMins": 21,
+          "peakTrainsPerHour": 10.0,
+          "peakServices": 75,
+          "totalServices": 554
         }
       },
       "tiplocs": [
@@ -4058,15 +5248,15 @@
       "lat": 51.005682,
       "lng": -0.105078,
       "journeys": {
-        "STP": {
-          "mins": 59,
-          "direct": true,
-          "directMins": 59,
-          "changeAt": null,
-          "typicalPeakMins": 61,
-          "peakTrainsPerHour": 4.4,
-          "peakServices": 33,
-          "totalServices": 204
+        "KGX": {
+          "mins": 81,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "LBG": {
           "mins": 44,
@@ -4077,6 +5267,26 @@
           "peakTrainsPerHour": 4.4,
           "peakServices": 33,
           "totalServices": 198
+        },
+        "MOG": {
+          "mins": 88,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 59,
+          "direct": true,
+          "directMins": 59,
+          "changeAt": null,
+          "typicalPeakMins": 61,
+          "peakTrainsPerHour": 4.4,
+          "peakServices": 33,
+          "totalServices": 204
         },
         "VIC": {
           "mins": 43,
@@ -4108,6 +5318,16 @@
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 120
+        },
+        "STP": {
+          "mins": 59,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Ashford International",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "VIC": {
           "mins": 81,
@@ -4151,6 +5371,16 @@
       "lat": 51.53418,
       "lng": -0.900212,
       "journeys": {
+        "LST": {
+          "mins": 77,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Twyford",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "PAD": {
           "mins": 52,
           "direct": false,
@@ -4181,6 +5411,16 @@
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 111
+        },
+        "PAD": {
+          "mins": 73,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -4203,6 +5443,16 @@
           "peakServices": 0,
           "totalServices": 3
         },
+        "LBG": {
+          "mins": 66,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stevenage",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "MOG": {
           "mins": 50,
           "direct": true,
@@ -4212,6 +5462,16 @@
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
           "totalServices": 155
+        },
+        "STP": {
+          "mins": 51,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stevenage",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -4254,6 +5514,16 @@
           "peakTrainsPerHour": 1.2,
           "peakServices": 9,
           "totalServices": 39
+        },
+        "STP": {
+          "mins": 57,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Bridge",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "VIC": {
           "mins": 38,
@@ -4307,22 +5577,32 @@
           "peakServices": 30,
           "totalServices": 153
         },
-        "STP": {
-          "mins": 33,
-          "direct": true,
-          "directMins": 33,
-          "changeAt": null,
-          "typicalPeakMins": 34,
-          "peakTrainsPerHour": 4.0,
-          "peakServices": 30,
-          "totalServices": 195
-        },
         "LBG": {
           "mins": 48,
           "direct": true,
           "directMins": 48,
           "changeAt": null,
           "typicalPeakMins": 50,
+          "peakTrainsPerHour": 4.0,
+          "peakServices": 30,
+          "totalServices": 195
+        },
+        "MOG": {
+          "mins": 48,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 33,
+          "direct": true,
+          "directMins": 33,
+          "changeAt": null,
+          "typicalPeakMins": 34,
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 195
@@ -4347,6 +5627,26 @@
           "peakTrainsPerHour": 10.0,
           "peakServices": 75,
           "totalServices": 483
+        },
+        "STP": {
+          "mins": 34,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Bridge",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 37,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Lewisham",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -4368,6 +5668,16 @@
           "peakTrainsPerHour": 4.4,
           "peakServices": 33,
           "totalServices": 177
+        },
+        "PAD": {
+          "mins": 65,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -4401,15 +5711,15 @@
       "lat": 51.168775,
       "lng": -0.161054,
       "journeys": {
-        "STP": {
-          "mins": 52,
-          "direct": true,
-          "directMins": 52,
-          "changeAt": null,
-          "typicalPeakMins": 58,
-          "peakTrainsPerHour": 3.6,
-          "peakServices": 27,
-          "totalServices": 204
+        "KGX": {
+          "mins": 79,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "LBG": {
           "mins": 37,
@@ -4420,6 +5730,26 @@
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 189
+        },
+        "MOG": {
+          "mins": 84,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 52,
+          "direct": true,
+          "directMins": 52,
+          "changeAt": null,
+          "typicalPeakMins": 58,
+          "peakTrainsPerHour": 3.6,
+          "peakServices": 27,
+          "totalServices": 204
         },
         "VIC": {
           "mins": 31,
@@ -4452,6 +5782,16 @@
           "peakServices": 0,
           "totalServices": 5
         },
+        "LBG": {
+          "mins": 35,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "MOG": {
           "mins": 19,
           "direct": true,
@@ -4461,6 +5801,16 @@
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
           "totalServices": 260
+        },
+        "STP": {
+          "mins": 20,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -4473,16 +5823,6 @@
       "lat": 51.066065,
       "lng": -0.319269,
       "journeys": {
-        "STP": {
-          "mins": 75,
-          "direct": false,
-          "directMins": 80,
-          "changeAt": "Three Bridges",
-          "typicalPeakMins": 82,
-          "peakTrainsPerHour": 2.4,
-          "peakServices": 18,
-          "totalServices": 111
-        },
         "LBG": {
           "mins": 60,
           "direct": false,
@@ -4493,6 +5833,16 @@
           "peakServices": 21,
           "totalServices": 108
         },
+        "STP": {
+          "mins": 75,
+          "direct": false,
+          "directMins": 80,
+          "changeAt": "Three Bridges",
+          "typicalPeakMins": 82,
+          "peakTrainsPerHour": 2.4,
+          "peakServices": 18,
+          "totalServices": 111
+        },
         "VIC": {
           "mins": 54,
           "direct": true,
@@ -4502,6 +5852,16 @@
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
           "totalServices": 153
+        },
+        "WAT": {
+          "mins": 89,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Dorking",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -4514,6 +5874,26 @@
       "lat": 51.279347,
       "lng": -0.435409,
       "journeys": {
+        "LBG": {
+          "mins": 74,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Epsom",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 77,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Leatherhead",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "WAT": {
           "mins": 47,
           "direct": true,
@@ -4556,6 +5936,26 @@
       "lat": 50.835216,
       "lng": -0.170687,
       "journeys": {
+        "LBG": {
+          "mins": 73,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Brighton",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 88,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Brighton",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "VIC": {
           "mins": 67,
           "direct": true,
@@ -4608,22 +6008,32 @@
           "peakServices": 11,
           "totalServices": 26
         },
-        "STP": {
-          "mins": 64,
-          "direct": true,
-          "directMins": 64,
-          "changeAt": null,
-          "typicalPeakMins": 66,
-          "peakTrainsPerHour": 2.0,
-          "peakServices": 15,
-          "totalServices": 108
-        },
         "LBG": {
           "mins": 79,
           "direct": true,
           "directMins": 79,
           "changeAt": null,
           "typicalPeakMins": 81,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 108
+        },
+        "MOG": {
+          "mins": 79,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 64,
+          "direct": true,
+          "directMins": 64,
+          "changeAt": null,
+          "typicalPeakMins": 66,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 108
@@ -4639,16 +6049,6 @@
       "lat": 51.244431,
       "lng": 0.003939,
       "journeys": {
-        "STP": {
-          "mins": 53,
-          "direct": true,
-          "directMins": 53,
-          "changeAt": null,
-          "typicalPeakMins": 57,
-          "peakTrainsPerHour": 1.2,
-          "peakServices": 9,
-          "totalServices": 15
-        },
         "LBG": {
           "mins": 37,
           "direct": true,
@@ -4658,6 +6058,16 @@
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 75
+        },
+        "STP": {
+          "mins": 53,
+          "direct": true,
+          "directMins": 53,
+          "changeAt": null,
+          "typicalPeakMins": 57,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 15
         },
         "VIC": {
           "mins": 42,
@@ -4689,6 +6099,16 @@
           "peakTrainsPerHour": 2.8,
           "peakServices": 21,
           "totalServices": 114
+        },
+        "PAD": {
+          "mins": 49,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -4710,6 +6130,16 @@
           "peakTrainsPerHour": 2.8,
           "peakServices": 21,
           "totalServices": 150
+        },
+        "PAD": {
+          "mins": 84,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -4743,16 +6173,6 @@
       "lat": 51.508503,
       "lng": -0.506726,
       "journeys": {
-        "PAD": {
-          "mins": 24,
-          "direct": true,
-          "directMins": 24,
-          "changeAt": null,
-          "typicalPeakMins": 27,
-          "peakTrainsPerHour": 4.0,
-          "peakServices": 30,
-          "totalServices": 168
-        },
         "LST": {
           "mins": 35,
           "direct": true,
@@ -4762,6 +6182,16 @@
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 159
+        },
+        "PAD": {
+          "mins": 24,
+          "direct": true,
+          "directMins": 24,
+          "changeAt": null,
+          "typicalPeakMins": 27,
+          "peakTrainsPerHour": 4.0,
+          "peakServices": 30,
+          "totalServices": 168
         }
       },
       "tiplocs": [
@@ -4783,6 +6213,16 @@
           "peakTrainsPerHour": 3.6,
           "peakServices": 27,
           "totalServices": 123
+        },
+        "PAD": {
+          "mins": 72,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -4795,6 +6235,16 @@
       "lat": 51.550495,
       "lng": -0.140365,
       "journeys": {
+        "LBG": {
+          "mins": 20,
+          "direct": true,
+          "directMins": 20,
+          "changeAt": null,
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 24
+        },
         "STP": {
           "mins": 5,
           "direct": true,
@@ -4805,15 +6255,15 @@
           "peakServices": 30,
           "totalServices": 285
         },
-        "LBG": {
-          "mins": 20,
-          "direct": true,
-          "directMins": 20,
-          "changeAt": null,
+        "VIC": {
+          "mins": 49,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Denmark Hill",
           "typicalPeakMins": null,
           "peakTrainsPerHour": null,
           "peakServices": 0,
-          "totalServices": 24
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -4835,6 +6285,16 @@
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
           "totalServices": 222
+        },
+        "STP": {
+          "mins": 42,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Bridge",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "VIC": {
           "mins": 29,
@@ -4908,6 +6368,16 @@
           "peakTrainsPerHour": 0.4,
           "peakServices": 3,
           "totalServices": 27
+        },
+        "PAD": {
+          "mins": 80,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Oxford",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -4972,6 +6442,26 @@
           "peakServices": 15,
           "totalServices": 114
         },
+        "LBG": {
+          "mins": 40,
+          "direct": true,
+          "directMins": 40,
+          "changeAt": null,
+          "typicalPeakMins": 40,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 24
+        },
+        "MOG": {
+          "mins": 39,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "STP": {
           "mins": 25,
           "direct": true,
@@ -4982,15 +6472,15 @@
           "peakServices": 15,
           "totalServices": 24
         },
-        "LBG": {
-          "mins": 40,
-          "direct": true,
-          "directMins": 40,
-          "changeAt": null,
-          "typicalPeakMins": 40,
-          "peakTrainsPerHour": 2.0,
-          "peakServices": 15,
-          "totalServices": 24
+        "VIC": {
+          "mins": 86,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "East Croydon",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -5024,6 +6514,16 @@
       "lat": 50.827083,
       "lng": -0.323109,
       "journeys": {
+        "LBG": {
+          "mins": 86,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Gatwick Airport",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "VIC": {
           "mins": 79,
           "direct": true,
@@ -5045,16 +6545,6 @@
       "lat": 51.508062,
       "lng": -0.541756,
       "journeys": {
-        "PAD": {
-          "mins": 26,
-          "direct": true,
-          "directMins": 26,
-          "changeAt": null,
-          "typicalPeakMins": 30,
-          "peakTrainsPerHour": 4.0,
-          "peakServices": 30,
-          "totalServices": 222
-        },
         "LST": {
           "mins": 37,
           "direct": true,
@@ -5064,6 +6554,16 @@
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 213
+        },
+        "PAD": {
+          "mins": 26,
+          "direct": true,
+          "directMins": 26,
+          "changeAt": null,
+          "typicalPeakMins": 30,
+          "peakTrainsPerHour": 4.0,
+          "peakServices": 30,
+          "totalServices": 222
         }
       },
       "tiplocs": [
@@ -5076,6 +6576,16 @@
       "lat": 52.28449,
       "lng": -1.53621,
       "journeys": {
+        "EUS": {
+          "mins": 81,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Coventry",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "MYB": {
           "mins": 82,
           "direct": true,
@@ -5097,15 +6607,25 @@
       "lat": 51.298818,
       "lng": -0.333232,
       "journeys": {
-        "WAT": {
-          "mins": 45,
-          "direct": true,
-          "directMins": 45,
-          "changeAt": null,
-          "typicalPeakMins": 50,
-          "peakTrainsPerHour": 3.2,
-          "peakServices": 24,
-          "totalServices": 123
+        "LBG": {
+          "mins": 59,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Epsom",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 84,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Sutton (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "VIC": {
           "mins": 50,
@@ -5116,6 +6636,16 @@
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 105
+        },
+        "WAT": {
+          "mins": 45,
+          "direct": true,
+          "directMins": 45,
+          "changeAt": null,
+          "typicalPeakMins": 50,
+          "peakTrainsPerHour": 3.2,
+          "peakServices": 24,
+          "totalServices": 123
         }
       },
       "tiplocs": [
@@ -5180,22 +6710,32 @@
           "peakServices": 44,
           "totalServices": 167
         },
-        "STP": {
-          "mins": 38,
-          "direct": true,
-          "directMins": 38,
-          "changeAt": null,
-          "typicalPeakMins": 39,
-          "peakTrainsPerHour": 2.0,
-          "peakServices": 15,
-          "totalServices": 87
-        },
         "LBG": {
           "mins": 53,
           "direct": true,
           "directMins": 53,
           "changeAt": null,
           "typicalPeakMins": 54,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 87
+        },
+        "MOG": {
+          "mins": 53,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 38,
+          "direct": true,
+          "directMins": 38,
+          "changeAt": null,
+          "typicalPeakMins": 39,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 87
@@ -5220,6 +6760,16 @@
           "peakTrainsPerHour": 14.0,
           "peakServices": 105,
           "totalServices": 684
+        },
+        "STP": {
+          "mins": 31,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Bridge",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "VIC": {
           "mins": 21,
@@ -5263,16 +6813,6 @@
       "lat": 51.176453,
       "lng": -0.007165,
       "journeys": {
-        "STP": {
-          "mins": 60,
-          "direct": true,
-          "directMins": 60,
-          "changeAt": null,
-          "typicalPeakMins": 64,
-          "peakTrainsPerHour": 1.2,
-          "peakServices": 9,
-          "totalServices": 15
-        },
         "LBG": {
           "mins": 44,
           "direct": true,
@@ -5282,6 +6822,16 @@
           "peakTrainsPerHour": 1.2,
           "peakServices": 9,
           "totalServices": 21
+        },
+        "STP": {
+          "mins": 60,
+          "direct": true,
+          "directMins": 60,
+          "changeAt": null,
+          "typicalPeakMins": 64,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 15
         },
         "VIC": {
           "mins": 49,
@@ -5408,6 +6958,16 @@
       "lat": 51.882305,
       "lng": -0.41404,
       "journeys": {
+        "LBG": {
+          "mins": 47,
+          "direct": true,
+          "directMins": 47,
+          "changeAt": null,
+          "typicalPeakMins": 51,
+          "peakTrainsPerHour": 5.6,
+          "peakServices": 42,
+          "totalServices": 252
+        },
         "STP": {
           "mins": 26,
           "direct": true,
@@ -5418,15 +6978,15 @@
           "peakServices": 72,
           "totalServices": 411
         },
-        "LBG": {
-          "mins": 47,
-          "direct": true,
-          "directMins": 47,
-          "changeAt": null,
-          "typicalPeakMins": 51,
-          "peakTrainsPerHour": 5.6,
-          "peakServices": 42,
-          "totalServices": 252
+        "VIC": {
+          "mins": 89,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "East Croydon",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -5439,6 +6999,16 @@
       "lat": 51.872438,
       "lng": -0.395881,
       "journeys": {
+        "LBG": {
+          "mins": 48,
+          "direct": true,
+          "directMins": 48,
+          "changeAt": null,
+          "typicalPeakMins": 48,
+          "peakTrainsPerHour": 4.4,
+          "peakServices": 33,
+          "totalServices": 231
+        },
         "STP": {
           "mins": 23,
           "direct": true,
@@ -5449,15 +7019,15 @@
           "peakServices": 63,
           "totalServices": 396
         },
-        "LBG": {
-          "mins": 48,
-          "direct": true,
-          "directMins": 48,
-          "changeAt": null,
-          "typicalPeakMins": 48,
-          "peakTrainsPerHour": 4.4,
-          "peakServices": 33,
-          "totalServices": 231
+        "VIC": {
+          "mins": 87,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Denmark Hill",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -5470,16 +7040,6 @@
       "lat": 51.518669,
       "lng": -0.72266,
       "journeys": {
-        "PAD": {
-          "mins": 18,
-          "direct": true,
-          "directMins": 18,
-          "changeAt": null,
-          "typicalPeakMins": 38,
-          "peakTrainsPerHour": 10.0,
-          "peakServices": 75,
-          "totalServices": 371
-        },
         "LST": {
           "mins": 47,
           "direct": true,
@@ -5489,6 +7049,16 @@
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
           "totalServices": 228
+        },
+        "PAD": {
+          "mins": 18,
+          "direct": true,
+          "directMins": 18,
+          "changeAt": null,
+          "typicalPeakMins": 38,
+          "peakTrainsPerHour": 10.0,
+          "peakServices": 75,
+          "totalServices": 371
         }
       },
       "tiplocs": [
@@ -5501,6 +7071,26 @@
       "lat": 51.27783,
       "lng": 0.521295,
       "journeys": {
+        "LBG": {
+          "mins": 88,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Blackfriars",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 77,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Ashford International",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "VIC": {
           "mins": 63,
           "direct": true,
@@ -5531,6 +7121,16 @@
           "peakTrainsPerHour": 3.6,
           "peakServices": 27,
           "totalServices": 159
+        },
+        "PAD": {
+          "mins": 79,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -5552,6 +7152,16 @@
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
           "totalServices": 114
+        },
+        "STP": {
+          "mins": 69,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Ashford International",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "VIC": {
           "mins": 80,
@@ -5583,6 +7193,16 @@
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
           "totalServices": 123
+        },
+        "PAD": {
+          "mins": 70,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -5595,6 +7215,16 @@
       "lat": 51.570993,
       "lng": -0.766431,
       "journeys": {
+        "LST": {
+          "mins": 81,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Maidenhead",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "PAD": {
           "mins": 70,
           "direct": false,
@@ -5625,6 +7255,36 @@
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 90
+        },
+        "LBG": {
+          "mins": 76,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Hitchin",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "MOG": {
+          "mins": 85,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 61,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Hitchin",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -5637,15 +7297,15 @@
       "lat": 51.264154,
       "lng": -0.150226,
       "journeys": {
-        "STP": {
-          "mins": 41,
-          "direct": true,
-          "directMins": 41,
-          "changeAt": null,
-          "typicalPeakMins": 42,
-          "peakTrainsPerHour": 2.8,
-          "peakServices": 21,
-          "totalServices": 105
+        "KGX": {
+          "mins": 67,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "LBG": {
           "mins": 26,
@@ -5656,6 +7316,26 @@
           "peakTrainsPerHour": 3.2,
           "peakServices": 24,
           "totalServices": 102
+        },
+        "MOG": {
+          "mins": 72,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 41,
+          "direct": true,
+          "directMins": 41,
+          "changeAt": null,
+          "typicalPeakMins": 42,
+          "peakTrainsPerHour": 2.8,
+          "peakServices": 21,
+          "totalServices": 105
         },
         "VIC": {
           "mins": 35,
@@ -5699,6 +7379,16 @@
       "lat": 51.613093,
       "lng": -0.24924,
       "journeys": {
+        "LBG": {
+          "mins": 34,
+          "direct": true,
+          "directMins": 34,
+          "changeAt": null,
+          "typicalPeakMins": 34,
+          "peakTrainsPerHour": 0.4,
+          "peakServices": 3,
+          "totalServices": 36
+        },
         "STP": {
           "mins": 19,
           "direct": true,
@@ -5709,15 +7399,15 @@
           "peakServices": 48,
           "totalServices": 282
         },
-        "LBG": {
-          "mins": 34,
-          "direct": true,
-          "directMins": 34,
-          "changeAt": null,
-          "typicalPeakMins": 34,
-          "peakTrainsPerHour": 0.4,
-          "peakServices": 3,
-          "totalServices": 36
+        "VIC": {
+          "mins": 63,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Denmark Hill",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -5793,6 +7483,26 @@
       "lat": 51.395196,
       "lng": -0.239531,
       "journeys": {
+        "LBG": {
+          "mins": 71,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Epsom",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 64,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Epsom",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "WAT": {
           "mins": 24,
           "direct": true,
@@ -5824,15 +7534,15 @@
           "peakServices": 15,
           "totalServices": 20
         },
-        "STP": {
-          "mins": 19,
-          "direct": true,
-          "directMins": 19,
-          "changeAt": null,
-          "typicalPeakMins": 20,
-          "peakTrainsPerHour": 2.0,
-          "peakServices": 15,
-          "totalServices": 30
+        "LBG": {
+          "mins": 41,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "MOG": {
           "mins": 27,
@@ -5843,6 +7553,26 @@
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 150
+        },
+        "STP": {
+          "mins": 19,
+          "direct": true,
+          "directMins": 19,
+          "changeAt": null,
+          "typicalPeakMins": 20,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 30
+        },
+        "VIC": {
+          "mins": 66,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Denmark Hill",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -5864,6 +7594,26 @@
           "peakTrainsPerHour": 12.8,
           "peakServices": 96,
           "totalServices": 573
+        },
+        "STP": {
+          "mins": 27,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Bridge",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 36,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Lewisham",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -5885,6 +7635,26 @@
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
           "totalServices": 264
+        },
+        "STP": {
+          "mins": 45,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Bridge",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 47,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Lewisham",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -6012,15 +7782,15 @@
           "peakServices": 0,
           "totalServices": 5
         },
-        "STP": {
-          "mins": 17,
-          "direct": true,
-          "directMins": 17,
-          "changeAt": null,
-          "typicalPeakMins": 18,
-          "peakTrainsPerHour": 2.0,
-          "peakServices": 15,
-          "totalServices": 30
+        "LBG": {
+          "mins": 39,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "MOG": {
           "mins": 25,
@@ -6031,6 +7801,26 @@
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 150
+        },
+        "STP": {
+          "mins": 17,
+          "direct": true,
+          "directMins": 17,
+          "changeAt": null,
+          "typicalPeakMins": 18,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 30
+        },
+        "VIC": {
+          "mins": 64,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Denmark Hill",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -6064,16 +7854,6 @@
       "lat": 51.373296,
       "lng": 0.089091,
       "journeys": {
-        "STP": {
-          "mins": 39,
-          "direct": false,
-          "directMins": 58,
-          "changeAt": "London Bridge",
-          "typicalPeakMins": 58,
-          "peakTrainsPerHour": 2.0,
-          "peakServices": 15,
-          "totalServices": 39
-        },
         "LBG": {
           "mins": 15,
           "direct": true,
@@ -6083,6 +7863,16 @@
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
           "totalServices": 285
+        },
+        "STP": {
+          "mins": 39,
+          "direct": false,
+          "directMins": 58,
+          "changeAt": "London Bridge",
+          "typicalPeakMins": 58,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 39
         },
         "VIC": {
           "mins": 22,
@@ -6105,6 +7895,16 @@
       "lat": 51.313158,
       "lng": 0.196779,
       "journeys": {
+        "LBG": {
+          "mins": 44,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Sevenoaks",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "STP": {
           "mins": 65,
           "direct": false,
@@ -6136,6 +7936,16 @@
       "lat": 51.254294,
       "lng": -1.259268,
       "journeys": {
+        "PAD": {
+          "mins": 63,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Reading",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "WAT": {
           "mins": 53,
           "direct": true,
@@ -6157,16 +7967,6 @@
       "lat": 51.753496,
       "lng": -1.270153,
       "journeys": {
-        "PAD": {
-          "mins": 51,
-          "direct": true,
-          "directMins": 51,
-          "changeAt": null,
-          "typicalPeakMins": 54,
-          "peakTrainsPerHour": 2.4,
-          "peakServices": 18,
-          "totalServices": 109
-        },
         "MYB": {
           "mins": 74,
           "direct": true,
@@ -6176,6 +7976,16 @@
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 104
+        },
+        "PAD": {
+          "mins": 51,
+          "direct": true,
+          "directMins": 51,
+          "changeAt": null,
+          "typicalPeakMins": 54,
+          "peakTrainsPerHour": 2.4,
+          "peakServices": 18,
+          "totalServices": 109
         }
       },
       "tiplocs": [
@@ -6209,16 +8019,6 @@
       "lat": 51.257908,
       "lng": -0.004819,
       "journeys": {
-        "STP": {
-          "mins": 49,
-          "direct": true,
-          "directMins": 49,
-          "changeAt": null,
-          "typicalPeakMins": 54,
-          "peakTrainsPerHour": 1.2,
-          "peakServices": 9,
-          "totalServices": 15
-        },
         "LBG": {
           "mins": 33,
           "direct": true,
@@ -6228,6 +8028,16 @@
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 75
+        },
+        "STP": {
+          "mins": 49,
+          "direct": true,
+          "directMins": 49,
+          "changeAt": null,
+          "typicalPeakMins": 54,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 15
         },
         "VIC": {
           "mins": 38,
@@ -6261,6 +8071,16 @@
           "peakServices": 30,
           "totalServices": 120
         },
+        "STP": {
+          "mins": 65,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Bridge",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "VIC": {
           "mins": 68,
           "direct": false,
@@ -6282,6 +8102,16 @@
       "lat": 51.485401,
       "lng": -1.09047,
       "journeys": {
+        "LST": {
+          "mins": 78,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Reading",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "PAD": {
           "mins": 41,
           "direct": false,
@@ -6303,15 +8133,15 @@
       "lat": 51.470034,
       "lng": -0.069414,
       "journeys": {
-        "STP": {
-          "mins": 23,
-          "direct": true,
-          "directMins": 23,
-          "changeAt": null,
-          "typicalPeakMins": 24,
-          "peakTrainsPerHour": 4.0,
-          "peakServices": 30,
-          "totalServices": 75
+        "KGX": {
+          "mins": 56,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "LBG": {
           "mins": 9,
@@ -6322,6 +8152,26 @@
           "peakTrainsPerHour": 4.4,
           "peakServices": 33,
           "totalServices": 216
+        },
+        "MOG": {
+          "mins": 53,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 23,
+          "direct": true,
+          "directMins": 23,
+          "changeAt": null,
+          "typicalPeakMins": 24,
+          "peakTrainsPerHour": 4.0,
+          "peakServices": 30,
+          "totalServices": 75
         },
         "VIC": {
           "mins": 13,
@@ -6354,6 +8204,16 @@
           "peakTrainsPerHour": 5.1,
           "peakServices": 38,
           "totalServices": 185
+        },
+        "LBG": {
+          "mins": 83,
+          "direct": false,
+          "directMins": 94,
+          "changeAt": "Stevenage",
+          "typicalPeakMins": 96,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 108
         },
         "STP": {
           "mins": 68,
@@ -6397,16 +8257,6 @@
       "lat": 51.388619,
       "lng": 0.074481,
       "journeys": {
-        "STP": {
-          "mins": 47,
-          "direct": false,
-          "directMins": 55,
-          "changeAt": "London Bridge",
-          "typicalPeakMins": 55,
-          "peakTrainsPerHour": 2.0,
-          "peakServices": 15,
-          "totalServices": 39
-        },
         "LBG": {
           "mins": 23,
           "direct": true,
@@ -6416,6 +8266,16 @@
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 219
+        },
+        "STP": {
+          "mins": 47,
+          "direct": false,
+          "directMins": 55,
+          "changeAt": "London Bridge",
+          "typicalPeakMins": 55,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 39
         },
         "VIC": {
           "mins": 35,
@@ -6490,6 +8350,16 @@
           "peakServices": 24,
           "totalServices": 90
         },
+        "STP": {
+          "mins": 53,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Ashford International",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "VIC": {
           "mins": null,
           "direct": false,
@@ -6510,6 +8380,16 @@
       "lat": 51.489795,
       "lng": 0.084257,
       "journeys": {
+        "LBG": {
+          "mins": 24,
+          "direct": true,
+          "directMins": 24,
+          "changeAt": null,
+          "typicalPeakMins": 27,
+          "peakTrainsPerHour": 9.6,
+          "peakServices": 72,
+          "totalServices": 471
+        },
         "STP": {
           "mins": 42,
           "direct": true,
@@ -6520,15 +8400,15 @@
           "peakServices": 15,
           "totalServices": 78
         },
-        "LBG": {
-          "mins": 24,
-          "direct": true,
-          "directMins": 24,
-          "changeAt": null,
-          "typicalPeakMins": 27,
-          "peakTrainsPerHour": 9.6,
-          "peakServices": 72,
-          "totalServices": 471
+        "VIC": {
+          "mins": 56,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Blackheath",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -6541,6 +8421,16 @@
       "lat": 50.835683,
       "lng": -0.205336,
       "journeys": {
+        "LBG": {
+          "mins": 77,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Brighton",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "VIC": {
           "mins": 70,
           "direct": true,
@@ -6572,15 +8462,15 @@
           "peakServices": 15,
           "totalServices": 119
         },
-        "STP": {
-          "mins": 24,
-          "direct": true,
-          "directMins": 24,
-          "changeAt": null,
-          "typicalPeakMins": 25,
-          "peakTrainsPerHour": 2.0,
-          "peakServices": 15,
-          "totalServices": 30
+        "LBG": {
+          "mins": 44,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "MOG": {
           "mins": 33,
@@ -6591,6 +8481,26 @@
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 150
+        },
+        "STP": {
+          "mins": 24,
+          "direct": true,
+          "directMins": 24,
+          "changeAt": null,
+          "typicalPeakMins": 25,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 30
+        },
+        "VIC": {
+          "mins": 71,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Denmark Hill",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -6603,16 +8513,6 @@
       "lat": 50.845944,
       "lng": -0.155168,
       "journeys": {
-        "STP": {
-          "mins": 77,
-          "direct": true,
-          "directMins": 77,
-          "changeAt": null,
-          "typicalPeakMins": 80,
-          "peakTrainsPerHour": 3.6,
-          "peakServices": 27,
-          "totalServices": 132
-        },
         "LBG": {
           "mins": 62,
           "direct": true,
@@ -6622,6 +8522,16 @@
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 126
+        },
+        "STP": {
+          "mins": 77,
+          "direct": true,
+          "directMins": 77,
+          "changeAt": null,
+          "typicalPeakMins": 80,
+          "peakTrainsPerHour": 3.6,
+          "peakServices": 27,
+          "totalServices": 132
         },
         "VIC": {
           "mins": 61,
@@ -6686,16 +8596,6 @@
       "lat": 51.337579,
       "lng": -0.114035,
       "journeys": {
-        "STP": {
-          "mins": 37,
-          "direct": true,
-          "directMins": 37,
-          "changeAt": null,
-          "typicalPeakMins": 38,
-          "peakTrainsPerHour": 1.6,
-          "peakServices": 12,
-          "totalServices": 102
-        },
         "LBG": {
           "mins": 22,
           "direct": true,
@@ -6705,6 +8605,16 @@
           "peakTrainsPerHour": 3.6,
           "peakServices": 27,
           "totalServices": 195
+        },
+        "STP": {
+          "mins": 37,
+          "direct": true,
+          "directMins": 37,
+          "changeAt": null,
+          "typicalPeakMins": 38,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 102
         },
         "VIC": {
           "mins": 25,
@@ -6748,6 +8658,16 @@
       "lat": 51.685188,
       "lng": -0.317244,
       "journeys": {
+        "LBG": {
+          "mins": 41,
+          "direct": true,
+          "directMins": 41,
+          "changeAt": null,
+          "typicalPeakMins": 41,
+          "peakTrainsPerHour": 0.4,
+          "peakServices": 3,
+          "totalServices": 36
+        },
         "STP": {
           "mins": 26,
           "direct": true,
@@ -6758,15 +8678,15 @@
           "peakServices": 48,
           "totalServices": 282
         },
-        "LBG": {
-          "mins": 41,
-          "direct": true,
-          "directMins": 41,
-          "changeAt": null,
-          "typicalPeakMins": 41,
-          "peakTrainsPerHour": 0.4,
-          "peakServices": 3,
-          "totalServices": 36
+        "VIC": {
+          "mins": 71,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Denmark Hill",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -6800,16 +8720,6 @@
       "lat": 51.366306,
       "lng": 0.611337,
       "journeys": {
-        "STP": {
-          "mins": 49,
-          "direct": true,
-          "directMins": 49,
-          "changeAt": null,
-          "typicalPeakMins": 78,
-          "peakTrainsPerHour": 4.0,
-          "peakServices": 30,
-          "totalServices": 174
-        },
         "LBG": {
           "mins": 55,
           "direct": true,
@@ -6819,6 +8729,16 @@
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 87
+        },
+        "STP": {
+          "mins": 49,
+          "direct": true,
+          "directMins": 49,
+          "changeAt": null,
+          "typicalPeakMins": 78,
+          "peakTrainsPerHour": 4.0,
+          "peakServices": 30,
+          "totalServices": 174
         },
         "VIC": {
           "mins": 54,
@@ -6850,6 +8770,16 @@
           "peakTrainsPerHour": 4.4,
           "peakServices": 33,
           "totalServices": 177
+        },
+        "PAD": {
+          "mins": 61,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -6862,6 +8792,26 @@
       "lat": 51.409173,
       "lng": -0.230151,
       "journeys": {
+        "LBG": {
+          "mins": 74,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Epsom",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 67,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Epsom",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "WAT": {
           "mins": 20,
           "direct": true,
@@ -6883,15 +8833,15 @@
       "lat": 51.458786,
       "lng": -0.971849,
       "journeys": {
-        "WAT": {
-          "mins": 80,
-          "direct": false,
-          "directMins": 85,
-          "changeAt": "Basingstoke",
-          "typicalPeakMins": 88,
-          "peakTrainsPerHour": 2.0,
-          "peakServices": 15,
-          "totalServices": 105
+        "LST": {
+          "mins": 60,
+          "direct": true,
+          "directMins": 60,
+          "changeAt": null,
+          "typicalPeakMins": 63,
+          "peakTrainsPerHour": 4.0,
+          "peakServices": 30,
+          "totalServices": 144
         },
         "PAD": {
           "mins": 23,
@@ -6903,15 +8853,15 @@
           "peakServices": 117,
           "totalServices": 744
         },
-        "LST": {
-          "mins": 60,
-          "direct": true,
-          "directMins": 60,
-          "changeAt": null,
-          "typicalPeakMins": 63,
-          "peakTrainsPerHour": 4.0,
-          "peakServices": 30,
-          "totalServices": 144
+        "WAT": {
+          "mins": 80,
+          "direct": false,
+          "directMins": 85,
+          "changeAt": "Basingstoke",
+          "typicalPeakMins": 88,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 105
         }
       },
       "tiplocs": [
@@ -6925,15 +8875,15 @@
       "lat": 51.240201,
       "lng": -0.1659,
       "journeys": {
-        "STP": {
-          "mins": 40,
-          "direct": true,
-          "directMins": 40,
-          "changeAt": null,
-          "typicalPeakMins": 46,
-          "peakTrainsPerHour": 3.6,
-          "peakServices": 27,
-          "totalServices": 204
+        "KGX": {
+          "mins": 69,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "LBG": {
           "mins": 24,
@@ -6945,6 +8895,26 @@
           "peakServices": 30,
           "totalServices": 195
         },
+        "MOG": {
+          "mins": 76,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 40,
+          "direct": true,
+          "directMins": 40,
+          "changeAt": null,
+          "typicalPeakMins": 46,
+          "peakTrainsPerHour": 3.6,
+          "peakServices": 27,
+          "totalServices": 204
+        },
         "VIC": {
           "mins": 34,
           "direct": true,
@@ -6954,6 +8924,16 @@
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 114
+        },
+        "WAT": {
+          "mins": 72,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Guildford",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -6966,6 +8946,26 @@
       "lat": 51.241958,
       "lng": -0.203825,
       "journeys": {
+        "LBG": {
+          "mins": 46,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Redhill",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 61,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Redhill",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "VIC": {
           "mins": 45,
           "direct": true,
@@ -6976,11 +8976,11 @@
           "peakServices": 15,
           "totalServices": 105
         },
-        "LBG": {
-          "mins": 46,
+        "WAT": {
+          "mins": 67,
           "direct": false,
           "directMins": null,
-          "changeAt": "Redhill",
+          "changeAt": "Guildford",
           "typicalPeakMins": null,
           "peakTrainsPerHour": null,
           "peakServices": 0,
@@ -6997,6 +8997,26 @@
       "lat": 51.463061,
       "lng": -0.301558,
       "journeys": {
+        "LST": {
+          "mins": 77,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "PAD": {
+          "mins": 88,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "WAT": {
           "mins": 19,
           "direct": true,
@@ -7018,16 +9038,6 @@
       "lat": 51.389652,
       "lng": 0.506855,
       "journeys": {
-        "STP": {
-          "mins": 36,
-          "direct": true,
-          "directMins": 36,
-          "changeAt": null,
-          "typicalPeakMins": 64,
-          "peakTrainsPerHour": 4.0,
-          "peakServices": 30,
-          "totalServices": 180
-        },
         "LBG": {
           "mins": 37,
           "direct": true,
@@ -7037,6 +9047,16 @@
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
           "totalServices": 102
+        },
+        "STP": {
+          "mins": 36,
+          "direct": true,
+          "directMins": 36,
+          "changeAt": null,
+          "typicalPeakMins": 64,
+          "peakTrainsPerHour": 4.0,
+          "peakServices": 30,
+          "totalServices": 180
         },
         "VIC": {
           "mins": 41,
@@ -7068,6 +9088,16 @@
           "peakTrainsPerHour": 4.4,
           "peakServices": 33,
           "totalServices": 177
+        },
+        "PAD": {
+          "mins": 69,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -7080,16 +9110,6 @@
       "lat": 51.574829,
       "lng": 0.183237,
       "journeys": {
-        "PAD": {
-          "mins": 39,
-          "direct": false,
-          "directMins": 40,
-          "changeAt": "Stratford (London)",
-          "typicalPeakMins": 41,
-          "peakTrainsPerHour": 11.6,
-          "peakServices": 87,
-          "totalServices": 498
-        },
         "LST": {
           "mins": 18,
           "direct": true,
@@ -7099,6 +9119,16 @@
           "peakTrainsPerHour": 13.6,
           "peakServices": 102,
           "totalServices": 615
+        },
+        "PAD": {
+          "mins": 39,
+          "direct": false,
+          "directMins": 40,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": 41,
+          "peakTrainsPerHour": 11.6,
+          "peakServices": 87,
+          "totalServices": 498
         }
       },
       "tiplocs": [
@@ -7121,22 +9151,32 @@
           "peakServices": 32,
           "totalServices": 137
         },
-        "STP": {
-          "mins": 51,
-          "direct": true,
-          "directMins": 51,
-          "changeAt": null,
-          "typicalPeakMins": 52,
-          "peakTrainsPerHour": 2.0,
-          "peakServices": 15,
-          "totalServices": 84
-        },
         "LBG": {
           "mins": 66,
           "direct": true,
           "directMins": 66,
           "changeAt": null,
           "typicalPeakMins": 67,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 84
+        },
+        "MOG": {
+          "mins": 66,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 51,
+          "direct": true,
+          "directMins": 51,
+          "changeAt": null,
+          "typicalPeakMins": 52,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 84
@@ -7173,15 +9213,15 @@
       "lat": 51.201748,
       "lng": -0.162489,
       "journeys": {
-        "STP": {
-          "mins": 50,
-          "direct": true,
-          "directMins": 50,
-          "changeAt": null,
-          "typicalPeakMins": 56,
-          "peakTrainsPerHour": 1.6,
-          "peakServices": 12,
-          "totalServices": 87
+        "KGX": {
+          "mins": 78,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "LBG": {
           "mins": 35,
@@ -7192,6 +9232,36 @@
           "peakTrainsPerHour": 1.6,
           "peakServices": 12,
           "totalServices": 87
+        },
+        "MOG": {
+          "mins": 85,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 50,
+          "direct": true,
+          "directMins": 50,
+          "changeAt": null,
+          "typicalPeakMins": 56,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 87
+        },
+        "VIC": {
+          "mins": 45,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Gatwick Airport",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -7235,22 +9305,32 @@
           "peakServices": 0,
           "totalServices": 12
         },
-        "STP": {
-          "mins": 49,
-          "direct": true,
-          "directMins": 49,
-          "changeAt": null,
-          "typicalPeakMins": 51,
-          "peakTrainsPerHour": 2.0,
-          "peakServices": 15,
-          "totalServices": 108
-        },
         "LBG": {
           "mins": 64,
           "direct": true,
           "directMins": 64,
           "changeAt": null,
           "typicalPeakMins": 66,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 108
+        },
+        "MOG": {
+          "mins": 64,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 49,
+          "direct": true,
+          "directMins": 49,
+          "changeAt": null,
+          "typicalPeakMins": 51,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 108
@@ -7296,6 +9376,16 @@
           "peakTrainsPerHour": 3.1,
           "peakServices": 23,
           "totalServices": 90
+        },
+        "PAD": {
+          "mins": 77,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -7329,16 +9419,6 @@
       "lat": 51.276865,
       "lng": 0.181669,
       "journeys": {
-        "STP": {
-          "mins": 48,
-          "direct": false,
-          "directMins": 76,
-          "changeAt": "London Bridge",
-          "typicalPeakMins": 76,
-          "peakTrainsPerHour": 2.0,
-          "peakServices": 15,
-          "totalServices": 36
-        },
         "LBG": {
           "mins": 24,
           "direct": true,
@@ -7348,6 +9428,16 @@
           "peakTrainsPerHour": 8.4,
           "peakServices": 63,
           "totalServices": 342
+        },
+        "STP": {
+          "mins": 48,
+          "direct": false,
+          "directMins": 76,
+          "changeAt": "London Bridge",
+          "typicalPeakMins": 76,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 36
         },
         "VIC": {
           "mins": 31,
@@ -7370,16 +9460,6 @@
       "lat": 51.630877,
       "lng": 0.329851,
       "journeys": {
-        "PAD": {
-          "mins": 42,
-          "direct": false,
-          "directMins": 54,
-          "changeAt": "Stratford (London)",
-          "typicalPeakMins": 56,
-          "peakTrainsPerHour": 11.2,
-          "peakServices": 84,
-          "totalServices": 492
-        },
         "LST": {
           "mins": 23,
           "direct": true,
@@ -7389,6 +9469,16 @@
           "peakTrainsPerHour": 22.4,
           "peakServices": 168,
           "totalServices": 927
+        },
+        "PAD": {
+          "mins": 42,
+          "direct": false,
+          "directMins": 54,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": 56,
+          "peakTrainsPerHour": 11.2,
+          "peakServices": 84,
+          "totalServices": 492
         }
       },
       "tiplocs": [
@@ -7431,6 +9521,36 @@
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 90
+        },
+        "LBG": {
+          "mins": 79,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Hitchin",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "MOG": {
+          "mins": 88,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 64,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Hitchin",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -7443,6 +9563,16 @@
       "lat": 50.834427,
       "lng": -0.27172,
       "journeys": {
+        "LBG": {
+          "mins": 82,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Three Bridges",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "VIC": {
           "mins": 75,
           "direct": true,
@@ -7473,6 +9603,26 @@
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
           "totalServices": 264
+        },
+        "STP": {
+          "mins": 49,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Bridge",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 51,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Lewisham",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -7485,16 +9635,6 @@
       "lat": 51.341977,
       "lng": 0.734684,
       "journeys": {
-        "STP": {
-          "mins": 58,
-          "direct": true,
-          "directMins": 58,
-          "changeAt": null,
-          "typicalPeakMins": 59,
-          "peakTrainsPerHour": 2.0,
-          "peakServices": 15,
-          "totalServices": 102
-        },
         "LBG": {
           "mins": 63,
           "direct": true,
@@ -7504,6 +9644,16 @@
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 15
+        },
+        "STP": {
+          "mins": 58,
+          "direct": true,
+          "directMins": 58,
+          "changeAt": null,
+          "typicalPeakMins": 59,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 102
         },
         "VIC": {
           "mins": 64,
@@ -7526,6 +9676,16 @@
       "lat": 51.467786,
       "lng": 0.190491,
       "journeys": {
+        "LBG": {
+          "mins": 34,
+          "direct": true,
+          "directMins": 34,
+          "changeAt": null,
+          "typicalPeakMins": 39,
+          "peakTrainsPerHour": 9.6,
+          "peakServices": 72,
+          "totalServices": 471
+        },
         "STP": {
           "mins": 51,
           "direct": true,
@@ -7536,15 +9696,15 @@
           "peakServices": 15,
           "totalServices": 78
         },
-        "LBG": {
-          "mins": 34,
-          "direct": true,
-          "directMins": 34,
-          "changeAt": null,
-          "typicalPeakMins": 39,
-          "peakTrainsPerHour": 9.6,
-          "peakServices": 72,
-          "totalServices": 471
+        "VIC": {
+          "mins": 66,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Dartford",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -7557,16 +9717,6 @@
       "lat": 51.51188,
       "lng": -0.59151,
       "journeys": {
-        "PAD": {
-          "mins": 14,
-          "direct": true,
-          "directMins": 14,
-          "changeAt": null,
-          "typicalPeakMins": 32,
-          "peakTrainsPerHour": 6.4,
-          "peakServices": 48,
-          "totalServices": 341
-        },
         "LST": {
           "mins": 39,
           "direct": true,
@@ -7576,6 +9726,16 @@
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
           "totalServices": 228
+        },
+        "PAD": {
+          "mins": 14,
+          "direct": true,
+          "directMins": 14,
+          "changeAt": null,
+          "typicalPeakMins": 32,
+          "peakTrainsPerHour": 6.4,
+          "peakServices": 48,
+          "totalServices": 341
         }
       },
       "tiplocs": [
@@ -7588,16 +9748,6 @@
       "lat": 51.505957,
       "lng": -0.37861,
       "journeys": {
-        "PAD": {
-          "mins": 13,
-          "direct": true,
-          "directMins": 13,
-          "changeAt": null,
-          "typicalPeakMins": 18,
-          "peakTrainsPerHour": 9.2,
-          "peakServices": 69,
-          "totalServices": 464
-        },
         "LST": {
           "mins": 24,
           "direct": true,
@@ -7607,6 +9757,16 @@
           "peakTrainsPerHour": 9.2,
           "peakServices": 69,
           "totalServices": 444
+        },
+        "PAD": {
+          "mins": 13,
+          "direct": true,
+          "directMins": 13,
+          "changeAt": null,
+          "typicalPeakMins": 18,
+          "peakTrainsPerHour": 9.2,
+          "peakServices": 69,
+          "totalServices": 464
         }
       },
       "tiplocs": [
@@ -7619,6 +9779,16 @@
       "lat": 50.907448,
       "lng": -1.413596,
       "journeys": {
+        "PAD": {
+          "mins": 84,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Reading",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "WAT": {
           "mins": 76,
           "direct": true,
@@ -7670,6 +9840,16 @@
           "peakTrainsPerHour": 4.4,
           "peakServices": 33,
           "totalServices": 177
+        },
+        "PAD": {
+          "mins": 76,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -7682,6 +9862,16 @@
       "lat": 51.750473,
       "lng": -0.327538,
       "journeys": {
+        "LBG": {
+          "mins": 36,
+          "direct": true,
+          "directMins": 36,
+          "changeAt": null,
+          "typicalPeakMins": 37,
+          "peakTrainsPerHour": 5.6,
+          "peakServices": 42,
+          "totalServices": 252
+        },
         "STP": {
           "mins": 20,
           "direct": true,
@@ -7692,15 +9882,15 @@
           "peakServices": 87,
           "totalServices": 507
         },
-        "LBG": {
-          "mins": 36,
-          "direct": true,
-          "directMins": 36,
-          "changeAt": null,
-          "typicalPeakMins": 37,
-          "peakTrainsPerHour": 5.6,
-          "peakServices": 42,
-          "totalServices": 252
+        "VIC": {
+          "mins": 76,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Denmark Hill",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -7723,22 +9913,32 @@
           "peakServices": 11,
           "totalServices": 26
         },
-        "STP": {
-          "mins": 56,
-          "direct": true,
-          "directMins": 56,
-          "changeAt": null,
-          "typicalPeakMins": 58,
-          "peakTrainsPerHour": 2.0,
-          "peakServices": 15,
-          "totalServices": 108
-        },
         "LBG": {
           "mins": 71,
           "direct": true,
           "directMins": 71,
           "changeAt": null,
           "typicalPeakMins": 73,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 108
+        },
+        "MOG": {
+          "mins": 71,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 56,
+          "direct": true,
+          "directMins": 56,
+          "changeAt": null,
+          "typicalPeakMins": 58,
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 108
@@ -7848,6 +10048,16 @@
           "peakServices": 30,
           "totalServices": 120
         },
+        "STP": {
+          "mins": 65,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Ashford International",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "VIC": {
           "mins": 76,
           "direct": false,
@@ -7879,16 +10089,6 @@
           "peakServices": 38,
           "totalServices": 263
         },
-        "STP": {
-          "mins": 27,
-          "direct": true,
-          "directMins": 27,
-          "changeAt": null,
-          "typicalPeakMins": 28,
-          "peakTrainsPerHour": 4.0,
-          "peakServices": 30,
-          "totalServices": 195
-        },
         "LBG": {
           "mins": 42,
           "direct": true,
@@ -7908,6 +10108,26 @@
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 114
+        },
+        "STP": {
+          "mins": 27,
+          "direct": true,
+          "directMins": 27,
+          "changeAt": null,
+          "typicalPeakMins": 28,
+          "peakTrainsPerHour": 4.0,
+          "peakServices": 30,
+          "totalServices": 195
+        },
+        "VIC": {
+          "mins": 86,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "East Croydon",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -7941,6 +10161,26 @@
       "lat": 51.363401,
       "lng": -0.248665,
       "journeys": {
+        "LBG": {
+          "mins": 65,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Epsom",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 59,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Epsom",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "WAT": {
           "mins": 30,
           "direct": true,
@@ -7962,6 +10202,16 @@
       "lat": 51.541895,
       "lng": -0.003397,
       "journeys": {
+        "LST": {
+          "mins": 6,
+          "direct": true,
+          "directMins": 6,
+          "changeAt": null,
+          "typicalPeakMins": 10,
+          "peakTrainsPerHour": 28.0,
+          "peakServices": 210,
+          "totalServices": 1032
+        },
         "PAD": {
           "mins": 19,
           "direct": true,
@@ -7972,15 +10222,15 @@
           "peakServices": 87,
           "totalServices": 501
         },
-        "LST": {
-          "mins": 6,
-          "direct": true,
-          "directMins": 6,
-          "changeAt": null,
-          "typicalPeakMins": 10,
-          "peakTrainsPerHour": 28.0,
-          "peakServices": 210,
-          "totalServices": 1032
+        "VIC": {
+          "mins": 79,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Clapham Junction",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -8014,6 +10264,16 @@
       "lat": 51.396549,
       "lng": 0.500188,
       "journeys": {
+        "LBG": {
+          "mins": 56,
+          "direct": false,
+          "directMins": 69,
+          "changeAt": "Rochester",
+          "typicalPeakMins": 69,
+          "peakTrainsPerHour": 2.4,
+          "peakServices": 18,
+          "totalServices": 81
+        },
         "STP": {
           "mins": 32,
           "direct": true,
@@ -8024,15 +10284,15 @@
           "peakServices": 36,
           "totalServices": 186
         },
-        "LBG": {
-          "mins": 56,
+        "VIC": {
+          "mins": 54,
           "direct": false,
-          "directMins": 69,
+          "directMins": null,
           "changeAt": "Rochester",
-          "typicalPeakMins": 69,
-          "peakTrainsPerHour": 2.4,
-          "peakServices": 18,
-          "totalServices": 81
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -8066,16 +10326,6 @@
       "lat": 51.359533,
       "lng": -0.191215,
       "journeys": {
-        "STP": {
-          "mins": 47,
-          "direct": true,
-          "directMins": 47,
-          "changeAt": null,
-          "typicalPeakMins": 53,
-          "peakTrainsPerHour": 4.0,
-          "peakServices": 30,
-          "totalServices": 216
-        },
         "LBG": {
           "mins": 32,
           "direct": true,
@@ -8086,6 +10336,16 @@
           "peakServices": 18,
           "totalServices": 108
         },
+        "STP": {
+          "mins": 47,
+          "direct": true,
+          "directMins": 47,
+          "changeAt": null,
+          "typicalPeakMins": 53,
+          "peakTrainsPerHour": 4.0,
+          "peakServices": 30,
+          "totalServices": 216
+        },
         "VIC": {
           "mins": 32,
           "direct": true,
@@ -8095,6 +10355,16 @@
           "peakTrainsPerHour": 6.4,
           "peakServices": 48,
           "totalServices": 252
+        },
+        "WAT": {
+          "mins": 55,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Epsom",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -8107,6 +10377,36 @@
       "lat": 51.393387,
       "lng": 0.169225,
       "journeys": {
+        "KGX": {
+          "mins": 89,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "LBG": {
+          "mins": 49,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Blackfriars",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "MOG": {
+          "mins": 86,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "STP": {
           "mins": 54,
           "direct": false,
@@ -8126,16 +10426,6 @@
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
           "totalServices": 234
-        },
-        "LBG": {
-          "mins": 49,
-          "direct": false,
-          "directMins": null,
-          "changeAt": "London Blackfriars",
-          "typicalPeakMins": null,
-          "peakTrainsPerHour": null,
-          "peakServices": 0,
-          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -8169,16 +10459,6 @@
       "lat": 51.523562,
       "lng": -0.68137,
       "journeys": {
-        "PAD": {
-          "mins": 30,
-          "direct": false,
-          "directMins": 38,
-          "changeAt": "Maidenhead",
-          "typicalPeakMins": 40,
-          "peakTrainsPerHour": 4.0,
-          "peakServices": 30,
-          "totalServices": 159
-        },
         "LST": {
           "mins": 49,
           "direct": true,
@@ -8188,6 +10468,16 @@
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 156
+        },
+        "PAD": {
+          "mins": 30,
+          "direct": false,
+          "directMins": 38,
+          "changeAt": "Maidenhead",
+          "typicalPeakMins": 40,
+          "peakTrainsPerHour": 4.0,
+          "peakServices": 30,
+          "totalServices": 159
         }
       },
       "tiplocs": [
@@ -8242,6 +10532,16 @@
       "lat": 51.393844,
       "lng": -1.24319,
       "journeys": {
+        "LST": {
+          "mins": 89,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Reading",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "PAD": {
           "mins": 42,
           "direct": true,
@@ -8263,6 +10563,16 @@
       "lat": 51.433452,
       "lng": -1.074973,
       "journeys": {
+        "LST": {
+          "mins": 81,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Reading",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "PAD": {
           "mins": 34,
           "direct": true,
@@ -8284,15 +10594,15 @@
       "lat": 51.116924,
       "lng": -0.161184,
       "journeys": {
-        "STP": {
-          "mins": 49,
-          "direct": true,
-          "directMins": 49,
-          "changeAt": null,
-          "typicalPeakMins": 50,
-          "peakTrainsPerHour": 7.2,
-          "peakServices": 54,
-          "totalServices": 402
+        "KGX": {
+          "mins": 71,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "LBG": {
           "mins": 34,
@@ -8303,6 +10613,26 @@
           "peakTrainsPerHour": 8.0,
           "peakServices": 60,
           "totalServices": 381
+        },
+        "MOG": {
+          "mins": 79,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 49,
+          "direct": true,
+          "directMins": 49,
+          "changeAt": null,
+          "typicalPeakMins": 50,
+          "peakTrainsPerHour": 7.2,
+          "peakServices": 54,
+          "totalServices": 402
         },
         "VIC": {
           "mins": 36,
@@ -8346,6 +10676,16 @@
       "lat": 51.471509,
       "lng": -1.029816,
       "journeys": {
+        "LST": {
+          "mins": 73,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Reading",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "PAD": {
           "mins": 37,
           "direct": false,
@@ -8377,6 +10717,16 @@
           "peakServices": 51,
           "totalServices": 237
         },
+        "STP": {
+          "mins": 57,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Bridge",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "VIC": {
           "mins": 42,
           "direct": true,
@@ -8407,6 +10757,16 @@
           "peakTrainsPerHour": 8.9,
           "peakServices": 67,
           "totalServices": 446
+        },
+        "PAD": {
+          "mins": 38,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -8450,6 +10810,16 @@
           "peakServices": 24,
           "totalServices": 117
         },
+        "STP": {
+          "mins": 68,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Bridge",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "VIC": {
           "mins": 52,
           "direct": true,
@@ -8492,16 +10862,6 @@
       "lat": 51.475534,
       "lng": -0.863293,
       "journeys": {
-        "PAD": {
-          "mins": 21,
-          "direct": true,
-          "directMins": 21,
-          "changeAt": null,
-          "typicalPeakMins": 45,
-          "peakTrainsPerHour": 6.4,
-          "peakServices": 48,
-          "totalServices": 272
-        },
         "LST": {
           "mins": 55,
           "direct": true,
@@ -8511,6 +10871,16 @@
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 144
+        },
+        "PAD": {
+          "mins": 21,
+          "direct": true,
+          "directMins": 21,
+          "changeAt": null,
+          "typicalPeakMins": 45,
+          "peakTrainsPerHour": 6.4,
+          "peakServices": 48,
+          "totalServices": 272
         }
       },
       "tiplocs": [
@@ -8532,6 +10902,26 @@
           "peakTrainsPerHour": 8.8,
           "peakServices": 66,
           "totalServices": 363
+        },
+        "LST": {
+          "mins": 38,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Romford",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "PAD": {
+          "mins": 58,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Romford",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -8545,6 +10935,26 @@
       "lat": 51.48619,
       "lng": -0.122875,
       "journeys": {
+        "LBG": {
+          "mins": 90,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Epsom",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 83,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Epsom",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "WAT": {
           "mins": 4,
           "direct": true,
@@ -8619,6 +11029,16 @@
           "peakServices": 12,
           "totalServices": 102
         },
+        "STP": {
+          "mins": 66,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "East Croydon",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "VIC": {
           "mins": 12,
           "direct": true,
@@ -8690,6 +11110,16 @@
           "peakTrainsPerHour": 10.7,
           "peakServices": 80,
           "totalServices": 557
+        },
+        "VIC": {
+          "mins": 52,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Clapham Junction",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -8713,6 +11143,16 @@
           "peakServices": 0,
           "totalServices": 2
         },
+        "LBG": {
+          "mins": 55,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "MOG": {
           "mins": 39,
           "direct": true,
@@ -8722,6 +11162,16 @@
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 150
+        },
+        "STP": {
+          "mins": 40,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -8743,6 +11193,16 @@
           "peakTrainsPerHour": 4.8,
           "peakServices": 36,
           "totalServices": 222
+        },
+        "STP": {
+          "mins": 51,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Bridge",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "VIC": {
           "mins": 38,
@@ -8775,16 +11235,6 @@
           "peakServices": 15,
           "totalServices": 119
         },
-        "STP": {
-          "mins": 22,
-          "direct": true,
-          "directMins": 22,
-          "changeAt": null,
-          "typicalPeakMins": 37,
-          "peakTrainsPerHour": 2.0,
-          "peakServices": 15,
-          "totalServices": 33
-        },
         "LBG": {
           "mins": 37,
           "direct": true,
@@ -8804,6 +11254,26 @@
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 150
+        },
+        "STP": {
+          "mins": 22,
+          "direct": true,
+          "directMins": 22,
+          "changeAt": null,
+          "typicalPeakMins": 37,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 33
+        },
+        "VIC": {
+          "mins": 82,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Denmark Hill",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -8825,6 +11295,36 @@
           "peakTrainsPerHour": 4.0,
           "peakServices": 30,
           "totalServices": 132
+        },
+        "LBG": {
+          "mins": 58,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stevenage",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "MOG": {
+          "mins": 49,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 43,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stevenage",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -8868,6 +11368,16 @@
           "peakServices": 15,
           "totalServices": 105
         },
+        "STP": {
+          "mins": 42,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Norwood Junction",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "VIC": {
           "mins": 31,
           "direct": true,
@@ -8877,6 +11387,16 @@
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
           "totalServices": 228
+        },
+        "WAT": {
+          "mins": 69,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Epsom",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -8889,16 +11409,6 @@
       "lat": 51.510055,
       "lng": -0.472234,
       "journeys": {
-        "PAD": {
-          "mins": 20,
-          "direct": true,
-          "directMins": 20,
-          "changeAt": null,
-          "typicalPeakMins": 23,
-          "peakTrainsPerHour": 6.0,
-          "peakServices": 45,
-          "totalServices": 245
-        },
         "LST": {
           "mins": 32,
           "direct": true,
@@ -8908,6 +11418,16 @@
           "peakTrainsPerHour": 6.0,
           "peakServices": 45,
           "totalServices": 228
+        },
+        "PAD": {
+          "mins": 20,
+          "direct": true,
+          "directMins": 20,
+          "changeAt": null,
+          "typicalPeakMins": 23,
+          "peakTrainsPerHour": 6.0,
+          "peakServices": 45,
+          "totalServices": 245
         }
       },
       "tiplocs": [
@@ -8941,6 +11461,16 @@
       "lat": 51.548476,
       "lng": -0.191837,
       "journeys": {
+        "LBG": {
+          "mins": 24,
+          "direct": true,
+          "directMins": 24,
+          "changeAt": null,
+          "typicalPeakMins": 25,
+          "peakTrainsPerHour": 2.8,
+          "peakServices": 21,
+          "totalServices": 165
+        },
         "STP": {
           "mins": 8,
           "direct": true,
@@ -8951,15 +11481,15 @@
           "peakServices": 66,
           "totalServices": 435
         },
-        "LBG": {
-          "mins": 24,
-          "direct": true,
-          "directMins": 24,
-          "changeAt": null,
-          "typicalPeakMins": 25,
-          "peakTrainsPerHour": 2.8,
-          "peakServices": 21,
-          "totalServices": 165
+        "VIC": {
+          "mins": 54,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Denmark Hill",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -9036,6 +11566,16 @@
       "lat": 51.237544,
       "lng": -1.337747,
       "journeys": {
+        "PAD": {
+          "mins": 69,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Reading",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "WAT": {
           "mins": 59,
           "direct": true,
@@ -9057,6 +11597,16 @@
       "lat": 52.103588,
       "lng": 0.165617,
       "journeys": {
+        "KGX": {
+          "mins": 67,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Cambridge South",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "LST": {
           "mins": 63,
           "direct": true,
@@ -9066,6 +11616,16 @@
           "peakTrainsPerHour": 3.3,
           "peakServices": 25,
           "totalServices": 128
+        },
+        "STP": {
+          "mins": 78,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Cambridge South",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -9087,6 +11647,16 @@
           "peakTrainsPerHour": 5.6,
           "peakServices": 42,
           "totalServices": 192
+        },
+        "PAD": {
+          "mins": 56,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -9099,6 +11669,16 @@
       "lat": 51.421222,
       "lng": -0.206371,
       "journeys": {
+        "LBG": {
+          "mins": 40,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Tulse Hill",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "STP": {
           "mins": 40,
           "direct": true,
@@ -9108,6 +11688,16 @@
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 108
+        },
+        "VIC": {
+          "mins": 52,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Herne Hill",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "WAT": {
           "mins": 15,
@@ -9131,6 +11721,16 @@
       "lat": 51.067211,
       "lng": -1.3197,
       "journeys": {
+        "PAD": {
+          "mins": 68,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Reading",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "WAT": {
           "mins": 58,
           "direct": true,
@@ -9173,6 +11773,16 @@
       "lat": 51.483268,
       "lng": -0.61038,
       "journeys": {
+        "LST": {
+          "mins": 54,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Slough",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "PAD": {
           "mins": 32,
           "direct": false,
@@ -9203,6 +11813,16 @@
           "peakTrainsPerHour": 7.2,
           "peakServices": 54,
           "totalServices": 255
+        },
+        "PAD": {
+          "mins": 61,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -9236,15 +11856,15 @@
       "lat": 50.964297,
       "lng": -0.12079,
       "journeys": {
-        "STP": {
-          "mins": 66,
-          "direct": true,
-          "directMins": 66,
-          "changeAt": null,
-          "typicalPeakMins": 66,
-          "peakTrainsPerHour": 2.0,
-          "peakServices": 15,
-          "totalServices": 117
+        "KGX": {
+          "mins": 88,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         },
         "LBG": {
           "mins": 51,
@@ -9255,6 +11875,16 @@
           "peakTrainsPerHour": 2.0,
           "peakServices": 15,
           "totalServices": 108
+        },
+        "STP": {
+          "mins": 66,
+          "direct": true,
+          "directMins": 66,
+          "changeAt": null,
+          "typicalPeakMins": 66,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 117
         },
         "VIC": {
           "mins": 54,
@@ -9298,6 +11928,16 @@
       "lat": 51.489909,
       "lng": 0.069194,
       "journeys": {
+        "LBG": {
+          "mins": 21,
+          "direct": true,
+          "directMins": 21,
+          "changeAt": null,
+          "typicalPeakMins": 24,
+          "peakTrainsPerHour": 9.6,
+          "peakServices": 72,
+          "totalServices": 471
+        },
         "STP": {
           "mins": 39,
           "direct": true,
@@ -9308,15 +11948,15 @@
           "peakServices": 15,
           "totalServices": 78
         },
-        "LBG": {
-          "mins": 21,
-          "direct": true,
-          "directMins": 21,
-          "changeAt": null,
-          "typicalPeakMins": 24,
-          "peakTrainsPerHour": 9.6,
-          "peakServices": 72,
-          "totalServices": 471
+        "VIC": {
+          "mins": 53,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Blackheath",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
         }
       },
       "tiplocs": [
@@ -9329,6 +11969,26 @@
       "lat": 51.381253,
       "lng": -0.245167,
       "journeys": {
+        "LBG": {
+          "mins": 69,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Epsom",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 62,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Epsom",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
         "WAT": {
           "mins": 27,
           "direct": true,

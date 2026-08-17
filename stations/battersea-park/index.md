@@ -1,10 +1,10 @@
 # Train times from Battersea Park to London
 
-Battersea Park connects to 2 London terminals. The fastest route is Victoria in 4 minutes on a direct train.
+Battersea Park connects to 3 London terminals. The fastest route is Victoria in 4 minutes on a direct train.
 
 - Fastest journey to London: 4 minutes to Victoria
 - Direct service: Yes
-- London terminals served: 2 (Victoria, London Bridge)
+- London terminals served: 3 (Victoria, London Bridge, St Pancras)
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -15,12 +15,13 @@ Battersea Park connects to 2 London terminals. The fastest route is Victoria in 
 | --- | --- | --- | --- | --- |
 | Victoria | 4 min | same as fastest | 4 | 8.8 | Southeastern, Southern |
 | London Bridge | 33 min (change at Peckham Rye) | 49 min | 54 | 1.6 | Southeastern, Southern, Thameslink |
+| St Pancras | 55 min (change at Denmark Hill) | no direct service | - | - | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 
 ### How long does the train from Battersea Park to London take?
 
-The fastest train from Battersea Park reaches London Victoria in 4 minutes. Battersea Park connects to 2 London terminals: Victoria, London Bridge.
+The fastest train from Battersea Park reaches London Victoria in 4 minutes. Battersea Park connects to 3 London terminals: Victoria, London Bridge, St Pancras.
 
 ### Which London station should I travel to from Battersea Park?
 

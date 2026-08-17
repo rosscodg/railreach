@@ -27,7 +27,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<link rel="stylesheet" href="/assets/css/shared.css?v=b2e3cd6b">
+<link rel="stylesheet" href="/assets/css/shared.css?v=a4c16675">
 <style>:root { --map-h: 56vh; }</style>
 </head>
 <body>
@@ -97,9 +97,9 @@
 </div>
 
 <h2>Slough to Paddington</h2>
-<p>The fastest train from Slough to London Paddington takes <strong>14 minutes</strong> and involves a direct train with no change. The route is operated by Great Western Railway, Elizabeth line. That makes Slough the 4th quickest of the 44 stations with a service into Paddington inside 90 minutes.</p>
+<p>The fastest train from Slough to London Paddington takes <strong>14 minutes</strong> and involves a direct train with no change. The route is operated by Great Western Railway, Elizabeth line. That makes Slough the 4th quickest of the 79 stations with a service into Paddington inside 90 minutes.</p>
 <h2>Slough to Liverpool Street</h2>
-<p>The fastest train from Slough to London Liverpool Street takes <strong>39 minutes</strong> and involves a direct train with no change. The route is operated by Greater Anglia, Elizabeth line. That makes Slough the 24th quickest of the 49 stations with a service into Liverpool Street inside 90 minutes.</p>
+<p>The fastest train from Slough to London Liverpool Street takes <strong>39 minutes</strong> and involves a direct train with no change. The route is operated by Greater Anglia, Elizabeth line. That makes Slough the 25th quickest of the 62 stations with a service into Liverpool Street inside 90 minutes.</p>
 <h2>Frequently asked questions</h2>
 <h3>How long does the train from Slough to London take?</h3>
 <p>The fastest train from Slough reaches London Paddington in 14 minutes. Slough connects to 2 London terminals: Paddington, Liverpool Street.</p>
@@ -258,13 +258,13 @@
 }
 ]</script>
 
-<script src="/assets/js/stations-data.js?v=98f6f1f6"></script>
-<script src="/assets/js/map-ui.js?v=afe4b8dd"></script>
+<script src="/assets/js/stations-data.js?v=41b654d1"></script>
+<script src="/assets/js/map-ui.js?v=28af0e35"></script>
 <script>
 const map=RR.createMap('map');
 L.circleMarker([51.51188,-0.59151],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Slough</strong><br>This station').addTo(map);
-RR.terminalMarker(map,51.515996,-0.176174,'<strong>London Paddington</strong><div class="pop-sub">from Slough</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>14 min</dd></div><div class="pop-gap"><dt>Typical peak</dt><dd>32 min</dd></div><div><dt>Peak trains</dt><dd>6.4/hr</dd></div></dl><a class="popup-link" href="/terminals/paddington/">Terminal guide &rarr;</a>');
-RR.terminalMarker(map,51.517991,-0.081426,'<strong>London Liverpool Street</strong><div class="pop-sub">from Slough</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>39 min</dd></div><div><dt>Typical peak</dt><dd>43 min</dd></div><div><dt>Peak trains</dt><dd>6.0/hr</dd></div></dl><a class="popup-link" href="/terminals/liverpool-street/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.515996,-0.176174,'<strong>London Paddington</strong><div class="pop-sub">from Slough</div><div class="pop-hero"><b>14</b> min</div><dl class="pop-stats"><div class="pop-gap"><dt>Typical peak</dt><dd>32 min</dd></div><div><dt>Peak trains</dt><dd>6.4/hr</dd></div></dl><a class="popup-link" href="/terminals/paddington/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.517991,-0.081426,'<strong>London Liverpool Street</strong><div class="pop-sub">from Slough</div><div class="pop-hero"><b>39</b> min</div><dl class="pop-stats"><div><dt>Typical peak</dt><dd>43 min</dd></div><div><dt>Peak trains</dt><dd>6.0/hr</dd></div></dl><a class="popup-link" href="/terminals/liverpool-street/">Terminal guide &rarr;</a>');
 L.polyline([[51.51188,-0.59151],[51.515996,-0.176174]],{color:RR.colour(14),weight:3,opacity:0.75,}).addTo(map);
 L.polyline([[51.51188,-0.59151],[51.517991,-0.081426]],{color:RR.colour(39),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Slough: 2 London terminals';

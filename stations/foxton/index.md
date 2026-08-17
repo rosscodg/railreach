@@ -1,10 +1,10 @@
 # Train times from Foxton to London
 
-Foxton connects to 1 London terminal. The fastest route is Kings Cross in 57 minutes on a direct train.
+Foxton connects to 3 London terminals. The fastest route is Kings Cross in 57 minutes on a direct train.
 
 - Fastest journey to London: 57 minutes to Kings Cross
 - Direct service: Yes
-- London terminals served: 1 (Kings Cross)
+- London terminals served: 3 (Kings Cross, St Pancras, London Bridge)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,14 @@ Foxton connects to 1 London terminal. The fastest route is Kings Cross in 57 min
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Kings Cross | 57 min | same as fastest | 57 | 2.0 | Great Northern, LNER, Hull Trains, Lumo |
+| St Pancras | 67 min (change at Hitchin) | no direct service | - | - | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 82 min (change at Hitchin) | no direct service | - | - | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 
 ### How long does the train from Foxton to London take?
 
-The fastest train from Foxton reaches London Kings Cross in 57 minutes. Foxton connects to 1 London terminal: Kings Cross.
+The fastest train from Foxton reaches London Kings Cross in 57 minutes. Foxton connects to 3 London terminals: Kings Cross, St Pancras, London Bridge.
 
 ### Which London station should I travel to from Foxton?
 

@@ -1,10 +1,10 @@
 # Train journey times to London Liverpool Street
 
-49 stations reach London Liverpool Street within 90 minutes, 48 of them on a
+62 stations reach London Liverpool Street within 90 minutes, 48 of them on a
 direct train. Services are operated by Greater Anglia, Elizabeth line.
 
-- Stations within 90 minutes: 49
-- Direct services: 48 of 49
+- Stations within 90 minutes: 62
+- Direct services: 48 of 62
 - Stations under 30 minutes: 14
 - Fastest station: Stratford - 6 minutes
 - Operators: Greater Anglia, Elizabeth line
@@ -38,6 +38,7 @@ direct train. Services are operated by Greater Anglia, Elizabeth line.
 | Bishops Stortford | 37 min | same as fastest | 46 | 6.9 |
 | Harlow Mill | 37 min | same as fastest | 42 | 1.9 |
 | Langley | 37 min | same as fastest | 41 | 4.0 |
+| Upminster | 38 min (change at Romford) | no direct service | - | - |
 | Hatfield Peverel | 39 min | same as fastest | 46 | 2.8 |
 | Slough | 39 min | same as fastest | 43 | 6.0 |
 | Sawbridgeworth | 40 min | same as fastest | 44 | 3.1 |
@@ -55,6 +56,7 @@ direct train. Services are operated by Greater Anglia, Elizabeth line.
 | Rochford | 50 min | same as fastest | 55 | 4.4 |
 | Elsenham | 51 min | same as fastest | 59 | 1.9 |
 | Marks Tey | 52 min | same as fastest | 58 | 3.2 |
+| Windsor & Eton Central | 54 min (change at Slough) | no direct service | - | - |
 | Audley End | 55 min | same as fastest | 67 | 3.3 |
 | Twyford | 55 min | same as fastest | 58 | 4.0 |
 | Manningtree | 56 min | same as fastest | 65 | 3.6 |
@@ -64,6 +66,17 @@ direct train. Services are operated by Greater Anglia, Elizabeth line.
 | Reading | 60 min | same as fastest | 63 | 4.0 |
 | Whittlesford Parkway | 63 min | same as fastest | 77 | 3.3 |
 | Cambridge | 73 min | same as fastest | 87 | 3.3 |
+| Tilehurst | 73 min (change at Reading) | no direct service | - | - |
+| Henley-on-Thames | 77 min (change at Twyford) | no direct service | - | - |
+| Richmond | 77 min (change at Stratford (London)) | no direct service | - | - |
+| Pangbourne | 78 min (change at Reading) | no direct service | - | - |
+| Clapham Junction | 81 min (change at Stratford (London)) | no direct service | - | - |
+| Marlow | 81 min (change at Maidenhead) | no direct service | - | - |
+| Theale | 81 min (change at Reading) | no direct service | - | - |
+| Goring & Streatley | 82 min (change at Reading) | no direct service | - | - |
+| Cholsey | 87 min (change at Reading) | no direct service | - | - |
+| Didcot Parkway | 87 min (change at Reading) | no direct service | - | - |
+| Thatcham | 89 min (change at Reading) | no direct service | - | - |
 
 ## Frequently asked questions
 
@@ -77,7 +90,7 @@ The fastest connection is from Stratford, at 6 minutes on a direct service. Serv
 
 ### How many stations connect to Liverpool Street?
 
-49 stations have a service to London Liverpool Street within 90 minutes, and 48 of those are direct trains with no change required.
+62 stations have a service to London Liverpool Street within 90 minutes, and 48 of those are direct trains with no change required.
 
 ### What areas does Liverpool Street serve?
 
@@ -85,7 +98,7 @@ London Liverpool Street primarily serves Essex, Hertfordshire and East Anglia. K
 
 ### Is Liverpool Street a good terminal to commute into?
 
-With 49 stations inside 90 minutes and 48 direct services, Liverpool Street offers unusually broad commuter coverage. The quickest option is Stratford at 6 minutes.
+With 62 stations inside 90 minutes and 48 direct services, Liverpool Street offers unusually broad commuter coverage. The quickest option is Stratford at 6 minutes.
 
 ## About this data
 

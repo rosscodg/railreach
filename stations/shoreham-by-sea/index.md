@@ -1,10 +1,10 @@
 # Train times from Shoreham-by-Sea to London
 
-Shoreham-by-Sea connects to 1 London terminal. The fastest route is Victoria in 75 minutes on a direct train.
+Shoreham-by-Sea connects to 2 London terminals. The fastest route is Victoria in 75 minutes on a direct train.
 
 - Fastest journey to London: 75 minutes to Victoria
 - Direct service: Yes
-- London terminals served: 1 (Victoria)
+- London terminals served: 2 (Victoria, London Bridge)
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,13 @@ Shoreham-by-Sea connects to 1 London terminal. The fastest route is Victoria in 
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Victoria | 75 min | same as fastest | 77 | 1.6 | Southeastern, Southern |
+| London Bridge | 82 min (change at Three Bridges) | no direct service | - | - | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 
 ### How long does the train from Shoreham-by-Sea to London take?
 
-The fastest train from Shoreham-by-Sea reaches London Victoria in 75 minutes. Shoreham-by-Sea connects to 1 London terminal: Victoria.
+The fastest train from Shoreham-by-Sea reaches London Victoria in 75 minutes. Shoreham-by-Sea connects to 2 London terminals: Victoria, London Bridge.
 
 ### Which London station should I travel to from Shoreham-by-Sea?
 

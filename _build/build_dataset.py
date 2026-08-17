@@ -128,48 +128,56 @@ def main():
     # grow the dataset by half and change what every page and the map show;
     # that is a decision about coverage, not about measuring what we already
     # publish correctly, so it is deliberately not taken here.
-    kept = improved = rescued = unverified = 0
+    kept = improved = rescued = unverified = added = 0
     for st in data['stations']:
         published = st.get('journeys', {})
         got = measured.get(st['name'], {})
         new = {}
 
-        for code, old in published.items():
+        # Every pair the timetable supports within the cap, not only the ones
+        # that happened to have a direct service. A station that reaches a
+        # terminal in 40 minutes with one change is a useful answer to "can I
+        # commute from here", and withholding it because no through train
+        # exists made the map answer a narrower question than people ask.
+        for code in sorted(set(published) | set(got)):
             m = got.get(code)
             if not m or m.get('fastest_mins') is None or m['fastest_mins'] > MAX_MINUTES:
-                # Still nothing we can measure: keep the pair so the page can
-                # say a change is needed, but publish no time for it.
-                new[code] = {
-                    'mins': None, 'direct': False, 'changeRequired': True,
-                    'directMins': None, 'changeAt': None,
-                    'typicalPeakMins': None, 'peakTrainsPerHour': None,
-                }
-                unverified += 1
+                if code in published:
+                    new[code] = {
+                        'mins': None, 'direct': False, 'changeRequired': True,
+                        'directMins': None, 'changeAt': None,
+                        'typicalPeakMins': None, 'peakTrainsPerHour': None,
+                    }
+                    unverified += 1
                 continue
 
             direct_mins = m.get('direct_mins')
             change_mins = m.get('change_mins')
             fastest_is_direct = bool(m.get('fastest_is_direct'))
+            old = published.get(code)
 
-            entry = {
-                # Headline: the quickest way there, with at most one change.
-                # Drives the map colour, the journey-time filter and sorting.
+            new[code] = {
+                # Headline: quickest way there with at most one change. Drives
+                # the map colour, the journey-time filter and sorting.
                 'mins': m['fastest_mins'],
                 'direct': fastest_is_direct,
-                # The quickest without changing, when such a service exists.
+                # Quickest without changing; null where no through train runs.
                 'directMins': direct_mins,
-                # Where the change happens, when the quickest way needs one.
                 'changeAt': None if fastest_is_direct
                             else names.get(m.get('change_at'), m.get('change_at')),
-                # Peak measures describe direct services only, which is what a
-                # regular commuter travels on. Labelled as such wherever shown.
+                # Peak measures describe direct services only. Where there is
+                # no direct service they are null, and the pages say so rather
+                # than reporting "no peak service", which would read as "you
+                # cannot do this in the peak" when the truth is that we have
+                # not measured connections in the peak.
                 'typicalPeakMins': m.get('typical_peak_mins'),
                 'peakTrainsPerHour': m.get('peak_trains_per_hour'),
                 'peakServices': m.get('peak_services'),
                 'totalServices': m.get('total_services'),
             }
-            new[code] = entry
-            if old.get('mins') is None:
+            if old is None:
+                added += 1
+            elif old.get('mins') is None:
                 rescued += 1
             elif direct_mins is not None and change_mins is not None and change_mins < direct_mins:
                 improved += 1
@@ -208,8 +216,11 @@ def main():
     with_typical = sum(1 for s in data['stations'] for j in s['journeys'].values()
                        if j.get('typicalPeakMins'))
     print(f"terminals: {len(data['terminals'])}")
-    print(f"journeys:  {kept}   ({improved} now quicker with a change, {rescued} "
-          f"newly timed, {unverified} still with no time)")
+    nodirect = sum(1 for s in data['stations'] for j in s['journeys'].values()
+                   if j.get('mins') is not None and j.get('directMins') is None)
+    print(f"journeys:  {kept}   ({added} newly reachable with a change, {improved} now "
+          f"quicker with a change, {rescued} newly timed, {unverified} still with no time)")
+    print(f"  reachable only by changing:  {nodirect}")
     print(f"  fastest is via a change:     {via_change}")
     print(f"  direct with a measured time: {direct}")
     print(f"  with a typical peak figure:  {with_typical}")

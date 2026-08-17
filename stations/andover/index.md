@@ -1,10 +1,10 @@
 # Train times from Andover to London
 
-Andover connects to 1 London terminal. The fastest route is Waterloo in 62 minutes on a direct train.
+Andover connects to 2 London terminals. The fastest route is Waterloo in 62 minutes on a direct train.
 
 - Fastest journey to London: 62 minutes to Waterloo
 - Direct service: Yes
-- London terminals served: 1 (Waterloo)
+- London terminals served: 2 (Waterloo, Paddington)
 - Operator: South Western Railway
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,13 @@ Andover connects to 1 London terminal. The fastest route is Waterloo in 62 minut
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Waterloo | 62 min | same as fastest | 70 | 1.9 | South Western Railway |
+| Paddington | 77 min (change at Reading) | no direct service | - | - | Great Western Railway, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Andover to London take?
 
-The fastest train from Andover reaches London Waterloo in 62 minutes. Andover connects to 1 London terminal: Waterloo.
+The fastest train from Andover reaches London Waterloo in 62 minutes. Andover connects to 2 London terminals: Waterloo, Paddington.
 
 ### Which London station should I travel to from Andover?
 

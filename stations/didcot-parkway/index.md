@@ -1,10 +1,10 @@
 # Train times from Didcot Parkway to London
 
-Didcot Parkway connects to 1 London terminal. The fastest route is Paddington in 37 minutes on a direct train.
+Didcot Parkway connects to 2 London terminals. The fastest route is Paddington in 37 minutes on a direct train.
 
 - Fastest journey to London: 37 minutes to Paddington
 - Direct service: Yes
-- London terminals served: 1 (Paddington)
+- London terminals served: 2 (Paddington, Liverpool Street)
 - Operator: Great Western Railway, Elizabeth line
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,13 @@ Didcot Parkway connects to 1 London terminal. The fastest route is Paddington in
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Paddington | 37 min | same as fastest | 43 | 5.6 | Great Western Railway, Elizabeth line |
+| Liverpool Street | 87 min (change at Reading) | no direct service | - | - | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Didcot Parkway to London take?
 
-The fastest train from Didcot Parkway reaches London Paddington in 37 minutes. Didcot Parkway connects to 1 London terminal: Paddington.
+The fastest train from Didcot Parkway reaches London Paddington in 37 minutes. Didcot Parkway connects to 2 London terminals: Paddington, Liverpool Street.
 
 ### Which London station should I travel to from Didcot Parkway?
 

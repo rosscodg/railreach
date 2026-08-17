@@ -1,10 +1,10 @@
 # Train times from Motspur Park to London
 
-Motspur Park connects to 1 London terminal. The fastest route is Waterloo in 24 minutes on a direct train.
+Motspur Park connects to 3 London terminals. The fastest route is Waterloo in 24 minutes on a direct train.
 
 - Fastest journey to London: 24 minutes to Waterloo
 - Direct service: Yes
-- London terminals served: 1 (Waterloo)
+- London terminals served: 3 (Waterloo, Victoria, London Bridge)
 - Operator: South Western Railway
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,14 @@ Motspur Park connects to 1 London terminal. The fastest route is Waterloo in 24 
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Waterloo | 24 min | same as fastest | 27 | 5.2 | South Western Railway |
+| Victoria | 64 min (change at Epsom) | no direct service | - | - | Southeastern, Southern |
+| London Bridge | 71 min (change at Epsom) | no direct service | - | - | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 
 ### How long does the train from Motspur Park to London take?
 
-The fastest train from Motspur Park reaches London Waterloo in 24 minutes. Motspur Park connects to 1 London terminal: Waterloo.
+The fastest train from Motspur Park reaches London Waterloo in 24 minutes. Motspur Park connects to 3 London terminals: Waterloo, Victoria, London Bridge.
 
 ### Which London station should I travel to from Motspur Park?
 

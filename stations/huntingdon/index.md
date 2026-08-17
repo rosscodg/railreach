@@ -1,10 +1,10 @@
 # Train times from Huntingdon to London
 
-Huntingdon connects to 3 London terminals. The fastest route is Kings Cross in 47 minutes on a direct train.
+Huntingdon connects to 4 London terminals. The fastest route is Kings Cross in 47 minutes on a direct train.
 
 - Fastest journey to London: 47 minutes to Kings Cross
 - Direct service: Yes
-- London terminals served: 3 (Kings Cross, St Pancras, London Bridge)
+- London terminals served: 4 (Kings Cross, St Pancras, London Bridge, Moorgate)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -16,12 +16,13 @@ Huntingdon connects to 3 London terminals. The fastest route is Kings Cross in 4
 | Kings Cross | 47 min | same as fastest | 53 | 1.5 | Great Northern, LNER, Hull Trains, Lumo |
 | St Pancras | 64 min | same as fastest | 66 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 | London Bridge | 79 min | same as fastest | 81 | 2.0 | Southeastern, Southern, Thameslink |
+| Moorgate | 79 min (change at Finsbury Park) | no direct service | - | - | Great Northern |
 
 ## Frequently asked questions
 
 ### How long does the train from Huntingdon to London take?
 
-The fastest train from Huntingdon reaches London Kings Cross in 47 minutes. Huntingdon connects to 3 London terminals: Kings Cross, St Pancras, London Bridge.
+The fastest train from Huntingdon reaches London Kings Cross in 47 minutes. Huntingdon connects to 4 London terminals: Kings Cross, St Pancras, London Bridge, Moorgate.
 
 ### Which London station should I travel to from Huntingdon?
 

@@ -1,10 +1,10 @@
 # Train times from Clandon to London
 
-Clandon connects to 1 London terminal. The fastest route is Waterloo in 51 minutes on a direct train.
+Clandon connects to 3 London terminals. The fastest route is Waterloo in 51 minutes on a direct train.
 
 - Fastest journey to London: 51 minutes to Waterloo
 - Direct service: Yes
-- London terminals served: 1 (Waterloo)
+- London terminals served: 3 (Waterloo, London Bridge, Victoria)
 - Operator: South Western Railway
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,14 @@ Clandon connects to 1 London terminal. The fastest route is Waterloo in 51 minut
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Waterloo | 51 min | same as fastest | 58 | 3.2 | South Western Railway |
+| London Bridge | 79 min (change at Epsom) | no direct service | - | - | Southeastern, Southern, Thameslink |
+| Victoria | 81 min (change at Leatherhead) | no direct service | - | - | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from Clandon to London take?
 
-The fastest train from Clandon reaches London Waterloo in 51 minutes. Clandon connects to 1 London terminal: Waterloo.
+The fastest train from Clandon reaches London Waterloo in 51 minutes. Clandon connects to 3 London terminals: Waterloo, London Bridge, Victoria.
 
 ### Which London station should I travel to from Clandon?
 

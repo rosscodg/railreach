@@ -1,10 +1,10 @@
 # Train times from Thatcham to London
 
-Thatcham connects to 1 London terminal. The fastest route is Paddington in 42 minutes on a direct train.
+Thatcham connects to 2 London terminals. The fastest route is Paddington in 42 minutes on a direct train.
 
 - Fastest journey to London: 42 minutes to Paddington
 - Direct service: Yes
-- London terminals served: 1 (Paddington)
+- London terminals served: 2 (Paddington, Liverpool Street)
 - Operator: Great Western Railway, Elizabeth line
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,13 @@ Thatcham connects to 1 London terminal. The fastest route is Paddington in 42 mi
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Paddington | 42 min | same as fastest | 46 | 1.6 | Great Western Railway, Elizabeth line |
+| Liverpool Street | 89 min (change at Reading) | no direct service | - | - | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Thatcham to London take?
 
-The fastest train from Thatcham reaches London Paddington in 42 minutes. Thatcham connects to 1 London terminal: Paddington.
+The fastest train from Thatcham reaches London Paddington in 42 minutes. Thatcham connects to 2 London terminals: Paddington, Liverpool Street.
 
 ### Which London station should I travel to from Thatcham?
 

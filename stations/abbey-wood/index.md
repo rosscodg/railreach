@@ -1,10 +1,10 @@
 # Train times from Abbey Wood to London
 
-Abbey Wood connects to 4 London terminals. The fastest route is Liverpool Street in 18 minutes on a direct train.
+Abbey Wood connects to 5 London terminals. The fastest route is Liverpool Street in 18 minutes on a direct train.
 
 - Fastest journey to London: 18 minutes to Liverpool Street
 - Direct service: Yes
-- London terminals served: 4 (Liverpool Street, London Bridge, Paddington, St Pancras)
+- London terminals served: 5 (Liverpool Street, London Bridge, Paddington, St Pancras, Victoria)
 - Operator: Greater Anglia, Elizabeth line
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -17,12 +17,13 @@ Abbey Wood connects to 4 London terminals. The fastest route is Liverpool Street
 | London Bridge | 27 min | same as fastest | 30 | 9.6 | Southeastern, Southern, Thameslink |
 | Paddington | 28 min | same as fastest | 30 | 11.6 | Great Western Railway, Elizabeth line |
 | St Pancras | 45 min | same as fastest | 45 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Victoria | 59 min (change at Blackheath) | no direct service | - | - | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from Abbey Wood to London take?
 
-The fastest train from Abbey Wood reaches London Liverpool Street in 18 minutes. Abbey Wood connects to 4 London terminals: Liverpool Street, London Bridge, Paddington, St Pancras.
+The fastest train from Abbey Wood reaches London Liverpool Street in 18 minutes. Abbey Wood connects to 5 London terminals: Liverpool Street, London Bridge, Paddington, St Pancras, Victoria.
 
 ### Which London station should I travel to from Abbey Wood?
 

@@ -1,10 +1,10 @@
 # Train times from Sutton to London
 
-Sutton connects to 3 London terminals. The fastest route is London Bridge in 32 minutes on a direct train.
+Sutton connects to 4 London terminals. The fastest route is London Bridge in 32 minutes on a direct train.
 
 - Fastest journey to London: 32 minutes to London Bridge
 - Direct service: Yes
-- London terminals served: 3 (London Bridge, Victoria, St Pancras)
+- London terminals served: 4 (London Bridge, Victoria, St Pancras, Waterloo)
 - Operator: Southeastern, Southern, Thameslink
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -16,12 +16,13 @@ Sutton connects to 3 London terminals. The fastest route is London Bridge in 32 
 | London Bridge | 32 min | same as fastest | 32 | 2.4 | Southeastern, Southern, Thameslink |
 | Victoria | 32 min | same as fastest | 48 | 6.4 | Southeastern, Southern |
 | St Pancras | 47 min | same as fastest | 53 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Waterloo | 55 min (change at Epsom) | no direct service | - | - | South Western Railway |
 
 ## Frequently asked questions
 
 ### How long does the train from Sutton to London take?
 
-The fastest train from Sutton reaches London London Bridge in 32 minutes. Sutton connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Sutton reaches London London Bridge in 32 minutes. Sutton connects to 4 London terminals: London Bridge, Victoria, St Pancras, Waterloo.
 
 ### Which London station should I travel to from Sutton?
 

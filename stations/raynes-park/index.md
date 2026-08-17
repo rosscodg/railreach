@@ -1,10 +1,10 @@
 # Train times from Raynes Park to London
 
-Raynes Park connects to 1 London terminal. The fastest route is Waterloo in 20 minutes on a direct train.
+Raynes Park connects to 3 London terminals. The fastest route is Waterloo in 20 minutes on a direct train.
 
 - Fastest journey to London: 20 minutes to Waterloo
 - Direct service: Yes
-- London terminals served: 1 (Waterloo)
+- London terminals served: 3 (Waterloo, Victoria, London Bridge)
 - Operator: South Western Railway
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,14 @@ Raynes Park connects to 1 London terminal. The fastest route is Waterloo in 20 m
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Waterloo | 20 min | same as fastest | 23 | 13.6 | South Western Railway |
+| Victoria | 67 min (change at Epsom) | no direct service | - | - | Southeastern, Southern |
+| London Bridge | 74 min (change at Epsom) | no direct service | - | - | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 
 ### How long does the train from Raynes Park to London take?
 
-The fastest train from Raynes Park reaches London Waterloo in 20 minutes. Raynes Park connects to 1 London terminal: Waterloo.
+The fastest train from Raynes Park reaches London Waterloo in 20 minutes. Raynes Park connects to 3 London terminals: Waterloo, Victoria, London Bridge.
 
 ### Which London station should I travel to from Raynes Park?
 

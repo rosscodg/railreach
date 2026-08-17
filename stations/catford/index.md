@@ -1,10 +1,10 @@
 # Train times from Catford to London
 
-Catford connects to 2 London terminals. The fastest route is St Pancras in 33 minutes on a direct train.
+Catford connects to 5 London terminals. The fastest route is St Pancras in 33 minutes on a direct train.
 
 - Fastest journey to London: 33 minutes to St Pancras
 - Direct service: Yes
-- London terminals served: 2 (St Pancras, London Bridge)
+- London terminals served: 5 (St Pancras, Victoria, London Bridge, Moorgate, Kings Cross)
 - Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,13 +14,16 @@ Catford connects to 2 London terminals. The fastest route is St Pancras in 33 mi
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | St Pancras | 33 min | same as fastest | 33 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Victoria | 35 min (change at Denmark Hill) | no direct service | - | - | Southeastern, Southern |
 | London Bridge | 39 min (change at London Blackfriars) | no direct service | - | - | Southeastern, Southern, Thameslink |
+| Moorgate | 62 min (change at Finsbury Park) | no direct service | - | - | Great Northern |
+| Kings Cross | 65 min (change at Finsbury Park) | no direct service | - | - | Great Northern, LNER, Hull Trains, Lumo |
 
 ## Frequently asked questions
 
 ### How long does the train from Catford to London take?
 
-The fastest train from Catford reaches London St Pancras in 33 minutes. Catford connects to 2 London terminals: St Pancras, London Bridge.
+The fastest train from Catford reaches London St Pancras in 33 minutes. Catford connects to 5 London terminals: St Pancras, Victoria, London Bridge, Moorgate, Kings Cross.
 
 ### Which London station should I travel to from Catford?
 

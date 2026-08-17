@@ -1,10 +1,10 @@
 # Train times from Three Bridges to London
 
-Three Bridges connects to 3 London terminals. The fastest route is London Bridge in 34 minutes on a direct train.
+Three Bridges connects to 5 London terminals. The fastest route is London Bridge in 34 minutes on a direct train.
 
 - Fastest journey to London: 34 minutes to London Bridge
 - Direct service: Yes
-- London terminals served: 3 (London Bridge, Victoria, St Pancras)
+- London terminals served: 5 (London Bridge, Victoria, St Pancras, Kings Cross, Moorgate)
 - Operator: Southeastern, Southern, Thameslink
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -16,12 +16,14 @@ Three Bridges connects to 3 London terminals. The fastest route is London Bridge
 | London Bridge | 34 min | same as fastest | 42 | 8.0 | Southeastern, Southern, Thameslink |
 | Victoria | 36 min | same as fastest | 38 | 2.4 | Southeastern, Southern |
 | St Pancras | 49 min | same as fastest | 50 | 7.2 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Kings Cross | 71 min (change at Finsbury Park) | no direct service | - | - | Great Northern, LNER, Hull Trains, Lumo |
+| Moorgate | 79 min (change at Finsbury Park) | no direct service | - | - | Great Northern |
 
 ## Frequently asked questions
 
 ### How long does the train from Three Bridges to London take?
 
-The fastest train from Three Bridges reaches London London Bridge in 34 minutes. Three Bridges connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Three Bridges reaches London London Bridge in 34 minutes. Three Bridges connects to 5 London terminals: London Bridge, Victoria, St Pancras, Kings Cross, Moorgate.
 
 ### Which London station should I travel to from Three Bridges?
 

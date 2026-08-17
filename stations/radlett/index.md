@@ -1,10 +1,10 @@
 # Train times from Radlett to London
 
-Radlett connects to 2 London terminals. The fastest route is St Pancras in 26 minutes on a direct train.
+Radlett connects to 3 London terminals. The fastest route is St Pancras in 26 minutes on a direct train.
 
 - Fastest journey to London: 26 minutes to St Pancras
 - Direct service: Yes
-- London terminals served: 2 (St Pancras, London Bridge)
+- London terminals served: 3 (St Pancras, London Bridge, Victoria)
 - Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -15,12 +15,13 @@ Radlett connects to 2 London terminals. The fastest route is St Pancras in 26 mi
 | --- | --- | --- | --- | --- |
 | St Pancras | 26 min | same as fastest | 30 | 6.4 | Thameslink, East Midlands Railway, Southeastern high speed |
 | London Bridge | 41 min | same as fastest | 41 | 0.4 | Southeastern, Southern, Thameslink |
+| Victoria | 71 min (change at Denmark Hill) | no direct service | - | - | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from Radlett to London take?
 
-The fastest train from Radlett reaches London St Pancras in 26 minutes. Radlett connects to 2 London terminals: St Pancras, London Bridge.
+The fastest train from Radlett reaches London St Pancras in 26 minutes. Radlett connects to 3 London terminals: St Pancras, London Bridge, Victoria.
 
 ### Which London station should I travel to from Radlett?
 

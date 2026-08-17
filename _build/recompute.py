@@ -174,7 +174,18 @@ def main():
         for code, tips in terminal_tiplocs.items():
             m = measure(candidates, station_tips, tips, days=days)
 
-            # Best single-change itinerary, taken as the best across days.
+            # Best single-change itinerary, per day: a connection cannot span
+            # two days, so the search runs within one and the best is taken
+            # across them, which is what "fastest" already means.
+            #
+            # The peak measures stay direct-only, deliberately. Extending the
+            # median to connections was tried and abandoned: it counts every
+            # train a passenger could physically board, so slow roundabout
+            # options drag it far above anything anyone experiences. Harrow &
+            # Wealdstone to Euston came out as a 13-minute fastest against a
+            # 52-minute "typical" where the direct-only figure is 34. Making it
+            # meaningful needs a model of which options a passenger would
+            # actually consider, not a wider net.
             change_mins, change_at = None, None
             for i in range(days):
                 pool, seen_d = [], set()

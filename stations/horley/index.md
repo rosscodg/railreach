@@ -1,10 +1,10 @@
 # Train times from Horley to London
 
-Horley connects to 3 London terminals. The fastest route is Victoria in 31 minutes on a direct train.
+Horley connects to 5 London terminals. The fastest route is Victoria in 31 minutes on a direct train.
 
 - Fastest journey to London: 31 minutes to Victoria
 - Direct service: Yes
-- London terminals served: 3 (Victoria, London Bridge, St Pancras)
+- London terminals served: 5 (Victoria, London Bridge, St Pancras, Kings Cross, Moorgate)
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -16,12 +16,14 @@ Horley connects to 3 London terminals. The fastest route is Victoria in 31 minut
 | Victoria | 31 min | same as fastest | 31 | 1.2 | Southeastern, Southern |
 | London Bridge | 37 min | same as fastest | 41 | 4.0 | Southeastern, Southern, Thameslink |
 | St Pancras | 52 min | same as fastest | 58 | 3.6 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Kings Cross | 79 min (change at Finsbury Park) | no direct service | - | - | Great Northern, LNER, Hull Trains, Lumo |
+| Moorgate | 84 min (change at Finsbury Park) | no direct service | - | - | Great Northern |
 
 ## Frequently asked questions
 
 ### How long does the train from Horley to London take?
 
-The fastest train from Horley reaches London Victoria in 31 minutes. Horley connects to 3 London terminals: Victoria, London Bridge, St Pancras.
+The fastest train from Horley reaches London Victoria in 31 minutes. Horley connects to 5 London terminals: Victoria, London Bridge, St Pancras, Kings Cross, Moorgate.
 
 ### Which London station should I travel to from Horley?
 

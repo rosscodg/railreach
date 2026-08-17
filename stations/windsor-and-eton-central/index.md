@@ -1,10 +1,10 @@
 # Train times from Windsor & Eton Central to London
 
-Windsor & Eton Central connects to 1 London terminal. The fastest route is Paddington in 32 minutes, with one change.
+Windsor & Eton Central connects to 2 London terminals. The fastest route is Paddington in 32 minutes, with one change.
 
 - Fastest journey to London: 32 minutes to Paddington
 - Direct service: No - one change required
-- London terminals served: 1 (Paddington)
+- London terminals served: 2 (Paddington, Liverpool Street)
 - Operator: Great Western Railway, Elizabeth line
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,13 @@ Windsor & Eton Central connects to 1 London terminal. The fastest route is Paddi
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Paddington | 32 min (change at Slough) | no direct service | - | - | Great Western Railway, Elizabeth line |
+| Liverpool Street | 54 min (change at Slough) | no direct service | - | - | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Windsor & Eton Central to London take?
 
-The fastest train from Windsor & Eton Central reaches London Paddington in 32 minutes. Windsor & Eton Central connects to 1 London terminal: Paddington.
+The fastest train from Windsor & Eton Central reaches London Paddington in 32 minutes. Windsor & Eton Central connects to 2 London terminals: Paddington, Liverpool Street.
 
 ### Which London station should I travel to from Windsor & Eton Central?
 

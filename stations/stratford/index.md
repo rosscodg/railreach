@@ -1,10 +1,10 @@
 # Train times from Stratford to London
 
-Stratford connects to 2 London terminals. The fastest route is Liverpool Street in 6 minutes on a direct train.
+Stratford connects to 3 London terminals. The fastest route is Liverpool Street in 6 minutes on a direct train.
 
 - Fastest journey to London: 6 minutes to Liverpool Street
 - Direct service: Yes
-- London terminals served: 2 (Liverpool Street, Paddington)
+- London terminals served: 3 (Liverpool Street, Paddington, Victoria)
 - Operator: Greater Anglia, Elizabeth line
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -15,12 +15,13 @@ Stratford connects to 2 London terminals. The fastest route is Liverpool Street 
 | --- | --- | --- | --- | --- |
 | Liverpool Street | 6 min | same as fastest | 10 | 28.0 | Greater Anglia, Elizabeth line |
 | Paddington | 19 min | same as fastest | 20 | 11.6 | Great Western Railway, Elizabeth line |
+| Victoria | 79 min (change at Clapham Junction) | no direct service | - | - | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from Stratford to London take?
 
-The fastest train from Stratford reaches London Liverpool Street in 6 minutes. Stratford connects to 2 London terminals: Liverpool Street, Paddington.
+The fastest train from Stratford reaches London Liverpool Street in 6 minutes. Stratford connects to 3 London terminals: Liverpool Street, Paddington, Victoria.
 
 ### Which London station should I travel to from Stratford?
 

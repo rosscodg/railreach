@@ -27,7 +27,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<link rel="stylesheet" href="/assets/css/shared.css?v=b2e3cd6b">
+<link rel="stylesheet" href="/assets/css/shared.css?v=a4c16675">
 <style>:root { --map-h: 56vh; }</style>
 </head>
 <body>
@@ -96,7 +96,7 @@
 </div>
 
 <h2>Long Buckby to Euston</h2>
-<p>The fastest train from Long Buckby to London Euston takes <strong>68 minutes</strong> and involves a direct train with no change. The route is operated by Avanti West Coast, London Northwestern. That makes Long Buckby the 16th quickest of the 18 stations with a service into Euston inside 90 minutes.</p>
+<p>The fastest train from Long Buckby to London Euston takes <strong>68 minutes</strong> and involves a direct train with no change. The route is operated by Avanti West Coast, London Northwestern. That makes Long Buckby the 18th quickest of the 23 stations with a service into Euston inside 90 minutes.</p>
 <h2>Frequently asked questions</h2>
 <h3>How long does the train from Long Buckby to London take?</h3>
 <p>The fastest train from Long Buckby reaches London Euston in 68 minutes. Long Buckby connects to 1 London terminal: Euston.</p>
@@ -125,7 +125,7 @@
 <ul class="link-grid">
 <li><a class="card" href="/stations/northampton/"><span class="card-title">Northampton</span><span class="card-meta"><span class="t-badge t-mid">50 min</span> fastest to London &middot; 14 km away</span></a></li>
 <li><a class="card" href="/stations/rugby/"><span class="card-title">Rugby</span><span class="card-meta"><span class="t-badge t-mid">49 min</span> fastest to London &middot; 15 km away</span></a></li>
-<li><a class="card" href="/stations/leamington-spa/"><span class="card-title">Leamington Spa</span><span class="card-meta"><span class="t-badge t-slow">82 min</span> fastest to London &middot; 31 km away</span></a></li>
+<li><a class="card" href="/stations/leamington-spa/"><span class="card-title">Leamington Spa</span><span class="card-meta"><span class="t-badge t-slow">81 min</span> fastest to London &middot; 31 km away</span></a></li>
 <li><a class="card" href="/stations/banbury/"><span class="card-title">Banbury</span><span class="card-meta"><span class="t-badge t-slow">62 min</span> fastest to London &middot; 31 km away</span></a></li>
 <li><a class="card" href="/stations/coventry/"><span class="card-title">Coventry</span><span class="card-meta"><span class="t-badge t-mid">56 min</span> fastest to London &middot; 31 km away</span></a></li>
 <li><a class="card" href="/stations/kings-sutton/"><span class="card-title">Kings Sutton</span><span class="card-meta"><span class="t-badge t-slow">71 min</span> fastest to London &middot; 33 km away</span></a></li>
@@ -257,12 +257,12 @@
 }
 ]</script>
 
-<script src="/assets/js/stations-data.js?v=98f6f1f6"></script>
-<script src="/assets/js/map-ui.js?v=afe4b8dd"></script>
+<script src="/assets/js/stations-data.js?v=41b654d1"></script>
+<script src="/assets/js/map-ui.js?v=28af0e35"></script>
 <script>
 const map=RR.createMap('map');
 L.circleMarker([52.294716,-1.086467],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Long Buckby</strong><br>This station').addTo(map);
-RR.terminalMarker(map,51.528136,-0.133924,'<strong>London Euston</strong><div class="pop-sub">from Long Buckby</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>68 min</dd></div><div><dt>Typical peak</dt><dd>74 min</dd></div><div><dt>Peak trains</dt><dd>2.4/hr</dd></div></dl><a class="popup-link" href="/terminals/euston/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.528136,-0.133924,'<strong>London Euston</strong><div class="pop-sub">from Long Buckby</div><div class="pop-hero"><b>68</b> min</div><dl class="pop-stats"><div><dt>Typical peak</dt><dd>74 min</dd></div><div><dt>Peak trains</dt><dd>2.4/hr</dd></div></dl><a class="popup-link" href="/terminals/euston/">Terminal guide &rarr;</a>');
 L.polyline([[52.294716,-1.086467],[51.528136,-0.133924]],{color:RR.colour(68),weight:3,opacity:0.75,}).addTo(map);
 document.getElementById('station-count').textContent='Long Buckby: 1 London terminal';
 // Fixes the 182 of 357 routes whose destination fell off a 375px screen.

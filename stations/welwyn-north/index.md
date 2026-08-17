@@ -1,10 +1,10 @@
 # Train times from Welwyn North to London
 
-Welwyn North connects to 1 London terminal. The fastest route is Kings Cross in 19 minutes on a direct train.
+Welwyn North connects to 4 London terminals. The fastest route is Kings Cross in 19 minutes on a direct train.
 
 - Fastest journey to London: 19 minutes to Kings Cross
 - Direct service: Yes
-- London terminals served: 1 (Kings Cross)
+- London terminals served: 4 (Kings Cross, St Pancras, Moorgate, London Bridge)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,15 @@ Welwyn North connects to 1 London terminal. The fastest route is Kings Cross in 
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Kings Cross | 19 min | same as fastest | 28 | 4.0 | Great Northern, LNER, Hull Trains, Lumo |
+| St Pancras | 43 min (change at Stevenage) | no direct service | - | - | Thameslink, East Midlands Railway, Southeastern high speed |
+| Moorgate | 49 min (change at Finsbury Park) | no direct service | - | - | Great Northern |
+| London Bridge | 58 min (change at Stevenage) | no direct service | - | - | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 
 ### How long does the train from Welwyn North to London take?
 
-The fastest train from Welwyn North reaches London Kings Cross in 19 minutes. Welwyn North connects to 1 London terminal: Kings Cross.
+The fastest train from Welwyn North reaches London Kings Cross in 19 minutes. Welwyn North connects to 4 London terminals: Kings Cross, St Pancras, Moorgate, London Bridge.
 
 ### Which London station should I travel to from Welwyn North?
 

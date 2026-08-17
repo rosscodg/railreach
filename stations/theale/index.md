@@ -1,10 +1,10 @@
 # Train times from Theale to London
 
-Theale connects to 1 London terminal. The fastest route is Paddington in 34 minutes on a direct train.
+Theale connects to 2 London terminals. The fastest route is Paddington in 34 minutes on a direct train.
 
 - Fastest journey to London: 34 minutes to Paddington
 - Direct service: Yes
-- London terminals served: 1 (Paddington)
+- London terminals served: 2 (Paddington, Liverpool Street)
 - Operator: Great Western Railway, Elizabeth line
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,13 @@ Theale connects to 1 London terminal. The fastest route is Paddington in 34 minu
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Paddington | 34 min | same as fastest | 38 | 1.6 | Great Western Railway, Elizabeth line |
+| Liverpool Street | 81 min (change at Reading) | no direct service | - | - | Greater Anglia, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Theale to London take?
 
-The fastest train from Theale reaches London Paddington in 34 minutes. Theale connects to 1 London terminal: Paddington.
+The fastest train from Theale reaches London Paddington in 34 minutes. Theale connects to 2 London terminals: Paddington, Liverpool Street.
 
 ### Which London station should I travel to from Theale?
 

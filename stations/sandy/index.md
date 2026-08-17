@@ -1,10 +1,10 @@
 # Train times from Sandy to London
 
-Sandy connects to 3 London terminals. The fastest route is Kings Cross in 48 minutes on a direct train.
+Sandy connects to 4 London terminals. The fastest route is Kings Cross in 48 minutes on a direct train.
 
 - Fastest journey to London: 48 minutes to Kings Cross
 - Direct service: Yes
-- London terminals served: 3 (Kings Cross, St Pancras, London Bridge)
+- London terminals served: 4 (Kings Cross, St Pancras, London Bridge, Moorgate)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -16,12 +16,13 @@ Sandy connects to 3 London terminals. The fastest route is Kings Cross in 48 min
 | Kings Cross | 48 min | same as fastest | - | - | Great Northern, LNER, Hull Trains, Lumo |
 | St Pancras | 49 min | same as fastest | 51 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 | London Bridge | 64 min | same as fastest | 66 | 2.0 | Southeastern, Southern, Thameslink |
+| Moorgate | 64 min (change at Finsbury Park) | no direct service | - | - | Great Northern |
 
 ## Frequently asked questions
 
 ### How long does the train from Sandy to London take?
 
-The fastest train from Sandy reaches London Kings Cross in 48 minutes. Sandy connects to 3 London terminals: Kings Cross, St Pancras, London Bridge.
+The fastest train from Sandy reaches London Kings Cross in 48 minutes. Sandy connects to 4 London terminals: Kings Cross, St Pancras, London Bridge, Moorgate.
 
 ### Which London station should I travel to from Sandy?
 

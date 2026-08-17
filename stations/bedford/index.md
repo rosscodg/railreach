@@ -1,10 +1,10 @@
 # Train times from Bedford to London
 
-Bedford connects to 2 London terminals. The fastest route is St Pancras in 39 minutes on a direct train.
+Bedford connects to 3 London terminals. The fastest route is St Pancras in 39 minutes on a direct train.
 
 - Fastest journey to London: 39 minutes to St Pancras
 - Direct service: Yes
-- London terminals served: 2 (St Pancras, London Bridge)
+- London terminals served: 3 (St Pancras, London Bridge, Euston)
 - Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -15,12 +15,13 @@ Bedford connects to 2 London terminals. The fastest route is St Pancras in 39 mi
 | --- | --- | --- | --- | --- |
 | St Pancras | 39 min | same as fastest | 63 | 7.2 | Thameslink, East Midlands Railway, Southeastern high speed |
 | London Bridge | 66 min | same as fastest | 78 | 5.2 | Southeastern, Southern, Thameslink |
+| Euston | 88 min (change at Bletchley) | no direct service | - | - | Avanti West Coast, London Northwestern |
 
 ## Frequently asked questions
 
 ### How long does the train from Bedford to London take?
 
-The fastest train from Bedford reaches London St Pancras in 39 minutes. Bedford connects to 2 London terminals: St Pancras, London Bridge.
+The fastest train from Bedford reaches London St Pancras in 39 minutes. Bedford connects to 3 London terminals: St Pancras, London Bridge, Euston.
 
 ### Which London station should I travel to from Bedford?
 

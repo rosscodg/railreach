@@ -1,10 +1,10 @@
 # Train times from Welham Green to London
 
-Welham Green connects to 2 London terminals. The fastest route is Kings Cross in 35 minutes, with one change.
+Welham Green connects to 4 London terminals. The fastest route is Kings Cross in 35 minutes, with one change.
 
 - Fastest journey to London: 35 minutes to Kings Cross
 - Direct service: No - one change required
-- London terminals served: 2 (Kings Cross, Moorgate)
+- London terminals served: 4 (Kings Cross, Moorgate, St Pancras, London Bridge)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -15,12 +15,14 @@ Welham Green connects to 2 London terminals. The fastest route is Kings Cross in
 | --- | --- | --- | --- | --- |
 | Kings Cross | 35 min (change at Potters Bar) | 38 min | - | - | Great Northern, LNER, Hull Trains, Lumo |
 | Moorgate | 39 min | same as fastest | 44 | 4.0 | Great Northern |
+| St Pancras | 40 min (change at Finsbury Park) | no direct service | - | - | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 55 min (change at Finsbury Park) | no direct service | - | - | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 
 ### How long does the train from Welham Green to London take?
 
-The fastest train from Welham Green reaches London Kings Cross in 35 minutes. Welham Green connects to 2 London terminals: Kings Cross, Moorgate.
+The fastest train from Welham Green reaches London Kings Cross in 35 minutes. Welham Green connects to 4 London terminals: Kings Cross, Moorgate, St Pancras, London Bridge.
 
 ### Which London station should I travel to from Welham Green?
 

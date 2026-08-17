@@ -1,10 +1,10 @@
 # Train times from Luton Airport Parkway to London
 
-Luton Airport Parkway connects to 2 London terminals. The fastest route is St Pancras in 23 minutes on a direct train.
+Luton Airport Parkway connects to 3 London terminals. The fastest route is St Pancras in 23 minutes on a direct train.
 
 - Fastest journey to London: 23 minutes to St Pancras
 - Direct service: Yes
-- London terminals served: 2 (St Pancras, London Bridge)
+- London terminals served: 3 (St Pancras, London Bridge, Victoria)
 - Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -15,12 +15,13 @@ Luton Airport Parkway connects to 2 London terminals. The fastest route is St Pa
 | --- | --- | --- | --- | --- |
 | St Pancras | 23 min | same as fastest | 33 | 8.4 | Thameslink, East Midlands Railway, Southeastern high speed |
 | London Bridge | 48 min | same as fastest | 48 | 4.4 | Southeastern, Southern, Thameslink |
+| Victoria | 87 min (change at Denmark Hill) | no direct service | - | - | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from Luton Airport Parkway to London take?
 
-The fastest train from Luton Airport Parkway reaches London St Pancras in 23 minutes. Luton Airport Parkway connects to 2 London terminals: St Pancras, London Bridge.
+The fastest train from Luton Airport Parkway reaches London St Pancras in 23 minutes. Luton Airport Parkway connects to 3 London terminals: St Pancras, London Bridge, Victoria.
 
 ### Which London station should I travel to from Luton Airport Parkway?
 

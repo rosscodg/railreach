@@ -1,10 +1,10 @@
 # Train times from Baldock to London
 
-Baldock connects to 3 London terminals. The fastest route is Kings Cross in 36 minutes on a direct train.
+Baldock connects to 4 London terminals. The fastest route is Kings Cross in 36 minutes on a direct train.
 
 - Fastest journey to London: 36 minutes to Kings Cross
 - Direct service: Yes
-- London terminals served: 3 (Kings Cross, St Pancras, London Bridge)
+- London terminals served: 4 (Kings Cross, St Pancras, London Bridge, Moorgate)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -16,12 +16,13 @@ Baldock connects to 3 London terminals. The fastest route is Kings Cross in 36 m
 | Kings Cross | 36 min | same as fastest | 36 | 2.4 | Great Northern, LNER, Hull Trains, Lumo |
 | St Pancras | 41 min | same as fastest | 42 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 | London Bridge | 56 min | same as fastest | 57 | 2.0 | Southeastern, Southern, Thameslink |
+| Moorgate | 56 min (change at Finsbury Park) | no direct service | - | - | Great Northern |
 
 ## Frequently asked questions
 
 ### How long does the train from Baldock to London take?
 
-The fastest train from Baldock reaches London Kings Cross in 36 minutes. Baldock connects to 3 London terminals: Kings Cross, St Pancras, London Bridge.
+The fastest train from Baldock reaches London Kings Cross in 36 minutes. Baldock connects to 4 London terminals: Kings Cross, St Pancras, London Bridge, Moorgate.
 
 ### Which London station should I travel to from Baldock?
 

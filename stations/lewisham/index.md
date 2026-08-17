@@ -1,10 +1,10 @@
 # Train times from Lewisham to London
 
-Lewisham connects to 2 London terminals. The fastest route is London Bridge in 7 minutes on a direct train.
+Lewisham connects to 3 London terminals. The fastest route is London Bridge in 7 minutes on a direct train.
 
 - Fastest journey to London: 7 minutes to London Bridge
 - Direct service: Yes
-- London terminals served: 2 (London Bridge, Victoria)
+- London terminals served: 3 (London Bridge, Victoria, St Pancras)
 - Operator: Southeastern, Southern, Thameslink
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -15,12 +15,13 @@ Lewisham connects to 2 London terminals. The fastest route is London Bridge in 7
 | --- | --- | --- | --- | --- |
 | London Bridge | 7 min | same as fastest | 11 | 14.0 | Southeastern, Southern, Thameslink |
 | Victoria | 21 min | same as fastest | 22 | 2.0 | Southeastern, Southern |
+| St Pancras | 31 min (change at London Bridge) | no direct service | - | - | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 
 ### How long does the train from Lewisham to London take?
 
-The fastest train from Lewisham reaches London London Bridge in 7 minutes. Lewisham connects to 2 London terminals: London Bridge, Victoria.
+The fastest train from Lewisham reaches London London Bridge in 7 minutes. Lewisham connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Lewisham?
 

@@ -1,10 +1,10 @@
 # Train times from Bromley South to London
 
-Bromley South connects to 2 London terminals. The fastest route is Victoria in 15 minutes on a direct train.
+Bromley South connects to 5 London terminals. The fastest route is Victoria in 15 minutes on a direct train.
 
 - Fastest journey to London: 15 minutes to Victoria
 - Direct service: Yes
-- London terminals served: 2 (Victoria, St Pancras)
+- London terminals served: 5 (Victoria, London Bridge, St Pancras, Moorgate, Kings Cross)
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,13 +14,16 @@ Bromley South connects to 2 London terminals. The fastest route is Victoria in 1
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Victoria | 15 min | same as fastest | 23 | 12.0 | Southeastern, Southern |
+| London Bridge | 38 min (change at London Blackfriars) | no direct service | - | - | Southeastern, Southern, Thameslink |
 | St Pancras | 43 min (change at London Blackfriars) | 45 min | 46 | 4.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Moorgate | 74 min (change at Finsbury Park) | no direct service | - | - | Great Northern |
+| Kings Cross | 77 min (change at Finsbury Park) | no direct service | - | - | Great Northern, LNER, Hull Trains, Lumo |
 
 ## Frequently asked questions
 
 ### How long does the train from Bromley South to London take?
 
-The fastest train from Bromley South reaches London Victoria in 15 minutes. Bromley South connects to 2 London terminals: Victoria, St Pancras.
+The fastest train from Bromley South reaches London Victoria in 15 minutes. Bromley South connects to 5 London terminals: Victoria, London Bridge, St Pancras, Moorgate, Kings Cross.
 
 ### Which London station should I travel to from Bromley South?
 

@@ -27,7 +27,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<link rel="stylesheet" href="/assets/css/shared.css?v=b2e3cd6b">
+<link rel="stylesheet" href="/assets/css/shared.css?v=a4c16675">
 <style>:root { --map-h: 56vh; }</style>
 </head>
 <body>
@@ -98,11 +98,11 @@
 </div>
 
 <h2>Sittingbourne to St Pancras</h2>
-<p>The fastest train from Sittingbourne to London St Pancras takes <strong>58 minutes</strong> and involves a direct train with no change. The route is operated by Thameslink, East Midlands Railway, Southeastern high speed. That makes Sittingbourne the 68th quickest of the 84 stations with a service into St Pancras inside 90 minutes.</p>
+<p>The fastest train from Sittingbourne to London St Pancras takes <strong>58 minutes</strong> and involves a direct train with no change. The route is operated by Thameslink, East Midlands Railway, Southeastern high speed. That makes Sittingbourne the 100th quickest of the 135 stations with a service into St Pancras inside 90 minutes.</p>
 <h2>Sittingbourne to London Bridge</h2>
-<p>The fastest train from Sittingbourne to London London Bridge takes <strong>63 minutes</strong> and involves a direct train with no change. The route is operated by Southeastern, Southern, Thameslink. That makes Sittingbourne the 92nd quickest of the 101 stations with a service into London Bridge inside 90 minutes.</p>
+<p>The fastest train from Sittingbourne to London London Bridge takes <strong>63 minutes</strong> and involves a direct train with no change. The route is operated by Southeastern, Southern, Thameslink. That makes Sittingbourne the 116th quickest of the 149 stations with a service into London Bridge inside 90 minutes.</p>
 <h2>Sittingbourne to Victoria</h2>
-<p>The fastest train from Sittingbourne to London Victoria takes <strong>64 minutes</strong> and involves a direct train with no change. The route is operated by Southeastern, Southern. That makes Sittingbourne the 62nd quickest of the 72 stations with a service into Victoria inside 90 minutes.</p>
+<p>The fastest train from Sittingbourne to London Victoria takes <strong>64 minutes</strong> and involves a direct train with no change. The route is operated by Southeastern, Southern. That makes Sittingbourne the 87th quickest of the 121 stations with a service into Victoria inside 90 minutes.</p>
 <h2>Frequently asked questions</h2>
 <h3>How long does the train from Sittingbourne to London take?</h3>
 <p>The fastest train from Sittingbourne reaches London St Pancras in 58 minutes. Sittingbourne connects to 3 London terminals: St Pancras, London Bridge, Victoria.</p>
@@ -263,14 +263,14 @@
 }
 ]</script>
 
-<script src="/assets/js/stations-data.js?v=98f6f1f6"></script>
-<script src="/assets/js/map-ui.js?v=afe4b8dd"></script>
+<script src="/assets/js/stations-data.js?v=41b654d1"></script>
+<script src="/assets/js/map-ui.js?v=28af0e35"></script>
 <script>
 const map=RR.createMap('map');
 L.circleMarker([51.341977,0.734684],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Sittingbourne</strong><br>This station').addTo(map);
-RR.terminalMarker(map,51.532514,-0.126463,'<strong>London St Pancras</strong><div class="pop-sub">from Sittingbourne</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>58 min</dd></div><div><dt>Typical peak</dt><dd>59 min</dd></div><div><dt>Peak trains</dt><dd>2.0/hr</dd></div></dl><a class="popup-link" href="/terminals/st-pancras/">Terminal guide &rarr;</a>');
-RR.terminalMarker(map,51.505019,-0.086092,'<strong>London London Bridge</strong><div class="pop-sub">from Sittingbourne</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>63 min</dd></div><div><dt>Typical peak</dt><dd>63 min</dd></div><div><dt>Peak trains</dt><dd>2.0/hr</dd></div></dl><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
-RR.terminalMarker(map,51.495257,-0.144559,'<strong>London Victoria</strong><div class="pop-sub">from Sittingbourne</div><dl class="pop-stats"><div><dt>Fastest</dt><dd>64 min</dd></div><div><dt>Typical peak</dt><dd>69 min</dd></div><div><dt>Peak trains</dt><dd>2.0/hr</dd></div></dl><a class="popup-link" href="/terminals/victoria/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.532514,-0.126463,'<strong>London St Pancras</strong><div class="pop-sub">from Sittingbourne</div><div class="pop-hero"><b>58</b> min</div><dl class="pop-stats"><div><dt>Typical peak</dt><dd>59 min</dd></div><div><dt>Peak trains</dt><dd>2.0/hr</dd></div></dl><a class="popup-link" href="/terminals/st-pancras/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.505019,-0.086092,'<strong>London London Bridge</strong><div class="pop-sub">from Sittingbourne</div><div class="pop-hero"><b>63</b> min</div><dl class="pop-stats"><div><dt>Typical peak</dt><dd>63 min</dd></div><div><dt>Peak trains</dt><dd>2.0/hr</dd></div></dl><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.495257,-0.144559,'<strong>London Victoria</strong><div class="pop-sub">from Sittingbourne</div><div class="pop-hero"><b>64</b> min</div><dl class="pop-stats"><div><dt>Typical peak</dt><dd>69 min</dd></div><div><dt>Peak trains</dt><dd>2.0/hr</dd></div></dl><a class="popup-link" href="/terminals/victoria/">Terminal guide &rarr;</a>');
 L.polyline([[51.341977,0.734684],[51.532514,-0.126463]],{color:RR.colour(58),weight:3,opacity:0.75,}).addTo(map);
 L.polyline([[51.341977,0.734684],[51.505019,-0.086092]],{color:RR.colour(63),weight:3,opacity:0.75,}).addTo(map);
 L.polyline([[51.341977,0.734684],[51.495257,-0.144559]],{color:RR.colour(64),weight:3,opacity:0.75,}).addTo(map);

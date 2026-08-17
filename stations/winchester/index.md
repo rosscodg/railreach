@@ -1,10 +1,10 @@
 # Train times from Winchester to London
 
-Winchester connects to 1 London terminal. The fastest route is Waterloo in 58 minutes on a direct train.
+Winchester connects to 2 London terminals. The fastest route is Waterloo in 58 minutes on a direct train.
 
 - Fastest journey to London: 58 minutes to Waterloo
 - Direct service: Yes
-- London terminals served: 1 (Waterloo)
+- London terminals served: 2 (Waterloo, Paddington)
 - Operator: South Western Railway
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,13 @@ Winchester connects to 1 London terminal. The fastest route is Waterloo in 58 mi
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Waterloo | 58 min | same as fastest | 70 | 4.0 | South Western Railway |
+| Paddington | 68 min (change at Reading) | no direct service | - | - | Great Western Railway, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Winchester to London take?
 
-The fastest train from Winchester reaches London Waterloo in 58 minutes. Winchester connects to 1 London terminal: Waterloo.
+The fastest train from Winchester reaches London Waterloo in 58 minutes. Winchester connects to 2 London terminals: Waterloo, Paddington.
 
 ### Which London station should I travel to from Winchester?
 

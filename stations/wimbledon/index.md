@@ -1,10 +1,10 @@
 # Train times from Wimbledon to London
 
-Wimbledon connects to 2 London terminals. The fastest route is Waterloo in 15 minutes on a direct train.
+Wimbledon connects to 4 London terminals. The fastest route is Waterloo in 15 minutes on a direct train.
 
 - Fastest journey to London: 15 minutes to Waterloo
 - Direct service: Yes
-- London terminals served: 2 (Waterloo, St Pancras)
+- London terminals served: 4 (Waterloo, London Bridge, St Pancras, Victoria)
 - Operator: South Western Railway
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,13 +14,15 @@ Wimbledon connects to 2 London terminals. The fastest route is Waterloo in 15 mi
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Waterloo | 15 min | same as fastest | 20 | 16.8 | South Western Railway |
+| London Bridge | 40 min (change at Tulse Hill) | no direct service | - | - | Southeastern, Southern, Thameslink |
 | St Pancras | 40 min | same as fastest | 41 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
+| Victoria | 52 min (change at Herne Hill) | no direct service | - | - | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from Wimbledon to London take?
 
-The fastest train from Wimbledon reaches London Waterloo in 15 minutes. Wimbledon connects to 2 London terminals: Waterloo, St Pancras.
+The fastest train from Wimbledon reaches London Waterloo in 15 minutes. Wimbledon connects to 4 London terminals: Waterloo, London Bridge, St Pancras, Victoria.
 
 ### Which London station should I travel to from Wimbledon?
 

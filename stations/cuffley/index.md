@@ -1,10 +1,10 @@
 # Train times from Cuffley to London
 
-Cuffley connects to 2 London terminals. The fastest route is Kings Cross in 31 minutes on a direct train.
+Cuffley connects to 4 London terminals. The fastest route is Kings Cross in 31 minutes on a direct train.
 
 - Fastest journey to London: 31 minutes to Kings Cross
 - Direct service: Yes
-- London terminals served: 2 (Kings Cross, Moorgate)
+- London terminals served: 4 (Kings Cross, Moorgate, St Pancras, London Bridge)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -15,12 +15,14 @@ Cuffley connects to 2 London terminals. The fastest route is Kings Cross in 31 m
 | --- | --- | --- | --- | --- |
 | Kings Cross | 31 min | same as fastest | - | - | Great Northern, LNER, Hull Trains, Lumo |
 | Moorgate | 42 min | same as fastest | 44 | 4.8 | Great Northern |
+| St Pancras | 43 min (change at Finsbury Park) | no direct service | - | - | Thameslink, East Midlands Railway, Southeastern high speed |
+| London Bridge | 58 min (change at Finsbury Park) | no direct service | - | - | Southeastern, Southern, Thameslink |
 
 ## Frequently asked questions
 
 ### How long does the train from Cuffley to London take?
 
-The fastest train from Cuffley reaches London Kings Cross in 31 minutes. Cuffley connects to 2 London terminals: Kings Cross, Moorgate.
+The fastest train from Cuffley reaches London Kings Cross in 31 minutes. Cuffley connects to 4 London terminals: Kings Cross, Moorgate, St Pancras, London Bridge.
 
 ### Which London station should I travel to from Cuffley?
 

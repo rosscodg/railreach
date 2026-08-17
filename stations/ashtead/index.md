@@ -1,10 +1,10 @@
 # Train times from Ashtead to London
 
-Ashtead connects to 2 London terminals. The fastest route is Waterloo in 41 minutes on a direct train.
+Ashtead connects to 4 London terminals. The fastest route is Waterloo in 41 minutes on a direct train.
 
 - Fastest journey to London: 41 minutes to Waterloo
 - Direct service: Yes
-- London terminals served: 2 (Waterloo, Victoria)
+- London terminals served: 4 (Waterloo, Victoria, London Bridge, St Pancras)
 - Operator: South Western Railway
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -15,12 +15,14 @@ Ashtead connects to 2 London terminals. The fastest route is Waterloo in 41 minu
 | --- | --- | --- | --- | --- |
 | Waterloo | 41 min | same as fastest | 46 | 3.2 | South Western Railway |
 | Victoria | 46 min | same as fastest | 51 | 2.0 | Southeastern, Southern |
+| London Bridge | 56 min (change at Epsom) | no direct service | - | - | Southeastern, Southern, Thameslink |
+| St Pancras | 80 min (change at Sutton (London)) | no direct service | - | - | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 
 ### How long does the train from Ashtead to London take?
 
-The fastest train from Ashtead reaches London Waterloo in 41 minutes. Ashtead connects to 2 London terminals: Waterloo, Victoria.
+The fastest train from Ashtead reaches London Waterloo in 41 minutes. Ashtead connects to 4 London terminals: Waterloo, Victoria, London Bridge, St Pancras.
 
 ### Which London station should I travel to from Ashtead?
 

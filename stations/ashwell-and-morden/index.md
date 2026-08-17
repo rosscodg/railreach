@@ -1,10 +1,10 @@
 # Train times from Ashwell & Morden to London
 
-Ashwell & Morden connects to 3 London terminals. The fastest route is Kings Cross in 42 minutes on a direct train.
+Ashwell & Morden connects to 4 London terminals. The fastest route is Kings Cross in 42 minutes on a direct train.
 
 - Fastest journey to London: 42 minutes to Kings Cross
 - Direct service: Yes
-- London terminals served: 3 (Kings Cross, St Pancras, London Bridge)
+- London terminals served: 4 (Kings Cross, St Pancras, London Bridge, Moorgate)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -16,12 +16,13 @@ Ashwell & Morden connects to 3 London terminals. The fastest route is Kings Cros
 | Kings Cross | 42 min | same as fastest | 42 | 2.0 | Great Northern, LNER, Hull Trains, Lumo |
 | St Pancras | 46 min | same as fastest | 47 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 | London Bridge | 61 min | same as fastest | 62 | 2.0 | Southeastern, Southern, Thameslink |
+| Moorgate | 61 min (change at Finsbury Park) | no direct service | - | - | Great Northern |
 
 ## Frequently asked questions
 
 ### How long does the train from Ashwell & Morden to London take?
 
-The fastest train from Ashwell & Morden reaches London Kings Cross in 42 minutes. Ashwell & Morden connects to 3 London terminals: Kings Cross, St Pancras, London Bridge.
+The fastest train from Ashwell & Morden reaches London Kings Cross in 42 minutes. Ashwell & Morden connects to 4 London terminals: Kings Cross, St Pancras, London Bridge, Moorgate.
 
 ### Which London station should I travel to from Ashwell & Morden?
 

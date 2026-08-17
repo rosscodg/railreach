@@ -1,10 +1,10 @@
 # Train times from Kings Sutton to London
 
-Kings Sutton connects to 1 London terminal. The fastest route is Marylebone in 71 minutes on a direct train.
+Kings Sutton connects to 2 London terminals. The fastest route is Marylebone in 71 minutes on a direct train.
 
 - Fastest journey to London: 71 minutes to Marylebone
 - Direct service: Yes
-- London terminals served: 1 (Marylebone)
+- London terminals served: 2 (Marylebone, Paddington)
 - Operator: Chiltern Railways
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -14,12 +14,13 @@ Kings Sutton connects to 1 London terminal. The fastest route is Marylebone in 7
 | London terminal | Fastest | Fastest direct | Typical peak | Peak trains/hr | Operator |
 | --- | --- | --- | --- | --- |
 | Marylebone | 71 min | same as fastest | 83 | 0.4 | Chiltern Railways |
+| Paddington | 80 min (change at Oxford) | no direct service | - | - | Great Western Railway, Elizabeth line |
 
 ## Frequently asked questions
 
 ### How long does the train from Kings Sutton to London take?
 
-The fastest train from Kings Sutton reaches London Marylebone in 71 minutes. Kings Sutton connects to 1 London terminal: Marylebone.
+The fastest train from Kings Sutton reaches London Marylebone in 71 minutes. Kings Sutton connects to 2 London terminals: Marylebone, Paddington.
 
 ### Which London station should I travel to from Kings Sutton?
 

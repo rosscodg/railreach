@@ -1,10 +1,10 @@
 # Train times from Wandsworth Common to London
 
-Wandsworth Common connects to 2 London terminals. The fastest route is Victoria in 12 minutes on a direct train.
+Wandsworth Common connects to 3 London terminals. The fastest route is Victoria in 12 minutes on a direct train.
 
 - Fastest journey to London: 12 minutes to Victoria
 - Direct service: Yes
-- London terminals served: 2 (Victoria, London Bridge)
+- London terminals served: 3 (Victoria, London Bridge, St Pancras)
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -15,12 +15,13 @@ Wandsworth Common connects to 2 London terminals. The fastest route is Victoria 
 | --- | --- | --- | --- | --- |
 | Victoria | 12 min | same as fastest | 12 | 6.8 | Southeastern, Southern |
 | London Bridge | 41 min | same as fastest | 47 | 1.6 | Southeastern, Southern, Thameslink |
+| St Pancras | 66 min (change at East Croydon) | no direct service | - | - | Thameslink, East Midlands Railway, Southeastern high speed |
 
 ## Frequently asked questions
 
 ### How long does the train from Wandsworth Common to London take?
 
-The fastest train from Wandsworth Common reaches London Victoria in 12 minutes. Wandsworth Common connects to 2 London terminals: Victoria, London Bridge.
+The fastest train from Wandsworth Common reaches London Victoria in 12 minutes. Wandsworth Common connects to 3 London terminals: Victoria, London Bridge, St Pancras.
 
 ### Which London station should I travel to from Wandsworth Common?
 

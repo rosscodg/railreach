@@ -1,10 +1,10 @@
 # Train times from Oakleigh Park to London
 
-Oakleigh Park connects to 3 London terminals. The fastest route is St Pancras in 17 minutes on a direct train.
+Oakleigh Park connects to 5 London terminals. The fastest route is St Pancras in 17 minutes on a direct train.
 
 - Fastest journey to London: 17 minutes to St Pancras
 - Direct service: Yes
-- London terminals served: 3 (St Pancras, Kings Cross, Moorgate)
+- London terminals served: 5 (St Pancras, Kings Cross, Moorgate, London Bridge, Victoria)
 - Operator: Thameslink, East Midlands Railway, Southeastern high speed
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -16,12 +16,14 @@ Oakleigh Park connects to 3 London terminals. The fastest route is St Pancras in
 | St Pancras | 17 min | same as fastest | 18 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 | Kings Cross | 22 min | same as fastest | - | - | Great Northern, LNER, Hull Trains, Lumo |
 | Moorgate | 25 min | same as fastest | 30 | 4.0 | Great Northern |
+| London Bridge | 39 min (change at Finsbury Park) | no direct service | - | - | Southeastern, Southern, Thameslink |
+| Victoria | 64 min (change at Denmark Hill) | no direct service | - | - | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from Oakleigh Park to London take?
 
-The fastest train from Oakleigh Park reaches London St Pancras in 17 minutes. Oakleigh Park connects to 3 London terminals: St Pancras, Kings Cross, Moorgate.
+The fastest train from Oakleigh Park reaches London St Pancras in 17 minutes. Oakleigh Park connects to 5 London terminals: St Pancras, Kings Cross, Moorgate, London Bridge, Victoria.
 
 ### Which London station should I travel to from Oakleigh Park?
 

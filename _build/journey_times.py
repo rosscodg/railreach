@@ -243,8 +243,33 @@ def build_terminal_index(services, terminal_tiplocs, calls_cache=None):
         for i in range(len(pairs) - 1, -1, -1):
             running = pairs[i][1] if running is None else min(running, pairs[i][1])
             best[i] = running
-        index[tpl] = (deps, best)
+        # Quickest this place can reach the terminal at all, used to reject
+        # changes that go the wrong way.
+        index[tpl] = (deps, best, min(a - d for d, a in pairs))
     return index
+
+
+def quickest_from(index, tiplocs):
+    """Best time to the terminal from any of these tiplocs, or None."""
+    times = [index[t][2] for t in tiplocs if t in index]
+    return min(times) if times else None
+
+
+def _sensible_interchange(index, via, origin_best):
+    """Is changing here progress, or doubling back?
+
+    Without this the median peak journey is meaningless. Every train a
+    passenger could physically board counts as an option, including ones
+    heading away from London that reach it much later after a change, so
+    Finsbury Park to St Pancras came out as a 7-minute fastest against a
+    54-minute "typical". Requiring the interchange to be quicker to the
+    terminal than the origin is keeps the options to journeys someone would
+    actually make.
+    """
+    if origin_best is None:
+        return True                    # nothing to compare against
+    entry = index.get(via)
+    return entry is not None and entry[2] < origin_best
 
 
 def earliest_arrival(index, tiploc, not_before):
@@ -253,7 +278,7 @@ def earliest_arrival(index, tiploc, not_before):
     entry = index.get(tiploc)
     if not entry:
         return None
-    deps, best = entry
+    deps, best = entry[0], entry[1]
     i = bisect.bisect_left(deps, not_before)
     return best[i] if i < len(deps) else None
 
@@ -268,6 +293,7 @@ def fastest_one_change(services, origin_tiplocs, terminal_tiplocs, index,
     """
     origin_tiplocs = set(origin_tiplocs)
     terminal_tiplocs = set(terminal_tiplocs)
+    origin_best = quickest_from(index, origin_tiplocs)
     best, best_at = None, None
     for s in services:
         if not s.runs_weekdays:
@@ -279,6 +305,8 @@ def fastest_one_change(services, origin_tiplocs, terminal_tiplocs, index,
             for j in range(i + 1, len(cs)):
                 via, arr, _d = cs[j]
                 if via in terminal_tiplocs or arr is None or via in origin_tiplocs:
+                    continue
+                if not _sensible_interchange(index, via, origin_best):
                     continue
                 reached = earliest_arrival(index, via, arr + min_connect)
                 if reached is None:

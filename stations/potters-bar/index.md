@@ -1,10 +1,10 @@
 # Train times from Potters Bar to London
 
-Potters Bar connects to 3 London terminals. The fastest route is Kings Cross in 20 minutes on a direct train.
+Potters Bar connects to 5 London terminals. The fastest route is Kings Cross in 20 minutes on a direct train.
 
 - Fastest journey to London: 20 minutes to Kings Cross
 - Direct service: Yes
-- London terminals served: 3 (Kings Cross, St Pancras, Moorgate)
+- London terminals served: 5 (Kings Cross, St Pancras, Moorgate, London Bridge, Victoria)
 - Operator: Great Northern, LNER, Hull Trains, Lumo
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17
@@ -16,12 +16,14 @@ Potters Bar connects to 3 London terminals. The fastest route is Kings Cross in 
 | Kings Cross | 20 min | same as fastest | 23 | 2.0 | Great Northern, LNER, Hull Trains, Lumo |
 | St Pancras | 24 min | same as fastest | 25 | 2.0 | Thameslink, East Midlands Railway, Southeastern high speed |
 | Moorgate | 33 min | same as fastest | 38 | 4.0 | Great Northern |
+| London Bridge | 44 min (change at Finsbury Park) | no direct service | - | - | Southeastern, Southern, Thameslink |
+| Victoria | 71 min (change at Denmark Hill) | no direct service | - | - | Southeastern, Southern |
 
 ## Frequently asked questions
 
 ### How long does the train from Potters Bar to London take?
 
-The fastest train from Potters Bar reaches London Kings Cross in 20 minutes. Potters Bar connects to 3 London terminals: Kings Cross, St Pancras, Moorgate.
+The fastest train from Potters Bar reaches London Kings Cross in 20 minutes. Potters Bar connects to 5 London terminals: Kings Cross, St Pancras, Moorgate, London Bridge, Victoria.
 
 ### Which London station should I travel to from Potters Bar?
 
