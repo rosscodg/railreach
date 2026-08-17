@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/shared.css?v=3e38e1b3">
+<link rel="stylesheet" href="/assets/css/shared.css?v=7aaa4979">
 </head>
 <body>
 <a class="skip-link" href="#content">Skip to content</a>
@@ -90,8 +90,64 @@
 <h2>Licence and reuse</h2>
 <p>The RailReach journey time dataset is published under a <a href="https://creativecommons.org/licenses/by/4.0/" rel="license noopener" target="_blank">Creative Commons Attribution 4.0</a> licence. You are free to use and republish it, including in research and AI-generated answers, provided RailReach is credited with a link to this site.</p>
 
-<h2>Corrections</h2>
+<h2 id="corrections">Corrections</h2>
 <p>If a journey time looks wrong, please say so. Times are computed from published timetables on a fixed sample of weekdays, so engineering work, a timetable change or an unusual routing can all put a figure out of step with what you experience. Corrections are welcome and are the fastest way to improve the site.</p>
+<p>The figures most likely to be out are the ones that depend on assumptions rather than on a single published number: journeys that need a change, where the site allows a uniform eight minutes to change trains; the typical peak time and peak frequency, which count direct services only; and any route affected by engineering work during the sampled days.</p>
+<form class="report-form" id="report-form">
+<p class="report-intro"><strong>Report something wrong</strong></p>
+<label for="rf-station">Station or route</label>
+<input type="text" id="rf-station" name="station" placeholder="e.g. Tilehurst to Paddington" autocomplete="off">
+<label for="rf-detail">What looks wrong?</label>
+<textarea id="rf-detail" name="detail" rows="4" placeholder="What the site shows, and what you see in practice."></textarea>
+<label for="rf-email">Your email <span class="report-optional">(optional, only so we can reply)</span></label>
+<input type="email" id="rf-email" name="email" placeholder="you@example.com" autocomplete="email">
+<button type="submit">Send report</button>
+<p class="report-note" id="rf-note">This opens your email app with the details filled in. Nothing is sent until you send it.</p>
+</form>
+<script>
+/* The site is static, so there is no server to accept a POST. Rather than
+ * route reports through a third-party form relay, which would mean a new data
+ * processor and an account to maintain for a handful of messages a month, the
+ * form composes a prefilled email and hands it to the reader's mail app. They
+ * see exactly what is sent and nothing leaves the page until they send it.
+ *
+ * The address is assembled in script rather than written into the markup, so
+ * it is not sitting in the HTML for address harvesters to scrape. */
+(function () {
+  var form = document.getElementById('report-form');
+  if (!form) return;
+  var user = 'ross', host = 'justmovein.com';
+
+  // A station page can say which station it is, so the reader does not retype it.
+  var params = new URLSearchParams(location.search);
+  var about = params.get('station');
+  if (about) document.getElementById('rf-station').value = about;
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var station = document.getElementById('rf-station').value.trim();
+    var detail = document.getElementById('rf-detail').value.trim();
+    var email = document.getElementById('rf-email').value.trim();
+    if (!detail) {
+      document.getElementById('rf-detail').focus();
+      return;
+    }
+    var subject = 'RailReach correction' + (station ? ': ' + station : '');
+    var body = [
+      station ? 'Station or route: ' + station : '',
+      '', detail, '',
+      email ? 'Reply to: ' + email : '',
+      '', 'Sent from ' + location.origin + '/about/'
+    ].filter(function (l) { return l !== null; }).join('\n');
+    window.location.href = 'mailto:' + user + '@' + host +
+      '?subject=' + encodeURIComponent(subject) +
+      '&body=' + encodeURIComponent(body);
+    document.getElementById('rf-note').textContent =
+      'Your email app should now be open with the report ready to send.';
+  });
+})();
+</script>
+
 
 <h2>Frequently asked questions</h2>
 <h3>Where does RailReach get its journey times?</h3>

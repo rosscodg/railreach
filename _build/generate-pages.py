@@ -21,6 +21,7 @@ import os
 import re
 import json
 import hashlib
+import urllib.parse
 import math
 import datetime
 
@@ -399,6 +400,9 @@ def build_promo():
 
 PROMO = None   # populated by main(), before any page is written
 
+# Station named in the correction link, set per page while generating.
+REPORT_SUBJECT = ''
+
 
 def data_note():
     """The provenance line shown on every page.
@@ -414,7 +418,20 @@ def data_note():
             'service on each route, computed from Darwin Timetable Files published by the '
             'Rail Delivery Group under the Open Government Licence. '
             'They exclude engineering works and disruption, and are not live departure times. '
-            f'Last reviewed {REVIEW_DATE}. <a href="/about/">Read the full methodology &rarr;</a></div>')
+            f'Last reviewed {REVIEW_DATE}. <a href="/about/">Read the full methodology &rarr;</a>'
+            f'{_report_link()}</div>')
+
+
+def _report_link():
+    """Route to the correction form, carrying the station where we know it.
+
+    Set by generate_station_page so the reader does not have to retype what
+    the page is already about.
+    """
+    if not REPORT_SUBJECT:
+        return ''
+    return (' <a href="/about/?station=' + urllib.parse.quote(REPORT_SUBJECT) +
+            '#corrections">Report a correction &rarr;</a>')
 
 
 def site_footer(total):
@@ -736,6 +753,8 @@ def discovery_band(mins):
 
 # ── Terminal pages ─────────────────────────────────────────────────────────
 def generate_terminal_page(code, terminals, stations, total):
+    global REPORT_SUBJECT
+    REPORT_SUBJECT = ''
     meta = TERMINAL_META[code]
     slug, name, operators = meta['slug'], meta['name'], meta['operators']
     t = terminals[code]
@@ -932,6 +951,8 @@ Licence: CC BY 4.0. Please attribute RailReach and link to {SITE}/
 
 # ── Station pages ──────────────────────────────────────────────────────────
 def generate_station_page(station_name, slug, terminals, stations, total):
+    global REPORT_SUBJECT
+    REPORT_SUBJECT = station_name
     sdata = next((s for s in stations if s['name'] == station_name), None)
     if not sdata:
         print(f"  WARNING: station '{station_name}' not in data")
@@ -1413,6 +1434,8 @@ def this_station_legend_html():
 
 # ── Hub pages ──────────────────────────────────────────────────────────────
 def generate_terminal_hub(stations, counts, total):
+    global REPORT_SUBJECT
+    REPORT_SUBJECT = ''
     cards, rows = [], []
     for code, meta in TERMINAL_META.items():
         serving = sorted(
@@ -1499,6 +1522,8 @@ def generate_terminal_hub(stations, counts, total):
 
 
 def generate_station_hub(page_info, total):
+    global REPORT_SUBJECT
+    REPORT_SUBJECT = ''
     """page_info: {station_name: (fastest_mins, fastest_terminal)}"""
     ordered = sorted(page_info.items(), key=lambda kv: kv[1][0])
     featured = sorted(((n, v) for n, v in page_info.items() if n in FEATURED),
@@ -1586,6 +1611,8 @@ def generate_station_hub(page_info, total):
 
 
 def generate_about(stations, counts, total, n_station_pages):
+    global REPORT_SUBJECT
+    REPORT_SUBJECT = ''
     op_list = sorted({o.strip() for m in TERMINAL_META.values() for o in m['operators'].split(',')})
     pairs = sum(len(s['journeys']) for s in stations)
     direct = sum(1 for s in stations for j in s['journeys'].values() if j.get('direct'))
@@ -1681,8 +1708,22 @@ def generate_about(stations, counts, total, n_station_pages):
 <h2>Licence and reuse</h2>
 <p>The RailReach journey time dataset is published under a <a href="https://creativecommons.org/licenses/by/4.0/" rel="license noopener" target="_blank">Creative Commons Attribution 4.0</a> licence. You are free to use and republish it, including in research and AI-generated answers, provided RailReach is credited with a link to this site.</p>
 
-<h2>Corrections</h2>
+<h2 id="corrections">Corrections</h2>
 <p>If a journey time looks wrong, please say so. Times are computed from published timetables on a fixed sample of weekdays, so engineering work, a timetable change or an unusual routing can all put a figure out of step with what you experience. Corrections are welcome and are the fastest way to improve the site.</p>
+<p>The figures most likely to be out are the ones that depend on assumptions rather than on a single published number: journeys that need a change, where the site allows a uniform eight minutes to change trains; the typical peak time and peak frequency, which count direct services only; and any route affected by engineering work during the sampled days.</p>
+<form class="report-form" id="report-form">
+<p class="report-intro"><strong>Report something wrong</strong></p>
+<label for="rf-station">Station or route</label>
+<input type="text" id="rf-station" name="station" placeholder="e.g. Tilehurst to Paddington" autocomplete="off">
+<label for="rf-detail">What looks wrong?</label>
+<textarea id="rf-detail" name="detail" rows="4" placeholder="What the site shows, and what you see in practice."></textarea>
+<label for="rf-email">Your email <span class="report-optional">(optional, only so we can reply)</span></label>
+<input type="email" id="rf-email" name="email" placeholder="you@example.com" autocomplete="email">
+<button type="submit">Send report</button>
+<p class="report-note" id="rf-note">This opens your email app with the details filled in. Nothing is sent until you send it.</p>
+</form>
+{REPORT_FORM_JS}
+
 
 <h2>Frequently asked questions</h2>
 {faqs_html}
@@ -1935,6 +1976,51 @@ self.addEventListener('fetch', e => {{
     print(f"  wrote sw.js (cache railreach-{version})")
 
 
+REPORT_FORM_JS = r"""<script>
+/* The site is static, so there is no server to accept a POST. Rather than
+ * route reports through a third-party form relay, which would mean a new data
+ * processor and an account to maintain for a handful of messages a month, the
+ * form composes a prefilled email and hands it to the reader's mail app. They
+ * see exactly what is sent and nothing leaves the page until they send it.
+ *
+ * The address is assembled in script rather than written into the markup, so
+ * it is not sitting in the HTML for address harvesters to scrape. */
+(function () {
+  var form = document.getElementById('report-form');
+  if (!form) return;
+  var user = 'ross', host = 'justmovein.com';
+
+  // A station page can say which station it is, so the reader does not retype it.
+  var params = new URLSearchParams(location.search);
+  var about = params.get('station');
+  if (about) document.getElementById('rf-station').value = about;
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var station = document.getElementById('rf-station').value.trim();
+    var detail = document.getElementById('rf-detail').value.trim();
+    var email = document.getElementById('rf-email').value.trim();
+    if (!detail) {
+      document.getElementById('rf-detail').focus();
+      return;
+    }
+    var subject = 'RailReach correction' + (station ? ': ' + station : '');
+    var body = [
+      station ? 'Station or route: ' + station : '',
+      '', detail, '',
+      email ? 'Reply to: ' + email : '',
+      '', 'Sent from ' + location.origin + '/about/'
+    ].filter(function (l) { return l !== null; }).join('\n');
+    window.location.href = 'mailto:' + user + '@' + host +
+      '?subject=' + encodeURIComponent(subject) +
+      '&body=' + encodeURIComponent(body);
+    document.getElementById('rf-note').textContent =
+      'Your email app should now be open with the report ready to send.';
+  });
+})();
+</script>"""
+
+
 def check_published_figures(total):
     """Fail the build if machine-read metadata states a count the data does not
     support.
@@ -2083,6 +2169,8 @@ def homepage_summaries(stations, counts):
 
 # ── index.html sync ────────────────────────────────────────────────────────
 def sync_index(terminals, stations, counts, total, data_js):
+    global REPORT_SUBJECT
+    REPORT_SUBJECT = ''
     """Rewrite the generated regions of index.html from the dataset."""
     path = os.path.join(BASE, 'index.html')
     with open(path) as f:

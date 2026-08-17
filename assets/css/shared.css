@@ -916,3 +916,35 @@ a:focus-visible, button:focus-visible, select:focus-visible {
      squeezing the segmented control. */
   .direct-toggle { flex: 1 0 100%; margin-left: 0; font-size: 11px; }
 }
+
+/* Correction report form, on the About page. Deliberately not a contact page:
+   it exists to catch wrong journey times, so it sits with the explanation of
+   how they are measured rather than inviting general enquiries. */
+.report-form {
+  margin: 20px 0 8px; padding: 20px; max-width: 520px;
+  background: var(--page-alt); border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.report-form .report-intro { margin: 0 0 14px; font-size: 15px; }
+.report-form label {
+  display: block; margin: 12px 0 5px;
+  font-size: 13px; font-weight: 600; color: var(--text-secondary);
+}
+.report-form .report-optional { font-weight: 400; color: var(--text-muted); }
+.report-form input, .report-form textarea {
+  width: 100%; padding: 9px 12px; font-family: var(--font); font-size: 14px;
+  color: var(--text-primary); background: var(--card-bg);
+  border: 1px solid var(--border); border-radius: 8px; outline: none;
+}
+.report-form textarea { resize: vertical; min-height: 84px; }
+.report-form input:focus, .report-form textarea:focus {
+  border-color: var(--blue); box-shadow: 0 0 0 3px rgba(59,130,246,0.18);
+}
+.report-form button {
+  margin-top: 16px; padding: 10px 20px; cursor: pointer;
+  font-family: var(--font); font-size: 14px; font-weight: 600;
+  color: #fff; background: var(--blue);
+  border: 1px solid var(--blue); border-radius: var(--radius-pill);
+}
+.report-form button:hover { background: #2f74e0; border-color: #2f74e0; }
+.report-note { margin: 10px 0 0; font-size: 12px; color: var(--text-muted); }
