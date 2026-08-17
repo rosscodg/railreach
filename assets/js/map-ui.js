@@ -440,15 +440,21 @@ window.RR = (function () {
     return R * 2 * Math.asin(Math.sqrt(x));
   }
 
-  function discoveries(stations, code, maxMins, limit) {
+  /* directOnly: honour the same constraint the map is showing. Suggesting a
+   * place that needs a change, while the reader has asked to see only through
+   * trains, would be recommending something they have just ruled out. */
+  function discoveries(stations, code, maxMins, limit, directOnly) {
     var out = [], chosen = [];
+    function t(j) { return directOnly && j.dm ? j.dm : j.mins; }
     stations.filter(function (s) {
       var j = s.journeys[code];
-      if (!j || j.mins > maxMins) return false;
+      if (!j || j.mins == null) return false;
+      if (directOnly && j.nd) return false;
+      if (t(j) > maxMins) return false;
       if (NOT_A_PLACE_TO_LIVE[s.name]) return false;
       return kmBetween(CENTRAL, [s.lat, s.lng]) >= MIN_KM_FROM_LONDON;
     }).sort(function (a, b) {
-      return a.journeys[code].mins - b.journeys[code].mins;
+      return t(a.journeys[code]) - t(b.journeys[code]);
     }).forEach(function (s) {
       if (out.length >= (limit || 6)) return;
       var tooClose = chosen.some(function (c) {

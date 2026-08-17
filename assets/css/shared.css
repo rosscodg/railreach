@@ -901,3 +901,18 @@ a:focus-visible, button:focus-visible, select:focus-visible {
   border-radius: 50%; background: var(--text-muted); vertical-align: 2px;
 }
 .leaflet-popup-content .pop-stats { margin-top: 9px; padding-top: 8px; border-top: 1px solid var(--border-light); }
+
+/* "Direct trains only", sitting with the journey-time filter it qualifies. */
+.direct-toggle {
+  display: inline-flex; align-items: center; gap: 6px;
+  margin-left: 10px; white-space: nowrap; cursor: pointer;
+  font-size: 12px; font-weight: 500; color: var(--text-secondary);
+}
+.direct-toggle input { accent-color: var(--blue); width: 14px; height: 14px; cursor: pointer; margin: 0; }
+.direct-toggle:hover { color: var(--text-primary); }
+
+@media (max-width: 768px) {
+  /* The panel is one line here, so the toggle takes its own row rather than
+     squeezing the segmented control. */
+  .direct-toggle { flex: 1 0 100%; margin-left: 0; font-size: 11px; }
+}

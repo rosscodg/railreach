@@ -34,7 +34,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<link rel="stylesheet" href="/assets/css/shared.css?v=a4c16675">
+<link rel="stylesheet" href="/assets/css/shared.css?v=3e38e1b3">
 <style>
 /* Leave a sliver of the content section above the fold as a scroll affordance */
 :root { --map-h: calc(100dvh - var(--header-h) - 44px); }
@@ -71,6 +71,7 @@
   <div class="control-row row-budget">
     <span class="control-label" id="budget-label">Journey under</span>
     <div id="budget-filter" role="group" aria-labelledby="budget-label"></div>
+    <label class="direct-toggle"><input type="checkbox" id="direct-only"> Direct trains only</label>
   </div>
   <div class="control-foot">
   <p class="station-count" id="station-count" role="status" aria-live="polite"></p>
@@ -478,8 +479,8 @@ const STATIONS = [
 ];
 /* /GEN:map-data */
 </script>
-<script src="/assets/js/map-ui.js?v=28af0e35"></script>
-<script src="/assets/js/home-map.js?v=1235eeae"></script>
+<script src="/assets/js/map-ui.js?v=887114e8"></script>
+<script src="/assets/js/home-map.js?v=880b8ac8"></script>
 
 <main id="content" class="page-content">
 <div class="wrap">

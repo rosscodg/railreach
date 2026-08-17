@@ -468,7 +468,11 @@ def js_data_block(terminals, stations):
             f'{c}: {{ mins: {v["mins"]}, direct: {str(v["direct"]).lower()}'
             # Only carried when the quickest way needs a change, so the payload
             # does not repeat the headline for the majority that are direct.
-            + (f', dm: {v["directMins"]}' if not v['direct'] and v.get('directMins') else '')
+            # The direct time is carried whenever one exists, even when it is
+            # the same as the headline, because the direct-only view needs it
+            # for every station rather than only the ones a change beats.
+            + (f', dm: {v["directMins"]}' if v.get('directMins') is not None
+               and v['directMins'] != v['mins'] else '')
             # Explicit, rather than inferred from a missing dm: "no direct
             # service" and "direct exists but is slower" need different words.
             + (', nd: 1' if v.get('directMins') is None else '')

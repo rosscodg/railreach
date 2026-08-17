@@ -8,7 +8,30 @@
 
   var DEFAULT_TERMINAL = 'KGX';
   var BUDGETS = [30, 45, 60, 90];
-  var state = { terminal: DEFAULT_TERMINAL, max: 90 };
+  var state = { terminal: DEFAULT_TERMINAL, max: 90, directOnly: false };
+
+  /* One journey seen two ways. In the default view the headline is the
+   * quickest way there, which may involve a change; with "direct trains only"
+   * it is the quickest through train, and stations with no through train are
+   * not shown at all. Everything downstream - colour, filter, sort, count,
+   * popup, discovery - reads the journey through these two helpers so the two
+   * views cannot drift apart. */
+  function hasJourney(j) {
+    if (!j || j.mins == null) return false;
+    return state.directOnly ? !j.nd : true;
+  }
+
+  function timeOf(j) {
+    // dm is only carried when the direct time differs from the headline.
+    return state.directOnly && j.dm ? j.dm : j.mins;
+  }
+
+  function viewOf(j) {
+    // The popup for the direct-only view describes a through train, so the
+    // change rows would be nonsense in it.
+    if (!state.directOnly) return j;
+    return { mins: timeOf(j), direct: true, typical: j.typical, tph: j.tph };
+  }
 
   var map = RR.createMap('map');
   var stationLayer = L.layerGroup().addTo(map);
@@ -31,6 +54,7 @@
     els.panel = document.querySelector('.controls');
     els.panelToggle = document.getElementById('panel-toggle');
     els.panelToggleText = document.getElementById('panel-toggle-text');
+    els.directOnly = document.getElementById('direct-only');
     els.discovery = document.getElementById('discovery-list');
     els.discoveryNote = document.getElementById('discovery-note');
   }
@@ -45,16 +69,19 @@
     var max = parseInt(p.get('max'), 10);
     if (TERMINALS[to]) state.terminal = to;
     if (BUDGETS.indexOf(max) !== -1) state.max = max;
+    state.directOnly = p.get('direct') === '1';
   }
 
   function writeUrl(push) {
     var p = new URLSearchParams();
     if (state.terminal !== DEFAULT_TERMINAL) p.set('to', state.terminal);
     if (state.max !== 90) p.set('max', String(state.max));
+    if (state.directOnly) p.set('direct', '1');
     var qs = p.toString();
     var url = location.pathname + (qs ? '?' + qs : '');
-    if (push) history.pushState({ t: state.terminal, m: state.max }, '', url);
-    else history.replaceState({ t: state.terminal, m: state.max }, '', url);
+    var st = { t: state.terminal, m: state.max, d: state.directOnly };
+    if (push) history.pushState(st, '', url);
+    else history.replaceState(st, '', url);
   }
 
   /* ---- Data ------------------------------------------------------------- */
@@ -62,9 +89,9 @@
     var code = state.terminal;
     return STATIONS.filter(function (s) {
       var j = s.journeys[code];
-      return j && j.mins <= Math.min(state.max, 90);
+      return hasJourney(j) && timeOf(j) <= Math.min(state.max, 90);
     }).sort(function (a, b) {
-      return a.journeys[code].mins - b.journeys[code].mins;
+      return timeOf(a.journeys[code]) - timeOf(b.journeys[code]);
     });
   }
 
@@ -85,7 +112,8 @@
 
     list.forEach(function (s) {
       var j = s.journeys[code];
-      var m = RR.stationMarker(stationLayer, s, j.mins, RR.stationPopup(s, terminal.name, j));
+      var m = RR.stationMarker(stationLayer, s, timeOf(j),
+                               RR.stationPopup(s, terminal.name, viewOf(j)));
       if (s.slug) markerBySlug[s.slug] = m;
     });
 
@@ -94,14 +122,22 @@
      * get the full sentence, since this is an aria-live region and the
      * announcement has no chip to refer to. */
     var noun = ' station' + (list.length === 1 ? '' : 's');
+    /* How many of these need a change, said plainly rather than left for the
+     * reader to discover one popup at a time. It is also what makes the
+     * direct-only toggle an obvious next click instead of a hidden setting. */
+    var needChange = state.directOnly ? 0 : list.filter(function (s) {
+      return !s.journeys[code].direct;
+    }).length;
+    var tail = needChange ? ' \u00b7 ' + needChange + ' need a change' : '';
     els.count.textContent = '';
     var seen = document.createElement('span');
     seen.setAttribute('aria-hidden', 'true');
-    seen.textContent = list.length + noun + ' within ' + state.max + ' min';
+    seen.textContent = list.length + noun + ' within ' + state.max + ' min' + tail;
     var spoken = document.createElement('span');
     spoken.className = 'sr-only';
     spoken.textContent = list.length + noun + ' within ' + state.max +
-      ' min of ' + terminal.name;
+      ' min of ' + terminal.name +
+      (needChange ? ', of which ' + needChange + ' need a change' : '');
     els.count.appendChild(seen);
     els.count.appendChild(spoken);
 
@@ -118,6 +154,7 @@
       b.setAttribute('aria-pressed', on ? 'true' : 'false');
     });
 
+    if (els.directOnly) els.directOnly.checked = state.directOnly;
     renderDiscovery(code, terminal);
     updateSummary(terminal, list.length);
 
@@ -190,7 +227,7 @@
    * spread geographically so it is not six stops on one line. */
   function renderDiscovery(code, terminal) {
     if (!els.discovery) return;
-    var found = RR.discoveries(STATIONS, code, state.max, 6);
+    var found = RR.discoveries(STATIONS, code, state.max, 6, state.directOnly);
     els.discovery.innerHTML = '';
 
     if (!found.length) {
@@ -208,11 +245,12 @@
       var a = document.createElement('a');
       a.className = 'card';
       a.href = '/stations/' + s.slug + '/';
+      var mins = timeOf(j);
+      var viaNote = state.directOnly || j.direct ? ' &middot; direct' : ' &middot; one change';
       a.innerHTML = '<span class="card-title">' + RR.esc(s.name) + '</span>' +
         '<span class="card-meta"><span class="t-badge ' +
-        (j.mins < 30 ? 't-fast' : j.mins < 60 ? 't-mid' : 't-slow') + '">' + j.mins +
-        ' min</span> to ' + RR.esc(terminal.name) +
-        (j.direct ? ' &middot; direct' : ' &middot; one change') + '</span>';
+        (mins < 30 ? 't-fast' : mins < 60 ? 't-mid' : 't-slow') + '">' + mins +
+        ' min</span> to ' + RR.esc(terminal.name) + viaNote + '</span>';
       // Hovering or focusing a card points it out on the map.
       a.addEventListener('mouseenter', function () { highlight(s); });
       a.addEventListener('focus', function () { highlight(s); });
@@ -333,6 +371,9 @@
       var f = fastestFor(s);
       state.terminal = f.code;
       if (f.j.mins > state.max) state.max = 90;
+      /* Naming a station is a deliberate request to see it, so a filter that
+       * would hide it is relaxed, exactly as the time filter already is. */
+      if (state.directOnly && f.j.nd) state.directOnly = false;
       writeUrl(true);
       render({ fit: false });
       var m = markerBySlug[s.slug];
@@ -397,6 +438,15 @@
     input.addEventListener('blur', function () { setTimeout(close, 120); });
   }
 
+  function buildDirectToggle() {
+    if (!els.directOnly) return;
+    els.directOnly.addEventListener('change', function () {
+      state.directOnly = els.directOnly.checked;
+      writeUrl(true);
+      render();
+    });
+  }
+
   function buildPanelToggle() {
     if (!els.panelToggle) return;
     els.panelToggle.addEventListener('click', function () {
@@ -412,6 +462,7 @@
     buildTerminalControls();
     buildBudgetControls();
     buildSearch();
+    buildDirectToggle();
     buildPanelToggle();
     armAutoCollapse();
     writeUrl(false);
@@ -426,7 +477,7 @@
 
   window.addEventListener('popstate', function (e) {
     var s = e.state;
-    if (s) { state.terminal = s.t; state.max = s.m; }
+    if (s) { state.terminal = s.t; state.max = s.m; state.directOnly = !!s.d; }
     else { state.terminal = DEFAULT_TERMINAL; state.max = 90; readUrl(); }
     render();
   });
