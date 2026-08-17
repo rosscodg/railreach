@@ -1,8 +1,8 @@
 // RailReach Service Worker. Cache name is stamped per build by _build/generate-pages.py
-const CACHE_NAME = 'railreach-eb1af80d06';
+const CACHE_NAME = 'railreach-159f14e86d';
 const PRECACHE = [
   '/',
-  '/assets/css/shared.css?v=7aaa4979',
+  '/assets/css/shared.css?v=e6aa258c',
   '/assets/js/map-ui.js?v=887114e8',
   '/assets/js/home-map.js?v=880b8ac8',
   '/assets/js/stations-data.js?v=b001d929',

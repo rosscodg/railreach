@@ -948,3 +948,31 @@ a:focus-visible, button:focus-visible, select:focus-visible {
 }
 .report-form button:hover { background: #2f74e0; border-color: #2f74e0; }
 .report-note { margin: 10px 0 0; font-size: 12px; color: var(--text-muted); }
+
+/* Filter for the full station table. Sits directly above the table it acts
+   on, so the relationship needs no explaining. */
+.station-filter { margin: 18px 0 10px; max-width: 460px; }
+.station-filter label {
+  display: block; margin-bottom: 6px;
+  font-size: 13px; font-weight: 600; color: var(--text-secondary);
+}
+.station-filter input {
+  width: 100%; padding: 10px 14px; font-family: var(--font); font-size: 15px;
+  color: var(--text-primary); background: var(--card-bg);
+  border: 1px solid var(--border); border-radius: var(--radius-pill); outline: none;
+}
+.station-filter input:focus {
+  border-color: var(--blue); box-shadow: 0 0 0 3px rgba(59,130,246,0.18);
+}
+.station-filter-count { margin: 8px 0 0; font-size: 13px; color: var(--text-muted); }
+.station-filter-empty {
+  margin: 14px 0; padding: 14px 16px;
+  background: var(--page-alt); border: 1px solid var(--border);
+  border-radius: var(--radius); font-size: 14px; color: var(--text-body);
+}
+
+@media (max-width: 768px) {
+  /* 16px stops iOS zooming the page when the field takes focus, the same
+     guard the homepage station search already carries. */
+  .station-filter input { font-size: 16px; }
+}

@@ -1585,8 +1585,14 @@ def generate_station_hub(page_info, total):
 
 <h2>Every station, ranked</h2>
 <p class="section-note">All {len(ordered)} stations with a journey into London under 90 minutes.</p>
+<div class="station-filter" id="station-filter" hidden>
+<label for="station-filter-input">Find a station</label>
+<input type="search" id="station-filter-input" placeholder="Station or terminal, e.g. Reading" autocomplete="off" spellcheck="false">
+<p class="station-filter-count" id="station-filter-count" role="status" aria-live="polite"></p>
+</div>
+<p class="station-filter-empty" id="station-filter-empty" hidden>No station matches that. Try part of the name, or the name of the London terminal.</p>
 <div class="table-scroll">
-<table>
+<table id="station-table">
 <caption>Commuter towns ranked by fastest journey into London</caption>
 <thead><tr><th>Station</th><th>Fastest journey</th><th>To terminal</th></tr></thead>
 <tbody>
@@ -1594,6 +1600,7 @@ def generate_station_hub(page_info, total):
 </tbody>
 </table>
 </div>
+{STATION_FILTER_JS}
 
 <h2>Frequently asked questions</h2>
 {faqs_html}
@@ -2017,6 +2024,58 @@ REPORT_FORM_JS = r"""<script>
     document.getElementById('rf-note').textContent =
       'Your email app should now be open with the report ready to send.';
   });
+})();
+</script>"""
+
+
+STATION_FILTER_JS = r"""<script>
+/* Filter for the full station table. 568 rows is a wall to scroll, and this is
+ * a likely landing page from search, so someone arriving for one station
+ * should not have to hunt for it.
+ *
+ * The control is rendered hidden and revealed here: without script the table
+ * is still complete and useful, and a filter box that does nothing is worse
+ * than no filter box. The rows are always in the HTML, so what search engines
+ * index does not depend on any of this running. */
+(function () {
+  var box = document.getElementById('station-filter');
+  var input = document.getElementById('station-filter-input');
+  var table = document.getElementById('station-table');
+  if (!box || !input || !table) return;
+  box.hidden = false;
+
+  var rows = Array.prototype.slice.call(table.tBodies[0].rows);
+  var count = document.getElementById('station-filter-count');
+  var empty = document.getElementById('station-filter-empty');
+  var total = rows.length;
+
+  // "&" and "and" should find each other, and punctuation should not matter:
+  // nobody types "Cobham & Stoke d'Abernon" exactly.
+  function norm(s) {
+    return s.toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9 ]/g, '');
+  }
+  var keys = rows.map(function (r) { return norm(r.textContent); });
+
+  var timer;
+  function apply() {
+    var q = norm(input.value.trim());
+    var shown = 0;
+    for (var i = 0; i < rows.length; i++) {
+      var hit = !q || keys[i].indexOf(q) !== -1;
+      rows[i].hidden = !hit;
+      if (hit) shown++;
+    }
+    empty.hidden = shown !== 0;
+    count.textContent = q ? 'Showing ' + shown + ' of ' + total + ' stations'
+                          : total + ' stations';
+  }
+
+  input.addEventListener('input', function () {
+    // Long list: filtering on every keystroke is wasted work mid-word.
+    clearTimeout(timer);
+    timer = setTimeout(apply, 90);
+  });
+  apply();
 })();
 </script>"""
 

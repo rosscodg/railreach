@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/shared.css?v=7aaa4979">
+<link rel="stylesheet" href="/assets/css/shared.css?v=e6aa258c">
 </head>
 <body>
 <a class="skip-link" href="#content">Skip to content</a>
@@ -76,8 +76,14 @@
 
 <h2>Every station, ranked</h2>
 <p class="section-note">All 568 stations with a journey into London under 90 minutes.</p>
+<div class="station-filter" id="station-filter" hidden>
+<label for="station-filter-input">Find a station</label>
+<input type="search" id="station-filter-input" placeholder="Station or terminal, e.g. Reading" autocomplete="off" spellcheck="false">
+<p class="station-filter-count" id="station-filter-count" role="status" aria-live="polite"></p>
+</div>
+<p class="station-filter-empty" id="station-filter-empty" hidden>No station matches that. Try part of the name, or the name of the London terminal.</p>
 <div class="table-scroll">
-<table>
+<table id="station-table">
 <caption>Commuter towns ranked by fastest journey into London</caption>
 <thead><tr><th>Station</th><th>Fastest journey</th><th>To terminal</th></tr></thead>
 <tbody>
@@ -652,6 +658,56 @@
 </tbody>
 </table>
 </div>
+<script>
+/* Filter for the full station table. 568 rows is a wall to scroll, and this is
+ * a likely landing page from search, so someone arriving for one station
+ * should not have to hunt for it.
+ *
+ * The control is rendered hidden and revealed here: without script the table
+ * is still complete and useful, and a filter box that does nothing is worse
+ * than no filter box. The rows are always in the HTML, so what search engines
+ * index does not depend on any of this running. */
+(function () {
+  var box = document.getElementById('station-filter');
+  var input = document.getElementById('station-filter-input');
+  var table = document.getElementById('station-table');
+  if (!box || !input || !table) return;
+  box.hidden = false;
+
+  var rows = Array.prototype.slice.call(table.tBodies[0].rows);
+  var count = document.getElementById('station-filter-count');
+  var empty = document.getElementById('station-filter-empty');
+  var total = rows.length;
+
+  // "&" and "and" should find each other, and punctuation should not matter:
+  // nobody types "Cobham & Stoke d'Abernon" exactly.
+  function norm(s) {
+    return s.toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9 ]/g, '');
+  }
+  var keys = rows.map(function (r) { return norm(r.textContent); });
+
+  var timer;
+  function apply() {
+    var q = norm(input.value.trim());
+    var shown = 0;
+    for (var i = 0; i < rows.length; i++) {
+      var hit = !q || keys[i].indexOf(q) !== -1;
+      rows[i].hidden = !hit;
+      if (hit) shown++;
+    }
+    empty.hidden = shown !== 0;
+    count.textContent = q ? 'Showing ' + shown + ' of ' + total + ' stations'
+                          : total + ' stations';
+  }
+
+  input.addEventListener('input', function () {
+    // Long list: filtering on every keystroke is wasted work mid-word.
+    clearTimeout(timer);
+    timer = setTimeout(apply, 90);
+  });
+  apply();
+})();
+</script>
 
 <h2>Frequently asked questions</h2>
 <h3>Which commuter towns are closest to London by train?</h3>
