@@ -35,7 +35,7 @@ Yes. Direct services run to Euston.
 
 ### What are the nearest stations to Bletchley?
 
-The closest alternatives are Milton Keynes Central, Leighton Buzzard, Cheddington. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Milton Keynes Central, Wolverton, Leighton Buzzard. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

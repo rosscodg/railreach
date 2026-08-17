@@ -35,7 +35,7 @@ Yes. Direct services run to Marylebone.
 
 ### What are the nearest stations to Bicester North?
 
-The closest alternatives are Kings Sutton, Hanborough, Oxford. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Bicester Village, Islip, Oxford Parkway. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

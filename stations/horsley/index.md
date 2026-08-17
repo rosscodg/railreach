@@ -37,7 +37,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Horsley?
 
-The closest alternatives are Effingham Junction, Clandon, Cobham & Stoke d'Abernon. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Effingham Junction, Bookham, Clandon. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

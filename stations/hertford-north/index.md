@@ -38,7 +38,7 @@ Yes. Direct services run to Kings Cross, Moorgate.
 
 ### What are the nearest stations to Hertford North?
 
-The closest alternatives are Hertford East, Bayford, Welwyn North. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Hertford East, Ware, Bayford. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

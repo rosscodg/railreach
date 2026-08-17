@@ -39,7 +39,7 @@ Yes. Direct services run to London Bridge, Victoria, St Pancras.
 
 ### What are the nearest stations to Three Bridges?
 
-The closest alternatives are Crawley, Gatwick Airport, Horley. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Crawley, Ifield, Gatwick Airport. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

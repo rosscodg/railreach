@@ -39,7 +39,7 @@ Yes. Direct services run to London Bridge, Victoria, St Pancras.
 
 ### What are the nearest stations to Coulsdon South?
 
-The closest alternatives are Purley, Merstham, Sutton. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Kenley, Purley, Whyteleafe. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

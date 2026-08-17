@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Egham?
 
-The closest alternatives are Staines, Virginia Water, Windsor & Eton Central. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Staines, Wraysbury, Virginia Water. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

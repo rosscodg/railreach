@@ -36,7 +36,7 @@ Yes. Direct services run to Paddington, Liverpool Street.
 
 ### What are the nearest stations to Iver?
 
-The closest alternatives are West Drayton, Langley, Slough. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are West Drayton, Langley, Sunnymeads. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

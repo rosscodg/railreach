@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Havant?
 
-The closest alternatives are Petersfield, Liss, Liphook. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Bedhampton, Rowlands Castle, Fratton. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

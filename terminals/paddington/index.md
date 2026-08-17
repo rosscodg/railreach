@@ -1,10 +1,10 @@
 # Train journey times to London Paddington
 
-79 stations reach London Paddington within 90 minutes, 33 of them on a
+115 stations reach London Paddington within 90 minutes, 42 of them on a
 direct train. Services are operated by Great Western Railway, Elizabeth line.
 
-- Stations within 90 minutes: 79
-- Direct services: 33 of 79
+- Stations within 90 minutes: 115
+- Direct services: 42 of 115
 - Stations under 30 minutes: 15
 - Fastest station: Acton Main Line - 7 minutes
 - Operators: Great Western Railway, Elizabeth line
@@ -31,6 +31,7 @@ direct train. Services are operated by Great Western Railway, Elizabeth line.
 | Langley | 26 min | same as fastest | 30 | 4.0 |
 | Abbey Wood | 28 min | same as fastest | 30 | 11.6 |
 | Taplow | 30 min (change at Maidenhead) | 38 min | 40 | 4.0 |
+| Reading West | 31 min | same as fastest | 32 | 1.2 |
 | Windsor & Eton Central | 32 min (change at Slough) | no direct service | - | - |
 | Theale | 34 min | same as fastest | 38 | 1.6 |
 | Didcot Parkway | 37 min | same as fastest | 43 | 5.6 |
@@ -41,59 +42,94 @@ direct train. Services are operated by Great Western Railway, Elizabeth line.
 | Pangbourne | 41 min (change at Reading) | 46 min | 53 | 2.0 |
 | Shenfield | 42 min (change at Stratford (London)) | 54 min | 56 | 11.2 |
 | Thatcham | 42 min | same as fastest | 46 | 1.6 |
+| Gidea Park | 43 min | same as fastest | 44 | 11.6 |
 | Goring & Streatley | 45 min (change at Reading) | 50 min | 56 | 2.0 |
+| Wokingham | 45 min (change at Reading) | no direct service | - | - |
+| Aldermaston | 46 min (change at Reading) | 49 min | 49 | 0.4 |
+| Harold Wood | 46 min | same as fastest | 48 | 11.2 |
 | Hungerford | 46 min | same as fastest | 63 | 2.0 |
 | Swindon | 47 min | same as fastest | 57 | 4.4 |
 | Cholsey | 49 min (change at Reading) | 55 min | 61 | 2.0 |
 | Ingatestone | 49 min (change at Stratford (London)) | no direct service | - | - |
+| Midgham | 49 min (change at Reading) | 52 min | 52 | 0.4 |
 | Basingstoke | 50 min (change at Reading) | no direct service | - | - |
 | Billericay | 50 min (change at Stratford (London)) | no direct service | - | - |
 | Brentwood | 50 min | same as fastest | 52 | 11.2 |
 | Cheshunt | 51 min (change at Stratford (London)) | no direct service | - | - |
 | Oxford | 51 min | same as fastest | 54 | 2.4 |
+| Waltham Cross | 51 min (change at Stratford (London)) | no direct service | - | - |
 | Henley-on-Thames | 52 min (change at Twyford) | no direct service | - | - |
 | Chelmsford | 53 min (change at Stratford (London)) | no direct service | - | - |
+| Newbury Racecourse | 53 min (change at Newbury) | 60 min | 60 | 0.4 |
 | Broxbourne | 55 min (change at Stratford (London)) | no direct service | - | - |
 | Bedwyn | 56 min | same as fastest | 69 | 2.0 |
 | Wickford | 56 min (change at Stratford (London)) | no direct service | - | - |
+| Beaulieu Park | 58 min (change at Stratford (London)) | no direct service | - | - |
 | Kintbury | 58 min | same as fastest | 59 | 1.2 |
 | Upminster | 58 min (change at Romford) | no direct service | - | - |
+| Roydon | 60 min (change at Stratford (London)) | no direct service | - | - |
 | Hatfield Peverel | 61 min (change at Stratford (London)) | no direct service | - | - |
 | Rayleigh | 61 min (change at Stratford (London)) | no direct service | - | - |
 | Witham | 61 min (change at Stratford (London)) | no direct service | - | - |
 | Pewsey | 62 min | same as fastest | 79 | 1.6 |
+| Rye House | 62 min (change at Stratford (London)) | no direct service | - | - |
 | Chippenham | 63 min | same as fastest | 70 | 1.6 |
 | Hanborough | 63 min | same as fastest | 65 | 1.2 |
 | Harlow Town | 63 min (change at Stratford (London)) | no direct service | - | - |
 | Overton | 63 min (change at Reading) | no direct service | - | - |
+| Battlesbridge | 65 min (change at Stratford (London)) | no direct service | - | - |
 | Hockley | 65 min (change at Stratford (London)) | no direct service | - | - |
+| St Margarets (Hertfordshire) | 65 min (change at Stratford (London)) | no direct service | - | - |
 | Winchester | 68 min (change at Reading) | no direct service | - | - |
 | Charlbury | 69 min | same as fastest | 72 | 1.2 |
+| Kemble | 69 min | same as fastest | 74 | 0.8 |
+| Oxford Parkway | 69 min (change at Oxford) | no direct service | - | - |
 | Rochford | 69 min (change at Stratford (London)) | no direct service | - | - |
+| South Woodham Ferrers | 69 min (change at Stratford (London)) | no direct service | - | - |
+| Ware | 69 min (change at Stratford (London)) | no direct service | - | - |
 | Whitchurch (Hants) | 69 min (change at Reading) | no direct service | - | - |
 | Colchester | 70 min (change at Stratford (London)) | no direct service | - | - |
 | Marks Tey | 70 min (change at Stratford (London)) | no direct service | - | - |
 | Marlow | 70 min (change at Maidenhead) | no direct service | - | - |
+| Southend Airport | 71 min (change at Stratford (London)) | no direct service | - | - |
 | Kelvedon | 72 min (change at Stratford (London)) | no direct service | - | - |
+| Bristol Parkway | 73 min | same as fastest | 77 | 2.0 |
 | Hertford East | 73 min (change at Stratford (London)) | no direct service | - | - |
+| Westbury | 73 min | same as fastest | 97 | 1.6 |
+| White Notley | 73 min (change at Stratford (London)) | no direct service | - | - |
 | Banbury | 74 min | same as fastest | - | - |
+| Islip | 74 min (change at Oxford) | no direct service | - | - |
+| North Fambridge | 74 min (change at Stratford (London)) | no direct service | - | - |
+| Prittlewell | 74 min (change at Stratford (London)) | no direct service | - | - |
+| Cressing | 75 min (change at Stratford (London)) | no direct service | - | - |
 | Harlow Mill | 75 min (change at Stratford (London)) | no direct service | - | - |
 | Bath Spa | 76 min | same as fastest | 83 | 1.6 |
+| Southampton Airport Parkway | 76 min (change at Reading) | no direct service | - | - |
 | Southend Victoria | 76 min (change at Stratford (London)) | no direct service | - | - |
 | Andover | 77 min (change at Reading) | no direct service | - | - |
 | Sawbridgeworth | 77 min (change at Stratford (London)) | no direct service | - | - |
+| Braintree Freeport | 79 min (change at Stratford (London)) | no direct service | - | - |
 | Manningtree | 79 min (change at Stratford (London)) | no direct service | - | - |
 | Kingham | 80 min | same as fastest | 82 | 1.2 |
 | Kings Sutton | 80 min (change at Oxford) | no direct service | - | - |
+| Shipton | 80 min | same as fastest | - | - |
+| Althorne | 81 min (change at Stratford (London)) | no direct service | - | - |
+| Bicester Village | 81 min (change at Oxford) | no direct service | - | - |
 | Braintree | 81 min (change at Stratford (London)) | no direct service | - | - |
 | Bishops Stortford | 82 min (change at Stratford (London)) | no direct service | - | - |
 | Guildford | 82 min (change at Reading) | no direct service | - | - |
 | Grateley | 84 min (change at Reading) | no direct service | - | - |
+| Hythe | 84 min (change at Stratford (London)) | no direct service | - | - |
 | Ipswich | 84 min (change at Stratford (London)) | no direct service | - | - |
 | Southampton Central | 84 min (change at Reading) | no direct service | - | - |
+| Stroud | 84 min | same as fastest | 90 | 0.8 |
+| Burnham-on-Crouch | 86 min (change at Stratford (London)) | no direct service | - | - |
 | Moreton-in-Marsh | 88 min | same as fastest | 90 | 1.2 |
 | Richmond | 88 min (change at Stratford (London)) | no direct service | - | - |
+| Stonehouse | 88 min | same as fastest | 96 | 0.8 |
+| Wivenhoe | 88 min (change at Stratford (London)) | no direct service | - | - |
 | Bristol Temple Meads | 89 min | same as fastest | 99 | 2.0 |
+| Southminster | 90 min (change at Stratford (London)) | no direct service | - | - |
 
 ## Frequently asked questions
 
@@ -107,7 +143,7 @@ The fastest connection is from Acton Main Line, at 7 minutes on a direct service
 
 ### How many stations connect to Paddington?
 
-79 stations have a service to London Paddington within 90 minutes, and 33 of those are direct trains with no change required.
+115 stations have a service to London Paddington within 90 minutes, and 42 of those are direct trains with no change required.
 
 ### What areas does Paddington serve?
 
@@ -115,7 +151,7 @@ London Paddington primarily serves the Thames Valley and the West. Key commuter 
 
 ### Is Paddington a good terminal to commute into?
 
-With 79 stations inside 90 minutes and 33 direct services, Paddington offers unusually broad commuter coverage. The quickest option is Acton Main Line at 7 minutes.
+With 115 stations inside 90 minutes and 42 direct services, Paddington offers unusually broad commuter coverage. The quickest option is Acton Main Line at 7 minutes.
 
 ## About this data
 

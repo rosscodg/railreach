@@ -37,7 +37,7 @@ Yes. Direct services run to St Pancras, London Bridge.
 
 ### What are the nearest stations to Radlett?
 
-The closest alternatives are Elstree & Borehamwood, Watford Junction, Bushey. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Elstree & Borehamwood, Watford Junction, Watford High Street. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

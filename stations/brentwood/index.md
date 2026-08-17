@@ -36,7 +36,7 @@ Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Brentwood?
 
-The closest alternatives are Shenfield, West Horndon, Upminster. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Shenfield, Harold Wood, West Horndon. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

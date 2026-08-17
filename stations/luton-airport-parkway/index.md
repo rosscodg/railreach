@@ -37,7 +37,7 @@ Yes. Direct services run to St Pancras, London Bridge.
 
 ### What are the nearest stations to Luton Airport Parkway?
 
-The closest alternatives are Luton, Harpenden, Hitchin. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Luton, Leagrave, Harpenden. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

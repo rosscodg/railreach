@@ -36,7 +36,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Whitchurch (Hants)?
 
-The closest alternatives are Overton, Andover, Basingstoke. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Overton, Micheldever, Andover. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

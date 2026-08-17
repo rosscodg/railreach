@@ -39,7 +39,7 @@ Yes. Direct services run to St Pancras, London Bridge.
 
 ### What are the nearest stations to Knebworth?
 
-The closest alternatives are Stevenage, Welwyn North, Welwyn Garden City. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Stevenage, Watton-at-Stone, Welwyn North. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

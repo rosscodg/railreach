@@ -35,7 +35,7 @@ Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Worthing?
 
-The closest alternatives are Lancing, Shoreham-by-Sea, Angmering. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are West Worthing, East Worthing, Durrington-on-Sea. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

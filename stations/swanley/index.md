@@ -39,7 +39,7 @@ Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Swanley?
 
-The closest alternatives are Orpington, Sidcup, Petts Wood. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Eynsford, St Mary Cray, Farningham Road. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

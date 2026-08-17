@@ -37,7 +37,7 @@ Yes. Direct services run to London Bridge, Victoria, St Pancras.
 
 ### What are the nearest stations to Hurst Green?
 
-The closest alternatives are Oxted, Lingfield, Merstham. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Oxted, Woldingham, Edenbridge Town. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

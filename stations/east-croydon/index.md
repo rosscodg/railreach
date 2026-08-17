@@ -40,7 +40,7 @@ Yes. Direct services run to London Bridge, Victoria, St Pancras.
 
 ### What are the nearest stations to East Croydon?
 
-The closest alternatives are West Croydon, Purley, Sutton. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are West Croydon, Purley, Kenley. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

@@ -35,7 +35,7 @@ Yes. Direct services run to Euston.
 
 ### What are the nearest stations to Northampton?
 
-The closest alternatives are Long Buckby, Milton Keynes Central, Rugby. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Long Buckby, Wellingborough, Wolverton. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

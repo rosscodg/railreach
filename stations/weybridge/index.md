@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Weybridge?
 
-The closest alternatives are Byfleet & New Haw, Walton-on-Thames, Shepperton. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Byfleet & New Haw, Addlestone, Walton-on-Thames. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

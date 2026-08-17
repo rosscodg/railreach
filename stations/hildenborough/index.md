@@ -37,7 +37,7 @@ Yes. Direct services run to London Bridge, Victoria.
 
 ### What are the nearest stations to Hildenborough?
 
-The closest alternatives are Tonbridge, Sevenoaks, Bat & Ball. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Tonbridge, Sevenoaks, High Brooms. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

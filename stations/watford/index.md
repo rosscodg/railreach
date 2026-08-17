@@ -36,7 +36,7 @@ Yes. Direct services run to Euston.
 
 ### What are the nearest stations to Watford Junction?
 
-The closest alternatives are Bushey, Kings Langley, Radlett. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Watford High Street, Bushey, Carpenders Park. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

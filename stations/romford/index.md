@@ -36,7 +36,7 @@ Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Romford?
 
-The closest alternatives are Upminster, Dagenham Dock, Rainham (Essex). These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Gidea Park, Harold Wood, Upminster. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

@@ -35,7 +35,7 @@ Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Kintbury?
 
-The closest alternatives are Hungerford, Newbury, Bedwyn. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Hungerford, Newbury, Newbury Racecourse. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

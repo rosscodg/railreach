@@ -35,7 +35,7 @@ Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to Purfleet?
 
-The closest alternatives are Slade Green, Chafford Hundred, Dartford. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Slade Green, Chafford Hundred, Stone Crossing. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

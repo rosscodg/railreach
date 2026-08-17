@@ -37,7 +37,7 @@ Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Headcorn?
 
-The closest alternatives are Staplehurst, Pluckley, Marden. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Staplehurst, Pluckley, Harrietsham. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

@@ -37,7 +37,7 @@ Yes. Direct services run to Victoria, St Pancras.
 
 ### What are the nearest stations to Bat & Ball?
 
-The closest alternatives are Sevenoaks, Otford, Hildenborough. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Sevenoaks, Dunton Green, Otford. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

@@ -35,7 +35,7 @@ Yes. Direct services run to Euston.
 
 ### What are the nearest stations to Rugby?
 
-The closest alternatives are Long Buckby, Coventry, Leamington Spa. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Long Buckby, Coventry, Nuneaton. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

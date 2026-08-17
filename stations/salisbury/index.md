@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Salisbury?
 
-The closest alternatives are Grateley, Andover, Pewsey. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Grateley, Andover, Totton. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

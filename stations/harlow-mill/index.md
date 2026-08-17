@@ -36,7 +36,7 @@ Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Harlow Mill?
 
-The closest alternatives are Harlow Town, Sawbridgeworth, Bishops Stortford. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Harlow Town, Sawbridgeworth, Roydon. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

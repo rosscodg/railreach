@@ -38,7 +38,7 @@ Yes. Direct services run to Kings Cross, Moorgate.
 
 ### What are the nearest stations to Cuffley?
 
-The closest alternatives are Crews Hill, Gordon Hill, Bayford. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Crews Hill, Gordon Hill, Theobalds Grove. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Woking?
 
-The closest alternatives are West Byfleet, Brookwood, Byfleet & New Haw. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Worplesdon, West Byfleet, Brookwood. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

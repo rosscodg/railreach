@@ -36,7 +36,7 @@ Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Colchester?
 
-The closest alternatives are Marks Tey, Manningtree, Kelvedon. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Colchester Town, Hythe, Wivenhoe. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

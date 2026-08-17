@@ -36,7 +36,7 @@ Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Chelmsford?
 
-The closest alternatives are Ingatestone, Hatfield Peverel, Billericay. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Beaulieu Park, Ingatestone, Hatfield Peverel. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

@@ -37,7 +37,7 @@ Yes. Direct services run to St Pancras, London Bridge.
 
 ### What are the nearest stations to Ashford International?
 
-The closest alternatives are Pluckley, Headcorn, Faversham. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Wye, Pluckley, Charing. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

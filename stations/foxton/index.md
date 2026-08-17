@@ -37,7 +37,7 @@ Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Foxton?
 
-The closest alternatives are Shepreth, Meldreth, Whittlesford Parkway. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Shepreth, Meldreth, Shelford. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

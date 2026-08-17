@@ -36,7 +36,7 @@ No direct service is recorded from Windsor & Eton Central; all routes into Londo
 
 ### What are the nearest stations to Windsor & Eton Central?
 
-The closest alternatives are Slough, Burnham, Langley. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Windsor & Eton Riverside, Datchet, Slough. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

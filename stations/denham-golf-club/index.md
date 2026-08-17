@@ -35,7 +35,7 @@ Yes. Direct services run to Marylebone.
 
 ### What are the nearest stations to Denham Golf Club?
 
-The closest alternatives are Denham, Gerrards Cross, Seer Green & Jordans. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Denham, Gerrards Cross, West Ruislip. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

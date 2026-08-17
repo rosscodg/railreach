@@ -37,7 +37,7 @@ Yes. Direct services run to London Bridge, St Pancras.
 
 ### What are the nearest stations to Slade Green?
 
-The closest alternatives are Erith, Barnehurst, Dartford. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Erith, Barnehurst, Crayford. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

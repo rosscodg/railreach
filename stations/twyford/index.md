@@ -36,7 +36,7 @@ Yes. Direct services run to Paddington, Liverpool Street.
 
 ### What are the nearest stations to Twyford?
 
-The closest alternatives are Henley-on-Thames, Reading, Maidenhead. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Winnersh Triangle, Winnersh, Earley. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

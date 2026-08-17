@@ -1733,8 +1733,8 @@ Licence: Creative Commons Attribution 4.0. Reuse permitted with attribution to R
 
 ## Key Pages
 
-- {SITE}/ : Interactive commute map covering all {total} stations and 9 London terminals
-- {SITE}/terminals/ : All 9 London terminals compared by commuter catchment
+- {SITE}/ : Interactive commute map covering all {total} stations and {len(TERMINAL_META)} London terminals
+- {SITE}/terminals/ : All {len(TERMINAL_META)} London terminals compared by commuter catchment
 - {SITE}/stations/ : {len(page_info)} commuter towns ranked by fastest journey into London
 - {SITE}/about/ : Methodology, sources, limitations and licensing
 
@@ -1936,6 +1936,51 @@ self.addEventListener('fetch', e => {{
     print(f"  wrote sw.js (cache railreach-{version})")
 
 
+def check_published_figures(total):
+    """Fail the build if machine-read metadata states a count the data does not
+    support.
+
+    Scoped to the meta description and the JSON-LD, deliberately. Those are
+    what search engines and language models quote, they are hand-written rather
+    than generated, and unlike the body text they only ever carry dataset-wide
+    totals, so any other number in them is wrong by construction. The homepage
+    meta description claimed 345 stations against a dataset of 571, and the
+    JSON-LD claimed 9 London terminals months after St Pancras was split from
+    Kings Cross and Moorgate added.
+
+    Body prose is left alone: it legitimately carries other counts, such as the
+    568 stations that have at least one journey, or a single terminal's
+    catchment. An earlier draft checked everything and flagged all of those.
+    """
+    n_term = len(TERMINAL_META)
+    bad = []
+    # index.html only. Its metadata is hand-written and carries dataset-wide
+    # totals; the hub pages generate theirs from real figures that legitimately
+    # differ, such as the 568 stations with at least one journey or a single
+    # terminal's catchment, and checking those produced only false alarms.
+    for rel in ('index.html',):
+        path = os.path.join(BASE, rel)
+        if not os.path.exists(path):
+            continue
+        text = open(path, encoding='utf-8').read()
+        chunks = re.findall(r'<meta name="description" content="(.*?)"', text, re.S)
+        chunks += re.findall(r'<script type="application/ld\+json">(.*?)</script>',
+                             text, re.S)
+        for chunk in chunks:
+            for n in sorted(set(re.findall(r'(\d{2,4}) stations', chunk))):
+                if int(n) != total:
+                    bad.append((rel, f'metadata says "{n} stations", dataset has {total}'))
+            for n in sorted(set(re.findall(r'(\d{1,2}) London terminals', chunk))):
+                if int(n) != n_term:
+                    bad.append((rel, f'metadata says "{n} London terminals", there are {n_term}'))
+    if bad:
+        raise SystemExit("ERROR: published metadata states figures the dataset "
+                         "does not support.\n"
+                         + ''.join(f"  {r}: {m}\n" for r, m in sorted(set(bad))))
+    print(f"  published metadata agrees with the dataset "
+          f"({total} stations, {n_term} terminals)")
+
+
 def check_review_date(sample_pages):
     """Fail the build if a page claims a review date the dataset does not.
 
@@ -2110,6 +2155,20 @@ def sync_index(terminals, stations, counts, total, data_js):
     # pages and silently left the homepage - the one page most people see -
     # still showing the previous one. Rewrite it from the same constant so the
     # two cannot drift again.
+    n_term = len(TERMINAL_META)
+    subs = [
+        (r'from \d{2,4} stations', f'from {total} stations'),
+        (r'\b\d{1,2} London terminals', f'{n_term} London terminals'),
+        (r'terminals, \d{2,4} stations', f'terminals, {total} stations'),
+    ]
+    for pattern, repl in subs:
+        html, hits = re.subn(pattern, repl, html)
+        if not hits:
+            raise SystemExit(
+                f"ERROR: index.html no longer contains {pattern!r}. Its hand-written "
+                "totals are rewritten from the dataset on every build; if the wording "
+                "changed, update the pattern rather than letting the figure rot.")
+
     html, n = re.subn(r'<div id="promo-banner">.*?</div>\s*</a>\s*</div>',
                       lambda _m: PROMO, html, count=1, flags=re.DOTALL)
     if n != 1:
@@ -2244,6 +2303,7 @@ def main():
 
     print("\nService worker, sitemap, llms.txt and dataset exports...")
     generate_sw()
+    check_published_figures(total)
     check_review_date(['index.html', 'about/index.html',
                        'stations/lingfield/index.html',
                        'terminals/victoria/index.html'])

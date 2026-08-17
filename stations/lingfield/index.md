@@ -37,7 +37,7 @@ Yes. Direct services run to London Bridge, Victoria, St Pancras.
 
 ### What are the nearest stations to Lingfield?
 
-The closest alternatives are East Grinstead, Hurst Green, Oxted. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Dormans, East Grinstead, Edenbridge Town. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

@@ -36,7 +36,7 @@ Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Hertford East?
 
-The closest alternatives are Hertford North, Bayford, Broxbourne. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Hertford North, Ware, Bayford. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

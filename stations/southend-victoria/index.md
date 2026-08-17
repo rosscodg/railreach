@@ -36,7 +36,7 @@ Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Southend Victoria?
 
-The closest alternatives are Southend Central, Westcliff, Chalkwell. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Southend Central, Prittlewell, Southend East. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

@@ -35,7 +35,7 @@ Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Moreton-in-Marsh?
 
-The closest alternatives are Kingham, Charlbury, Banbury. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Kingham, Shipton, Charlbury. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

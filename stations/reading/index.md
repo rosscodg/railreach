@@ -37,7 +37,7 @@ Yes. Direct services run to Paddington, Liverpool Street.
 
 ### What are the nearest stations to Reading?
 
-The closest alternatives are Tilehurst, Theale, Twyford. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Reading West, Earley, Tilehurst. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

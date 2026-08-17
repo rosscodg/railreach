@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Virginia Water?
 
-The closest alternatives are Egham, Staines, Ascot. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Longcross, Egham, Chertsey. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

@@ -36,7 +36,7 @@ Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Manningtree?
 
-The closest alternatives are Colchester, Ipswich, Marks Tey. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Mistley, Wrabness, Hythe. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

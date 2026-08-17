@@ -37,7 +37,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Effingham Junction?
 
-The closest alternatives are Horsley, Cobham & Stoke d'Abernon, Leatherhead. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Horsley, Bookham, Cobham & Stoke d'Abernon. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

@@ -37,7 +37,7 @@ Yes. Direct services run to London Bridge, Victoria, St Pancras.
 
 ### What are the nearest stations to East Grinstead?
 
-The closest alternatives are Lingfield, Three Bridges, Gatwick Airport. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Dormans, Lingfield, Cowden. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

@@ -1,10 +1,10 @@
 # Train journey times to London Euston
 
-23 stations reach London Euston within 90 minutes, 17 of them on a
+32 stations reach London Euston within 90 minutes, 26 of them on a
 direct train. Services are operated by Avanti West Coast, London Northwestern.
 
-- Stations within 90 minutes: 23
-- Direct services: 17 of 23
+- Stations within 90 minutes: 32
+- Direct services: 26 of 32
 - Stations under 30 minutes: 7
 - Fastest station: Harrow & Wealdstone - 13 minutes
 - Operators: Avanti West Coast, London Northwestern
@@ -26,14 +26,23 @@ direct train. Services are operated by Avanti West Coast, London Northwestern.
 | Berkhamsted | 31 min | same as fastest | 37 | 5.2 |
 | Milton Keynes Central | 32 min | same as fastest | 36 | 8.9 |
 | Bletchley | 37 min | same as fastest | 61 | 4.4 |
+| Hatch End | 39 min | same as fastest | 41 | 3.9 |
+| Carpenders Park | 42 min | same as fastest | 44 | 3.9 |
 | Cheddington | 44 min (change at Tring) | 49 min | 50 | 2.4 |
+| Wolverton | 44 min | same as fastest | 48 | 2.4 |
+| Watford High Street | 47 min | same as fastest | 49 | 3.9 |
 | Rugby | 49 min | same as fastest | 58 | 6.0 |
 | Northampton | 50 min | same as fastest | 59 | 3.6 |
 | Clapham Junction | 56 min (change at Harrow & Wealdstone) | no direct service | - | - |
 | Coventry | 56 min | same as fastest | 67 | 4.9 |
+| Nuneaton | 58 min | same as fastest | 70 | 2.8 |
 | Balham | 64 min (change at Harrow & Wealdstone) | no direct service | - | - |
 | Birmingham International | 68 min | same as fastest | 79 | 4.9 |
 | Long Buckby | 68 min | same as fastest | 74 | 2.4 |
+| Tamworth | 68 min | same as fastest | 87 | 2.0 |
+| Lichfield Trent Valley | 76 min | same as fastest | 93 | 2.0 |
+| Stafford | 76 min | same as fastest | 92 | 3.6 |
+| Atherstone | 78 min | same as fastest | 81 | 1.2 |
 | Birmingham New Street | 79 min | same as fastest | 91 | 4.5 |
 | Leamington Spa | 81 min (change at Coventry) | no direct service | - | - |
 | East Croydon | 83 min (change at Harrow & Wealdstone) | no direct service | - | - |
@@ -51,7 +60,7 @@ The fastest connection is from Harrow & Wealdstone, at 13 minutes on a direct se
 
 ### How many stations connect to Euston?
 
-23 stations have a service to London Euston within 90 minutes, and 17 of those are direct trains with no change required.
+32 stations have a service to London Euston within 90 minutes, and 26 of those are direct trains with no change required.
 
 ### What areas does Euston serve?
 
@@ -59,7 +68,7 @@ London Euston primarily serves the West Coast Main Line, Buckinghamshire and the
 
 ### Is Euston a good terminal to commute into?
 
-With 23 stations inside 90 minutes and 17 direct services, Euston serves a focused commuter corridor. The quickest option is Harrow & Wealdstone at 13 minutes.
+With 32 stations inside 90 minutes and 26 direct services, Euston serves a focused commuter corridor. The quickest option is Harrow & Wealdstone at 13 minutes.
 
 ## About this data
 

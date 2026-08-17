@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ashurst to London Train Times | RailReach</title>
+<meta name="description" content="Train times from Ashurst to London: London Bridge (57 min), Victoria (66 min), St Pancras (79 min). Direct and indirect routes compared on an interactive map. 2026 timetable data.">
+<link rel="canonical" href="https://railreach.co.uk/stations/ashurst/">
+<link rel="alternate" type="text/markdown" href="https://railreach.co.uk/stations/ashurst/index.md">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://railreach.co.uk/stations/ashurst/">
+<meta property="og:title" content="Ashurst to London Train Times | RailReach">
+<meta property="og:description" content="Journey times from Ashurst to London terminals. London Bridge in 57 min.">
+<meta property="og:site_name" content="RailReach">
+<meta property="og:image" content="https://railreach.co.uk/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://railreach.co.uk/og-image.png">
+<meta name="theme-color" content="#1e293b">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HKGQBJT0D3"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-HKGQBJT0D3');</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<link rel="stylesheet" href="/assets/css/shared.css?v=3e38e1b3">
+<style>:root { --map-h: 56vh; }</style>
+</head>
+<body>
+<a class="skip-link" href="#content">Skip to content</a>
+<header class="site-header">
+<a class="brand" href="/">Rail<span>Reach</span></a>
+<nav class="site-nav" aria-label="Primary">
+<a href="/terminals/">Terminals</a>
+<a href="/stations/" aria-current="page">Stations</a>
+<a href="/about/">About the data</a>
+</nav>
+</header>
+<nav class="crumb-bar" aria-label="Breadcrumb"><ol class="breadcrumb"><li><a href="/">RailReach</a></li><li><a href="/stations/">Stations</a></li><li>Ashurst to London</li></ol></nav>
+<div class="map-shell" role="region" aria-label="Map of train routes from Ashurst to London">
+<a class="skip-map" href="#journey-comparison">Skip the map and read the journey times as a table</a>
+<div id="map"></div>
+<div class="legend">
+<p class="legend-title">Journey Time</p>
+<div class="legend-item"><div class="legend-dot" style="background:#0072B2"></div> <span class="legend-long">Under 30 min</span><span class="legend-short">&lt;30</span></div>
+<div class="legend-item"><div class="legend-dot" style="background:#E69F00"></div> <span class="legend-long">30 to 60 min</span><span class="legend-short">30–60</span></div>
+<div class="legend-item"><div class="legend-dot" style="background:#D55E00"></div> <span class="legend-long">60 to 90 min</span><span class="legend-short">60–90</span></div>
+<div class="legend-item"><div class="legend-dot" style="background:#7c3aed"></div> <span class="legend-long">This station</span><span class="legend-short">This stn</span></div>
+<div class="legend-item"><div class="legend-dot" style="background:#111827"></div> <span class="legend-long">London Terminal</span><span class="legend-short">Terminal</span></div>
+</div>
+<div class="station-count" id="station-count"></div>
+<div id="promo-banner">
+<a id="promo-slot-1" href="https://app.justmovein.com/?utm_source=railreach&amp;utm_medium=banner&amp;utm_campaign=commute_map" target="_blank" rel="noopener"
+   aria-label="Just Move In: save hours of admin with our free AI home manager">
+<div class="promo-jmi">
+<div class="promo-brand">
+<img class="promo-mark" src="/assets/img/just-move-in-white.svg?v=490c1efb" alt="Just Move In" width="115" height="23" loading="lazy">
+<div class="promo-trust"><img class="promo-stars" src="/assets/img/trustpilot-stars.svg?v=b7ef0491" alt="" width="108" height="20" loading="lazy"><span class="sr-only">Rated Excellent on Trustpilot</span><span class="promo-tp-name" aria-hidden="true">Trustpilot</span></div>
+</div>
+<div class="promo-body">
+<div class="promo-headline">Moving home? Save hours of admin with our <span>free AI home manager</span>.</div>
+<div class="promo-sub">Bills, council tax, broadband and insurance, handled.</div>
+</div>
+<div class="promo-cta">Get started</div>
+</div>
+</a>
+</div>
+</div><!-- /.map-shell -->
+
+<main id="content" class="page-content">
+<div class="wrap">
+<h1>Train times from Ashurst to London</h1>
+<p class="lede">Ashurst connects to 3 London terminals. The fastest route is London Bridge in 57 minutes on a direct train.</p>
+<dl class="key-facts">
+<div class="fact"><dt>Fastest journey to London</dt><dd>57 minutes to London Bridge</dd></div>
+<div class="fact"><dt>Direct service</dt><dd>Yes</dd></div>
+<div class="fact"><dt>London terminals served</dt><dd>3 (London Bridge, Victoria, St Pancras)</dd></div>
+<div class="fact"><dt>Operator</dt><dd>Southeastern, Southern, Thameslink</dd></div>
+<div class="fact"><dt>Source</dt><dd>Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0</dd></div>
+<div class="fact"><dt>Data reviewed</dt><dd>2026-08-17</dd></div>
+</dl>
+
+<h2 id="journey-comparison">Ashurst to each London terminal</h2>
+<div class="table-scroll">
+<table>
+<caption>Journey times from Ashurst to London terminals</caption>
+<thead><tr><th>London terminal</th><th>Fastest</th><th>Fastest direct</th><th>Typical peak</th><th>Peak trains</th><th>Operator</th></tr></thead>
+<tbody>
+<tr><td><a href="/terminals/london-bridge/">London Bridge</a></td><td><span class="t-badge t-mid">57 min</span></td><td><span class="muted">same as fastest</span></td><td><span>57 min</span></td><td>0.8/hr</td><td>Southeastern, Southern, Thameslink</td></tr>
+<tr><td><a href="/terminals/victoria/">Victoria</a></td><td><span class="t-badge t-slow">66 min</span><span class="t-via">change at East Croydon</span></td><td><span class="muted">no direct service</span></td><td><span class="muted">direct trains only</span></td><td><span class="muted">direct trains only</span></td><td>Southeastern, Southern</td></tr>
+<tr><td><a href="/terminals/st-pancras/">St Pancras</a></td><td><span class="t-badge t-slow">79 min</span><span class="t-via">change at East Croydon</span></td><td><span class="muted">no direct service</span></td><td><span class="muted">direct trains only</span></td><td><span class="muted">direct trains only</span></td><td>Thameslink, East Midlands Railway, Southeastern high speed</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>Ashurst to London Bridge</h2>
+<p>The fastest train from Ashurst to London London Bridge takes <strong>57 minutes</strong> and involves a direct train with no change. The route is operated by Southeastern, Southern, Thameslink. That makes Ashurst the 136th quickest of the 234 stations with a service into London Bridge inside 90 minutes.</p>
+<h2>Ashurst to Victoria</h2>
+<p>The fastest train from Ashurst to London Victoria takes <strong>66 minutes</strong> and involves one change of train en route. The route is operated by Southeastern, Southern. That makes Ashurst the 130th quickest of the 203 stations with a service into Victoria inside 90 minutes.</p>
+<h2>Ashurst to St Pancras</h2>
+<p>The fastest train from Ashurst to London St Pancras takes <strong>79 minutes</strong> and involves one change of train en route. The route is operated by Thameslink, East Midlands Railway, Southeastern high speed. That makes Ashurst the 201st quickest of the 231 stations with a service into St Pancras inside 90 minutes.</p>
+<h2>Frequently asked questions</h2>
+<h3>How long does the train from Ashurst to London take?</h3>
+<p>The fastest train from Ashurst reaches London London Bridge in 57 minutes. Ashurst connects to 3 London terminals: London Bridge, Victoria, St Pancras.</p>
+<h3>Which London station should I travel to from Ashurst?</h3>
+<p>London Bridge is the quickest at 57 minutes, on a direct service. Direct trains run to London Bridge.</p>
+<h3>Is Ashurst a good commuter town for London?</h3>
+<p>At 57 minutes to London London Bridge, Ashurst is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.</p>
+<h3>Are there direct trains from Ashurst to London?</h3>
+<p>Yes. Direct services run to London Bridge.</p>
+<h3>What are the nearest stations to Ashurst?</h3>
+<p>The closest alternatives are Cowden, Eridge, Hever. These can offer a faster or cheaper route into London depending on where you live.</p>
+
+<h2 id="discover">Other places within 60 minutes of London Bridge</h2>
+<p>Ashurst is one of many places you could commute from. These are other options within 60 minutes of London London Bridge, ranked by journey time and spread across the network rather than clustered on one stretch of line.</p>
+<ul class="link-grid">
+<li><a class="card" href="/stations/orpington/"><span class="card-title">Orpington</span><span class="card-meta"><span class="t-badge t-fast">15 min</span> to London Bridge &middot; direct</span></a></li>
+<li><a class="card" href="/stations/coulsdon-south/"><span class="card-title">Coulsdon South</span><span class="card-meta"><span class="t-badge t-fast">21 min</span> to London Bridge &middot; direct</span></a></li>
+<li><a class="card" href="/stations/redhill/"><span class="card-title">Redhill</span><span class="card-meta"><span class="t-badge t-fast">24 min</span> to London Bridge &middot; direct</span></a></li>
+<li><a class="card" href="/stations/sevenoaks/"><span class="card-title">Sevenoaks</span><span class="card-meta"><span class="t-badge t-fast">24 min</span> to London Bridge &middot; direct</span></a></li>
+<li><a class="card" href="/stations/bexley/"><span class="card-title">Bexley</span><span class="card-meta"><span class="t-badge t-mid">30 min</span> to London Bridge &middot; direct</span></a></li>
+<li><a class="card" href="/stations/oxted/"><span class="card-title">Oxted</span><span class="card-meta"><span class="t-badge t-mid">33 min</span> to London Bridge &middot; direct</span></a></li>
+</ul>
+<p><a href="/?to=LBG&amp;max=60">See all of them on the map &rarr;</a></p>
+<h2>Nearby stations</h2>
+<p>Alternative departure points close to Ashurst, for comparing platforms rather than places.</p>
+<ul class="link-grid">
+<li><a class="card" href="/stations/cowden/"><span class="card-title">Cowden</span><span class="card-meta"><span class="t-badge t-mid">52 min</span> fastest to London &middot; 4 km away</span></a></li>
+<li><a class="card" href="/stations/eridge/"><span class="card-title">Eridge</span><span class="card-meta"><span class="t-badge t-slow">63 min</span> fastest to London &middot; 6 km away</span></a></li>
+<li><a class="card" href="/stations/hever/"><span class="card-title">Hever</span><span class="card-meta"><span class="t-badge t-mid">47 min</span> fastest to London &middot; 7 km away</span></a></li>
+<li><a class="card" href="/stations/tunbridge-wells/"><span class="card-title">Tunbridge Wells</span><span class="card-meta"><span class="t-badge t-mid">44 min</span> fastest to London &middot; 8 km away</span></a></li>
+<li><a class="card" href="/stations/high-brooms/"><span class="card-title">High Brooms</span><span class="card-meta"><span class="t-badge t-mid">40 min</span> fastest to London &middot; 9 km away</span></a></li>
+<li><a class="card" href="/stations/crowborough/"><span class="card-title">Crowborough</span><span class="card-meta"><span class="t-badge t-slow">69 min</span> fastest to London &middot; 9 km away</span></a></li>
+</ul>
+
+<h2>All London terminals</h2>
+<div class="terminal-nav"><a href="/terminals/kings-cross/">Kings Cross</a>
+<a href="/terminals/st-pancras/">St Pancras</a>
+<a href="/terminals/waterloo/">Waterloo</a>
+<a href="/terminals/paddington/">Paddington</a>
+<a href="/terminals/london-bridge/">London Bridge</a>
+<a href="/terminals/victoria/">Victoria</a>
+<a href="/terminals/liverpool-street/">Liverpool Street</a>
+<a href="/terminals/euston/">Euston</a>
+<a href="/terminals/marylebone/">Marylebone</a>
+<a href="/terminals/fenchurch-street/">Fenchurch Street</a>
+<a href="/terminals/moorgate/">Moorgate</a></div>
+
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, computed from Darwin Timetable Files published by the Rail Delivery Group under the Open Government Licence. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-17. <a href="/about/">Read the full methodology &rarr;</a></div>
+</div>
+</main>
+
+<script type="application/ld+json">[
+{
+"@context": "https://schema.org",
+"@type": "BreadcrumbList",
+"itemListElement": [
+{
+"@type": "ListItem",
+"position": 1,
+"name": "RailReach",
+"item": "https://railreach.co.uk/"
+},
+{
+"@type": "ListItem",
+"position": 2,
+"name": "Stations",
+"item": "https://railreach.co.uk/stations/"
+},
+{
+"@type": "ListItem",
+"position": 3,
+"name": "Ashurst to London",
+"item": "https://railreach.co.uk/stations/ashurst/"
+}
+]
+},
+{
+"@context": "https://schema.org",
+"@type": "WebPage",
+"name": "Ashurst to London train times",
+"description": "Ashurst reaches London London Bridge in 57 minutes, the fastest of 3 London terminals it serves.",
+"url": "https://railreach.co.uk/stations/ashurst/",
+"inLanguage": "en-GB",
+"dateModified": "2026-08-17",
+"isPartOf": {
+"@type": "WebSite",
+"name": "RailReach",
+"url": "https://railreach.co.uk/"
+},
+"about": {
+"@type": "Thing",
+"name": "Train journey times from Ashurst to London"
+},
+"license": "https://creativecommons.org/licenses/by/4.0/",
+"isAccessibleForFree": true
+},
+{
+"@context": "https://schema.org",
+"@type": "TrainStation",
+"name": "Ashurst",
+"description": "Ashurst reaches London London Bridge in 57 minutes, the fastest of 3 London terminals it serves.",
+"url": "https://railreach.co.uk/stations/ashurst/",
+"geo": {
+"@type": "GeoCoordinates",
+"latitude": 51.128663,
+"longitude": 0.152652
+},
+"containedInPlace": {
+"@type": "Country",
+"name": "United Kingdom"
+}
+},
+{
+"@context": "https://schema.org",
+"@type": "FAQPage",
+"mainEntity": [
+{
+"@type": "Question",
+"name": "How long does the train from Ashurst to London take?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "The fastest train from Ashurst reaches London London Bridge in 57 minutes. Ashurst connects to 3 London terminals: London Bridge, Victoria, St Pancras."
+}
+},
+{
+"@type": "Question",
+"name": "Which London station should I travel to from Ashurst?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "London Bridge is the quickest at 57 minutes, on a direct service. Direct trains run to London Bridge."
+}
+},
+{
+"@type": "Question",
+"name": "Is Ashurst a good commuter town for London?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "At 57 minutes to London London Bridge, Ashurst is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple."
+}
+},
+{
+"@type": "Question",
+"name": "Are there direct trains from Ashurst to London?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Yes. Direct services run to London Bridge."
+}
+},
+{
+"@type": "Question",
+"name": "What are the nearest stations to Ashurst?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "The closest alternatives are Cowden, Eridge, Hever. These can offer a faster or cheaper route into London depending on where you live."
+}
+}
+]
+}
+]</script>
+
+<script src="/assets/js/stations-data.js?v=1ca88d74"></script>
+<script src="/assets/js/map-ui.js?v=887114e8"></script>
+<script>
+const map=RR.createMap('map');
+L.circleMarker([51.128663,0.152652],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Ashurst</strong><br>This station').addTo(map);
+RR.terminalMarker(map,51.505019,-0.086092,'<strong>London London Bridge</strong><div class="pop-sub">from Ashurst</div><div class="pop-hero"><b>57</b> min</div><dl class="pop-stats"><div><dt>Typical peak</dt><dd>57 min</dd></div><div><dt>Peak trains</dt><dd>0.8/hr</dd></div></dl><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.495257,-0.144559,'<strong>London Victoria</strong><div class="pop-sub">from Ashurst</div><div class="pop-hero"><b>66</b> min</div><div class="pop-change">change at East Croydon</div><dl class="pop-stats"><div><dt>Direct train</dt><dd class="pop-none">none</dd></div></dl><a class="popup-link" href="/terminals/victoria/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.532514,-0.126463,'<strong>London St Pancras</strong><div class="pop-sub">from Ashurst</div><div class="pop-hero"><b>79</b> min</div><div class="pop-change">change at East Croydon</div><dl class="pop-stats"><div><dt>Direct train</dt><dd class="pop-none">none</dd></div></dl><a class="popup-link" href="/terminals/st-pancras/">Terminal guide &rarr;</a>');
+L.polyline([[51.128663,0.152652],[51.505019,-0.086092]],{color:RR.colour(57),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.128663,0.152652],[51.495257,-0.144559]],{color:RR.colour(66),weight:3,opacity:0.75,dashArray:'8,6',}).addTo(map);
+L.polyline([[51.128663,0.152652],[51.532514,-0.126463]],{color:RR.colour(79),weight:3,opacity:0.75,dashArray:'8,6',}).addTo(map);
+document.getElementById('station-count').textContent='Ashurst: 3 London terminals';
+// Fixes the 182 of 357 routes whose destination fell off a 375px screen.
+RR.fit(map,[[51.128663,0.152652],[51.505019,-0.086092],[51.495257,-0.144559],[51.532514,-0.126463]],{animate:false});
+</script>
+<footer class="site-footer">
+<div class="wrap">
+<div>
+<p><strong>RailReach</strong>: free UK train commute time data.</p>
+<p>Journey times from 571 stations to 11 London terminals, computed from Darwin Timetable Files published by the Rail Delivery Group.</p>
+</div>
+<div class="footer-links">
+<a href="/">Map</a>
+<a href="/terminals/">Terminals</a>
+<a href="/stations/">Stations</a>
+<a href="/about/">About the data</a>
+</div>
+</div>
+</footer>
+<script>if('serviceWorker' in navigator)navigator.serviceWorker.register('/sw.js');</script>
+</body></html>

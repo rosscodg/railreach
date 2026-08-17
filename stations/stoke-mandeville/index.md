@@ -35,7 +35,7 @@ Yes. Direct services run to Marylebone.
 
 ### What are the nearest stations to Stoke Mandeville?
 
-The closest alternatives are Aylesbury, Little Kimble, Monks Risborough. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Aylesbury, Wendover, Little Kimble. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

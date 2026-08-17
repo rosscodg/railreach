@@ -36,7 +36,7 @@ Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Broxbourne?
 
-The closest alternatives are Cheshunt, Bayford, Hertford East. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Rye House, Roydon, St Margarets (Hertfordshire). These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

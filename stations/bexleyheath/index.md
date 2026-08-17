@@ -37,7 +37,7 @@ Yes. Direct services run to London Bridge, Victoria.
 
 ### What are the nearest stations to Bexleyheath?
 
-The closest alternatives are Barnehurst, Welling, Abbey Wood. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Barnehurst, Welling, Bexley. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

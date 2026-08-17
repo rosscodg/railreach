@@ -37,7 +37,7 @@ Yes. Direct services run to London Bridge, Victoria, St Pancras.
 
 ### What are the nearest stations to Purley?
 
-The closest alternatives are Coulsdon South, East Croydon, West Croydon. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Kenley, Coulsdon South, Whyteleafe. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

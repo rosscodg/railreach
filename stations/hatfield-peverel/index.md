@@ -36,7 +36,7 @@ Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Hatfield Peverel?
 
-The closest alternatives are Witham, Chelmsford, Kelvedon. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Witham, Beaulieu Park, White Notley. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

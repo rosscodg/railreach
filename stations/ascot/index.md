@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Ascot?
 
-The closest alternatives are Virginia Water, Egham, Windsor & Eton Central. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Sunningdale, Martins Heron, Bagshot. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

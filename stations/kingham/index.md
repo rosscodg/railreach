@@ -35,7 +35,7 @@ Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Kingham?
 
-The closest alternatives are Charlbury, Moreton-in-Marsh, Hanborough. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Shipton, Charlbury, Moreton-in-Marsh. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

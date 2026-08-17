@@ -35,7 +35,7 @@ Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Newbury?
 
-The closest alternatives are Thatcham, Kintbury, Hungerford. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Newbury Racecourse, Thatcham, Kintbury. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

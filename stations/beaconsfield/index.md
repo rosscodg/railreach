@@ -35,7 +35,7 @@ Yes. Direct services run to Marylebone.
 
 ### What are the nearest stations to Beaconsfield?
 
-The closest alternatives are Seer Green & Jordans, Gerrards Cross, High Wycombe. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Seer Green, Seer Green & Jordans, Gerrards Cross. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

@@ -35,7 +35,7 @@ Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Bristol Temple Meads?
 
-The closest alternatives are Bath Spa, Chippenham, Swindon. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Bristol Parkway, Bath Spa, Chippenham. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

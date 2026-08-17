@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Newbury Racecourse to London Train Times | RailReach</title>
+<meta name="description" content="Train times from Newbury Racecourse to London: Paddington (53 min). Direct and indirect routes compared on an interactive map. 2026 timetable data.">
+<link rel="canonical" href="https://railreach.co.uk/stations/newbury-racecourse/">
+<link rel="alternate" type="text/markdown" href="https://railreach.co.uk/stations/newbury-racecourse/index.md">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://railreach.co.uk/stations/newbury-racecourse/">
+<meta property="og:title" content="Newbury Racecourse to London Train Times | RailReach">
+<meta property="og:description" content="Journey times from Newbury Racecourse to London terminals. Paddington in 53 min.">
+<meta property="og:site_name" content="RailReach">
+<meta property="og:image" content="https://railreach.co.uk/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://railreach.co.uk/og-image.png">
+<meta name="theme-color" content="#1e293b">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HKGQBJT0D3"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-HKGQBJT0D3');</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<link rel="stylesheet" href="/assets/css/shared.css?v=3e38e1b3">
+<style>:root { --map-h: 56vh; }</style>
+</head>
+<body>
+<a class="skip-link" href="#content">Skip to content</a>
+<header class="site-header">
+<a class="brand" href="/">Rail<span>Reach</span></a>
+<nav class="site-nav" aria-label="Primary">
+<a href="/terminals/">Terminals</a>
+<a href="/stations/" aria-current="page">Stations</a>
+<a href="/about/">About the data</a>
+</nav>
+</header>
+<nav class="crumb-bar" aria-label="Breadcrumb"><ol class="breadcrumb"><li><a href="/">RailReach</a></li><li><a href="/stations/">Stations</a></li><li>Newbury Racecourse to London</li></ol></nav>
+<div class="map-shell" role="region" aria-label="Map of train routes from Newbury Racecourse to London">
+<a class="skip-map" href="#journey-comparison">Skip the map and read the journey times as a table</a>
+<div id="map"></div>
+<div class="legend">
+<p class="legend-title">Journey Time</p>
+<div class="legend-item"><div class="legend-dot" style="background:#0072B2"></div> <span class="legend-long">Under 30 min</span><span class="legend-short">&lt;30</span></div>
+<div class="legend-item"><div class="legend-dot" style="background:#E69F00"></div> <span class="legend-long">30 to 60 min</span><span class="legend-short">30–60</span></div>
+<div class="legend-item"><div class="legend-dot" style="background:#D55E00"></div> <span class="legend-long">60 to 90 min</span><span class="legend-short">60–90</span></div>
+<div class="legend-item"><div class="legend-dot" style="background:#7c3aed"></div> <span class="legend-long">This station</span><span class="legend-short">This stn</span></div>
+<div class="legend-item"><div class="legend-dot" style="background:#111827"></div> <span class="legend-long">London Terminal</span><span class="legend-short">Terminal</span></div>
+</div>
+<div class="station-count" id="station-count"></div>
+<div id="promo-banner">
+<a id="promo-slot-1" href="https://app.justmovein.com/?utm_source=railreach&amp;utm_medium=banner&amp;utm_campaign=commute_map" target="_blank" rel="noopener"
+   aria-label="Just Move In: save hours of admin with our free AI home manager">
+<div class="promo-jmi">
+<div class="promo-brand">
+<img class="promo-mark" src="/assets/img/just-move-in-white.svg?v=490c1efb" alt="Just Move In" width="115" height="23" loading="lazy">
+<div class="promo-trust"><img class="promo-stars" src="/assets/img/trustpilot-stars.svg?v=b7ef0491" alt="" width="108" height="20" loading="lazy"><span class="sr-only">Rated Excellent on Trustpilot</span><span class="promo-tp-name" aria-hidden="true">Trustpilot</span></div>
+</div>
+<div class="promo-body">
+<div class="promo-headline">Moving home? Save hours of admin with our <span>free AI home manager</span>.</div>
+<div class="promo-sub">Bills, council tax, broadband and insurance, handled.</div>
+</div>
+<div class="promo-cta">Get started</div>
+</div>
+</a>
+</div>
+</div><!-- /.map-shell -->
+
+<main id="content" class="page-content">
+<div class="wrap">
+<h1>Train times from Newbury Racecourse to London</h1>
+<p class="lede">Newbury Racecourse connects to 1 London terminal. The fastest route is Paddington in 53 minutes, with one change.</p>
+<dl class="key-facts">
+<div class="fact"><dt>Fastest journey to London</dt><dd>53 minutes to Paddington</dd></div>
+<div class="fact"><dt>Direct service</dt><dd>No, one change required</dd></div>
+<div class="fact"><dt>London terminals served</dt><dd>1 (Paddington)</dd></div>
+<div class="fact"><dt>Operator</dt><dd>Great Western Railway, Elizabeth line</dd></div>
+<div class="fact"><dt>Source</dt><dd>Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0</dd></div>
+<div class="fact"><dt>Data reviewed</dt><dd>2026-08-17</dd></div>
+</dl>
+
+<h2 id="journey-comparison">Newbury Racecourse to each London terminal</h2>
+<div class="table-scroll">
+<table>
+<caption>Journey times from Newbury Racecourse to London terminals</caption>
+<thead><tr><th>London terminal</th><th>Fastest</th><th>Fastest direct</th><th>Typical peak</th><th>Peak trains</th><th>Operator</th></tr></thead>
+<tbody>
+<tr><td><a href="/terminals/paddington/">Paddington</a></td><td><span class="t-badge t-mid">53 min</span><span class="t-via">change at Newbury</span></td><td>60 min</td><td><span>60 min</span></td><td>0.4/hr</td><td>Great Western Railway, Elizabeth line</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>Newbury Racecourse to Paddington</h2>
+<p>The fastest train from Newbury Racecourse to London Paddington takes <strong>53 minutes</strong> and involves one change of train en route. The route is operated by Great Western Railway, Elizabeth line. That makes Newbury Racecourse the 45th quickest of the 115 stations with a service into Paddington inside 90 minutes.</p>
+<h2>Frequently asked questions</h2>
+<h3>How long does the train from Newbury Racecourse to London take?</h3>
+<p>The fastest train from Newbury Racecourse reaches London Paddington in 53 minutes. Newbury Racecourse connects to 1 London terminal: Paddington.</p>
+<h3>Which London station should I travel to from Newbury Racecourse?</h3>
+<p>Paddington is the quickest at 53 minutes, though it requires a change. Direct trains run to none; all routes require a change.</p>
+<h3>Is Newbury Racecourse a good commuter town for London?</h3>
+<p>At 53 minutes to London Paddington, Newbury Racecourse is a practical commuter choice, with the fastest journey under an hour. Most services require one change.</p>
+<h3>Are there direct trains from Newbury Racecourse to London?</h3>
+<p>No direct service is recorded from Newbury Racecourse; all routes into London require one change.</p>
+<h3>What are the nearest stations to Newbury Racecourse?</h3>
+<p>The closest alternatives are Newbury, Thatcham, Midgham. These can offer a faster or cheaper route into London depending on where you live.</p>
+
+<h2 id="discover">Other places within 60 minutes of Paddington</h2>
+<p>Newbury Racecourse is one of many places you could commute from. These are other options within 60 minutes of London Paddington, ranked by journey time and spread across the network rather than clustered on one stretch of line.</p>
+<ul class="link-grid">
+<li><a class="card" href="/stations/slough/"><span class="card-title">Slough</span><span class="card-meta"><span class="t-badge t-fast">14 min</span> to Paddington &middot; direct</span></a></li>
+<li><a class="card" href="/stations/hayes-and-harlington/"><span class="card-title">Hayes &amp; Harlington</span><span class="card-meta"><span class="t-badge t-fast">16 min</span> to Paddington &middot; direct</span></a></li>
+<li><a class="card" href="/stations/maidenhead/"><span class="card-title">Maidenhead</span><span class="card-meta"><span class="t-badge t-fast">18 min</span> to Paddington &middot; direct</span></a></li>
+<li><a class="card" href="/stations/twyford/"><span class="card-title">Twyford</span><span class="card-meta"><span class="t-badge t-fast">21 min</span> to Paddington &middot; direct</span></a></li>
+<li><a class="card" href="/stations/reading-west/"><span class="card-title">Reading West</span><span class="card-meta"><span class="t-badge t-mid">31 min</span> to Paddington &middot; direct</span></a></li>
+<li><a class="card" href="/stations/didcot-parkway/"><span class="card-title">Didcot Parkway</span><span class="card-meta"><span class="t-badge t-mid">37 min</span> to Paddington &middot; direct</span></a></li>
+</ul>
+<p><a href="/?to=PAD&amp;max=60">See all of them on the map &rarr;</a></p>
+<h2>Nearby stations</h2>
+<p>Alternative departure points close to Newbury Racecourse, for comparing platforms rather than places.</p>
+<ul class="link-grid">
+<li><a class="card" href="/stations/newbury/"><span class="card-title">Newbury</span><span class="card-meta"><span class="t-badge t-mid">40 min</span> fastest to London &middot; 1 km away</span></a></li>
+<li><a class="card" href="/stations/thatcham/"><span class="card-title">Thatcham</span><span class="card-meta"><span class="t-badge t-mid">42 min</span> fastest to London &middot; 5 km away</span></a></li>
+<li><a class="card" href="/stations/midgham/"><span class="card-title">Midgham</span><span class="card-meta"><span class="t-badge t-mid">49 min</span> fastest to London &middot; 9 km away</span></a></li>
+<li><a class="card" href="/stations/kintbury/"><span class="card-title">Kintbury</span><span class="card-meta"><span class="t-badge t-mid">58 min</span> fastest to London &middot; 10 km away</span></a></li>
+<li><a class="card" href="/stations/aldermaston/"><span class="card-title">Aldermaston</span><span class="card-meta"><span class="t-badge t-mid">46 min</span> fastest to London &middot; 12 km away</span></a></li>
+<li><a class="card" href="/stations/hungerford/"><span class="card-title">Hungerford</span><span class="card-meta"><span class="t-badge t-mid">46 min</span> fastest to London &middot; 14 km away</span></a></li>
+</ul>
+
+<h2>All London terminals</h2>
+<div class="terminal-nav"><a href="/terminals/kings-cross/">Kings Cross</a>
+<a href="/terminals/st-pancras/">St Pancras</a>
+<a href="/terminals/waterloo/">Waterloo</a>
+<a href="/terminals/paddington/">Paddington</a>
+<a href="/terminals/london-bridge/">London Bridge</a>
+<a href="/terminals/victoria/">Victoria</a>
+<a href="/terminals/liverpool-street/">Liverpool Street</a>
+<a href="/terminals/euston/">Euston</a>
+<a href="/terminals/marylebone/">Marylebone</a>
+<a href="/terminals/fenchurch-street/">Fenchurch Street</a>
+<a href="/terminals/moorgate/">Moorgate</a></div>
+
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, computed from Darwin Timetable Files published by the Rail Delivery Group under the Open Government Licence. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-17. <a href="/about/">Read the full methodology &rarr;</a></div>
+</div>
+</main>
+
+<script type="application/ld+json">[
+{
+"@context": "https://schema.org",
+"@type": "BreadcrumbList",
+"itemListElement": [
+{
+"@type": "ListItem",
+"position": 1,
+"name": "RailReach",
+"item": "https://railreach.co.uk/"
+},
+{
+"@type": "ListItem",
+"position": 2,
+"name": "Stations",
+"item": "https://railreach.co.uk/stations/"
+},
+{
+"@type": "ListItem",
+"position": 3,
+"name": "Newbury Racecourse to London",
+"item": "https://railreach.co.uk/stations/newbury-racecourse/"
+}
+]
+},
+{
+"@context": "https://schema.org",
+"@type": "WebPage",
+"name": "Newbury Racecourse to London train times",
+"description": "Newbury Racecourse reaches London Paddington in 53 minutes, the fastest of 1 London terminal it serves.",
+"url": "https://railreach.co.uk/stations/newbury-racecourse/",
+"inLanguage": "en-GB",
+"dateModified": "2026-08-17",
+"isPartOf": {
+"@type": "WebSite",
+"name": "RailReach",
+"url": "https://railreach.co.uk/"
+},
+"about": {
+"@type": "Thing",
+"name": "Train journey times from Newbury Racecourse to London"
+},
+"license": "https://creativecommons.org/licenses/by/4.0/",
+"isAccessibleForFree": true
+},
+{
+"@context": "https://schema.org",
+"@type": "TrainStation",
+"name": "Newbury Racecourse",
+"description": "Newbury Racecourse reaches London Paddington in 53 minutes, the fastest of 1 London terminal it serves.",
+"url": "https://railreach.co.uk/stations/newbury-racecourse/",
+"geo": {
+"@type": "GeoCoordinates",
+"latitude": 51.398461,
+"longitude": -1.307799
+},
+"containedInPlace": {
+"@type": "Country",
+"name": "United Kingdom"
+}
+},
+{
+"@context": "https://schema.org",
+"@type": "FAQPage",
+"mainEntity": [
+{
+"@type": "Question",
+"name": "How long does the train from Newbury Racecourse to London take?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "The fastest train from Newbury Racecourse reaches London Paddington in 53 minutes. Newbury Racecourse connects to 1 London terminal: Paddington."
+}
+},
+{
+"@type": "Question",
+"name": "Which London station should I travel to from Newbury Racecourse?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Paddington is the quickest at 53 minutes, though it requires a change. Direct trains run to none; all routes require a change."
+}
+},
+{
+"@type": "Question",
+"name": "Is Newbury Racecourse a good commuter town for London?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "At 53 minutes to London Paddington, Newbury Racecourse is a practical commuter choice, with the fastest journey under an hour. Most services require one change."
+}
+},
+{
+"@type": "Question",
+"name": "Are there direct trains from Newbury Racecourse to London?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "No direct service is recorded from Newbury Racecourse; all routes into London require one change."
+}
+},
+{
+"@type": "Question",
+"name": "What are the nearest stations to Newbury Racecourse?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "The closest alternatives are Newbury, Thatcham, Midgham. These can offer a faster or cheaper route into London depending on where you live."
+}
+}
+]
+}
+]</script>
+
+<script src="/assets/js/stations-data.js?v=1ca88d74"></script>
+<script src="/assets/js/map-ui.js?v=887114e8"></script>
+<script>
+const map=RR.createMap('map');
+L.circleMarker([51.398461,-1.307799],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Newbury Racecourse</strong><br>This station').addTo(map);
+RR.terminalMarker(map,51.515996,-0.176174,'<strong>London Paddington</strong><div class="pop-sub">from Newbury Racecourse</div><div class="pop-hero"><b>53</b> min</div><div class="pop-change">change at Newbury</div><dl class="pop-stats"><div><dt>Fastest direct</dt><dd>60 min</dd></div><div><dt>Typical peak</dt><dd>60 min</dd></div><div><dt>Peak trains</dt><dd>0.4/hr</dd></div></dl><a class="popup-link" href="/terminals/paddington/">Terminal guide &rarr;</a>');
+L.polyline([[51.398461,-1.307799],[51.515996,-0.176174]],{color:RR.colour(53),weight:3,opacity:0.75,dashArray:'8,6',}).addTo(map);
+document.getElementById('station-count').textContent='Newbury Racecourse: 1 London terminal';
+// Fixes the 182 of 357 routes whose destination fell off a 375px screen.
+RR.fit(map,[[51.398461,-1.307799],[51.515996,-0.176174]],{animate:false});
+</script>
+<footer class="site-footer">
+<div class="wrap">
+<div>
+<p><strong>RailReach</strong>: free UK train commute time data.</p>
+<p>Journey times from 571 stations to 11 London terminals, computed from Darwin Timetable Files published by the Rail Delivery Group.</p>
+</div>
+<div class="footer-links">
+<a href="/">Map</a>
+<a href="/terminals/">Terminals</a>
+<a href="/stations/">Stations</a>
+<a href="/about/">About the data</a>
+</div>
+</div>
+</footer>
+<script>if('serviceWorker' in navigator)navigator.serviceWorker.register('/sw.js');</script>
+</body></html>

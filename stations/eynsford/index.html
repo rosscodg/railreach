@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eynsford to London Train Times | RailReach</title>
+<meta name="description" content="Train times from Eynsford to London: Victoria (39 min), London Bridge (51 min), St Pancras (63 min). Direct and indirect routes compared on an interactive map. 2026 timetable data.">
+<link rel="canonical" href="https://railreach.co.uk/stations/eynsford/">
+<link rel="alternate" type="text/markdown" href="https://railreach.co.uk/stations/eynsford/index.md">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://railreach.co.uk/stations/eynsford/">
+<meta property="og:title" content="Eynsford to London Train Times | RailReach">
+<meta property="og:description" content="Journey times from Eynsford to London terminals. Victoria in 39 min.">
+<meta property="og:site_name" content="RailReach">
+<meta property="og:image" content="https://railreach.co.uk/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://railreach.co.uk/og-image.png">
+<meta name="theme-color" content="#1e293b">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HKGQBJT0D3"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-HKGQBJT0D3');</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<link rel="stylesheet" href="/assets/css/shared.css?v=3e38e1b3">
+<style>:root { --map-h: 56vh; }</style>
+</head>
+<body>
+<a class="skip-link" href="#content">Skip to content</a>
+<header class="site-header">
+<a class="brand" href="/">Rail<span>Reach</span></a>
+<nav class="site-nav" aria-label="Primary">
+<a href="/terminals/">Terminals</a>
+<a href="/stations/" aria-current="page">Stations</a>
+<a href="/about/">About the data</a>
+</nav>
+</header>
+<nav class="crumb-bar" aria-label="Breadcrumb"><ol class="breadcrumb"><li><a href="/">RailReach</a></li><li><a href="/stations/">Stations</a></li><li>Eynsford to London</li></ol></nav>
+<div class="map-shell" role="region" aria-label="Map of train routes from Eynsford to London">
+<a class="skip-map" href="#journey-comparison">Skip the map and read the journey times as a table</a>
+<div id="map"></div>
+<div class="legend">
+<p class="legend-title">Journey Time</p>
+<div class="legend-item"><div class="legend-dot" style="background:#0072B2"></div> <span class="legend-long">Under 30 min</span><span class="legend-short">&lt;30</span></div>
+<div class="legend-item"><div class="legend-dot" style="background:#E69F00"></div> <span class="legend-long">30 to 60 min</span><span class="legend-short">30–60</span></div>
+<div class="legend-item"><div class="legend-dot" style="background:#D55E00"></div> <span class="legend-long">60 to 90 min</span><span class="legend-short">60–90</span></div>
+<div class="legend-item"><div class="legend-dot" style="background:#7c3aed"></div> <span class="legend-long">This station</span><span class="legend-short">This stn</span></div>
+<div class="legend-item"><div class="legend-dot" style="background:#111827"></div> <span class="legend-long">London Terminal</span><span class="legend-short">Terminal</span></div>
+</div>
+<div class="station-count" id="station-count"></div>
+<div id="promo-banner">
+<a id="promo-slot-1" href="https://app.justmovein.com/?utm_source=railreach&amp;utm_medium=banner&amp;utm_campaign=commute_map" target="_blank" rel="noopener"
+   aria-label="Just Move In: save hours of admin with our free AI home manager">
+<div class="promo-jmi">
+<div class="promo-brand">
+<img class="promo-mark" src="/assets/img/just-move-in-white.svg?v=490c1efb" alt="Just Move In" width="115" height="23" loading="lazy">
+<div class="promo-trust"><img class="promo-stars" src="/assets/img/trustpilot-stars.svg?v=b7ef0491" alt="" width="108" height="20" loading="lazy"><span class="sr-only">Rated Excellent on Trustpilot</span><span class="promo-tp-name" aria-hidden="true">Trustpilot</span></div>
+</div>
+<div class="promo-body">
+<div class="promo-headline">Moving home? Save hours of admin with our <span>free AI home manager</span>.</div>
+<div class="promo-sub">Bills, council tax, broadband and insurance, handled.</div>
+</div>
+<div class="promo-cta">Get started</div>
+</div>
+</a>
+</div>
+</div><!-- /.map-shell -->
+
+<main id="content" class="page-content">
+<div class="wrap">
+<h1>Train times from Eynsford to London</h1>
+<p class="lede">Eynsford connects to 3 London terminals. The fastest route is Victoria in 39 minutes on a direct train. That route runs no train during the morning peak, so the practical commute is St Pancras in 63 minutes, with 2.0 trains an hour.</p>
+<dl class="key-facts">
+<div class="fact"><dt>Fastest journey to London</dt><dd>39 minutes to Victoria</dd></div>
+<div class="fact"><dt>Direct service</dt><dd>Yes</dd></div>
+<div class="fact"><dt>London terminals served</dt><dd>3 (Victoria, London Bridge, St Pancras)</dd></div>
+<div class="fact"><dt>Operator</dt><dd>Southeastern, Southern</dd></div>
+<div class="fact"><dt>Source</dt><dd>Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0</dd></div>
+<div class="fact"><dt>Data reviewed</dt><dd>2026-08-17</dd></div>
+</dl>
+
+<h2 id="journey-comparison">Eynsford to each London terminal</h2>
+<div class="table-scroll">
+<table>
+<caption>Journey times from Eynsford to London terminals</caption>
+<thead><tr><th>London terminal</th><th>Fastest</th><th>Fastest direct</th><th>Typical peak</th><th>Peak trains</th><th>Operator</th></tr></thead>
+<tbody>
+<tr><td><a href="/terminals/victoria/">Victoria</a></td><td><span class="t-badge t-mid">39 min</span></td><td><span class="muted">same as fastest</span></td><td><span class="muted">no peak service</span></td><td><span class="muted">&ndash;</span></td><td>Southeastern, Southern</td></tr>
+<tr><td><a href="/terminals/london-bridge/">London Bridge</a></td><td><span class="t-badge t-mid">51 min</span><span class="t-via">change at Sevenoaks</span></td><td><span class="muted">no direct service</span></td><td><span class="muted">direct trains only</span></td><td><span class="muted">direct trains only</span></td><td>Southeastern, Southern, Thameslink</td></tr>
+<tr><td><a href="/terminals/st-pancras/">St Pancras</a></td><td><span class="t-badge t-slow">63 min</span></td><td><span class="muted">same as fastest</span></td><td><span>63 min</span></td><td>2.0/hr</td><td>Thameslink, East Midlands Railway, Southeastern high speed</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>Eynsford to Victoria</h2>
+<p>The fastest train from Eynsford to London Victoria takes <strong>39 minutes</strong> and involves a direct train with no change. The route is operated by Southeastern, Southern. That makes Eynsford the 42nd quickest of the 203 stations with a service into Victoria inside 90 minutes.</p>
+<h2>Eynsford to London Bridge</h2>
+<p>The fastest train from Eynsford to London London Bridge takes <strong>51 minutes</strong> and involves one change of train en route. The route is operated by Southeastern, Southern, Thameslink. That makes Eynsford the 114th quickest of the 234 stations with a service into London Bridge inside 90 minutes.</p>
+<h2>Eynsford to St Pancras</h2>
+<p>The fastest train from Eynsford to London St Pancras takes <strong>63 minutes</strong> and involves a direct train with no change. The route is operated by Thameslink, East Midlands Railway, Southeastern high speed. That makes Eynsford the 144th quickest of the 231 stations with a service into St Pancras inside 90 minutes.</p>
+<h2>Frequently asked questions</h2>
+<h3>How long does the train from Eynsford to London take?</h3>
+<p>The fastest train from Eynsford reaches London Victoria in 39 minutes. Eynsford connects to 3 London terminals: Victoria, London Bridge, St Pancras.</p>
+<h3>Which London station should I travel to from Eynsford?</h3>
+<p>Victoria is the quickest at 39 minutes, on a direct service. Direct trains run to Victoria, St Pancras.</p>
+<h3>Is Eynsford a good commuter town for London?</h3>
+<p>At 39 minutes to London Victoria, Eynsford is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.</p>
+<h3>Are there direct trains from Eynsford to London?</h3>
+<p>Yes. Direct services run to Victoria, St Pancras.</p>
+<h3>What are the nearest stations to Eynsford?</h3>
+<p>The closest alternatives are Shoreham (Kent), Swanley, Farningham Road. These can offer a faster or cheaper route into London depending on where you live.</p>
+
+<h2 id="discover">Other places within 45 minutes of Victoria</h2>
+<p>Eynsford is one of many places you could commute from. These are other options within 45 minutes of London Victoria, ranked by journey time and spread across the network rather than clustered on one stretch of line.</p>
+<ul class="link-grid">
+<li><a class="card" href="/stations/orpington/"><span class="card-title">Orpington</span><span class="card-meta"><span class="t-badge t-fast">22 min</span> to Victoria &middot; direct</span></a></li>
+<li><a class="card" href="/stations/upper-warlingham/"><span class="card-title">Upper Warlingham</span><span class="card-meta"><span class="t-badge t-fast">29 min</span> to Victoria &middot; direct</span></a></li>
+<li><a class="card" href="/stations/horley/"><span class="card-title">Horley</span><span class="card-meta"><span class="t-badge t-mid">31 min</span> to Victoria &middot; direct</span></a></li>
+<li><a class="card" href="/stations/sevenoaks/"><span class="card-title">Sevenoaks</span><span class="card-meta"><span class="t-badge t-mid">31 min</span> to Victoria &middot; direct</span></a></li>
+<li><a class="card" href="/stations/longfield/"><span class="card-title">Longfield</span><span class="card-meta"><span class="t-badge t-mid">32 min</span> to Victoria &middot; direct</span></a></li>
+<li><a class="card" href="/stations/epsom/"><span class="card-title">Epsom</span><span class="card-meta"><span class="t-badge t-mid">41 min</span> to Victoria &middot; direct</span></a></li>
+</ul>
+<p><a href="/?to=VIC&amp;max=45">See all of them on the map &rarr;</a></p>
+<h2>Nearby stations</h2>
+<p>Alternative departure points close to Eynsford, for comparing platforms rather than places.</p>
+<ul class="link-grid">
+<li><a class="card" href="/stations/shoreham-kent/"><span class="card-title">Shoreham (Kent)</span><span class="card-meta"><span class="t-badge t-mid">42 min</span> fastest to London &middot; 4 km away</span></a></li>
+<li><a class="card" href="/stations/swanley/"><span class="card-title">Swanley</span><span class="card-meta"><span class="t-badge t-fast">27 min</span> fastest to London &middot; 4 km away</span></a></li>
+<li><a class="card" href="/stations/farningham-road/"><span class="card-title">Farningham Road</span><span class="card-meta"><span class="t-badge t-mid">33 min</span> fastest to London &middot; 5 km away</span></a></li>
+<li><a class="card" href="/stations/knockholt/"><span class="card-title">Knockholt</span><span class="card-meta"><span class="t-badge t-mid">34 min</span> fastest to London &middot; 5 km away</span></a></li>
+<li><a class="card" href="/stations/otford/"><span class="card-title">Otford</span><span class="card-meta"><span class="t-badge t-mid">39 min</span> fastest to London &middot; 6 km away</span></a></li>
+<li><a class="card" href="/stations/chelsfield/"><span class="card-title">Chelsfield</span><span class="card-meta"><span class="t-badge t-fast">17 min</span> fastest to London &middot; 7 km away</span></a></li>
+</ul>
+
+<h2>All London terminals</h2>
+<div class="terminal-nav"><a href="/terminals/kings-cross/">Kings Cross</a>
+<a href="/terminals/st-pancras/">St Pancras</a>
+<a href="/terminals/waterloo/">Waterloo</a>
+<a href="/terminals/paddington/">Paddington</a>
+<a href="/terminals/london-bridge/">London Bridge</a>
+<a href="/terminals/victoria/">Victoria</a>
+<a href="/terminals/liverpool-street/">Liverpool Street</a>
+<a href="/terminals/euston/">Euston</a>
+<a href="/terminals/marylebone/">Marylebone</a>
+<a href="/terminals/fenchurch-street/">Fenchurch Street</a>
+<a href="/terminals/moorgate/">Moorgate</a></div>
+
+<div class="data-note"><strong>Data:</strong> journey times are the fastest typical weekday service on each route, computed from Darwin Timetable Files published by the Rail Delivery Group under the Open Government Licence. They exclude engineering works and disruption, and are not live departure times. Last reviewed 2026-08-17. <a href="/about/">Read the full methodology &rarr;</a></div>
+</div>
+</main>
+
+<script type="application/ld+json">[
+{
+"@context": "https://schema.org",
+"@type": "BreadcrumbList",
+"itemListElement": [
+{
+"@type": "ListItem",
+"position": 1,
+"name": "RailReach",
+"item": "https://railreach.co.uk/"
+},
+{
+"@type": "ListItem",
+"position": 2,
+"name": "Stations",
+"item": "https://railreach.co.uk/stations/"
+},
+{
+"@type": "ListItem",
+"position": 3,
+"name": "Eynsford to London",
+"item": "https://railreach.co.uk/stations/eynsford/"
+}
+]
+},
+{
+"@context": "https://schema.org",
+"@type": "WebPage",
+"name": "Eynsford to London train times",
+"description": "Eynsford reaches London Victoria in 39 minutes, the fastest of 3 London terminals it serves.",
+"url": "https://railreach.co.uk/stations/eynsford/",
+"inLanguage": "en-GB",
+"dateModified": "2026-08-17",
+"isPartOf": {
+"@type": "WebSite",
+"name": "RailReach",
+"url": "https://railreach.co.uk/"
+},
+"about": {
+"@type": "Thing",
+"name": "Train journey times from Eynsford to London"
+},
+"license": "https://creativecommons.org/licenses/by/4.0/",
+"isAccessibleForFree": true
+},
+{
+"@context": "https://schema.org",
+"@type": "TrainStation",
+"name": "Eynsford",
+"description": "Eynsford reaches London Victoria in 39 minutes, the fastest of 3 London terminals it serves.",
+"url": "https://railreach.co.uk/stations/eynsford/",
+"geo": {
+"@type": "GeoCoordinates",
+"latitude": 51.36272,
+"longitude": 0.204393
+},
+"containedInPlace": {
+"@type": "Country",
+"name": "United Kingdom"
+}
+},
+{
+"@context": "https://schema.org",
+"@type": "FAQPage",
+"mainEntity": [
+{
+"@type": "Question",
+"name": "How long does the train from Eynsford to London take?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "The fastest train from Eynsford reaches London Victoria in 39 minutes. Eynsford connects to 3 London terminals: Victoria, London Bridge, St Pancras."
+}
+},
+{
+"@type": "Question",
+"name": "Which London station should I travel to from Eynsford?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Victoria is the quickest at 39 minutes, on a direct service. Direct trains run to Victoria, St Pancras."
+}
+},
+{
+"@type": "Question",
+"name": "Is Eynsford a good commuter town for London?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "At 39 minutes to London Victoria, Eynsford is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple."
+}
+},
+{
+"@type": "Question",
+"name": "Are there direct trains from Eynsford to London?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Yes. Direct services run to Victoria, St Pancras."
+}
+},
+{
+"@type": "Question",
+"name": "What are the nearest stations to Eynsford?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "The closest alternatives are Shoreham (Kent), Swanley, Farningham Road. These can offer a faster or cheaper route into London depending on where you live."
+}
+}
+]
+}
+]</script>
+
+<script src="/assets/js/stations-data.js?v=1ca88d74"></script>
+<script src="/assets/js/map-ui.js?v=887114e8"></script>
+<script>
+const map=RR.createMap('map');
+L.circleMarker([51.36272,0.204393],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Eynsford</strong><br>This station').addTo(map);
+RR.terminalMarker(map,51.495257,-0.144559,'<strong>London Victoria</strong><div class="pop-sub">from Eynsford</div><div class="pop-hero"><b>39</b> min</div><dl class="pop-stats"><div><dt>Typical peak</dt><dd class="pop-none">no peak service</dd></div></dl><a class="popup-link" href="/terminals/victoria/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.505019,-0.086092,'<strong>London London Bridge</strong><div class="pop-sub">from Eynsford</div><div class="pop-hero"><b>51</b> min</div><div class="pop-change">change at Sevenoaks</div><dl class="pop-stats"><div><dt>Direct train</dt><dd class="pop-none">none</dd></div></dl><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.532514,-0.126463,'<strong>London St Pancras</strong><div class="pop-sub">from Eynsford</div><div class="pop-hero"><b>63</b> min</div><dl class="pop-stats"><div><dt>Typical peak</dt><dd>63 min</dd></div><div><dt>Peak trains</dt><dd>2.0/hr</dd></div></dl><a class="popup-link" href="/terminals/st-pancras/">Terminal guide &rarr;</a>');
+L.polyline([[51.36272,0.204393],[51.495257,-0.144559]],{color:RR.colour(39),weight:3,opacity:0.75,}).addTo(map);
+L.polyline([[51.36272,0.204393],[51.505019,-0.086092]],{color:RR.colour(51),weight:3,opacity:0.75,dashArray:'8,6',}).addTo(map);
+L.polyline([[51.36272,0.204393],[51.532514,-0.126463]],{color:RR.colour(63),weight:3,opacity:0.75,}).addTo(map);
+document.getElementById('station-count').textContent='Eynsford: 3 London terminals';
+// Fixes the 182 of 357 routes whose destination fell off a 375px screen.
+RR.fit(map,[[51.36272,0.204393],[51.495257,-0.144559],[51.505019,-0.086092],[51.532514,-0.126463]],{animate:false});
+</script>
+<footer class="site-footer">
+<div class="wrap">
+<div>
+<p><strong>RailReach</strong>: free UK train commute time data.</p>
+<p>Journey times from 571 stations to 11 London terminals, computed from Darwin Timetable Files published by the Rail Delivery Group.</p>
+</div>
+<div class="footer-links">
+<a href="/">Map</a>
+<a href="/terminals/">Terminals</a>
+<a href="/stations/">Stations</a>
+<a href="/about/">About the data</a>
+</div>
+</div>
+</footer>
+<script>if('serviceWorker' in navigator)navigator.serviceWorker.register('/sw.js');</script>
+</body></html>

@@ -37,7 +37,7 @@ Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Peterborough?
 
-The closest alternatives are Huntingdon, St Neots, Grantham. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Huntingdon, Corby, St Neots. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

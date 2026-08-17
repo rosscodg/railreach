@@ -38,7 +38,7 @@ Yes. Direct services run to Kings Cross, St Pancras, London Bridge.
 
 ### What are the nearest stations to Huntingdon?
 
-The closest alternatives are St Neots, Sandy, Cambridge. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are St Neots, Sandy, Cambridge North. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

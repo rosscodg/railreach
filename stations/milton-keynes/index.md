@@ -35,7 +35,7 @@ Yes. Direct services run to Euston.
 
 ### What are the nearest stations to Milton Keynes Central?
 
-The closest alternatives are Bletchley, Leighton Buzzard, Flitwick. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Wolverton, Bletchley, Leighton Buzzard. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

@@ -36,7 +36,7 @@ Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Burnham?
 
-The closest alternatives are Taplow, Slough, Windsor & Eton Central. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Taplow, Slough, Windsor & Eton Riverside. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

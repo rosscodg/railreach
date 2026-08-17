@@ -39,7 +39,7 @@ Yes. Direct services run to Kings Cross, St Pancras, Liverpool Street, London Br
 
 ### What are the nearest stations to Cambridge?
 
-The closest alternatives are Foxton, Whittlesford Parkway, Shepreth. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Cambridge South, Cambridge North, Shelford. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

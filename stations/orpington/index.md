@@ -37,7 +37,7 @@ Yes. Direct services run to London Bridge, Victoria.
 
 ### What are the nearest stations to Orpington?
 
-The closest alternatives are Petts Wood, Chislehurst, Bickley. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Petts Wood, Chelsfield, St Mary Cray. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

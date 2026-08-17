@@ -37,7 +37,7 @@ Yes. Direct services run to London Bridge, Victoria.
 
 ### What are the nearest stations to Tunbridge Wells?
 
-The closest alternatives are Tonbridge, Hildenborough, Paddock Wood. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are High Brooms, Frant, Eridge. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

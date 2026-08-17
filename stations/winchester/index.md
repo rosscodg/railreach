@@ -36,7 +36,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Winchester?
 
-The closest alternatives are Southampton Central, Whitchurch (Hants), Andover. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Shawford, Eastleigh, Southampton Airport Parkway. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

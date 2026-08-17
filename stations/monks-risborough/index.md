@@ -35,7 +35,7 @@ No direct service is recorded from Monks Risborough; all routes into London requ
 
 ### What are the nearest stations to Monks Risborough?
 
-The closest alternatives are Princes Risborough, Little Kimble, Stoke Mandeville. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Princes Risborough, Little Kimble, Wendover. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

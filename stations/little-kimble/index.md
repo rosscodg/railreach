@@ -35,7 +35,7 @@ No direct service is recorded from Little Kimble; all routes into London require
 
 ### What are the nearest stations to Little Kimble?
 
-The closest alternatives are Monks Risborough, Stoke Mandeville, Princes Risborough. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Monks Risborough, Stoke Mandeville, Wendover. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

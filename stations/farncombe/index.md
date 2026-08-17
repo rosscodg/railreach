@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Farncombe?
 
-The closest alternatives are Godalming, Milford, Guildford. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Godalming, Shalford, Milford. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

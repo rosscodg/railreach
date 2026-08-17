@@ -36,7 +36,7 @@ Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Ipswich?
 
-The closest alternatives are Manningtree, Colchester, Marks Tey. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Wrabness, Mistley, Manningtree. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

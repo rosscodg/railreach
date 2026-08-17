@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Staines?
 
-The closest alternatives are Egham, Virginia Water, Shepperton. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Ashford (Surrey), Egham, Wraysbury. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

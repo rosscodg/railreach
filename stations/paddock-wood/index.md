@@ -37,7 +37,7 @@ Yes. Direct services run to London Bridge.
 
 ### What are the nearest stations to Paddock Wood?
 
-The closest alternatives are Marden, Tonbridge, Tunbridge Wells. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Marden, Tonbridge, High Brooms. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

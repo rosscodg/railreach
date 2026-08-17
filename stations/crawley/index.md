@@ -37,7 +37,7 @@ Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Crawley?
 
-The closest alternatives are Three Bridges, Gatwick Airport, Horley. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Three Bridges, Ifield, Gatwick Airport. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

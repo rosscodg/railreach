@@ -37,7 +37,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Ewell West?
 
-The closest alternatives are Stoneleigh, Epsom, Worcester Park. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Stoneleigh, Epsom, Epsom Downs. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

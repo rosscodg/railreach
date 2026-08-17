@@ -37,7 +37,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Clandon?
 
-The closest alternatives are Horsley, Guildford, Effingham Junction. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Horsley, Guildford, Worplesdon. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

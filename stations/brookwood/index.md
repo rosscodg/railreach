@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Brookwood?
 
-The closest alternatives are Woking, Ash Vale, Farnborough (Main). These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Worplesdon, Woking, Ash Vale. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

@@ -35,7 +35,7 @@ Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to Chafford Hundred?
 
-The closest alternatives are Grays, Purfleet, Ockendon. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Grays, Purfleet, Greenhithe for Bluewater. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

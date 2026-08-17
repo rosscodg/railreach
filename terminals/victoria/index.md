@@ -1,11 +1,11 @@
 # Train journey times to London Victoria
 
-121 stations reach London Victoria within 90 minutes, 66 of them on a
+203 stations reach London Victoria within 90 minutes, 117 of them on a
 direct train. Services are operated by Southeastern, Southern.
 
-- Stations within 90 minutes: 121
-- Direct services: 66 of 121
-- Stations under 30 minutes: 17
+- Stations within 90 minutes: 203
+- Direct services: 117 of 203
+- Stations under 30 minutes: 20
 - Fastest station: Battersea Park - 4 minutes
 - Operators: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
@@ -25,61 +25,86 @@ direct train. Services are operated by Southeastern, Southern.
 | East Croydon | 16 min | same as fastest | 17 | 9.2 |
 | Lewisham | 21 min | same as fastest | 22 | 2.0 |
 | Orpington | 22 min | same as fastest | 34 | 4.0 |
+| St Mary Cray | 23 min | same as fastest | 37 | 2.8 |
 | Bellingham | 24 min | same as fastest | 25 | 1.2 |
 | Bickley | 25 min | same as fastest | 35 | 2.0 |
 | Blackheath | 25 min | same as fastest | 26 | 2.0 |
 | Purley | 25 min | same as fastest | 25 | 2.0 |
+| Chelsfield | 27 min | same as fastest | 28 | 0.8 |
 | Swanley | 27 min | same as fastest | 35 | 6.0 |
 | Gatwick Airport | 29 min | same as fastest | 32 | 6.8 |
 | Kidbrooke | 29 min | same as fastest | 30 | 2.0 |
+| Upper Warlingham | 29 min | same as fastest | 30 | 2.0 |
 | Coulsdon South | 30 min | same as fastest | 30 | 2.0 |
 | Horley | 31 min | same as fastest | 31 | 1.2 |
 | Sevenoaks | 31 min | same as fastest | 35 | 2.0 |
 | West Croydon | 31 min | same as fastest | 35 | 6.0 |
 | Eltham | 32 min | same as fastest | 34 | 2.0 |
+| Longfield | 32 min | same as fastest | 51 | 2.8 |
 | Sutton | 32 min | same as fastest | 48 | 6.4 |
+| Farningham Road | 33 min | same as fastest | 48 | 2.0 |
+| Woldingham | 33 min | same as fastest | 33 | 2.0 |
 | Beckenham Hill | 34 min (change at Bromley South) | no direct service | - | - |
 | Redhill | 34 min | same as fastest | 39 | 2.0 |
 | Catford | 35 min (change at Denmark Hill) | no direct service | - | - |
 | Merstham | 35 min | same as fastest | 35 | 2.0 |
 | Petts Wood | 35 min (change at Orpington) | 39 min | 40 | 2.0 |
+| Meopham | 36 min | same as fastest | 56 | 2.4 |
 | New Cross | 36 min (change at Lewisham) | no direct service | - | - |
 | Three Bridges | 36 min | same as fastest | 38 | 2.4 |
 | Hither Green | 37 min (change at Lewisham) | no direct service | - | - |
 | Hildenborough | 38 min | same as fastest | 43 | 2.0 |
 | Oxted | 38 min | same as fastest | 39 | 2.0 |
 | Welling | 38 min | same as fastest | 39 | 2.0 |
+| Eynsford | 39 min | same as fastest | - | - |
 | Otford | 39 min | same as fastest | 44 | 4.0 |
 | Chislehurst | 40 min (change at Orpington) | no direct service | - | - |
 | Bexleyheath | 41 min | same as fastest | 42 | 2.0 |
 | Epsom | 41 min | same as fastest | 44 | 2.4 |
 | Rochester | 41 min | same as fastest | 60 | 4.0 |
 | Hurst Green | 42 min | same as fastest | 42 | 2.0 |
+| Shoreham (Kent) | 42 min | same as fastest | - | - |
 | Tonbridge | 42 min | same as fastest | 47 | 2.0 |
 | Crawley | 43 min | same as fastest | 43 | 2.0 |
 | Haywards Heath | 43 min | same as fastest | 47 | 4.8 |
 | Barnehurst | 44 min | same as fastest | 46 | 2.0 |
 | Chatham | 44 min | same as fastest | 64 | 4.0 |
+| Sole Street | 44 min | same as fastest | 59 | 2.0 |
+| Kenley | 45 min (change at Purley) | no direct service | - | - |
+| Knockholt | 45 min (change at Orpington) | no direct service | - | - |
 | Reigate | 45 min | same as fastest | 50 | 2.0 |
 | Salfords | 45 min (change at Gatwick Airport) | no direct service | - | - |
 | Ashtead | 46 min | same as fastest | 51 | 2.0 |
+| Borough Green & Wrotham | 46 min | same as fastest | 52 | 4.0 |
 | Earlswood | 46 min (change at East Croydon) | no direct service | - | - |
 | Grove Park | 46 min (change at Orpington) | no direct service | - | - |
 | Harrow & Wealdstone | 46 min (change at Clapham Junction) | no direct service | - | - |
+| Kemsing | 46 min | same as fastest | 52 | 0.8 |
+| Dunton Green | 47 min (change at Sevenoaks) | no direct service | - | - |
+| Ifield | 47 min | same as fastest | - | - |
 | New Eltham | 47 min (change at Lewisham) | no direct service | - | - |
 | Gillingham | 48 min | same as fastest | 68 | 4.0 |
 | Balcombe | 49 min (change at Gatwick Airport) | no direct service | - | - |
 | Bat & Ball | 49 min | same as fastest | - | - |
+| High Brooms | 49 min | same as fastest | 54 | 1.6 |
 | Kentish Town | 49 min (change at Denmark Hill) | no direct service | - | - |
 | Lingfield | 49 min | same as fastest | 49 | 2.0 |
+| Whyteleafe | 49 min (change at Purley) | no direct service | - | - |
 | Burgess Hill | 50 min | same as fastest | 50 | 3.6 |
 | Leatherhead | 50 min | same as fastest | 56 | 2.0 |
+| Banstead | 51 min | same as fastest | 58 | 1.6 |
 | Dartford | 51 min | same as fastest | 53 | 2.0 |
+| Littlehaven | 51 min | same as fastest | 51 | 1.2 |
 | Sidcup | 51 min (change at Lewisham) | no direct service | - | - |
+| Whyteleafe South | 51 min (change at Purley) | no direct service | - | - |
+| Dormans | 52 min | same as fastest | 52 | 2.0 |
 | Tunbridge Wells | 52 min | same as fastest | 58 | 1.6 |
 | Watford Junction | 52 min (change at Clapham Junction) | no direct service | - | - |
 | Wimbledon | 52 min (change at Herne Hill) | no direct service | - | - |
+| Edenbridge Town | 53 min (change at East Croydon) | no direct service | - | - |
+| West Malling | 53 min | same as fastest | 60 | 4.0 |
 | Woolwich Arsenal | 53 min (change at Blackheath) | no direct service | - | - |
+| Epsom Downs | 54 min | same as fastest | 62 | 1.6 |
 | Finsbury Park | 54 min (change at Denmark Hill) | no direct service | - | - |
 | Hassocks | 54 min | same as fastest | 54 | 3.6 |
 | Horsham | 54 min | same as fastest | 55 | 3.2 |
@@ -87,55 +112,112 @@ direct train. Services are operated by Southeastern, Southern.
 | Strood | 54 min (change at Rochester) | no direct service | - | - |
 | West Hampstead Thameslink | 54 min (change at Denmark Hill) | no direct service | - | - |
 | Wivelsfield | 54 min | same as fastest | 55 | 1.2 |
+| Caterham | 55 min (change at Purley) | no direct service | - | - |
+| Bexley | 56 min (change at Lewisham) | no direct service | - | - |
 | East Grinstead | 56 min | same as fastest | 56 | 2.0 |
+| East Malling | 56 min | same as fastest | 65 | 2.0 |
 | Ewell West | 56 min (change at Epsom) | no direct service | - | - |
+| Hever | 56 min (change at East Croydon) | no direct service | - | - |
 | Plumstead | 56 min (change at Blackheath) | no direct service | - | - |
 | Dorking | 57 min | same as fastest | 64 | 2.0 |
+| Faygate | 57 min (change at Gatwick Airport) | no direct service | - | - |
+| Greenhithe for Bluewater | 57 min | same as fastest | 59 | 1.2 |
 | Cricklewood | 58 min (change at Denmark Hill) | no direct service | - | - |
 | Abbey Wood | 59 min (change at Blackheath) | no direct service | - | - |
 | Box Hill & Westhumble | 59 min | same as fastest | 61 | 1.2 |
+| Crayford | 59 min (change at Lewisham) | no direct service | - | - |
+| Higham | 59 min (change at Rochester) | no direct service | - | - |
+| Newington | 59 min | same as fastest | 64 | 1.2 |
 | Stoneleigh | 59 min (change at Epsom) | no direct service | - | - |
+| Barming | 60 min | same as fastest | 68 | 2.0 |
 | Brighton | 60 min | same as fastest | 65 | 2.0 |
+| Christs Hospital | 60 min | same as fastest | 66 | 2.0 |
+| Cowden | 61 min (change at East Croydon) | no direct service | - | - |
 | Preston Park | 61 min | same as fastest | 61 | 3.6 |
 | Worcester Park | 62 min (change at Epsom) | no direct service | - | - |
 | Gravesend | 63 min | same as fastest | 65 | 1.2 |
 | Maidstone East | 63 min | same as fastest | 70 | 4.0 |
 | Mill Hill Broadway | 63 min (change at Denmark Hill) | no direct service | - | - |
+| Plumpton | 63 min | same as fastest | 63 | 0.8 |
 | Motspur Park | 64 min (change at Epsom) | no direct service | - | - |
 | Oakleigh Park | 64 min (change at Denmark Hill) | no direct service | - | - |
 | Sittingbourne | 64 min | same as fastest | 69 | 2.0 |
+| Cooksbridge | 65 min | same as fastest | 66 | 0.4 |
 | Erith | 65 min (change at Blackheath) | no direct service | - | - |
+| Ashurst | 66 min (change at East Croydon) | no direct service | - | - |
+| Billingshurst | 66 min | same as fastest | 73 | 2.0 |
 | New Barnet | 66 min (change at Denmark Hill) | no direct service | - | - |
 | Slade Green | 66 min (change at Dartford) | no direct service | - | - |
 | Elstree & Borehamwood | 67 min (change at Denmark Hill) | no direct service | - | - |
 | Hove | 67 min | same as fastest | 69 | 1.6 |
 | Raynes Park | 67 min (change at Epsom) | no direct service | - | - |
+| Frant | 68 min (change at Tunbridge Wells) | no direct service | - | - |
 | Paddock Wood | 68 min (change at Tonbridge) | no direct service | - | - |
+| Bearsted | 69 min | same as fastest | 79 | 3.6 |
+| Stone Crossing | 69 min (change at Dartford) | no direct service | - | - |
+| Teynham | 69 min | same as fastest | 74 | 1.2 |
+| Bookham | 70 min (change at Leatherhead) | no direct service | - | - |
+| Holmwood | 70 min | same as fastest | 72 | 1.2 |
+| Lewes | 70 min | same as fastest | 71 | 1.2 |
+| Northfleet | 70 min (change at Rochester) | no direct service | - | - |
 | Portslade | 70 min | same as fastest | 72 | 1.6 |
 | Potters Bar | 71 min (change at Denmark Hill) | no direct service | - | - |
 | Radlett | 71 min (change at Denmark Hill) | no direct service | - | - |
+| Ebbsfleet International | 72 min (change at Rochester) | no direct service | - | - |
+| Eridge | 72 min (change at East Croydon) | no direct service | - | - |
 | Faversham | 72 min | same as fastest | 80 | 2.0 |
+| Swanscombe | 72 min (change at Rochester) | no direct service | - | - |
+| Wadhurst | 72 min (change at Tunbridge Wells) | no direct service | - | - |
 | Effingham Junction | 73 min (change at Leatherhead) | no direct service | - | - |
+| Hollingbourne | 73 min | same as fastest | 83 | 3.2 |
+| Pulborough | 73 min | same as fastest | 80 | 2.0 |
 | Earlsfield | 75 min (change at Epsom) | no direct service | - | - |
+| Ockley | 75 min | same as fastest | 77 | 1.2 |
+| Shalford | 75 min | same as fastest | - | - |
 | Shoreham-by-Sea | 75 min | same as fastest | 77 | 1.6 |
 | St Albans City | 76 min (change at Denmark Hill) | no direct service | - | - |
 | Staplehurst | 76 min (change at Tonbridge) | no direct service | - | - |
+| Glynde | 77 min | same as fastest | 77 | 1.2 |
 | Hatfield | 77 min (change at Denmark Hill) | no direct service | - | - |
 | Horsley | 77 min (change at Leatherhead) | no direct service | - | - |
+| Warnham | 77 min (change at Horsham) | 81 min | 83 | 1.2 |
+| Crowborough | 78 min (change at East Croydon) | no direct service | - | - |
+| Harrietsham | 78 min | same as fastest | 87 | 3.2 |
 | Lancing | 79 min | same as fastest | 82 | 1.6 |
+| Stonegate | 79 min (change at Tunbridge Wells) | no direct service | - | - |
 | Stratford | 79 min (change at Clapham Junction) | no direct service | - | - |
+| Amberley | 80 min | same as fastest | 86 | 2.0 |
 | Marden | 80 min (change at Tonbridge) | no direct service | - | - |
 | Clandon | 81 min (change at Leatherhead) | no direct service | - | - |
 | Headcorn | 81 min (change at Tonbridge) | no direct service | - | - |
+| Lenham | 81 min | same as fastest | 91 | 3.2 |
 | Harpenden | 82 min (change at Denmark Hill) | no direct service | - | - |
 | Welwyn Garden City | 82 min (change at Denmark Hill) | no direct service | - | - |
+| Whitstable | 82 min | same as fastest | 91 | 1.2 |
+| Berwick (Sussex) | 83 min | same as fastest | 83 | 1.2 |
+| East Worthing | 83 min | same as fastest | - | - |
+| Polegate | 83 min | same as fastest | 89 | 1.2 |
+| Selling | 83 min | same as fastest | 88 | 0.8 |
 | Vauxhall | 83 min (change at Epsom) | no direct service | - | - |
+| Arundel | 84 min | same as fastest | 91 | 2.0 |
+| Etchingham | 84 min (change at Tunbridge Wells) | no direct service | - | - |
+| Buxted | 85 min (change at East Croydon) | no direct service | - | - |
+| Chestfield & Swalecliffe | 85 min | same as fastest | 95 | 1.2 |
 | Worthing | 85 min | same as fastest | 86 | 1.6 |
 | Knebworth | 86 min (change at East Croydon) | no direct service | - | - |
+| London Road (Guildford) | 86 min (change at Leatherhead) | no direct service | - | - |
 | Stevenage | 86 min (change at East Croydon) | no direct service | - | - |
+| Charing | 87 min | same as fastest | 96 | 3.2 |
 | Guildford | 87 min (change at Gatwick Airport) | no direct service | - | - |
 | Luton Airport Parkway | 87 min (change at Denmark Hill) | no direct service | - | - |
+| Robertsbridge | 87 min (change at Tunbridge Wells) | no direct service | - | - |
+| Hampden Park | 88 min | same as fastest | 94 | 1.2 |
+| West Worthing | 88 min | same as fastest | 89 | 1.6 |
+| Battle | 89 min (change at Tunbridge Wells) | no direct service | - | - |
+| Herne Bay | 89 min | same as fastest | 98 | 1.2 |
 | Luton | 89 min (change at East Croydon) | no direct service | - | - |
+| Uckfield | 89 min (change at East Croydon) | no direct service | - | - |
+| Durrington-on-Sea | 90 min | same as fastest | 92 | 1.6 |
 
 ## Frequently asked questions
 
@@ -145,11 +227,11 @@ The fastest connection is from Battersea Park, at 4 minutes on a direct service.
 
 ### Which commuter towns are within 30 minutes of Victoria?
 
-17 stations reach Victoria in under 30 minutes, including Battersea Park, Clapham Junction, Denmark Hill, Balham, Wandsworth Common, Peckham Rye. These are the shortest commutes available into this terminal.
+20 stations reach Victoria in under 30 minutes, including Battersea Park, Clapham Junction, Denmark Hill, Balham, Wandsworth Common, Peckham Rye. These are the shortest commutes available into this terminal.
 
 ### How many stations connect to Victoria?
 
-121 stations have a service to London Victoria within 90 minutes, and 66 of those are direct trains with no change required.
+203 stations have a service to London Victoria within 90 minutes, and 117 of those are direct trains with no change required.
 
 ### What areas does Victoria serve?
 
@@ -157,7 +239,7 @@ London Victoria primarily serves Kent, Sussex and the South Coast. Key commuter 
 
 ### Is Victoria a good terminal to commute into?
 
-With 121 stations inside 90 minutes and 66 direct services, Victoria offers unusually broad commuter coverage. The quickest option is Battersea Park at 4 minutes.
+With 203 stations inside 90 minutes and 117 direct services, Victoria offers unusually broad commuter coverage. The quickest option is Battersea Park at 4 minutes.
 
 ## About this data
 

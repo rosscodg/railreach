@@ -38,7 +38,7 @@ Yes. Direct services run to Waterloo, Victoria, London Bridge.
 
 ### What are the nearest stations to Epsom?
 
-The closest alternatives are Ewell West, Ashtead, Stoneleigh. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Ewell West, Epsom Downs, Ashtead. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

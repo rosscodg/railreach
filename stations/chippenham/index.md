@@ -35,7 +35,7 @@ Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Chippenham?
 
-The closest alternatives are Bath Spa, Swindon, Pewsey. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Bath Spa, Westbury, Kemble. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

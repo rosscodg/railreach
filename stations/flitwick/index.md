@@ -36,7 +36,7 @@ Yes. Direct services run to St Pancras, London Bridge.
 
 ### What are the nearest stations to Flitwick?
 
-The closest alternatives are Luton, Bedford, Leighton Buzzard. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Harlington, Leagrave, Luton. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

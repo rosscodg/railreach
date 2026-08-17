@@ -37,7 +37,7 @@ Yes. Direct services run to St Pancras, London Bridge, Victoria.
 
 ### What are the nearest stations to Sittingbourne?
 
-The closest alternatives are Rainham (Kent), Faversham, Gillingham. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Newington, Teynham, Rainham (Kent). These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

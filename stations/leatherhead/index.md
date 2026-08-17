@@ -38,7 +38,7 @@ Yes. Direct services run to Waterloo, Victoria.
 
 ### What are the nearest stations to Leatherhead?
 
-The closest alternatives are Ashtead, Cobham & Stoke d'Abernon, Oxshott. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Ashtead, Bookham, Cobham & Stoke d'Abernon. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

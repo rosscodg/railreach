@@ -1,6 +1,6 @@
 # RailReach: complete dataset
 
-Train journey times from 345 UK stations to the 9 London main line terminals.
+Train journey times from 571 UK stations to the 9 London main line terminals.
 
 Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 Basis: fastest typical weekday service on each route
@@ -20,9 +20,9 @@ allowance, and is marked as such.
 
 ## Summary
 
-- Stations covered: 345
+- Stations covered: 571
 - London terminals: 9
-- Station-to-terminal journeys recorded: 816 (493 direct)
+- Station-to-terminal journeys recorded: 1233 (734 direct)
 - Every station has a page at https://railreach.co.uk/stations/<slug>/
 - Every terminal has a page at https://railreach.co.uk/terminals/<slug>/
 
@@ -43,7 +43,7 @@ allowance, and is marked as such.
 
 Operators: Great Northern, LNER, Hull Trains, Lumo
 Serves: Hertfordshire, Cambridgeshire and the East Coast Main Line
-Stations within 90 minutes: 61 (32 direct, 15 under 30 minutes)
+Stations within 90 minutes: 71 (38 direct, 15 under 30 minutes)
 Fastest station: Finsbury Park at 6 minutes
 Page: https://railreach.co.uk/terminals/kings-cross/
 
@@ -68,6 +68,7 @@ Page: https://railreach.co.uk/terminals/kings-cross/
 - Knebworth: fastest 33 min, typical peak 41 min, 2.0 trains/hr in the peak
 - Welham Green: fastest 35 min
 - Baldock: fastest 36 min, typical peak 36 min, 2.4 trains/hr in the peak
+- Watton-at-Stone: fastest 36 min
 - Royston: fastest 37 min, typical peak 46 min, 4.3 trains/hr in the peak
 - Arlesey: fastest 38 min
 - Hertford North: fastest 38 min
@@ -75,6 +76,7 @@ Page: https://railreach.co.uk/terminals/kings-cross/
 - Crews Hill: fastest 40 min
 - Ashwell & Morden: fastest 42 min, typical peak 42 min, 2.0 trains/hr in the peak
 - Bayford: fastest 46 min
+- Cambridge South: fastest 46 min, typical peak 64 min, 3.9 trains/hr in the peak
 - Huntingdon: fastest 47 min, typical peak 53 min, 1.5 trains/hr in the peak
 - Peterborough: fastest 47 min, typical peak 56 min, 5.1 trains/hr in the peak
 - Sandy: fastest 48 min
@@ -83,9 +85,11 @@ Page: https://railreach.co.uk/terminals/kings-cross/
 - Meldreth: fastest 51 min, typical peak 51 min, 2.0 trains/hr in the peak
 - Denmark Hill: fastest 53 min
 - Shepreth: fastest 55 min, typical peak 55 min, 2.0 trains/hr in the peak
+- Cambridge North: fastest 56 min, typical peak 66 min, 1.9 trains/hr in the peak
 - Peckham Rye: fastest 56 min
 - Foxton: fastest 57 min, typical peak 57 min, 2.0 trains/hr in the peak
 - Coulsdon South: fastest 61 min
+- Waterbeach: fastest 61 min, typical peak 71 min, 1.9 trains/hr in the peak
 - Catford: fastest 65 min
 - Grantham: fastest 65 min, typical peak 72 min, 3.2 trains/hr in the peak
 - Gatwick Airport: fastest 66 min
@@ -94,25 +98,31 @@ Page: https://railreach.co.uk/terminals/kings-cross/
 - Bellingham: fastest 68 min
 - Redhill: fastest 69 min
 - Beckenham Hill: fastest 70 min
+- Ely: fastest 70 min, typical peak 80 min, 1.9 trains/hr in the peak
 - Three Bridges: fastest 71 min
 - Audley End: fastest 74 min
 - Earlswood: fastest 74 min
 - Newark Northgate: fastest 75 min, typical peak 84 min, 2.8 trains/hr in the peak
 - Balcombe: fastest 77 min
 - Bromley South: fastest 77 min
+- Shelford: fastest 77 min
 - Salfords: fastest 78 min
 - Horley: fastest 79 min
 - Bickley: fastest 80 min
+- Littleport: fastest 80 min, typical peak 89 min, 1.9 trains/hr in the peak
 - Haywards Heath: fastest 81 min
+- Great Chesterford: fastest 85 min
+- St Mary Cray: fastest 85 min
 - Bishops Stortford: fastest 86 min
 - Burgess Hill: fastest 87 min
+- Retford: fastest 87 min, typical peak 95 min, 2.0 trains/hr in the peak
 - Wivelsfield: fastest 88 min
 - Swanley: fastest 89 min
 ## London St Pancras
 
 Operators: Thameslink, East Midlands Railway, Southeastern high speed
 Serves: Bedfordshire, the Midlands and, via HS1, the Medway towns
-Stations within 90 minutes: 135 (74 direct, 24 under 30 minutes)
+Stations within 90 minutes: 231 (115 direct, 25 under 30 minutes)
 Fastest station: Kentish Town at 5 minutes
 Page: https://railreach.co.uk/terminals/st-pancras/
 
@@ -121,6 +131,7 @@ Page: https://railreach.co.uk/terminals/st-pancras/
 - West Hampstead Thameslink: fastest 8 min, typical peak 10 min, 8.8 trains/hr in the peak
 - Cricklewood: fastest 13 min, typical peak 13 min, 4.0 trains/hr in the peak
 - Oakleigh Park: fastest 17 min, typical peak 18 min, 2.0 trains/hr in the peak
+- Ebbsfleet International: fastest 18 min, typical peak 19 min, 5.6 trains/hr in the peak
 - Alexandra Palace: fastest 19 min
 - Mill Hill Broadway: fastest 19 min, typical peak 22 min, 6.4 trains/hr in the peak
 - New Barnet: fastest 19 min, typical peak 20 min, 2.0 trains/hr in the peak
@@ -154,6 +165,8 @@ Page: https://railreach.co.uk/terminals/st-pancras/
 - Coulsdon South: fastest 36 min, typical peak 36 min, 2.8 trains/hr in the peak
 - Rochester: fastest 36 min, typical peak 64 min, 4.0 trains/hr in the peak
 - Blackheath: fastest 37 min
+- Greenhithe for Bluewater: fastest 37 min, typical peak 64 min, 2.0 trains/hr in the peak
+- Leagrave: fastest 37 min, typical peak 41 min, 4.4 trains/hr in the peak
 - Purley: fastest 37 min, typical peak 38 min, 1.6 trains/hr in the peak
 - Beckenham Hill: fastest 38 min, typical peak 38 min, 4.0 trains/hr in the peak
 - Brookmans Park: fastest 38 min
@@ -171,7 +184,9 @@ Page: https://railreach.co.uk/terminals/st-pancras/
 - Baldock: fastest 41 min, typical peak 42 min, 2.0 trains/hr in the peak
 - Flitwick: fastest 41 min, typical peak 51 min, 5.2 trains/hr in the peak
 - Merstham: fastest 41 min, typical peak 42 min, 2.8 trains/hr in the peak
+- Chelsfield: fastest 42 min
 - Dartford: fastest 42 min, typical peak 57 min, 2.0 trains/hr in the peak
+- Higham: fastest 42 min, typical peak 81 min, 2.0 trains/hr in the peak
 - Kidbrooke: fastest 42 min
 - Plumstead: fastest 42 min, typical peak 42 min, 2.0 trains/hr in the peak
 - West Croydon: fastest 42 min
@@ -179,20 +194,30 @@ Page: https://railreach.co.uk/terminals/st-pancras/
 - Clapham Junction: fastest 43 min
 - Cuffley: fastest 43 min
 - Gillingham: fastest 43 min, typical peak 72 min, 4.0 trains/hr in the peak
+- Snodland: fastest 43 min, typical peak 43 min, 0.8 trains/hr in the peak
 - Welwyn North: fastest 43 min
 - Biggleswade: fastest 44 min, typical peak 46 min, 2.0 trains/hr in the peak
 - Chislehurst: fastest 44 min
 - Gatwick Airport: fastest 44 min, typical peak 44 min, 7.6 trains/hr in the peak
+- Northfleet: fastest 44 min, typical peak 70 min, 2.0 trains/hr in the peak
+- Wellingborough: fastest 44 min, typical peak 58 min, 2.0 trains/hr in the peak
 - Abbey Wood: fastest 45 min, typical peak 45 min, 2.0 trains/hr in the peak
 - Eltham: fastest 45 min
 - New Eltham: fastest 45 min
+- Upper Warlingham: fastest 45 min, typical peak 45 min, 1.2 trains/hr in the peak
 - Ashwell & Morden: fastest 46 min, typical peak 47 min, 2.0 trains/hr in the peak
 - Earlswood: fastest 46 min, typical peak 52 min, 1.6 trains/hr in the peak
+- Harlington: fastest 46 min, typical peak 48 min, 4.0 trains/hr in the peak
+- Swanscombe: fastest 46 min, typical peak 68 min, 2.0 trains/hr in the peak
+- Watton-at-Stone: fastest 46 min
 - Bayford: fastest 47 min
+- Kettering: fastest 47 min, typical peak 59 min, 4.1 trains/hr in the peak
 - Petts Wood: fastest 47 min, typical peak 55 min, 2.0 trains/hr in the peak
 - Sutton: fastest 47 min, typical peak 53 min, 4.0 trains/hr in the peak
+- Wye: fastest 47 min
 - Bickley: fastest 48 min, typical peak 48 min, 4.0 trains/hr in the peak
 - Sevenoaks: fastest 48 min, typical peak 76 min, 2.0 trains/hr in the peak
+- Woldingham: fastest 48 min, typical peak 48 min, 1.2 trains/hr in the peak
 - Barnehurst: fastest 49 min
 - Oxted: fastest 49 min, typical peak 54 min, 1.2 trains/hr in the peak
 - Rainham (Kent): fastest 49 min, typical peak 78 min, 4.0 trains/hr in the peak
@@ -200,62 +225,143 @@ Page: https://railreach.co.uk/terminals/st-pancras/
 - Sidcup: fastest 49 min
 - Three Bridges: fastest 49 min, typical peak 50 min, 7.2 trains/hr in the peak
 - Salfords: fastest 50 min, typical peak 56 min, 1.6 trains/hr in the peak
+- St Mary Cray: fastest 50 min, typical peak 53 min, 2.0 trains/hr in the peak
 - Hertford North: fastest 51 min
 - Royston: fastest 51 min, typical peak 52 min, 2.0 trains/hr in the peak
 - Slade Green: fastest 51 min, typical peak 51 min, 2.0 trains/hr in the peak
 - Welling: fastest 51 min
 - Bexleyheath: fastest 52 min
+- Folkestone West: fastest 52 min, typical peak 53 min, 1.6 trains/hr in the peak
 - Horley: fastest 52 min, typical peak 58 min, 3.6 trains/hr in the peak
+- Maidstone West: fastest 52 min, typical peak 52 min, 0.8 trains/hr in the peak
+- Stone Crossing: fastest 52 min, typical peak 62 min, 2.0 trains/hr in the peak
+- Canterbury West: fastest 53 min, typical peak 54 min, 2.0 trains/hr in the peak
+- Chilham: fastest 53 min
 - Hurst Green: fastest 53 min, typical peak 57 min, 1.2 trains/hr in the peak
 - Pluckley: fastest 53 min
+- Bexley: fastest 54 min
+- Folkestone Central: fastest 54 min, typical peak 56 min, 1.6 trains/hr in the peak
 - Swanley: fastest 54 min, typical peak 57 min, 2.0 trains/hr in the peak
+- Westenhanger: fastest 54 min
 - Balcombe: fastest 55 min, typical peak 55 min, 2.0 trains/hr in the peak
 - Battersea Park: fastest 55 min
+- Charing: fastest 55 min
+- Meopham: fastest 55 min
 - Erith: fastest 56 min
 - St Neots: fastest 56 min, typical peak 58 min, 2.0 trains/hr in the peak
+- Crayford: fastest 57 min
 - Hildenborough: fastest 57 min
+- Kenley: fastest 57 min
+- Market Harborough: fastest 57 min, typical peak 60 min, 2.1 trains/hr in the peak
 - Tonbridge: fastest 57 min
+- Chartham: fastest 58 min
+- Sandling: fastest 58 min
 - Sittingbourne: fastest 58 min, typical peak 59 min, 2.0 trains/hr in the peak
 - Balham: fastest 59 min
 - Haywards Heath: fastest 59 min, typical peak 61 min, 4.4 trains/hr in the peak
 - Headcorn: fastest 59 min
+- Longfield: fastest 59 min
+- Lenham: fastest 60 min
 - Lingfield: fastest 60 min, typical peak 64 min, 1.2 trains/hr in the peak
+- Whyteleafe: fastest 60 min
 - Meldreth: fastest 61 min
 - Reigate: fastest 61 min
+- Sole Street: fastest 61 min
 - Crawley: fastest 62 min, typical peak 68 min, 2.4 trains/hr in the peak
+- Whyteleafe South: fastest 62 min
+- Dormans: fastest 63 min, typical peak 67 min, 1.2 trains/hr in the peak
+- Eynsford: fastest 63 min, typical peak 63 min, 2.0 trains/hr in the peak
+- Harrietsham: fastest 63 min
+- Leicester: fastest 63 min, typical peak 72 min, 4.1 trains/hr in the peak
+- Cambridge South: fastest 64 min, typical peak 64 min, 2.0 trains/hr in the peak
+- High Brooms: fastest 64 min
 - Huntingdon: fastest 64 min, typical peak 66 min, 2.0 trains/hr in the peak
 - Shepreth: fastest 64 min
 - Burgess Hill: fastest 65 min, typical peak 67 min, 4.0 trains/hr in the peak
+- Knockholt: fastest 65 min
+- Newington: fastest 65 min
 - Otford: fastest 65 min, typical peak 69 min, 2.0 trains/hr in the peak
 - Paddock Wood: fastest 65 min
 - Staplehurst: fastest 65 min
+- Caterham: fastest 66 min
+- Dover Priory: fastest 66 min, typical peak 66 min, 1.6 trains/hr in the peak
+- Edenbridge Town: fastest 66 min
 - Faversham: fastest 66 min, typical peak 68 min, 2.4 trains/hr in the peak
+- Ifield: fastest 66 min, typical peak 71 min, 2.4 trains/hr in the peak
+- Shoreham (Kent): fastest 66 min, typical peak 66 min, 2.0 trains/hr in the peak
 - Wandsworth Common: fastest 66 min
 - Wivelsfield: fastest 66 min, typical peak 66 min, 2.0 trains/hr in the peak
 - East Grinstead: fastest 67 min, typical peak 71 min, 1.2 trains/hr in the peak
 - Foxton: fastest 67 min
 - Cambridge: fastest 68 min, typical peak 68 min, 2.0 trains/hr in the peak
+- Hollingbourne: fastest 68 min
 - Peterborough: fastest 68 min, typical peak 81 min, 2.0 trains/hr in the peak
+- Sturry: fastest 68 min
 - Tunbridge Wells: fastest 68 min
+- Hever: fastest 69 min
 - Marden: fastest 69 min
+- Thanet Parkway: fastest 69 min, typical peak 70 min, 2.4 trains/hr in the peak
+- Dunton Green: fastest 70 min
 - Epsom: fastest 70 min
 - Hassocks: fastest 70 min, typical peak 73 min, 3.6 trains/hr in the peak
+- Bearsted: fastest 71 min
+- Corby: fastest 71 min, typical peak 74 min, 2.0 trains/hr in the peak
+- Littlehaven: fastest 72 min, typical peak 78 min, 2.4 trains/hr in the peak
 - Bat & Ball: fastest 73 min, typical peak 73 min, 2.0 trains/hr in the peak
+- Farningham Road: fastest 73 min
+- Frant: fastest 73 min
+- Borough Green & Wrotham: fastest 74 min
+- Cowden: fastest 74 min
+- Faygate: fastest 74 min, typical peak 76 min, 2.0 trains/hr in the peak
+- Loughborough: fastest 74 min, typical peak 80 min, 2.1 trains/hr in the peak
+- Ramsgate: fastest 74 min, typical peak 76 min, 2.8 trains/hr in the peak
 - Horsham: fastest 75 min, typical peak 82 min, 2.4 trains/hr in the peak
+- Martin Mill: fastest 75 min, typical peak 77 min, 1.6 trains/hr in the peak
 - Brighton: fastest 76 min, typical peak 82 min, 4.0 trains/hr in the peak
+- Teynham: fastest 76 min
+- Whitstable: fastest 76 min, typical peak 77 min, 1.6 trains/hr in the peak
 - Maidstone East: fastest 77 min
+- Plumpton: fastest 77 min
 - Preston Park: fastest 77 min, typical peak 80 min, 3.6 trains/hr in the peak
+- Wadhurst: fastest 77 min
+- Shelford: fastest 78 min
 - Whittlesford Parkway: fastest 78 min
+- Ashurst: fastest 79 min
+- Chestfield & Swalecliffe: fastest 79 min, typical peak 110 min, 0.8 trains/hr in the peak
+- Minster: fastest 79 min
 - Ashtead: fastest 80 min
+- Cooksbridge: fastest 80 min
+- Banstead: fastest 81 min
+- Broadstairs: fastest 81 min, typical peak 86 min, 3.6 trains/hr in the peak
+- Cambridge North: fastest 81 min
+- Herne Bay: fastest 81 min, typical peak 83 min, 1.6 trains/hr in the peak
+- Walmer: fastest 81 min, typical peak 82 min, 1.6 trains/hr in the peak
+- West Malling: fastest 81 min
+- Barming: fastest 82 min
+- East Midlands Parkway: fastest 82 min, typical peak 89 min, 2.9 trains/hr in the peak
 - Grantham: fastest 82 min
+- East Malling: fastest 84 min
 - Leatherhead: fastest 84 min
+- Stonegate: fastest 84 min
+- Deal: fastest 85 min, typical peak 86 min, 1.6 trains/hr in the peak
+- Epsom Downs: fastest 85 min
+- Eridge: fastest 85 min
+- Lewes: fastest 85 min
 - Audley End: fastest 86 min
+- Long Eaton: fastest 86 min, typical peak 89 min, 1.7 trains/hr in the peak
+- Waterbeach: fastest 86 min
+- Derby: fastest 87 min, typical peak 97 min, 2.1 trains/hr in the peak
+- Great Chesterford: fastest 87 min
+- Margate: fastest 87 min, typical peak 92 min, 3.6 trains/hr in the peak
 - Hove: fastest 88 min
+- Etchingham: fastest 89 min
+- Birchington-on-Sea: fastest 90 min, typical peak 92 min, 1.6 trains/hr in the peak
+- Christs Hospital: fastest 90 min
 ## London Waterloo
 
 Operators: South Western Railway
 Serves: Surrey, Hampshire and the South West
-Stations within 90 minutes: 86 (76 direct, 24 under 30 minutes)
+Stations within 90 minutes: 126 (106 direct, 25 under 30 minutes)
 Fastest station: Vauxhall at 4 minutes
 Page: https://railreach.co.uk/terminals/waterloo/
 
@@ -275,6 +381,7 @@ Page: https://railreach.co.uk/terminals/waterloo/
 - Motspur Park: fastest 24 min, typical peak 27 min, 5.2 trains/hr in the peak
 - Weybridge: fastest 24 min, typical peak 36 min, 5.6 trains/hr in the peak
 - Woking: fastest 24 min, typical peak 30 min, 14.4 trains/hr in the peak
+- Hersham: fastest 26 min, typical peak 28 min, 3.2 trains/hr in the peak
 - Norbiton: fastest 27 min, typical peak 32 min, 6.0 trains/hr in the peak
 - West Byfleet: fastest 27 min, typical peak 42 min, 3.2 trains/hr in the peak
 - Worcester Park: fastest 27 min, typical peak 31 min, 3.2 trains/hr in the peak
@@ -283,9 +390,11 @@ Page: https://railreach.co.uk/terminals/waterloo/
 - Hinchley Wood: fastest 29 min, typical peak 36 min, 2.0 trains/hr in the peak
 - Kingston: fastest 29 min, typical peak 34 min, 6.0 trains/hr in the peak
 - Thames Ditton: fastest 29 min, typical peak 38 min, 2.0 trains/hr in the peak
+- St Margarets (London): fastest 30 min, typical peak 35 min, 6.4 trains/hr in the peak
 - Stoneleigh: fastest 30 min, typical peak 34 min, 3.2 trains/hr in the peak
 - Strawberry Hill: fastest 30 min, typical peak 44 min, 5.2 trains/hr in the peak
 - Hampton Court: fastest 31 min, typical peak 40 min, 2.0 trains/hr in the peak
+- Worplesdon: fastest 31 min, typical peak 36 min, 2.0 trains/hr in the peak
 - Claygate: fastest 32 min, typical peak 39 min, 2.0 trains/hr in the peak
 - Guildford: fastest 32 min, typical peak 44 min, 8.0 trains/hr in the peak
 - Hampton Wick: fastest 32 min, typical peak 37 min, 6.0 trains/hr in the peak
@@ -299,57 +408,94 @@ Page: https://railreach.co.uk/terminals/waterloo/
 - Chessington South: fastest 36 min, typical peak 39 min, 2.0 trains/hr in the peak
 - Epsom: fastest 36 min, typical peak 41 min, 3.2 trains/hr in the peak
 - Hounslow: fastest 37 min, typical peak 42 min, 4.8 trains/hr in the peak
+- Ashford (Surrey): fastest 38 min, typical peak 41 min, 4.8 trains/hr in the peak
 - Byfleet & New Haw: fastest 38 min, typical peak 40 min, 2.4 trains/hr in the peak
 - Cobham & Stoke d'Abernon: fastest 39 min, typical peak 46 min, 2.0 trains/hr in the peak
 - Farncombe: fastest 39 min, typical peak 47 min, 2.8 trains/hr in the peak
 - Godalming: fastest 39 min, typical peak 48 min, 4.4 trains/hr in the peak
 - Fleet: fastest 40 min, typical peak 48 min, 3.2 trains/hr in the peak
+- Sunbury: fastest 40 min, typical peak 51 min, 3.2 trains/hr in the peak
 - Ash Vale: fastest 41 min, typical peak 43 min, 2.8 trains/hr in the peak
 - Ashtead: fastest 41 min, typical peak 46 min, 3.2 trains/hr in the peak
 - Basingstoke: fastest 42 min, typical peak 51 min, 7.5 trains/hr in the peak
 - Egham: fastest 42 min, typical peak 48 min, 4.4 trains/hr in the peak
+- Upper Halliford: fastest 42 min, typical peak 53 min, 3.2 trains/hr in the peak
 - Effingham Junction: fastest 43 min, typical peak 50 min, 3.2 trains/hr in the peak
+- Kempton Park: fastest 45 min
 - Leatherhead: fastest 45 min, typical peak 50 min, 3.2 trains/hr in the peak
 - Shepperton: fastest 45 min, typical peak 56 min, 3.2 trains/hr in the peak
 - Virginia Water: fastest 45 min, typical peak 51 min, 4.4 trains/hr in the peak
 - Aldershot: fastest 46 min, typical peak 48 min, 2.8 trains/hr in the peak
 - Horsley: fastest 47 min, typical peak 54 min, 3.2 trains/hr in the peak
+- London Road (Guildford): fastest 47 min, typical peak 63 min, 3.2 trains/hr in the peak
+- Wraysbury: fastest 47 min, typical peak 49 min, 2.0 trains/hr in the peak
 - Haslemere: fastest 49 min, typical peak 60 min, 4.4 trains/hr in the peak
+- Longcross: fastest 49 min, typical peak 54 min, 1.6 trains/hr in the peak
+- Sunnymeads: fastest 49 min, typical peak 52 min, 2.0 trains/hr in the peak
+- Bookham: fastest 50 min, typical peak 59 min, 1.2 trains/hr in the peak
 - Box Hill & Westhumble: fastest 50 min, typical peak 54 min, 2.0 trains/hr in the peak
 - Winchfield: fastest 50 min, typical peak 56 min, 2.4 trains/hr in the peak
 - Clandon: fastest 51 min, typical peak 58 min, 3.2 trains/hr in the peak
+- Datchet: fastest 52 min, typical peak 55 min, 2.0 trains/hr in the peak
 - Farnham: fastest 52 min, typical peak 54 min, 2.8 trains/hr in the peak
 - Milford: fastest 52 min, typical peak 56 min, 2.0 trains/hr in the peak
+- Shalford: fastest 52 min
+- Sunningdale: fastest 52 min, typical peak 57 min, 2.8 trains/hr in the peak
 - Dorking: fastest 53 min, typical peak 57 min, 2.0 trains/hr in the peak
 - Overton: fastest 53 min, typical peak 55 min, 1.9 trains/hr in the peak
 - Hook: fastest 54 min, typical peak 60 min, 2.4 trains/hr in the peak
 - Ascot: fastest 55 min, typical peak 60 min, 2.8 trains/hr in the peak
 - Sutton: fastest 55 min
+- Windsor & Eton Riverside: fastest 56 min, typical peak 59 min, 2.0 trains/hr in the peak
 - Witley: fastest 56 min, typical peak 60 min, 2.0 trains/hr in the peak
+- Addlestone: fastest 58 min, typical peak 82 min, 1.6 trains/hr in the peak
 - Winchester: fastest 58 min, typical peak 70 min, 4.0 trains/hr in the peak
 - Bentley: fastest 59 min, typical peak 60 min, 2.0 trains/hr in the peak
 - Liphook: fastest 59 min, typical peak 70 min, 2.4 trains/hr in the peak
 - Whitchurch (Hants): fastest 59 min, typical peak 61 min, 1.9 trains/hr in the peak
+- Chertsey: fastest 61 min, typical peak 78 min, 1.6 trains/hr in the peak
+- Martins Heron: fastest 61 min, typical peak 64 min, 2.0 trains/hr in the peak
 - Andover: fastest 62 min, typical peak 70 min, 1.9 trains/hr in the peak
+- Micheldever: fastest 62 min, typical peak 64 min, 1.6 trains/hr in the peak
 - Petersfield: fastest 63 min, typical peak 79 min, 4.4 trains/hr in the peak
+- Bracknell: fastest 64 min, typical peak 67 min, 2.0 trains/hr in the peak
 - Liss: fastest 65 min, typical peak 77 min, 2.4 trains/hr in the peak
 - Alton: fastest 66 min, typical peak 67 min, 2.0 trains/hr in the peak
+- Frimley: fastest 67 min, typical peak 80 min, 0.8 trains/hr in the peak
 - Reigate: fastest 67 min
+- Bagshot: fastest 68 min, typical peak 68 min, 0.8 trains/hr in the peak
+- Southampton Airport Parkway: fastest 68 min, typical peak 74 min, 2.4 trains/hr in the peak
 - West Croydon: fastest 69 min
+- Camberley: fastest 71 min, typical peak 73 min, 0.8 trains/hr in the peak
+- Wokingham: fastest 71 min, typical peak 74 min, 2.0 trains/hr in the peak
 - Redhill: fastest 72 min
+- Shawford: fastest 72 min, typical peak 88 min, 1.6 trains/hr in the peak
+- Holmwood: fastest 74 min
 - Grateley: fastest 75 min, typical peak 77 min, 1.9 trains/hr in the peak
+- Winnersh: fastest 75 min, typical peak 78 min, 2.0 trains/hr in the peak
+- Reading West: fastest 76 min
 - Southampton Central: fastest 76 min, typical peak 82 min, 2.4 trains/hr in the peak
+- Eastleigh: fastest 77 min, typical peak 84 min, 2.4 trains/hr in the peak
 - Havant: fastest 77 min, typical peak 97 min, 4.4 trains/hr in the peak
+- Winnersh Triangle: fastest 77 min, typical peak 80 min, 2.0 trains/hr in the peak
+- Ockley: fastest 78 min
+- Earley: fastest 80 min, typical peak 83 min, 2.0 trains/hr in the peak
 - Reading: fastest 80 min, typical peak 88 min, 2.0 trains/hr in the peak
 - Salisbury: fastest 80 min, typical peak 90 min, 1.9 trains/hr in the peak
+- Rowlands Castle: fastest 81 min, typical peak 101 min, 1.6 trains/hr in the peak
 - Balham: fastest 82 min
 - Gatwick Airport: fastest 83 min
+- Warnham: fastest 84 min
+- Totton: fastest 85 min, typical peak 92 min, 1.6 trains/hr in the peak
+- Fratton: fastest 87 min, typical peak 110 min, 4.8 trains/hr in the peak
+- Hedge End: fastest 88 min, typical peak 94 min, 1.6 trains/hr in the peak
+- Bedhampton: fastest 89 min, typical peak 116 min, 1.2 trains/hr in the peak
 - Horsham: fastest 89 min
 ## London Paddington
 
 Operators: Great Western Railway, Elizabeth line
 Serves: the Thames Valley and the West
-Stations within 90 minutes: 79 (33 direct, 15 under 30 minutes)
+Stations within 90 minutes: 115 (42 direct, 15 under 30 minutes)
 Fastest station: Acton Main Line at 7 minutes
 Page: https://railreach.co.uk/terminals/paddington/
 
@@ -369,6 +515,7 @@ Page: https://railreach.co.uk/terminals/paddington/
 - Langley: fastest 26 min, typical peak 30 min, 4.0 trains/hr in the peak
 - Abbey Wood: fastest 28 min, typical peak 30 min, 11.6 trains/hr in the peak
 - Taplow: fastest 30 min, typical peak 40 min, 4.0 trains/hr in the peak
+- Reading West: fastest 31 min, typical peak 32 min, 1.2 trains/hr in the peak
 - Windsor & Eton Central: fastest 32 min
 - Theale: fastest 34 min, typical peak 38 min, 1.6 trains/hr in the peak
 - Didcot Parkway: fastest 37 min, typical peak 43 min, 5.6 trains/hr in the peak
@@ -379,64 +526,99 @@ Page: https://railreach.co.uk/terminals/paddington/
 - Pangbourne: fastest 41 min, typical peak 53 min, 2.0 trains/hr in the peak
 - Shenfield: fastest 42 min, typical peak 56 min, 11.2 trains/hr in the peak
 - Thatcham: fastest 42 min, typical peak 46 min, 1.6 trains/hr in the peak
+- Gidea Park: fastest 43 min, typical peak 44 min, 11.6 trains/hr in the peak
 - Goring & Streatley: fastest 45 min, typical peak 56 min, 2.0 trains/hr in the peak
+- Wokingham: fastest 45 min
+- Aldermaston: fastest 46 min, typical peak 49 min, 0.4 trains/hr in the peak
+- Harold Wood: fastest 46 min, typical peak 48 min, 11.2 trains/hr in the peak
 - Hungerford: fastest 46 min, typical peak 63 min, 2.0 trains/hr in the peak
 - Swindon: fastest 47 min, typical peak 57 min, 4.4 trains/hr in the peak
 - Cholsey: fastest 49 min, typical peak 61 min, 2.0 trains/hr in the peak
 - Ingatestone: fastest 49 min
+- Midgham: fastest 49 min, typical peak 52 min, 0.4 trains/hr in the peak
 - Basingstoke: fastest 50 min
 - Billericay: fastest 50 min
 - Brentwood: fastest 50 min, typical peak 52 min, 11.2 trains/hr in the peak
 - Cheshunt: fastest 51 min
 - Oxford: fastest 51 min, typical peak 54 min, 2.4 trains/hr in the peak
+- Waltham Cross: fastest 51 min
 - Henley-on-Thames: fastest 52 min
 - Chelmsford: fastest 53 min
+- Newbury Racecourse: fastest 53 min, typical peak 60 min, 0.4 trains/hr in the peak
 - Broxbourne: fastest 55 min
 - Bedwyn: fastest 56 min, typical peak 69 min, 2.0 trains/hr in the peak
 - Wickford: fastest 56 min
+- Beaulieu Park: fastest 58 min
 - Kintbury: fastest 58 min, typical peak 59 min, 1.2 trains/hr in the peak
 - Upminster: fastest 58 min
+- Roydon: fastest 60 min
 - Hatfield Peverel: fastest 61 min
 - Rayleigh: fastest 61 min
 - Witham: fastest 61 min
 - Pewsey: fastest 62 min, typical peak 79 min, 1.6 trains/hr in the peak
+- Rye House: fastest 62 min
 - Chippenham: fastest 63 min, typical peak 70 min, 1.6 trains/hr in the peak
 - Hanborough: fastest 63 min, typical peak 65 min, 1.2 trains/hr in the peak
 - Harlow Town: fastest 63 min
 - Overton: fastest 63 min
+- Battlesbridge: fastest 65 min
 - Hockley: fastest 65 min
+- St Margarets (Hertfordshire): fastest 65 min
 - Winchester: fastest 68 min
 - Charlbury: fastest 69 min, typical peak 72 min, 1.2 trains/hr in the peak
+- Kemble: fastest 69 min, typical peak 74 min, 0.8 trains/hr in the peak
+- Oxford Parkway: fastest 69 min
 - Rochford: fastest 69 min
+- South Woodham Ferrers: fastest 69 min
+- Ware: fastest 69 min
 - Whitchurch (Hants): fastest 69 min
 - Colchester: fastest 70 min
 - Marks Tey: fastest 70 min
 - Marlow: fastest 70 min
+- Southend Airport: fastest 71 min
 - Kelvedon: fastest 72 min
+- Bristol Parkway: fastest 73 min, typical peak 77 min, 2.0 trains/hr in the peak
 - Hertford East: fastest 73 min
+- Westbury: fastest 73 min, typical peak 97 min, 1.6 trains/hr in the peak
+- White Notley: fastest 73 min
 - Banbury: fastest 74 min
+- Islip: fastest 74 min
+- North Fambridge: fastest 74 min
+- Prittlewell: fastest 74 min
+- Cressing: fastest 75 min
 - Harlow Mill: fastest 75 min
 - Bath Spa: fastest 76 min, typical peak 83 min, 1.6 trains/hr in the peak
+- Southampton Airport Parkway: fastest 76 min
 - Southend Victoria: fastest 76 min
 - Andover: fastest 77 min
 - Sawbridgeworth: fastest 77 min
+- Braintree Freeport: fastest 79 min
 - Manningtree: fastest 79 min
 - Kingham: fastest 80 min, typical peak 82 min, 1.2 trains/hr in the peak
 - Kings Sutton: fastest 80 min
+- Shipton: fastest 80 min
+- Althorne: fastest 81 min
+- Bicester Village: fastest 81 min
 - Braintree: fastest 81 min
 - Bishops Stortford: fastest 82 min
 - Guildford: fastest 82 min
 - Grateley: fastest 84 min
+- Hythe: fastest 84 min
 - Ipswich: fastest 84 min
 - Southampton Central: fastest 84 min
+- Stroud: fastest 84 min, typical peak 90 min, 0.8 trains/hr in the peak
+- Burnham-on-Crouch: fastest 86 min
 - Moreton-in-Marsh: fastest 88 min, typical peak 90 min, 1.2 trains/hr in the peak
 - Richmond: fastest 88 min
+- Stonehouse: fastest 88 min, typical peak 96 min, 0.8 trains/hr in the peak
+- Wivenhoe: fastest 88 min
 - Bristol Temple Meads: fastest 89 min, typical peak 99 min, 2.0 trains/hr in the peak
+- Southminster: fastest 90 min
 ## London London Bridge
 
 Operators: Southeastern, Southern, Thameslink
 Serves: South East London, Kent and Surrey
-Stations within 90 minutes: 149 (91 direct, 29 under 30 minutes)
+Stations within 90 minutes: 234 (138 direct, 31 under 30 minutes)
 Fastest station: New Cross at 5 minutes
 Page: https://railreach.co.uk/terminals/london-bridge/
 
@@ -448,6 +630,7 @@ Page: https://railreach.co.uk/terminals/london-bridge/
 - Grove Park: fastest 13 min, typical peak 19 min, 4.0 trains/hr in the peak
 - Blackheath: fastest 14 min, typical peak 15 min, 6.8 trains/hr in the peak
 - Orpington: fastest 15 min, typical peak 31 min, 4.8 trains/hr in the peak
+- Chelsfield: fastest 17 min, typical peak 41 min, 3.2 trains/hr in the peak
 - Kidbrooke: fastest 18 min, typical peak 20 min, 4.8 trains/hr in the peak
 - West Croydon: fastest 18 min, typical peak 18 min, 2.0 trains/hr in the peak
 - Chislehurst: fastest 20 min, typical peak 26 min, 4.0 trains/hr in the peak
@@ -469,17 +652,22 @@ Page: https://railreach.co.uk/terminals/london-bridge/
 - Abbey Wood: fastest 27 min, typical peak 30 min, 9.6 trains/hr in the peak
 - Welling: fastest 27 min, typical peak 29 min, 4.8 trains/hr in the peak
 - Gatwick Airport: fastest 29 min, typical peak 36 min, 8.0 trains/hr in the peak
+- Upper Warlingham: fastest 29 min, typical peak 29 min, 1.2 trains/hr in the peak
+- Bexley: fastest 30 min, typical peak 35 min, 6.0 trains/hr in the peak
 - Bexleyheath: fastest 30 min, typical peak 32 min, 4.8 trains/hr in the peak
 - Earlswood: fastest 31 min, typical peak 38 min, 1.6 trains/hr in the peak
 - Hildenborough: fastest 32 min, typical peak 34 min, 1.2 trains/hr in the peak
 - Sutton: fastest 32 min, typical peak 32 min, 2.4 trains/hr in the peak
+- Woldingham: fastest 32 min, typical peak 32 min, 1.2 trains/hr in the peak
 - Barnehurst: fastest 33 min, typical peak 36 min, 4.8 trains/hr in the peak
 - Battersea Park: fastest 33 min, typical peak 54 min, 1.6 trains/hr in the peak
 - Clapham Junction: fastest 33 min, typical peak 50 min, 1.6 trains/hr in the peak
+- Crayford: fastest 33 min, typical peak 38 min, 6.0 trains/hr in the peak
 - Erith: fastest 33 min, typical peak 40 min, 7.6 trains/hr in the peak
 - Oxted: fastest 33 min, typical peak 38 min, 2.0 trains/hr in the peak
 - Tonbridge: fastest 33 min, typical peak 37 min, 6.8 trains/hr in the peak
 - Alexandra Palace: fastest 34 min
+- Knockholt: fastest 34 min, typical peak 44 min, 2.0 trains/hr in the peak
 - Mill Hill Broadway: fastest 34 min, typical peak 34 min, 0.4 trains/hr in the peak
 - Slade Green: fastest 34 min, typical peak 39 min, 9.6 trains/hr in the peak
 - Three Bridges: fastest 34 min, typical peak 42 min, 8.0 trains/hr in the peak
@@ -495,11 +683,14 @@ Page: https://railreach.co.uk/terminals/london-bridge/
 - Bromley South: fastest 38 min
 - Dartford: fastest 38 min, typical peak 42 min, 7.2 trains/hr in the peak
 - Elstree & Borehamwood: fastest 38 min, typical peak 38 min, 0.4 trains/hr in the peak
+- Kenley: fastest 38 min, typical peak 39 min, 2.0 trains/hr in the peak
 - Balham: fastest 39 min, typical peak 44 min, 1.6 trains/hr in the peak
 - Catford: fastest 39 min
+- Dunton Green: fastest 39 min, typical peak 49 min, 2.0 trains/hr in the peak
 - Oakleigh Park: fastest 39 min
 - Balcombe: fastest 40 min, typical peak 40 min, 2.0 trains/hr in the peak
 - Chatham: fastest 40 min, typical peak 60 min, 4.8 trains/hr in the peak
+- High Brooms: fastest 40 min, typical peak 44 min, 3.2 trains/hr in the peak
 - Knebworth: fastest 40 min, typical peak 40 min, 2.0 trains/hr in the peak
 - Wimbledon: fastest 40 min
 - Bat & Ball: fastest 41 min
@@ -511,30 +702,50 @@ Page: https://railreach.co.uk/terminals/london-bridge/
 - Epsom: fastest 42 min, typical peak 43 min, 2.0 trains/hr in the peak
 - Paddock Wood: fastest 42 min, typical peak 46 min, 4.0 trains/hr in the peak
 - Stevenage: fastest 42 min, typical peak 44 min, 4.0 trains/hr in the peak
+- Whyteleafe: fastest 42 min, typical peak 43 min, 2.0 trains/hr in the peak
 - Beckenham Hill: fastest 44 min
+- Edenbridge Town: fastest 44 min, typical peak 44 min, 0.8 trains/hr in the peak
 - Gillingham: fastest 44 min, typical peak 65 min, 4.8 trains/hr in the peak
 - Haywards Heath: fastest 44 min, typical peak 46 min, 4.4 trains/hr in the peak
 - Lingfield: fastest 44 min, typical peak 48 min, 1.2 trains/hr in the peak
 - Otford: fastest 44 min
 - Potters Bar: fastest 44 min
 - Tunbridge Wells: fastest 44 min, typical peak 48 min, 3.2 trains/hr in the peak
+- Whyteleafe South: fastest 44 min, typical peak 45 min, 2.0 trains/hr in the peak
 - Hadley Wood: fastest 45 min
+- St Mary Cray: fastest 45 min
+- Stone Crossing: fastest 45 min, typical peak 47 min, 4.8 trains/hr in the peak
+- Banstead: fastest 46 min
 - Reigate: fastest 46 min
 - Crawley: fastest 47 min, typical peak 52 min, 2.8 trains/hr in the peak
+- Dormans: fastest 47 min, typical peak 51 min, 1.2 trains/hr in the peak
+- Greenhithe for Bluewater: fastest 47 min, typical peak 49 min, 4.8 trains/hr in the peak
+- Hever: fastest 47 min, typical peak 48 min, 0.8 trains/hr in the peak
 - Luton: fastest 47 min, typical peak 51 min, 5.6 trains/hr in the peak
+- Shoreham (Kent): fastest 47 min
+- Caterham: fastest 48 min, typical peak 49 min, 2.0 trains/hr in the peak
 - Enfield Chase: fastest 48 min
 - Hitchin: fastest 48 min, typical peak 50 min, 4.0 trains/hr in the peak
 - Luton Airport Parkway: fastest 48 min, typical peak 48 min, 4.4 trains/hr in the peak
 - Marden: fastest 48 min, typical peak 51 min, 3.2 trains/hr in the peak
+- Frant: fastest 49 min, typical peak 55 min, 2.0 trains/hr in the peak
 - Swanley: fastest 49 min
 - Burgess Hill: fastest 50 min, typical peak 53 min, 4.0 trains/hr in the peak
+- Epsom Downs: fastest 50 min
 - Gordon Hill: fastest 50 min
 - Hatfield: fastest 50 min
+- Swanscombe: fastest 50 min, typical peak 53 min, 4.8 trains/hr in the peak
 - East Grinstead: fastest 51 min, typical peak 55 min, 1.2 trains/hr in the peak
+- Eynsford: fastest 51 min
+- Ifield: fastest 51 min, typical peak 55 min, 2.8 trains/hr in the peak
 - Wivelsfield: fastest 51 min, typical peak 51 min, 2.0 trains/hr in the peak
+- Cowden: fastest 52 min, typical peak 53 min, 0.8 trains/hr in the peak
+- Leagrave: fastest 52 min, typical peak 56 min, 4.4 trains/hr in the peak
+- Northfleet: fastest 52 min, typical peak 55 min, 4.8 trains/hr in the peak
 - Brookmans Park: fastest 53 min
 - Letchworth Garden City: fastest 53 min, typical peak 54 min, 2.0 trains/hr in the peak
 - Staplehurst: fastest 53 min, typical peak 56 min, 4.0 trains/hr in the peak
+- Wadhurst: fastest 53 min, typical peak 59 min, 3.2 trains/hr in the peak
 - Arlesey: fastest 54 min, typical peak 56 min, 2.0 trains/hr in the peak
 - Crews Hill: fastest 55 min
 - Hassocks: fastest 55 min, typical peak 58 min, 4.0 trains/hr in the peak
@@ -544,56 +755,112 @@ Page: https://railreach.co.uk/terminals/london-bridge/
 - Baldock: fastest 56 min, typical peak 57 min, 2.0 trains/hr in the peak
 - Flitwick: fastest 56 min, typical peak 66 min, 5.2 trains/hr in the peak
 - Gravesend: fastest 56 min, typical peak 59 min, 4.8 trains/hr in the peak
+- Longfield: fastest 56 min
 - Strood: fastest 56 min, typical peak 69 min, 2.4 trains/hr in the peak
+- Ashurst: fastest 57 min, typical peak 57 min, 0.8 trains/hr in the peak
+- Littlehaven: fastest 57 min, typical peak 62 min, 2.8 trains/hr in the peak
 - Cuffley: fastest 58 min
 - Headcorn: fastest 58 min, typical peak 61 min, 4.0 trains/hr in the peak
 - Welwyn North: fastest 58 min
 - Biggleswade: fastest 59 min, typical peak 61 min, 2.0 trains/hr in the peak
+- Faygate: fastest 59 min, typical peak 60 min, 2.4 trains/hr in the peak
 - Leatherhead: fastest 59 min
 - Horsham: fastest 60 min, typical peak 66 min, 2.8 trains/hr in the peak
+- Newington: fastest 60 min, typical peak 60 min, 0.8 trains/hr in the peak
+- Stonegate: fastest 60 min, typical peak 66 min, 2.0 trains/hr in the peak
 - Ashwell & Morden: fastest 61 min, typical peak 62 min, 2.0 trains/hr in the peak
 - Brighton: fastest 61 min, typical peak 68 min, 4.0 trains/hr in the peak
+- Meopham: fastest 61 min
+- Watton-at-Stone: fastest 61 min
 - Bayford: fastest 62 min
+- Harlington: fastest 62 min, typical peak 63 min, 4.0 trains/hr in the peak
+- Plumpton: fastest 62 min
 - Preston Park: fastest 62 min, typical peak 64 min, 4.0 trains/hr in the peak
+- Eridge: fastest 63 min, typical peak 63 min, 0.8 trains/hr in the peak
 - Ewell West: fastest 63 min
 - Sittingbourne: fastest 63 min, typical peak 63 min, 2.0 trains/hr in the peak
 - Box Hill & Westhumble: fastest 64 min
+- Higham: fastest 64 min, typical peak 64 min, 2.4 trains/hr in the peak
 - Pluckley: fastest 64 min, typical peak 67 min, 3.2 trains/hr in the peak
 - Sandy: fastest 64 min, typical peak 66 min, 2.0 trains/hr in the peak
+- Cooksbridge: fastest 65 min
+- Etchingham: fastest 65 min, typical peak 70 min, 3.2 trains/hr in the peak
 - Stoneleigh: fastest 65 min
 - Bedford: fastest 66 min, typical peak 78 min, 5.2 trains/hr in the peak
 - Hertford North: fastest 66 min
 - Royston: fastest 66 min, typical peak 67 min, 2.0 trains/hr in the peak
+- Bookham: fastest 67 min
 - Dorking: fastest 67 min
+- Robertsbridge: fastest 68 min, typical peak 74 min, 3.2 trains/hr in the peak
+- Borough Green & Wrotham: fastest 69 min
+- Crowborough: fastest 69 min, typical peak 69 min, 0.8 trains/hr in the peak
+- Ebbsfleet International: fastest 69 min
 - Worcester Park: fastest 69 min
 - Effingham Junction: fastest 70 min
+- Lewes: fastest 70 min
 - Ashford International: fastest 71 min, typical peak 74 min, 4.0 trains/hr in the peak
+- Battle: fastest 71 min, typical peak 82 min, 3.2 trains/hr in the peak
 - Faversham: fastest 71 min, typical peak 71 min, 2.0 trains/hr in the peak
 - Motspur Park: fastest 71 min
 - St Neots: fastest 71 min, typical peak 73 min, 2.0 trains/hr in the peak
+- Teynham: fastest 71 min, typical peak 71 min, 0.8 trains/hr in the peak
 - Hove: fastest 73 min
+- Maidstone West: fastest 73 min
+- Christs Hospital: fastest 74 min
 - Horsley: fastest 74 min
 - Raynes Park: fastest 74 min
+- Buxted: fastest 76 min, typical peak 76 min, 0.8 trains/hr in the peak
+- Glynde: fastest 76 min
 - Meldreth: fastest 76 min
+- Shalford: fastest 76 min
+- West Malling: fastest 76 min
 - Portslade: fastest 77 min
 - Guildford: fastest 78 min
+- Cambridge South: fastest 79 min, typical peak 79 min, 2.0 trains/hr in the peak
 - Clandon: fastest 79 min
+- East Malling: fastest 79 min
 - Huntingdon: fastest 79 min, typical peak 81 min, 2.0 trains/hr in the peak
 - Shepreth: fastest 79 min
+- Billingshurst: fastest 80 min
+- Uckfield: fastest 80 min, typical peak 80 min, 0.8 trains/hr in the peak
+- Warnham: fastest 81 min
+- Whitstable: fastest 81 min, typical peak 81 min, 1.2 trains/hr in the peak
+- Wye: fastest 81 min, typical peak 86 min, 0.8 trains/hr in the peak
+- Berwick (Sussex): fastest 82 min
+- Crowhurst: fastest 82 min, typical peak 88 min, 2.0 trains/hr in the peak
 - Earlsfield: fastest 82 min
 - Foxton: fastest 82 min
 - Shoreham-by-Sea: fastest 82 min
+- St Leonards Warrior Square: fastest 82 min, typical peak 96 min, 3.2 trains/hr in the peak
+- Barming: fastest 83 min
 - Cambridge: fastest 83 min, typical peak 83 min, 2.0 trains/hr in the peak
+- Holmwood: fastest 83 min
 - Peterborough: fastest 83 min, typical peak 96 min, 2.0 trains/hr in the peak
+- Polegate: fastest 83 min
+- Snodland: fastest 83 min
+- Westenhanger: fastest 83 min, typical peak 88 min, 1.6 trains/hr in the peak
+- Chestfield & Swalecliffe: fastest 85 min, typical peak 85 min, 0.8 trains/hr in the peak
 - Harrow & Wealdstone: fastest 85 min
+- Hastings: fastest 85 min, typical peak 100 min, 3.2 trains/hr in the peak
+- London Road (Guildford): fastest 85 min
+- Sole Street: fastest 85 min
 - Lancing: fastest 86 min
+- Sandling: fastest 86 min, typical peak 91 min, 1.6 trains/hr in the peak
+- Ockley: fastest 87 min
+- Pulborough: fastest 87 min
+- Chilham: fastest 88 min, typical peak 92 min, 0.8 trains/hr in the peak
+- Hampden Park: fastest 88 min
+- Herne Bay: fastest 88 min, typical peak 89 min, 1.2 trains/hr in the peak
 - Maidstone East: fastest 88 min
+- West St Leonards: fastest 88 min, typical peak 94 min, 2.0 trains/hr in the peak
+- Wellingborough: fastest 89 min
+- East Worthing: fastest 90 min
 - Vauxhall: fastest 90 min
 ## London Victoria
 
 Operators: Southeastern, Southern
 Serves: Kent, Sussex and the South Coast
-Stations within 90 minutes: 121 (66 direct, 17 under 30 minutes)
+Stations within 90 minutes: 203 (117 direct, 20 under 30 minutes)
 Fastest station: Battersea Park at 4 minutes
 Page: https://railreach.co.uk/terminals/victoria/
 
@@ -607,61 +874,86 @@ Page: https://railreach.co.uk/terminals/victoria/
 - East Croydon: fastest 16 min, typical peak 17 min, 9.2 trains/hr in the peak
 - Lewisham: fastest 21 min, typical peak 22 min, 2.0 trains/hr in the peak
 - Orpington: fastest 22 min, typical peak 34 min, 4.0 trains/hr in the peak
+- St Mary Cray: fastest 23 min, typical peak 37 min, 2.8 trains/hr in the peak
 - Bellingham: fastest 24 min, typical peak 25 min, 1.2 trains/hr in the peak
 - Bickley: fastest 25 min, typical peak 35 min, 2.0 trains/hr in the peak
 - Blackheath: fastest 25 min, typical peak 26 min, 2.0 trains/hr in the peak
 - Purley: fastest 25 min, typical peak 25 min, 2.0 trains/hr in the peak
+- Chelsfield: fastest 27 min, typical peak 28 min, 0.8 trains/hr in the peak
 - Swanley: fastest 27 min, typical peak 35 min, 6.0 trains/hr in the peak
 - Gatwick Airport: fastest 29 min, typical peak 32 min, 6.8 trains/hr in the peak
 - Kidbrooke: fastest 29 min, typical peak 30 min, 2.0 trains/hr in the peak
+- Upper Warlingham: fastest 29 min, typical peak 30 min, 2.0 trains/hr in the peak
 - Coulsdon South: fastest 30 min, typical peak 30 min, 2.0 trains/hr in the peak
 - Horley: fastest 31 min, typical peak 31 min, 1.2 trains/hr in the peak
 - Sevenoaks: fastest 31 min, typical peak 35 min, 2.0 trains/hr in the peak
 - West Croydon: fastest 31 min, typical peak 35 min, 6.0 trains/hr in the peak
 - Eltham: fastest 32 min, typical peak 34 min, 2.0 trains/hr in the peak
+- Longfield: fastest 32 min, typical peak 51 min, 2.8 trains/hr in the peak
 - Sutton: fastest 32 min, typical peak 48 min, 6.4 trains/hr in the peak
+- Farningham Road: fastest 33 min, typical peak 48 min, 2.0 trains/hr in the peak
+- Woldingham: fastest 33 min, typical peak 33 min, 2.0 trains/hr in the peak
 - Beckenham Hill: fastest 34 min
 - Redhill: fastest 34 min, typical peak 39 min, 2.0 trains/hr in the peak
 - Catford: fastest 35 min
 - Merstham: fastest 35 min, typical peak 35 min, 2.0 trains/hr in the peak
 - Petts Wood: fastest 35 min, typical peak 40 min, 2.0 trains/hr in the peak
+- Meopham: fastest 36 min, typical peak 56 min, 2.4 trains/hr in the peak
 - New Cross: fastest 36 min
 - Three Bridges: fastest 36 min, typical peak 38 min, 2.4 trains/hr in the peak
 - Hither Green: fastest 37 min
 - Hildenborough: fastest 38 min, typical peak 43 min, 2.0 trains/hr in the peak
 - Oxted: fastest 38 min, typical peak 39 min, 2.0 trains/hr in the peak
 - Welling: fastest 38 min, typical peak 39 min, 2.0 trains/hr in the peak
+- Eynsford: fastest 39 min
 - Otford: fastest 39 min, typical peak 44 min, 4.0 trains/hr in the peak
 - Chislehurst: fastest 40 min
 - Bexleyheath: fastest 41 min, typical peak 42 min, 2.0 trains/hr in the peak
 - Epsom: fastest 41 min, typical peak 44 min, 2.4 trains/hr in the peak
 - Rochester: fastest 41 min, typical peak 60 min, 4.0 trains/hr in the peak
 - Hurst Green: fastest 42 min, typical peak 42 min, 2.0 trains/hr in the peak
+- Shoreham (Kent): fastest 42 min
 - Tonbridge: fastest 42 min, typical peak 47 min, 2.0 trains/hr in the peak
 - Crawley: fastest 43 min, typical peak 43 min, 2.0 trains/hr in the peak
 - Haywards Heath: fastest 43 min, typical peak 47 min, 4.8 trains/hr in the peak
 - Barnehurst: fastest 44 min, typical peak 46 min, 2.0 trains/hr in the peak
 - Chatham: fastest 44 min, typical peak 64 min, 4.0 trains/hr in the peak
+- Sole Street: fastest 44 min, typical peak 59 min, 2.0 trains/hr in the peak
+- Kenley: fastest 45 min
+- Knockholt: fastest 45 min
 - Reigate: fastest 45 min, typical peak 50 min, 2.0 trains/hr in the peak
 - Salfords: fastest 45 min
 - Ashtead: fastest 46 min, typical peak 51 min, 2.0 trains/hr in the peak
+- Borough Green & Wrotham: fastest 46 min, typical peak 52 min, 4.0 trains/hr in the peak
 - Earlswood: fastest 46 min
 - Grove Park: fastest 46 min
 - Harrow & Wealdstone: fastest 46 min
+- Kemsing: fastest 46 min, typical peak 52 min, 0.8 trains/hr in the peak
+- Dunton Green: fastest 47 min
+- Ifield: fastest 47 min
 - New Eltham: fastest 47 min
 - Gillingham: fastest 48 min, typical peak 68 min, 4.0 trains/hr in the peak
 - Balcombe: fastest 49 min
 - Bat & Ball: fastest 49 min
+- High Brooms: fastest 49 min, typical peak 54 min, 1.6 trains/hr in the peak
 - Kentish Town: fastest 49 min
 - Lingfield: fastest 49 min, typical peak 49 min, 2.0 trains/hr in the peak
+- Whyteleafe: fastest 49 min
 - Burgess Hill: fastest 50 min, typical peak 50 min, 3.6 trains/hr in the peak
 - Leatherhead: fastest 50 min, typical peak 56 min, 2.0 trains/hr in the peak
+- Banstead: fastest 51 min, typical peak 58 min, 1.6 trains/hr in the peak
 - Dartford: fastest 51 min, typical peak 53 min, 2.0 trains/hr in the peak
+- Littlehaven: fastest 51 min, typical peak 51 min, 1.2 trains/hr in the peak
 - Sidcup: fastest 51 min
+- Whyteleafe South: fastest 51 min
+- Dormans: fastest 52 min, typical peak 52 min, 2.0 trains/hr in the peak
 - Tunbridge Wells: fastest 52 min, typical peak 58 min, 1.6 trains/hr in the peak
 - Watford Junction: fastest 52 min
 - Wimbledon: fastest 52 min
+- Edenbridge Town: fastest 53 min
+- West Malling: fastest 53 min, typical peak 60 min, 4.0 trains/hr in the peak
 - Woolwich Arsenal: fastest 53 min
+- Epsom Downs: fastest 54 min, typical peak 62 min, 1.6 trains/hr in the peak
 - Finsbury Park: fastest 54 min
 - Hassocks: fastest 54 min, typical peak 54 min, 3.6 trains/hr in the peak
 - Horsham: fastest 54 min, typical peak 55 min, 3.2 trains/hr in the peak
@@ -669,60 +961,117 @@ Page: https://railreach.co.uk/terminals/victoria/
 - Strood: fastest 54 min
 - West Hampstead Thameslink: fastest 54 min
 - Wivelsfield: fastest 54 min, typical peak 55 min, 1.2 trains/hr in the peak
+- Caterham: fastest 55 min
+- Bexley: fastest 56 min
 - East Grinstead: fastest 56 min, typical peak 56 min, 2.0 trains/hr in the peak
+- East Malling: fastest 56 min, typical peak 65 min, 2.0 trains/hr in the peak
 - Ewell West: fastest 56 min
+- Hever: fastest 56 min
 - Plumstead: fastest 56 min
 - Dorking: fastest 57 min, typical peak 64 min, 2.0 trains/hr in the peak
+- Faygate: fastest 57 min
+- Greenhithe for Bluewater: fastest 57 min, typical peak 59 min, 1.2 trains/hr in the peak
 - Cricklewood: fastest 58 min
 - Abbey Wood: fastest 59 min
 - Box Hill & Westhumble: fastest 59 min, typical peak 61 min, 1.2 trains/hr in the peak
+- Crayford: fastest 59 min
+- Higham: fastest 59 min
+- Newington: fastest 59 min, typical peak 64 min, 1.2 trains/hr in the peak
 - Stoneleigh: fastest 59 min
+- Barming: fastest 60 min, typical peak 68 min, 2.0 trains/hr in the peak
 - Brighton: fastest 60 min, typical peak 65 min, 2.0 trains/hr in the peak
+- Christs Hospital: fastest 60 min, typical peak 66 min, 2.0 trains/hr in the peak
+- Cowden: fastest 61 min
 - Preston Park: fastest 61 min, typical peak 61 min, 3.6 trains/hr in the peak
 - Worcester Park: fastest 62 min
 - Gravesend: fastest 63 min, typical peak 65 min, 1.2 trains/hr in the peak
 - Maidstone East: fastest 63 min, typical peak 70 min, 4.0 trains/hr in the peak
 - Mill Hill Broadway: fastest 63 min
+- Plumpton: fastest 63 min, typical peak 63 min, 0.8 trains/hr in the peak
 - Motspur Park: fastest 64 min
 - Oakleigh Park: fastest 64 min
 - Sittingbourne: fastest 64 min, typical peak 69 min, 2.0 trains/hr in the peak
+- Cooksbridge: fastest 65 min, typical peak 66 min, 0.4 trains/hr in the peak
 - Erith: fastest 65 min
+- Ashurst: fastest 66 min
+- Billingshurst: fastest 66 min, typical peak 73 min, 2.0 trains/hr in the peak
 - New Barnet: fastest 66 min
 - Slade Green: fastest 66 min
 - Elstree & Borehamwood: fastest 67 min
 - Hove: fastest 67 min, typical peak 69 min, 1.6 trains/hr in the peak
 - Raynes Park: fastest 67 min
+- Frant: fastest 68 min
 - Paddock Wood: fastest 68 min
+- Bearsted: fastest 69 min, typical peak 79 min, 3.6 trains/hr in the peak
+- Stone Crossing: fastest 69 min
+- Teynham: fastest 69 min, typical peak 74 min, 1.2 trains/hr in the peak
+- Bookham: fastest 70 min
+- Holmwood: fastest 70 min, typical peak 72 min, 1.2 trains/hr in the peak
+- Lewes: fastest 70 min, typical peak 71 min, 1.2 trains/hr in the peak
+- Northfleet: fastest 70 min
 - Portslade: fastest 70 min, typical peak 72 min, 1.6 trains/hr in the peak
 - Potters Bar: fastest 71 min
 - Radlett: fastest 71 min
+- Ebbsfleet International: fastest 72 min
+- Eridge: fastest 72 min
 - Faversham: fastest 72 min, typical peak 80 min, 2.0 trains/hr in the peak
+- Swanscombe: fastest 72 min
+- Wadhurst: fastest 72 min
 - Effingham Junction: fastest 73 min
+- Hollingbourne: fastest 73 min, typical peak 83 min, 3.2 trains/hr in the peak
+- Pulborough: fastest 73 min, typical peak 80 min, 2.0 trains/hr in the peak
 - Earlsfield: fastest 75 min
+- Ockley: fastest 75 min, typical peak 77 min, 1.2 trains/hr in the peak
+- Shalford: fastest 75 min
 - Shoreham-by-Sea: fastest 75 min, typical peak 77 min, 1.6 trains/hr in the peak
 - St Albans City: fastest 76 min
 - Staplehurst: fastest 76 min
+- Glynde: fastest 77 min, typical peak 77 min, 1.2 trains/hr in the peak
 - Hatfield: fastest 77 min
 - Horsley: fastest 77 min
+- Warnham: fastest 77 min, typical peak 83 min, 1.2 trains/hr in the peak
+- Crowborough: fastest 78 min
+- Harrietsham: fastest 78 min, typical peak 87 min, 3.2 trains/hr in the peak
 - Lancing: fastest 79 min, typical peak 82 min, 1.6 trains/hr in the peak
+- Stonegate: fastest 79 min
 - Stratford: fastest 79 min
+- Amberley: fastest 80 min, typical peak 86 min, 2.0 trains/hr in the peak
 - Marden: fastest 80 min
 - Clandon: fastest 81 min
 - Headcorn: fastest 81 min
+- Lenham: fastest 81 min, typical peak 91 min, 3.2 trains/hr in the peak
 - Harpenden: fastest 82 min
 - Welwyn Garden City: fastest 82 min
+- Whitstable: fastest 82 min, typical peak 91 min, 1.2 trains/hr in the peak
+- Berwick (Sussex): fastest 83 min, typical peak 83 min, 1.2 trains/hr in the peak
+- East Worthing: fastest 83 min
+- Polegate: fastest 83 min, typical peak 89 min, 1.2 trains/hr in the peak
+- Selling: fastest 83 min, typical peak 88 min, 0.8 trains/hr in the peak
 - Vauxhall: fastest 83 min
+- Arundel: fastest 84 min, typical peak 91 min, 2.0 trains/hr in the peak
+- Etchingham: fastest 84 min
+- Buxted: fastest 85 min
+- Chestfield & Swalecliffe: fastest 85 min, typical peak 95 min, 1.2 trains/hr in the peak
 - Worthing: fastest 85 min, typical peak 86 min, 1.6 trains/hr in the peak
 - Knebworth: fastest 86 min
+- London Road (Guildford): fastest 86 min
 - Stevenage: fastest 86 min
+- Charing: fastest 87 min, typical peak 96 min, 3.2 trains/hr in the peak
 - Guildford: fastest 87 min
 - Luton Airport Parkway: fastest 87 min
+- Robertsbridge: fastest 87 min
+- Hampden Park: fastest 88 min, typical peak 94 min, 1.2 trains/hr in the peak
+- West Worthing: fastest 88 min, typical peak 89 min, 1.6 trains/hr in the peak
+- Battle: fastest 89 min
+- Herne Bay: fastest 89 min, typical peak 98 min, 1.2 trains/hr in the peak
 - Luton: fastest 89 min
+- Uckfield: fastest 89 min
+- Durrington-on-Sea: fastest 90 min, typical peak 92 min, 1.6 trains/hr in the peak
 ## London Liverpool Street
 
 Operators: Greater Anglia, Elizabeth line
 Serves: Essex, Hertfordshire and East Anglia
-Stations within 90 minutes: 62 (48 direct, 14 under 30 minutes)
+Stations within 90 minutes: 105 (82 direct, 16 under 30 minutes)
 Fastest station: Stratford at 6 minutes
 Page: https://railreach.co.uk/terminals/liverpool-street/
 
@@ -736,63 +1085,106 @@ Page: https://railreach.co.uk/terminals/liverpool-street/
 - Shenfield: fastest 23 min, typical peak 36 min, 22.4 trains/hr in the peak
 - Southall: fastest 24 min, typical peak 29 min, 9.2 trains/hr in the peak
 - Hanwell: fastest 25 min, typical peak 26 min, 5.2 trains/hr in the peak
+- Waltham Cross: fastest 26 min, typical peak 30 min, 1.6 trains/hr in the peak
 - Broxbourne: fastest 27 min, typical peak 31 min, 5.3 trains/hr in the peak
 - Hayes & Harlington: fastest 28 min, typical peak 32 min, 10.0 trains/hr in the peak
 - Chelmsford: fastest 29 min, typical peak 38 min, 7.2 trains/hr in the peak
+- Gidea Park: fastest 29 min, typical peak 32 min, 13.2 trains/hr in the peak
 - Ingatestone: fastest 29 min, typical peak 32 min, 2.8 trains/hr in the peak
 - Harlow Town: fastest 30 min, typical peak 36 min, 5.5 trains/hr in the peak
 - Billericay: fastest 31 min, typical peak 35 min, 5.6 trains/hr in the peak
+- Roydon: fastest 31 min, typical peak 35 min, 2.3 trains/hr in the peak
+- Harold Wood: fastest 32 min, typical peak 36 min, 11.2 trains/hr in the peak
 - West Drayton: fastest 32 min, typical peak 35 min, 6.0 trains/hr in the peak
 - Iver: fastest 35 min, typical peak 38 min, 4.0 trains/hr in the peak
 - Brentwood: fastest 36 min, typical peak 40 min, 11.2 trains/hr in the peak
+- Theobalds Grove: fastest 36 min, typical peak 37 min, 2.0 trains/hr in the peak
 - Wickford: fastest 36 min, typical peak 41 min, 5.6 trains/hr in the peak
 - Bishops Stortford: fastest 37 min, typical peak 46 min, 6.9 trains/hr in the peak
 - Harlow Mill: fastest 37 min, typical peak 42 min, 1.9 trains/hr in the peak
 - Langley: fastest 37 min, typical peak 41 min, 4.0 trains/hr in the peak
+- Beaulieu Park: fastest 38 min, typical peak 43 min, 3.6 trains/hr in the peak
+- Rye House: fastest 38 min, typical peak 40 min, 2.0 trains/hr in the peak
 - Upminster: fastest 38 min
 - Hatfield Peverel: fastest 39 min, typical peak 46 min, 2.8 trains/hr in the peak
 - Slough: fastest 39 min, typical peak 43 min, 6.0 trains/hr in the peak
 - Sawbridgeworth: fastest 40 min, typical peak 44 min, 3.1 trains/hr in the peak
+- St Margarets (Hertfordshire): fastest 41 min, typical peak 44 min, 2.0 trains/hr in the peak
 - Rayleigh: fastest 42 min, typical peak 47 min, 4.4 trains/hr in the peak
 - Stansted Mountfitchet: fastest 42 min, typical peak 56 min, 2.7 trains/hr in the peak
 - Burnham: fastest 43 min, typical peak 47 min, 6.0 trains/hr in the peak
 - Witham: fastest 43 min, typical peak 48 min, 7.2 trains/hr in the peak
+- Battlesbridge: fastest 44 min, typical peak 47 min, 1.2 trains/hr in the peak
+- Ware: fastest 45 min, typical peak 48 min, 2.0 trains/hr in the peak
 - Hockley: fastest 46 min, typical peak 51 min, 4.4 trains/hr in the peak
 - Stansted Airport: fastest 46 min, typical peak 55 min, 3.6 trains/hr in the peak
 - Colchester: fastest 47 min, typical peak 62 min, 6.8 trains/hr in the peak
 - Maidenhead: fastest 47 min, typical peak 53 min, 6.0 trains/hr in the peak
+- South Woodham Ferrers: fastest 48 min, typical peak 51 min, 1.2 trains/hr in the peak
 - Hertford East: fastest 49 min, typical peak 52 min, 2.0 trains/hr in the peak
 - Taplow: fastest 49 min, typical peak 52 min, 4.0 trains/hr in the peak
 - Kelvedon: fastest 50 min, typical peak 55 min, 3.6 trains/hr in the peak
 - Rochford: fastest 50 min, typical peak 55 min, 4.4 trains/hr in the peak
 - Elsenham: fastest 51 min, typical peak 59 min, 1.9 trains/hr in the peak
 - Marks Tey: fastest 52 min, typical peak 58 min, 3.2 trains/hr in the peak
+- Southend Airport: fastest 52 min, typical peak 57 min, 4.4 trains/hr in the peak
+- White Notley: fastest 52 min, typical peak 59 min, 1.2 trains/hr in the peak
+- North Fambridge: fastest 53 min, typical peak 56 min, 1.2 trains/hr in the peak
+- Cressing: fastest 54 min, typical peak 61 min, 1.2 trains/hr in the peak
 - Windsor & Eton Central: fastest 54 min
 - Audley End: fastest 55 min, typical peak 67 min, 3.3 trains/hr in the peak
+- Prittlewell: fastest 55 min, typical peak 60 min, 4.4 trains/hr in the peak
 - Twyford: fastest 55 min, typical peak 58 min, 4.0 trains/hr in the peak
 - Manningtree: fastest 56 min, typical peak 65 min, 3.6 trains/hr in the peak
+- Newport (Essex): fastest 56 min, typical peak 65 min, 1.9 trains/hr in the peak
 - Southend Victoria: fastest 57 min, typical peak 62 min, 4.4 trains/hr in the peak
+- Braintree Freeport: fastest 58 min, typical peak 65 min, 1.2 trains/hr in the peak
+- Althorne: fastest 60 min, typical peak 62 min, 1.2 trains/hr in the peak
 - Braintree: fastest 60 min, typical peak 67 min, 1.2 trains/hr in the peak
 - Ipswich: fastest 60 min, typical peak 74 min, 2.8 trains/hr in the peak
 - Reading: fastest 60 min, typical peak 63 min, 4.0 trains/hr in the peak
+- Colchester Town: fastest 63 min, typical peak 81 min, 0.8 trains/hr in the peak
 - Whittlesford Parkway: fastest 63 min, typical peak 77 min, 3.3 trains/hr in the peak
+- Hythe: fastest 64 min, typical peak 70 min, 2.4 trains/hr in the peak
+- Burnham-on-Crouch: fastest 65 min, typical peak 67 min, 1.2 trains/hr in the peak
+- Great Chesterford: fastest 65 min, typical peak 74 min, 1.9 trains/hr in the peak
+- Wivenhoe: fastest 68 min, typical peak 74 min, 2.4 trains/hr in the peak
+- Cambridge South: fastest 69 min, typical peak 84 min, 3.3 trains/hr in the peak
+- Southminster: fastest 69 min, typical peak 71 min, 1.2 trains/hr in the peak
+- Reading West: fastest 71 min
+- Stowmarket: fastest 71 min, typical peak 85 min, 2.0 trains/hr in the peak
 - Cambridge: fastest 73 min, typical peak 87 min, 3.3 trains/hr in the peak
+- Shelford: fastest 73 min, typical peak 82 min, 1.9 trains/hr in the peak
 - Tilehurst: fastest 73 min
+- Mistley: fastest 76 min, typical peak 93 min, 0.4 trains/hr in the peak
+- Alresford: fastest 77 min, typical peak 78 min, 1.2 trains/hr in the peak
 - Henley-on-Thames: fastest 77 min
 - Richmond: fastest 77 min
 - Pangbourne: fastest 78 min
+- Thorpe-le-Soken: fastest 78 min, typical peak 86 min, 2.4 trains/hr in the peak
+- Cambridge North: fastest 80 min, typical peak 90 min, 1.6 trains/hr in the peak
 - Clapham Junction: fastest 81 min
+- Great Bentley: fastest 81 min, typical peak 82 min, 1.2 trains/hr in the peak
 - Marlow: fastest 81 min
 - Theale: fastest 81 min
+- Diss: fastest 82 min, typical peak 97 min, 2.0 trains/hr in the peak
 - Goring & Streatley: fastest 82 min
+- Harwich International: fastest 82 min, typical peak 94 min, 0.8 trains/hr in the peak
+- Wrabness: fastest 82 min, typical peak 99 min, 0.4 trains/hr in the peak
+- Weeley: fastest 84 min, typical peak 84 min, 0.4 trains/hr in the peak
+- Wokingham: fastest 85 min
+- Clacton-on-Sea: fastest 86 min, typical peak 94 min, 2.4 trains/hr in the peak
+- Aldermaston: fastest 87 min
 - Cholsey: fastest 87 min
 - Didcot Parkway: fastest 87 min
+- Waterbeach: fastest 88 min, typical peak 90 min, 1.2 trains/hr in the peak
 - Thatcham: fastest 89 min
+- Midgham: fastest 90 min
 ## London Euston
 
 Operators: Avanti West Coast, London Northwestern
 Serves: the West Coast Main Line, Buckinghamshire and the Midlands
-Stations within 90 minutes: 23 (17 direct, 7 under 30 minutes)
+Stations within 90 minutes: 32 (26 direct, 7 under 30 minutes)
 Fastest station: Harrow & Wealdstone at 13 minutes
 Page: https://railreach.co.uk/terminals/euston/
 
@@ -807,14 +1199,23 @@ Page: https://railreach.co.uk/terminals/euston/
 - Berkhamsted: fastest 31 min, typical peak 37 min, 5.2 trains/hr in the peak
 - Milton Keynes Central: fastest 32 min, typical peak 36 min, 8.9 trains/hr in the peak
 - Bletchley: fastest 37 min, typical peak 61 min, 4.4 trains/hr in the peak
+- Hatch End: fastest 39 min, typical peak 41 min, 3.9 trains/hr in the peak
+- Carpenders Park: fastest 42 min, typical peak 44 min, 3.9 trains/hr in the peak
 - Cheddington: fastest 44 min, typical peak 50 min, 2.4 trains/hr in the peak
+- Wolverton: fastest 44 min, typical peak 48 min, 2.4 trains/hr in the peak
+- Watford High Street: fastest 47 min, typical peak 49 min, 3.9 trains/hr in the peak
 - Rugby: fastest 49 min, typical peak 58 min, 6.0 trains/hr in the peak
 - Northampton: fastest 50 min, typical peak 59 min, 3.6 trains/hr in the peak
 - Clapham Junction: fastest 56 min
 - Coventry: fastest 56 min, typical peak 67 min, 4.9 trains/hr in the peak
+- Nuneaton: fastest 58 min, typical peak 70 min, 2.8 trains/hr in the peak
 - Balham: fastest 64 min
 - Birmingham International: fastest 68 min, typical peak 79 min, 4.9 trains/hr in the peak
 - Long Buckby: fastest 68 min, typical peak 74 min, 2.4 trains/hr in the peak
+- Tamworth: fastest 68 min, typical peak 87 min, 2.0 trains/hr in the peak
+- Lichfield Trent Valley: fastest 76 min, typical peak 93 min, 2.0 trains/hr in the peak
+- Stafford: fastest 76 min, typical peak 92 min, 3.6 trains/hr in the peak
+- Atherstone: fastest 78 min, typical peak 81 min, 1.2 trains/hr in the peak
 - Birmingham New Street: fastest 79 min, typical peak 91 min, 4.5 trains/hr in the peak
 - Leamington Spa: fastest 81 min
 - East Croydon: fastest 83 min
@@ -823,27 +1224,37 @@ Page: https://railreach.co.uk/terminals/euston/
 
 Operators: Chiltern Railways
 Serves: the Chilterns, Buckinghamshire and Oxfordshire
-Stations within 90 minutes: 21 (19 direct, 6 under 30 minutes)
-Fastest station: Denham at 19 minutes
+Stations within 90 minutes: 31 (29 direct, 9 under 30 minutes)
+Fastest station: West Ruislip at 18 minutes
 Page: https://railreach.co.uk/terminals/marylebone/
 
+- West Ruislip: fastest 18 min, typical peak 23 min, 1.2 trains/hr in the peak
 - Denham: fastest 19 min, typical peak 22 min, 1.6 trains/hr in the peak
 - Gerrards Cross: fastest 19 min, typical peak 28 min, 4.0 trains/hr in the peak
 - Denham Golf Club: fastest 22 min, typical peak 24 min, 0.8 trains/hr in the peak
+- Seer Green: fastest 24 min, typical peak 33 min, 1.6 trains/hr in the peak
 - Seer Green & Jordans: fastest 24 min, typical peak 33 min, 1.6 trains/hr in the peak
 - Beaconsfield: fastest 25 min, typical peak 32 min, 3.6 trains/hr in the peak
 - High Wycombe: fastest 25 min, typical peak 39 min, 5.2 trains/hr in the peak
+- Rickmansworth: fastest 25 min, typical peak 27 min, 1.2 trains/hr in the peak
+- Chorleywood: fastest 30 min, typical peak 32 min, 2.0 trains/hr in the peak
+- Amersham: fastest 31 min, typical peak 38 min, 3.2 trains/hr in the peak
+- Chalfont & Latimer: fastest 33 min, typical peak 35 min, 2.0 trains/hr in the peak
 - Saunderton: fastest 35 min, typical peak 46 min, 1.6 trains/hr in the peak
 - Great Missenden: fastest 39 min, typical peak 46 min, 3.2 trains/hr in the peak
 - Haddenham & Thame Parkway: fastest 39 min, typical peak 52 min, 2.8 trains/hr in the peak
 - Princes Risborough: fastest 39 min, typical peak 49 min, 2.0 trains/hr in the peak
+- Wendover: fastest 45 min, typical peak 52 min, 3.2 trains/hr in the peak
 - Bicester North: fastest 48 min, typical peak 52 min, 2.4 trains/hr in the peak
 - Stoke Mandeville: fastest 50 min, typical peak 56 min, 3.2 trains/hr in the peak
 - Monks Risborough: fastest 54 min
 - Aylesbury: fastest 55 min, typical peak 61 min, 3.2 trains/hr in the peak
+- Bicester Village: fastest 57 min, typical peak 71 min, 2.0 trains/hr in the peak
 - Little Kimble: fastest 58 min
 - Aylesbury Vale Parkway: fastest 60 min, typical peak 67 min, 2.0 trains/hr in the peak
 - Banbury: fastest 62 min, typical peak 65 min, 2.0 trains/hr in the peak
+- Oxford Parkway: fastest 67 min, typical peak 81 min, 2.0 trains/hr in the peak
+- Islip: fastest 70 min, typical peak 74 min, 0.4 trains/hr in the peak
 - Kings Sutton: fastest 71 min, typical peak 83 min, 0.4 trains/hr in the peak
 - Oxford: fastest 74 min, typical peak 87 min, 2.0 trains/hr in the peak
 - Leamington Spa: fastest 82 min, typical peak 83 min, 2.0 trains/hr in the peak
@@ -852,7 +1263,7 @@ Page: https://railreach.co.uk/terminals/marylebone/
 
 Operators: c2c
 Serves: East London and South Essex
-Stations within 90 minutes: 22 (22 direct, 10 under 30 minutes)
+Stations within 90 minutes: 25 (25 direct, 10 under 30 minutes)
 Fastest station: Limehouse at 4 minutes
 Page: https://railreach.co.uk/terminals/fenchurch-street/
 
@@ -878,11 +1289,14 @@ Page: https://railreach.co.uk/terminals/fenchurch-street/
 - Westcliff: fastest 45 min, typical peak 55 min, 6.8 trains/hr in the peak
 - Southend Central: fastest 47 min, typical peak 57 min, 6.8 trains/hr in the peak
 - Stanford-le-Hope: fastest 48 min, typical peak 52 min, 3.2 trains/hr in the peak
+- Southend East: fastest 50 min, typical peak 59 min, 6.0 trains/hr in the peak
+- Thorpe Bay: fastest 52 min, typical peak 61 min, 6.0 trains/hr in the peak
+- Shoeburyness: fastest 56 min, typical peak 65 min, 4.8 trains/hr in the peak
 ## London Moorgate
 
 Operators: Great Northern
 Serves: the City, and the Hertford loop and Welwyn inner suburbs
-Stations within 90 minutes: 52 (15 direct, 6 under 30 minutes)
+Stations within 90 minutes: 55 (16 direct, 6 under 30 minutes)
 Fastest station: Finsbury Park at 14 minutes
 Page: https://railreach.co.uk/terminals/moorgate/
 
@@ -913,6 +1327,7 @@ Page: https://railreach.co.uk/terminals/moorgate/
 - Arlesey: fastest 54 min
 - Baldock: fastest 56 min
 - East Croydon: fastest 58 min
+- Watton-at-Stone: fastest 58 min, typical peak 59 min, 2.0 trains/hr in the peak
 - Biggleswade: fastest 59 min
 - Ashwell & Morden: fastest 61 min
 - Catford: fastest 62 min
@@ -927,10 +1342,12 @@ Page: https://railreach.co.uk/terminals/moorgate/
 - Bromley South: fastest 74 min
 - Redhill: fastest 76 min
 - Bickley: fastest 77 min
+- Cambridge South: fastest 78 min
 - Huntingdon: fastest 79 min
 - Three Bridges: fastest 79 min
 - Earlswood: fastest 81 min
 - Cambridge: fastest 82 min
+- St Mary Cray: fastest 82 min
 - Horley: fastest 84 min
 - Balcombe: fastest 85 min
 - Meldreth: fastest 85 min

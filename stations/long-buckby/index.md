@@ -35,7 +35,7 @@ Yes. Direct services run to Euston.
 
 ### What are the nearest stations to Long Buckby?
 
-The closest alternatives are Northampton, Rugby, Leamington Spa. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Northampton, Rugby, Market Harborough. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

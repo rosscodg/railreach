@@ -35,7 +35,7 @@ Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Newark Northgate?
 
-The closest alternatives are Grantham, Peterborough, Rugby. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Grantham, Retford, Long Eaton. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

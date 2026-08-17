@@ -1,10 +1,10 @@
 # Train journey times to London Fenchurch Street
 
-22 stations reach London Fenchurch Street within 90 minutes, 22 of them on a
+25 stations reach London Fenchurch Street within 90 minutes, 25 of them on a
 direct train. Services are operated by c2c.
 
-- Stations within 90 minutes: 22
-- Direct services: 22 of 22
+- Stations within 90 minutes: 25
+- Direct services: 25 of 25
 - Stations under 30 minutes: 10
 - Fastest station: Limehouse - 4 minutes
 - Operators: c2c
@@ -37,6 +37,9 @@ direct train. Services are operated by c2c.
 | Westcliff | 45 min | same as fastest | 55 | 6.8 |
 | Southend Central | 47 min | same as fastest | 57 | 6.8 |
 | Stanford-le-Hope | 48 min | same as fastest | 52 | 3.2 |
+| Southend East | 50 min | same as fastest | 59 | 6.0 |
+| Thorpe Bay | 52 min | same as fastest | 61 | 6.0 |
+| Shoeburyness | 56 min | same as fastest | 65 | 4.8 |
 
 ## Frequently asked questions
 
@@ -50,7 +53,7 @@ The fastest connection is from Limehouse, at 4 minutes on a direct service. Serv
 
 ### How many stations connect to Fenchurch Street?
 
-22 stations have a service to London Fenchurch Street within 90 minutes, and 22 of those are direct trains with no change required.
+25 stations have a service to London Fenchurch Street within 90 minutes, and 25 of those are direct trains with no change required.
 
 ### What areas does Fenchurch Street serve?
 
@@ -58,7 +61,7 @@ London Fenchurch Street primarily serves East London and South Essex. Key commut
 
 ### Is Fenchurch Street a good terminal to commute into?
 
-With 22 stations inside 90 minutes and 22 direct services, Fenchurch Street serves a focused commuter corridor. The quickest option is Limehouse at 4 minutes.
+With 25 stations inside 90 minutes and 25 direct services, Fenchurch Street serves a focused commuter corridor. The quickest option is Limehouse at 4 minutes.
 
 ## About this data
 

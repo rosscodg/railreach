@@ -1,11 +1,11 @@
 # Train journey times to London London Bridge
 
-149 stations reach London London Bridge within 90 minutes, 91 of them on a
+234 stations reach London London Bridge within 90 minutes, 138 of them on a
 direct train. Services are operated by Southeastern, Southern, Thameslink.
 
-- Stations within 90 minutes: 149
-- Direct services: 91 of 149
-- Stations under 30 minutes: 29
+- Stations within 90 minutes: 234
+- Direct services: 138 of 234
+- Stations under 30 minutes: 31
 - Fastest station: New Cross - 5 minutes
 - Operators: Southeastern, Southern, Thameslink
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
@@ -23,6 +23,7 @@ direct train. Services are operated by Southeastern, Southern, Thameslink.
 | Grove Park | 13 min | same as fastest | 19 | 4.0 |
 | Blackheath | 14 min | same as fastest | 15 | 6.8 |
 | Orpington | 15 min | same as fastest | 31 | 4.8 |
+| Chelsfield | 17 min | same as fastest | 41 | 3.2 |
 | Kidbrooke | 18 min | same as fastest | 20 | 4.8 |
 | West Croydon | 18 min | same as fastest | 18 | 2.0 |
 | Chislehurst | 20 min | same as fastest | 26 | 4.0 |
@@ -44,17 +45,22 @@ direct train. Services are operated by Southeastern, Southern, Thameslink.
 | Abbey Wood | 27 min | same as fastest | 30 | 9.6 |
 | Welling | 27 min | same as fastest | 29 | 4.8 |
 | Gatwick Airport | 29 min | same as fastest | 36 | 8.0 |
+| Upper Warlingham | 29 min | same as fastest | 29 | 1.2 |
+| Bexley | 30 min | same as fastest | 35 | 6.0 |
 | Bexleyheath | 30 min | same as fastest | 32 | 4.8 |
 | Earlswood | 31 min | same as fastest | 38 | 1.6 |
 | Hildenborough | 32 min | same as fastest | 34 | 1.2 |
 | Sutton | 32 min | same as fastest | 32 | 2.4 |
+| Woldingham | 32 min | same as fastest | 32 | 1.2 |
 | Barnehurst | 33 min | same as fastest | 36 | 4.8 |
 | Battersea Park | 33 min (change at Peckham Rye) | 49 min | 54 | 1.6 |
 | Clapham Junction | 33 min (change at East Croydon) | 44 min | 50 | 1.6 |
+| Crayford | 33 min | same as fastest | 38 | 6.0 |
 | Erith | 33 min | same as fastest | 40 | 7.6 |
 | Oxted | 33 min | same as fastest | 38 | 2.0 |
 | Tonbridge | 33 min | same as fastest | 37 | 6.8 |
 | Alexandra Palace | 34 min (change at Finsbury Park) | no direct service | - | - |
+| Knockholt | 34 min (change at Orpington) | 37 min | 44 | 2.0 |
 | Mill Hill Broadway | 34 min | same as fastest | 34 | 0.4 |
 | Slade Green | 34 min | same as fastest | 39 | 9.6 |
 | Three Bridges | 34 min | same as fastest | 42 | 8.0 |
@@ -70,11 +76,14 @@ direct train. Services are operated by Southeastern, Southern, Thameslink.
 | Bromley South | 38 min (change at London Blackfriars) | no direct service | - | - |
 | Dartford | 38 min | same as fastest | 42 | 7.2 |
 | Elstree & Borehamwood | 38 min | same as fastest | 38 | 0.4 |
+| Kenley | 38 min | same as fastest | 39 | 2.0 |
 | Balham | 39 min | same as fastest | 44 | 1.6 |
 | Catford | 39 min (change at London Blackfriars) | no direct service | - | - |
+| Dunton Green | 39 min (change at Orpington) | 42 min | 49 | 2.0 |
 | Oakleigh Park | 39 min (change at Finsbury Park) | no direct service | - | - |
 | Balcombe | 40 min | same as fastest | 40 | 2.0 |
 | Chatham | 40 min | same as fastest | 60 | 4.8 |
+| High Brooms | 40 min | same as fastest | 44 | 3.2 |
 | Knebworth | 40 min | same as fastest | 40 | 2.0 |
 | Wimbledon | 40 min (change at Tulse Hill) | no direct service | - | - |
 | Bat & Ball | 41 min (change at Sevenoaks) | no direct service | - | - |
@@ -86,30 +95,50 @@ direct train. Services are operated by Southeastern, Southern, Thameslink.
 | Epsom | 42 min | same as fastest | 43 | 2.0 |
 | Paddock Wood | 42 min | same as fastest | 46 | 4.0 |
 | Stevenage | 42 min | same as fastest | 44 | 4.0 |
+| Whyteleafe | 42 min | same as fastest | 43 | 2.0 |
 | Beckenham Hill | 44 min (change at London Blackfriars) | no direct service | - | - |
+| Edenbridge Town | 44 min | same as fastest | 44 | 0.8 |
 | Gillingham | 44 min | same as fastest | 65 | 4.8 |
 | Haywards Heath | 44 min | same as fastest | 46 | 4.4 |
 | Lingfield | 44 min | same as fastest | 48 | 1.2 |
 | Otford | 44 min (change at Sevenoaks) | no direct service | - | - |
 | Potters Bar | 44 min (change at Finsbury Park) | no direct service | - | - |
 | Tunbridge Wells | 44 min | same as fastest | 48 | 3.2 |
+| Whyteleafe South | 44 min | same as fastest | 45 | 2.0 |
 | Hadley Wood | 45 min (change at Finsbury Park) | no direct service | - | - |
+| St Mary Cray | 45 min (change at London Blackfriars) | no direct service | - | - |
+| Stone Crossing | 45 min | same as fastest | 47 | 4.8 |
+| Banstead | 46 min (change at Sutton (London)) | no direct service | - | - |
 | Reigate | 46 min (change at Redhill) | no direct service | - | - |
 | Crawley | 47 min (change at Three Bridges) | 51 min | 52 | 2.8 |
+| Dormans | 47 min | same as fastest | 51 | 1.2 |
+| Greenhithe for Bluewater | 47 min | same as fastest | 49 | 4.8 |
+| Hever | 47 min | same as fastest | 48 | 0.8 |
 | Luton | 47 min | same as fastest | 51 | 5.6 |
+| Shoreham (Kent) | 47 min (change at Sevenoaks) | no direct service | - | - |
+| Caterham | 48 min | same as fastest | 49 | 2.0 |
 | Enfield Chase | 48 min (change at Finsbury Park) | no direct service | - | - |
 | Hitchin | 48 min | same as fastest | 50 | 4.0 |
 | Luton Airport Parkway | 48 min | same as fastest | 48 | 4.4 |
 | Marden | 48 min | same as fastest | 51 | 3.2 |
+| Frant | 49 min | same as fastest | 55 | 2.0 |
 | Swanley | 49 min (change at London Blackfriars) | no direct service | - | - |
 | Burgess Hill | 50 min | same as fastest | 53 | 4.0 |
+| Epsom Downs | 50 min (change at Sutton (London)) | no direct service | - | - |
 | Gordon Hill | 50 min (change at Finsbury Park) | no direct service | - | - |
 | Hatfield | 50 min (change at Finsbury Park) | no direct service | - | - |
+| Swanscombe | 50 min | same as fastest | 53 | 4.8 |
 | East Grinstead | 51 min | same as fastest | 55 | 1.2 |
+| Eynsford | 51 min (change at Sevenoaks) | no direct service | - | - |
+| Ifield | 51 min (change at Three Bridges) | 55 min | 55 | 2.8 |
 | Wivelsfield | 51 min | same as fastest | 51 | 2.0 |
+| Cowden | 52 min | same as fastest | 53 | 0.8 |
+| Leagrave | 52 min | same as fastest | 56 | 4.4 |
+| Northfleet | 52 min | same as fastest | 55 | 4.8 |
 | Brookmans Park | 53 min (change at Finsbury Park) | no direct service | - | - |
 | Letchworth Garden City | 53 min | same as fastest | 54 | 2.0 |
 | Staplehurst | 53 min | same as fastest | 56 | 4.0 |
+| Wadhurst | 53 min | same as fastest | 59 | 3.2 |
 | Arlesey | 54 min | same as fastest | 56 | 2.0 |
 | Crews Hill | 55 min (change at Finsbury Park) | no direct service | - | - |
 | Hassocks | 55 min | same as fastest | 58 | 4.0 |
@@ -119,50 +148,106 @@ direct train. Services are operated by Southeastern, Southern, Thameslink.
 | Baldock | 56 min | same as fastest | 57 | 2.0 |
 | Flitwick | 56 min | same as fastest | 66 | 5.2 |
 | Gravesend | 56 min | same as fastest | 59 | 4.8 |
+| Longfield | 56 min (change at London Blackfriars) | no direct service | - | - |
 | Strood | 56 min (change at Rochester) | 69 min | 69 | 2.4 |
+| Ashurst | 57 min | same as fastest | 57 | 0.8 |
+| Littlehaven | 57 min (change at Three Bridges) | 61 min | 62 | 2.8 |
 | Cuffley | 58 min (change at Finsbury Park) | no direct service | - | - |
 | Headcorn | 58 min | same as fastest | 61 | 4.0 |
 | Welwyn North | 58 min (change at Stevenage) | no direct service | - | - |
 | Biggleswade | 59 min | same as fastest | 61 | 2.0 |
+| Faygate | 59 min | same as fastest | 60 | 2.4 |
 | Leatherhead | 59 min (change at Epsom) | no direct service | - | - |
 | Horsham | 60 min (change at Three Bridges) | 65 min | 66 | 2.8 |
+| Newington | 60 min | same as fastest | 60 | 0.8 |
+| Stonegate | 60 min | same as fastest | 66 | 2.0 |
 | Ashwell & Morden | 61 min | same as fastest | 62 | 2.0 |
 | Brighton | 61 min | same as fastest | 68 | 4.0 |
+| Meopham | 61 min (change at London Blackfriars) | no direct service | - | - |
+| Watton-at-Stone | 61 min (change at Stevenage) | no direct service | - | - |
 | Bayford | 62 min (change at Finsbury Park) | no direct service | - | - |
+| Harlington | 62 min | same as fastest | 63 | 4.0 |
+| Plumpton | 62 min (change at Gatwick Airport) | no direct service | - | - |
 | Preston Park | 62 min | same as fastest | 64 | 4.0 |
+| Eridge | 63 min | same as fastest | 63 | 0.8 |
 | Ewell West | 63 min (change at Epsom) | no direct service | - | - |
 | Sittingbourne | 63 min | same as fastest | 63 | 2.0 |
 | Box Hill & Westhumble | 64 min (change at Epsom) | no direct service | - | - |
+| Higham | 64 min | same as fastest | 64 | 2.4 |
 | Pluckley | 64 min | same as fastest | 67 | 3.2 |
 | Sandy | 64 min | same as fastest | 66 | 2.0 |
+| Cooksbridge | 65 min (change at Gatwick Airport) | no direct service | - | - |
+| Etchingham | 65 min | same as fastest | 70 | 3.2 |
 | Stoneleigh | 65 min (change at Epsom) | no direct service | - | - |
 | Bedford | 66 min | same as fastest | 78 | 5.2 |
 | Hertford North | 66 min (change at Stevenage) | no direct service | - | - |
 | Royston | 66 min | same as fastest | 67 | 2.0 |
+| Bookham | 67 min (change at Epsom) | no direct service | - | - |
 | Dorking | 67 min (change at Epsom) | no direct service | - | - |
+| Robertsbridge | 68 min | same as fastest | 74 | 3.2 |
+| Borough Green & Wrotham | 69 min (change at London Blackfriars) | no direct service | - | - |
+| Crowborough | 69 min | same as fastest | 69 | 0.8 |
+| Ebbsfleet International | 69 min (change at Gravesend) | no direct service | - | - |
 | Worcester Park | 69 min (change at Epsom) | no direct service | - | - |
 | Effingham Junction | 70 min (change at Epsom) | no direct service | - | - |
+| Lewes | 70 min (change at Gatwick Airport) | no direct service | - | - |
 | Ashford International | 71 min | same as fastest | 74 | 4.0 |
+| Battle | 71 min | same as fastest | 82 | 3.2 |
 | Faversham | 71 min | same as fastest | 71 | 2.0 |
 | Motspur Park | 71 min (change at Epsom) | no direct service | - | - |
 | St Neots | 71 min | same as fastest | 73 | 2.0 |
+| Teynham | 71 min | same as fastest | 71 | 0.8 |
 | Hove | 73 min (change at Brighton) | no direct service | - | - |
+| Maidstone West | 73 min (change at Paddock Wood) | no direct service | - | - |
+| Christs Hospital | 74 min (change at East Croydon) | no direct service | - | - |
 | Horsley | 74 min (change at Epsom) | no direct service | - | - |
 | Raynes Park | 74 min (change at Epsom) | no direct service | - | - |
+| Buxted | 76 min | same as fastest | 76 | 0.8 |
+| Glynde | 76 min (change at Gatwick Airport) | no direct service | - | - |
 | Meldreth | 76 min (change at Hitchin) | no direct service | - | - |
+| Shalford | 76 min (change at Redhill) | no direct service | - | - |
+| West Malling | 76 min (change at London Blackfriars) | no direct service | - | - |
 | Portslade | 77 min (change at Brighton) | no direct service | - | - |
 | Guildford | 78 min (change at Redhill) | no direct service | - | - |
+| Cambridge South | 79 min | same as fastest | 79 | 2.0 |
 | Clandon | 79 min (change at Epsom) | no direct service | - | - |
+| East Malling | 79 min (change at London Blackfriars) | no direct service | - | - |
 | Huntingdon | 79 min | same as fastest | 81 | 2.0 |
 | Shepreth | 79 min (change at Hitchin) | no direct service | - | - |
+| Billingshurst | 80 min (change at East Croydon) | no direct service | - | - |
+| Uckfield | 80 min | same as fastest | 80 | 0.8 |
+| Warnham | 81 min (change at Horsham) | no direct service | - | - |
+| Whitstable | 81 min | same as fastest | 81 | 1.2 |
+| Wye | 81 min | same as fastest | 86 | 0.8 |
+| Berwick (Sussex) | 82 min (change at Gatwick Airport) | no direct service | - | - |
+| Crowhurst | 82 min | same as fastest | 88 | 2.0 |
 | Earlsfield | 82 min (change at Epsom) | no direct service | - | - |
 | Foxton | 82 min (change at Hitchin) | no direct service | - | - |
 | Shoreham-by-Sea | 82 min (change at Three Bridges) | no direct service | - | - |
+| St Leonards Warrior Square | 82 min | same as fastest | 96 | 3.2 |
+| Barming | 83 min (change at London Blackfriars) | no direct service | - | - |
 | Cambridge | 83 min | same as fastest | 83 | 2.0 |
+| Holmwood | 83 min (change at Epsom) | no direct service | - | - |
 | Peterborough | 83 min (change at Stevenage) | 94 min | 96 | 2.0 |
+| Polegate | 83 min (change at Gatwick Airport) | no direct service | - | - |
+| Snodland | 83 min (change at Gravesend) | no direct service | - | - |
+| Westenhanger | 83 min | same as fastest | 88 | 1.6 |
+| Chestfield & Swalecliffe | 85 min | same as fastest | 85 | 0.8 |
 | Harrow & Wealdstone | 85 min (change at East Croydon) | no direct service | - | - |
+| Hastings | 85 min | same as fastest | 100 | 3.2 |
+| London Road (Guildford) | 85 min (change at Epsom) | no direct service | - | - |
+| Sole Street | 85 min (change at Rochester) | no direct service | - | - |
 | Lancing | 86 min (change at Gatwick Airport) | no direct service | - | - |
+| Sandling | 86 min | same as fastest | 91 | 1.6 |
+| Ockley | 87 min (change at Horsham) | no direct service | - | - |
+| Pulborough | 87 min (change at East Croydon) | no direct service | - | - |
+| Chilham | 88 min | same as fastest | 92 | 0.8 |
+| Hampden Park | 88 min (change at Gatwick Airport) | no direct service | - | - |
+| Herne Bay | 88 min | same as fastest | 89 | 1.2 |
 | Maidstone East | 88 min (change at London Blackfriars) | no direct service | - | - |
+| West St Leonards | 88 min | same as fastest | 94 | 2.0 |
+| Wellingborough | 89 min (change at Luton) | no direct service | - | - |
+| East Worthing | 90 min (change at Gatwick Airport) | no direct service | - | - |
 | Vauxhall | 90 min (change at Epsom) | no direct service | - | - |
 
 ## Frequently asked questions
@@ -173,11 +258,11 @@ The fastest connection is from New Cross, at 5 minutes on a direct service. Serv
 
 ### Which commuter towns are within 30 minutes of London Bridge?
 
-29 stations reach London Bridge in under 30 minutes, including New Cross, Lewisham, Hither Green, Peckham Rye, East Croydon, Grove Park. These are the shortest commutes available into this terminal.
+31 stations reach London Bridge in under 30 minutes, including New Cross, Lewisham, Hither Green, Peckham Rye, East Croydon, Grove Park. These are the shortest commutes available into this terminal.
 
 ### How many stations connect to London Bridge?
 
-149 stations have a service to London London Bridge within 90 minutes, and 91 of those are direct trains with no change required.
+234 stations have a service to London London Bridge within 90 minutes, and 138 of those are direct trains with no change required.
 
 ### What areas does London Bridge serve?
 
@@ -185,7 +270,7 @@ London London Bridge primarily serves South East London, Kent and Surrey. Key co
 
 ### Is London Bridge a good terminal to commute into?
 
-With 149 stations inside 90 minutes and 91 direct services, London Bridge offers unusually broad commuter coverage. The quickest option is New Cross at 5 minutes.
+With 234 stations inside 90 minutes and 138 direct services, London Bridge offers unusually broad commuter coverage. The quickest option is New Cross at 5 minutes.
 
 ## About this data
 

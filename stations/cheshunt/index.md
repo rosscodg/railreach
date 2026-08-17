@@ -36,7 +36,7 @@ Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Cheshunt?
 
-The closest alternatives are Broxbourne, Cuffley, Crews Hill. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Theobalds Grove, Waltham Cross, Broxbourne. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

@@ -36,7 +36,7 @@ Yes. Direct services run to Marylebone.
 
 ### What are the nearest stations to Kings Sutton?
 
-The closest alternatives are Banbury, Bicester North, Charlbury. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Banbury, Bicester North, Bicester Village. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

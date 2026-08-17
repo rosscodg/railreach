@@ -37,7 +37,7 @@ Yes. Direct services run to Victoria, London Bridge, St Pancras.
 
 ### What are the nearest stations to Hassocks?
 
-The closest alternatives are Burgess Hill, Wivelsfield, Preston Park. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Burgess Hill, Wivelsfield, Plumpton. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

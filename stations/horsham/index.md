@@ -38,7 +38,7 @@ Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Horsham?
 
-The closest alternatives are Crawley, Three Bridges, Balcombe. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Littlehaven, Warnham, Christs Hospital. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

@@ -38,7 +38,7 @@ Yes. Direct services run to London Bridge, Victoria, St Pancras.
 
 ### What are the nearest stations to Burgess Hill?
 
-The closest alternatives are Wivelsfield, Hassocks, Haywards Heath. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Wivelsfield, Hassocks, Plumpton. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

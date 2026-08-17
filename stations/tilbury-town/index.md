@@ -35,7 +35,7 @@ Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to Tilbury Town?
 
-The closest alternatives are Gravesend, Grays, East Tilbury. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Gravesend, Grays, Northfleet. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

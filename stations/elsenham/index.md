@@ -35,7 +35,7 @@ Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Elsenham?
 
-The closest alternatives are Stansted Mountfitchet, Stansted Airport, Bishops Stortford. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Stansted Mountfitchet, Stansted Airport, Newport (Essex). These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

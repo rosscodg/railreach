@@ -35,7 +35,7 @@ Yes. Direct services run to Fenchurch Street.
 
 ### What are the nearest stations to Grays?
 
-The closest alternatives are Chafford Hundred, Tilbury Town, Gravesend. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Chafford Hundred, Tilbury Town, Swanscombe. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

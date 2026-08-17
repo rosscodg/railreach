@@ -36,7 +36,7 @@ Yes. Direct services run to Marylebone, Paddington.
 
 ### What are the nearest stations to Banbury?
 
-The closest alternatives are Kings Sutton, Bicester North, Charlbury. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Kings Sutton, Bicester North, Bicester Village. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

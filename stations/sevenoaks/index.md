@@ -37,7 +37,7 @@ Yes. Direct services run to London Bridge, Victoria.
 
 ### What are the nearest stations to Sevenoaks?
 
-The closest alternatives are Bat & Ball, Otford, Hildenborough. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Bat & Ball, Dunton Green, Otford. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

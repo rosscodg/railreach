@@ -36,7 +36,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Andover?
 
-The closest alternatives are Grateley, Whitchurch (Hants), Overton. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Grateley, Whitchurch (Hants), Micheldever. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

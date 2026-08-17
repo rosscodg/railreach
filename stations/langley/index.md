@@ -36,7 +36,7 @@ Yes. Direct services run to Paddington, Liverpool Street.
 
 ### What are the nearest stations to Langley?
 
-The closest alternatives are Iver, Slough, West Drayton. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Iver, Slough, Datchet. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

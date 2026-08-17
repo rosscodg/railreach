@@ -1,10 +1,10 @@
 # Train journey times to London Kings Cross
 
-61 stations reach London Kings Cross within 90 minutes, 32 of them on a
+71 stations reach London Kings Cross within 90 minutes, 38 of them on a
 direct train. Services are operated by Great Northern, LNER, Hull Trains, Lumo.
 
-- Stations within 90 minutes: 61
-- Direct services: 32 of 61
+- Stations within 90 minutes: 71
+- Direct services: 38 of 71
 - Stations under 30 minutes: 15
 - Fastest station: Finsbury Park - 6 minutes
 - Operators: Great Northern, LNER, Hull Trains, Lumo
@@ -36,6 +36,7 @@ direct train. Services are operated by Great Northern, LNER, Hull Trains, Lumo.
 | Knebworth | 33 min (change at Finsbury Park) | 38 min | 41 | 2.0 |
 | Welham Green | 35 min (change at Potters Bar) | 38 min | - | - |
 | Baldock | 36 min | same as fastest | 36 | 2.4 |
+| Watton-at-Stone | 36 min (change at Stevenage) | no direct service | - | - |
 | Royston | 37 min | same as fastest | 46 | 4.3 |
 | Arlesey | 38 min | same as fastest | - | - |
 | Hertford North | 38 min | same as fastest | - | - |
@@ -43,6 +44,7 @@ direct train. Services are operated by Great Northern, LNER, Hull Trains, Lumo.
 | Crews Hill | 40 min (change at Alexandra Palace) | no direct service | - | - |
 | Ashwell & Morden | 42 min | same as fastest | 42 | 2.0 |
 | Bayford | 46 min (change at Stevenage) | no direct service | - | - |
+| Cambridge South | 46 min | same as fastest | 64 | 3.9 |
 | Huntingdon | 47 min | same as fastest | 53 | 1.5 |
 | Peterborough | 47 min | same as fastest | 56 | 5.1 |
 | Sandy | 48 min | same as fastest | - | - |
@@ -51,9 +53,11 @@ direct train. Services are operated by Great Northern, LNER, Hull Trains, Lumo.
 | Meldreth | 51 min | same as fastest | 51 | 2.0 |
 | Denmark Hill | 53 min (change at Finsbury Park) | no direct service | - | - |
 | Shepreth | 55 min | same as fastest | 55 | 2.0 |
+| Cambridge North | 56 min | same as fastest | 66 | 1.9 |
 | Peckham Rye | 56 min (change at Finsbury Park) | no direct service | - | - |
 | Foxton | 57 min | same as fastest | 57 | 2.0 |
 | Coulsdon South | 61 min (change at Finsbury Park) | no direct service | - | - |
+| Waterbeach | 61 min | same as fastest | 71 | 1.9 |
 | Catford | 65 min (change at Finsbury Park) | no direct service | - | - |
 | Grantham | 65 min | same as fastest | 72 | 3.2 |
 | Gatwick Airport | 66 min (change at Finsbury Park) | no direct service | - | - |
@@ -62,18 +66,24 @@ direct train. Services are operated by Great Northern, LNER, Hull Trains, Lumo.
 | Bellingham | 68 min (change at Finsbury Park) | no direct service | - | - |
 | Redhill | 69 min (change at Finsbury Park) | no direct service | - | - |
 | Beckenham Hill | 70 min (change at Finsbury Park) | no direct service | - | - |
+| Ely | 70 min | same as fastest | 80 | 1.9 |
 | Three Bridges | 71 min (change at Finsbury Park) | no direct service | - | - |
 | Audley End | 74 min (change at Cambridge South) | no direct service | - | - |
 | Earlswood | 74 min (change at Finsbury Park) | no direct service | - | - |
 | Newark Northgate | 75 min | same as fastest | 84 | 2.8 |
 | Balcombe | 77 min (change at Finsbury Park) | no direct service | - | - |
 | Bromley South | 77 min (change at Finsbury Park) | no direct service | - | - |
+| Shelford | 77 min (change at Cambridge South) | no direct service | - | - |
 | Salfords | 78 min (change at Finsbury Park) | no direct service | - | - |
 | Horley | 79 min (change at Finsbury Park) | no direct service | - | - |
 | Bickley | 80 min (change at Finsbury Park) | no direct service | - | - |
+| Littleport | 80 min | same as fastest | 89 | 1.9 |
 | Haywards Heath | 81 min (change at Finsbury Park) | no direct service | - | - |
+| Great Chesterford | 85 min (change at Cambridge South) | no direct service | - | - |
+| St Mary Cray | 85 min (change at Finsbury Park) | no direct service | - | - |
 | Bishops Stortford | 86 min (change at Cambridge South) | no direct service | - | - |
 | Burgess Hill | 87 min (change at Finsbury Park) | no direct service | - | - |
+| Retford | 87 min | same as fastest | 95 | 2.0 |
 | Wivelsfield | 88 min (change at Finsbury Park) | no direct service | - | - |
 | Swanley | 89 min (change at Finsbury Park) | no direct service | - | - |
 
@@ -89,7 +99,7 @@ The fastest connection is from Finsbury Park, at 6 minutes on a direct service. 
 
 ### How many stations connect to Kings Cross?
 
-61 stations have a service to London Kings Cross within 90 minutes, and 32 of those are direct trains with no change required.
+71 stations have a service to London Kings Cross within 90 minutes, and 38 of those are direct trains with no change required.
 
 ### What areas does Kings Cross serve?
 
@@ -97,7 +107,7 @@ London Kings Cross primarily serves Hertfordshire, Cambridgeshire and the East C
 
 ### Is Kings Cross a good terminal to commute into?
 
-With 61 stations inside 90 minutes and 32 direct services, Kings Cross offers unusually broad commuter coverage. The quickest option is Finsbury Park at 6 minutes.
+With 71 stations inside 90 minutes and 38 direct services, Kings Cross offers unusually broad commuter coverage. The quickest option is Finsbury Park at 6 minutes.
 
 ## About this data
 

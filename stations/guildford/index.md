@@ -38,7 +38,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Guildford?
 
-The closest alternatives are Farncombe, Clandon, Godalming. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Shalford, Farncombe, Worplesdon. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

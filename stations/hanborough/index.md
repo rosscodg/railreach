@@ -35,7 +35,7 @@ Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Hanborough?
 
-The closest alternatives are Charlbury, Oxford, Bicester North. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Oxford Parkway, Islip, Charlbury. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

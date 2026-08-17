@@ -37,7 +37,7 @@ Yes. Direct services run to London Bridge, Victoria.
 
 ### What are the nearest stations to Dartford?
 
-The closest alternatives are Slade Green, Purfleet, Barnehurst. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Crayford, Slade Green, Stone Crossing. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

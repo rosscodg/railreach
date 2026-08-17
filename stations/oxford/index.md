@@ -36,7 +36,7 @@ Yes. Direct services run to Paddington, Marylebone.
 
 ### What are the nearest stations to Oxford?
 
-The closest alternatives are Hanborough, Didcot Parkway, Bicester North. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Oxford Parkway, Islip, Hanborough. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

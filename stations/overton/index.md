@@ -36,7 +36,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Overton?
 
-The closest alternatives are Whitchurch (Hants), Basingstoke, Thatcham. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Whitchurch (Hants), Micheldever, Basingstoke. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

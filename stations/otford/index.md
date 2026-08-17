@@ -37,7 +37,7 @@ Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Otford?
 
-The closest alternatives are Bat & Ball, Sevenoaks, Swanley. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Shoreham (Kent), Dunton Green, Bat & Ball. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

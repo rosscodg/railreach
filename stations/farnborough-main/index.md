@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Farnborough (Main)?
 
-The closest alternatives are Ash Vale, Fleet, Aldershot. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Frimley, Ash Vale, Camberley. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

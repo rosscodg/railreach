@@ -1,10 +1,10 @@
 # Train journey times to London Moorgate
 
-52 stations reach London Moorgate within 90 minutes, 15 of them on a
+55 stations reach London Moorgate within 90 minutes, 16 of them on a
 direct train. Services are operated by Great Northern.
 
-- Stations within 90 minutes: 52
-- Direct services: 15 of 52
+- Stations within 90 minutes: 55
+- Direct services: 16 of 55
 - Stations under 30 minutes: 6
 - Fastest station: Finsbury Park - 14 minutes
 - Operators: Great Northern
@@ -42,6 +42,7 @@ direct train. Services are operated by Great Northern.
 | Arlesey | 54 min (change at Finsbury Park) | no direct service | - | - |
 | Baldock | 56 min (change at Finsbury Park) | no direct service | - | - |
 | East Croydon | 58 min (change at Finsbury Park) | no direct service | - | - |
+| Watton-at-Stone | 58 min | same as fastest | 59 | 2.0 |
 | Biggleswade | 59 min (change at Finsbury Park) | no direct service | - | - |
 | Ashwell & Morden | 61 min (change at Finsbury Park) | no direct service | - | - |
 | Catford | 62 min (change at Finsbury Park) | no direct service | - | - |
@@ -56,10 +57,12 @@ direct train. Services are operated by Great Northern.
 | Bromley South | 74 min (change at Finsbury Park) | no direct service | - | - |
 | Redhill | 76 min (change at Finsbury Park) | no direct service | - | - |
 | Bickley | 77 min (change at Finsbury Park) | no direct service | - | - |
+| Cambridge South | 78 min (change at Finsbury Park) | no direct service | - | - |
 | Huntingdon | 79 min (change at Finsbury Park) | no direct service | - | - |
 | Three Bridges | 79 min (change at Finsbury Park) | no direct service | - | - |
 | Earlswood | 81 min (change at Finsbury Park) | no direct service | - | - |
 | Cambridge | 82 min (change at Finsbury Park) | no direct service | - | - |
+| St Mary Cray | 82 min (change at Finsbury Park) | no direct service | - | - |
 | Horley | 84 min (change at Finsbury Park) | no direct service | - | - |
 | Balcombe | 85 min (change at Finsbury Park) | no direct service | - | - |
 | Meldreth | 85 min (change at Finsbury Park) | no direct service | - | - |
@@ -80,7 +83,7 @@ The fastest connection is from Finsbury Park, at 14 minutes on a direct service.
 
 ### How many stations connect to Moorgate?
 
-52 stations have a service to London Moorgate within 90 minutes, and 15 of those are direct trains with no change required.
+55 stations have a service to London Moorgate within 90 minutes, and 16 of those are direct trains with no change required.
 
 ### What areas does Moorgate serve?
 
@@ -88,7 +91,7 @@ London Moorgate primarily serves the City, and the Hertford loop and Welwyn inne
 
 ### Is Moorgate a good terminal to commute into?
 
-With 52 stations inside 90 minutes and 15 direct services, Moorgate offers unusually broad commuter coverage. The quickest option is Finsbury Park at 14 minutes.
+With 55 stations inside 90 minutes and 16 direct services, Moorgate offers unusually broad commuter coverage. The quickest option is Finsbury Park at 14 minutes.
 
 ## About this data
 

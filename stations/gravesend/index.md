@@ -37,7 +37,7 @@ Yes. Direct services run to St Pancras, London Bridge, Victoria.
 
 ### What are the nearest stations to Gravesend?
 
-The closest alternatives are Tilbury Town, Grays, East Tilbury. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Tilbury Town, Northfleet, Ebbsfleet International. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

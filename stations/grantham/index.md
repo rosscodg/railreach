@@ -36,7 +36,7 @@ Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Grantham?
 
-The closest alternatives are Newark Northgate, Peterborough, Huntingdon. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Newark Northgate, Loughborough, East Midlands Parkway. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

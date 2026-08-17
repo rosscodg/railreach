@@ -35,7 +35,7 @@ Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Bath Spa?
 
-The closest alternatives are Bristol Temple Meads, Chippenham, Pewsey. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Westbury, Bristol Temple Meads, Chippenham. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

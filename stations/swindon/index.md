@@ -35,7 +35,7 @@ Yes. Direct services run to Paddington.
 
 ### What are the nearest stations to Swindon?
 
-The closest alternatives are Bedwyn, Pewsey, Hungerford. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Kemble, Bedwyn, Pewsey. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

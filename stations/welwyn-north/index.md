@@ -38,7 +38,7 @@ Yes. Direct services run to Kings Cross.
 
 ### What are the nearest stations to Welwyn North?
 
-The closest alternatives are Welwyn Garden City, Knebworth, Hatfield. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Welwyn Garden City, Knebworth, Watton-at-Stone. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

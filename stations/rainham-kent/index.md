@@ -37,7 +37,7 @@ Yes. Direct services run to St Pancras, Victoria, London Bridge.
 
 ### What are the nearest stations to Rainham (Kent)?
 
-The closest alternatives are Gillingham, Chatham, Rochester. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Newington, Gillingham, Chatham. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

@@ -154,6 +154,58 @@
       ]
     },
     {
+      "name": "Addlestone",
+      "slug": "addlestone",
+      "lat": 51.373046,
+      "lng": -0.484457,
+      "tiplocs": [
+        "ADLESTN"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 58,
+          "direct": false,
+          "directMins": 72,
+          "changeAt": "Weybridge",
+          "typicalPeakMins": 82,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 105
+        }
+      }
+    },
+    {
+      "name": "Aldermaston",
+      "slug": "aldermaston",
+      "lat": 51.401962,
+      "lng": -1.137424,
+      "tiplocs": [
+        "ALDMSTN"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 87,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Reading",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "PAD": {
+          "mins": 46,
+          "direct": false,
+          "directMins": 49,
+          "changeAt": "Reading",
+          "typicalPeakMins": 49,
+          "peakTrainsPerHour": 0.4,
+          "peakServices": 3,
+          "totalServices": 3
+        }
+      }
+    },
+    {
       "name": "Aldershot",
       "slug": "aldershot",
       "lat": 51.246418,
@@ -226,6 +278,58 @@
       ]
     },
     {
+      "name": "Alresford",
+      "slug": "alresford",
+      "lat": 51.854001,
+      "lng": 0.997437,
+      "tiplocs": [
+        "ALRESFD"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 77,
+          "direct": true,
+          "directMins": 77,
+          "changeAt": null,
+          "typicalPeakMins": 78,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 12
+        }
+      }
+    },
+    {
+      "name": "Althorne",
+      "slug": "althorne",
+      "lat": 51.64787,
+      "lng": 0.752484,
+      "tiplocs": [
+        "ALTHORN"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 60,
+          "direct": true,
+          "directMins": 60,
+          "changeAt": null,
+          "typicalPeakMins": 62,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 15
+        },
+        "PAD": {
+          "mins": 81,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
       "name": "Alton",
       "slug": "alton",
       "lat": 51.151969,
@@ -245,6 +349,48 @@
       "tiplocs": [
         "ALTON"
       ]
+    },
+    {
+      "name": "Amberley",
+      "slug": "amberley",
+      "lat": 50.89668,
+      "lng": -0.541992,
+      "tiplocs": [
+        "AMLY"
+      ],
+      "journeys": {
+        "VIC": {
+          "mins": 80,
+          "direct": true,
+          "directMins": 80,
+          "changeAt": null,
+          "typicalPeakMins": 86,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 99
+        }
+      }
+    },
+    {
+      "name": "Amersham",
+      "slug": "amersham",
+      "lat": 51.674206,
+      "lng": -0.607596,
+      "tiplocs": [
+        "AMERSHM"
+      ],
+      "journeys": {
+        "MYB": {
+          "mins": 31,
+          "direct": true,
+          "directMins": 31,
+          "changeAt": null,
+          "typicalPeakMins": 38,
+          "peakTrainsPerHour": 3.2,
+          "peakServices": 24,
+          "totalServices": 99
+        }
+      }
     },
     {
       "name": "Andover",
@@ -370,6 +516,27 @@
       ]
     },
     {
+      "name": "Arundel",
+      "slug": "arundel",
+      "lat": 50.848215,
+      "lng": -0.546174,
+      "tiplocs": [
+        "ARUNDEL"
+      ],
+      "journeys": {
+        "VIC": {
+          "mins": 84,
+          "direct": true,
+          "directMins": 84,
+          "changeAt": null,
+          "typicalPeakMins": 91,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 99
+        }
+      }
+    },
+    {
       "name": "Ascot",
       "slug": "ascot",
       "lat": 51.406244,
@@ -410,6 +577,27 @@
       "tiplocs": [
         "ASHVALE"
       ]
+    },
+    {
+      "name": "Ashford (Surrey)",
+      "slug": "ashford-surrey",
+      "lat": 51.436507,
+      "lng": -0.468071,
+      "tiplocs": [
+        "ASFDMSX"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 38,
+          "direct": true,
+          "directMins": 38,
+          "changeAt": null,
+          "typicalPeakMins": 41,
+          "peakTrainsPerHour": 4.8,
+          "peakServices": 36,
+          "totalServices": 225
+        }
+      }
     },
     {
       "name": "Ashford International",
@@ -503,6 +691,47 @@
       ]
     },
     {
+      "name": "Ashurst",
+      "slug": "ashurst",
+      "lat": 51.128663,
+      "lng": 0.152652,
+      "tiplocs": [
+        "ASHURST"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 57,
+          "direct": true,
+          "directMins": 57,
+          "changeAt": null,
+          "typicalPeakMins": 57,
+          "peakTrainsPerHour": 0.8,
+          "peakServices": 6,
+          "totalServices": 54
+        },
+        "STP": {
+          "mins": 79,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "East Croydon",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 66,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "East Croydon",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
       "name": "Ashwell & Morden",
       "slug": "ashwell-and-morden",
       "lat": 52.030772,
@@ -552,6 +781,27 @@
       "tiplocs": [
         "ASHWELC"
       ]
+    },
+    {
+      "name": "Atherstone",
+      "slug": "atherstone",
+      "lat": 52.578971,
+      "lng": -1.552811,
+      "tiplocs": [
+        "ATHRSTN"
+      ],
+      "journeys": {
+        "EUS": {
+          "mins": 78,
+          "direct": true,
+          "directMins": 78,
+          "changeAt": null,
+          "typicalPeakMins": 81,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 48
+        }
+      }
     },
     {
       "name": "Audley End",
@@ -635,6 +885,27 @@
       "tiplocs": [
         "AYLSPWY"
       ]
+    },
+    {
+      "name": "Bagshot",
+      "slug": "bagshot",
+      "lat": 51.364368,
+      "lng": -0.688662,
+      "tiplocs": [
+        "BAGSHOT"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 68,
+          "direct": true,
+          "directMins": 68,
+          "changeAt": null,
+          "typicalPeakMins": 68,
+          "peakTrainsPerHour": 0.8,
+          "peakServices": 6,
+          "totalServices": 6
+        }
+      }
     },
     {
       "name": "Balcombe",
@@ -841,6 +1112,47 @@
       ]
     },
     {
+      "name": "Banstead",
+      "slug": "banstead",
+      "lat": 51.329349,
+      "lng": -0.213159,
+      "tiplocs": [
+        "BANSTED"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 46,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Sutton (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 81,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Sutton (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 51,
+          "direct": true,
+          "directMins": 51,
+          "changeAt": null,
+          "typicalPeakMins": 58,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 102
+        }
+      }
+    },
+    {
       "name": "Barking",
       "slug": "barking",
       "lat": 51.539495,
@@ -860,6 +1172,47 @@
       "tiplocs": [
         "BARKING"
       ]
+    },
+    {
+      "name": "Barming",
+      "slug": "barming",
+      "lat": 51.284895,
+      "lng": 0.478958,
+      "tiplocs": [
+        "BARMING"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 83,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Blackfriars",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 82,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Ashford International",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 60,
+          "direct": true,
+          "directMins": 60,
+          "changeAt": null,
+          "typicalPeakMins": 68,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 87
+        }
+      }
     },
     {
       "name": "Barnehurst",
@@ -1079,6 +1432,68 @@
       ]
     },
     {
+      "name": "Battle",
+      "slug": "battle",
+      "lat": 50.912916,
+      "lng": 0.494703,
+      "tiplocs": [
+        "BATTLE"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 71,
+          "direct": true,
+          "directMins": 71,
+          "changeAt": null,
+          "typicalPeakMins": 82,
+          "peakTrainsPerHour": 3.2,
+          "peakServices": 24,
+          "totalServices": 105
+        },
+        "VIC": {
+          "mins": 89,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Tunbridge Wells",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
+      "name": "Battlesbridge",
+      "slug": "battlesbridge",
+      "lat": 51.624825,
+      "lng": 0.565286,
+      "tiplocs": [
+        "BTLSBDG"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 44,
+          "direct": true,
+          "directMins": 44,
+          "changeAt": null,
+          "typicalPeakMins": 47,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 15
+        },
+        "PAD": {
+          "mins": 65,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
       "name": "Bayford",
       "slug": "bayford",
       "lat": 51.757716,
@@ -1149,6 +1564,68 @@
       "tiplocs": [
         "BCNSFLD"
       ]
+    },
+    {
+      "name": "Bearsted",
+      "slug": "bearsted",
+      "lat": 51.275821,
+      "lng": 0.57758,
+      "tiplocs": [
+        "BSTD"
+      ],
+      "journeys": {
+        "STP": {
+          "mins": 71,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Ashford International",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 69,
+          "direct": true,
+          "directMins": 69,
+          "changeAt": null,
+          "typicalPeakMins": 79,
+          "peakTrainsPerHour": 3.6,
+          "peakServices": 27,
+          "totalServices": 99
+        }
+      }
+    },
+    {
+      "name": "Beaulieu Park",
+      "slug": "beaulieu-park",
+      "lat": 51.758057,
+      "lng": 0.518336,
+      "tiplocs": [
+        "BEULYPK"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 38,
+          "direct": true,
+          "directMins": 38,
+          "changeAt": null,
+          "typicalPeakMins": 43,
+          "peakTrainsPerHour": 3.6,
+          "peakServices": 27,
+          "totalServices": 126
+        },
+        "PAD": {
+          "mins": 58,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
     },
     {
       "name": "Beckenham Hill",
@@ -1251,6 +1728,28 @@
       "tiplocs": [
         "BEDFDM"
       ]
+    },
+    {
+      "name": "Bedhampton",
+      "slug": "bedhampton",
+      "lat": 50.853957,
+      "lng": -0.995828,
+      "tiplocs": [
+        "BDHMNRD",
+        "BDHMPTN"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 89,
+          "direct": true,
+          "directMins": 89,
+          "changeAt": null,
+          "typicalPeakMins": 116,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 62
+        }
+      }
     },
     {
       "name": "Bedwyn",
@@ -1398,6 +1897,78 @@
       ]
     },
     {
+      "name": "Berwick (Sussex)",
+      "slug": "berwick-sussex",
+      "lat": 50.840378,
+      "lng": 0.166018,
+      "tiplocs": [
+        "BERWICK"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 82,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Gatwick Airport",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 83,
+          "direct": true,
+          "directMins": 83,
+          "changeAt": null,
+          "typicalPeakMins": 83,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 9
+        }
+      }
+    },
+    {
+      "name": "Bexley",
+      "slug": "bexley",
+      "lat": 51.440219,
+      "lng": 0.147903,
+      "tiplocs": [
+        "BEXLEY"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 30,
+          "direct": true,
+          "directMins": 30,
+          "changeAt": null,
+          "typicalPeakMins": 35,
+          "peakTrainsPerHour": 6.0,
+          "peakServices": 45,
+          "totalServices": 264
+        },
+        "STP": {
+          "mins": 54,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Bridge",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 56,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Lewisham",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
       "name": "Bexleyheath",
       "slug": "bexleyheath",
       "lat": 51.4635,
@@ -1458,6 +2029,37 @@
       "tiplocs": [
         "BCSTN"
       ]
+    },
+    {
+      "name": "Bicester Village",
+      "slug": "bicester-village",
+      "lat": 51.893023,
+      "lng": -1.148764,
+      "tiplocs": [
+        "BCSTRTN"
+      ],
+      "journeys": {
+        "MYB": {
+          "mins": 57,
+          "direct": true,
+          "directMins": 57,
+          "changeAt": null,
+          "typicalPeakMins": 71,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 104
+        },
+        "PAD": {
+          "mins": 81,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Oxford",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
     },
     {
       "name": "Bickley",
@@ -1601,6 +2203,58 @@
       "tiplocs": [
         "BILERCY"
       ]
+    },
+    {
+      "name": "Billingshurst",
+      "slug": "billingshurst",
+      "lat": 51.015204,
+      "lng": -0.450302,
+      "tiplocs": [
+        "BILSHST"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 80,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "East Croydon",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 66,
+          "direct": true,
+          "directMins": 66,
+          "changeAt": null,
+          "typicalPeakMins": 73,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 99
+        }
+      }
+    },
+    {
+      "name": "Birchington-on-Sea",
+      "slug": "birchington-on-sea",
+      "lat": 51.377493,
+      "lng": 1.301409,
+      "tiplocs": [
+        "BCNGNOS"
+      ],
+      "journeys": {
+        "STP": {
+          "mins": 90,
+          "direct": true,
+          "directMins": 90,
+          "changeAt": null,
+          "typicalPeakMins": 92,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 45
+        }
+      }
     },
     {
       "name": "Birmingham International",
@@ -1748,6 +2402,88 @@
       ]
     },
     {
+      "name": "Bookham",
+      "slug": "bookham",
+      "lat": 51.288739,
+      "lng": -0.384021,
+      "tiplocs": [
+        "BOOKHAM"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 67,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Epsom",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 70,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Leatherhead",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "WAT": {
+          "mins": 50,
+          "direct": true,
+          "directMins": 50,
+          "changeAt": null,
+          "typicalPeakMins": 59,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 66
+        }
+      }
+    },
+    {
+      "name": "Borough Green & Wrotham",
+      "slug": "borough-green-and-wrotham",
+      "lat": 51.293219,
+      "lng": 0.306245,
+      "tiplocs": [
+        "BORWGAW"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 69,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Blackfriars",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 74,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Blackfriars",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 46,
+          "direct": true,
+          "directMins": 46,
+          "changeAt": null,
+          "typicalPeakMins": 52,
+          "peakTrainsPerHour": 4.0,
+          "peakServices": 30,
+          "totalServices": 156
+        }
+      }
+    },
+    {
       "name": "Box Hill & Westhumble",
       "slug": "box-hill-and-westhumble",
       "lat": 51.254012,
@@ -1789,6 +2525,27 @@
       ]
     },
     {
+      "name": "Bracknell",
+      "slug": "bracknell",
+      "lat": 51.413092,
+      "lng": -0.751704,
+      "tiplocs": [
+        "BRACKNL"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 64,
+          "direct": true,
+          "directMins": 64,
+          "changeAt": null,
+          "typicalPeakMins": 67,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 105
+        }
+      }
+    },
+    {
       "name": "Braintree",
       "slug": "braintree",
       "lat": 51.875392,
@@ -1818,6 +2575,37 @@
       "tiplocs": [
         "BRAINTR"
       ]
+    },
+    {
+      "name": "Braintree Freeport",
+      "slug": "braintree-freeport",
+      "lat": 51.869416,
+      "lng": 0.568435,
+      "tiplocs": [
+        "BRAINFP"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 58,
+          "direct": true,
+          "directMins": 58,
+          "changeAt": null,
+          "typicalPeakMins": 65,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 48
+        },
+        "PAD": {
+          "mins": 79,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
     },
     {
       "name": "Brentford",
@@ -1913,6 +2701,27 @@
       ]
     },
     {
+      "name": "Bristol Parkway",
+      "slug": "bristol-parkway",
+      "lat": 51.513801,
+      "lng": -2.542163,
+      "tiplocs": [
+        "BRSTPWY"
+      ],
+      "journeys": {
+        "PAD": {
+          "mins": 73,
+          "direct": true,
+          "directMins": 73,
+          "changeAt": null,
+          "typicalPeakMins": 77,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 93
+        }
+      }
+    },
+    {
       "name": "Bristol Temple Meads",
       "slug": "bristol-temple-meads",
       "lat": 51.449144,
@@ -1932,6 +2741,27 @@
       "tiplocs": [
         "BRSTLTM"
       ]
+    },
+    {
+      "name": "Broadstairs",
+      "slug": "broadstairs",
+      "lat": 51.360675,
+      "lng": 1.433561,
+      "tiplocs": [
+        "BRSR"
+      ],
+      "journeys": {
+        "STP": {
+          "mins": 81,
+          "direct": true,
+          "directMins": 81,
+          "changeAt": null,
+          "typicalPeakMins": 86,
+          "peakTrainsPerHour": 3.6,
+          "peakServices": 27,
+          "totalServices": 102
+        }
+      }
     },
     {
       "name": "Bromley South",
@@ -2180,6 +3010,37 @@
       ]
     },
     {
+      "name": "Burnham-on-Crouch",
+      "slug": "burnham-on-crouch",
+      "lat": 51.633658,
+      "lng": 0.814028,
+      "tiplocs": [
+        "BRNMONC"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 65,
+          "direct": true,
+          "directMins": 65,
+          "changeAt": null,
+          "typicalPeakMins": 67,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 15
+        },
+        "PAD": {
+          "mins": 86,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
       "name": "Bushey",
       "slug": "bushey",
       "lat": 51.645582,
@@ -2202,6 +3063,37 @@
       ]
     },
     {
+      "name": "Buxted",
+      "slug": "buxted",
+      "lat": 50.990013,
+      "lng": 0.131439,
+      "tiplocs": [
+        "BXTD"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 76,
+          "direct": true,
+          "directMins": 76,
+          "changeAt": null,
+          "typicalPeakMins": 76,
+          "peakTrainsPerHour": 0.8,
+          "peakServices": 6,
+          "totalServices": 54
+        },
+        "VIC": {
+          "mins": 85,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "East Croydon",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
       "name": "Byfleet & New Haw",
       "slug": "byfleet-and-new-haw",
       "lat": 51.349797,
@@ -2221,6 +3113,27 @@
       "tiplocs": [
         "BYFLANH"
       ]
+    },
+    {
+      "name": "Camberley",
+      "slug": "camberley",
+      "lat": 51.336328,
+      "lng": -0.744272,
+      "tiplocs": [
+        "CMBLEY"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 71,
+          "direct": false,
+          "directMins": 73,
+          "changeAt": "Ash Vale",
+          "typicalPeakMins": 73,
+          "peakTrainsPerHour": 0.8,
+          "peakServices": 6,
+          "totalServices": 6
+        }
+      }
     },
     {
       "name": "Cambridge",
@@ -2282,6 +3195,191 @@
       "tiplocs": [
         "CAMBDGE"
       ]
+    },
+    {
+      "name": "Cambridge North",
+      "slug": "cambridge-north",
+      "lat": 52.224482,
+      "lng": 0.158479,
+      "tiplocs": [
+        "CAMBNTH"
+      ],
+      "journeys": {
+        "KGX": {
+          "mins": 56,
+          "direct": true,
+          "directMins": 56,
+          "changeAt": null,
+          "typicalPeakMins": 66,
+          "peakTrainsPerHour": 1.9,
+          "peakServices": 14,
+          "totalServices": 107
+        },
+        "LST": {
+          "mins": 80,
+          "direct": true,
+          "directMins": 80,
+          "changeAt": null,
+          "typicalPeakMins": 90,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 96
+        },
+        "STP": {
+          "mins": 81,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Cambridge",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
+      "name": "Cambridge South",
+      "slug": "cambridge-south",
+      "lat": 52.174231,
+      "lng": 0.131544,
+      "tiplocs": [
+        "CAMBSTH"
+      ],
+      "journeys": {
+        "KGX": {
+          "mins": 46,
+          "direct": true,
+          "directMins": 46,
+          "changeAt": null,
+          "typicalPeakMins": 64,
+          "peakTrainsPerHour": 3.9,
+          "peakServices": 29,
+          "totalServices": 203
+        },
+        "LBG": {
+          "mins": 79,
+          "direct": true,
+          "directMins": 79,
+          "changeAt": null,
+          "typicalPeakMins": 79,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 84
+        },
+        "LST": {
+          "mins": 69,
+          "direct": true,
+          "directMins": 69,
+          "changeAt": null,
+          "typicalPeakMins": 84,
+          "peakTrainsPerHour": 3.3,
+          "peakServices": 25,
+          "totalServices": 128
+        },
+        "MOG": {
+          "mins": 78,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 64,
+          "direct": true,
+          "directMins": 64,
+          "changeAt": null,
+          "typicalPeakMins": 64,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 84
+        }
+      }
+    },
+    {
+      "name": "Canterbury West",
+      "slug": "canterbury-west",
+      "lat": 51.284269,
+      "lng": 1.075303,
+      "tiplocs": [
+        "CNTBW"
+      ],
+      "journeys": {
+        "STP": {
+          "mins": 53,
+          "direct": true,
+          "directMins": 53,
+          "changeAt": null,
+          "typicalPeakMins": 54,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 66
+        }
+      }
+    },
+    {
+      "name": "Carpenders Park",
+      "slug": "carpenders-park",
+      "lat": 51.628351,
+      "lng": -0.385939,
+      "tiplocs": [
+        "CRPNDPK"
+      ],
+      "journeys": {
+        "EUS": {
+          "mins": 42,
+          "direct": true,
+          "directMins": 42,
+          "changeAt": null,
+          "typicalPeakMins": 44,
+          "peakTrainsPerHour": 3.9,
+          "peakServices": 29,
+          "totalServices": 218
+        }
+      }
+    },
+    {
+      "name": "Caterham",
+      "slug": "caterham",
+      "lat": 51.282141,
+      "lng": -0.078307,
+      "tiplocs": [
+        "CATERHM"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 48,
+          "direct": true,
+          "directMins": 48,
+          "changeAt": null,
+          "typicalPeakMins": 49,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 105
+        },
+        "STP": {
+          "mins": 66,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "East Croydon",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 55,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Purley",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
     },
     {
       "name": "Catford",
@@ -2366,6 +3464,27 @@
       ]
     },
     {
+      "name": "Chalfont & Latimer",
+      "slug": "chalfont-and-latimer",
+      "lat": 51.668108,
+      "lng": -0.560526,
+      "tiplocs": [
+        "CHLFNAL"
+      ],
+      "journeys": {
+        "MYB": {
+          "mins": 33,
+          "direct": true,
+          "directMins": 33,
+          "changeAt": null,
+          "typicalPeakMins": 35,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 87
+        }
+      }
+    },
+    {
       "name": "Chalkwell",
       "slug": "chalkwell",
       "lat": 51.538719,
@@ -2387,6 +3506,37 @@
       ]
     },
     {
+      "name": "Charing",
+      "slug": "charing",
+      "lat": 51.208099,
+      "lng": 0.790331,
+      "tiplocs": [
+        "CRNG"
+      ],
+      "journeys": {
+        "STP": {
+          "mins": 55,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Ashford International",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 87,
+          "direct": true,
+          "directMins": 87,
+          "changeAt": null,
+          "typicalPeakMins": 96,
+          "peakTrainsPerHour": 3.2,
+          "peakServices": 24,
+          "totalServices": 93
+        }
+      }
+    },
+    {
       "name": "Charlbury",
       "slug": "charlbury",
       "lat": 51.872428,
@@ -2406,6 +3556,27 @@
       "tiplocs": [
         "CHBURY"
       ]
+    },
+    {
+      "name": "Chartham",
+      "slug": "chartham",
+      "lat": 51.257266,
+      "lng": 1.018039,
+      "tiplocs": [
+        "CHARTHM"
+      ],
+      "journeys": {
+        "STP": {
+          "mins": 58,
+          "direct": true,
+          "directMins": 58,
+          "changeAt": null,
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 3
+        }
+      }
     },
     {
       "name": "Chatham",
@@ -2501,6 +3672,68 @@
       ]
     },
     {
+      "name": "Chelsfield",
+      "slug": "chelsfield",
+      "lat": 51.356256,
+      "lng": 0.10907,
+      "tiplocs": [
+        "CHLSFLD"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 17,
+          "direct": true,
+          "directMins": 17,
+          "changeAt": null,
+          "typicalPeakMins": 41,
+          "peakTrainsPerHour": 3.2,
+          "peakServices": 24,
+          "totalServices": 129
+        },
+        "STP": {
+          "mins": 42,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Bridge",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 27,
+          "direct": true,
+          "directMins": 27,
+          "changeAt": null,
+          "typicalPeakMins": 28,
+          "peakTrainsPerHour": 0.8,
+          "peakServices": 6,
+          "totalServices": 9
+        }
+      }
+    },
+    {
+      "name": "Chertsey",
+      "slug": "chertsey",
+      "lat": 51.387069,
+      "lng": -0.509317,
+      "tiplocs": [
+        "CHTSEY"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 61,
+          "direct": false,
+          "directMins": 69,
+          "changeAt": "Weybridge",
+          "typicalPeakMins": 78,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 105
+        }
+      }
+    },
+    {
       "name": "Cheshunt",
       "slug": "cheshunt",
       "lat": 51.702876,
@@ -2551,6 +3784,78 @@
       "tiplocs": [
         "CHSSS"
       ]
+    },
+    {
+      "name": "Chestfield & Swalecliffe",
+      "slug": "chestfield-and-swalecliffe",
+      "lat": 51.360241,
+      "lng": 1.066931,
+      "tiplocs": [
+        "CHSW"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 85,
+          "direct": true,
+          "directMins": 85,
+          "changeAt": null,
+          "typicalPeakMins": 85,
+          "peakTrainsPerHour": 0.8,
+          "peakServices": 6,
+          "totalServices": 12
+        },
+        "STP": {
+          "mins": 79,
+          "direct": true,
+          "directMins": 79,
+          "changeAt": null,
+          "typicalPeakMins": 110,
+          "peakTrainsPerHour": 0.8,
+          "peakServices": 6,
+          "totalServices": 6
+        },
+        "VIC": {
+          "mins": 85,
+          "direct": true,
+          "directMins": 85,
+          "changeAt": null,
+          "typicalPeakMins": 95,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 57
+        }
+      }
+    },
+    {
+      "name": "Chilham",
+      "slug": "chilham",
+      "lat": 51.244611,
+      "lng": 0.975896,
+      "tiplocs": [
+        "CLMN"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 88,
+          "direct": true,
+          "directMins": 88,
+          "changeAt": null,
+          "typicalPeakMins": 92,
+          "peakTrainsPerHour": 0.8,
+          "peakServices": 6,
+          "totalServices": 54
+        },
+        "STP": {
+          "mins": 53,
+          "direct": true,
+          "directMins": 53,
+          "changeAt": null,
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 3
+        }
+      }
     },
     {
       "name": "Chippenham",
@@ -2644,6 +3949,89 @@
       "tiplocs": [
         "CHOLSEY"
       ]
+    },
+    {
+      "name": "Chorleywood",
+      "slug": "chorleywood",
+      "lat": 51.654249,
+      "lng": -0.51832,
+      "tiplocs": [
+        "CHRW"
+      ],
+      "journeys": {
+        "MYB": {
+          "mins": 30,
+          "direct": true,
+          "directMins": 30,
+          "changeAt": null,
+          "typicalPeakMins": 32,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 87
+        }
+      }
+    },
+    {
+      "name": "Christs Hospital",
+      "slug": "christs-hospital",
+      "lat": 51.050686,
+      "lng": -0.363556,
+      "tiplocs": [
+        "CHRSTSH"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 74,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "East Croydon",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 90,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "East Croydon",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 60,
+          "direct": true,
+          "directMins": 60,
+          "changeAt": null,
+          "typicalPeakMins": 66,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 99
+        }
+      }
+    },
+    {
+      "name": "Clacton-on-Sea",
+      "slug": "clacton-on-sea",
+      "lat": 51.794003,
+      "lng": 1.154092,
+      "tiplocs": [
+        "CLACTON"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 86,
+          "direct": true,
+          "directMins": 86,
+          "changeAt": null,
+          "typicalPeakMins": 94,
+          "peakTrainsPerHour": 2.4,
+          "peakServices": 18,
+          "totalServices": 66
+        }
+      }
     },
     {
       "name": "Clandon",
@@ -2835,6 +4223,89 @@
       ]
     },
     {
+      "name": "Colchester Town",
+      "slug": "colchester-town",
+      "lat": 51.886456,
+      "lng": 0.904763,
+      "tiplocs": [
+        "CLCHRTN"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 63,
+          "direct": false,
+          "directMins": 69,
+          "changeAt": "Colchester",
+          "typicalPeakMins": 81,
+          "peakTrainsPerHour": 0.8,
+          "peakServices": 6,
+          "totalServices": 48
+        }
+      }
+    },
+    {
+      "name": "Cooksbridge",
+      "slug": "cooksbridge",
+      "lat": 50.903756,
+      "lng": -0.009203,
+      "tiplocs": [
+        "COKSBDG"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 65,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Gatwick Airport",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 80,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Gatwick Airport",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 65,
+          "direct": true,
+          "directMins": 65,
+          "changeAt": null,
+          "typicalPeakMins": 66,
+          "peakTrainsPerHour": 0.4,
+          "peakServices": 3,
+          "totalServices": 51
+        }
+      }
+    },
+    {
+      "name": "Corby",
+      "slug": "corby",
+      "lat": 52.488851,
+      "lng": -0.688335,
+      "tiplocs": [
+        "CORBY"
+      ],
+      "journeys": {
+        "STP": {
+          "mins": 71,
+          "direct": true,
+          "directMins": 71,
+          "changeAt": null,
+          "typicalPeakMins": 74,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 102
+        }
+      }
+    },
+    {
       "name": "Coulsdon South",
       "slug": "coulsdon-south",
       "lat": 51.315838,
@@ -2917,6 +4388,47 @@
       ]
     },
     {
+      "name": "Cowden",
+      "slug": "cowden",
+      "lat": 51.155637,
+      "lng": 0.110033,
+      "tiplocs": [
+        "COWDEN"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 52,
+          "direct": true,
+          "directMins": 52,
+          "changeAt": null,
+          "typicalPeakMins": 53,
+          "peakTrainsPerHour": 0.8,
+          "peakServices": 6,
+          "totalServices": 54
+        },
+        "STP": {
+          "mins": 74,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "East Croydon",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 61,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "East Croydon",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
       "name": "Crawley",
       "slug": "crawley",
       "lat": 51.112214,
@@ -2956,6 +4468,78 @@
       "tiplocs": [
         "CRAWLEY"
       ]
+    },
+    {
+      "name": "Crayford",
+      "slug": "crayford",
+      "lat": 51.44828,
+      "lng": 0.178936,
+      "tiplocs": [
+        "CRFD"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 33,
+          "direct": true,
+          "directMins": 33,
+          "changeAt": null,
+          "typicalPeakMins": 38,
+          "peakTrainsPerHour": 6.0,
+          "peakServices": 45,
+          "totalServices": 264
+        },
+        "STP": {
+          "mins": 57,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Bridge",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 59,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Lewisham",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
+      "name": "Cressing",
+      "slug": "cressing",
+      "lat": 51.852337,
+      "lng": 0.577961,
+      "tiplocs": [
+        "CRESING"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 54,
+          "direct": true,
+          "directMins": 54,
+          "changeAt": null,
+          "typicalPeakMins": 61,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 48
+        },
+        "PAD": {
+          "mins": 75,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
     },
     {
       "name": "Crews Hill",
@@ -3048,6 +4632,58 @@
       "tiplocs": [
         "CRKLWD"
       ]
+    },
+    {
+      "name": "Crowborough",
+      "slug": "crowborough",
+      "lat": 51.046382,
+      "lng": 0.188013,
+      "tiplocs": [
+        "CBGH"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 69,
+          "direct": true,
+          "directMins": 69,
+          "changeAt": null,
+          "typicalPeakMins": 69,
+          "peakTrainsPerHour": 0.8,
+          "peakServices": 6,
+          "totalServices": 54
+        },
+        "VIC": {
+          "mins": 78,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "East Croydon",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
+      "name": "Crowhurst",
+      "slug": "crowhurst",
+      "lat": 50.888579,
+      "lng": 0.501337,
+      "tiplocs": [
+        "CRWHRST"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 82,
+          "direct": true,
+          "directMins": 82,
+          "changeAt": null,
+          "typicalPeakMins": 88,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 72
+        }
+      }
     },
     {
       "name": "Cuffley",
@@ -3163,6 +4799,48 @@
       ]
     },
     {
+      "name": "Datchet",
+      "slug": "datchet",
+      "lat": 51.483077,
+      "lng": -0.579422,
+      "tiplocs": [
+        "DATCHET"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 52,
+          "direct": true,
+          "directMins": 52,
+          "changeAt": null,
+          "typicalPeakMins": 55,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 105
+        }
+      }
+    },
+    {
+      "name": "Deal",
+      "slug": "deal",
+      "lat": 51.223045,
+      "lng": 1.398847,
+      "tiplocs": [
+        "DEAL"
+      ],
+      "journeys": {
+        "STP": {
+          "mins": 85,
+          "direct": true,
+          "directMins": 85,
+          "changeAt": null,
+          "typicalPeakMins": 86,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 36
+        }
+      }
+    },
+    {
       "name": "Denham",
       "slug": "denham",
       "lat": 51.578837,
@@ -3266,6 +4944,27 @@
       ]
     },
     {
+      "name": "Derby",
+      "slug": "derby",
+      "lat": 52.916548,
+      "lng": -1.463355,
+      "tiplocs": [
+        "DRBY"
+      ],
+      "journeys": {
+        "STP": {
+          "mins": 87,
+          "direct": true,
+          "directMins": 87,
+          "changeAt": null,
+          "typicalPeakMins": 97,
+          "peakTrainsPerHour": 2.1,
+          "peakServices": 16,
+          "totalServices": 97
+        }
+      }
+    },
+    {
       "name": "Didcot Parkway",
       "slug": "didcot-parkway",
       "lat": 51.610954,
@@ -3295,6 +4994,27 @@
       "tiplocs": [
         "DIDCOTP"
       ]
+    },
+    {
+      "name": "Diss",
+      "slug": "diss",
+      "lat": 52.373658,
+      "lng": 1.123698,
+      "tiplocs": [
+        "DISS"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 82,
+          "direct": true,
+          "directMins": 82,
+          "changeAt": null,
+          "typicalPeakMins": 97,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 96
+        }
+      }
     },
     {
       "name": "Dorking",
@@ -3338,6 +5058,130 @@
       ]
     },
     {
+      "name": "Dormans",
+      "slug": "dormans",
+      "lat": 51.155792,
+      "lng": -0.004308,
+      "tiplocs": [
+        "DORMANS"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 47,
+          "direct": true,
+          "directMins": 47,
+          "changeAt": null,
+          "typicalPeakMins": 51,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 21
+        },
+        "STP": {
+          "mins": 63,
+          "direct": true,
+          "directMins": 63,
+          "changeAt": null,
+          "typicalPeakMins": 67,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 15
+        },
+        "VIC": {
+          "mins": 52,
+          "direct": true,
+          "directMins": 52,
+          "changeAt": null,
+          "typicalPeakMins": 52,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 104
+        }
+      }
+    },
+    {
+      "name": "Dover Priory",
+      "slug": "dover-priory",
+      "lat": 51.125701,
+      "lng": 1.305294,
+      "tiplocs": [
+        "DOVERP"
+      ],
+      "journeys": {
+        "STP": {
+          "mins": 66,
+          "direct": true,
+          "directMins": 66,
+          "changeAt": null,
+          "typicalPeakMins": 66,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 54
+        }
+      }
+    },
+    {
+      "name": "Dunton Green",
+      "slug": "dunton-green",
+      "lat": 51.29649,
+      "lng": 0.170937,
+      "tiplocs": [
+        "DTNG"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 39,
+          "direct": false,
+          "directMins": 42,
+          "changeAt": "Orpington",
+          "typicalPeakMins": 49,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 111
+        },
+        "STP": {
+          "mins": 70,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Bridge",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 47,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Sevenoaks",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
+      "name": "Durrington-on-Sea",
+      "slug": "durrington-on-sea",
+      "lat": 50.817528,
+      "lng": -0.411469,
+      "tiplocs": [
+        "DRNGTOS"
+      ],
+      "journeys": {
+        "VIC": {
+          "mins": 90,
+          "direct": true,
+          "directMins": 90,
+          "changeAt": null,
+          "typicalPeakMins": 92,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 102
+        }
+      }
+    },
+    {
       "name": "Ealing Broadway",
       "slug": "ealing-broadway",
       "lat": 51.514841,
@@ -3367,6 +5211,27 @@
       "tiplocs": [
         "EALINGB"
       ]
+    },
+    {
+      "name": "Earley",
+      "slug": "earley",
+      "lat": 51.4411,
+      "lng": -0.917988,
+      "tiplocs": [
+        "ERLY"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 80,
+          "direct": true,
+          "directMins": 80,
+          "changeAt": null,
+          "typicalPeakMins": 83,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 105
+        }
+      }
     },
     {
       "name": "Earlsfield",
@@ -3583,6 +5448,68 @@
       ]
     },
     {
+      "name": "East Malling",
+      "slug": "east-malling",
+      "lat": 51.28581,
+      "lng": 0.43928,
+      "tiplocs": [
+        "EMALING"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 79,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Blackfriars",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 84,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Blackfriars",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 56,
+          "direct": true,
+          "directMins": 56,
+          "changeAt": null,
+          "typicalPeakMins": 65,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 87
+        }
+      }
+    },
+    {
+      "name": "East Midlands Parkway",
+      "slug": "east-midlands-parkway",
+      "lat": 52.862501,
+      "lng": -1.263232,
+      "tiplocs": [
+        "EMPKWAY"
+      ],
+      "journeys": {
+        "STP": {
+          "mins": 82,
+          "direct": true,
+          "directMins": 82,
+          "changeAt": null,
+          "typicalPeakMins": 89,
+          "peakTrainsPerHour": 2.9,
+          "peakServices": 22,
+          "totalServices": 111
+        }
+      }
+    },
+    {
       "name": "East Tilbury",
       "slug": "east-tilbury",
       "lat": 51.484831,
@@ -3602,6 +5529,141 @@
       "tiplocs": [
         "ETILBRY"
       ]
+    },
+    {
+      "name": "East Worthing",
+      "slug": "east-worthing",
+      "lat": 50.821645,
+      "lng": -0.354894,
+      "tiplocs": [
+        "EWRTHNG"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 90,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Gatwick Airport",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 83,
+          "direct": true,
+          "directMins": 83,
+          "changeAt": null,
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 6
+        }
+      }
+    },
+    {
+      "name": "Eastleigh",
+      "slug": "eastleigh",
+      "lat": 50.96925,
+      "lng": -1.350084,
+      "tiplocs": [
+        "ELGH"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 77,
+          "direct": true,
+          "directMins": 77,
+          "changeAt": null,
+          "typicalPeakMins": 84,
+          "peakTrainsPerHour": 2.4,
+          "peakServices": 18,
+          "totalServices": 69
+        }
+      }
+    },
+    {
+      "name": "Ebbsfleet International",
+      "slug": "ebbsfleet-international",
+      "lat": 51.442973,
+      "lng": 0.320921,
+      "tiplocs": [
+        "EBSFDOM",
+        "EBSFLTI"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 69,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Gravesend",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 18,
+          "direct": true,
+          "directMins": 18,
+          "changeAt": null,
+          "typicalPeakMins": 19,
+          "peakTrainsPerHour": 5.6,
+          "peakServices": 42,
+          "totalServices": 225
+        },
+        "VIC": {
+          "mins": 72,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Rochester",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
+      "name": "Edenbridge Town",
+      "slug": "edenbridge-town",
+      "lat": 51.200083,
+      "lng": 0.067173,
+      "tiplocs": [
+        "EDNT"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 44,
+          "direct": true,
+          "directMins": 44,
+          "changeAt": null,
+          "typicalPeakMins": 44,
+          "peakTrainsPerHour": 0.8,
+          "peakServices": 6,
+          "totalServices": 54
+        },
+        "STP": {
+          "mins": 66,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "East Croydon",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 53,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "East Croydon",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
     },
     {
       "name": "Effingham Junction",
@@ -3769,6 +5831,27 @@
       ]
     },
     {
+      "name": "Ely",
+      "slug": "ely",
+      "lat": 52.39123,
+      "lng": 0.266828,
+      "tiplocs": [
+        "ELYY"
+      ],
+      "journeys": {
+        "KGX": {
+          "mins": 70,
+          "direct": true,
+          "directMins": 70,
+          "changeAt": null,
+          "typicalPeakMins": 80,
+          "peakTrainsPerHour": 1.9,
+          "peakServices": 14,
+          "totalServices": 107
+        }
+      }
+    },
+    {
       "name": "Enfield Chase",
       "slug": "enfield-chase",
       "lat": 51.653254,
@@ -3871,6 +5954,88 @@
       ]
     },
     {
+      "name": "Epsom Downs",
+      "slug": "epsom-downs",
+      "lat": 51.323688,
+      "lng": -0.238955,
+      "tiplocs": [
+        "EPSDNS"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 50,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Sutton (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 85,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Sutton (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 54,
+          "direct": true,
+          "directMins": 54,
+          "changeAt": null,
+          "typicalPeakMins": 62,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 102
+        }
+      }
+    },
+    {
+      "name": "Eridge",
+      "slug": "eridge",
+      "lat": 51.088966,
+      "lng": 0.201432,
+      "tiplocs": [
+        "ERIDGE"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 63,
+          "direct": true,
+          "directMins": 63,
+          "changeAt": null,
+          "typicalPeakMins": 63,
+          "peakTrainsPerHour": 0.8,
+          "peakServices": 6,
+          "totalServices": 54
+        },
+        "STP": {
+          "mins": 85,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "East Croydon",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 72,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "East Croydon",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
       "name": "Erith",
       "slug": "erith",
       "lat": 51.481671,
@@ -3933,6 +6098,47 @@
       ]
     },
     {
+      "name": "Etchingham",
+      "slug": "etchingham",
+      "lat": 51.010546,
+      "lng": 0.442356,
+      "tiplocs": [
+        "ETCHNGM"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 65,
+          "direct": true,
+          "directMins": 65,
+          "changeAt": null,
+          "typicalPeakMins": 70,
+          "peakTrainsPerHour": 3.2,
+          "peakServices": 24,
+          "totalServices": 84
+        },
+        "STP": {
+          "mins": 89,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Bridge",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 84,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Tunbridge Wells",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
       "name": "Ewell West",
       "slug": "ewell-west",
       "lat": 51.350045,
@@ -3972,6 +6178,47 @@
       "tiplocs": [
         "EWELW"
       ]
+    },
+    {
+      "name": "Eynsford",
+      "slug": "eynsford",
+      "lat": 51.36272,
+      "lng": 0.204393,
+      "tiplocs": [
+        "EYNSFD"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 51,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Sevenoaks",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 63,
+          "direct": true,
+          "directMins": 63,
+          "changeAt": null,
+          "typicalPeakMins": 63,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 36
+        },
+        "VIC": {
+          "mins": 39,
+          "direct": true,
+          "directMins": 39,
+          "changeAt": null,
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 3
+        }
+      }
     },
     {
       "name": "Farnborough (Main)",
@@ -4037,6 +6284,37 @@
       ]
     },
     {
+      "name": "Farningham Road",
+      "slug": "farningham-road",
+      "lat": 51.401666,
+      "lng": 0.235452,
+      "tiplocs": [
+        "FRNNGRD"
+      ],
+      "journeys": {
+        "STP": {
+          "mins": 73,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Rochester",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 33,
+          "direct": true,
+          "directMins": 33,
+          "changeAt": null,
+          "typicalPeakMins": 48,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 72
+        }
+      }
+    },
+    {
       "name": "Faversham",
       "slug": "faversham",
       "lat": 51.311714,
@@ -4076,6 +6354,47 @@
       "tiplocs": [
         "FAVRSHM"
       ]
+    },
+    {
+      "name": "Faygate",
+      "slug": "faygate",
+      "lat": 51.095891,
+      "lng": -0.263019,
+      "tiplocs": [
+        "FAYGATE"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 59,
+          "direct": true,
+          "directMins": 59,
+          "changeAt": null,
+          "typicalPeakMins": 60,
+          "peakTrainsPerHour": 2.4,
+          "peakServices": 18,
+          "totalServices": 36
+        },
+        "STP": {
+          "mins": 74,
+          "direct": true,
+          "directMins": 74,
+          "changeAt": null,
+          "typicalPeakMins": 76,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 36
+        },
+        "VIC": {
+          "mins": 57,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Gatwick Airport",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
     },
     {
       "name": "Feltham",
@@ -4212,6 +6531,48 @@
       ]
     },
     {
+      "name": "Folkestone Central",
+      "slug": "folkestone-central",
+      "lat": 51.082888,
+      "lng": 1.169482,
+      "tiplocs": [
+        "FLKSTNC"
+      ],
+      "journeys": {
+        "STP": {
+          "mins": 54,
+          "direct": true,
+          "directMins": 54,
+          "changeAt": null,
+          "typicalPeakMins": 56,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 54
+        }
+      }
+    },
+    {
+      "name": "Folkestone West",
+      "slug": "folkestone-west",
+      "lat": 51.084587,
+      "lng": 1.153904,
+      "tiplocs": [
+        "FLKSTNW"
+      ],
+      "journeys": {
+        "STP": {
+          "mins": 52,
+          "direct": true,
+          "directMins": 52,
+          "changeAt": null,
+          "typicalPeakMins": 53,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 54
+        }
+      }
+    },
+    {
       "name": "Foxton",
       "slug": "foxton",
       "lat": 52.119214,
@@ -4251,6 +6612,90 @@
       "tiplocs": [
         "FOXTON"
       ]
+    },
+    {
+      "name": "Frant",
+      "slug": "frant",
+      "lat": 51.104029,
+      "lng": 0.294543,
+      "tiplocs": [
+        "FRANT"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 49,
+          "direct": true,
+          "directMins": 49,
+          "changeAt": null,
+          "typicalPeakMins": 55,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 69
+        },
+        "STP": {
+          "mins": 73,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Bridge",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 68,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Tunbridge Wells",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
+      "name": "Fratton",
+      "slug": "fratton",
+      "lat": 50.796339,
+      "lng": -1.073983,
+      "tiplocs": [
+        "FRATGSA",
+        "FRATTON"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 87,
+          "direct": true,
+          "directMins": 87,
+          "changeAt": null,
+          "typicalPeakMins": 110,
+          "peakTrainsPerHour": 4.8,
+          "peakServices": 36,
+          "totalServices": 160
+        }
+      }
+    },
+    {
+      "name": "Frimley",
+      "slug": "frimley",
+      "lat": 51.311862,
+      "lng": -0.746991,
+      "tiplocs": [
+        "FRIMLEY"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 67,
+          "direct": false,
+          "directMins": 80,
+          "changeAt": "Ash Vale",
+          "typicalPeakMins": 80,
+          "peakTrainsPerHour": 0.8,
+          "peakServices": 6,
+          "totalServices": 6
+        }
+      }
     },
     {
       "name": "Gatwick Airport",
@@ -4345,6 +6790,37 @@
       ]
     },
     {
+      "name": "Gidea Park",
+      "slug": "gidea-park",
+      "lat": 51.581904,
+      "lng": 0.205964,
+      "tiplocs": [
+        "GIDEAPK"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 29,
+          "direct": false,
+          "directMins": 31,
+          "changeAt": "Romford",
+          "typicalPeakMins": 32,
+          "peakTrainsPerHour": 13.2,
+          "peakServices": 99,
+          "totalServices": 522
+        },
+        "PAD": {
+          "mins": 43,
+          "direct": true,
+          "directMins": 43,
+          "changeAt": null,
+          "typicalPeakMins": 44,
+          "peakTrainsPerHour": 11.6,
+          "peakServices": 87,
+          "totalServices": 498
+        }
+      }
+    },
+    {
       "name": "Gillingham",
       "slug": "gillingham",
       "lat": 51.386565,
@@ -4384,6 +6860,37 @@
       "tiplocs": [
         "GLNGHMK"
       ]
+    },
+    {
+      "name": "Glynde",
+      "slug": "glynde",
+      "lat": 50.859172,
+      "lng": 0.070077,
+      "tiplocs": [
+        "GLYNDE"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 76,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Gatwick Airport",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 77,
+          "direct": true,
+          "directMins": 77,
+          "changeAt": null,
+          "typicalPeakMins": 77,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 9
+        }
+      }
     },
     {
       "name": "Godalming",
@@ -4613,6 +7120,68 @@
       ]
     },
     {
+      "name": "Great Bentley",
+      "slug": "great-bentley",
+      "lat": 51.85176,
+      "lng": 1.065154,
+      "tiplocs": [
+        "GTBNTLY"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 81,
+          "direct": true,
+          "directMins": 81,
+          "changeAt": null,
+          "typicalPeakMins": 82,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 12
+        }
+      }
+    },
+    {
+      "name": "Great Chesterford",
+      "slug": "great-chesterford",
+      "lat": 52.059811,
+      "lng": 0.193521,
+      "tiplocs": [
+        "GTCHSFD"
+      ],
+      "journeys": {
+        "KGX": {
+          "mins": 85,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Cambridge South",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "LST": {
+          "mins": 65,
+          "direct": true,
+          "directMins": 65,
+          "changeAt": null,
+          "typicalPeakMins": 74,
+          "peakTrainsPerHour": 1.9,
+          "peakServices": 14,
+          "totalServices": 85
+        },
+        "STP": {
+          "mins": 87,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Cambridge South",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
       "name": "Great Missenden",
       "slug": "great-missenden",
       "lat": 51.703519,
@@ -4632,6 +7201,48 @@
       "tiplocs": [
         "GTMSNDN"
       ]
+    },
+    {
+      "name": "Greenhithe for Bluewater",
+      "slug": "greenhithe-for-bluewater",
+      "lat": 51.450372,
+      "lng": 0.28029,
+      "tiplocs": [
+        "GNHT",
+        "GNHTRI"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 47,
+          "direct": true,
+          "directMins": 47,
+          "changeAt": null,
+          "typicalPeakMins": 49,
+          "peakTrainsPerHour": 4.8,
+          "peakServices": 36,
+          "totalServices": 201
+        },
+        "STP": {
+          "mins": 37,
+          "direct": false,
+          "directMins": 64,
+          "changeAt": "Gravesend",
+          "typicalPeakMins": 64,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 78
+        },
+        "VIC": {
+          "mins": 57,
+          "direct": true,
+          "directMins": 57,
+          "changeAt": null,
+          "typicalPeakMins": 59,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 96
+        }
+      }
     },
     {
       "name": "Grove Park",
@@ -4798,6 +7409,37 @@
       ]
     },
     {
+      "name": "Hampden Park",
+      "slug": "hampden-park",
+      "lat": 50.796406,
+      "lng": 0.279356,
+      "tiplocs": [
+        "HMPDNPK"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 88,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Gatwick Airport",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 88,
+          "direct": true,
+          "directMins": 88,
+          "changeAt": null,
+          "typicalPeakMins": 94,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 102
+        }
+      }
+    },
+    {
       "name": "Hampton Court",
       "slug": "hampton-court",
       "lat": 51.402556,
@@ -4892,6 +7534,37 @@
       ]
     },
     {
+      "name": "Harlington",
+      "slug": "harlington",
+      "lat": 51.962062,
+      "lng": -0.49569,
+      "tiplocs": [
+        "HRLG"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 62,
+          "direct": true,
+          "directMins": 62,
+          "changeAt": null,
+          "typicalPeakMins": 63,
+          "peakTrainsPerHour": 4.0,
+          "peakServices": 30,
+          "totalServices": 183
+        },
+        "STP": {
+          "mins": 46,
+          "direct": true,
+          "directMins": 46,
+          "changeAt": null,
+          "typicalPeakMins": 48,
+          "peakTrainsPerHour": 4.0,
+          "peakServices": 30,
+          "totalServices": 207
+        }
+      }
+    },
+    {
       "name": "Harlow Mill",
       "slug": "harlow-mill",
       "lat": 51.790365,
@@ -4954,6 +7627,37 @@
       ]
     },
     {
+      "name": "Harold Wood",
+      "slug": "harold-wood",
+      "lat": 51.592766,
+      "lng": 0.233129,
+      "tiplocs": [
+        "HRLDWOD"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 32,
+          "direct": false,
+          "directMins": 35,
+          "changeAt": "Romford",
+          "typicalPeakMins": 36,
+          "peakTrainsPerHour": 11.2,
+          "peakServices": 84,
+          "totalServices": 498
+        },
+        "PAD": {
+          "mins": 46,
+          "direct": true,
+          "directMins": 46,
+          "changeAt": null,
+          "typicalPeakMins": 48,
+          "peakTrainsPerHour": 11.2,
+          "peakServices": 84,
+          "totalServices": 492
+        }
+      }
+    },
+    {
       "name": "Harpenden",
       "slug": "harpenden",
       "lat": 51.814645,
@@ -4993,6 +7697,37 @@
       "tiplocs": [
         "HRPNDN"
       ]
+    },
+    {
+      "name": "Harrietsham",
+      "slug": "harrietsham",
+      "lat": 51.244833,
+      "lng": 0.672399,
+      "tiplocs": [
+        "HRSM"
+      ],
+      "journeys": {
+        "STP": {
+          "mins": 63,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Ashford International",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 78,
+          "direct": true,
+          "directMins": 78,
+          "changeAt": null,
+          "typicalPeakMins": 87,
+          "peakTrainsPerHour": 3.2,
+          "peakServices": 24,
+          "totalServices": 93
+        }
+      }
     },
     {
       "name": "Harrow & Wealdstone",
@@ -5035,6 +7770,27 @@
         "HROW",
         "HROWDC"
       ]
+    },
+    {
+      "name": "Harwich International",
+      "slug": "harwich-international",
+      "lat": 51.94729,
+      "lng": 1.255124,
+      "tiplocs": [
+        "PRKSTON"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 82,
+          "direct": true,
+          "directMins": 82,
+          "changeAt": null,
+          "typicalPeakMins": 94,
+          "peakTrainsPerHour": 0.8,
+          "peakServices": 6,
+          "totalServices": 12
+        }
+      }
     },
     {
       "name": "Haslemere",
@@ -5097,6 +7853,48 @@
       "tiplocs": [
         "HASOCKS"
       ]
+    },
+    {
+      "name": "Hastings",
+      "slug": "hastings",
+      "lat": 50.857896,
+      "lng": 0.576742,
+      "tiplocs": [
+        "HASTING"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 85,
+          "direct": true,
+          "directMins": 85,
+          "changeAt": null,
+          "typicalPeakMins": 100,
+          "peakTrainsPerHour": 3.2,
+          "peakServices": 24,
+          "totalServices": 105
+        }
+      }
+    },
+    {
+      "name": "Hatch End",
+      "slug": "hatch-end",
+      "lat": 51.609417,
+      "lng": -0.368601,
+      "tiplocs": [
+        "HTCHEND"
+      ],
+      "journeys": {
+        "EUS": {
+          "mins": 39,
+          "direct": true,
+          "directMins": 39,
+          "changeAt": null,
+          "typicalPeakMins": 41,
+          "peakTrainsPerHour": 3.9,
+          "peakServices": 29,
+          "totalServices": 218
+        }
+      }
     },
     {
       "name": "Hatfield",
@@ -5345,6 +8143,27 @@
       ]
     },
     {
+      "name": "Hedge End",
+      "slug": "hedge-end",
+      "lat": 50.93232,
+      "lng": -1.294503,
+      "tiplocs": [
+        "HEDGEND"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 88,
+          "direct": true,
+          "directMins": 88,
+          "changeAt": null,
+          "typicalPeakMins": 94,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 54
+        }
+      }
+    },
+    {
       "name": "Hemel Hempstead",
       "slug": "hemel-hempstead",
       "lat": 51.742333,
@@ -5395,6 +8214,68 @@
       "tiplocs": [
         "HNLYOT"
       ]
+    },
+    {
+      "name": "Herne Bay",
+      "slug": "herne-bay",
+      "lat": 51.364593,
+      "lng": 1.117726,
+      "tiplocs": [
+        "HRNEBAY"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 88,
+          "direct": true,
+          "directMins": 88,
+          "changeAt": null,
+          "typicalPeakMins": 89,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 15
+        },
+        "STP": {
+          "mins": 81,
+          "direct": true,
+          "directMins": 81,
+          "changeAt": null,
+          "typicalPeakMins": 83,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 45
+        },
+        "VIC": {
+          "mins": 89,
+          "direct": true,
+          "directMins": 89,
+          "changeAt": null,
+          "typicalPeakMins": 98,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 57
+        }
+      }
+    },
+    {
+      "name": "Hersham",
+      "slug": "hersham",
+      "lat": 51.376812,
+      "lng": -0.389959,
+      "tiplocs": [
+        "HERSHAM"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 26,
+          "direct": true,
+          "directMins": 26,
+          "changeAt": null,
+          "typicalPeakMins": 28,
+          "peakTrainsPerHour": 3.2,
+          "peakServices": 24,
+          "totalServices": 120
+        }
+      }
     },
     {
       "name": "Hertford East",
@@ -5479,6 +8360,88 @@
       ]
     },
     {
+      "name": "Hever",
+      "slug": "hever",
+      "lat": 51.181411,
+      "lng": 0.095069,
+      "tiplocs": [
+        "HEVER"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 47,
+          "direct": true,
+          "directMins": 47,
+          "changeAt": null,
+          "typicalPeakMins": 48,
+          "peakTrainsPerHour": 0.8,
+          "peakServices": 6,
+          "totalServices": 54
+        },
+        "STP": {
+          "mins": 69,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "East Croydon",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 56,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "East Croydon",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
+      "name": "High Brooms",
+      "slug": "high-brooms",
+      "lat": 51.149405,
+      "lng": 0.277332,
+      "tiplocs": [
+        "HBROOMS"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 40,
+          "direct": true,
+          "directMins": 40,
+          "changeAt": null,
+          "typicalPeakMins": 44,
+          "peakTrainsPerHour": 3.2,
+          "peakServices": 24,
+          "totalServices": 117
+        },
+        "STP": {
+          "mins": 64,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Bridge",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 49,
+          "direct": true,
+          "directMins": 49,
+          "changeAt": null,
+          "typicalPeakMins": 54,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 78
+        }
+      }
+    },
+    {
       "name": "High Wycombe",
       "slug": "high-wycombe",
       "lat": 51.629586,
@@ -5498,6 +8461,47 @@
       "tiplocs": [
         "HWYCOMB"
       ]
+    },
+    {
+      "name": "Higham",
+      "slug": "higham",
+      "lat": 51.426559,
+      "lng": 0.466278,
+      "tiplocs": [
+        "HIGM"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 64,
+          "direct": true,
+          "directMins": 64,
+          "changeAt": null,
+          "typicalPeakMins": 64,
+          "peakTrainsPerHour": 2.4,
+          "peakServices": 18,
+          "totalServices": 81
+        },
+        "STP": {
+          "mins": 42,
+          "direct": false,
+          "directMins": 81,
+          "changeAt": "Gravesend",
+          "typicalPeakMins": 81,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 78
+        },
+        "VIC": {
+          "mins": 59,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Rochester",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
     },
     {
       "name": "Hildenborough",
@@ -5683,6 +8687,78 @@
       "tiplocs": [
         "HOCKLEY"
       ]
+    },
+    {
+      "name": "Hollingbourne",
+      "slug": "hollingbourne",
+      "lat": 51.265179,
+      "lng": 0.627848,
+      "tiplocs": [
+        "HBRN"
+      ],
+      "journeys": {
+        "STP": {
+          "mins": 68,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Ashford International",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 73,
+          "direct": true,
+          "directMins": 73,
+          "changeAt": null,
+          "typicalPeakMins": 83,
+          "peakTrainsPerHour": 3.2,
+          "peakServices": 24,
+          "totalServices": 93
+        }
+      }
+    },
+    {
+      "name": "Holmwood",
+      "slug": "holmwood",
+      "lat": 51.181196,
+      "lng": -0.320809,
+      "tiplocs": [
+        "HLMW"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 83,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Epsom",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 70,
+          "direct": true,
+          "directMins": 70,
+          "changeAt": null,
+          "typicalPeakMins": 72,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 51
+        },
+        "WAT": {
+          "mins": 74,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Dorking",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
     },
     {
       "name": "Hook",
@@ -6085,6 +9161,78 @@
       ]
     },
     {
+      "name": "Hythe",
+      "slug": "hythe",
+      "lat": 51.88564,
+      "lng": 0.927528,
+      "tiplocs": [
+        "CLCHHYT"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 64,
+          "direct": true,
+          "directMins": 64,
+          "changeAt": null,
+          "typicalPeakMins": 70,
+          "peakTrainsPerHour": 2.4,
+          "peakServices": 18,
+          "totalServices": 69
+        },
+        "PAD": {
+          "mins": 84,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
+      "name": "Ifield",
+      "slug": "ifield",
+      "lat": 51.115623,
+      "lng": -0.214772,
+      "tiplocs": [
+        "IFIELD"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 51,
+          "direct": false,
+          "directMins": 55,
+          "changeAt": "Three Bridges",
+          "typicalPeakMins": 55,
+          "peakTrainsPerHour": 2.8,
+          "peakServices": 21,
+          "totalServices": 108
+        },
+        "STP": {
+          "mins": 66,
+          "direct": false,
+          "directMins": 70,
+          "changeAt": "Three Bridges",
+          "typicalPeakMins": 71,
+          "peakTrainsPerHour": 2.4,
+          "peakServices": 18,
+          "totalServices": 111
+        },
+        "VIC": {
+          "mins": 47,
+          "direct": true,
+          "directMins": 47,
+          "changeAt": null,
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 3
+        }
+      }
+    },
+    {
       "name": "Ingatestone",
       "slug": "ingatestone",
       "lat": 51.667043,
@@ -6168,6 +9316,37 @@
       ]
     },
     {
+      "name": "Islip",
+      "slug": "islip",
+      "lat": 51.825753,
+      "lng": -1.238182,
+      "tiplocs": [
+        "ISLIP"
+      ],
+      "journeys": {
+        "MYB": {
+          "mins": 70,
+          "direct": true,
+          "directMins": 70,
+          "changeAt": null,
+          "typicalPeakMins": 74,
+          "peakTrainsPerHour": 0.4,
+          "peakServices": 3,
+          "totalServices": 33
+        },
+        "PAD": {
+          "mins": 74,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Oxford",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
       "name": "Iver",
       "slug": "iver",
       "lat": 51.508503,
@@ -6230,6 +9409,110 @@
       ]
     },
     {
+      "name": "Kemble",
+      "slug": "kemble",
+      "lat": 51.676996,
+      "lng": -2.022817,
+      "tiplocs": [
+        "KEMBLE"
+      ],
+      "journeys": {
+        "PAD": {
+          "mins": 69,
+          "direct": true,
+          "directMins": 69,
+          "changeAt": null,
+          "typicalPeakMins": 74,
+          "peakTrainsPerHour": 0.8,
+          "peakServices": 6,
+          "totalServices": 48
+        }
+      }
+    },
+    {
+      "name": "Kempton Park",
+      "slug": "kempton-park",
+      "lat": 51.420983,
+      "lng": -0.409751,
+      "tiplocs": [
+        "KMPTNPK"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 45,
+          "direct": true,
+          "directMins": 45,
+          "changeAt": null,
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 87
+        }
+      }
+    },
+    {
+      "name": "Kemsing",
+      "slug": "kemsing",
+      "lat": 51.297187,
+      "lng": 0.247428,
+      "tiplocs": [
+        "KEMSING"
+      ],
+      "journeys": {
+        "VIC": {
+          "mins": 46,
+          "direct": true,
+          "directMins": 46,
+          "changeAt": null,
+          "typicalPeakMins": 52,
+          "peakTrainsPerHour": 0.8,
+          "peakServices": 6,
+          "totalServices": 51
+        }
+      }
+    },
+    {
+      "name": "Kenley",
+      "slug": "kenley",
+      "lat": 51.324777,
+      "lng": -0.100925,
+      "tiplocs": [
+        "KNLY"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 38,
+          "direct": true,
+          "directMins": 38,
+          "changeAt": null,
+          "typicalPeakMins": 39,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 105
+        },
+        "STP": {
+          "mins": 57,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "East Croydon",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 45,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Purley",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
       "name": "Kentish Town",
       "slug": "kentish-town",
       "lat": 51.550495,
@@ -6269,6 +9552,27 @@
       "tiplocs": [
         "KNTSHTN"
       ]
+    },
+    {
+      "name": "Kettering",
+      "slug": "kettering",
+      "lat": 52.393555,
+      "lng": -0.731562,
+      "tiplocs": [
+        "KETR"
+      ],
+      "journeys": {
+        "STP": {
+          "mins": 47,
+          "direct": true,
+          "directMins": 47,
+          "changeAt": null,
+          "typicalPeakMins": 59,
+          "peakTrainsPerHour": 4.1,
+          "peakServices": 31,
+          "totalServices": 199
+        }
+      }
     },
     {
       "name": "Kidbrooke",
@@ -6488,6 +9792,47 @@
       ]
     },
     {
+      "name": "Knockholt",
+      "slug": "knockholt",
+      "lat": 51.34579,
+      "lng": 0.130847,
+      "tiplocs": [
+        "KNCKHLT"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 34,
+          "direct": false,
+          "directMins": 37,
+          "changeAt": "Orpington",
+          "typicalPeakMins": 44,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 111
+        },
+        "STP": {
+          "mins": 65,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Bridge",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 45,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Orpington",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
       "name": "Laindon",
       "slug": "laindon",
       "lat": 51.567524,
@@ -6569,6 +9914,37 @@
       "tiplocs": [
         "LANGLEY"
       ]
+    },
+    {
+      "name": "Leagrave",
+      "slug": "leagrave",
+      "lat": 51.905159,
+      "lng": -0.458503,
+      "tiplocs": [
+        "LEAGRVE"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 52,
+          "direct": true,
+          "directMins": 52,
+          "changeAt": null,
+          "typicalPeakMins": 56,
+          "peakTrainsPerHour": 4.4,
+          "peakServices": 33,
+          "totalServices": 198
+        },
+        "STP": {
+          "mins": 37,
+          "direct": true,
+          "directMins": 37,
+          "changeAt": null,
+          "typicalPeakMins": 41,
+          "peakTrainsPerHour": 4.4,
+          "peakServices": 33,
+          "totalServices": 222
+        }
+      }
     },
     {
       "name": "Leamington Spa",
@@ -6653,6 +10029,27 @@
       ]
     },
     {
+      "name": "Leicester",
+      "slug": "leicester",
+      "lat": 52.631425,
+      "lng": -1.125275,
+      "tiplocs": [
+        "LESTER"
+      ],
+      "journeys": {
+        "STP": {
+          "mins": 63,
+          "direct": true,
+          "directMins": 63,
+          "changeAt": null,
+          "typicalPeakMins": 72,
+          "peakTrainsPerHour": 4.1,
+          "peakServices": 31,
+          "totalServices": 187
+        }
+      }
+    },
+    {
       "name": "Leigh-on-Sea",
       "slug": "leigh-on-sea",
       "lat": 51.541273,
@@ -6693,6 +10090,37 @@
       "tiplocs": [
         "LTNBZRD"
       ]
+    },
+    {
+      "name": "Lenham",
+      "slug": "lenham",
+      "lat": 51.234486,
+      "lng": 0.707759,
+      "tiplocs": [
+        "LENHAM"
+      ],
+      "journeys": {
+        "STP": {
+          "mins": 60,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Ashford International",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 81,
+          "direct": true,
+          "directMins": 81,
+          "changeAt": null,
+          "typicalPeakMins": 91,
+          "peakTrainsPerHour": 3.2,
+          "peakServices": 24,
+          "totalServices": 93
+        }
+      }
     },
     {
       "name": "Letchworth Garden City",
@@ -6746,6 +10174,47 @@
       ]
     },
     {
+      "name": "Lewes",
+      "slug": "lewes",
+      "lat": 50.870632,
+      "lng": 0.011331,
+      "tiplocs": [
+        "LEWES"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 70,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Gatwick Airport",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 85,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Gatwick Airport",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 70,
+          "direct": true,
+          "directMins": 70,
+          "changeAt": null,
+          "typicalPeakMins": 71,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 102
+        }
+      }
+    },
+    {
       "name": "Lewisham",
       "slug": "lewisham",
       "lat": 51.465692,
@@ -6785,6 +10254,28 @@
       "tiplocs": [
         "LEWISHM"
       ]
+    },
+    {
+      "name": "Lichfield Trent Valley",
+      "slug": "lichfield-trent-valley",
+      "lat": 52.686894,
+      "lng": -1.800229,
+      "tiplocs": [
+        "LCHTTVH",
+        "LCHTTVL"
+      ],
+      "journeys": {
+        "EUS": {
+          "mins": 76,
+          "direct": true,
+          "directMins": 76,
+          "changeAt": null,
+          "typicalPeakMins": 93,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 79
+        }
+      }
     },
     {
       "name": "Limehouse",
@@ -6932,6 +10423,109 @@
       ]
     },
     {
+      "name": "Littlehaven",
+      "slug": "littlehaven",
+      "lat": 51.079751,
+      "lng": -0.30798,
+      "tiplocs": [
+        "LHVN"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 57,
+          "direct": false,
+          "directMins": 61,
+          "changeAt": "Three Bridges",
+          "typicalPeakMins": 62,
+          "peakTrainsPerHour": 2.8,
+          "peakServices": 21,
+          "totalServices": 108
+        },
+        "STP": {
+          "mins": 72,
+          "direct": false,
+          "directMins": 76,
+          "changeAt": "Three Bridges",
+          "typicalPeakMins": 78,
+          "peakTrainsPerHour": 2.4,
+          "peakServices": 18,
+          "totalServices": 111
+        },
+        "VIC": {
+          "mins": 51,
+          "direct": true,
+          "directMins": 51,
+          "changeAt": null,
+          "typicalPeakMins": 51,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 12
+        }
+      }
+    },
+    {
+      "name": "Littleport",
+      "slug": "littleport",
+      "lat": 52.462381,
+      "lng": 0.316559,
+      "tiplocs": [
+        "LTLPORT"
+      ],
+      "journeys": {
+        "KGX": {
+          "mins": 80,
+          "direct": true,
+          "directMins": 80,
+          "changeAt": null,
+          "typicalPeakMins": 89,
+          "peakTrainsPerHour": 1.9,
+          "peakServices": 14,
+          "totalServices": 77
+        }
+      }
+    },
+    {
+      "name": "London Road (Guildford)",
+      "slug": "london-road-guildford",
+      "lat": 50.836663,
+      "lng": -0.136502,
+      "tiplocs": [
+        "LRDGFD"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 85,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Epsom",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 86,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Leatherhead",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "WAT": {
+          "mins": 47,
+          "direct": false,
+          "directMins": 56,
+          "changeAt": "Guildford",
+          "typicalPeakMins": 63,
+          "peakTrainsPerHour": 3.2,
+          "peakServices": 24,
+          "totalServices": 171
+        }
+      }
+    },
+    {
       "name": "Long Buckby",
       "slug": "long-buckby",
       "lat": 52.294716,
@@ -6951,6 +10545,110 @@
       "tiplocs": [
         "LNGBKBY"
       ]
+    },
+    {
+      "name": "Long Eaton",
+      "slug": "long-eaton",
+      "lat": 52.884988,
+      "lng": -1.287521,
+      "tiplocs": [
+        "LNGEATN"
+      ],
+      "journeys": {
+        "STP": {
+          "mins": 86,
+          "direct": true,
+          "directMins": 86,
+          "changeAt": null,
+          "typicalPeakMins": 89,
+          "peakTrainsPerHour": 1.7,
+          "peakServices": 13,
+          "totalServices": 54
+        }
+      }
+    },
+    {
+      "name": "Longcross",
+      "slug": "longcross",
+      "lat": 51.385173,
+      "lng": -0.59457,
+      "tiplocs": [
+        "LNGCROS"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 49,
+          "direct": true,
+          "directMins": 49,
+          "changeAt": null,
+          "typicalPeakMins": 54,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 90
+        }
+      }
+    },
+    {
+      "name": "Longfield",
+      "slug": "longfield",
+      "lat": 51.396155,
+      "lng": 0.300364,
+      "tiplocs": [
+        "LGFD"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 56,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Blackfriars",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 59,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Rochester",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 32,
+          "direct": true,
+          "directMins": 32,
+          "changeAt": null,
+          "typicalPeakMins": 51,
+          "peakTrainsPerHour": 2.8,
+          "peakServices": 21,
+          "totalServices": 117
+        }
+      }
+    },
+    {
+      "name": "Loughborough",
+      "slug": "loughborough",
+      "lat": 52.778955,
+      "lng": -1.195928,
+      "tiplocs": [
+        "LOGHBRO"
+      ],
+      "journeys": {
+        "STP": {
+          "mins": 74,
+          "direct": true,
+          "directMins": 74,
+          "changeAt": null,
+          "typicalPeakMins": 80,
+          "peakTrainsPerHour": 2.1,
+          "peakServices": 16,
+          "totalServices": 102
+        }
+      }
     },
     {
       "name": "Luton",
@@ -7107,6 +10805,37 @@
       ]
     },
     {
+      "name": "Maidstone West",
+      "slug": "maidstone-west",
+      "lat": 51.270466,
+      "lng": 0.515774,
+      "tiplocs": [
+        "MSTONEW"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 73,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Paddock Wood",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 52,
+          "direct": true,
+          "directMins": 52,
+          "changeAt": null,
+          "typicalPeakMins": 52,
+          "peakTrainsPerHour": 0.8,
+          "peakServices": 6,
+          "totalServices": 6
+        }
+      }
+    },
+    {
       "name": "Manningtree",
       "slug": "manningtree",
       "lat": 51.949052,
@@ -7179,6 +10908,48 @@
       ]
     },
     {
+      "name": "Margate",
+      "slug": "margate",
+      "lat": 51.385429,
+      "lng": 1.372003,
+      "tiplocs": [
+        "MARGATE"
+      ],
+      "journeys": {
+        "STP": {
+          "mins": 87,
+          "direct": true,
+          "directMins": 87,
+          "changeAt": null,
+          "typicalPeakMins": 92,
+          "peakTrainsPerHour": 3.6,
+          "peakServices": 27,
+          "totalServices": 102
+        }
+      }
+    },
+    {
+      "name": "Market Harborough",
+      "slug": "market-harborough",
+      "lat": 52.479722,
+      "lng": -0.909332,
+      "tiplocs": [
+        "MRKTHRB"
+      ],
+      "journeys": {
+        "STP": {
+          "mins": 57,
+          "direct": true,
+          "directMins": 57,
+          "changeAt": null,
+          "typicalPeakMins": 60,
+          "peakTrainsPerHour": 2.1,
+          "peakServices": 16,
+          "totalServices": 94
+        }
+      }
+    },
+    {
       "name": "Marks Tey",
       "slug": "marks-tey",
       "lat": 51.880939,
@@ -7241,6 +11012,48 @@
       ]
     },
     {
+      "name": "Martin Mill",
+      "slug": "martin-mill",
+      "lat": 51.170678,
+      "lng": 1.348217,
+      "tiplocs": [
+        "MMIL"
+      ],
+      "journeys": {
+        "STP": {
+          "mins": 75,
+          "direct": true,
+          "directMins": 75,
+          "changeAt": null,
+          "typicalPeakMins": 77,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 36
+        }
+      }
+    },
+    {
+      "name": "Martins Heron",
+      "slug": "martins-heron",
+      "lat": 51.407412,
+      "lng": -0.724397,
+      "tiplocs": [
+        "MHERON"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 61,
+          "direct": true,
+          "directMins": 61,
+          "changeAt": null,
+          "typicalPeakMins": 64,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 105
+        }
+      }
+    },
+    {
       "name": "Meldreth",
       "slug": "meldreth",
       "lat": 52.090717,
@@ -7290,6 +11103,47 @@
       "tiplocs": [
         "MELDRTH"
       ]
+    },
+    {
+      "name": "Meopham",
+      "slug": "meopham",
+      "lat": 51.386424,
+      "lng": 0.356952,
+      "tiplocs": [
+        "MEOPHAM"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 61,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Blackfriars",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 55,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Rochester",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 36,
+          "direct": true,
+          "directMins": 36,
+          "changeAt": null,
+          "typicalPeakMins": 56,
+          "peakTrainsPerHour": 2.4,
+          "peakServices": 18,
+          "totalServices": 114
+        }
+      }
     },
     {
       "name": "Merstham",
@@ -7351,6 +11205,58 @@
       "tiplocs": [
         "MERSTHM"
       ]
+    },
+    {
+      "name": "Micheldever",
+      "slug": "micheldever",
+      "lat": 51.182393,
+      "lng": -1.260678,
+      "tiplocs": [
+        "MCHLDVR"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 62,
+          "direct": true,
+          "directMins": 62,
+          "changeAt": null,
+          "typicalPeakMins": 64,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 57
+        }
+      }
+    },
+    {
+      "name": "Midgham",
+      "slug": "midgham",
+      "lat": 51.395975,
+      "lng": -1.177711,
+      "tiplocs": [
+        "MIDGHAM"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 90,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Reading",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "PAD": {
+          "mins": 49,
+          "direct": false,
+          "directMins": 52,
+          "changeAt": "Reading",
+          "typicalPeakMins": 52,
+          "peakTrainsPerHour": 0.4,
+          "peakServices": 3,
+          "totalServices": 3
+        }
+      }
     },
     {
       "name": "Milford",
@@ -7434,6 +11340,48 @@
       "tiplocs": [
         "MKNSCEN"
       ]
+    },
+    {
+      "name": "Minster",
+      "slug": "minster",
+      "lat": 51.329174,
+      "lng": 1.317217,
+      "tiplocs": [
+        "MINSTER"
+      ],
+      "journeys": {
+        "STP": {
+          "mins": 79,
+          "direct": true,
+          "directMins": 79,
+          "changeAt": null,
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 3
+        }
+      }
+    },
+    {
+      "name": "Mistley",
+      "slug": "mistley",
+      "lat": 51.943631,
+      "lng": 1.0814,
+      "tiplocs": [
+        "MISTLEY"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 76,
+          "direct": false,
+          "directMins": 78,
+          "changeAt": "Manningtree",
+          "typicalPeakMins": 93,
+          "peakTrainsPerHour": 0.4,
+          "peakServices": 3,
+          "totalServices": 6
+        }
+      }
     },
     {
       "name": "Monks Risborough",
@@ -7725,6 +11673,89 @@
       ]
     },
     {
+      "name": "Newbury Racecourse",
+      "slug": "newbury-racecourse",
+      "lat": 51.398461,
+      "lng": -1.307799,
+      "tiplocs": [
+        "NEWBRYR"
+      ],
+      "journeys": {
+        "PAD": {
+          "mins": 53,
+          "direct": false,
+          "directMins": 60,
+          "changeAt": "Newbury",
+          "typicalPeakMins": 60,
+          "peakTrainsPerHour": 0.4,
+          "peakServices": 3,
+          "totalServices": 3
+        }
+      }
+    },
+    {
+      "name": "Newington",
+      "slug": "newington",
+      "lat": 51.353342,
+      "lng": 0.668571,
+      "tiplocs": [
+        "NEWNGTN"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 60,
+          "direct": true,
+          "directMins": 60,
+          "changeAt": null,
+          "typicalPeakMins": 60,
+          "peakTrainsPerHour": 0.8,
+          "peakServices": 6,
+          "totalServices": 6
+        },
+        "STP": {
+          "mins": 65,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Rainham (Kent)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 59,
+          "direct": true,
+          "directMins": 59,
+          "changeAt": null,
+          "typicalPeakMins": 64,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 63
+        }
+      }
+    },
+    {
+      "name": "Newport (Essex)",
+      "slug": "newport-essex",
+      "lat": 51.97987,
+      "lng": 0.215141,
+      "tiplocs": [
+        "NEWPRTE"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 56,
+          "direct": true,
+          "directMins": 56,
+          "changeAt": null,
+          "typicalPeakMins": 65,
+          "peakTrainsPerHour": 1.9,
+          "peakServices": 14,
+          "totalServices": 85
+        }
+      }
+    },
+    {
       "name": "Norbiton",
       "slug": "norbiton",
       "lat": 51.412358,
@@ -7746,6 +11777,37 @@
       ]
     },
     {
+      "name": "North Fambridge",
+      "slug": "north-fambridge",
+      "lat": 51.648584,
+      "lng": 0.681659,
+      "tiplocs": [
+        "FAMBDGE"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 53,
+          "direct": true,
+          "directMins": 53,
+          "changeAt": null,
+          "typicalPeakMins": 56,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 15
+        },
+        "PAD": {
+          "mins": 74,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
       "name": "Northampton",
       "slug": "northampton",
       "lat": 52.2375,
@@ -7765,6 +11827,69 @@
       "tiplocs": [
         "NMPTN"
       ]
+    },
+    {
+      "name": "Northfleet",
+      "slug": "northfleet",
+      "lat": 51.445846,
+      "lng": 0.324334,
+      "tiplocs": [
+        "NRTHCA",
+        "NRTHFLT"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 52,
+          "direct": true,
+          "directMins": 52,
+          "changeAt": null,
+          "typicalPeakMins": 55,
+          "peakTrainsPerHour": 4.8,
+          "peakServices": 36,
+          "totalServices": 201
+        },
+        "STP": {
+          "mins": 44,
+          "direct": false,
+          "directMins": 69,
+          "changeAt": "Gravesend",
+          "typicalPeakMins": 70,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 78
+        },
+        "VIC": {
+          "mins": 70,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Rochester",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
+      "name": "Nuneaton",
+      "slug": "nuneaton",
+      "lat": 52.526371,
+      "lng": -1.463875,
+      "tiplocs": [
+        "NNTN"
+      ],
+      "journeys": {
+        "EUS": {
+          "mins": 58,
+          "direct": true,
+          "directMins": 58,
+          "changeAt": null,
+          "typicalPeakMins": 70,
+          "peakTrainsPerHour": 2.8,
+          "peakServices": 21,
+          "totalServices": 116
+        }
+      }
     },
     {
       "name": "Oakleigh Park",
@@ -7847,6 +11972,47 @@
       "tiplocs": [
         "OCKENDN"
       ]
+    },
+    {
+      "name": "Ockley",
+      "slug": "ockley",
+      "lat": 51.151512,
+      "lng": -0.336014,
+      "tiplocs": [
+        "OCKLYAC"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 87,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Horsham",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 75,
+          "direct": true,
+          "directMins": 75,
+          "changeAt": null,
+          "typicalPeakMins": 77,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 51
+        },
+        "WAT": {
+          "mins": 78,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Dorking",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
     },
     {
       "name": "Orpington",
@@ -7991,6 +12157,37 @@
       "tiplocs": [
         "OXFD"
       ]
+    },
+    {
+      "name": "Oxford Parkway",
+      "slug": "oxford-parkway",
+      "lat": 51.804071,
+      "lng": -1.274486,
+      "tiplocs": [
+        "OXFPWAY"
+      ],
+      "journeys": {
+        "MYB": {
+          "mins": 67,
+          "direct": true,
+          "directMins": 67,
+          "changeAt": null,
+          "typicalPeakMins": 81,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 104
+        },
+        "PAD": {
+          "mins": 69,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Oxford",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
     },
     {
       "name": "Oxshott",
@@ -8375,6 +12572,47 @@
       ]
     },
     {
+      "name": "Plumpton",
+      "slug": "plumpton",
+      "lat": 50.928663,
+      "lng": -0.060181,
+      "tiplocs": [
+        "PLMPTON"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 62,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Gatwick Airport",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 77,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Gatwick Airport",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 63,
+          "direct": true,
+          "directMins": 63,
+          "changeAt": null,
+          "typicalPeakMins": 63,
+          "peakTrainsPerHour": 0.8,
+          "peakServices": 6,
+          "totalServices": 54
+        }
+      }
+    },
+    {
       "name": "Plumstead",
       "slug": "plumstead",
       "lat": 51.489795,
@@ -8414,6 +12652,37 @@
       "tiplocs": [
         "PLMS"
       ]
+    },
+    {
+      "name": "Polegate",
+      "slug": "polegate",
+      "lat": 50.821245,
+      "lng": 0.24514,
+      "tiplocs": [
+        "POLGATE"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 83,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Gatwick Airport",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 83,
+          "direct": true,
+          "directMins": 83,
+          "changeAt": null,
+          "typicalPeakMins": 89,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 102
+        }
+      }
     },
     {
       "name": "Portslade",
@@ -8568,6 +12837,68 @@
       "tiplocs": [
         "PRINRIS"
       ]
+    },
+    {
+      "name": "Prittlewell",
+      "slug": "prittlewell",
+      "lat": 51.550687,
+      "lng": 0.710676,
+      "tiplocs": [
+        "PRITLWL"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 55,
+          "direct": true,
+          "directMins": 55,
+          "changeAt": null,
+          "typicalPeakMins": 60,
+          "peakTrainsPerHour": 4.4,
+          "peakServices": 33,
+          "totalServices": 177
+        },
+        "PAD": {
+          "mins": 74,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
+      "name": "Pulborough",
+      "slug": "pulborough",
+      "lat": 50.957359,
+      "lng": -0.516558,
+      "tiplocs": [
+        "PULBRO"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 87,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "East Croydon",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 73,
+          "direct": true,
+          "directMins": 73,
+          "changeAt": null,
+          "typicalPeakMins": 80,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 99
+        }
+      }
     },
     {
       "name": "Purfleet",
@@ -8756,6 +13087,27 @@
       ]
     },
     {
+      "name": "Ramsgate",
+      "slug": "ramsgate",
+      "lat": 51.340805,
+      "lng": 1.406467,
+      "tiplocs": [
+        "RAMSGTE"
+      ],
+      "journeys": {
+        "STP": {
+          "mins": 74,
+          "direct": true,
+          "directMins": 74,
+          "changeAt": null,
+          "typicalPeakMins": 76,
+          "peakTrainsPerHour": 2.8,
+          "peakServices": 21,
+          "totalServices": 123
+        }
+      }
+    },
+    {
       "name": "Rayleigh",
       "slug": "rayleigh",
       "lat": 51.589293,
@@ -8868,6 +13220,47 @@
         "RDNG4AB",
         "RDNGSTN"
       ]
+    },
+    {
+      "name": "Reading West",
+      "slug": "reading-west",
+      "lat": 51.455501,
+      "lng": -0.990129,
+      "tiplocs": [
+        "REDGWST"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 71,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Reading",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "PAD": {
+          "mins": 31,
+          "direct": true,
+          "directMins": 31,
+          "changeAt": null,
+          "typicalPeakMins": 32,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 9
+        },
+        "WAT": {
+          "mins": 76,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Basingstoke",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
     },
     {
       "name": "Redhill",
@@ -8992,6 +13385,28 @@
       ]
     },
     {
+      "name": "Retford",
+      "slug": "retford",
+      "lat": 53.315154,
+      "lng": -0.947884,
+      "tiplocs": [
+        "RTFD",
+        "RTFDLL"
+      ],
+      "journeys": {
+        "KGX": {
+          "mins": 87,
+          "direct": true,
+          "directMins": 87,
+          "changeAt": null,
+          "typicalPeakMins": 95,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 60
+        }
+      }
+    },
+    {
       "name": "Richmond",
       "slug": "richmond",
       "lat": 51.463061,
@@ -9031,6 +13446,58 @@
       "tiplocs": [
         "RICHMND"
       ]
+    },
+    {
+      "name": "Rickmansworth",
+      "slug": "rickmansworth",
+      "lat": 51.640247,
+      "lng": -0.473282,
+      "tiplocs": [
+        "RCKMNSW"
+      ],
+      "journeys": {
+        "MYB": {
+          "mins": 25,
+          "direct": true,
+          "directMins": 25,
+          "changeAt": null,
+          "typicalPeakMins": 27,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 81
+        }
+      }
+    },
+    {
+      "name": "Robertsbridge",
+      "slug": "robertsbridge",
+      "lat": 50.984933,
+      "lng": 0.468783,
+      "tiplocs": [
+        "RBRTSBD"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 68,
+          "direct": true,
+          "directMins": 68,
+          "changeAt": null,
+          "typicalPeakMins": 74,
+          "peakTrainsPerHour": 3.2,
+          "peakServices": 24,
+          "totalServices": 84
+        },
+        "VIC": {
+          "mins": 87,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Tunbridge Wells",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
     },
     {
       "name": "Rochester",
@@ -9136,6 +13603,58 @@
       ]
     },
     {
+      "name": "Rowlands Castle",
+      "slug": "rowlands-castle",
+      "lat": 50.892172,
+      "lng": -0.957471,
+      "tiplocs": [
+        "RWLNDSC"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 81,
+          "direct": true,
+          "directMins": 81,
+          "changeAt": null,
+          "typicalPeakMins": 101,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 56
+        }
+      }
+    },
+    {
+      "name": "Roydon",
+      "slug": "roydon",
+      "lat": 51.775487,
+      "lng": 0.036252,
+      "tiplocs": [
+        "ROYDON"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 31,
+          "direct": true,
+          "directMins": 31,
+          "changeAt": null,
+          "typicalPeakMins": 35,
+          "peakTrainsPerHour": 2.3,
+          "peakServices": 17,
+          "totalServices": 36
+        },
+        "PAD": {
+          "mins": 60,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
       "name": "Royston",
       "slug": "royston",
       "lat": 52.05308,
@@ -9206,6 +13725,37 @@
       "tiplocs": [
         "RUGBY"
       ]
+    },
+    {
+      "name": "Rye House",
+      "slug": "rye-house",
+      "lat": 51.769413,
+      "lng": 0.005628,
+      "tiplocs": [
+        "RYEHOUS"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 38,
+          "direct": true,
+          "directMins": 38,
+          "changeAt": null,
+          "typicalPeakMins": 40,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 111
+        },
+        "PAD": {
+          "mins": 62,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
     },
     {
       "name": "Salfords",
@@ -9288,6 +13838,37 @@
       "tiplocs": [
         "SLSBRY"
       ]
+    },
+    {
+      "name": "Sandling",
+      "slug": "sandling",
+      "lat": 51.090371,
+      "lng": 1.066043,
+      "tiplocs": [
+        "SDLG"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 86,
+          "direct": true,
+          "directMins": 86,
+          "changeAt": null,
+          "typicalPeakMins": 91,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 51
+        },
+        "STP": {
+          "mins": 58,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Ashford International",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
     },
     {
       "name": "Sandy",
@@ -9393,6 +13974,27 @@
       ]
     },
     {
+      "name": "Seer Green",
+      "slug": "seer-green",
+      "lat": 51.609845,
+      "lng": -0.607818,
+      "tiplocs": [
+        "SEERGRN"
+      ],
+      "journeys": {
+        "MYB": {
+          "mins": 24,
+          "direct": true,
+          "directMins": 24,
+          "changeAt": null,
+          "typicalPeakMins": 33,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 66
+        }
+      }
+    },
+    {
       "name": "Seer Green & Jordans",
       "slug": "seer-green-and-jordans",
       "lat": 51.609845,
@@ -9412,6 +14014,27 @@
       "tiplocs": [
         "SEERGRN"
       ]
+    },
+    {
+      "name": "Selling",
+      "slug": "selling",
+      "lat": 51.277355,
+      "lng": 0.94087,
+      "tiplocs": [
+        "SELLING"
+      ],
+      "journeys": {
+        "VIC": {
+          "mins": 83,
+          "direct": true,
+          "directMins": 83,
+          "changeAt": null,
+          "typicalPeakMins": 88,
+          "peakTrainsPerHour": 0.8,
+          "peakServices": 6,
+          "totalServices": 51
+        }
+      }
     },
     {
       "name": "Sevenoaks",
@@ -9453,6 +14076,109 @@
       "tiplocs": [
         "SVNOAKS"
       ]
+    },
+    {
+      "name": "Shalford",
+      "slug": "shalford",
+      "lat": 51.214323,
+      "lng": -0.566804,
+      "tiplocs": [
+        "SHALFD"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 76,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Redhill",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 75,
+          "direct": true,
+          "directMins": 75,
+          "changeAt": null,
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 3
+        },
+        "WAT": {
+          "mins": 52,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Guildford",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
+      "name": "Shawford",
+      "slug": "shawford",
+      "lat": 51.022125,
+      "lng": -1.327774,
+      "tiplocs": [
+        "SHAWFD"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 72,
+          "direct": true,
+          "directMins": 72,
+          "changeAt": null,
+          "typicalPeakMins": 88,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 27
+        }
+      }
+    },
+    {
+      "name": "Shelford",
+      "slug": "shelford",
+      "lat": 52.148828,
+      "lng": 0.139981,
+      "tiplocs": [
+        "SHELFD"
+      ],
+      "journeys": {
+        "KGX": {
+          "mins": 77,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Cambridge South",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "LST": {
+          "mins": 73,
+          "direct": true,
+          "directMins": 73,
+          "changeAt": null,
+          "typicalPeakMins": 82,
+          "peakTrainsPerHour": 1.9,
+          "peakServices": 14,
+          "totalServices": 85
+        },
+        "STP": {
+          "mins": 78,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Cambridge South",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
     },
     {
       "name": "Shenfield",
@@ -9556,6 +14282,89 @@
       "tiplocs": [
         "SHPRTH"
       ]
+    },
+    {
+      "name": "Shipton",
+      "slug": "shipton",
+      "lat": 51.865654,
+      "lng": -1.592693,
+      "tiplocs": [
+        "SPTN"
+      ],
+      "journeys": {
+        "PAD": {
+          "mins": 80,
+          "direct": true,
+          "directMins": 80,
+          "changeAt": null,
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 3
+        }
+      }
+    },
+    {
+      "name": "Shoeburyness",
+      "slug": "shoeburyness",
+      "lat": 51.530973,
+      "lng": 0.795345,
+      "tiplocs": [
+        "SHBRYNS"
+      ],
+      "journeys": {
+        "FST": {
+          "mins": 56,
+          "direct": true,
+          "directMins": 56,
+          "changeAt": null,
+          "typicalPeakMins": 65,
+          "peakTrainsPerHour": 4.8,
+          "peakServices": 36,
+          "totalServices": 236
+        }
+      }
+    },
+    {
+      "name": "Shoreham (Kent)",
+      "slug": "shoreham-kent",
+      "lat": 51.332219,
+      "lng": 0.18889,
+      "tiplocs": [
+        "SHRMKT"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 47,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Sevenoaks",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 66,
+          "direct": true,
+          "directMins": 66,
+          "changeAt": null,
+          "typicalPeakMins": 66,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 36
+        },
+        "VIC": {
+          "mins": 42,
+          "direct": true,
+          "directMins": 42,
+          "changeAt": null,
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 3
+        }
+      }
     },
     {
       "name": "Shoreham-by-Sea",
@@ -9743,6 +14552,109 @@
       ]
     },
     {
+      "name": "Snodland",
+      "slug": "snodland",
+      "lat": 51.330231,
+      "lng": 0.448241,
+      "tiplocs": [
+        "SNODLND"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 83,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Gravesend",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 43,
+          "direct": true,
+          "directMins": 43,
+          "changeAt": null,
+          "typicalPeakMins": 43,
+          "peakTrainsPerHour": 0.8,
+          "peakServices": 6,
+          "totalServices": 6
+        }
+      }
+    },
+    {
+      "name": "Sole Street",
+      "slug": "sole-street",
+      "lat": 51.383146,
+      "lng": 0.378097,
+      "tiplocs": [
+        "SOLEST"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 85,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Rochester",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 61,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Rochester",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 44,
+          "direct": true,
+          "directMins": 44,
+          "changeAt": null,
+          "typicalPeakMins": 59,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 72
+        }
+      }
+    },
+    {
+      "name": "South Woodham Ferrers",
+      "slug": "south-woodham-ferrers",
+      "lat": 51.649458,
+      "lng": 0.606505,
+      "tiplocs": [
+        "WDHAMFR"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 48,
+          "direct": true,
+          "directMins": 48,
+          "changeAt": null,
+          "typicalPeakMins": 51,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 15
+        },
+        "PAD": {
+          "mins": 69,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
       "name": "Southall",
       "slug": "southall",
       "lat": 51.505957,
@@ -9772,6 +14684,37 @@
       "tiplocs": [
         "STHALL"
       ]
+    },
+    {
+      "name": "Southampton Airport Parkway",
+      "slug": "southampton-airport-parkway",
+      "lat": 50.950815,
+      "lng": -1.363097,
+      "tiplocs": [
+        "SOTPKWY"
+      ],
+      "journeys": {
+        "PAD": {
+          "mins": 76,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Reading",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "WAT": {
+          "mins": 68,
+          "direct": true,
+          "directMins": 68,
+          "changeAt": null,
+          "typicalPeakMins": 74,
+          "peakTrainsPerHour": 2.4,
+          "peakServices": 18,
+          "totalServices": 108
+        }
+      }
     },
     {
       "name": "Southampton Central",
@@ -9805,6 +14748,37 @@
       ]
     },
     {
+      "name": "Southend Airport",
+      "slug": "southend-airport",
+      "lat": 51.56867,
+      "lng": 0.70505,
+      "tiplocs": [
+        "STHEAIR"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 52,
+          "direct": true,
+          "directMins": 52,
+          "changeAt": null,
+          "typicalPeakMins": 57,
+          "peakTrainsPerHour": 4.4,
+          "peakServices": 33,
+          "totalServices": 180
+        },
+        "PAD": {
+          "mins": 71,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
       "name": "Southend Central",
       "slug": "southend-central",
       "lat": 51.537065,
@@ -9824,6 +14798,27 @@
       "tiplocs": [
         "STHCENT"
       ]
+    },
+    {
+      "name": "Southend East",
+      "slug": "southend-east",
+      "lat": 51.538973,
+      "lng": 0.731815,
+      "tiplocs": [
+        "STHNDE"
+      ],
+      "journeys": {
+        "FST": {
+          "mins": 50,
+          "direct": true,
+          "directMins": 50,
+          "changeAt": null,
+          "typicalPeakMins": 59,
+          "peakTrainsPerHour": 6.0,
+          "peakServices": 45,
+          "totalServices": 260
+        }
+      }
     },
     {
       "name": "Southend Victoria",
@@ -9855,6 +14850,37 @@
       "tiplocs": [
         "STHVIC"
       ]
+    },
+    {
+      "name": "Southminster",
+      "slug": "southminster",
+      "lat": 51.660624,
+      "lng": 0.835193,
+      "tiplocs": [
+        "SMINSTR"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 69,
+          "direct": true,
+          "directMins": 69,
+          "changeAt": null,
+          "typicalPeakMins": 71,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 15
+        },
+        "PAD": {
+          "mins": 90,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
     },
     {
       "name": "St Albans City",
@@ -9896,6 +14922,140 @@
       "tiplocs": [
         "STALBCY"
       ]
+    },
+    {
+      "name": "St Leonards Warrior Square",
+      "slug": "st-leonards-warrior-square",
+      "lat": 50.855695,
+      "lng": 0.560279,
+      "tiplocs": [
+        "STLNRWS"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 82,
+          "direct": true,
+          "directMins": 82,
+          "changeAt": null,
+          "typicalPeakMins": 96,
+          "peakTrainsPerHour": 3.2,
+          "peakServices": 24,
+          "totalServices": 105
+        }
+      }
+    },
+    {
+      "name": "St Margarets (Hertfordshire)",
+      "slug": "st-margarets-hertfordshire",
+      "lat": 51.787841,
+      "lng": 0.001269,
+      "tiplocs": [
+        "SMARGRT"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 41,
+          "direct": true,
+          "directMins": 41,
+          "changeAt": null,
+          "typicalPeakMins": 44,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 111
+        },
+        "PAD": {
+          "mins": 65,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
+      "name": "St Margarets (London)",
+      "slug": "st-margarets-london",
+      "lat": 51.787841,
+      "lng": 0.001269,
+      "tiplocs": [
+        "STMGTS"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 30,
+          "direct": true,
+          "directMins": 30,
+          "changeAt": null,
+          "typicalPeakMins": 35,
+          "peakTrainsPerHour": 6.4,
+          "peakServices": 48,
+          "totalServices": 300
+        }
+      }
+    },
+    {
+      "name": "St Mary Cray",
+      "slug": "st-mary-cray",
+      "lat": 51.394749,
+      "lng": 0.106384,
+      "tiplocs": [
+        "STMRYC"
+      ],
+      "journeys": {
+        "KGX": {
+          "mins": 85,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "LBG": {
+          "mins": 45,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Blackfriars",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "MOG": {
+          "mins": 82,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Finsbury Park",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 50,
+          "direct": false,
+          "directMins": 53,
+          "changeAt": "London Blackfriars",
+          "typicalPeakMins": 53,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 36
+        },
+        "VIC": {
+          "mins": 23,
+          "direct": true,
+          "directMins": 23,
+          "changeAt": null,
+          "typicalPeakMins": 37,
+          "peakTrainsPerHour": 2.8,
+          "peakServices": 21,
+          "totalServices": 156
+        }
+      }
     },
     {
       "name": "St Neots",
@@ -9947,6 +15107,27 @@
       "tiplocs": [
         "STNEOTS"
       ]
+    },
+    {
+      "name": "Stafford",
+      "slug": "stafford",
+      "lat": 52.80389,
+      "lng": -2.122036,
+      "tiplocs": [
+        "STAFFRD"
+      ],
+      "journeys": {
+        "EUS": {
+          "mins": 76,
+          "direct": true,
+          "directMins": 76,
+          "changeAt": null,
+          "typicalPeakMins": 92,
+          "peakTrainsPerHour": 3.6,
+          "peakServices": 27,
+          "totalServices": 180
+        }
+      }
     },
     {
       "name": "Staines",
@@ -10156,6 +15337,110 @@
       ]
     },
     {
+      "name": "Stone Crossing",
+      "slug": "stone-crossing",
+      "lat": 51.45133,
+      "lng": 0.263771,
+      "tiplocs": [
+        "STCR"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 45,
+          "direct": true,
+          "directMins": 45,
+          "changeAt": null,
+          "typicalPeakMins": 47,
+          "peakTrainsPerHour": 4.8,
+          "peakServices": 36,
+          "totalServices": 201
+        },
+        "STP": {
+          "mins": 52,
+          "direct": false,
+          "directMins": 62,
+          "changeAt": "Gravesend",
+          "typicalPeakMins": 62,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 78
+        },
+        "VIC": {
+          "mins": 69,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Dartford",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
+      "name": "Stonegate",
+      "slug": "stonegate",
+      "lat": 51.019968,
+      "lng": 0.363868,
+      "tiplocs": [
+        "SNGT"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 60,
+          "direct": true,
+          "directMins": 60,
+          "changeAt": null,
+          "typicalPeakMins": 66,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 69
+        },
+        "STP": {
+          "mins": 84,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Bridge",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 79,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Tunbridge Wells",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
+      "name": "Stonehouse",
+      "slug": "stonehouse",
+      "lat": 51.745888,
+      "lng": -2.279499,
+      "tiplocs": [
+        "STNHPO",
+        "STNHSE"
+      ],
+      "journeys": {
+        "PAD": {
+          "mins": 88,
+          "direct": true,
+          "directMins": 88,
+          "changeAt": null,
+          "typicalPeakMins": 96,
+          "peakTrainsPerHour": 0.8,
+          "peakServices": 6,
+          "totalServices": 48
+        }
+      }
+    },
+    {
       "name": "Stoneleigh",
       "slug": "stoneleigh",
       "lat": 51.363401,
@@ -10195,6 +15480,27 @@
       "tiplocs": [
         "STLEIGH"
       ]
+    },
+    {
+      "name": "Stowmarket",
+      "slug": "stowmarket",
+      "lat": 52.189713,
+      "lng": 1.000005,
+      "tiplocs": [
+        "STWMRKT"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 71,
+          "direct": true,
+          "directMins": 71,
+          "changeAt": null,
+          "typicalPeakMins": 85,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 96
+        }
+      }
     },
     {
       "name": "Stratford",
@@ -10298,6 +15604,111 @@
       "tiplocs": [
         "STROOD"
       ]
+    },
+    {
+      "name": "Stroud",
+      "slug": "stroud",
+      "lat": 51.744622,
+      "lng": -2.219383,
+      "tiplocs": [
+        "STRUD"
+      ],
+      "journeys": {
+        "PAD": {
+          "mins": 84,
+          "direct": true,
+          "directMins": 84,
+          "changeAt": null,
+          "typicalPeakMins": 90,
+          "peakTrainsPerHour": 0.8,
+          "peakServices": 6,
+          "totalServices": 48
+        }
+      }
+    },
+    {
+      "name": "Sturry",
+      "slug": "sturry",
+      "lat": 51.301069,
+      "lng": 1.122255,
+      "tiplocs": [
+        "STURRY"
+      ],
+      "journeys": {
+        "STP": {
+          "mins": 68,
+          "direct": true,
+          "directMins": 68,
+          "changeAt": null,
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 3
+        }
+      }
+    },
+    {
+      "name": "Sunbury",
+      "slug": "sunbury",
+      "lat": 51.418313,
+      "lng": -0.417783,
+      "tiplocs": [
+        "SUNBURY"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 40,
+          "direct": true,
+          "directMins": 40,
+          "changeAt": null,
+          "typicalPeakMins": 51,
+          "peakTrainsPerHour": 3.2,
+          "peakServices": 24,
+          "totalServices": 117
+        }
+      }
+    },
+    {
+      "name": "Sunningdale",
+      "slug": "sunningdale",
+      "lat": 51.39194,
+      "lng": -0.633041,
+      "tiplocs": [
+        "SUNNGDL"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 52,
+          "direct": true,
+          "directMins": 52,
+          "changeAt": null,
+          "typicalPeakMins": 57,
+          "peakTrainsPerHour": 2.8,
+          "peakServices": 21,
+          "totalServices": 114
+        }
+      }
+    },
+    {
+      "name": "Sunnymeads",
+      "slug": "sunnymeads",
+      "lat": 51.470288,
+      "lng": -0.559374,
+      "tiplocs": [
+        "SUNYMDS"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 49,
+          "direct": true,
+          "directMins": 49,
+          "changeAt": null,
+          "typicalPeakMins": 52,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 105
+        }
+      }
     },
     {
       "name": "Surbiton",
@@ -10433,6 +15844,48 @@
       ]
     },
     {
+      "name": "Swanscombe",
+      "slug": "swanscombe",
+      "lat": 51.449071,
+      "lng": 0.309543,
+      "tiplocs": [
+        "SWNSCMB",
+        "SWNSGD"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 50,
+          "direct": true,
+          "directMins": 50,
+          "changeAt": null,
+          "typicalPeakMins": 53,
+          "peakTrainsPerHour": 4.8,
+          "peakServices": 36,
+          "totalServices": 201
+        },
+        "STP": {
+          "mins": 46,
+          "direct": false,
+          "directMins": 67,
+          "changeAt": "Gravesend",
+          "typicalPeakMins": 68,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 78
+        },
+        "VIC": {
+          "mins": 72,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Rochester",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
       "name": "Swindon",
       "slug": "swindon",
       "lat": 51.565472,
@@ -10452,6 +15905,28 @@
       "tiplocs": [
         "SDON"
       ]
+    },
+    {
+      "name": "Tamworth",
+      "slug": "tamworth",
+      "lat": 52.637474,
+      "lng": -1.686464,
+      "tiplocs": [
+        "TMWTHHL",
+        "TMWTHLL"
+      ],
+      "journeys": {
+        "EUS": {
+          "mins": 68,
+          "direct": true,
+          "directMins": 68,
+          "changeAt": null,
+          "typicalPeakMins": 87,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 79
+        }
+      }
     },
     {
       "name": "Taplow",
@@ -10506,6 +15981,48 @@
       ]
     },
     {
+      "name": "Teynham",
+      "slug": "teynham",
+      "lat": 51.333393,
+      "lng": 0.807426,
+      "tiplocs": [
+        "TEYNDVC",
+        "TEYNHAM"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 71,
+          "direct": true,
+          "directMins": 71,
+          "changeAt": null,
+          "typicalPeakMins": 71,
+          "peakTrainsPerHour": 0.8,
+          "peakServices": 6,
+          "totalServices": 6
+        },
+        "STP": {
+          "mins": 76,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Sittingbourne",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 69,
+          "direct": true,
+          "directMins": 69,
+          "changeAt": null,
+          "typicalPeakMins": 74,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 63
+        }
+      }
+    },
+    {
       "name": "Thames Ditton",
       "slug": "thames-ditton",
       "lat": 51.389097,
@@ -10525,6 +16042,27 @@
       "tiplocs": [
         "TDITTON"
       ]
+    },
+    {
+      "name": "Thanet Parkway",
+      "slug": "thanet-parkway",
+      "lat": 51.330843,
+      "lng": 1.361777,
+      "tiplocs": [
+        "THANETP"
+      ],
+      "journeys": {
+        "STP": {
+          "mins": 69,
+          "direct": true,
+          "directMins": 69,
+          "changeAt": null,
+          "typicalPeakMins": 70,
+          "peakTrainsPerHour": 2.4,
+          "peakServices": 18,
+          "totalServices": 63
+        }
+      }
     },
     {
       "name": "Thatcham",
@@ -10587,6 +16125,69 @@
       "tiplocs": [
         "THEALE"
       ]
+    },
+    {
+      "name": "Theobalds Grove",
+      "slug": "theobalds-grove",
+      "lat": 51.692457,
+      "lng": -0.034831,
+      "tiplocs": [
+        "THBLDSG"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 36,
+          "direct": true,
+          "directMins": 36,
+          "changeAt": null,
+          "typicalPeakMins": 37,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 111
+        }
+      }
+    },
+    {
+      "name": "Thorpe Bay",
+      "slug": "thorpe-bay",
+      "lat": 51.53757,
+      "lng": 0.761728,
+      "tiplocs": [
+        "THOPBAY"
+      ],
+      "journeys": {
+        "FST": {
+          "mins": 52,
+          "direct": true,
+          "directMins": 52,
+          "changeAt": null,
+          "typicalPeakMins": 61,
+          "peakTrainsPerHour": 6.0,
+          "peakServices": 45,
+          "totalServices": 260
+        }
+      }
+    },
+    {
+      "name": "Thorpe-le-Soken",
+      "slug": "thorpe-le-soken",
+      "lat": 51.847637,
+      "lng": 1.161401,
+      "tiplocs": [
+        "THPLESK"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 78,
+          "direct": true,
+          "directMins": 78,
+          "changeAt": null,
+          "typicalPeakMins": 86,
+          "peakTrainsPerHour": 2.4,
+          "peakServices": 18,
+          "totalServices": 69
+        }
+      }
     },
     {
       "name": "Three Bridges",
@@ -10774,6 +16375,27 @@
       ]
     },
     {
+      "name": "Totton",
+      "slug": "totton",
+      "lat": 50.917881,
+      "lng": -1.482417,
+      "tiplocs": [
+        "TOTTON"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 85,
+          "direct": true,
+          "directMins": 85,
+          "changeAt": null,
+          "typicalPeakMins": 92,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 21
+        }
+      }
+    },
+    {
       "name": "Tring",
       "slug": "tring",
       "lat": 51.800741,
@@ -10888,6 +16510,37 @@
       ]
     },
     {
+      "name": "Uckfield",
+      "slug": "uckfield",
+      "lat": 50.968739,
+      "lng": 0.096381,
+      "tiplocs": [
+        "UCKFILD"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 80,
+          "direct": true,
+          "directMins": 80,
+          "changeAt": null,
+          "typicalPeakMins": 80,
+          "peakTrainsPerHour": 0.8,
+          "peakServices": 6,
+          "totalServices": 54
+        },
+        "VIC": {
+          "mins": 89,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "East Croydon",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
       "name": "Upminster",
       "slug": "upminster",
       "lat": 51.559018,
@@ -10928,6 +16581,68 @@
         "UPMNSP6",
         "UPMNSTR"
       ]
+    },
+    {
+      "name": "Upper Halliford",
+      "slug": "upper-halliford",
+      "lat": 51.413067,
+      "lng": -0.430906,
+      "tiplocs": [
+        "UHALIFD"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 42,
+          "direct": true,
+          "directMins": 42,
+          "changeAt": null,
+          "typicalPeakMins": 53,
+          "peakTrainsPerHour": 3.2,
+          "peakServices": 24,
+          "totalServices": 117
+        }
+      }
+    },
+    {
+      "name": "Upper Warlingham",
+      "slug": "upper-warlingham",
+      "lat": 51.308512,
+      "lng": -0.077952,
+      "tiplocs": [
+        "UWRLNGH"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 29,
+          "direct": true,
+          "directMins": 29,
+          "changeAt": null,
+          "typicalPeakMins": 29,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 12
+        },
+        "STP": {
+          "mins": 45,
+          "direct": true,
+          "directMins": 45,
+          "changeAt": null,
+          "typicalPeakMins": 45,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 9
+        },
+        "VIC": {
+          "mins": 29,
+          "direct": true,
+          "directMins": 29,
+          "changeAt": null,
+          "typicalPeakMins": 30,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 104
+        }
+      }
     },
     {
       "name": "Vauxhall",
@@ -10993,6 +16708,99 @@
       ]
     },
     {
+      "name": "Wadhurst",
+      "slug": "wadhurst",
+      "lat": 51.073461,
+      "lng": 0.313174,
+      "tiplocs": [
+        "WADHRST"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 53,
+          "direct": true,
+          "directMins": 53,
+          "changeAt": null,
+          "typicalPeakMins": 59,
+          "peakTrainsPerHour": 3.2,
+          "peakServices": 24,
+          "totalServices": 105
+        },
+        "STP": {
+          "mins": 77,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Bridge",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 72,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Tunbridge Wells",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
+      "name": "Walmer",
+      "slug": "walmer",
+      "lat": 51.203322,
+      "lng": 1.382875,
+      "tiplocs": [
+        "WALMER"
+      ],
+      "journeys": {
+        "STP": {
+          "mins": 81,
+          "direct": true,
+          "directMins": 81,
+          "changeAt": null,
+          "typicalPeakMins": 82,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 36
+        }
+      }
+    },
+    {
+      "name": "Waltham Cross",
+      "slug": "waltham-cross",
+      "lat": 51.685061,
+      "lng": -0.026558,
+      "tiplocs": [
+        "WALHAMX"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 26,
+          "direct": true,
+          "directMins": 26,
+          "changeAt": null,
+          "typicalPeakMins": 30,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 108
+        },
+        "PAD": {
+          "mins": 51,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
       "name": "Walton-on-Thames",
       "slug": "walton-on-thames",
       "lat": 51.372931,
@@ -11055,6 +16863,78 @@
       ]
     },
     {
+      "name": "Ware",
+      "slug": "ware",
+      "lat": 51.80796,
+      "lng": -0.028781,
+      "tiplocs": [
+        "WARE"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 45,
+          "direct": true,
+          "directMins": 45,
+          "changeAt": null,
+          "typicalPeakMins": 48,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 111
+        },
+        "PAD": {
+          "mins": 69,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
+      "name": "Warnham",
+      "slug": "warnham",
+      "lat": 51.092902,
+      "lng": -0.329464,
+      "tiplocs": [
+        "WARNHAM"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 81,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Horsham",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 77,
+          "direct": false,
+          "directMins": 81,
+          "changeAt": "Horsham",
+          "typicalPeakMins": 83,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 51
+        },
+        "WAT": {
+          "mins": 84,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Dorking",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
       "name": "Warwick",
       "slug": "warwick",
       "lat": 52.28654,
@@ -11096,6 +16976,68 @@
       ]
     },
     {
+      "name": "Waterbeach",
+      "slug": "waterbeach",
+      "lat": 52.262305,
+      "lng": 0.196791,
+      "tiplocs": [
+        "WATBECH"
+      ],
+      "journeys": {
+        "KGX": {
+          "mins": 61,
+          "direct": true,
+          "directMins": 61,
+          "changeAt": null,
+          "typicalPeakMins": 71,
+          "peakTrainsPerHour": 1.9,
+          "peakServices": 14,
+          "totalServices": 107
+        },
+        "LST": {
+          "mins": 88,
+          "direct": true,
+          "directMins": 88,
+          "changeAt": null,
+          "typicalPeakMins": 90,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 12
+        },
+        "STP": {
+          "mins": 86,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Cambridge",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
+      "name": "Watford High Street",
+      "slug": "watford-high-street",
+      "lat": 51.652655,
+      "lng": -0.391711,
+      "tiplocs": [
+        "WATFDHS"
+      ],
+      "journeys": {
+        "EUS": {
+          "mins": 47,
+          "direct": true,
+          "directMins": 47,
+          "changeAt": null,
+          "typicalPeakMins": 49,
+          "peakTrainsPerHour": 3.9,
+          "peakServices": 29,
+          "totalServices": 218
+        }
+      }
+    },
+    {
       "name": "Watford Junction",
       "slug": "watford",
       "lat": 51.663529,
@@ -11126,6 +17068,78 @@
         "WATFDJ",
         "WATFJDC"
       ]
+    },
+    {
+      "name": "Watton-at-Stone",
+      "slug": "watton-at-stone",
+      "lat": 51.856438,
+      "lng": -0.119427,
+      "tiplocs": [
+        "WATONAS"
+      ],
+      "journeys": {
+        "KGX": {
+          "mins": 36,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stevenage",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "LBG": {
+          "mins": 61,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stevenage",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "MOG": {
+          "mins": 58,
+          "direct": true,
+          "directMins": 58,
+          "changeAt": null,
+          "typicalPeakMins": 59,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 114
+        },
+        "STP": {
+          "mins": 46,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stevenage",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
+      "name": "Weeley",
+      "slug": "weeley",
+      "lat": 51.853099,
+      "lng": 1.115482,
+      "tiplocs": [
+        "WEELEY"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 84,
+          "direct": true,
+          "directMins": 84,
+          "changeAt": null,
+          "typicalPeakMins": 84,
+          "peakTrainsPerHour": 0.4,
+          "peakServices": 3,
+          "totalServices": 6
+        }
+      }
     },
     {
       "name": "Welham Green",
@@ -11218,6 +17232,37 @@
       "tiplocs": [
         "WELLING"
       ]
+    },
+    {
+      "name": "Wellingborough",
+      "slug": "wellingborough",
+      "lat": 52.303783,
+      "lng": -0.676651,
+      "tiplocs": [
+        "WLNGBRO"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 89,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Luton",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 44,
+          "direct": true,
+          "directMins": 44,
+          "changeAt": null,
+          "typicalPeakMins": 58,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 111
+        }
+      }
     },
     {
       "name": "Welwyn Garden City",
@@ -11330,6 +17375,27 @@
       "tiplocs": [
         "WLWYNN"
       ]
+    },
+    {
+      "name": "Wendover",
+      "slug": "wendover",
+      "lat": 51.761757,
+      "lng": -0.747372,
+      "tiplocs": [
+        "WENDOVR"
+      ],
+      "journeys": {
+        "MYB": {
+          "mins": 45,
+          "direct": true,
+          "directMins": 45,
+          "changeAt": null,
+          "typicalPeakMins": 52,
+          "peakTrainsPerHour": 3.2,
+          "peakServices": 24,
+          "totalServices": 99
+        }
+      }
     },
     {
       "name": "West Byfleet",
@@ -11518,6 +17584,132 @@
       ]
     },
     {
+      "name": "West Malling",
+      "slug": "west-malling",
+      "lat": 51.292021,
+      "lng": 0.418653,
+      "tiplocs": [
+        "WMALING"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 76,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Blackfriars",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "STP": {
+          "mins": 81,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "London Blackfriars",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 53,
+          "direct": true,
+          "directMins": 53,
+          "changeAt": null,
+          "typicalPeakMins": 60,
+          "peakTrainsPerHour": 4.0,
+          "peakServices": 30,
+          "totalServices": 156
+        }
+      }
+    },
+    {
+      "name": "West Ruislip",
+      "slug": "west-ruislip",
+      "lat": 51.569758,
+      "lng": -0.437768,
+      "tiplocs": [
+        "WRUISLP"
+      ],
+      "journeys": {
+        "MYB": {
+          "mins": 18,
+          "direct": true,
+          "directMins": 18,
+          "changeAt": null,
+          "typicalPeakMins": 23,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 57
+        }
+      }
+    },
+    {
+      "name": "West St Leonards",
+      "slug": "west-st-leonards",
+      "lat": 50.853154,
+      "lng": 0.539935,
+      "tiplocs": [
+        "WSLE"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 88,
+          "direct": true,
+          "directMins": 88,
+          "changeAt": null,
+          "typicalPeakMins": 94,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 72
+        }
+      }
+    },
+    {
+      "name": "West Worthing",
+      "slug": "west-worthing",
+      "lat": 50.818354,
+      "lng": -0.392985,
+      "tiplocs": [
+        "WWRTHNG"
+      ],
+      "journeys": {
+        "VIC": {
+          "mins": 88,
+          "direct": true,
+          "directMins": 88,
+          "changeAt": null,
+          "typicalPeakMins": 89,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 102
+        }
+      }
+    },
+    {
+      "name": "Westbury",
+      "slug": "westbury",
+      "lat": 51.266986,
+      "lng": -2.199182,
+      "tiplocs": [
+        "HWRDJN",
+        "WSTBRYW"
+      ],
+      "journeys": {
+        "PAD": {
+          "mins": 73,
+          "direct": true,
+          "directMins": 73,
+          "changeAt": null,
+          "typicalPeakMins": 97,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 39
+        }
+      }
+    },
+    {
       "name": "Westcliff",
       "slug": "westcliff",
       "lat": 51.537334,
@@ -11537,6 +17729,37 @@
       "tiplocs": [
         "WCLIFF"
       ]
+    },
+    {
+      "name": "Westenhanger",
+      "slug": "westenhanger",
+      "lat": 51.094961,
+      "lng": 1.03805,
+      "tiplocs": [
+        "WENHNGR"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 83,
+          "direct": true,
+          "directMins": 83,
+          "changeAt": null,
+          "typicalPeakMins": 88,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 51
+        },
+        "STP": {
+          "mins": 54,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Ashford International",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
     },
     {
       "name": "Weybridge",
@@ -11592,6 +17815,78 @@
       ]
     },
     {
+      "name": "White Notley",
+      "slug": "white-notley",
+      "lat": 51.838912,
+      "lng": 0.595864,
+      "tiplocs": [
+        "WNOTLEY"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 52,
+          "direct": true,
+          "directMins": 52,
+          "changeAt": null,
+          "typicalPeakMins": 59,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 48
+        },
+        "PAD": {
+          "mins": 73,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
+      "name": "Whitstable",
+      "slug": "whitstable",
+      "lat": 51.357583,
+      "lng": 1.033295,
+      "tiplocs": [
+        "WHSTBLE"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 81,
+          "direct": true,
+          "directMins": 81,
+          "changeAt": null,
+          "typicalPeakMins": 81,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 15
+        },
+        "STP": {
+          "mins": 76,
+          "direct": true,
+          "directMins": 76,
+          "changeAt": null,
+          "typicalPeakMins": 77,
+          "peakTrainsPerHour": 1.6,
+          "peakServices": 12,
+          "totalServices": 45
+        },
+        "VIC": {
+          "mins": 82,
+          "direct": true,
+          "directMins": 82,
+          "changeAt": null,
+          "typicalPeakMins": 91,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 57
+        }
+      }
+    },
+    {
       "name": "Whittlesford Parkway",
       "slug": "whittlesford-parkway",
       "lat": 52.103588,
@@ -11631,6 +17926,88 @@
       "tiplocs": [
         "WTLESFD"
       ]
+    },
+    {
+      "name": "Whyteleafe",
+      "slug": "whyteleafe",
+      "lat": 51.309958,
+      "lng": -0.081148,
+      "tiplocs": [
+        "WHYTELF"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 42,
+          "direct": true,
+          "directMins": 42,
+          "changeAt": null,
+          "typicalPeakMins": 43,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 105
+        },
+        "STP": {
+          "mins": 60,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "East Croydon",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 49,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Purley",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
+      "name": "Whyteleafe South",
+      "slug": "whyteleafe-south",
+      "lat": 51.303387,
+      "lng": -0.076918,
+      "tiplocs": [
+        "WHYTLFS"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 44,
+          "direct": true,
+          "directMins": 44,
+          "changeAt": null,
+          "typicalPeakMins": 45,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 105
+        },
+        "STP": {
+          "mins": 62,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "East Croydon",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "VIC": {
+          "mins": 51,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Purley",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
     },
     {
       "name": "Wickford",
@@ -11799,6 +18176,69 @@
       ]
     },
     {
+      "name": "Windsor & Eton Riverside",
+      "slug": "windsor-and-eton-riverside",
+      "lat": 51.48565,
+      "lng": -0.606534,
+      "tiplocs": [
+        "WSORAER"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 56,
+          "direct": true,
+          "directMins": 56,
+          "changeAt": null,
+          "typicalPeakMins": 59,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 105
+        }
+      }
+    },
+    {
+      "name": "Winnersh",
+      "slug": "winnersh",
+      "lat": 51.430283,
+      "lng": -0.876859,
+      "tiplocs": [
+        "WINERSH"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 75,
+          "direct": true,
+          "directMins": 75,
+          "changeAt": null,
+          "typicalPeakMins": 78,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 105
+        }
+      }
+    },
+    {
+      "name": "Winnersh Triangle",
+      "slug": "winnersh-triangle",
+      "lat": 51.436742,
+      "lng": -0.891332,
+      "tiplocs": [
+        "WINETGL"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 77,
+          "direct": true,
+          "directMins": 77,
+          "changeAt": null,
+          "typicalPeakMins": 80,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 105
+        }
+      }
+    },
+    {
       "name": "Witham",
       "slug": "witham",
       "lat": 51.805969,
@@ -11902,6 +18342,37 @@
       ]
     },
     {
+      "name": "Wivenhoe",
+      "slug": "wivenhoe",
+      "lat": 51.856531,
+      "lng": 0.956138,
+      "tiplocs": [
+        "WIVENHO"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 68,
+          "direct": true,
+          "directMins": 68,
+          "changeAt": null,
+          "typicalPeakMins": 74,
+          "peakTrainsPerHour": 2.4,
+          "peakServices": 18,
+          "totalServices": 69
+        },
+        "PAD": {
+          "mins": 88,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Stratford (London)",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        }
+      }
+    },
+    {
       "name": "Woking",
       "slug": "woking",
       "lat": 51.318469,
@@ -11921,6 +18392,109 @@
       "tiplocs": [
         "WOKING"
       ]
+    },
+    {
+      "name": "Wokingham",
+      "slug": "wokingham",
+      "lat": 51.411218,
+      "lng": -0.842543,
+      "tiplocs": [
+        "WOKNGHM"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 85,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Reading",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "PAD": {
+          "mins": 45,
+          "direct": false,
+          "directMins": null,
+          "changeAt": "Reading",
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 0
+        },
+        "WAT": {
+          "mins": 71,
+          "direct": true,
+          "directMins": 71,
+          "changeAt": null,
+          "typicalPeakMins": 74,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 105
+        }
+      }
+    },
+    {
+      "name": "Woldingham",
+      "slug": "woldingham",
+      "lat": 51.290158,
+      "lng": -0.05187,
+      "tiplocs": [
+        "WLDNGHM"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 32,
+          "direct": true,
+          "directMins": 32,
+          "changeAt": null,
+          "typicalPeakMins": 32,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 12
+        },
+        "STP": {
+          "mins": 48,
+          "direct": true,
+          "directMins": 48,
+          "changeAt": null,
+          "typicalPeakMins": 48,
+          "peakTrainsPerHour": 1.2,
+          "peakServices": 9,
+          "totalServices": 9
+        },
+        "VIC": {
+          "mins": 33,
+          "direct": true,
+          "directMins": 33,
+          "changeAt": null,
+          "typicalPeakMins": 33,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 104
+        }
+      }
+    },
+    {
+      "name": "Wolverton",
+      "slug": "wolverton",
+      "lat": 52.065878,
+      "lng": -0.804267,
+      "tiplocs": [
+        "WLVR"
+      ],
+      "journeys": {
+        "EUS": {
+          "mins": 44,
+          "direct": true,
+          "directMins": 44,
+          "changeAt": null,
+          "typicalPeakMins": 48,
+          "peakTrainsPerHour": 2.4,
+          "peakServices": 18,
+          "totalServices": 114
+        }
+      }
     },
     {
       "name": "Woolwich Arsenal",
@@ -12005,6 +18579,27 @@
       ]
     },
     {
+      "name": "Worplesdon",
+      "slug": "worplesdon",
+      "lat": 51.289017,
+      "lng": -0.582578,
+      "tiplocs": [
+        "WRPLSDN"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 31,
+          "direct": true,
+          "directMins": 31,
+          "changeAt": null,
+          "typicalPeakMins": 36,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 75
+        }
+      }
+    },
+    {
       "name": "Worthing",
       "slug": "worthing",
       "lat": 50.818499,
@@ -12024,6 +18619,79 @@
       "tiplocs": [
         "WORTHNG"
       ]
+    },
+    {
+      "name": "Wrabness",
+      "slug": "wrabness",
+      "lat": 51.93951,
+      "lng": 1.171498,
+      "tiplocs": [
+        "WRABNES"
+      ],
+      "journeys": {
+        "LST": {
+          "mins": 82,
+          "direct": false,
+          "directMins": 84,
+          "changeAt": "Manningtree",
+          "typicalPeakMins": 99,
+          "peakTrainsPerHour": 0.4,
+          "peakServices": 3,
+          "totalServices": 6
+        }
+      }
+    },
+    {
+      "name": "Wraysbury",
+      "slug": "wraysbury",
+      "lat": 51.457708,
+      "lng": -0.541922,
+      "tiplocs": [
+        "WRYSBRY"
+      ],
+      "journeys": {
+        "WAT": {
+          "mins": 47,
+          "direct": true,
+          "directMins": 47,
+          "changeAt": null,
+          "typicalPeakMins": 49,
+          "peakTrainsPerHour": 2.0,
+          "peakServices": 15,
+          "totalServices": 105
+        }
+      }
+    },
+    {
+      "name": "Wye",
+      "slug": "wye",
+      "lat": 51.185012,
+      "lng": 0.929304,
+      "tiplocs": [
+        "WYEE"
+      ],
+      "journeys": {
+        "LBG": {
+          "mins": 81,
+          "direct": true,
+          "directMins": 81,
+          "changeAt": null,
+          "typicalPeakMins": 86,
+          "peakTrainsPerHour": 0.8,
+          "peakServices": 6,
+          "totalServices": 54
+        },
+        "STP": {
+          "mins": 47,
+          "direct": true,
+          "directMins": 47,
+          "changeAt": null,
+          "typicalPeakMins": null,
+          "peakTrainsPerHour": null,
+          "peakServices": 0,
+          "totalServices": 3
+        }
+      }
     }
   ],
   "geoSource": "NaPTAN (Department for Transport), ATCO area 910",

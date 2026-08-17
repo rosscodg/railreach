@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to West Byfleet?
 
-The closest alternatives are Byfleet & New Haw, Weybridge, Woking. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Byfleet & New Haw, Addlestone, Weybridge. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

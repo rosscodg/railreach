@@ -37,7 +37,7 @@ Yes. Direct services run to Waterloo, Victoria.
 
 ### What are the nearest stations to Dorking?
 
-The closest alternatives are Box Hill & Westhumble, Leatherhead, Reigate. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Box Hill & Westhumble, Leatherhead, Holmwood. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 
