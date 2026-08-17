@@ -10487,8 +10487,8 @@
     {
       "name": "London Road (Guildford)",
       "slug": "london-road-guildford",
-      "lat": 50.836663,
-      "lng": -0.136502,
+      "lat": 51.24065,
+      "lng": -0.565069,
       "tiplocs": [
         "LRDGFD"
       ],
@@ -14978,8 +14978,8 @@
     {
       "name": "St Margarets (London)",
       "slug": "st-margarets-london",
-      "lat": 51.787841,
-      "lng": 0.001269,
+      "lat": 51.455236,
+      "lng": -0.3202,
       "tiplocs": [
         "STMGTS"
       ],

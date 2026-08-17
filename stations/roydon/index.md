@@ -36,7 +36,7 @@ Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Roydon?
 
-The closest alternatives are Rye House, St Margarets (Hertfordshire), St Margarets (London). These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Rye House, St Margarets (Hertfordshire), Harlow Town. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to St Margarets (London)?
 
-The closest alternatives are St Margarets (Hertfordshire), Rye House, Roydon. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Twickenham, Richmond, Strawberry Hill. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

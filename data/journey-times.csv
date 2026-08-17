@@ -452,7 +452,7 @@ Westenhanger,westenhanger,51.094961,1.03805,London Bridge,LBG,83,83,,88,1.6,yes,
 Chestfield & Swalecliffe,chestfield-and-swalecliffe,51.360241,1.066931,London Bridge,LBG,85,85,,85,0.8,yes,"Southeastern, Southern, Thameslink"
 Harrow & Wealdstone,harrow-and-wealdstone,51.592178,-0.334571,London Bridge,LBG,85,,East Croydon,,,no,"Southeastern, Southern, Thameslink"
 Hastings,hastings,50.857896,0.576742,London Bridge,LBG,85,85,,100,3.2,yes,"Southeastern, Southern, Thameslink"
-London Road (Guildford),london-road-guildford,50.836663,-0.136502,London Bridge,LBG,85,,Epsom,,,no,"Southeastern, Southern, Thameslink"
+London Road (Guildford),london-road-guildford,51.24065,-0.565069,London Bridge,LBG,85,,Epsom,,,no,"Southeastern, Southern, Thameslink"
 Sole Street,sole-street,51.383146,0.378097,London Bridge,LBG,85,,Rochester,,,no,"Southeastern, Southern, Thameslink"
 Lancing,lancing,50.827083,-0.323109,London Bridge,LBG,86,,Gatwick Airport,,,no,"Southeastern, Southern, Thameslink"
 Sandling,sandling,51.090371,1.066043,London Bridge,LBG,86,86,,91,1.6,yes,"Southeastern, Southern, Thameslink"
@@ -1088,7 +1088,7 @@ Buxted,buxted,50.990013,0.131439,Victoria,VIC,85,,East Croydon,,,no,"Southeaster
 Chestfield & Swalecliffe,chestfield-and-swalecliffe,51.360241,1.066931,Victoria,VIC,85,85,,95,1.2,yes,"Southeastern, Southern"
 Worthing,worthing,50.818499,-0.376171,Victoria,VIC,85,85,,86,1.6,yes,"Southeastern, Southern"
 Knebworth,knebworth,51.866855,-0.187289,Victoria,VIC,86,,East Croydon,,,no,"Southeastern, Southern"
-London Road (Guildford),london-road-guildford,50.836663,-0.136502,Victoria,VIC,86,,Leatherhead,,,no,"Southeastern, Southern"
+London Road (Guildford),london-road-guildford,51.24065,-0.565069,Victoria,VIC,86,,Leatherhead,,,no,"Southeastern, Southern"
 Stevenage,stevenage,51.901688,-0.207109,Victoria,VIC,86,,East Croydon,,,no,"Southeastern, Southern"
 Charing,charing,51.208099,0.790331,Victoria,VIC,87,87,,96,3.2,yes,"Southeastern, Southern"
 Guildford,guildford,51.23697,-0.580425,Victoria,VIC,87,,Gatwick Airport,,,no,"Southeastern, Southern"
@@ -1126,7 +1126,7 @@ Feltham,feltham,51.447898,-0.409838,Waterloo,WAT,29,29,,35,6.8,yes,South Western
 Hinchley Wood,hinchley-wood,51.374998,-0.340524,Waterloo,WAT,29,29,,36,2.0,yes,South Western Railway
 Kingston,kingston,51.412751,-0.301166,Waterloo,WAT,29,29,,34,6.0,yes,South Western Railway
 Thames Ditton,thames-ditton,51.389097,-0.339152,Waterloo,WAT,29,36,Surbiton,38,2.0,no,South Western Railway
-St Margarets (London),st-margarets-london,51.787841,0.001269,Waterloo,WAT,30,30,,35,6.4,yes,South Western Railway
+St Margarets (London),st-margarets-london,51.455236,-0.3202,Waterloo,WAT,30,30,,35,6.4,yes,South Western Railway
 Stoneleigh,stoneleigh,51.363401,-0.248665,Waterloo,WAT,30,30,,34,3.2,yes,South Western Railway
 Strawberry Hill,strawberry-hill,51.438963,-0.339358,Waterloo,WAT,30,30,,44,5.2,yes,South Western Railway
 Hampton Court,hampton-court,51.402556,-0.342748,Waterloo,WAT,31,38,Surbiton,40,2.0,no,South Western Railway
@@ -1163,7 +1163,7 @@ Shepperton,shepperton,51.396805,-0.446786,Waterloo,WAT,45,45,,56,3.2,yes,South W
 Virginia Water,virginia-water,51.401802,-0.562174,Waterloo,WAT,45,45,,51,4.4,yes,South Western Railway
 Aldershot,aldershot,51.246418,-0.75986,Waterloo,WAT,46,46,,48,2.8,yes,South Western Railway
 Horsley,horsley,51.279347,-0.435409,Waterloo,WAT,47,47,,54,3.2,yes,South Western Railway
-London Road (Guildford),london-road-guildford,50.836663,-0.136502,Waterloo,WAT,47,56,Guildford,63,3.2,no,South Western Railway
+London Road (Guildford),london-road-guildford,51.24065,-0.565069,Waterloo,WAT,47,56,Guildford,63,3.2,no,South Western Railway
 Wraysbury,wraysbury,51.457708,-0.541922,Waterloo,WAT,47,47,,49,2.0,yes,South Western Railway
 Haslemere,haslemere,51.088648,-0.719163,Waterloo,WAT,49,49,,60,4.4,yes,South Western Railway
 Longcross,longcross,51.385173,-0.59457,Waterloo,WAT,49,49,,54,1.6,yes,South Western Railway

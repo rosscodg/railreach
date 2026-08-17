@@ -37,7 +37,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Richmond?
 
-The closest alternatives are Twickenham, Isleworth, Brentford. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are St Margarets (London), Twickenham, Isleworth. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

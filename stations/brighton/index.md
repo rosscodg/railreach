@@ -37,7 +37,7 @@ Yes. Direct services run to Victoria, London Bridge, St Pancras.
 
 ### What are the nearest stations to Brighton?
 
-The closest alternatives are London Road (Guildford), Preston Park, Hove. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Preston Park, Hove, Portslade. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

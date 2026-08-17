@@ -37,7 +37,7 @@ No direct service is recorded from London Road (Guildford); all routes into Lond
 
 ### What are the nearest stations to London Road (Guildford)?
 
-The closest alternatives are Brighton, Preston Park, Hove. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Guildford, Shalford, Clandon. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

@@ -36,7 +36,7 @@ Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to St Margarets (Hertfordshire)?
 
-The closest alternatives are St Margarets (London), Rye House, Roydon. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Rye House, Roydon, Ware. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

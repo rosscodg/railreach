@@ -2021,6 +2021,66 @@ REPORT_FORM_JS = r"""<script>
 </script>"""
 
 
+def check_station_positions(stations):
+    """Fail the build if a station is plotted far from its NaPTAN position.
+
+    Station names were matched to NaPTAN with the bracketed qualifier stripped,
+    so "London Road (Guildford)" and "London Road (Brighton)" collapsed to the
+    same key and the first one won: Guildford's station was plotted 54km away,
+    on Brighton. St Margarets (London) landed 43km out in Hertfordshire the
+    same way. A wrong position is invisible in the data and obvious only if
+    someone happens to look at that part of the map.
+
+    Matched on the full name including the qualifier, which is the thing that
+    distinguishes them. Stations NaPTAN does not name identically are skipped
+    rather than guessed at.
+    """
+    import csv
+    import math
+
+    def key(x):
+        x = x.lower().replace('&', 'and')
+        x = re.sub(r'\b(rail station|station)\b', '', x)
+        return re.sub(r'[^a-z0-9()]', '', x)
+
+    def km(a, b):
+        R = 6371
+        p1, p2 = math.radians(a[0]), math.radians(b[0])
+        dp, dl = math.radians(b[0]-a[0]), math.radians(b[1]-a[1])
+        h = math.sin(dp/2)**2 + math.cos(p1)*math.cos(p2)*math.sin(dl/2)**2
+        return 2 * R * math.asin(math.sqrt(h))
+
+    path = os.path.join(BASE, '_build', 'data', 'naptan-rail-stations.csv')
+    if not os.path.exists(path):
+        return
+    nap = {}
+    with open(path, encoding='utf-8-sig') as f:
+        for r in csv.DictReader(f):
+            if r['StopType'] != 'RLY' or r['Status'] != 'active':
+                continue
+            try:
+                nap.setdefault(key(r['CommonName']),
+                               (float(r['Latitude']), float(r['Longitude'])))
+            except (TypeError, ValueError):
+                pass
+
+    bad, checked = [], 0
+    for st in stations:
+        p = nap.get(key(st['name']))
+        if not p:
+            continue
+        checked += 1
+        d = km((st['lat'], st['lng']), p)
+        if d > 1.0:
+            bad.append((round(d), st['name'], p))
+    if bad:
+        raise SystemExit(
+            "ERROR: stations plotted far from their NaPTAN position.\n" +
+            ''.join(f"  {n}: {d} km out, NaPTAN says {p[0]:.4f},{p[1]:.4f}\n"
+                    for d, n, p in sorted(bad, reverse=True)))
+    print(f"  station positions agree with NaPTAN ({checked} checked)")
+
+
 def check_published_figures(total):
     """Fail the build if machine-read metadata states a count the data does not
     support.
@@ -2390,6 +2450,7 @@ def main():
 
     print("\nService worker, sitemap, llms.txt and dataset exports...")
     generate_sw()
+    check_station_positions(stations)
     check_published_figures(total)
     check_review_date(['index.html', 'about/index.html',
                        'stations/lingfield/index.html',

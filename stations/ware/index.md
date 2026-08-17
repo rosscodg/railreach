@@ -36,7 +36,7 @@ Yes. Direct services run to Liverpool Street.
 
 ### What are the nearest stations to Ware?
 
-The closest alternatives are St Margarets (Hertfordshire), St Margarets (London), Hertford East. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are St Margarets (Hertfordshire), Hertford East, Hertford North. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

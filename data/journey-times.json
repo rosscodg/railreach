@@ -6887,8 +6887,8 @@
     {
       "station": "London Road (Guildford)",
       "station_slug": "london-road-guildford",
-      "latitude": 50.836663,
-      "longitude": -0.136502,
+      "latitude": 51.24065,
+      "longitude": -0.565069,
       "london_terminal": "London Bridge",
       "terminal_code": "LBG",
       "fastest_minutes": 85,
@@ -16427,8 +16427,8 @@
     {
       "station": "London Road (Guildford)",
       "station_slug": "london-road-guildford",
-      "latitude": 50.836663,
-      "longitude": -0.136502,
+      "latitude": 51.24065,
+      "longitude": -0.565069,
       "london_terminal": "Victoria",
       "terminal_code": "VIC",
       "fastest_minutes": 86,
@@ -16997,8 +16997,8 @@
     {
       "station": "St Margarets (London)",
       "station_slug": "st-margarets-london",
-      "latitude": 51.787841,
-      "longitude": 0.001269,
+      "latitude": 51.455236,
+      "longitude": -0.3202,
       "london_terminal": "Waterloo",
       "terminal_code": "WAT",
       "fastest_minutes": 30,
@@ -17552,8 +17552,8 @@
     {
       "station": "London Road (Guildford)",
       "station_slug": "london-road-guildford",
-      "latitude": 50.836663,
-      "longitude": -0.136502,
+      "latitude": 51.24065,
+      "longitude": -0.565069,
       "london_terminal": "Waterloo",
       "terminal_code": "WAT",
       "fastest_minutes": 47,

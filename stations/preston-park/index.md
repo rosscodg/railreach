@@ -37,7 +37,7 @@ Yes. Direct services run to Victoria, London Bridge, St Pancras.
 
 ### What are the nearest stations to Preston Park?
 
-The closest alternatives are Hove, London Road (Guildford), Brighton. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Hove, Brighton, Portslade. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

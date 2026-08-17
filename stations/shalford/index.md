@@ -37,7 +37,7 @@ Yes. Direct services run to Victoria.
 
 ### What are the nearest stations to Shalford?
 
-The closest alternatives are Guildford, Farncombe, Godalming. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Guildford, London Road (Guildford), Farncombe. These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 

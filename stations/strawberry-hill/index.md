@@ -35,7 +35,7 @@ Yes. Direct services run to Waterloo.
 
 ### What are the nearest stations to Strawberry Hill?
 
-The closest alternatives are Twickenham, Teddington, Hounslow. These can offer a faster or cheaper route into London depending on where you live.
+The closest alternatives are Twickenham, Teddington, St Margarets (London). These can offer a faster or cheaper route into London depending on where you live.
 
 ## About this data
 
