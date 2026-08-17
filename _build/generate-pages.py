@@ -317,14 +317,16 @@ PROMO_URL = ('https://app.justmovein.com/'
 
 PROMO = f'''<div id="promo-banner">
 <a id="promo-slot-1" href="{PROMO_URL}" target="_blank" rel="noopener"
-   aria-label="Just Move In: save hours of home admin with Jay, an AI home manager">
+   aria-label="Just Move In: save hours of admin with our free AI home manager">
 <div class="promo-jmi">
+<div class="promo-brand">
 <img class="promo-mark" src="/assets/img/just-move-in-white.svg" alt="Just Move In" width="115" height="23" loading="lazy">
+<div class="promo-trust"><img class="promo-stars" src="/assets/img/trustpilot-stars.svg" alt="" width="108" height="20" loading="lazy"><span class="sr-only">Rated Excellent on Trustpilot</span><span class="promo-tp-name" aria-hidden="true">Trustpilot</span></div>
+</div>
 <div class="promo-body">
-<div class="promo-headline">Moving home? Save hours of admin with our <span>AI home manager</span>.</div>
+<div class="promo-headline">Moving home? Save hours of admin with our <span>free AI home manager</span>.</div>
 <div class="promo-sub">Bills, council tax, broadband and insurance, handled.</div>
 </div>
-<div class="promo-phone" aria-hidden="true"><span class="promo-bubble"></span><span class="promo-chip"></span></div>
 <div class="promo-cta">Get started</div>
 </div>
 </a>
@@ -470,7 +472,7 @@ ASSET_VERSIONS = {}
 # the previous build happened to leave on disk.
 VERSIONED_ASSETS = ('assets/css/shared.css', 'assets/js/map-ui.js',
                     'assets/js/home-map.js', 'assets/js/stations-data.js',
-                    'assets/js/map-core.js', 'assets/img/just-move-in-white.svg')
+                    'assets/js/map-core.js', 'assets/img/just-move-in-white.svg', 'assets/img/trustpilot-stars.svg')
 
 
 def compute_asset_versions(data_js):

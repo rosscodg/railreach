@@ -785,27 +785,6 @@ a:focus-visible, button:focus-visible, select:focus-visible {
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
 
-/* A suggestion of the Jay chat screen rather than a screenshot: at 62px tall a
-   real capture is an unreadable smudge, while this reads as "phone, chat app"
-   instantly, costs no request, and stays sharp on any display. */
-.promo-phone {
-  flex: 0 0 auto; position: relative;
-  width: 36px; height: 62px; margin-right: 16px;
-  border-radius: 7px; background: #1B0025;
-  border: 1.5px solid rgba(255,255,255,0.35);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.28);
-  overflow: hidden;
-}
-.promo-phone .promo-bubble {
-  position: absolute; left: 5px; top: 12px; width: 22px; height: 12px;
-  border-radius: 5px 5px 5px 2px; background: rgba(255,255,255,0.92);
-}
-.promo-phone .promo-chip {
-  position: absolute; left: 8px; top: 30px; width: 19px; height: 8px;
-  border-radius: 999px; background: rgba(255,255,255,0.16);
-  border: 1px solid rgba(196,181,253,0.65);
-}
-
 .promo-cta {
   flex: 0 0 auto; margin-right: 18px;
   padding: 9px 20px; background: #fff; color: #5C33C1;
@@ -820,6 +799,32 @@ a:focus-visible, button:focus-visible, select:focus-visible {
   .promo-mark { width: 74px; margin: 0 8px; }
   .promo-body { padding: 0 8px; border-left: none; }
   .promo-headline { font-size: 10.5px; line-height: 1.25; }
-  .promo-sub, .promo-phone { display: none; }
+  .promo-sub { display: none; }
   .promo-cta { margin-right: 8px; padding: 6px 11px; font-size: 10.5px; }
+}
+
+/* Wordmark with the Trustpilot rating beneath it. The rating is shown as five
+   stars because that is what Trustpilot itself renders for this business
+   today; the review count is deliberately left out, since a hardcoded number
+   is wrong the moment it moves and nobody re-checks it. */
+.promo-brand {
+  flex: 0 0 auto; margin: 0 18px;
+  display: flex; flex-direction: column; align-items: flex-start; gap: 7px;
+}
+.promo-mark { width: 112px; height: auto; margin: 0; }
+.promo-trust {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 9.5px; font-weight: 600; letter-spacing: 0.02em;
+  color: rgba(255,255,255,0.92);
+}
+.promo-stars { width: 86px; height: auto; display: block; }
+
+@media (max-width: 768px) {
+  .promo-brand { margin: 0 8px; gap: 5px; }
+  .promo-mark { width: 74px; }
+  .promo-stars { width: 58px; }
+  /* The word costs ~30px of width here, which came straight out of the
+     headline and pushed it to four cramped lines. The green star strip is
+     recognisable on its own; screen readers still get the full name. */
+  .promo-tp-name { display: none; }
 }
