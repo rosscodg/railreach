@@ -1521,6 +1521,148 @@ def generate_terminal_hub(stations, counts, total):
     print("  wrote terminals/index.html")
 
 
+# ── Commute-time pages ─────────────────────────────────────────────────────
+# "30 minute commute to London" is how people search when deciding where to
+# live, and the site had no page answering it: the data was only reachable by
+# working the map's filter. Three pages, not thirty, because each is a
+# genuinely different answer while a per-terminal grid of them would be padding.
+COMMUTE_BANDS = [
+    (30, 'Thirty minutes is the shortest commute most people find outside inner '
+         'London, and usually the most expensive per square foot.'),
+    (45, 'Forty-five minutes opens up most of the inner commuter belt while '
+         'staying under an hour on the train.'),
+    (60, 'An hour on the train is where the commuter belt really widens, and '
+         'where house prices fall away fastest.'),
+]
+
+
+def _band_links(current):
+    """Cross-links between the commute-time bands.
+
+    Someone who finds 30 minutes too restrictive wants 45 next, and that is a
+    better next click than the back button.
+    """
+    parts = []
+    for cap, _framing in COMMUTE_BANDS:
+        if cap == current:
+            parts.append('<strong>' + str(cap) + ' minutes</strong>')
+        else:
+            parts.append('<a href="/' + str(cap) + '-minute-commute-to-london/">'
+                         + str(cap) + ' minutes</a>')
+    return 'Commutes within: ' + ' &middot; '.join(parts)
+
+
+def generate_commute_pages(terminals, stations, total):
+    """A page per journey-time band, listing everywhere inside it."""
+    global REPORT_SUBJECT
+    REPORT_SUBJECT = ''
+    written = []
+    for cap, framing in COMMUTE_BANDS:
+        rows = []
+        for s in stations:
+            best = None
+            for code, j in s['journeys'].items():
+                m = j.get('mins')
+                if m is None or m > cap:
+                    continue
+                if best is None or m < best[0]:
+                    best = (m, code, j)
+            if best:
+                rows.append((best[0], s['name'], best[1], best[2]))
+        rows.sort(key=lambda r: (r[0], r[1]))
+        if not rows:
+            continue
+
+        by_term = {}
+        for mins, name, code, j in rows:
+            by_term.setdefault(code, []).append((mins, name))
+
+        slug = str(cap) + '-minute-commute-to-london'
+        direct_n = sum(1 for r in rows if r[3].get('direct'))
+        fastest = rows[0]
+
+        table = '\n'.join(
+            '<tr><td><a href="/stations/' + STATION_SLUGS[name] + '/">' + esc(name) + '</a></td>'
+            + '<td>' + badge(mins) + '</td><td>' + TERMINAL_META[code]['name'] + '</td>'
+            + '<td>' + ('Direct' if j.get('direct')
+                        else 'Change at ' + esc(str(j.get('changeAt') or 'one station'))) + '</td></tr>'
+            for mins, name, code, j in rows)
+
+        term_sections = '\n'.join(
+            '<h3>' + TERMINAL_META[c]['name'] + ' <span class="muted">' + str(len(v))
+            + (' stations' if len(v) != 1 else ' station') + '</span></h3>\n<p>'
+            + ', '.join(esc(n) + ' (' + str(m) + ' min)' for m, n in sorted(v)[:12])
+            + (' and more.' if len(v) > 12 else '.') + '</p>'
+            for c, v in sorted(by_term.items(), key=lambda kv: -len(kv[1])))
+
+        faqs_html = (
+            '<h3>How many places are within a ' + str(cap) + ' minute commute to London?</h3>\n'
+            '<p>' + str(len(rows)) + ' stations reach a London terminal in ' + str(cap)
+            + ' minutes or less on a weekday, across ' + str(len(by_term)) + ' of the '
+            + str(len(TERMINAL_META)) + ' main line terminals. ' + str(direct_n)
+            + ' of them are direct, with no change of train.</p>\n'
+            '<h3>Which is the fastest?</h3>\n'
+            '<p>' + esc(fastest[1]) + ', at ' + str(fastest[0]) + ' minutes into '
+            + TERMINAL_META[fastest[2]]['name'] + '.</p>\n'
+            '<h3>Are these times realistic?</h3>\n'
+            '<p>They are the quickest scheduled weekday journey, so a best case rather '
+            'than a typical morning. Each station page shows the typical peak time '
+            'alongside, which is the more useful number when judging a daily commute.</p>')
+
+        ld = json.dumps([
+            json.loads(breadcrumb_ld([("RailReach", "/"),
+                                      (str(cap) + " minute commute", "/" + slug + "/")])),
+            json.loads(faq_ld_from_html(faqs_html)),
+            {"@context": "https://schema.org", "@type": "ItemList",
+             "name": "Stations within a " + str(cap) + " minute commute of London",
+             "itemListElement": [
+                 {"@type": "ListItem", "position": i + 1, "name": n,
+                  "url": SITE + "/stations/" + STATION_SLUGS[n] + "/"}
+                 for i, (_, n, _, _) in enumerate(rows[:100])]},
+        ], indent=0)
+
+        body = (
+            '\n<body>\n' + site_header('') + '\n'
+            + crumbs([("RailReach", "/"), (str(cap) + " minute commute", None)]) + '\n'
+            '<main id="content" class="page-content">\n<div class="wrap">\n'
+            '<h1>' + str(cap) + ' minute commute to London</h1>\n'
+            '<p class="lede">' + str(len(rows)) + ' stations reach a London terminal within '
+            + str(cap) + ' minutes on a weekday. ' + framing
+            + ' Times are the fastest scheduled service, measured from published timetables.</p>\n\n'
+            '<h2>Every station within ' + str(cap) + ' minutes</h2>\n'
+            '<p class="section-note">Ranked by journey time. ' + str(direct_n) + ' of the '
+            + str(len(rows)) + ' are direct.</p>\n'
+            '<div class="table-scroll">\n<table>\n'
+            '<caption>Stations within a ' + str(cap) + ' minute commute of London</caption>\n'
+            '<thead><tr><th>Station</th><th>Fastest</th><th>To terminal</th><th>Direct?</th></tr></thead>\n'
+            '<tbody>\n' + table + '\n</tbody>\n</table>\n</div>\n\n'
+            '<h2>By London terminal</h2>\n' + term_sections + '\n\n'
+            '<h2>Frequently asked questions</h2>\n' + faqs_html + '\n\n'
+            '<p class="cta-line">' + _band_links(cap) + '</p>\n'
+            '<p class="cta-line"><a href="/">See these stations on the map &rarr;</a></p>\n'
+            + data_note() + '\n</div>\n</main>\n' + site_footer(total) + '\n'
+            '<script type="application/ld+json">' + ld + '</script>\n</body>\n</html>')
+
+        html = head(
+            title=str(cap) + " Minute Commute to London | " + str(len(rows)) + " Places to Live | RailReach",
+            desc="Every station within a " + str(cap) + " minute train commute of London: "
+                 + str(len(rows)) + " places ranked by journey time, with the terminal each "
+                 "reaches and whether the train is direct.",
+            canonical=SITE + "/" + slug + "/",
+            og_title=str(cap) + " minute commute to London | RailReach",
+            og_desc=str(len(rows)) + " stations within " + str(cap)
+                    + " minutes of a London terminal, ranked by journey time.",
+            md=False, leaflet=False,
+        ) + body
+
+        outdir = os.path.join(BASE, slug)
+        os.makedirs(outdir, exist_ok=True)
+        write_html(os.path.join(outdir, 'index.html'), html)
+        written.append((slug, len(rows)))
+        print("  wrote /" + slug + "/ (" + str(len(rows)) + " stations)")
+    return written
+
+
 def generate_station_hub(page_info, total):
     global REPORT_SUBJECT
     REPORT_SUBJECT = ''
@@ -1582,6 +1724,9 @@ def generate_station_hub(page_info, total):
 <ul class="link-grid">
 {cards}
 </ul>
+
+<h2>Commutes by journey time</h2>
+<p>Every station within a set commute of London, ranked: <a href="/30-minute-commute-to-london/">30 minutes</a>, <a href="/45-minute-commute-to-london/">45 minutes</a> or <a href="/60-minute-commute-to-london/">60 minutes</a>.</p>
 
 <h2>Every station, ranked</h2>
 <p class="section-note">All {len(ordered)} stations with a journey into London under 90 minutes.</p>
@@ -2168,6 +2313,10 @@ def check_published_figures(total):
             continue
         text = open(path, encoding='utf-8').read()
         chunks = re.findall(r'<meta name="description" content="(.*?)"', text, re.S)
+        # og: and twitter: descriptions are quoted by social and chat previews
+        # and rotted unnoticed: one still said 345 UK stations.
+        chunks += re.findall(r'<meta property="og:description" content="(.*?)"', text, re.S)
+        chunks += re.findall(r'<meta name="twitter:description" content="(.*?)"', text, re.S)
         chunks += re.findall(r'<script type="application/ld\+json">(.*?)</script>',
                              text, re.S)
         for chunk in chunks:
@@ -2215,6 +2364,8 @@ def check_review_date(sample_pages):
 def generate_sitemap():
     urls = [("/", "weekly", "1.0"), ("/terminals/", "monthly", "0.9"),
             ("/stations/", "monthly", "0.9"), ("/about/", "yearly", "0.5")]
+    urls += [(f"/{cap}-minute-commute-to-london/", "monthly", "0.8")
+             for cap, _framing in COMMUTE_BANDS]
     urls += [(f"/terminals/{m['slug']}/", "monthly", "0.8") for m in TERMINAL_META.values()]
     urls += [(f"/stations/{s}/", "monthly", "0.7") for s in STATION_SLUGS.values()]
 
@@ -2363,7 +2514,7 @@ def sync_index(terminals, stations, counts, total, data_js):
     # two cannot drift again.
     n_term = len(TERMINAL_META)
     subs = [
-        (r'from \d{2,4} stations', f'from {total} stations'),
+        (r'from \d{2,4}(?: UK)? stations', f'from {total} stations'),
         (r'\b\d{1,2} London terminals', f'{n_term} London terminals'),
         (r'terminals, \d{2,4} stations', f'terminals, {total} stations'),
     ]
@@ -2505,6 +2656,7 @@ def main():
     print("\nHub and about pages...")
     generate_terminal_hub(stations, counts, total)
     generate_station_hub(page_info, total)
+    generate_commute_pages(terminals, stations, total)
     generate_about(stations, counts, total, len(page_info))
 
     print("\nService worker, sitemap, llms.txt and dataset exports...")

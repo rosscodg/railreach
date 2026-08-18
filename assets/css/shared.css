@@ -976,3 +976,9 @@ a:focus-visible, button:focus-visible, select:focus-visible {
      guard the homepage station search already carries. */
   .station-filter input { font-size: 16px; }
 }
+
+/* Entry points to the commute-time pages, directly under the homepage lede
+   where someone is still deciding how far out they are willing to live. */
+.lede-links { margin: -4px 0 18px; font-size: 15px; color: var(--text-body); }
+.lede-links a { font-weight: 600; }
+.cta-line { margin: 18px 0; font-size: 15px; }

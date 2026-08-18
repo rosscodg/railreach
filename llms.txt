@@ -2,7 +2,7 @@
 
 > RailReach is a free interactive map of train journey times from 571 UK stations to 11 London terminals. Every journey carries three measures: the fastest scheduled weekday service, the typical peak time (median of services arriving 07:00-09:30), and how many trains run in the peak. Computed from Darwin Timetable Files published by the Rail Delivery Group under the Open Government Licence, sampled across three midweek days.
 
-Site last updated: 2026-08-17
+Site last updated: 2026-08-18
 Data last reviewed: 2026-08-17
 Licence: Creative Commons Attribution 4.0. Reuse permitted with attribution to RailReach.
 
