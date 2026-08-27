@@ -982,3 +982,13 @@ a:focus-visible, button:focus-visible, select:focus-visible {
 .lede-links { margin: -4px 0 18px; font-size: 15px; color: var(--text-body); }
 .lede-links a { font-weight: 600; }
 .cta-line { margin: 18px 0; font-size: 15px; }
+
+/* Citation line on the commuter-towns ranking: there so a journalist can copy
+   it without composing one, which is the difference between being used as a
+   source and being read and forgotten. */
+.cite-block {
+  margin: 12px 0 0; padding: 12px 14px;
+  background: var(--page-alt); border-left: 3px solid var(--blue);
+  border-radius: 0 8px 8px 0;
+  font-size: 13px; color: var(--text-body); font-family: var(--font);
+}

@@ -1,6 +1,26 @@
 User-agent: *
 Allow: /
 
+# Search crawlers: skip the markdown alternates.
+#
+# Every page carries a <link rel="alternate" type="text/markdown"> pointing at
+# an index.md holding the same content as plain text. They exist so language
+# models can read the site without parsing HTML, not to be indexed, and they
+# cannot say so themselves: served as text/markdown, they can carry neither a
+# canonical tag nor an X-Robots-Tag on static hosting.
+#
+# Left discoverable, 582 duplicate URLs compete for the same crawl budget as
+# the real pages, while 194 pages sit in "Discovered, currently not indexed"
+# waiting to be crawled. The AI crawlers below deliberately do not get this
+# rule: for them the markdown is the point.
+User-agent: Googlebot
+Allow: /
+Disallow: /*index.md$
+
+User-agent: Bingbot
+Allow: /
+Disallow: /*index.md$
+
 User-agent: GPTBot
 Allow: /
 
@@ -32,9 +52,6 @@ User-agent: GoogleOther
 Allow: /
 
 User-agent: Applebot-Extended
-Allow: /
-
-User-agent: Bingbot
 Allow: /
 
 User-agent: CCBot

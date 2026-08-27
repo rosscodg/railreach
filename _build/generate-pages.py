@@ -1549,7 +1549,236 @@ def _band_links(current):
         else:
             parts.append('<a href="/' + str(cap) + '-minute-commute-to-london/">'
                          + str(cap) + ' minutes</a>')
-    return 'Commutes within: ' + ' &middot; '.join(parts)
+    return ('Commutes within: ' + ' &middot; '.join(parts)
+            + ' &middot; <a href="/best-commuter-towns-to-london/">Best commuter towns</a>')
+
+
+# ── Best commuter towns ────────────────────────────────────────────────────
+# Every other ranking of commuter towns uses the fastest train of the day.
+# That is the estate agent's number: a single early express is no use if the
+# train you can actually catch takes twenty minutes longer. This page ranks on
+# the median peak journey instead, which is the measure the site already
+# publishes and nobody else does, and shows the gap between the two.
+BEST_MIN_TPH = 2.0        # fewer than two trains an hour in the peak is not a commute
+BEST_MIN_KM = 20          # inside this ring it is London, not a move
+BEST_LIST = 50
+
+
+def _km(a, b):
+    R = 6371
+    p1, p2 = math.radians(a[0]), math.radians(b[0])
+    dp, dl = math.radians(b[0] - a[0]), math.radians(b[1] - a[1])
+    h = math.sin(dp / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(dl / 2) ** 2
+    return 2 * R * math.asin(math.sqrt(h))
+
+
+def _best_towns(stations):
+    """Towns ranked by the journey a commuter actually gets in the peak."""
+    central = (51.5074, -0.1278)
+    rows = []
+    for s in stations:
+        dist = _km(central, (s['lat'], s['lng']))
+        if dist < BEST_MIN_KM:
+            continue
+        best = None
+        for code, j in s['journeys'].items():
+            tp, tph = j.get('typicalPeakMins'), j.get('peakTrainsPerHour')
+            if tp is None or not tph or tph < BEST_MIN_TPH:
+                continue
+            if best is None or tp < best[0]:
+                best = (tp, code, j)
+        if best:
+            tp, code, j = best
+            rows.append({'name': s['name'], 'slug': s['slug'], 'typical': tp,
+                         'fastest': j['mins'], 'tph': j['peakTrainsPerHour'],
+                         'code': code, 'direct': j.get('direct'),
+                         'changeAt': j.get('changeAt'), 'km': round(dist)})
+    rows.sort(key=lambda r: (r['typical'], r['name']))
+    return rows
+
+
+def generate_best_towns(terminals, stations, total):
+    global REPORT_SUBJECT
+    REPORT_SUBJECT = ''
+    rows = _best_towns(stations)
+    if not rows:
+        return
+    slug = 'best-commuter-towns-to-london'
+    top = rows[:BEST_LIST]
+
+    # The finding: where the advertised time most overstates the real journey.
+    gaps = sorted((r for r in rows if r['typical'] - r['fastest'] > 0),
+                  key=lambda r: -(r['typical'] - r['fastest']))[:12]
+
+    # Best town for each terminal, which is the question most people arrive with.
+    per_term = {}
+    for r in rows:
+        if r['code'] not in per_term or r['typical'] < per_term[r['code']]['typical']:
+            per_term[r['code']] = r
+
+    def town_link(r):
+        return '<a href="/stations/' + r['slug'] + '/">' + esc(r['name']) + '</a>'
+
+    rank_rows = '\n'.join(
+        '<tr><td>' + str(i + 1) + '</td><td>' + town_link(r) + '</td>'
+        '<td><strong>' + str(r['typical']) + ' min</strong></td>'
+        '<td>' + str(r['fastest']) + ' min</td>'
+        '<td>' + str(r['tph']) + '/hr</td>'
+        '<td>' + TERMINAL_META[r['code']]['name'] + '</td>'
+        '<td>' + ('Direct' if r['direct'] else 'Change') + '</td></tr>'
+        for i, r in enumerate(top))
+
+    gap_rows = '\n'.join(
+        '<tr><td>' + town_link(r) + '</td>'
+        '<td>' + str(r['fastest']) + ' min</td>'
+        '<td><strong>' + str(r['typical']) + ' min</strong></td>'
+        '<td class="gap-wide">+' + str(r['typical'] - r['fastest']) + ' min</td>'
+        '<td>' + TERMINAL_META[r['code']]['name'] + '</td></tr>'
+        for r in gaps)
+
+    term_rows = '\n'.join(
+        '<tr><td><a href="/terminals/' + TERMINAL_META[c]['slug'] + '/">'
+        + TERMINAL_META[c]['name'] + '</a></td><td>' + town_link(r) + '</td>'
+        '<td>' + str(r['typical']) + ' min</td><td>' + str(r['tph']) + '/hr</td></tr>'
+        for c, r in sorted(per_term.items(), key=lambda kv: kv[1]['typical']))
+
+    worst = gaps[0] if gaps else None
+    first = top[0]
+    # A median is always at least the minimum, so "the typical journey is
+    # longer than the fastest" is arithmetic, not a finding. What is worth
+    # reporting is how big the gap is, and it varies enormously.
+    spread = sorted(r['typical'] - r['fastest'] for r in rows)
+    gap_10 = sum(1 for g in spread if g >= 10)
+    gap_15 = sum(1 for g in spread if g >= 15)
+    gap_med = spread[len(spread) // 2]
+    gap_max = spread[-1]
+    faqs_html = (
+        '<h3>What makes a good commuter town?</h3>\n'
+        '<p>For the journey itself: a short typical peak time, several trains an hour so '
+        'a missed one is not a disaster, and a direct service. This page ranks on the '
+        'first and reports the other two. It deliberately says nothing about house '
+        'prices, schools or how pleasant a place is to live.</p>\n'
+        '<h3>Why rank on the typical peak rather than the fastest train?</h3>\n'
+        '<p>Because the fastest train of the day is not the one most people catch. '
+        + (('A median is always at least as long as the quickest service, so some gap is '
+            'arithmetic. What matters is its size: across these ' + str(len(rows))
+            + ' towns the median gap is ' + str(gap_med) + ' minutes, but ' + str(gap_10)
+            + ' towns are ten minutes or worse. ' + esc(worst['name'])
+            + ' is the widest: a fastest service of '
+            + str(worst['fastest']) + ' minutes into ' + TERMINAL_META[worst['code']]['name']
+            + ', against a median peak journey of ' + str(worst['typical']) + '.') if worst else '')
+        + '</p>\n'
+        '<h3>Which town has the shortest real commute?</h3>\n'
+        '<p>' + esc(first['name']) + ', at ' + str(first['typical']) + ' minutes into '
+        + TERMINAL_META[first['code']]['name'] + ' in the morning peak, with '
+        + str(first['tph']) + ' trains an hour.</p>\n'
+        '<h3>How were these measured?</h3>\n'
+        '<p>From Darwin timetable files published by the Rail Delivery Group, across '
+        'three midweek days. The typical peak figure is the median journey time of '
+        'direct services arriving at the London terminal between 07:00 and 09:30. Towns '
+        'qualify if they are more than ' + str(BEST_MIN_KM) + 'km from central London and '
+        'have at least ' + str(int(BEST_MIN_TPH)) + ' peak trains an hour.</p>')
+
+    ld = json.dumps([
+        json.loads(breadcrumb_ld([("RailReach", "/"),
+                                  ("Best commuter towns", "/" + slug + "/")])),
+        json.loads(faq_ld_from_html(faqs_html)),
+        {"@context": "https://schema.org", "@type": "ItemList",
+         "name": "Best commuter towns to London, ranked by typical peak journey time",
+         "itemListElement": [
+             {"@type": "ListItem", "position": i + 1, "name": r['name'],
+              "url": SITE + "/stations/" + r['slug'] + "/"}
+             for i, r in enumerate(top)]},
+    ], indent=0)
+
+    body = (
+        '\n<body>\n' + site_header('') + '\n'
+        + crumbs([("RailReach", "/"), ("Best commuter towns", None)]) + '\n'
+        '<main id="content" class="page-content">\n<div class="wrap">\n'
+        '<h1>Best commuter towns to London</h1>\n'
+        '<p class="lede">' + str(len(rows)) + ' towns ranked by the commute you actually '
+        'get, not the fastest train of the day. Every other ranking uses the quickest '
+        'service on the timetable; this one uses the median journey arriving in London '
+        'between 07:00 and 09:30, because that is the train people catch.</p>\n\n'
+
+        '<h2>How far the advertised time is from the real one</h2>\n'
+        '<p>Property listings and town guides quote the fastest service of the day. A '
+        'median is always at least as long as the quickest, so the question is not '
+        'whether there is a gap but how wide it is, and that varies enormously. Across '
+        'these ' + str(len(rows)) + ' towns it runs from nothing to ' + str(gap_max)
+        + ' minutes, with a median of ' + str(gap_med) + '. In ' + str(gap_10)
+        + ' towns, about a quarter of them, the typical peak journey is at least ten '
+        'minutes longer than the figure in the listings; in ' + str(gap_15)
+        + ' it is fifteen minutes or more. These are the widest.</p>\n'
+        '<div class="table-scroll">\n<table>\n'
+        '<caption>Towns where the advertised fastest journey most overstates the peak commute</caption>\n'
+        '<thead><tr><th>Town</th><th>Advertised fastest</th><th>Typical peak</th>'
+        '<th>Difference</th><th>Terminal</th></tr></thead>\n'
+        '<tbody>\n' + gap_rows + '\n</tbody>\n</table>\n</div>\n\n'
+
+        '<h2>The ' + str(len(top)) + ' shortest real commutes</h2>\n'
+        '<p class="section-note">Ranked by typical peak journey time. Fastest is shown '
+        'alongside so the difference is visible.</p>\n'
+        '<div class="table-scroll">\n<table>\n'
+        '<caption>Commuter towns ranked by typical peak journey time into London</caption>\n'
+        '<thead><tr><th>#</th><th>Town</th><th>Typical peak</th><th>Fastest</th>'
+        '<th>Peak trains</th><th>Terminal</th><th>Direct?</th></tr></thead>\n'
+        '<tbody>\n' + rank_rows + '\n</tbody>\n</table>\n</div>\n\n'
+
+        '<h2>Best town for each London terminal</h2>\n'
+        '<p>If your office fixes which terminal you arrive at, this is the shortest real '
+        'commute into each one.</p>\n'
+        '<div class="table-scroll">\n<table>\n'
+        '<caption>Shortest typical peak commute into each London terminal</caption>\n'
+        '<thead><tr><th>Terminal</th><th>Town</th><th>Typical peak</th><th>Peak trains</th></tr></thead>\n'
+        '<tbody>\n' + term_rows + '\n</tbody>\n</table>\n</div>\n\n'
+
+        '<h2>What this ranking does not tell you</h2>\n'
+        '<p>Only the journey. Not house prices, not schools, not council tax, not whether '
+        'you can get a seat, and not what a season ticket costs. A town near the top of '
+        'this table may be expensive precisely because the commute is good. Journey time '
+        'is one input into where to live, and this page measures that one well rather '
+        'than several badly.</p>\n'
+        '<p>Peak figures describe direct services. Fares and crowding are not in the '
+        'timetable feed, so they are not estimated here.</p>\n\n'
+
+        '<h2>Citing this ranking</h2>\n'
+        '<p>The underlying dataset is published under a '
+        '<a href="https://creativecommons.org/licenses/by/4.0/" rel="license noopener" target="_blank">'
+        'Creative Commons Attribution 4.0</a> licence, as '
+        '<a href="/data/journey-times.csv">CSV</a> and '
+        '<a href="/data/journey-times.json">JSON</a>. Journalists and researchers are '
+        'welcome to reuse it with a link to RailReach. The '
+        '<a href="/about/">methodology</a> sets out exactly how each figure is measured '
+        'and where it should not be relied on.</p>\n'
+        '<p class="cite-block">RailReach, &ldquo;Best commuter towns to London&rdquo;, '
+        + REVIEW_DATE + '. ' + SITE + '/' + slug + '/</p>\n\n'
+
+        '<h2>Frequently asked questions</h2>\n' + faqs_html + '\n\n'
+        '<p class="cta-line">See these towns on the '
+        '<a href="/">interactive map</a>, or browse by '
+        '<a href="/30-minute-commute-to-london/">commute length</a>.</p>\n'
+        + data_note() + '\n</div>\n</main>\n' + site_footer(total) + '\n'
+        '<script type="application/ld+json">' + ld + '</script>\n</body>\n</html>')
+
+    html = head(
+        title="Best Commuter Towns to London 2026 | Ranked by Real Peak Journey Time",
+        desc="The " + str(len(rows)) + " best commuter towns to London, ranked by the journey "
+             "you actually get in the morning peak rather than the fastest train of the day. "
+             "Measured from 2026 timetables.",
+        canonical=SITE + "/" + slug + "/",
+        og_title="Best commuter towns to London, ranked by real journey time",
+        og_desc="Ranked on the median peak commute, not the fastest train of the day. "
+                + str(len(rows)) + " towns, measured from 2026 timetable data.",
+        md=False, leaflet=False,
+    ) + body
+
+    outdir = os.path.join(BASE, slug)
+    os.makedirs(outdir, exist_ok=True)
+    write_html(os.path.join(outdir, 'index.html'), html)
+    print("  wrote /" + slug + "/ (" + str(len(rows)) + " towns ranked, "
+          + str(len(gaps)) + " gap rows)")
+    return slug
 
 
 def generate_commute_pages(terminals, stations, total):
@@ -1726,7 +1955,7 @@ def generate_station_hub(page_info, total):
 </ul>
 
 <h2>Commutes by journey time</h2>
-<p>Every station within a set commute of London, ranked: <a href="/30-minute-commute-to-london/">30 minutes</a>, <a href="/45-minute-commute-to-london/">45 minutes</a> or <a href="/60-minute-commute-to-london/">60 minutes</a>.</p>
+<p>Every station within a set commute of London, ranked: <a href="/30-minute-commute-to-london/">30 minutes</a>, <a href="/45-minute-commute-to-london/">45 minutes</a> or <a href="/60-minute-commute-to-london/">60 minutes</a>. Or see the <a href="/best-commuter-towns-to-london/">best commuter towns ranked by real peak journey time</a>.</p>
 
 <h2>Every station, ranked</h2>
 <p class="section-note">All {len(ordered)} stations with a journey into London under 90 minutes.</p>
@@ -2366,6 +2595,7 @@ def generate_sitemap():
             ("/stations/", "monthly", "0.9"), ("/about/", "yearly", "0.5")]
     urls += [(f"/{cap}-minute-commute-to-london/", "monthly", "0.8")
              for cap, _framing in COMMUTE_BANDS]
+    urls += [("/best-commuter-towns-to-london/", "monthly", "0.9")]
     urls += [(f"/terminals/{m['slug']}/", "monthly", "0.8") for m in TERMINAL_META.values()]
     urls += [(f"/stations/{s}/", "monthly", "0.7") for s in STATION_SLUGS.values()]
 
@@ -2657,6 +2887,7 @@ def main():
     generate_terminal_hub(stations, counts, total)
     generate_station_hub(page_info, total)
     generate_commute_pages(terminals, stations, total)
+    generate_best_towns(terminals, stations, total)
     generate_about(stations, counts, total, len(page_info))
 
     print("\nService worker, sitemap, llms.txt and dataset exports...")
