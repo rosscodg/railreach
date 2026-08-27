@@ -24,7 +24,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/shared.css?v=773a49cf">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<link rel="stylesheet" href="/assets/css/shared.css?v=f28f928f">
+<style>:root { --map-h: 420px; }</style>
 </head>
 <body>
 <a class="skip-link" href="#content">Skip to content</a>
@@ -41,6 +44,7 @@
 <div class="wrap">
 <h1>Best commuter towns to London</h1>
 <p class="lede">352 towns ranked by the commute you actually get, not the fastest train of the day. Every other ranking uses the quickest service on the timetable; this one uses the median journey arriving in London between 07:00 and 09:30, because that is the train people catch.</p>
+<p class="lede-links">This is a ranking. The <a href="/">interactive map</a> is the tool: all 571 stations, filterable by terminal and journey time.</p>
 
 <h2>How far the advertised time is from the real one</h2>
 <p>Property listings and town guides quote the fastest service of the day. A median is always at least as long as the quickest, so the question is not whether there is a gap but how wide it is, and that varies enormously. Across these 352 towns it runs from nothing to 24 minutes, with a median of 5. In 83 towns, about a quarter of them, the typical peak journey is at least ten minutes longer than the figure in the listings; in 28 it is fifteen minutes or more. These are the widest.</p>
@@ -65,7 +69,12 @@
 </table>
 </div>
 
-<h2>The 50 shortest real commutes</h2>
+<h2>The 50 shortest real commutes, mapped</h2>
+<p class="section-note">Coloured by typical peak journey time. The <a href="/">full map</a> covers all 571 stations.</p>
+<div class="embed-map"><div id="map"></div></div>
+<p class="cta-line embed-cta"><a class="btn-primary" href="/">Explore all 571 stations &rarr;</a></p>
+
+<h2>The full ranking</h2>
 <p class="section-note">Ranked by typical peak journey time. Fastest is shown alongside so the difference is visible.</p>
 <div class="table-scroll">
 <table>
@@ -186,6 +195,70 @@
 </footer>
 <script>if('serviceWorker' in navigator)navigator.serviceWorker.register('/sw.js');</script>
 </body></html>
+<script src="/assets/js/map-ui.js?v=887114e8"></script>
+<script>var TOWNS=[{n:"Ebbsfleet International",s:"ebbsfleet-international",la:51.442973,ln:0.320921,t:19,f:18,h:5.6,d:"St Pancras"},
+{n:"Bushey",s:"bushey",la:51.645582,ln:-0.384749,t:21,f:16,h:7.9,d:"Euston"},
+{n:"Coulsdon South",s:"coulsdon-south",la:51.315838,ln:-0.137887,t:21,f:21,h:3.2,d:"London Bridge"},
+{n:"Hayes & Harlington",s:"hayes-and-harlington",la:51.503096,ln:-0.420683,t:21,f:16,h:10.0,d:"Paddington"},
+{n:"Potters Bar",s:"potters-bar",la:51.697067,ln:-0.192605,t:23,f:20,h:2.0,d:"Kings Cross"},
+{n:"Watford Junction",s:"watford",la:51.663529,ln:-0.396517,t:23,f:15,h:10.7,d:"Euston"},
+{n:"West Drayton",s:"west-drayton",la:51.510055,ln:-0.472234,t:23,f:20,h:6.0,d:"Paddington"},
+{n:"Esher",s:"esher",la:51.379891,ln:-0.353338,t:24,f:23,h:3.2,d:"Waterloo"},
+{n:"Upminster",s:"upminster",la:51.559018,ln:0.25088,t:24,f:21,h:8.8,d:"Fenchurch Street"},
+{n:"Gravesend",s:"gravesend",la:51.441348,ln:0.366643,t:25,f:22,h:4.8,d:"St Pancras"},
+{n:"Knebworth",s:"knebworth",la:51.866855,ln:-0.187289,t:25,f:25,h:2.0,d:"St Pancras"},
+{n:"Cheshunt",s:"cheshunt",la:51.702876,ln:-0.02396,t:26,f:23,h:6.0,d:"Liverpool Street"},
+{n:"Rainham (Essex)",s:"rainham-essex",la:51.516723,ln:0.190634,t:26,f:24,h:3.2,d:"Fenchurch Street"},
+{n:"Stevenage",s:"stevenage",la:51.901688,ln:-0.207109,t:26,f:20,h:5.1,d:"Kings Cross"},
+{n:"Iver",s:"iver",la:51.508503,ln:-0.506726,t:27,f:24,h:4.0,d:"Paddington"},
+{n:"Kings Langley",s:"kings-langley",la:51.706356,ln:-0.438422,t:27,f:25,h:3.2,d:"Euston"},
+{n:"Merstham",s:"merstham",la:51.264154,ln:-0.150226,t:27,f:26,h:3.2,d:"London Bridge"},
+{n:"Sevenoaks",s:"sevenoaks",la:51.276865,ln:0.181669,t:27,f:24,h:8.4,d:"London Bridge"},
+{n:"Gerrards Cross",s:"gerrards-cross",la:51.589023,ln:-0.555275,t:28,f:19,h:4.0,d:"Marylebone"},
+{n:"Hersham",s:"hersham",la:51.376812,ln:-0.389959,t:28,f:26,h:3.2,d:"Waterloo"},
+{n:"Reading",s:"reading",la:51.458786,ln:-0.971849,t:28,f:23,h:15.6,d:"Paddington"},
+{n:"Welwyn North",s:"welwyn-north",la:51.823497,ln:-0.192091,t:28,f:19,h:4.0,d:"Kings Cross"},
+{n:"Apsley",s:"apsley",la:51.732522,ln:-0.462935,t:29,f:28,h:3.6,d:"Euston"},
+{n:"Harpenden",s:"harpenden",la:51.814645,ln:-0.35148,t:29,f:25,h:7.6,d:"St Pancras"},
+{n:"Hatfield",s:"hatfield",la:51.763879,ln:-0.215589,t:29,f:26,h:2.0,d:"Kings Cross"},
+{n:"Romford",s:"romford",la:51.574829,ln:0.183237,t:29,f:18,h:13.6,d:"Liverpool Street"},
+{n:"Langley",s:"langley",la:51.508062,ln:-0.541756,t:30,f:26,h:4.0,d:"Paddington"},
+{n:"Radlett",s:"radlett",la:51.685188,ln:-0.317244,t:30,f:26,h:6.4,d:"St Pancras"},
+{n:"Upper Warlingham",s:"upper-warlingham",la:51.308512,ln:-0.077952,t:30,f:29,h:2.0,d:"Victoria"},
+{n:"West Horndon",s:"west-horndon",la:51.567945,ln:0.340644,t:30,f:27,h:3.6,d:"Fenchurch Street"},
+{n:"Woking",s:"woking",la:51.318469,ln:-0.55696,t:30,f:24,h:14.4,d:"Waterloo"},
+{n:"Broxbourne",s:"broxbourne",la:51.74691,ln:-0.011087,t:31,f:27,h:5.3,d:"Liverpool Street"},
+{n:"Ockendon",s:"ockendon",la:51.521992,ln:0.290469,t:31,f:28,h:3.6,d:"Fenchurch Street"},
+{n:"Orpington",s:"orpington",la:51.373296,ln:0.089091,t:31,f:15,h:4.8,d:"London Bridge"},
+{n:"Redhill",s:"redhill",la:51.240201,ln:-0.1659,t:31,f:24,h:4.0,d:"London Bridge"},
+{n:"Walton-on-Thames",s:"walton-on-thames",la:51.372931,ln:-0.414635,t:31,f:22,h:3.6,d:"Waterloo"},
+{n:"Beaconsfield",s:"beaconsfield",la:51.611291,ln:-0.643822,t:32,f:25,h:3.6,d:"Marylebone"},
+{n:"Chorleywood",s:"chorleywood",la:51.654249,ln:-0.51832,t:32,f:30,h:2.0,d:"Marylebone"},
+{n:"Gatwick Airport",s:"gatwick-airport",la:51.156491,ln:-0.161041,t:32,f:29,h:6.8,d:"Victoria"},
+{n:"Gidea Park",s:"gidea-park",la:51.581904,ln:0.205964,t:32,f:29,h:13.2,d:"Liverpool Street"},
+{n:"Hemel Hempstead",s:"hemel-hempstead",la:51.742333,ln:-0.490774,t:32,f:27,h:5.2,d:"Euston"},
+{n:"Ingatestone",s:"ingatestone",la:51.667043,ln:0.384247,t:32,f:29,h:2.8,d:"Liverpool Street"},
+{n:"Purfleet",s:"purfleet",la:51.481013,ln:0.236767,t:32,f:29,h:3.2,d:"Fenchurch Street"},
+{n:"Slough",s:"slough",la:51.51188,ln:-0.59151,t:32,f:14,h:6.4,d:"Paddington"},
+{n:"St Albans City",s:"st-albans",la:51.750473,ln:-0.327538,t:32,f:20,h:11.6,d:"St Pancras"},
+{n:"Welwyn Garden City",s:"welwyn-garden-city",la:51.801048,ln:-0.20407,t:32,f:29,h:2.0,d:"Kings Cross"},
+{n:"Letchworth Garden City",s:"letchworth-garden-city",la:51.979964,ln:-0.229264,t:33,f:29,h:5.9,d:"Kings Cross"},
+{n:"Luton Airport Parkway",s:"luton-airport-parkway",la:51.872438,ln:-0.395881,t:33,f:23,h:8.4,d:"St Pancras"},
+{n:"Woldingham",s:"woldingham",la:51.290158,ln:-0.05187,t:33,f:33,h:2.0,d:"Victoria"},
+{n:"Hitchin",s:"hitchin",la:51.953283,ln:-0.263481,t:34,f:33,h:4.0,d:"St Pancras"}];
+var m=RR.createMap("map");
+var pts=TOWNS.map(function(t){return [t.la,t.ln];});
+TOWNS.forEach(function(t){
+  RR.stationMarker(m,{name:t.n,lat:t.la,lng:t.ln,slug:t.s},t.t,
+    "<strong>"+RR.esc(t.n)+"</strong>"+
+    "<div class='pop-sub'>to "+RR.esc(t.d)+"</div>"+
+    "<div class='pop-hero'><b>"+t.t+"</b> min typical peak</div>"+
+    "<dl class='pop-stats'><div><dt>Fastest</dt><dd>"+t.f+" min</dd></div>"+
+    "<div><dt>Peak trains</dt><dd>"+t.h+"/hr</dd></div></dl>"+
+    "<a class='popup-link' href='/stations/"+t.s+"/'>Journey guide &rarr;</a>");
+});
+RR.fit(m,pts,{maxZoom:10});
+</script>
 <script type="application/ld+json">[
 {
 "@context": "https://schema.org",

@@ -1691,6 +1691,30 @@ def generate_best_towns(terminals, stations, total):
              for i, r in enumerate(top)]},
     ], indent=0)
 
+    # Just the ranked towns, so the page carries a few KB of data rather than
+    # the 122KB the full map needs.
+    pins = ',\n'.join(
+        '{n:"' + json_esc(r['name']) + '",s:"' + r['slug'] + '",la:' + str(
+            next(x['lat'] for x in stations if x['name'] == r['name'])) + ',ln:' + str(
+            next(x['lng'] for x in stations if x['name'] == r['name'])) + ',t:' + str(
+            r['typical']) + ',f:' + str(r['fastest']) + ',h:' + str(r['tph'])
+        + ',d:"' + json_esc(TERMINAL_META[r['code']]['name']) + '"}'
+        for r in top)
+    map_js = (
+        'var TOWNS=[' + pins + '];\n'
+        'var m=RR.createMap("map");\n'
+        'var pts=TOWNS.map(function(t){return [t.la,t.ln];});\n'
+        'TOWNS.forEach(function(t){\n'
+        '  RR.stationMarker(m,{name:t.n,lat:t.la,lng:t.ln,slug:t.s},t.t,\n'
+        '    "<strong>"+RR.esc(t.n)+"</strong>"+\n'
+        '    "<div class=\'pop-sub\'>to "+RR.esc(t.d)+"</div>"+\n'
+        '    "<div class=\'pop-hero\'><b>"+t.t+"</b> min typical peak</div>"+\n'
+        '    "<dl class=\'pop-stats\'><div><dt>Fastest</dt><dd>"+t.f+" min</dd></div>"+\n'
+        '    "<div><dt>Peak trains</dt><dd>"+t.h+"/hr</dd></div></dl>"+\n'
+        '    "<a class=\'popup-link\' href=\'/stations/"+t.s+"/\'>Journey guide &rarr;</a>");\n'
+        '});\n'
+        'RR.fit(m,pts,{maxZoom:10});\n')
+
     body = (
         '\n<body>\n' + site_header('') + '\n'
         + crumbs([("RailReach", "/"), ("Best commuter towns", None)]) + '\n'
@@ -1699,7 +1723,10 @@ def generate_best_towns(terminals, stations, total):
         '<p class="lede">' + str(len(rows)) + ' towns ranked by the commute you actually '
         'get, not the fastest train of the day. Every other ranking uses the quickest '
         'service on the timetable; this one uses the median journey arriving in London '
-        'between 07:00 and 09:30, because that is the train people catch.</p>\n\n'
+        'between 07:00 and 09:30, because that is the train people catch.</p>\n'
+        '<p class="lede-links">This is a ranking. The '
+        '<a href="/">interactive map</a> is the tool: all ' + str(total)
+        + ' stations, filterable by terminal and journey time.</p>\n\n'
 
         '<h2>How far the advertised time is from the real one</h2>\n'
         '<p>Property listings and town guides quote the fastest service of the day. A '
@@ -1716,7 +1743,13 @@ def generate_best_towns(terminals, stations, total):
         '<th>Difference</th><th>Terminal</th></tr></thead>\n'
         '<tbody>\n' + gap_rows + '\n</tbody>\n</table>\n</div>\n\n'
 
-        '<h2>The ' + str(len(top)) + ' shortest real commutes</h2>\n'
+        '<h2>The ' + str(len(top)) + ' shortest real commutes, mapped</h2>\n'
+        '<p class="section-note">Coloured by typical peak journey time. '
+        'The <a href="/">full map</a> covers all ' + str(total) + ' stations.</p>\n'
+        '<div class="embed-map"><div id="map"></div></div>\n'
+        '<p class="cta-line embed-cta"><a class="btn-primary" href="/">'
+        'Explore all ' + str(total) + ' stations &rarr;</a></p>\n\n'
+        '<h2>The full ranking</h2>\n'
         '<p class="section-note">Ranked by typical peak journey time. Fastest is shown '
         'alongside so the difference is visible.</p>\n'
         '<div class="table-scroll">\n<table>\n'
@@ -1759,6 +1792,8 @@ def generate_best_towns(terminals, stations, total):
         '<a href="/">interactive map</a>, or browse by '
         '<a href="/30-minute-commute-to-london/">commute length</a>.</p>\n'
         + data_note() + '\n</div>\n</main>\n' + site_footer(total) + '\n'
+        '<script src="/assets/js/map-ui.js"></script>\n'
+        '<script>' + map_js + '</script>\n'
         '<script type="application/ld+json">' + ld + '</script>\n</body>\n</html>')
 
     html = head(
@@ -1770,7 +1805,7 @@ def generate_best_towns(terminals, stations, total):
         og_title="Best commuter towns to London, ranked by real journey time",
         og_desc="Ranked on the median peak commute, not the fastest train of the day. "
                 + str(len(rows)) + " towns, measured from 2026 timetable data.",
-        md=False, leaflet=False,
+        map_h="420px", md=False, leaflet=True,
     ) + body
 
     outdir = os.path.join(BASE, slug)

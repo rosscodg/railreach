@@ -992,3 +992,25 @@ a:focus-visible, button:focus-visible, select:focus-visible {
   border-radius: 0 8px 8px 0;
   font-size: 13px; color: var(--text-body); font-family: var(--font);
 }
+
+/* The ranked towns, mapped, on the commuter-towns page. Bounded height and its
+   own rounded frame: it illustrates the ranking above it rather than trying to
+   be the map, which lives on the homepage. */
+.embed-map {
+  margin: 18px 0 14px;
+  border: 1px solid var(--border); border-radius: var(--radius);
+  overflow: hidden; background: var(--page-alt);
+}
+.embed-map #map { height: var(--map-h, 420px); width: 100%; }
+.embed-cta { margin-top: 4px; }
+
+.btn-primary {
+  display: inline-block; padding: 11px 22px;
+  background: var(--blue); color: #fff; border-radius: var(--radius-pill);
+  font-weight: 600; font-size: 15px; text-decoration: none;
+}
+.btn-primary:hover { background: #2f74e0; color: #fff; }
+
+@media (max-width: 768px) {
+  .embed-map #map { height: 320px; }
+}
