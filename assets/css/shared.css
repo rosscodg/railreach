@@ -1004,12 +1004,23 @@ a:focus-visible, button:focus-visible, select:focus-visible {
 .embed-map #map { height: var(--map-h, 420px); width: 100%; }
 .embed-cta { margin-top: 4px; }
 
-.btn-primary {
+/* Qualified with .page-content because that context sets `a { color: blue }`
+   at higher specificity than a bare class, which rendered the label blue on a
+   blue button: present, clickable and completely invisible. */
+/* Qualified with .page-content because that context sets `a { color: blue }`
+   at higher specificity than a bare class, which rendered the label blue on a
+   blue button: present, clickable and completely invisible.
+
+   Darker than --blue deliberately. White on #3B82F6 is 3.68:1, below the 4.5:1
+   WCAG AA needs for 15px text; #2563EB is 5.17:1 and reads as the same blue. */
+.page-content a.btn-primary,
+a.btn-primary {
   display: inline-block; padding: 11px 22px;
-  background: var(--blue); color: #fff; border-radius: var(--radius-pill);
+  background: #2563EB; color: #fff; border-radius: var(--radius-pill);
   font-weight: 600; font-size: 15px; text-decoration: none;
 }
-.btn-primary:hover { background: #2f74e0; color: #fff; }
+.page-content a.btn-primary:hover,
+a.btn-primary:hover { background: #1D4ED8; color: #fff; text-decoration: none; }
 
 @media (max-width: 768px) {
   .embed-map #map { height: 320px; }
