@@ -2208,10 +2208,40 @@ def generate_about(stations, counts, total, n_station_pages):
          "temporalCoverage": "2026",
          "dateModified": REVIEW_DATE,
          "spatialCoverage": {"@type": "Place", "name": "England and Wales"},
+         "isAccessibleForFree": True,
+         "keywords": ["train journey times", "London commute", "commuter towns",
+                      "rail timetable", "United Kingdom", "peak journey time"],
+         # Without distribution the schema announces a dataset and then gives
+         # no way to fetch it: Google Dataset Search and every data-aware
+         # crawler read this field to find the actual files. They existed and
+         # were linked only from prose.
+         "distribution": [
+             {"@type": "DataDownload", "encodingFormat": "application/json",
+              "contentUrl": f"{SITE}/data/journey-times.json",
+              "name": "Journey times, JSON"},
+             {"@type": "DataDownload", "encodingFormat": "text/csv",
+              "contentUrl": f"{SITE}/data/journey-times.csv",
+              "name": "Journey times, CSV"},
+             {"@type": "DataDownload", "encodingFormat": "text/markdown",
+              "contentUrl": f"{SITE}/llms-full.txt",
+              "name": "Full dataset as plain text"},
+         ],
+         "measurementTechnique": METHOD_LABEL or
+             "Computed from published Darwin timetable files",
+         "citation": ("RailReach (2026). UK Train Journey Times to London "
+                      f"Terminals. Reviewed {REVIEW_DATE}. {SITE}/"),
          "variableMeasured": [
-             {"@type": "PropertyValue", "name": "Journey time", "unitText": "minutes"},
+             {"@type": "PropertyValue", "name": "Journey time", "unitText": "minutes",
+              "description": "Fastest scheduled weekday journey, up to one change"},
+             {"@type": "PropertyValue", "name": "Typical peak journey time",
+              "unitText": "minutes",
+              "description": "Median of services arriving 07:00-09:30 on three sampled weekdays"},
+             {"@type": "PropertyValue", "name": "Peak trains per hour",
+              "description": "Scheduled arrivals per hour in the morning peak"},
              {"@type": "PropertyValue", "name": "Direct service",
               "description": "Whether the journey is a direct train or requires a change"},
+             {"@type": "PropertyValue", "name": "Interchange station",
+              "description": "Where the change happens, when the fastest route is not direct"},
          ]},
     ], indent=0)
 
@@ -2411,7 +2441,7 @@ Page: {SITE}/terminals/{meta['slug']}/
 
     txt = f"""# RailReach: complete dataset
 
-Train journey times from {total} UK stations to the 9 London main line terminals.
+Train journey times from {total} UK stations to the {len(TERMINAL_META)} London main line terminals.
 
 Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 Basis: fastest typical weekday service on each route
@@ -2721,6 +2751,19 @@ def check_published_figures(total):
     # totals; the hub pages generate theirs from real figures that legitimately
     # differ, such as the 568 stations with at least one journey or a single
     # terminal's catchment, and checking those produced only false alarms.
+    # llms.txt and llms-full.txt exist to be quoted verbatim by models, so a
+    # stale figure there is repeated as fact with no page around it to correct
+    # the impression. llms-full.txt said "the 9 London main line terminals"
+    # for as long as the JSON-LD did, and was not covered by this check.
+    for rel in ('llms.txt', 'llms-full.txt'):
+        path = os.path.join(BASE, rel)
+        if not os.path.exists(path):
+            continue
+        body = open(path, encoding='utf-8').read()
+        for n in sorted(set(re.findall(r'(\d{1,2}) London (?:main line )?terminals', body))):
+            if int(n) != n_term:
+                bad.append((rel, f'says "{n} London terminals", there are {n_term}'))
+
     for rel in ('index.html',):
         path = os.path.join(BASE, rel)
         if not os.path.exists(path):
@@ -3166,6 +3209,13 @@ def main():
 
     print("\nService worker, sitemap, llms.txt and dataset exports...")
     generate_sw()
+    generate_llms(stations, counts, page_info, total)
+    generate_llms_full(terminals, stations, counts, total)
+    export_dataset(terminals, stations)
+
+    # Checks run last, against what this build actually wrote. They used to sit
+    # ahead of the llms.txt files, so extending check_published_figures to
+    # cover those would have validated the previous build's output.
     check_station_positions(stations)
     check_published_figures(total)
     check_review_date(['index.html', 'about/index.html',
@@ -3176,9 +3226,6 @@ def main():
                             'terminals/victoria/index.html',
                             'best-commuter-towns-to-london/index.html'])
     generate_sitemap()
-    generate_llms(stations, counts, page_info, total)
-    generate_llms_full(terminals, stations, counts, total)
-    export_dataset(terminals, stations)
 
     print(f"\nDone: {9 + len(page_info) + 3} pages generated.")
 

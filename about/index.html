@@ -257,16 +257,64 @@
 "@type": "Place",
 "name": "England and Wales"
 },
+"isAccessibleForFree": true,
+"keywords": [
+"train journey times",
+"London commute",
+"commuter towns",
+"rail timetable",
+"United Kingdom",
+"peak journey time"
+],
+"distribution": [
+{
+"@type": "DataDownload",
+"encodingFormat": "application/json",
+"contentUrl": "https://railreach.co.uk/data/journey-times.json",
+"name": "Journey times, JSON"
+},
+{
+"@type": "DataDownload",
+"encodingFormat": "text/csv",
+"contentUrl": "https://railreach.co.uk/data/journey-times.csv",
+"name": "Journey times, CSV"
+},
+{
+"@type": "DataDownload",
+"encodingFormat": "text/markdown",
+"contentUrl": "https://railreach.co.uk/llms-full.txt",
+"name": "Full dataset as plain text"
+}
+],
+"measurementTechnique": "Journey times computed from Darwin PPTimetable files for three midweek days (2026-08-11, 2026-08-12, 2026-08-13). Only passenger services are counted; passing points, operational stops and cancelled services are excluded. Stations and terminals are matched on TIPLOC using Darwin reference data. \"Fastest\" is the quickest journey of the day allowing at most one change, and names the interchange where it uses one; \"fastest direct\" is the quickest service that does not require changing. Connections allow 8 minutes to change, applied uniformly because station-by-station minimum connection times are not published in the feed, and are searched within a single day so that one day's arrival is never matched to the next day's departure. \"Typical peak\" is the median of direct services arriving at the London terminal between 07:00 and 09:30, and the peak frequency counts those same direct services.",
+"citation": "RailReach (2026). UK Train Journey Times to London Terminals. Reviewed 2026-08-17. https://railreach.co.uk/",
 "variableMeasured": [
 {
 "@type": "PropertyValue",
 "name": "Journey time",
-"unitText": "minutes"
+"unitText": "minutes",
+"description": "Fastest scheduled weekday journey, up to one change"
+},
+{
+"@type": "PropertyValue",
+"name": "Typical peak journey time",
+"unitText": "minutes",
+"description": "Median of services arriving 07:00-09:30 on three sampled weekdays"
+},
+{
+"@type": "PropertyValue",
+"name": "Peak trains per hour",
+"description": "Scheduled arrivals per hour in the morning peak"
 },
 {
 "@type": "PropertyValue",
 "name": "Direct service",
 "description": "Whether the journey is a direct train or requires a change"
+},
+{
+"@type": "PropertyValue",
+"name": "Interchange station",
+"description": "Where the change happens, when the fastest route is not direct"
 }
 ]
 }
