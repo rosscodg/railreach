@@ -24,12 +24,17 @@ import hashlib
 import urllib.parse
 import math
 import datetime
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from pagehash import content_hash          # noqa: E402
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://railreach.co.uk"
 
-# BUILD_DATE is when the pages were last generated. It is the right value for
-# sitemap lastmod, which describes when the page changed.
+# BUILD_DATE is when the pages were last generated. It is NOT the right value
+# for sitemap lastmod: stamping it on every URL tells search engines that all
+# 590 pages changed whenever one stylesheet did. See page_lastmods().
 BUILD_DATE = datetime.date.today().isoformat()
 
 # REVIEW_DATE is when the journey times were last checked against timetables.
@@ -271,12 +276,22 @@ def write_markdown(rel_dir, text):
 
 
 # ── Shared chrome ──────────────────────────────────────────────────────────
+# Emitted at the foot of every page that draws a map, immediately before the
+# scripts that use it. Kept synchronous and in document order: the init blocks
+# below are inline, so they run during parsing and would not see a deferred
+# Leaflet. Position, not defer, is what takes it off the critical path.
+LEAFLET_JS = '<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>\n'
+
 def head(title, desc, canonical, og_title, og_desc, map_h=None, leaflet=True, md=True):
     mapvar = f'\n<style>:root {{ --map-h: {map_h}; }}</style>' if map_h else ''
     md_tag = (f'\n<link rel="alternate" type="text/markdown" href="{canonical}index.md">'
               if md else '')
-    leaflet_tags = ('<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">\n'
-                    '<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>\n') if leaflet else ''
+    # Only the stylesheet belongs in the head: the map container needs it to
+    # paint. leaflet.js is 150KB of render-blocking third-party script that
+    # nothing above the fold uses, so it is emitted at the foot instead, just
+    # ahead of the code that calls it. See LEAFLET_JS.
+    leaflet_tags = ('<link rel="preconnect" href="https://unpkg.com" crossorigin>\n'
+                    '<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">\n') if leaflet else ''
     return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -869,7 +884,7 @@ def generate_terminal_page(code, terminals, stations, total):
 
 <script type="application/ld+json">{ld}</script>
 
-<script src="/assets/js/stations-data.js"></script>
+{LEAFLET_JS}<script src="/assets/js/stations-data.js"></script>
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const code='{code}';
@@ -1214,7 +1229,7 @@ def generate_station_page(station_name, slug, terminals, stations, total):
 
 <script type="application/ld+json">{ld}</script>
 
-<script src="/assets/js/stations-data.js"></script>
+{LEAFLET_JS}<script src="/assets/js/stations-data.js"></script>
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
@@ -1386,7 +1401,7 @@ def generate_indirect_station_page(station_name, slug, sdata, sorted_journeys,
 </main>
 
 <script type="application/ld+json">{ld}</script>
-<script src="/assets/js/stations-data.js"></script>
+{LEAFLET_JS}<script src="/assets/js/stations-data.js"></script>
 <script src="/assets/js/map-ui.js"></script>
 <script>
 const map=RR.createMap('map');
@@ -1791,10 +1806,12 @@ def generate_best_towns(terminals, stations, total):
         '<p class="cta-line">See these towns on the '
         '<a href="/">interactive map</a>, or browse by '
         '<a href="/30-minute-commute-to-london/">commute length</a>.</p>\n'
-        + data_note() + '\n</div>\n</main>\n' + site_footer(total) + '\n'
-        '<script src="/assets/js/map-ui.js"></script>\n'
+        + data_note() + '\n</div>\n</main>\n'
+        '<script type="application/ld+json">' + ld + '</script>\n'
+        + LEAFLET_JS
+        + '<script src="/assets/js/map-ui.js"></script>\n'
         '<script>' + map_js + '</script>\n'
-        '<script type="application/ld+json">' + ld + '</script>\n</body>\n</html>')
+        + site_footer(total))
 
     html = head(
         title="Best Commuter Towns to London 2026 | Ranked by Real Peak Journey Time",
@@ -1904,8 +1921,9 @@ def generate_commute_pages(terminals, stations, total):
             '<h2>Frequently asked questions</h2>\n' + faqs_html + '\n\n'
             '<p class="cta-line">' + _band_links(cap) + '</p>\n'
             '<p class="cta-line"><a href="/">See these stations on the map &rarr;</a></p>\n'
-            + data_note() + '\n</div>\n</main>\n' + site_footer(total) + '\n'
-            '<script type="application/ld+json">' + ld + '</script>\n</body>\n</html>')
+            + data_note() + '\n</div>\n</main>\n'
+            '<script type="application/ld+json">' + ld + '</script>\n'
+            + site_footer(total))
 
         html = head(
             title=str(cap) + " Minute Commute to London | " + str(len(rows)) + " Places to Live | RailReach",
@@ -2624,6 +2642,93 @@ def check_review_date(sample_pages):
     print(f"  review date on published pages matches the dataset ({REVIEW_DATE})")
 
 
+def check_leaflet_position(paths):
+    """Fail the build if Leaflet drifts back into the head.
+
+    It is easy to reintroduce: the obvious place for a <script> is beside the
+    stylesheet it belongs with. The position is load-bearing in both
+    directions - in the head it blocks rendering on 584 pages, and after the
+    inline init blocks it would leave L undefined and every map blank. So the
+    rule is asserted rather than trusted to a comment.
+    """
+    tag = '<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>'
+    bad = []
+    for rel in paths:
+        full = os.path.join(BASE, rel)
+        if not os.path.exists(full):
+            continue
+        with open(full, encoding='utf-8') as f:
+            html = f.read()
+        if html.count(tag) != 1:
+            bad.append((rel, f"{html.count(tag)} leaflet script tags, expected 1"))
+            continue
+        at = html.index(tag)
+        head_end = html.index('</head>')
+        first_user = html.find('<script src="/assets/js/')
+        if at < head_end:
+            bad.append((rel, "leaflet.js is in the head, blocking render"))
+        elif first_user != -1 and at > first_user:
+            bad.append((rel, "leaflet.js loads after the code that calls it"))
+    if bad:
+        raise SystemExit(
+            "ERROR: Leaflet is in the wrong place.\n" +
+            ''.join(f"  {rel}: {why}\n" for rel, why in bad))
+    print(f"  leaflet.js at the foot on {len(paths)} sampled pages")
+
+
+# ── Sitemap freshness ──────────────────────────────────────────────────────
+# One lastmod per URL, derived from the page's own content instead of the
+# build clock.
+#
+# Every URL used to carry BUILD_DATE, so touching one stylesheet announced
+# that all 590 pages had changed. Google discounts a lastmod it can see is
+# inaccurate, so the signal was not merely useless but spent - on a site where
+# most pages are still waiting to be crawled for the first time.
+#
+# What counts as a change is defined in _build/pagehash.py: the indexable
+# content, not the bytes. A restyled page is not a changed page as far as an
+# index is concerned.
+PAGE_HASHES = os.path.join(BASE, '_build', 'data', 'page-hashes.json')
+
+
+def page_lastmods(paths):
+    """Map each URL path to the date its content last actually changed."""
+    try:
+        with open(PAGE_HASHES) as f:
+            stored = json.load(f)
+    except (OSError, ValueError):
+        stored = {}
+
+    dates, manifest, changed, seeded = {}, {}, 0, 0
+    for path in paths:
+        rel = 'index.html' if path == '/' else path.strip('/') + '/index.html'
+        full = os.path.join(BASE, rel)
+        if not os.path.exists(full):
+            raise SystemExit(f"ERROR: sitemap lists {path} but {rel} was not written")
+        with open(full, encoding='utf-8') as f:
+            h = content_hash(f.read())
+        prev = stored.get(path)
+        if prev and prev.get('hash') == h:
+            date = prev['lastmod']
+        elif prev:
+            date = BUILD_DATE
+            changed += 1
+        else:
+            # A page this manifest has never seen is new today. To recover
+            # real dates for pages that predate the manifest, or after
+            # deleting it, run _build/seed-page-dates.py.
+            date = BUILD_DATE
+            seeded += 1
+        dates[path] = date
+        manifest[path] = {'hash': h, 'lastmod': date}
+
+    with open(PAGE_HASHES, 'w') as f:
+        json.dump(manifest, f, indent=1, sort_keys=True)
+    print(f"  page content: {changed} changed, {seeded} newly tracked, "
+          f"{len(dates) - changed - seeded} unchanged")
+    return dates
+
+
 # ── Sitemap ────────────────────────────────────────────────────────────────
 def generate_sitemap():
     urls = [("/", "weekly", "1.0"), ("/terminals/", "monthly", "0.9"),
@@ -2634,8 +2739,9 @@ def generate_sitemap():
     urls += [(f"/terminals/{m['slug']}/", "monthly", "0.8") for m in TERMINAL_META.values()]
     urls += [(f"/stations/{s}/", "monthly", "0.7") for s in STATION_SLUGS.values()]
 
+    lastmod = page_lastmods([path for path, _freq, _pri in urls])
     body = '\n'.join(
-        f'  <url><loc>{SITE}{path}</loc><lastmod>{BUILD_DATE}</lastmod>'
+        f'  <url><loc>{SITE}{path}</loc><lastmod>{lastmod[path]}</lastmod>'
         f'<changefreq>{freq}</changefreq><priority>{pri}</priority></url>'
         for path, freq, pri in urls)
     xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
@@ -2643,7 +2749,8 @@ def generate_sitemap():
            f'{body}\n</urlset>\n')
     with open(os.path.join(BASE, 'sitemap.xml'), 'w') as f:
         f.write(xml)
-    print(f"  wrote sitemap.xml ({len(urls)} URLs, lastmod {BUILD_DATE})")
+    print(f"  wrote sitemap.xml ({len(urls)} URLs, "
+          f"{len(set(lastmod.values()))} distinct lastmod dates)")
 
 
 
@@ -2932,6 +3039,10 @@ def main():
     check_review_date(['index.html', 'about/index.html',
                        'stations/lingfield/index.html',
                        'terminals/victoria/index.html'])
+    check_leaflet_position(['index.html', 'stations/lingfield/index.html',
+                            'stations/tilehurst/index.html',
+                            'terminals/victoria/index.html',
+                            'best-commuter-towns-to-london/index.html'])
     generate_sitemap()
     generate_llms(stations, counts, page_info, total)
     generate_llms_full(terminals, stations, counts, total)
