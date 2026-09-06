@@ -3633,7 +3633,48 @@ def generate_deposit(terminals, stations, total, counts):
     with open(os.path.join(DEPOSIT_DIR, 'README.md'), 'w') as f:
         f.write(card)
 
-    print(f"  wrote _build/deposit/ (zenodo.json, README.md; "
+    # Everything to be uploaded, in one folder, under the names both
+    # platforms expect. The Hugging Face card's front matter points at
+    # journey-times.csv, and a deposit assembled by hand from three different
+    # directories is where the wrong file gets attached.
+    up = os.path.join(DEPOSIT_DIR, 'upload')
+    os.makedirs(up, exist_ok=True)
+    for src, dst in ((os.path.join(BASE, 'data', 'journey-times.csv'),
+                      'journey-times.csv'),
+                     (os.path.join(BASE, 'data', 'journey-times.json'),
+                      'journey-times.json'),
+                     (os.path.join(DEPOSIT_DIR, 'README.md'), 'README.md')):
+        with open(src, 'rb') as a, open(os.path.join(up, dst), 'wb') as b:
+            b.write(a.read())
+
+    # The Zenodo form, as text to paste rather than JSON to read.
+    m = zenodo['metadata']
+    form = (
+        "Zenodo upload form - paste these values\n"
+        "=======================================\n\n"
+        "Files: drag in all three files from _build/deposit/upload/\n\n"
+        "DOI .................. leave as \"No\" so Zenodo mints one\n"
+        "Resource type ........ Dataset\n"
+        f"Title ................ {m['title']}\n"
+        f"Publication date ..... {REVIEW_DATE}\n"
+        "Creators ............. RailReach   (Type: Organization)\n"
+        f"Licence .............. Creative Commons Attribution 4.0 International\n"
+        f"Version .............. {m['version']}\n"
+        "Language ............. English\n\n"
+        "Keywords (one per line)\n"
+        + ''.join(f"  {k}\n" for k in m['keywords']) +
+        "\nRelated works (optional; Relation = \"is documented by\", Scheme = URL)\n"
+        + ''.join(f"  {r['identifier']}\n" for r in m['related_identifiers']) +
+        "\nAdditional notes\n"
+        f"  {m['notes']}\n\n"
+        "Description (paste the whole block)\n"
+        "-----------------------------------\n"
+        + blurb + "\n"
+    )
+    with open(os.path.join(DEPOSIT_DIR, 'ZENODO-FORM.txt'), 'w') as f:
+        f.write(form)
+
+    print(f"  wrote _build/deposit/ (upload/ + ZENODO-FORM.txt; "
           f"{n_journeys} journeys, {n_peak} with a peak median)")
 
 

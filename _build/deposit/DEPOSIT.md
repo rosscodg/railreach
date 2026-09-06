@@ -16,13 +16,12 @@ moving or going away. It also puts a record into DataCite and OpenAIRE, which
 is the layer academic search and citation tools read.
 
 1. Sign in at <https://zenodo.org> (ORCID or GitHub works).
-2. **New upload** → drag in these three files:
-   - `data/journey-times.csv`
-   - `data/journey-times.json`
-   - `_build/deposit/README.md`
-3. Fill the form from `zenodo.json`. The field names match:
-   title, description, creators, licence (CC BY 4.0), version, keywords,
-   related identifiers, notes. Access right is **Open**.
+2. **New upload** → drag in all three files from `_build/deposit/upload/`.
+   They are staged there by the build under the names both platforms expect,
+   so nothing has to be gathered from three directories by hand.
+3. Fill the form from `_build/deposit/ZENODO-FORM.txt`, which lists each field
+   as Zenodo labels it with the value to paste. (`zenodo.json` holds the same
+   metadata in API form, if you ever automate the deposit.)
 4. Publish. The DOI appears immediately.
 
 **After publishing**, feed the DOI back into the site. The wiring already
