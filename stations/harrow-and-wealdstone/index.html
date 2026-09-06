@@ -99,10 +99,16 @@
 
 <h2>Harrow & Wealdstone to Euston</h2>
 <p>The fastest train from Harrow & Wealdstone to London Euston takes <strong>13 minutes</strong> and involves a direct train with no change. The route is operated by Avanti West Coast, London Northwestern. That makes Harrow & Wealdstone the 1st quickest of the 32 stations with a service into Euston inside 90 minutes.</p>
+<p>That is the quickest train of the day. For a morning arrival the median journey is <strong>34 minutes</strong>, 21 minutes longer. That median covers 56 services arriving at Euston between 07:00 and 09:30 across three sampled weekdays, roughly 7.5 an hour.</p>
+
 <h2>Harrow & Wealdstone to Victoria</h2>
 <p>The fastest train from Harrow & Wealdstone to London Victoria takes <strong>46 minutes</strong> and involves one change of train en route. The route is operated by Southeastern, Southern. That makes Harrow & Wealdstone the 60th quickest of the 203 stations with a service into Victoria inside 90 minutes.</p>
+<p>No direct train runs from Harrow & Wealdstone to London Victoria. The quickest route changes at Clapham Junction.</p>
+
 <h2>Harrow & Wealdstone to London Bridge</h2>
-<p>The fastest train from Harrow & Wealdstone to London London Bridge takes <strong>85 minutes</strong> and involves one change of train en route. The route is operated by Southeastern, Southern, Thameslink. That makes Harrow & Wealdstone the 218th quickest of the 234 stations with a service into London Bridge inside 90 minutes.</p>
+<p>The fastest train from Harrow & Wealdstone to London Bridge takes <strong>85 minutes</strong> and involves one change of train en route. The route is operated by Southeastern, Southern, Thameslink. That makes Harrow & Wealdstone the 218th quickest of the 234 stations with a service into London Bridge inside 90 minutes.</p>
+<p>No direct train runs from Harrow & Wealdstone to London Bridge. The quickest route changes at East Croydon.</p>
+
 <h2>Frequently asked questions</h2>
 <h3>How long does the train from Harrow & Wealdstone to London take?</h3>
 <p>The fastest train from Harrow & Wealdstone reaches London Euston in 13 minutes. Harrow & Wealdstone connects to 3 London terminals: Euston, Victoria, London Bridge.</p>
@@ -126,6 +132,7 @@
 <p><a href="/?to=EUS&amp;max=30">See all of them on the map &rarr;</a></p>
 <h2>Nearby stations</h2>
 <p>Alternative departure points close to Harrow & Wealdstone, for comparing platforms rather than places.</p>
+<p><a href="/stations/battersea-park/">Battersea Park</a> is quicker: 18 km away and 4 minutes into London Victoria, saving 9 minutes on the journey above. It is one of 10 stations within 20 km that beat Harrow & Wealdstone.</p>
 <ul class="link-grid">
 <li><a class="card" href="/stations/hatch-end/"><span class="card-title">Hatch End</span><span class="card-meta"><span class="t-badge t-mid">39 min</span> fastest to London &middot; 3 km away</span></a></li>
 <li><a class="card" href="/stations/carpenders-park/"><span class="card-title">Carpenders Park</span><span class="card-meta"><span class="t-badge t-mid">42 min</span> fastest to London &middot; 5 km away</span></a></li>
@@ -263,13 +270,13 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="/assets/js/stations-data.js?v=b001d929"></script>
-<script src="/assets/js/map-ui.js?v=887114e8"></script>
+<script src="/assets/js/map-ui.js?v=e4f361ec"></script>
 <script>
 const map=RR.createMap('map');
 L.circleMarker([51.592178,-0.334571],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Harrow & Wealdstone</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.528136,-0.133924,'<strong>London Euston</strong><div class="pop-sub">from Harrow & Wealdstone</div><div class="pop-hero"><b>13</b> min</div><dl class="pop-stats"><div class="pop-gap"><dt>Typical peak</dt><dd>34 min</dd></div><div><dt>Peak trains</dt><dd>7.5/hr</dd></div></dl><a class="popup-link" href="/terminals/euston/">Terminal guide &rarr;</a>');
 RR.terminalMarker(map,51.495257,-0.144559,'<strong>London Victoria</strong><div class="pop-sub">from Harrow & Wealdstone</div><div class="pop-hero"><b>46</b> min</div><div class="pop-change">change at Clapham Junction</div><dl class="pop-stats"><div><dt>Direct train</dt><dd class="pop-none">none</dd></div></dl><a class="popup-link" href="/terminals/victoria/">Terminal guide &rarr;</a>');
-RR.terminalMarker(map,51.505019,-0.086092,'<strong>London London Bridge</strong><div class="pop-sub">from Harrow & Wealdstone</div><div class="pop-hero"><b>85</b> min</div><div class="pop-change">change at East Croydon</div><dl class="pop-stats"><div><dt>Direct train</dt><dd class="pop-none">none</dd></div></dl><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.505019,-0.086092,'<strong>London Bridge</strong><div class="pop-sub">from Harrow & Wealdstone</div><div class="pop-hero"><b>85</b> min</div><div class="pop-change">change at East Croydon</div><dl class="pop-stats"><div><dt>Direct train</dt><dd class="pop-none">none</dd></div></dl><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
 L.polyline([[51.592178,-0.334571],[51.528136,-0.133924]],{color:RR.colour(13),weight:3,opacity:0.75,}).addTo(map);
 L.polyline([[51.592178,-0.334571],[51.495257,-0.144559]],{color:RR.colour(46),weight:3,opacity:0.75,dashArray:'8,6',}).addTo(map);
 L.polyline([[51.592178,-0.334571],[51.505019,-0.086092]],{color:RR.colour(85),weight:3,opacity:0.75,dashArray:'8,6',}).addTo(map);

@@ -99,10 +99,16 @@
 
 <h2>Meopham to Victoria</h2>
 <p>The fastest train from Meopham to London Victoria takes <strong>36 minutes</strong> and involves a direct train with no change. The route is operated by Southeastern, Southern. That makes Meopham the 35th quickest of the 203 stations with a service into Victoria inside 90 minutes.</p>
+<p>That is the quickest train of the day. For a morning arrival the median journey is <strong>56 minutes</strong>, 20 minutes longer. That median covers 18 services arriving at Victoria between 07:00 and 09:30 across three sampled weekdays, roughly 2.4 an hour.</p>
+
 <h2>Meopham to St Pancras</h2>
 <p>The fastest train from Meopham to London St Pancras takes <strong>55 minutes</strong> and involves one change of train en route. The route is operated by Thameslink, East Midlands Railway, Southeastern high speed. That makes Meopham the 118th quickest of the 231 stations with a service into St Pancras inside 90 minutes.</p>
+<p>No direct train runs from Meopham to London St Pancras. The quickest route changes at Rochester.</p>
+
 <h2>Meopham to London Bridge</h2>
-<p>The fastest train from Meopham to London London Bridge takes <strong>61 minutes</strong> and involves one change of train en route. The route is operated by Southeastern, Southern, Thameslink. That makes Meopham the 147th quickest of the 234 stations with a service into London Bridge inside 90 minutes.</p>
+<p>The fastest train from Meopham to London Bridge takes <strong>61 minutes</strong> and involves one change of train en route. The route is operated by Southeastern, Southern, Thameslink. That makes Meopham the 147th quickest of the 234 stations with a service into London Bridge inside 90 minutes.</p>
+<p>No direct train runs from Meopham to London Bridge. The quickest route changes at London Blackfriars.</p>
+
 <h2>Frequently asked questions</h2>
 <h3>How long does the train from Meopham to London take?</h3>
 <p>The fastest train from Meopham reaches London Victoria in 36 minutes. Meopham connects to 3 London terminals: Victoria, St Pancras, London Bridge.</p>
@@ -128,6 +134,7 @@
 <p><a href="/?to=VIC&amp;max=45">See all of them on the map &rarr;</a></p>
 <h2>Nearby stations</h2>
 <p>Alternative departure points close to Meopham, for comparing platforms rather than places.</p>
+<p><a href="/stations/orpington/">Orpington</a> is quicker: 19 km away and 15 minutes into London Bridge, saving 21 minutes on the journey above. It is one of 25 stations within 20 km that beat Meopham.</p>
 <ul class="link-grid">
 <li><a class="card" href="/stations/sole-street/"><span class="card-title">Sole Street</span><span class="card-meta"><span class="t-badge t-mid">44 min</span> fastest to London &middot; 2 km away</span></a></li>
 <li><a class="card" href="/stations/longfield/"><span class="card-title">Longfield</span><span class="card-meta"><span class="t-badge t-mid">32 min</span> fastest to London &middot; 4 km away</span></a></li>
@@ -265,13 +272,13 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="/assets/js/stations-data.js?v=b001d929"></script>
-<script src="/assets/js/map-ui.js?v=887114e8"></script>
+<script src="/assets/js/map-ui.js?v=e4f361ec"></script>
 <script>
 const map=RR.createMap('map');
 L.circleMarker([51.386424,0.356952],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Meopham</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.495257,-0.144559,'<strong>London Victoria</strong><div class="pop-sub">from Meopham</div><div class="pop-hero"><b>36</b> min</div><dl class="pop-stats"><div class="pop-gap"><dt>Typical peak</dt><dd>56 min</dd></div><div><dt>Peak trains</dt><dd>2.4/hr</dd></div></dl><a class="popup-link" href="/terminals/victoria/">Terminal guide &rarr;</a>');
 RR.terminalMarker(map,51.532514,-0.126463,'<strong>London St Pancras</strong><div class="pop-sub">from Meopham</div><div class="pop-hero"><b>55</b> min</div><div class="pop-change">change at Rochester</div><dl class="pop-stats"><div><dt>Direct train</dt><dd class="pop-none">none</dd></div></dl><a class="popup-link" href="/terminals/st-pancras/">Terminal guide &rarr;</a>');
-RR.terminalMarker(map,51.505019,-0.086092,'<strong>London London Bridge</strong><div class="pop-sub">from Meopham</div><div class="pop-hero"><b>61</b> min</div><div class="pop-change">change at London Blackfriars</div><dl class="pop-stats"><div><dt>Direct train</dt><dd class="pop-none">none</dd></div></dl><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.505019,-0.086092,'<strong>London Bridge</strong><div class="pop-sub">from Meopham</div><div class="pop-hero"><b>61</b> min</div><div class="pop-change">change at London Blackfriars</div><dl class="pop-stats"><div><dt>Direct train</dt><dd class="pop-none">none</dd></div></dl><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
 L.polyline([[51.386424,0.356952],[51.495257,-0.144559]],{color:RR.colour(36),weight:3,opacity:0.75,}).addTo(map);
 L.polyline([[51.386424,0.356952],[51.532514,-0.126463]],{color:RR.colour(55),weight:3,opacity:0.75,dashArray:'8,6',}).addTo(map);
 L.polyline([[51.386424,0.356952],[51.505019,-0.086092]],{color:RR.colour(61),weight:3,opacity:0.75,dashArray:'8,6',}).addTo(map);

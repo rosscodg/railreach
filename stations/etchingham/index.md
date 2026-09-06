@@ -21,7 +21,7 @@ Etchingham connects to 3 London terminals. The fastest route is London Bridge in
 
 ### How long does the train from Etchingham to London take?
 
-The fastest train from Etchingham reaches London London Bridge in 65 minutes. Etchingham connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Etchingham reaches London Bridge in 65 minutes. Etchingham connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Etchingham?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 65 minutes, on a direct service. Direct trains 
 
 ### Is Etchingham a good commuter town for London?
 
-At 65 minutes to London London Bridge, Etchingham is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
+At 65 minutes to London Bridge, Etchingham is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from Etchingham to London?
 

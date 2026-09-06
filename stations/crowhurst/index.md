@@ -19,7 +19,7 @@ Crowhurst connects to 1 London terminal. The fastest route is London Bridge in 8
 
 ### How long does the train from Crowhurst to London take?
 
-The fastest train from Crowhurst reaches London London Bridge in 82 minutes. Crowhurst connects to 1 London terminal: London Bridge.
+The fastest train from Crowhurst reaches London Bridge in 82 minutes. Crowhurst connects to 1 London terminal: London Bridge.
 
 ### Which London station should I travel to from Crowhurst?
 
@@ -27,7 +27,7 @@ London Bridge is the quickest at 82 minutes, on a direct service. Direct trains 
 
 ### Is Crowhurst a good commuter town for London?
 
-At 82 minutes to London London Bridge, Crowhurst is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
+At 82 minutes to London Bridge, Crowhurst is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from Crowhurst to London?
 

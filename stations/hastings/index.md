@@ -19,7 +19,7 @@ Hastings connects to 1 London terminal. The fastest route is London Bridge in 85
 
 ### How long does the train from Hastings to London take?
 
-The fastest train from Hastings reaches London London Bridge in 85 minutes. Hastings connects to 1 London terminal: London Bridge.
+The fastest train from Hastings reaches London Bridge in 85 minutes. Hastings connects to 1 London terminal: London Bridge.
 
 ### Which London station should I travel to from Hastings?
 
@@ -27,7 +27,7 @@ London Bridge is the quickest at 85 minutes, on a direct service. Direct trains 
 
 ### Is Hastings a good commuter town for London?
 
-At 85 minutes to London London Bridge, Hastings is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
+At 85 minutes to London Bridge, Hastings is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from Hastings to London?
 

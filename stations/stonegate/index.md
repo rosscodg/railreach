@@ -21,7 +21,7 @@ Stonegate connects to 3 London terminals. The fastest route is London Bridge in 
 
 ### How long does the train from Stonegate to London take?
 
-The fastest train from Stonegate reaches London London Bridge in 60 minutes. Stonegate connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Stonegate reaches London Bridge in 60 minutes. Stonegate connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Stonegate?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 60 minutes, on a direct service. Direct trains 
 
 ### Is Stonegate a good commuter town for London?
 
-At 60 minutes to London London Bridge, Stonegate is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
+At 60 minutes to London Bridge, Stonegate is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from Stonegate to London?
 

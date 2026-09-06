@@ -99,10 +99,16 @@
 
 <h2>East Malling to Victoria</h2>
 <p>The fastest train from East Malling to London Victoria takes <strong>56 minutes</strong> and involves a direct train with no change. The route is operated by Southeastern, Southern. That makes East Malling the 99th quickest of the 203 stations with a service into Victoria inside 90 minutes.</p>
+<p>That is the quickest train of the day. For a morning arrival the median journey is <strong>65 minutes</strong>, 9 minutes longer. That median covers 15 services arriving at Victoria between 07:00 and 09:30 across three sampled weekdays, roughly 2 an hour.</p>
+
 <h2>East Malling to London Bridge</h2>
-<p>The fastest train from East Malling to London London Bridge takes <strong>79 minutes</strong> and involves one change of train en route. The route is operated by Southeastern, Southern, Thameslink. That makes East Malling the 195th quickest of the 234 stations with a service into London Bridge inside 90 minutes.</p>
+<p>The fastest train from East Malling to London Bridge takes <strong>79 minutes</strong> and involves one change of train en route. The route is operated by Southeastern, Southern, Thameslink. That makes East Malling the 195th quickest of the 234 stations with a service into London Bridge inside 90 minutes.</p>
+<p>No direct train runs from East Malling to London Bridge. The quickest route changes at London Blackfriars.</p>
+
 <h2>East Malling to St Pancras</h2>
 <p>The fastest train from East Malling to London St Pancras takes <strong>84 minutes</strong> and involves one change of train en route. The route is operated by Thameslink, East Midlands Railway, Southeastern high speed. That makes East Malling the 215th quickest of the 231 stations with a service into St Pancras inside 90 minutes.</p>
+<p>No direct train runs from East Malling to London St Pancras. The quickest route changes at London Blackfriars.</p>
+
 <h2>Frequently asked questions</h2>
 <h3>How long does the train from East Malling to London take?</h3>
 <p>The fastest train from East Malling reaches London Victoria in 56 minutes. East Malling connects to 3 London terminals: Victoria, London Bridge, St Pancras.</p>
@@ -128,6 +134,7 @@
 <p><a href="/?to=VIC&amp;max=60">See all of them on the map &rarr;</a></p>
 <h2>Nearby stations</h2>
 <p>Alternative departure points close to East Malling, for comparing platforms rather than places.</p>
+<p><a href="/stations/ebbsfleet-international/">Ebbsfleet International</a> is quicker: 19 km away and 18 minutes into London St Pancras, saving 38 minutes on the journey above. It is one of 30 stations within 20 km that beat East Malling.</p>
 <ul class="link-grid">
 <li><a class="card" href="/stations/west-malling/"><span class="card-title">West Malling</span><span class="card-meta"><span class="t-badge t-mid">53 min</span> fastest to London &middot; 2 km away</span></a></li>
 <li><a class="card" href="/stations/barming/"><span class="card-title">Barming</span><span class="card-meta"><span class="t-badge t-slow">60 min</span> fastest to London &middot; 3 km away</span></a></li>
@@ -265,12 +272,12 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="/assets/js/stations-data.js?v=b001d929"></script>
-<script src="/assets/js/map-ui.js?v=887114e8"></script>
+<script src="/assets/js/map-ui.js?v=e4f361ec"></script>
 <script>
 const map=RR.createMap('map');
 L.circleMarker([51.28581,0.43928],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>East Malling</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.495257,-0.144559,'<strong>London Victoria</strong><div class="pop-sub">from East Malling</div><div class="pop-hero"><b>56</b> min</div><dl class="pop-stats"><div><dt>Typical peak</dt><dd>65 min</dd></div><div><dt>Peak trains</dt><dd>2.0/hr</dd></div></dl><a class="popup-link" href="/terminals/victoria/">Terminal guide &rarr;</a>');
-RR.terminalMarker(map,51.505019,-0.086092,'<strong>London London Bridge</strong><div class="pop-sub">from East Malling</div><div class="pop-hero"><b>79</b> min</div><div class="pop-change">change at London Blackfriars</div><dl class="pop-stats"><div><dt>Direct train</dt><dd class="pop-none">none</dd></div></dl><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.505019,-0.086092,'<strong>London Bridge</strong><div class="pop-sub">from East Malling</div><div class="pop-hero"><b>79</b> min</div><div class="pop-change">change at London Blackfriars</div><dl class="pop-stats"><div><dt>Direct train</dt><dd class="pop-none">none</dd></div></dl><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
 RR.terminalMarker(map,51.532514,-0.126463,'<strong>London St Pancras</strong><div class="pop-sub">from East Malling</div><div class="pop-hero"><b>84</b> min</div><div class="pop-change">change at London Blackfriars</div><dl class="pop-stats"><div><dt>Direct train</dt><dd class="pop-none">none</dd></div></dl><a class="popup-link" href="/terminals/st-pancras/">Terminal guide &rarr;</a>');
 L.polyline([[51.28581,0.43928],[51.495257,-0.144559]],{color:RR.colour(56),weight:3,opacity:0.75,}).addTo(map);
 L.polyline([[51.28581,0.43928],[51.505019,-0.086092]],{color:RR.colour(79),weight:3,opacity:0.75,dashArray:'8,6',}).addTo(map);

@@ -4,7 +4,7 @@ Angmering has no direct train to a London terminal. Reaching London requires a
 change, and no journey time is published because none has been measured.
 
 - Direct service to London: none found in the timetable
-- Connects towards: Victoria
+- Connects towards: London Victoria
 - Operator: Southeastern, Southern
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17

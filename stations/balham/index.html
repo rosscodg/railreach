@@ -101,14 +101,24 @@
 
 <h2>Balham to Victoria</h2>
 <p>The fastest train from Balham to London Victoria takes <strong>12 minutes</strong> and involves a direct train with no change. The route is operated by Southeastern, Southern. That makes Balham the 4th quickest of the 203 stations with a service into Victoria inside 90 minutes.</p>
+<p>That is the quickest train of the day. For a morning arrival the median journey is <strong>14 minutes</strong>, 2 minutes longer. That median covers 81 services arriving at Victoria between 07:00 and 09:30 across three sampled weekdays, roughly 10.8 an hour.</p>
+
 <h2>Balham to London Bridge</h2>
-<p>The fastest train from Balham to London London Bridge takes <strong>39 minutes</strong> and involves a direct train with no change. The route is operated by Southeastern, Southern, Thameslink. That makes Balham the 63rd quickest of the 234 stations with a service into London Bridge inside 90 minutes.</p>
+<p>The fastest train from Balham to London Bridge takes <strong>39 minutes</strong> and involves a direct train with no change. The route is operated by Southeastern, Southern, Thameslink. That makes Balham the 63rd quickest of the 234 stations with a service into London Bridge inside 90 minutes.</p>
+<p>That is the quickest train of the day. For a morning arrival the median journey is <strong>44 minutes</strong>, 5 minutes longer. That median covers 12 services arriving at London Bridge between 07:00 and 09:30 across three sampled weekdays, roughly 1.6 an hour.</p>
+
 <h2>Balham to St Pancras</h2>
 <p>The fastest train from Balham to London St Pancras takes <strong>59 minutes</strong> and involves one change of train en route. The route is operated by Thameslink, East Midlands Railway, Southeastern high speed. That makes Balham the 132nd quickest of the 231 stations with a service into St Pancras inside 90 minutes.</p>
+<p>No direct train runs from Balham to London St Pancras. The quickest route changes at East Croydon.</p>
+
 <h2>Balham to Euston</h2>
 <p>The fastest train from Balham to London Euston takes <strong>64 minutes</strong> and involves one change of train en route. The route is operated by Avanti West Coast, London Northwestern. That makes Balham the 22nd quickest of the 32 stations with a service into Euston inside 90 minutes.</p>
+<p>No direct train runs from Balham to London Euston. The quickest route changes at Harrow &amp; Wealdstone.</p>
+
 <h2>Balham to Waterloo</h2>
 <p>The fastest train from Balham to London Waterloo takes <strong>82 minutes</strong> and involves one change of train en route. The route is operated by South Western Railway. That makes Balham the 119th quickest of the 126 stations with a service into Waterloo inside 90 minutes.</p>
+<p>No direct train runs from Balham to London Waterloo. The quickest route changes at Epsom.</p>
+
 <h2>Frequently asked questions</h2>
 <h3>How long does the train from Balham to London take?</h3>
 <p>The fastest train from Balham reaches London Victoria in 12 minutes. Balham connects to 5 London terminals: Victoria, London Bridge, St Pancras, Euston, Waterloo.</p>
@@ -130,6 +140,7 @@
 <p><a href="/?to=VIC&amp;max=30">See all of them on the map &rarr;</a></p>
 <h2>Nearby stations</h2>
 <p>Alternative departure points close to Balham, for comparing platforms rather than places.</p>
+<p><a href="/stations/battersea-park/">Battersea Park</a> is quicker: 4 km away and 4 minutes into London Victoria, saving 8 minutes on the journey above. It is one of 17 stations within 20 km that beat Balham.</p>
 <ul class="link-grid">
 <li><a class="card" href="/stations/wandsworth-common/"><span class="card-title">Wandsworth Common</span><span class="card-meta"><span class="t-badge t-fast">12 min</span> fastest to London &middot; 1 km away</span></a></li>
 <li><a class="card" href="/stations/earlsfield/"><span class="card-title">Earlsfield</span><span class="card-meta"><span class="t-badge t-fast">13 min</span> fastest to London &middot; 2 km away</span></a></li>
@@ -267,12 +278,12 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="/assets/js/stations-data.js?v=b001d929"></script>
-<script src="/assets/js/map-ui.js?v=887114e8"></script>
+<script src="/assets/js/map-ui.js?v=e4f361ec"></script>
 <script>
 const map=RR.createMap('map');
 L.circleMarker([51.443225,-0.152424],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Balham</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.495257,-0.144559,'<strong>London Victoria</strong><div class="pop-sub">from Balham</div><div class="pop-hero"><b>12</b> min</div><dl class="pop-stats"><div><dt>Typical peak</dt><dd>14 min</dd></div><div><dt>Peak trains</dt><dd>10.8/hr</dd></div></dl><a class="popup-link" href="/terminals/victoria/">Terminal guide &rarr;</a>');
-RR.terminalMarker(map,51.505019,-0.086092,'<strong>London London Bridge</strong><div class="pop-sub">from Balham</div><div class="pop-hero"><b>39</b> min</div><dl class="pop-stats"><div><dt>Typical peak</dt><dd>44 min</dd></div><div><dt>Peak trains</dt><dd>1.6/hr</dd></div></dl><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.505019,-0.086092,'<strong>London Bridge</strong><div class="pop-sub">from Balham</div><div class="pop-hero"><b>39</b> min</div><dl class="pop-stats"><div><dt>Typical peak</dt><dd>44 min</dd></div><div><dt>Peak trains</dt><dd>1.6/hr</dd></div></dl><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
 RR.terminalMarker(map,51.532514,-0.126463,'<strong>London St Pancras</strong><div class="pop-sub">from Balham</div><div class="pop-hero"><b>59</b> min</div><div class="pop-change">change at East Croydon</div><dl class="pop-stats"><div><dt>Direct train</dt><dd class="pop-none">none</dd></div></dl><a class="popup-link" href="/terminals/st-pancras/">Terminal guide &rarr;</a>');
 RR.terminalMarker(map,51.528136,-0.133924,'<strong>London Euston</strong><div class="pop-sub">from Balham</div><div class="pop-hero"><b>64</b> min</div><div class="pop-change">change at Harrow & Wealdstone</div><dl class="pop-stats"><div><dt>Direct train</dt><dd class="pop-none">none</dd></div></dl><a class="popup-link" href="/terminals/euston/">Terminal guide &rarr;</a>');
 RR.terminalMarker(map,51.503299,-0.113109,'<strong>London Waterloo</strong><div class="pop-sub">from Balham</div><div class="pop-hero"><b>82</b> min</div><div class="pop-change">change at Epsom</div><dl class="pop-stats"><div><dt>Direct train</dt><dd class="pop-none">none</dd></div></dl><a class="popup-link" href="/terminals/waterloo/">Terminal guide &rarr;</a>');

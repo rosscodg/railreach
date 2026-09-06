@@ -21,7 +21,7 @@ East Grinstead connects to 3 London terminals. The fastest route is London Bridg
 
 ### How long does the train from East Grinstead to London take?
 
-The fastest train from East Grinstead reaches London London Bridge in 51 minutes. East Grinstead connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from East Grinstead reaches London Bridge in 51 minutes. East Grinstead connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from East Grinstead?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 51 minutes, on a direct service. Direct trains 
 
 ### Is East Grinstead a good commuter town for London?
 
-At 51 minutes to London London Bridge, East Grinstead is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 51 minutes to London Bridge, East Grinstead is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from East Grinstead to London?
 

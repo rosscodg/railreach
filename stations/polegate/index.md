@@ -20,7 +20,7 @@ Polegate connects to 2 London terminals. The fastest route is London Bridge in 8
 
 ### How long does the train from Polegate to London take?
 
-The fastest train from Polegate reaches London London Bridge in 83 minutes. Polegate connects to 2 London terminals: London Bridge, Victoria.
+The fastest train from Polegate reaches London Bridge in 83 minutes. Polegate connects to 2 London terminals: London Bridge, Victoria.
 
 ### Which London station should I travel to from Polegate?
 
@@ -28,7 +28,7 @@ London Bridge is the quickest at 83 minutes, though it requires a change. Direct
 
 ### Is Polegate a good commuter town for London?
 
-At 83 minutes to London London Bridge, Polegate is a longer commute, typically traded off against more space and lower housing costs. Most services require one change.
+At 83 minutes to London Bridge, Polegate is a longer commute, typically traded off against more space and lower housing costs. Most services require one change.
 
 ### Are there direct trains from Polegate to London?
 

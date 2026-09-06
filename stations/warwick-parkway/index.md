@@ -4,7 +4,7 @@ Warwick Parkway has no direct train to a London terminal. Reaching London requir
 change, and no journey time is published because none has been measured.
 
 - Direct service to London: none found in the timetable
-- Connects towards: Marylebone
+- Connects towards: London Marylebone
 - Operator: Chiltern Railways
 - Source: Darwin Timetable Files (Rail Delivery Group), Open Government Licence v3.0
 - Data reviewed: 2026-08-17

@@ -1,6 +1,6 @@
-# Train journey times to London London Bridge
+# Train journey times to London Bridge
 
-234 stations reach London London Bridge within 90 minutes, 138 of them on a
+234 stations reach London Bridge within 90 minutes, 138 of them on a
 direct train. Services are operated by Southeastern, Southern, Thameslink.
 
 - Stations within 90 minutes: 234
@@ -252,7 +252,7 @@ direct train. Services are operated by Southeastern, Southern, Thameslink.
 
 ## Frequently asked questions
 
-### What is the fastest train to London London Bridge?
+### What is the fastest train to London Bridge?
 
 The fastest connection is from New Cross, at 5 minutes on a direct service. Services into London Bridge are operated by Southeastern, Southern, Thameslink.
 
@@ -262,11 +262,11 @@ The fastest connection is from New Cross, at 5 minutes on a direct service. Serv
 
 ### How many stations connect to London Bridge?
 
-234 stations have a service to London London Bridge within 90 minutes, and 138 of those are direct trains with no change required.
+234 stations have a service to London Bridge within 90 minutes, and 138 of those are direct trains with no change required.
 
 ### What areas does London Bridge serve?
 
-London London Bridge primarily serves South East London, Kent and Surrey. Key commuter destinations on this network include New Cross, Lewisham, Hither Green, Peckham Rye, East Croydon.
+London Bridge primarily serves South East London, Kent and Surrey. Key commuter destinations on this network include New Cross, Lewisham, Hither Green, Peckham Rye, East Croydon.
 
 ### Is London Bridge a good terminal to commute into?
 

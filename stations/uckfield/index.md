@@ -20,7 +20,7 @@ Uckfield connects to 2 London terminals. The fastest route is London Bridge in 8
 
 ### How long does the train from Uckfield to London take?
 
-The fastest train from Uckfield reaches London London Bridge in 80 minutes. Uckfield connects to 2 London terminals: London Bridge, Victoria.
+The fastest train from Uckfield reaches London Bridge in 80 minutes. Uckfield connects to 2 London terminals: London Bridge, Victoria.
 
 ### Which London station should I travel to from Uckfield?
 
@@ -28,7 +28,7 @@ London Bridge is the quickest at 80 minutes, on a direct service. Direct trains 
 
 ### Is Uckfield a good commuter town for London?
 
-At 80 minutes to London London Bridge, Uckfield is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
+At 80 minutes to London Bridge, Uckfield is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from Uckfield to London?
 

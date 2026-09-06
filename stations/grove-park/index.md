@@ -21,7 +21,7 @@ Grove Park connects to 3 London terminals. The fastest route is London Bridge in
 
 ### How long does the train from Grove Park to London take?
 
-The fastest train from Grove Park reaches London London Bridge in 13 minutes. Grove Park connects to 3 London terminals: London Bridge, St Pancras, Victoria.
+The fastest train from Grove Park reaches London Bridge in 13 minutes. Grove Park connects to 3 London terminals: London Bridge, St Pancras, Victoria.
 
 ### Which London station should I travel to from Grove Park?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 13 minutes, on a direct service. Direct trains 
 
 ### Is Grove Park a good commuter town for London?
 
-At 13 minutes to London London Bridge, Grove Park is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 13 minutes to London Bridge, Grove Park is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Grove Park to London?
 

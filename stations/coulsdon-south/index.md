@@ -23,7 +23,7 @@ Coulsdon South connects to 5 London terminals. The fastest route is London Bridg
 
 ### How long does the train from Coulsdon South to London take?
 
-The fastest train from Coulsdon South reaches London London Bridge in 21 minutes. Coulsdon South connects to 5 London terminals: London Bridge, Victoria, St Pancras, Kings Cross, Moorgate.
+The fastest train from Coulsdon South reaches London Bridge in 21 minutes. Coulsdon South connects to 5 London terminals: London Bridge, Victoria, St Pancras, Kings Cross, Moorgate.
 
 ### Which London station should I travel to from Coulsdon South?
 
@@ -31,7 +31,7 @@ London Bridge is the quickest at 21 minutes, on a direct service. Direct trains 
 
 ### Is Coulsdon South a good commuter town for London?
 
-At 21 minutes to London London Bridge, Coulsdon South is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 21 minutes to London Bridge, Coulsdon South is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Coulsdon South to London?
 

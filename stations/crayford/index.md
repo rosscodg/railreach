@@ -21,7 +21,7 @@ Crayford connects to 3 London terminals. The fastest route is London Bridge in 3
 
 ### How long does the train from Crayford to London take?
 
-The fastest train from Crayford reaches London London Bridge in 33 minutes. Crayford connects to 3 London terminals: London Bridge, St Pancras, Victoria.
+The fastest train from Crayford reaches London Bridge in 33 minutes. Crayford connects to 3 London terminals: London Bridge, St Pancras, Victoria.
 
 ### Which London station should I travel to from Crayford?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 33 minutes, on a direct service. Direct trains 
 
 ### Is Crayford a good commuter town for London?
 
-At 33 minutes to London London Bridge, Crayford is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 33 minutes to London Bridge, Crayford is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Crayford to London?
 

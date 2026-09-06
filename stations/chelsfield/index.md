@@ -21,7 +21,7 @@ Chelsfield connects to 3 London terminals. The fastest route is London Bridge in
 
 ### How long does the train from Chelsfield to London take?
 
-The fastest train from Chelsfield reaches London London Bridge in 17 minutes. Chelsfield connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Chelsfield reaches London Bridge in 17 minutes. Chelsfield connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Chelsfield?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 17 minutes, on a direct service. Direct trains 
 
 ### Is Chelsfield a good commuter town for London?
 
-At 17 minutes to London London Bridge, Chelsfield is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 17 minutes to London Bridge, Chelsfield is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Chelsfield to London?
 

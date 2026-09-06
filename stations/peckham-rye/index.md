@@ -23,7 +23,7 @@ Peckham Rye connects to 5 London terminals. The fastest route is London Bridge i
 
 ### How long does the train from Peckham Rye to London take?
 
-The fastest train from Peckham Rye reaches London London Bridge in 9 minutes. Peckham Rye connects to 5 London terminals: London Bridge, Victoria, St Pancras, Moorgate, Kings Cross.
+The fastest train from Peckham Rye reaches London Bridge in 9 minutes. Peckham Rye connects to 5 London terminals: London Bridge, Victoria, St Pancras, Moorgate, Kings Cross.
 
 ### Which London station should I travel to from Peckham Rye?
 
@@ -31,7 +31,7 @@ London Bridge is the quickest at 9 minutes, on a direct service. Direct trains r
 
 ### Is Peckham Rye a good commuter town for London?
 
-At 9 minutes to London London Bridge, Peckham Rye is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 9 minutes to London Bridge, Peckham Rye is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Peckham Rye to London?
 

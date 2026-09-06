@@ -21,7 +21,7 @@ Frant connects to 3 London terminals. The fastest route is London Bridge in 49 m
 
 ### How long does the train from Frant to London take?
 
-The fastest train from Frant reaches London London Bridge in 49 minutes. Frant connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Frant reaches London Bridge in 49 minutes. Frant connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Frant?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 49 minutes, on a direct service. Direct trains 
 
 ### Is Frant a good commuter town for London?
 
-At 49 minutes to London London Bridge, Frant is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 49 minutes to London Bridge, Frant is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Frant to London?
 

@@ -21,7 +21,7 @@ Marden connects to 3 London terminals. The fastest route is London Bridge in 48 
 
 ### How long does the train from Marden to London take?
 
-The fastest train from Marden reaches London London Bridge in 48 minutes. Marden connects to 3 London terminals: London Bridge, St Pancras, Victoria.
+The fastest train from Marden reaches London Bridge in 48 minutes. Marden connects to 3 London terminals: London Bridge, St Pancras, Victoria.
 
 ### Which London station should I travel to from Marden?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 48 minutes, on a direct service. Direct trains 
 
 ### Is Marden a good commuter town for London?
 
-At 48 minutes to London London Bridge, Marden is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 48 minutes to London Bridge, Marden is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Marden to London?
 

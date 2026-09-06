@@ -21,7 +21,7 @@ Blackheath connects to 3 London terminals. The fastest route is London Bridge in
 
 ### How long does the train from Blackheath to London take?
 
-The fastest train from Blackheath reaches London London Bridge in 14 minutes. Blackheath connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Blackheath reaches London Bridge in 14 minutes. Blackheath connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Blackheath?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 14 minutes, on a direct service. Direct trains 
 
 ### Is Blackheath a good commuter town for London?
 
-At 14 minutes to London London Bridge, Blackheath is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 14 minutes to London Bridge, Blackheath is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Blackheath to London?
 

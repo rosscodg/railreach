@@ -20,7 +20,7 @@ Crowborough connects to 2 London terminals. The fastest route is London Bridge i
 
 ### How long does the train from Crowborough to London take?
 
-The fastest train from Crowborough reaches London London Bridge in 69 minutes. Crowborough connects to 2 London terminals: London Bridge, Victoria.
+The fastest train from Crowborough reaches London Bridge in 69 minutes. Crowborough connects to 2 London terminals: London Bridge, Victoria.
 
 ### Which London station should I travel to from Crowborough?
 
@@ -28,7 +28,7 @@ London Bridge is the quickest at 69 minutes, on a direct service. Direct trains 
 
 ### Is Crowborough a good commuter town for London?
 
-At 69 minutes to London London Bridge, Crowborough is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
+At 69 minutes to London Bridge, Crowborough is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from Crowborough to London?
 

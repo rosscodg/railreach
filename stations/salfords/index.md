@@ -23,7 +23,7 @@ Salfords connects to 5 London terminals. The fastest route is London Bridge in 3
 
 ### How long does the train from Salfords to London take?
 
-The fastest train from Salfords reaches London London Bridge in 35 minutes. Salfords connects to 5 London terminals: London Bridge, Victoria, St Pancras, Kings Cross, Moorgate.
+The fastest train from Salfords reaches London Bridge in 35 minutes. Salfords connects to 5 London terminals: London Bridge, Victoria, St Pancras, Kings Cross, Moorgate.
 
 ### Which London station should I travel to from Salfords?
 
@@ -31,7 +31,7 @@ London Bridge is the quickest at 35 minutes, on a direct service. Direct trains 
 
 ### Is Salfords a good commuter town for London?
 
-At 35 minutes to London London Bridge, Salfords is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 35 minutes to London Bridge, Salfords is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Salfords to London?
 

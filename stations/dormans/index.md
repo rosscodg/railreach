@@ -21,7 +21,7 @@ Dormans connects to 3 London terminals. The fastest route is London Bridge in 47
 
 ### How long does the train from Dormans to London take?
 
-The fastest train from Dormans reaches London London Bridge in 47 minutes. Dormans connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Dormans reaches London Bridge in 47 minutes. Dormans connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Dormans?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 47 minutes, on a direct service. Direct trains 
 
 ### Is Dormans a good commuter town for London?
 
-At 47 minutes to London London Bridge, Dormans is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 47 minutes to London Bridge, Dormans is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Dormans to London?
 

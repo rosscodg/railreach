@@ -21,7 +21,7 @@ Epsom Downs connects to 3 London terminals. The fastest route is London Bridge i
 
 ### How long does the train from Epsom Downs to London take?
 
-The fastest train from Epsom Downs reaches London London Bridge in 50 minutes. Epsom Downs connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Epsom Downs reaches London Bridge in 50 minutes. Epsom Downs connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Epsom Downs?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 50 minutes, though it requires a change. Direct
 
 ### Is Epsom Downs a good commuter town for London?
 
-At 50 minutes to London London Bridge, Epsom Downs is a practical commuter choice, with the fastest journey under an hour. Most services require one change.
+At 50 minutes to London Bridge, Epsom Downs is a practical commuter choice, with the fastest journey under an hour. Most services require one change.
 
 ### Are there direct trains from Epsom Downs to London?
 

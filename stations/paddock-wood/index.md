@@ -21,7 +21,7 @@ Paddock Wood connects to 3 London terminals. The fastest route is London Bridge 
 
 ### How long does the train from Paddock Wood to London take?
 
-The fastest train from Paddock Wood reaches London London Bridge in 42 minutes. Paddock Wood connects to 3 London terminals: London Bridge, St Pancras, Victoria.
+The fastest train from Paddock Wood reaches London Bridge in 42 minutes. Paddock Wood connects to 3 London terminals: London Bridge, St Pancras, Victoria.
 
 ### Which London station should I travel to from Paddock Wood?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 42 minutes, on a direct service. Direct trains 
 
 ### Is Paddock Wood a good commuter town for London?
 
-At 42 minutes to London London Bridge, Paddock Wood is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 42 minutes to London Bridge, Paddock Wood is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Paddock Wood to London?
 

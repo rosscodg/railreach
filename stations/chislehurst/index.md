@@ -21,7 +21,7 @@ Chislehurst connects to 3 London terminals. The fastest route is London Bridge i
 
 ### How long does the train from Chislehurst to London take?
 
-The fastest train from Chislehurst reaches London London Bridge in 20 minutes. Chislehurst connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Chislehurst reaches London Bridge in 20 minutes. Chislehurst connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Chislehurst?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 20 minutes, on a direct service. Direct trains 
 
 ### Is Chislehurst a good commuter town for London?
 
-At 20 minutes to London London Bridge, Chislehurst is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 20 minutes to London Bridge, Chislehurst is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Chislehurst to London?
 

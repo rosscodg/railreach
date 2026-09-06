@@ -20,7 +20,7 @@ Buxted connects to 2 London terminals. The fastest route is London Bridge in 76 
 
 ### How long does the train from Buxted to London take?
 
-The fastest train from Buxted reaches London London Bridge in 76 minutes. Buxted connects to 2 London terminals: London Bridge, Victoria.
+The fastest train from Buxted reaches London Bridge in 76 minutes. Buxted connects to 2 London terminals: London Bridge, Victoria.
 
 ### Which London station should I travel to from Buxted?
 
@@ -28,7 +28,7 @@ London Bridge is the quickest at 76 minutes, on a direct service. Direct trains 
 
 ### Is Buxted a good commuter town for London?
 
-At 76 minutes to London London Bridge, Buxted is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
+At 76 minutes to London Bridge, Buxted is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from Buxted to London?
 

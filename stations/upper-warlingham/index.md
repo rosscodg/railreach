@@ -21,7 +21,7 @@ Upper Warlingham connects to 3 London terminals. The fastest route is London Bri
 
 ### How long does the train from Upper Warlingham to London take?
 
-The fastest train from Upper Warlingham reaches London London Bridge in 29 minutes. Upper Warlingham connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Upper Warlingham reaches London Bridge in 29 minutes. Upper Warlingham connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Upper Warlingham?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 29 minutes, on a direct service. Direct trains 
 
 ### Is Upper Warlingham a good commuter town for London?
 
-At 29 minutes to London London Bridge, Upper Warlingham is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 29 minutes to London Bridge, Upper Warlingham is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Upper Warlingham to London?
 

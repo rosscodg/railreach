@@ -21,7 +21,7 @@ Wadhurst connects to 3 London terminals. The fastest route is London Bridge in 5
 
 ### How long does the train from Wadhurst to London take?
 
-The fastest train from Wadhurst reaches London London Bridge in 53 minutes. Wadhurst connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Wadhurst reaches London Bridge in 53 minutes. Wadhurst connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Wadhurst?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 53 minutes, on a direct service. Direct trains 
 
 ### Is Wadhurst a good commuter town for London?
 
-At 53 minutes to London London Bridge, Wadhurst is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 53 minutes to London Bridge, Wadhurst is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Wadhurst to London?
 

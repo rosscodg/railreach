@@ -21,7 +21,7 @@ Kenley connects to 3 London terminals. The fastest route is London Bridge in 38 
 
 ### How long does the train from Kenley to London take?
 
-The fastest train from Kenley reaches London London Bridge in 38 minutes. Kenley connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Kenley reaches London Bridge in 38 minutes. Kenley connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Kenley?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 38 minutes, on a direct service. Direct trains 
 
 ### Is Kenley a good commuter town for London?
 
-At 38 minutes to London London Bridge, Kenley is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 38 minutes to London Bridge, Kenley is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Kenley to London?
 

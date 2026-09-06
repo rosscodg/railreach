@@ -99,10 +99,16 @@
 
 <h2>Dorking to Waterloo</h2>
 <p>The fastest train from Dorking to London Waterloo takes <strong>53 minutes</strong> and involves a direct train with no change. The route is operated by South Western Railway. That makes Dorking the 77th quickest of the 126 stations with a service into Waterloo inside 90 minutes.</p>
+<p>That is the quickest train of the day. For a morning arrival the median journey is <strong>57 minutes</strong>, 4 minutes longer. That median covers 15 services arriving at Waterloo between 07:00 and 09:30 across three sampled weekdays, roughly 2 an hour.</p>
+
 <h2>Dorking to Victoria</h2>
 <p>The fastest train from Dorking to London Victoria takes <strong>57 minutes</strong> and involves a direct train with no change. The route is operated by Southeastern, Southern. That makes Dorking the 105th quickest of the 203 stations with a service into Victoria inside 90 minutes.</p>
+<p>That is the quickest train of the day. For a morning arrival the median journey is <strong>64 minutes</strong>, 7 minutes longer. That median covers 15 services arriving at Victoria between 07:00 and 09:30 across three sampled weekdays, roughly 2 an hour.</p>
+
 <h2>Dorking to London Bridge</h2>
-<p>The fastest train from Dorking to London London Bridge takes <strong>67 minutes</strong> and involves one change of train en route. The route is operated by Southeastern, Southern, Thameslink. That makes Dorking the 168th quickest of the 234 stations with a service into London Bridge inside 90 minutes.</p>
+<p>The fastest train from Dorking to London Bridge takes <strong>67 minutes</strong> and involves one change of train en route. The route is operated by Southeastern, Southern, Thameslink. That makes Dorking the 168th quickest of the 234 stations with a service into London Bridge inside 90 minutes.</p>
+<p>No direct train runs from Dorking to London Bridge. The quickest route changes at Epsom.</p>
+
 <h2>Frequently asked questions</h2>
 <h3>How long does the train from Dorking to London take?</h3>
 <p>The fastest train from Dorking reaches London Waterloo in 53 minutes. Dorking connects to 3 London terminals: Waterloo, Victoria, London Bridge.</p>
@@ -128,6 +134,7 @@
 <p><a href="/?to=WAT&amp;max=60">See all of them on the map &rarr;</a></p>
 <h2>Nearby stations</h2>
 <p>Alternative departure points close to Dorking, for comparing platforms rather than places.</p>
+<p><a href="/stations/surbiton/">Surbiton</a> is quicker: 17 km away and 15 minutes into London Waterloo, saving 38 minutes on the journey above. It is one of 59 stations within 20 km that beat Dorking.</p>
 <ul class="link-grid">
 <li><a class="card" href="/stations/box-hill-and-westhumble/"><span class="card-title">Box Hill &amp; Westhumble</span><span class="card-meta"><span class="t-badge t-mid">50 min</span> fastest to London &middot; 1 km away</span></a></li>
 <li><a class="card" href="/stations/leatherhead/"><span class="card-title">Leatherhead</span><span class="card-meta"><span class="t-badge t-mid">45 min</span> fastest to London &middot; 6 km away</span></a></li>
@@ -265,13 +272,13 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="/assets/js/stations-data.js?v=b001d929"></script>
-<script src="/assets/js/map-ui.js?v=887114e8"></script>
+<script src="/assets/js/map-ui.js?v=e4f361ec"></script>
 <script>
 const map=RR.createMap('map');
 L.circleMarker([51.24093,-0.324251],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Dorking</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.503299,-0.113109,'<strong>London Waterloo</strong><div class="pop-sub">from Dorking</div><div class="pop-hero"><b>53</b> min</div><dl class="pop-stats"><div><dt>Typical peak</dt><dd>57 min</dd></div><div><dt>Peak trains</dt><dd>2.0/hr</dd></div></dl><a class="popup-link" href="/terminals/waterloo/">Terminal guide &rarr;</a>');
 RR.terminalMarker(map,51.495257,-0.144559,'<strong>London Victoria</strong><div class="pop-sub">from Dorking</div><div class="pop-hero"><b>57</b> min</div><dl class="pop-stats"><div><dt>Typical peak</dt><dd>64 min</dd></div><div><dt>Peak trains</dt><dd>2.0/hr</dd></div></dl><a class="popup-link" href="/terminals/victoria/">Terminal guide &rarr;</a>');
-RR.terminalMarker(map,51.505019,-0.086092,'<strong>London London Bridge</strong><div class="pop-sub">from Dorking</div><div class="pop-hero"><b>67</b> min</div><div class="pop-change">change at Epsom</div><dl class="pop-stats"><div><dt>Direct train</dt><dd class="pop-none">none</dd></div></dl><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.505019,-0.086092,'<strong>London Bridge</strong><div class="pop-sub">from Dorking</div><div class="pop-hero"><b>67</b> min</div><div class="pop-change">change at Epsom</div><dl class="pop-stats"><div><dt>Direct train</dt><dd class="pop-none">none</dd></div></dl><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
 L.polyline([[51.24093,-0.324251],[51.503299,-0.113109]],{color:RR.colour(53),weight:3,opacity:0.75,}).addTo(map);
 L.polyline([[51.24093,-0.324251],[51.495257,-0.144559]],{color:RR.colour(57),weight:3,opacity:0.75,}).addTo(map);
 L.polyline([[51.24093,-0.324251],[51.505019,-0.086092]],{color:RR.colour(67),weight:3,opacity:0.75,dashArray:'8,6',}).addTo(map);

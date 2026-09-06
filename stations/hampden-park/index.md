@@ -20,7 +20,7 @@ Hampden Park connects to 2 London terminals. The fastest route is London Bridge 
 
 ### How long does the train from Hampden Park to London take?
 
-The fastest train from Hampden Park reaches London London Bridge in 88 minutes. Hampden Park connects to 2 London terminals: London Bridge, Victoria.
+The fastest train from Hampden Park reaches London Bridge in 88 minutes. Hampden Park connects to 2 London terminals: London Bridge, Victoria.
 
 ### Which London station should I travel to from Hampden Park?
 
@@ -28,7 +28,7 @@ London Bridge is the quickest at 88 minutes, though it requires a change. Direct
 
 ### Is Hampden Park a good commuter town for London?
 
-At 88 minutes to London London Bridge, Hampden Park is a longer commute, typically traded off against more space and lower housing costs. Most services require one change.
+At 88 minutes to London Bridge, Hampden Park is a longer commute, typically traded off against more space and lower housing costs. Most services require one change.
 
 ### Are there direct trains from Hampden Park to London?
 

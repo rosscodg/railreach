@@ -21,7 +21,7 @@ Headcorn connects to 3 London terminals. The fastest route is London Bridge in 5
 
 ### How long does the train from Headcorn to London take?
 
-The fastest train from Headcorn reaches London London Bridge in 58 minutes. Headcorn connects to 3 London terminals: London Bridge, St Pancras, Victoria.
+The fastest train from Headcorn reaches London Bridge in 58 minutes. Headcorn connects to 3 London terminals: London Bridge, St Pancras, Victoria.
 
 ### Which London station should I travel to from Headcorn?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 58 minutes, on a direct service. Direct trains 
 
 ### Is Headcorn a good commuter town for London?
 
-At 58 minutes to London London Bridge, Headcorn is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 58 minutes to London Bridge, Headcorn is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Headcorn to London?
 

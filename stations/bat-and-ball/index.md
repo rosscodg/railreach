@@ -21,7 +21,7 @@ Bat & Ball connects to 3 London terminals. The fastest route is London Bridge in
 
 ### How long does the train from Bat & Ball to London take?
 
-The fastest train from Bat & Ball reaches London London Bridge in 41 minutes. Bat & Ball connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Bat & Ball reaches London Bridge in 41 minutes. Bat & Ball connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Bat & Ball?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 41 minutes, though it requires a change. Direct
 
 ### Is Bat & Ball a good commuter town for London?
 
-At 41 minutes to London London Bridge, Bat & Ball is a practical commuter choice, with the fastest journey under an hour. Most services require one change.
+At 41 minutes to London Bridge, Bat & Ball is a practical commuter choice, with the fastest journey under an hour. Most services require one change.
 
 ### Are there direct trains from Bat & Ball to London?
 

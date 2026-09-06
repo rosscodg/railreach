@@ -21,7 +21,7 @@ Kidbrooke connects to 3 London terminals. The fastest route is London Bridge in 
 
 ### How long does the train from Kidbrooke to London take?
 
-The fastest train from Kidbrooke reaches London London Bridge in 18 minutes. Kidbrooke connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Kidbrooke reaches London Bridge in 18 minutes. Kidbrooke connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Kidbrooke?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 18 minutes, on a direct service. Direct trains 
 
 ### Is Kidbrooke a good commuter town for London?
 
-At 18 minutes to London London Bridge, Kidbrooke is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 18 minutes to London Bridge, Kidbrooke is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Kidbrooke to London?
 

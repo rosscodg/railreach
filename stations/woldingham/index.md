@@ -21,7 +21,7 @@ Woldingham connects to 3 London terminals. The fastest route is London Bridge in
 
 ### How long does the train from Woldingham to London take?
 
-The fastest train from Woldingham reaches London London Bridge in 32 minutes. Woldingham connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Woldingham reaches London Bridge in 32 minutes. Woldingham connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Woldingham?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 32 minutes, on a direct service. Direct trains 
 
 ### Is Woldingham a good commuter town for London?
 
-At 32 minutes to London London Bridge, Woldingham is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 32 minutes to London Bridge, Woldingham is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Woldingham to London?
 

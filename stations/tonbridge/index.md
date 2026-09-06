@@ -21,7 +21,7 @@ Tonbridge connects to 3 London terminals. The fastest route is London Bridge in 
 
 ### How long does the train from Tonbridge to London take?
 
-The fastest train from Tonbridge reaches London London Bridge in 33 minutes. Tonbridge connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Tonbridge reaches London Bridge in 33 minutes. Tonbridge connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Tonbridge?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 33 minutes, on a direct service. Direct trains 
 
 ### Is Tonbridge a good commuter town for London?
 
-At 33 minutes to London London Bridge, Tonbridge is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 33 minutes to London Bridge, Tonbridge is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Tonbridge to London?
 

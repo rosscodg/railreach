@@ -23,7 +23,7 @@ Balcombe connects to 5 London terminals. The fastest route is London Bridge in 4
 
 ### How long does the train from Balcombe to London take?
 
-The fastest train from Balcombe reaches London London Bridge in 40 minutes. Balcombe connects to 5 London terminals: London Bridge, Victoria, St Pancras, Kings Cross, Moorgate.
+The fastest train from Balcombe reaches London Bridge in 40 minutes. Balcombe connects to 5 London terminals: London Bridge, Victoria, St Pancras, Kings Cross, Moorgate.
 
 ### Which London station should I travel to from Balcombe?
 
@@ -31,7 +31,7 @@ London Bridge is the quickest at 40 minutes, on a direct service. Direct trains 
 
 ### Is Balcombe a good commuter town for London?
 
-At 40 minutes to London London Bridge, Balcombe is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 40 minutes to London Bridge, Balcombe is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Balcombe to London?
 

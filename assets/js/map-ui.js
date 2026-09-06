@@ -7,6 +7,12 @@
  * can be served a stale copy of this file against fresh HTML.
  */
 window.RR = (function () {
+  // "London Waterloo", but "London Bridge" - not "London London Bridge".
+  // Mirrors london() in _build/generate-pages.py; popups name terminals too.
+  function london(name) {
+    return name.indexOf('London') === 0 ? esc(name) : 'London ' + esc(name);
+  }
+
   'use strict';
 
   /* Journey-time palette.
@@ -473,6 +479,7 @@ window.RR = (function () {
     colour: colour,
     bandLabel: bandLabel,
     esc: esc,
+    london: london,
     isTouch: isTouch,
     stationRadius: stationRadius,
     createMap: createMap,

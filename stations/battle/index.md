@@ -20,7 +20,7 @@ Battle connects to 2 London terminals. The fastest route is London Bridge in 71 
 
 ### How long does the train from Battle to London take?
 
-The fastest train from Battle reaches London London Bridge in 71 minutes. Battle connects to 2 London terminals: London Bridge, Victoria.
+The fastest train from Battle reaches London Bridge in 71 minutes. Battle connects to 2 London terminals: London Bridge, Victoria.
 
 ### Which London station should I travel to from Battle?
 
@@ -28,7 +28,7 @@ London Bridge is the quickest at 71 minutes, on a direct service. Direct trains 
 
 ### Is Battle a good commuter town for London?
 
-At 71 minutes to London London Bridge, Battle is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
+At 71 minutes to London Bridge, Battle is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from Battle to London?
 

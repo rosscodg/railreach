@@ -22,7 +22,7 @@ Burgess Hill connects to 4 London terminals. The fastest route is London Bridge 
 
 ### How long does the train from Burgess Hill to London take?
 
-The fastest train from Burgess Hill reaches London London Bridge in 50 minutes. Burgess Hill connects to 4 London terminals: London Bridge, Victoria, St Pancras, Kings Cross.
+The fastest train from Burgess Hill reaches London Bridge in 50 minutes. Burgess Hill connects to 4 London terminals: London Bridge, Victoria, St Pancras, Kings Cross.
 
 ### Which London station should I travel to from Burgess Hill?
 
@@ -30,7 +30,7 @@ London Bridge is the quickest at 50 minutes, on a direct service. Direct trains 
 
 ### Is Burgess Hill a good commuter town for London?
 
-At 50 minutes to London London Bridge, Burgess Hill is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 50 minutes to London Bridge, Burgess Hill is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Burgess Hill to London?
 

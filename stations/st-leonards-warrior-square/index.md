@@ -19,7 +19,7 @@ St Leonards Warrior Square connects to 1 London terminal. The fastest route is L
 
 ### How long does the train from St Leonards Warrior Square to London take?
 
-The fastest train from St Leonards Warrior Square reaches London London Bridge in 82 minutes. St Leonards Warrior Square connects to 1 London terminal: London Bridge.
+The fastest train from St Leonards Warrior Square reaches London Bridge in 82 minutes. St Leonards Warrior Square connects to 1 London terminal: London Bridge.
 
 ### Which London station should I travel to from St Leonards Warrior Square?
 
@@ -27,7 +27,7 @@ London Bridge is the quickest at 82 minutes, on a direct service. Direct trains 
 
 ### Is St Leonards Warrior Square a good commuter town for London?
 
-At 82 minutes to London London Bridge, St Leonards Warrior Square is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
+At 82 minutes to London Bridge, St Leonards Warrior Square is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from St Leonards Warrior Square to London?
 

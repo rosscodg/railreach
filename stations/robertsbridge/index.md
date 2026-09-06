@@ -20,7 +20,7 @@ Robertsbridge connects to 2 London terminals. The fastest route is London Bridge
 
 ### How long does the train from Robertsbridge to London take?
 
-The fastest train from Robertsbridge reaches London London Bridge in 68 minutes. Robertsbridge connects to 2 London terminals: London Bridge, Victoria.
+The fastest train from Robertsbridge reaches London Bridge in 68 minutes. Robertsbridge connects to 2 London terminals: London Bridge, Victoria.
 
 ### Which London station should I travel to from Robertsbridge?
 
@@ -28,7 +28,7 @@ London Bridge is the quickest at 68 minutes, on a direct service. Direct trains 
 
 ### Is Robertsbridge a good commuter town for London?
 
-At 68 minutes to London London Bridge, Robertsbridge is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
+At 68 minutes to London Bridge, Robertsbridge is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from Robertsbridge to London?
 

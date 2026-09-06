@@ -98,8 +98,12 @@
 
 <h2>Maidstone West to St Pancras</h2>
 <p>The fastest train from Maidstone West to London St Pancras takes <strong>52 minutes</strong> and involves a direct train with no change. The route is operated by Thameslink, East Midlands Railway, Southeastern high speed. That makes Maidstone West the 105th quickest of the 231 stations with a service into St Pancras inside 90 minutes.</p>
+<p>The morning peak holds up: the median peak journey into St Pancras is also 52 minutes. That median covers 6 services arriving at St Pancras between 07:00 and 09:30 across three sampled weekdays, roughly 0.8 an hour.</p>
+
 <h2>Maidstone West to London Bridge</h2>
-<p>The fastest train from Maidstone West to London London Bridge takes <strong>73 minutes</strong> and involves one change of train en route. The route is operated by Southeastern, Southern, Thameslink. That makes Maidstone West the 183rd quickest of the 234 stations with a service into London Bridge inside 90 minutes.</p>
+<p>The fastest train from Maidstone West to London Bridge takes <strong>73 minutes</strong> and involves one change of train en route. The route is operated by Southeastern, Southern, Thameslink. That makes Maidstone West the 183rd quickest of the 234 stations with a service into London Bridge inside 90 minutes.</p>
+<p>No direct train runs from Maidstone West to London Bridge. The quickest route changes at Paddock Wood.</p>
+
 <h2>Frequently asked questions</h2>
 <h3>How long does the train from Maidstone West to London take?</h3>
 <p>The fastest train from Maidstone West reaches London St Pancras in 52 minutes. Maidstone West connects to 2 London terminals: St Pancras, London Bridge.</p>
@@ -125,6 +129,7 @@
 <p><a href="/?to=STP&amp;max=60">See all of them on the map &rarr;</a></p>
 <h2>Nearby stations</h2>
 <p>Alternative departure points close to Maidstone West, for comparing platforms rather than places.</p>
+<p><a href="/stations/strood/">Strood</a> is quicker: 14 km away and 32 minutes into London St Pancras, saving 20 minutes on the journey above. It is one of 14 stations within 20 km that beat Maidstone West.</p>
 <ul class="link-grid">
 <li><a class="card" href="/stations/maidstone-east/"><span class="card-title">Maidstone East</span><span class="card-meta"><span class="t-badge t-slow">63 min</span> fastest to London &middot; 1 km away</span></a></li>
 <li><a class="card" href="/stations/barming/"><span class="card-title">Barming</span><span class="card-meta"><span class="t-badge t-slow">60 min</span> fastest to London &middot; 3 km away</span></a></li>
@@ -262,12 +267,12 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="/assets/js/stations-data.js?v=b001d929"></script>
-<script src="/assets/js/map-ui.js?v=887114e8"></script>
+<script src="/assets/js/map-ui.js?v=e4f361ec"></script>
 <script>
 const map=RR.createMap('map');
 L.circleMarker([51.270466,0.515774],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Maidstone West</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.532514,-0.126463,'<strong>London St Pancras</strong><div class="pop-sub">from Maidstone West</div><div class="pop-hero"><b>52</b> min</div><dl class="pop-stats"><div><dt>Typical peak</dt><dd>52 min</dd></div><div><dt>Peak trains</dt><dd>0.8/hr</dd></div></dl><a class="popup-link" href="/terminals/st-pancras/">Terminal guide &rarr;</a>');
-RR.terminalMarker(map,51.505019,-0.086092,'<strong>London London Bridge</strong><div class="pop-sub">from Maidstone West</div><div class="pop-hero"><b>73</b> min</div><div class="pop-change">change at Paddock Wood</div><dl class="pop-stats"><div><dt>Direct train</dt><dd class="pop-none">none</dd></div></dl><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.505019,-0.086092,'<strong>London Bridge</strong><div class="pop-sub">from Maidstone West</div><div class="pop-hero"><b>73</b> min</div><div class="pop-change">change at Paddock Wood</div><dl class="pop-stats"><div><dt>Direct train</dt><dd class="pop-none">none</dd></div></dl><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
 L.polyline([[51.270466,0.515774],[51.532514,-0.126463]],{color:RR.colour(52),weight:3,opacity:0.75,}).addTo(map);
 L.polyline([[51.270466,0.515774],[51.505019,-0.086092]],{color:RR.colour(73),weight:3,opacity:0.75,dashArray:'8,6',}).addTo(map);
 document.getElementById('station-count').textContent='Maidstone West: 2 London terminals';

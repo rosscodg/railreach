@@ -21,7 +21,7 @@ Sidcup connects to 3 London terminals. The fastest route is London Bridge in 25 
 
 ### How long does the train from Sidcup to London take?
 
-The fastest train from Sidcup reaches London London Bridge in 25 minutes. Sidcup connects to 3 London terminals: London Bridge, St Pancras, Victoria.
+The fastest train from Sidcup reaches London Bridge in 25 minutes. Sidcup connects to 3 London terminals: London Bridge, St Pancras, Victoria.
 
 ### Which London station should I travel to from Sidcup?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 25 minutes, on a direct service. Direct trains 
 
 ### Is Sidcup a good commuter town for London?
 
-At 25 minutes to London London Bridge, Sidcup is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 25 minutes to London Bridge, Sidcup is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Sidcup to London?
 

@@ -21,7 +21,7 @@ Lewes connects to 3 London terminals. The fastest route is London Bridge in 70 m
 
 ### How long does the train from Lewes to London take?
 
-The fastest train from Lewes reaches London London Bridge in 70 minutes. Lewes connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Lewes reaches London Bridge in 70 minutes. Lewes connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Lewes?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 70 minutes, though it requires a change. Direct
 
 ### Is Lewes a good commuter town for London?
 
-At 70 minutes to London London Bridge, Lewes is a longer commute, typically traded off against more space and lower housing costs. Most services require one change.
+At 70 minutes to London Bridge, Lewes is a longer commute, typically traded off against more space and lower housing costs. Most services require one change.
 
 ### Are there direct trains from Lewes to London?
 

@@ -21,7 +21,7 @@ New Cross connects to 3 London terminals. The fastest route is London Bridge in 
 
 ### How long does the train from New Cross to London take?
 
-The fastest train from New Cross reaches London London Bridge in 5 minutes. New Cross connects to 3 London terminals: London Bridge, St Pancras, Victoria.
+The fastest train from New Cross reaches London Bridge in 5 minutes. New Cross connects to 3 London terminals: London Bridge, St Pancras, Victoria.
 
 ### Which London station should I travel to from New Cross?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 5 minutes, on a direct service. Direct trains r
 
 ### Is New Cross a good commuter town for London?
 
-At 5 minutes to London London Bridge, New Cross is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 5 minutes to London Bridge, New Cross is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from New Cross to London?
 

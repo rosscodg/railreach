@@ -21,7 +21,7 @@ Bexley connects to 3 London terminals. The fastest route is London Bridge in 30 
 
 ### How long does the train from Bexley to London take?
 
-The fastest train from Bexley reaches London London Bridge in 30 minutes. Bexley connects to 3 London terminals: London Bridge, St Pancras, Victoria.
+The fastest train from Bexley reaches London Bridge in 30 minutes. Bexley connects to 3 London terminals: London Bridge, St Pancras, Victoria.
 
 ### Which London station should I travel to from Bexley?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 30 minutes, on a direct service. Direct trains 
 
 ### Is Bexley a good commuter town for London?
 
-At 30 minutes to London London Bridge, Bexley is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 30 minutes to London Bridge, Bexley is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Bexley to London?
 

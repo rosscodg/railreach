@@ -23,7 +23,7 @@ Earlswood connects to 5 London terminals. The fastest route is London Bridge in 
 
 ### How long does the train from Earlswood to London take?
 
-The fastest train from Earlswood reaches London London Bridge in 31 minutes. Earlswood connects to 5 London terminals: London Bridge, St Pancras, Victoria, Kings Cross, Moorgate.
+The fastest train from Earlswood reaches London Bridge in 31 minutes. Earlswood connects to 5 London terminals: London Bridge, St Pancras, Victoria, Kings Cross, Moorgate.
 
 ### Which London station should I travel to from Earlswood?
 
@@ -31,7 +31,7 @@ London Bridge is the quickest at 31 minutes, on a direct service. Direct trains 
 
 ### Is Earlswood a good commuter town for London?
 
-At 31 minutes to London London Bridge, Earlswood is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 31 minutes to London Bridge, Earlswood is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Earlswood to London?
 

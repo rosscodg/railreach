@@ -21,7 +21,7 @@ Stone Crossing connects to 3 London terminals. The fastest route is London Bridg
 
 ### How long does the train from Stone Crossing to London take?
 
-The fastest train from Stone Crossing reaches London London Bridge in 45 minutes. Stone Crossing connects to 3 London terminals: London Bridge, St Pancras, Victoria.
+The fastest train from Stone Crossing reaches London Bridge in 45 minutes. Stone Crossing connects to 3 London terminals: London Bridge, St Pancras, Victoria.
 
 ### Which London station should I travel to from Stone Crossing?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 45 minutes, on a direct service. Direct trains 
 
 ### Is Stone Crossing a good commuter town for London?
 
-At 45 minutes to London London Bridge, Stone Crossing is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 45 minutes to London Bridge, Stone Crossing is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Stone Crossing to London?
 

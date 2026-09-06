@@ -21,7 +21,7 @@ Cowden connects to 3 London terminals. The fastest route is London Bridge in 52 
 
 ### How long does the train from Cowden to London take?
 
-The fastest train from Cowden reaches London London Bridge in 52 minutes. Cowden connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Cowden reaches London Bridge in 52 minutes. Cowden connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Cowden?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 52 minutes, on a direct service. Direct trains 
 
 ### Is Cowden a good commuter town for London?
 
-At 52 minutes to London London Bridge, Cowden is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 52 minutes to London Bridge, Cowden is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Cowden to London?
 

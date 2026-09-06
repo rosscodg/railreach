@@ -21,7 +21,7 @@ Hurst Green connects to 3 London terminals. The fastest route is London Bridge i
 
 ### How long does the train from Hurst Green to London take?
 
-The fastest train from Hurst Green reaches London London Bridge in 37 minutes. Hurst Green connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Hurst Green reaches London Bridge in 37 minutes. Hurst Green connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Hurst Green?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 37 minutes, on a direct service. Direct trains 
 
 ### Is Hurst Green a good commuter town for London?
 
-At 37 minutes to London London Bridge, Hurst Green is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 37 minutes to London Bridge, Hurst Green is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Hurst Green to London?
 

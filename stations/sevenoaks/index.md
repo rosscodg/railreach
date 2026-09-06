@@ -21,7 +21,7 @@ Sevenoaks connects to 3 London terminals. The fastest route is London Bridge in 
 
 ### How long does the train from Sevenoaks to London take?
 
-The fastest train from Sevenoaks reaches London London Bridge in 24 minutes. Sevenoaks connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Sevenoaks reaches London Bridge in 24 minutes. Sevenoaks connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Sevenoaks?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 24 minutes, on a direct service. Direct trains 
 
 ### Is Sevenoaks a good commuter town for London?
 
-At 24 minutes to London London Bridge, Sevenoaks is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 24 minutes to London Bridge, Sevenoaks is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Sevenoaks to London?
 

@@ -21,7 +21,7 @@ Orpington connects to 3 London terminals. The fastest route is London Bridge in 
 
 ### How long does the train from Orpington to London take?
 
-The fastest train from Orpington reaches London London Bridge in 15 minutes. Orpington connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Orpington reaches London Bridge in 15 minutes. Orpington connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Orpington?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 15 minutes, on a direct service. Direct trains 
 
 ### Is Orpington a good commuter town for London?
 
-At 15 minutes to London London Bridge, Orpington is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 15 minutes to London Bridge, Orpington is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Orpington to London?
 

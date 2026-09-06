@@ -24,7 +24,7 @@ Redhill connects to 6 London terminals. The fastest route is London Bridge in 24
 
 ### How long does the train from Redhill to London take?
 
-The fastest train from Redhill reaches London London Bridge in 24 minutes. Redhill connects to 6 London terminals: London Bridge, Victoria, St Pancras, Kings Cross, Waterloo, Moorgate.
+The fastest train from Redhill reaches London Bridge in 24 minutes. Redhill connects to 6 London terminals: London Bridge, Victoria, St Pancras, Kings Cross, Waterloo, Moorgate.
 
 ### Which London station should I travel to from Redhill?
 
@@ -32,7 +32,7 @@ London Bridge is the quickest at 24 minutes, on a direct service. Direct trains 
 
 ### Is Redhill a good commuter town for London?
 
-At 24 minutes to London London Bridge, Redhill is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 24 minutes to London Bridge, Redhill is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Redhill to London?
 

@@ -100,12 +100,19 @@
 
 <h2>Arlesey to Kings Cross</h2>
 <p>The fastest train from Arlesey to London Kings Cross takes <strong>38 minutes</strong> and involves a direct train with no change. The route is operated by Great Northern, LNER, Hull Trains, Lumo. That makes Arlesey the 24th quickest of the 71 stations with a service into Kings Cross inside 90 minutes.</p>
+
 <h2>Arlesey to St Pancras</h2>
 <p>The fastest train from Arlesey to London St Pancras takes <strong>39 minutes</strong> and involves a direct train with no change. The route is operated by Thameslink, East Midlands Railway, Southeastern high speed. That makes Arlesey the 47th quickest of the 231 stations with a service into St Pancras inside 90 minutes.</p>
+<p>That is the quickest train of the day. For a morning arrival the median journey is <strong>41 minutes</strong>, 2 minutes longer. That median covers 15 services arriving at St Pancras between 07:00 and 09:30 across three sampled weekdays, roughly 2 an hour.</p>
+
 <h2>Arlesey to London Bridge</h2>
-<p>The fastest train from Arlesey to London London Bridge takes <strong>54 minutes</strong> and involves a direct train with no change. The route is operated by Southeastern, Southern, Thameslink. That makes Arlesey the 125th quickest of the 234 stations with a service into London Bridge inside 90 minutes.</p>
+<p>The fastest train from Arlesey to London Bridge takes <strong>54 minutes</strong> and involves a direct train with no change. The route is operated by Southeastern, Southern, Thameslink. That makes Arlesey the 125th quickest of the 234 stations with a service into London Bridge inside 90 minutes.</p>
+<p>That is the quickest train of the day. For a morning arrival the median journey is <strong>56 minutes</strong>, 2 minutes longer. That median covers 15 services arriving at London Bridge between 07:00 and 09:30 across three sampled weekdays, roughly 2 an hour.</p>
+
 <h2>Arlesey to Moorgate</h2>
 <p>The fastest train from Arlesey to London Moorgate takes <strong>54 minutes</strong> and involves one change of train en route. The route is operated by Great Northern. That makes Arlesey the 25th quickest of the 55 stations with a service into Moorgate inside 90 minutes.</p>
+<p>No direct train runs from Arlesey to London Moorgate. The quickest route changes at Finsbury Park.</p>
+
 <h2>Frequently asked questions</h2>
 <h3>How long does the train from Arlesey to London take?</h3>
 <p>The fastest train from Arlesey reaches London Kings Cross in 38 minutes. Arlesey connects to 4 London terminals: Kings Cross, St Pancras, London Bridge, Moorgate.</p>
@@ -131,6 +138,7 @@
 <p><a href="/?to=KGX&amp;max=45">See all of them on the map &rarr;</a></p>
 <h2>Nearby stations</h2>
 <p>Alternative departure points close to Arlesey, for comparing platforms rather than places.</p>
+<p><a href="/stations/stevenage/">Stevenage</a> is quicker: 14 km away and 20 minutes into London Kings Cross, saving 18 minutes on the journey above. It is one of 10 stations within 20 km that beat Arlesey.</p>
 <ul class="link-grid">
 <li><a class="card" href="/stations/letchworth-garden-city/"><span class="card-title">Letchworth Garden City</span><span class="card-meta"><span class="t-badge t-fast">29 min</span> fastest to London &middot; 6 km away</span></a></li>
 <li><a class="card" href="/stations/baldock/"><span class="card-title">Baldock</span><span class="card-meta"><span class="t-badge t-mid">36 min</span> fastest to London &middot; 7 km away</span></a></li>
@@ -268,13 +276,13 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="/assets/js/stations-data.js?v=b001d929"></script>
-<script src="/assets/js/map-ui.js?v=887114e8"></script>
+<script src="/assets/js/map-ui.js?v=e4f361ec"></script>
 <script>
 const map=RR.createMap('map');
 L.circleMarker([52.026031,-0.26632],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Arlesey</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.530883,-0.122926,'<strong>London Kings Cross</strong><div class="pop-sub">from Arlesey</div><div class="pop-hero"><b>38</b> min</div><dl class="pop-stats"><div><dt>Typical peak</dt><dd class="pop-none">no peak service</dd></div></dl><a class="popup-link" href="/terminals/kings-cross/">Terminal guide &rarr;</a>');
 RR.terminalMarker(map,51.532514,-0.126463,'<strong>London St Pancras</strong><div class="pop-sub">from Arlesey</div><div class="pop-hero"><b>39</b> min</div><dl class="pop-stats"><div><dt>Typical peak</dt><dd>41 min</dd></div><div><dt>Peak trains</dt><dd>2.0/hr</dd></div></dl><a class="popup-link" href="/terminals/st-pancras/">Terminal guide &rarr;</a>');
-RR.terminalMarker(map,51.505019,-0.086092,'<strong>London London Bridge</strong><div class="pop-sub">from Arlesey</div><div class="pop-hero"><b>54</b> min</div><dl class="pop-stats"><div><dt>Typical peak</dt><dd>56 min</dd></div><div><dt>Peak trains</dt><dd>2.0/hr</dd></div></dl><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.505019,-0.086092,'<strong>London Bridge</strong><div class="pop-sub">from Arlesey</div><div class="pop-hero"><b>54</b> min</div><dl class="pop-stats"><div><dt>Typical peak</dt><dd>56 min</dd></div><div><dt>Peak trains</dt><dd>2.0/hr</dd></div></dl><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
 RR.terminalMarker(map,51.518491,-0.088943,'<strong>London Moorgate</strong><div class="pop-sub">from Arlesey</div><div class="pop-hero"><b>54</b> min</div><div class="pop-change">change at Finsbury Park</div><dl class="pop-stats"><div><dt>Direct train</dt><dd class="pop-none">none</dd></div></dl><a class="popup-link" href="/terminals/moorgate/">Terminal guide &rarr;</a>');
 L.polyline([[52.026031,-0.26632],[51.530883,-0.122926]],{color:RR.colour(38),weight:3,opacity:0.75,}).addTo(map);
 L.polyline([[52.026031,-0.26632],[51.532514,-0.126463]],{color:RR.colour(39),weight:3,opacity:0.75,}).addTo(map);

@@ -614,7 +614,7 @@ Page: https://railreach.co.uk/terminals/paddington/
 - Wivenhoe: fastest 88 min
 - Bristol Temple Meads: fastest 89 min, typical peak 99 min, 2.0 trains/hr in the peak
 - Southminster: fastest 90 min
-## London London Bridge
+## London Bridge
 
 Operators: Southeastern, Southern, Thameslink
 Serves: South East London, Kent and Surrey

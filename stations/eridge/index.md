@@ -21,7 +21,7 @@ Eridge connects to 3 London terminals. The fastest route is London Bridge in 63 
 
 ### How long does the train from Eridge to London take?
 
-The fastest train from Eridge reaches London London Bridge in 63 minutes. Eridge connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Eridge reaches London Bridge in 63 minutes. Eridge connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Eridge?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 63 minutes, on a direct service. Direct trains 
 
 ### Is Eridge a good commuter town for London?
 
-At 63 minutes to London London Bridge, Eridge is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
+At 63 minutes to London Bridge, Eridge is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from Eridge to London?
 

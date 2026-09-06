@@ -21,7 +21,7 @@ Petts Wood connects to 3 London terminals. The fastest route is London Bridge in
 
 ### How long does the train from Petts Wood to London take?
 
-The fastest train from Petts Wood reaches London London Bridge in 23 minutes. Petts Wood connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Petts Wood reaches London Bridge in 23 minutes. Petts Wood connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Petts Wood?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 23 minutes, on a direct service. Direct trains 
 
 ### Is Petts Wood a good commuter town for London?
 
-At 23 minutes to London London Bridge, Petts Wood is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 23 minutes to London Bridge, Petts Wood is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Petts Wood to London?
 

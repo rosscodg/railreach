@@ -21,7 +21,7 @@ Dunton Green connects to 3 London terminals. The fastest route is London Bridge 
 
 ### How long does the train from Dunton Green to London take?
 
-The fastest train from Dunton Green reaches London London Bridge in 39 minutes. Dunton Green connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Dunton Green reaches London Bridge in 39 minutes. Dunton Green connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Dunton Green?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 39 minutes, though it requires a change. Direct
 
 ### Is Dunton Green a good commuter town for London?
 
-At 39 minutes to London London Bridge, Dunton Green is a practical commuter choice, with the fastest journey under an hour. Most services require one change.
+At 39 minutes to London Bridge, Dunton Green is a practical commuter choice, with the fastest journey under an hour. Most services require one change.
 
 ### Are there direct trains from Dunton Green to London?
 

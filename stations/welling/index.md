@@ -21,7 +21,7 @@ Welling connects to 3 London terminals. The fastest route is London Bridge in 27
 
 ### How long does the train from Welling to London take?
 
-The fastest train from Welling reaches London London Bridge in 27 minutes. Welling connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Welling reaches London Bridge in 27 minutes. Welling connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Welling?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 27 minutes, on a direct service. Direct trains 
 
 ### Is Welling a good commuter town for London?
 
-At 27 minutes to London London Bridge, Welling is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 27 minutes to London Bridge, Welling is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Welling to London?
 

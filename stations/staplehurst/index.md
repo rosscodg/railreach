@@ -21,7 +21,7 @@ Staplehurst connects to 3 London terminals. The fastest route is London Bridge i
 
 ### How long does the train from Staplehurst to London take?
 
-The fastest train from Staplehurst reaches London London Bridge in 53 minutes. Staplehurst connects to 3 London terminals: London Bridge, St Pancras, Victoria.
+The fastest train from Staplehurst reaches London Bridge in 53 minutes. Staplehurst connects to 3 London terminals: London Bridge, St Pancras, Victoria.
 
 ### Which London station should I travel to from Staplehurst?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 53 minutes, on a direct service. Direct trains 
 
 ### Is Staplehurst a good commuter town for London?
 
-At 53 minutes to London London Bridge, Staplehurst is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 53 minutes to London Bridge, Staplehurst is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Staplehurst to London?
 

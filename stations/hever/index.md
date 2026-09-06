@@ -21,7 +21,7 @@ Hever connects to 3 London terminals. The fastest route is London Bridge in 47 m
 
 ### How long does the train from Hever to London take?
 
-The fastest train from Hever reaches London London Bridge in 47 minutes. Hever connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Hever reaches London Bridge in 47 minutes. Hever connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Hever?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 47 minutes, on a direct service. Direct trains 
 
 ### Is Hever a good commuter town for London?
 
-At 47 minutes to London London Bridge, Hever is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 47 minutes to London Bridge, Hever is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Hever to London?
 

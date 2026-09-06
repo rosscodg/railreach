@@ -20,7 +20,7 @@ Glynde connects to 2 London terminals. The fastest route is London Bridge in 76 
 
 ### How long does the train from Glynde to London take?
 
-The fastest train from Glynde reaches London London Bridge in 76 minutes. Glynde connects to 2 London terminals: London Bridge, Victoria.
+The fastest train from Glynde reaches London Bridge in 76 minutes. Glynde connects to 2 London terminals: London Bridge, Victoria.
 
 ### Which London station should I travel to from Glynde?
 
@@ -28,7 +28,7 @@ London Bridge is the quickest at 76 minutes, though it requires a change. Direct
 
 ### Is Glynde a good commuter town for London?
 
-At 76 minutes to London London Bridge, Glynde is a longer commute, typically traded off against more space and lower housing costs. Most services require one change.
+At 76 minutes to London Bridge, Glynde is a longer commute, typically traded off against more space and lower housing costs. Most services require one change.
 
 ### Are there direct trains from Glynde to London?
 

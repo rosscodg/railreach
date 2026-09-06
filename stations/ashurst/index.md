@@ -21,7 +21,7 @@ Ashurst connects to 3 London terminals. The fastest route is London Bridge in 57
 
 ### How long does the train from Ashurst to London take?
 
-The fastest train from Ashurst reaches London London Bridge in 57 minutes. Ashurst connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Ashurst reaches London Bridge in 57 minutes. Ashurst connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Ashurst?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 57 minutes, on a direct service. Direct trains 
 
 ### Is Ashurst a good commuter town for London?
 
-At 57 minutes to London London Bridge, Ashurst is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 57 minutes to London Bridge, Ashurst is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Ashurst to London?
 

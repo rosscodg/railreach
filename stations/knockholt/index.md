@@ -21,7 +21,7 @@ Knockholt connects to 3 London terminals. The fastest route is London Bridge in 
 
 ### How long does the train from Knockholt to London take?
 
-The fastest train from Knockholt reaches London London Bridge in 34 minutes. Knockholt connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Knockholt reaches London Bridge in 34 minutes. Knockholt connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Knockholt?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 34 minutes, though it requires a change. Direct
 
 ### Is Knockholt a good commuter town for London?
 
-At 34 minutes to London London Bridge, Knockholt is a practical commuter choice, with the fastest journey under an hour. Most services require one change.
+At 34 minutes to London Bridge, Knockholt is a practical commuter choice, with the fastest journey under an hour. Most services require one change.
 
 ### Are there direct trains from Knockholt to London?
 

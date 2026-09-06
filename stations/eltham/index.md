@@ -21,7 +21,7 @@ Eltham connects to 3 London terminals. The fastest route is London Bridge in 21 
 
 ### How long does the train from Eltham to London take?
 
-The fastest train from Eltham reaches London London Bridge in 21 minutes. Eltham connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Eltham reaches London Bridge in 21 minutes. Eltham connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Eltham?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 21 minutes, on a direct service. Direct trains 
 
 ### Is Eltham a good commuter town for London?
 
-At 21 minutes to London London Bridge, Eltham is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 21 minutes to London Bridge, Eltham is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Eltham to London?
 

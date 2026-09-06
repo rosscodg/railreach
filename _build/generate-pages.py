@@ -275,6 +275,132 @@ def write_markdown(rel_dir, text):
         f.write(text)
 
 
+def london(name):
+    """"London Waterloo", but "London Bridge" - not "London London Bridge".
+
+    Ten of the eleven terminals read naturally with the city in front of them
+    and one does not, which put "London London Bridge" on 1,195 pages,
+    including inside FAQPage structured data.
+    """
+    return name if name.startswith('London') else f'London {name}'
+
+
+def minutes(n):
+    """A count of minutes, said in full.
+
+    Differences read as bare numerals otherwise - "6 longer", "saving 31" -
+    which is the sort of thing that reads like a template with the nouns
+    knocked out.
+    """
+    return f'{n} minute' + ('' if n == 1 else 's')
+
+
+# ── Per-station prose ──────────────────────────────────────────────────────
+# A station page used to say one unique sentence and then several hundred
+# words that every other station page also said. Measured across a sample of
+# 60 pages, 68% of each page's six-word sequences appeared on nearly every
+# other page - the profile Google files under "crawled, currently not
+# indexed".
+#
+# The fix is not to paraphrase the template into fake variety. It is to say
+# more of what is already known and specific to this station: what the peak
+# actually costs, where the change happens, and whether somewhere up the road
+# is quicker. Each of these is a number a reader wants and the dataset holds.
+
+def peak_reality(j, terminal_name):
+    """What the headline figure means at eight in the morning.
+
+    The fastest service of the day is rarely the one a commuter catches, and
+    quoting it alone is the most misleading thing a journey-time site can do.
+
+    peakServices is a three-day total while peakTrainsPerHour is a per-day
+    rate, so the two are reported separately rather than divided into each
+    other.
+    """
+    tp = j.get('typicalPeakMins')
+    tph = j.get('peakTrainsPerHour')
+    n = j.get('peakServices')
+    if tp is None or not n:
+        return ''
+    gap = tp - j['mins']
+    if gap > 0:
+        lead = (f'That is the quickest train of the day. For a morning arrival the '
+                f'median journey is <strong>{tp} minutes</strong>, {minutes(gap)} longer.')
+    else:
+        lead = (f'The morning peak holds up: the median peak journey into '
+                f'{terminal_name} is also {tp} minutes.')
+    freq = ''
+    if tph:
+        freq = (f' That median covers {n} services arriving at {terminal_name} '
+                f'between 07:00 and 09:30 across three sampled weekdays, roughly '
+                f'{tph:g} an hour.')
+    return f'<p>{lead}{freq}</p>\n'
+
+
+def interchange_note(j, station_name, terminal_name):
+    """Name the change, and say what staying on a direct train costs.
+
+    Quoting a one-change time without naming the interchange asks the reader
+    to take an unverifiable number on trust, and hides the choice they might
+    actually want to make.
+    """
+    if j.get('direct') or not j.get('changeAt'):
+        return ''
+    at = esc(j['changeAt'])
+    direct = j.get('directMins')
+    if direct and direct > j['mins']:
+        return (f'<p>The quickest route changes at {at}. A direct train also runs '
+                f'and takes {direct} minutes, so the change buys back '
+                f'{minutes(direct - j["mins"])}.</p>\n')
+    return (f'<p>No direct train runs from {station_name} to {london(terminal_name)}. '
+            f'The quickest route changes at {at}.</p>\n')
+
+
+LOCAL_KM = 20
+
+
+def faster_nearby(station_name, sdata, stations, fastest_mins):
+    """Whether a quicker station is worth the drive.
+
+    The nearby list gives names and distances; this answers the question those
+    names are standing in for. A negative answer is worth stating too - it is
+    the reason to stay put.
+    """
+    better = []
+    for s2 in stations:
+        if s2['name'] == station_name:
+            continue
+        timed = [(c, j) for c, j in s2['journeys'].items()
+                 if j.get('mins') is not None]
+        if not timed:
+            continue
+        code, j = min(timed, key=lambda kv: kv[1]['mins'])
+        if fastest_mins is not None and j['mins'] >= fastest_mins:
+            continue
+        d = haversine(sdata['lat'], sdata['lng'], s2['lat'], s2['lng'])
+        if d <= LOCAL_KM:
+            better.append((j['mins'], d, s2['name'], TERMINAL_META[code]['name']))
+    if not better:
+        if fastest_mins is None:
+            return ''
+        return (f'<p>Nothing within {LOCAL_KM} km of {station_name} reaches a London '
+                f'terminal faster, so the {fastest_mins}-minute journey above is the '
+                f'best available locally.</p>\n')
+    better.sort()
+    best, dist, name, term = better[0]
+    slug = STATION_SLUGS.get(name)
+    link = f'<a href="/stations/{slug}/">{esc(name)}</a>' if slug else esc(name)
+    others = (f' It is one of {len(better)} stations within {LOCAL_KM} km that beat '
+              f'{station_name}.' if len(better) > 1 else '')
+    if fastest_mins is None:
+        return (f'<p>The nearest station with a London service is {link}, '
+                f'{dist:.0f} km away, reaching {london(term)} in {minutes(best)}.'
+                f'{others}</p>\n')
+    return (f'<p>{link} is quicker: {dist:.0f} km away and {best} minutes into '
+            f'{london(term)}, saving {minutes(fastest_mins - best)} on the journey '
+            f'above.{others}</p>\n')
+
+
 # ── Shared chrome ──────────────────────────────────────────────────────────
 # Emitted at the foot of every page that draws a map, immediately before the
 # scripts that use it. Kept synchronous and in document order: the init blocks
@@ -810,26 +936,26 @@ def generate_terminal_page(code, terminals, stations, total):
     breadth = ("offers unusually broad commuter coverage" if count >= 45
                else "serves a focused commuter corridor")
 
-    faqs_html = f"""<h3>What is the fastest train to London {name}?</h3>
+    faqs_html = f"""<h3>What is the fastest train to {london(name)}?</h3>
 <p>The fastest connection is from {fastest[0]}, at {fastest[1]} minutes{" on a direct service" if fastest[2] else ", with one change"}. Services into {name} are operated by {operators}.</p>
 <h3>Which commuter towns are within 30 minutes of {name}?</h3>
 <p>{len(under30)} stations reach {name} in under 30 minutes, including {under30_names}. These are the shortest commutes available into this terminal.</p>
 <h3>How many stations connect to {name}?</h3>
-<p>{count} stations have a service to London {name} within 90 minutes, and {direct_count} of those are direct trains with no change required.</p>
+<p>{count} stations have a service to {london(name)} within 90 minutes, and {direct_count} of those are direct trains with no change required.</p>
 <h3>What areas does {name} serve?</h3>
-<p>London {name} primarily serves {meta['region']}. Key commuter destinations on this network include {top5}.</p>
+<p>{london(name)} primarily serves {meta['region']}. Key commuter destinations on this network include {top5}.</p>
 <h3>Is {name} a good terminal to commute into?</h3>
 <p>With {count} stations inside 90 minutes and {direct_count} direct services, {name} {breadth}. The quickest option is {fastest[0]} at {fastest[1]} minutes.</p>"""
 
     page_url = f"{SITE}/terminals/{slug}/"
-    page_desc = (f"{count} stations reach London {name} within 90 minutes, "
+    page_desc = (f"{count} stations reach {london(name)} within 90 minutes, "
                  f"{direct_count} of them directly. Fastest: {fastest[0]} at {fastest[1]} minutes.")
     ld = json.dumps([
         json.loads(breadcrumb_ld([("RailReach", "/"), ("Terminals", "/terminals/"),
                                   (f"{name} train times", f"/terminals/{slug}/")])),
-        webpage_ld(f"London {name} train times", page_desc, page_url,
-                   f"Train journey times to London {name}"),
-        train_station_ld(f"London {name}", t['lat'], t['lng'], page_desc, page_url),
+        webpage_ld(f"{london(name)} train times", page_desc, page_url,
+                   f"Train journey times to {london(name)}"),
+        train_station_ld(f"{london(name)}", t['lat'], t['lng'], page_desc, page_url),
         json.loads(faq_ld_from_html(faqs_html)),
     ], indent=0)
 
@@ -845,7 +971,7 @@ def generate_terminal_page(code, terminals, stations, total):
     body = f'''<body>
 {site_header('terminals')}
 {crumbs([("RailReach", "/"), ("Terminals", "/terminals/"), (f"{name} train times", None)])}
-<div class="map-shell" role="region" aria-label="Map of train journey times to London {name}">
+<div class="map-shell" role="region" aria-label="Map of train journey times to {london(name)}">
 <a class="skip-map" href="#all-stations">Skip the map and read the journey times as a table</a>
 <div id="map"></div>
 {legend()}
@@ -855,15 +981,15 @@ def generate_terminal_page(code, terminals, stations, total):
 
 <main id="content" class="page-content">
 <div class="wrap">
-<h1>Train journey times to London {name}</h1>
-<p class="lede">{count} stations reach London {name} within 90 minutes, {direct_count} of them on a direct train. Services are operated by {operators}. The fastest commute is from {fastest[0]} at {fastest[1]} minutes.</p>
+<h1>Train journey times to {london(name)}</h1>
+<p class="lede">{count} stations reach {london(name)} within 90 minutes, {direct_count} of them on a direct train. Services are operated by {operators}. The fastest commute is from {fastest[0]} at {fastest[1]} minutes.</p>
 {facts}
 
 <h2 id="all-stations">Every station to {name}</h2>
 <p class="section-note">Sorted fastest first. Times are the quickest typical weekday service.</p>
 <div class="table-scroll">
 <table>
-<caption>Journey times from {count} stations to London {name}</caption>
+<caption>Journey times from {count} stations to {london(name)}</caption>
 <thead><tr><th>Station</th><th>Fastest</th><th>Fastest direct</th><th>Typical peak</th><th>Peak trains</th></tr></thead>
 <tbody>
 {rows}
@@ -891,7 +1017,7 @@ const code='{code}';
 const t=TERMINALS[code];
 const map=RR.createMap('map');
 const pts=[[t.lat,t.lng]];
-RR.terminalMarker(map,t.lat,t.lng,'<strong>London '+RR.esc(t.name)+'</strong><br>London terminal');
+RR.terminalMarker(map,t.lat,t.lng,'<strong>'+RR.london(t.name)+'</strong><br>London terminal');
 let count=0;
 STATIONS.forEach(function(s){{
   const j=s.journeys[code];
@@ -907,11 +1033,11 @@ RR.fit(map,pts,{{animate:false}});
 {site_footer(total)}'''
 
     html = head(
-        title=f"London {name} Train Times &amp; Journey Map | RailReach",
-        desc=f"Train journey times to London {name} from {count} stations: {top3}. Interactive map, direct and indirect routes, 2026 timetable data.",
+        title=f"{london(name)} Train Times &amp; Journey Map | RailReach",
+        desc=f"Train journey times to {london(name)} from {count} stations: {top3}. Interactive map, direct and indirect routes, 2026 timetable data.",
         canonical=f"{SITE}/terminals/{slug}/",
         og_title=f"{name} Train Times | RailReach",
-        og_desc=f"Journey times to London {name} from {count} stations, mapped and ranked.",
+        og_desc=f"Journey times to {london(name)} from {count} stations, mapped and ranked.",
         map_h="56vh",
     ) + '\n' + body
 
@@ -928,9 +1054,9 @@ RR.fit(map,pts,{{animate:false}});
                     lambda mm: f"### {re.sub(r'<[^>]+>', '', mm.group(1))}\n\n"
                                f"{re.sub(r'<[^>]+>', '', mm.group(2))}\n",
                     faqs_html, flags=re.DOTALL)
-    write_markdown(f'terminals/{slug}', f'''# Train journey times to London {name}
+    write_markdown(f'terminals/{slug}', f'''# Train journey times to {london(name)}
 
-{count} stations reach London {name} within 90 minutes, {direct_count} of them on a
+{count} stations reach {london(name)} within 90 minutes, {direct_count} of them on a
 direct train. Services are operated by {operators}.
 
 - Stations within 90 minutes: {count}
@@ -1025,6 +1151,7 @@ def generate_station_page(station_name, slug, terminals, stations, total):
             nearby_cards.append(f'<li><span class="card"><span class="card-title">{esc(nb_name)}</span>'
                                 f'<span class="card-meta">{meta}</span></span></li>')
     nearby_html = '\n'.join(nearby_cards)
+    local_verdict = faster_nearby(station_name, sdata, stations, fastest_j['mins'])
 
     table_rows = '\n'.join(
         f'<tr><td><a href="/terminals/{TERMINAL_META[c]["slug"]}/">{TERMINAL_META[c]["name"]}</a></td>'
@@ -1047,18 +1174,18 @@ def generate_station_page(station_name, slug, terminals, stations, total):
                      else f"No direct service is recorded from {station_name}; all routes into London require one change.")
 
     faqs_html = f"""<h3>How long does the train from {station_name} to London take?</h3>
-<p>The fastest train from {station_name} reaches London {fastest_name} in {fastest_j['mins']} minutes. {station_name} connects to {n_terms} London terminal{plural}: {terminal_list}.</p>
+<p>The fastest train from {station_name} reaches {london(fastest_name)} in {fastest_j['mins']} minutes. {station_name} connects to {n_terms} London terminal{plural}: {terminal_list}.</p>
 <h3>Which London station should I travel to from {station_name}?</h3>
 <p>{fastest_name} is the quickest at {fastest_j['mins']} minutes{", on a direct service" if fastest_j['direct'] else ", though it requires a change"}. Direct trains run to {direct_text}.</p>
 <h3>Is {station_name} a good commuter town for London?</h3>
-<p>At {fastest_j['mins']} minutes to London {fastest_name}, {station_name} is {verdict}. {simplicity}</p>
+<p>At {fastest_j['mins']} minutes to {london(fastest_name)}, {station_name} is {verdict}. {simplicity}</p>
 <h3>Are there direct trains from {station_name} to London?</h3>
 <p>{direct_answer}</p>
 <h3>What are the nearest stations to {station_name}?</h3>
 <p>The closest alternatives are {', '.join(n[0] for n in dists[:3])}. These can offer a faster or cheaper route into London depending on where you live.</p>"""
 
     page_url = f"{SITE}/stations/{slug}/"
-    page_desc = (f"{station_name} reaches London {fastest_name} in {fastest_j['mins']} minutes, "
+    page_desc = (f"{station_name} reaches {london(fastest_name)} in {fastest_j['mins']} minutes, "
                  f"the fastest of {n_terms} London terminal{plural} it serves.")
     ld = json.dumps([
         json.loads(breadcrumb_ld([("RailReach", "/"), ("Stations", "/stations/"),
@@ -1091,10 +1218,11 @@ def generate_station_page(station_name, slug, terminals, stations, total):
         are omitted where no direct service exists rather than reporting "no
         peak service" for something we have simply not measured.
         """
-        html = ('<strong>London {}</strong>'
+        html = ('<strong>{}</strong>'
                 '<div class="pop-sub">from {}</div>'
                 '<div class="pop-hero"><b>{}</b> min</div>').format(
-                    json_esc(TERMINAL_META[c]['name']), json_esc(station_name), j['mins'])
+                    json_esc(london(TERMINAL_META[c]['name'])),
+                    json_esc(station_name), j['mins'])
         if not j['direct'] and j.get('changeAt'):
             html += '<div class="pop-change">change at {}</div>'.format(json_esc(j['changeAt']))
 
@@ -1147,11 +1275,13 @@ def generate_station_page(station_name, slug, terminals, stations, total):
                    if j['direct'] else 'one change of train en route')
         route_parts.append(
             f'<h2>{station_name} to {tm["name"]}</h2>\n'
-            f'<p>The fastest train from {station_name} to London {tm["name"]} takes '
+            f'<p>The fastest train from {station_name} to {london(tm["name"])} takes '
             f'<strong>{j["mins"]} minutes</strong> and involves {service}. '
             f'The route is operated by {tm["operators"]}. '
             f'That makes {station_name} the {ordinal(rank)} quickest of the {len(peers)} '
-            f'stations with a service into {tm["name"]} inside 90 minutes.</p>')
+            f'stations with a service into {tm["name"]} inside 90 minutes.</p>\n'
+            + interchange_note(j, station_name, tm['name'])
+            + peak_reality(j, tm['name']))
     route_sections = '\n'.join(route_parts)
 
     # Acquisition -> discovery. Someone landing here from a search already
@@ -1170,7 +1300,7 @@ def generate_station_page(station_name, slug, terminals, stations, total):
                 ' &middot; direct' if f['journeys'][fastest_code]['direct'] else ' &middot; one change')
             for f in finds)
         discovery_section = f"""<h2 id="discover">Other places within {band} minutes of {fastest_name}</h2>
-<p>{station_name} is one of many places you could commute from. These are other options within {band} minutes of London {fastest_name}, ranked by journey time and spread across the network rather than clustered on one stretch of line.</p>
+<p>{station_name} is one of many places you could commute from. These are other options within {band} minutes of {london(fastest_name)}, ranked by journey time and spread across the network rather than clustered on one stretch of line.</p>
 <ul class="link-grid">
 {find_cards}
 </ul>
@@ -1216,7 +1346,7 @@ def generate_station_page(station_name, slug, terminals, stations, total):
 {discovery_section}
 <h2>Nearby stations</h2>
 <p>Alternative departure points close to {station_name}, for comparing platforms rather than places.</p>
-<ul class="link-grid">
+{local_verdict}<ul class="link-grid">
 {nearby_html}
 </ul>
 
@@ -1314,7 +1444,7 @@ def generate_indirect_station_page(station_name, slug, sdata, sorted_journeys,
     a number nobody has verified.
     """
     codes = [c for c, _ in sorted_journeys]
-    names = ', '.join(TERMINAL_META[c]['name'] for c in codes)
+    names = ', '.join(london(TERMINAL_META[c]['name']) for c in codes)
     primary = codes[0] if codes else 'PAD'
     tm = TERMINAL_META[primary]
 
@@ -1334,10 +1464,12 @@ def generate_indirect_station_page(station_name, slug, sdata, sorted_journeys,
             f'<span class="card-title">{esc(nb_name)}</span>'
             f'<span class="card-meta">{meta}</span></a></li>')
 
+    local_verdict = faster_nearby(station_name, sdata, stations, None)
+
     faqs_html = f"""<h3>Is there a direct train from {station_name} to London?</h3>
 <p>No. Across three midweek days of timetable data there is no direct service from {station_name} to any London terminal RailReach covers. Reaching London means changing, usually at the nearest junction on the main line.</p>
 <h3>Which London terminal does {station_name} connect towards?</h3>
-<p>Services from {station_name} feed towards London {names}, operated by {tm['operators']}. The connecting journey time depends on the change and is not published here, because it has not been measured.</p>
+<p>Services from {station_name} feed towards {names}, operated by {tm['operators']}. The connecting journey time depends on the change and is not published here, because it has not been measured.</p>
 <h3>Why does RailReach not give a journey time for {station_name}?</h3>
 <p>Every time on this site is computed from published timetables. A journey involving a change requires routing across services, which this dataset does not do, so no figure is given rather than an estimated one.</p>"""
 
@@ -1392,7 +1524,7 @@ def generate_indirect_station_page(station_name, slug, sdata, sorted_journeys,
 
 <h2>Nearby stations</h2>
 <p>Stations near {station_name} with a direct London service.</p>
-<ul class="link-grid">
+{local_verdict}<ul class="link-grid">
 {chr(10).join(nearby_cards)}
 </ul>
 
@@ -2258,7 +2390,7 @@ def generate_llms_full(terminals, stations, counts, total):
             + (f", typical peak {j['typicalPeakMins']} min" if j.get('typicalPeakMins') else '')
             + (f", {j['peakTrainsPerHour']} trains/hr in the peak" if j.get('peakTrainsPerHour') else '')
             for n, j in serving)
-        blocks.append(f"""## London {meta['name']}
+        blocks.append(f"""## {london(meta['name'])}
 
 Operators: {meta['operators']}
 Serves: {meta['region']}

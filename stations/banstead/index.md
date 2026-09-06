@@ -21,7 +21,7 @@ Banstead connects to 3 London terminals. The fastest route is London Bridge in 4
 
 ### How long does the train from Banstead to London take?
 
-The fastest train from Banstead reaches London London Bridge in 46 minutes. Banstead connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Banstead reaches London Bridge in 46 minutes. Banstead connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Banstead?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 46 minutes, though it requires a change. Direct
 
 ### Is Banstead a good commuter town for London?
 
-At 46 minutes to London London Bridge, Banstead is a practical commuter choice, with the fastest journey under an hour. Most services require one change.
+At 46 minutes to London Bridge, Banstead is a practical commuter choice, with the fastest journey under an hour. Most services require one change.
 
 ### Are there direct trains from Banstead to London?
 

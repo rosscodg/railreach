@@ -24,7 +24,7 @@ Gatwick Airport connects to 6 London terminals. The fastest route is London Brid
 
 ### How long does the train from Gatwick Airport to London take?
 
-The fastest train from Gatwick Airport reaches London London Bridge in 29 minutes. Gatwick Airport connects to 6 London terminals: London Bridge, Victoria, St Pancras, Kings Cross, Moorgate, Waterloo.
+The fastest train from Gatwick Airport reaches London Bridge in 29 minutes. Gatwick Airport connects to 6 London terminals: London Bridge, Victoria, St Pancras, Kings Cross, Moorgate, Waterloo.
 
 ### Which London station should I travel to from Gatwick Airport?
 
@@ -32,7 +32,7 @@ London Bridge is the quickest at 29 minutes, on a direct service. Direct trains 
 
 ### Is Gatwick Airport a good commuter town for London?
 
-At 29 minutes to London London Bridge, Gatwick Airport is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 29 minutes to London Bridge, Gatwick Airport is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Gatwick Airport to London?
 

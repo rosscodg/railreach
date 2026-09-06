@@ -19,7 +19,7 @@ West St Leonards connects to 1 London terminal. The fastest route is London Brid
 
 ### How long does the train from West St Leonards to London take?
 
-The fastest train from West St Leonards reaches London London Bridge in 88 minutes. West St Leonards connects to 1 London terminal: London Bridge.
+The fastest train from West St Leonards reaches London Bridge in 88 minutes. West St Leonards connects to 1 London terminal: London Bridge.
 
 ### Which London station should I travel to from West St Leonards?
 
@@ -27,7 +27,7 @@ London Bridge is the quickest at 88 minutes, on a direct service. Direct trains 
 
 ### Is West St Leonards a good commuter town for London?
 
-At 88 minutes to London London Bridge, West St Leonards is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
+At 88 minutes to London Bridge, West St Leonards is a longer commute, typically traded off against more space and lower housing costs. Direct trains keep the journey simple.
 
 ### Are there direct trains from West St Leonards to London?
 

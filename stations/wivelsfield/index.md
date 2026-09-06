@@ -22,7 +22,7 @@ Wivelsfield connects to 4 London terminals. The fastest route is London Bridge i
 
 ### How long does the train from Wivelsfield to London take?
 
-The fastest train from Wivelsfield reaches London London Bridge in 51 minutes. Wivelsfield connects to 4 London terminals: London Bridge, Victoria, St Pancras, Kings Cross.
+The fastest train from Wivelsfield reaches London Bridge in 51 minutes. Wivelsfield connects to 4 London terminals: London Bridge, Victoria, St Pancras, Kings Cross.
 
 ### Which London station should I travel to from Wivelsfield?
 
@@ -30,7 +30,7 @@ London Bridge is the quickest at 51 minutes, on a direct service. Direct trains 
 
 ### Is Wivelsfield a good commuter town for London?
 
-At 51 minutes to London London Bridge, Wivelsfield is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 51 minutes to London Bridge, Wivelsfield is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Wivelsfield to London?
 

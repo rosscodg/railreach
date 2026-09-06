@@ -21,7 +21,7 @@ Whyteleafe connects to 3 London terminals. The fastest route is London Bridge in
 
 ### How long does the train from Whyteleafe to London take?
 
-The fastest train from Whyteleafe reaches London London Bridge in 42 minutes. Whyteleafe connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Whyteleafe reaches London Bridge in 42 minutes. Whyteleafe connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Whyteleafe?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 42 minutes, on a direct service. Direct trains 
 
 ### Is Whyteleafe a good commuter town for London?
 
-At 42 minutes to London London Bridge, Whyteleafe is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 42 minutes to London Bridge, Whyteleafe is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Whyteleafe to London?
 

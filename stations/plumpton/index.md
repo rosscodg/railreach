@@ -21,7 +21,7 @@ Plumpton connects to 3 London terminals. The fastest route is London Bridge in 6
 
 ### How long does the train from Plumpton to London take?
 
-The fastest train from Plumpton reaches London London Bridge in 62 minutes. Plumpton connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Plumpton reaches London Bridge in 62 minutes. Plumpton connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Plumpton?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 62 minutes, though it requires a change. Direct
 
 ### Is Plumpton a good commuter town for London?
 
-At 62 minutes to London London Bridge, Plumpton is a longer commute, typically traded off against more space and lower housing costs. Most services require one change.
+At 62 minutes to London Bridge, Plumpton is a longer commute, typically traded off against more space and lower housing costs. Most services require one change.
 
 ### Are there direct trains from Plumpton to London?
 

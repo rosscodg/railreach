@@ -21,7 +21,7 @@ Bexleyheath connects to 3 London terminals. The fastest route is London Bridge i
 
 ### How long does the train from Bexleyheath to London take?
 
-The fastest train from Bexleyheath reaches London London Bridge in 30 minutes. Bexleyheath connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Bexleyheath reaches London Bridge in 30 minutes. Bexleyheath connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Bexleyheath?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 30 minutes, on a direct service. Direct trains 
 
 ### Is Bexleyheath a good commuter town for London?
 
-At 30 minutes to London London Bridge, Bexleyheath is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 30 minutes to London Bridge, Bexleyheath is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Bexleyheath to London?
 

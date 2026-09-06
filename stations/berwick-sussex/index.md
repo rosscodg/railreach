@@ -20,7 +20,7 @@ Berwick (Sussex) connects to 2 London terminals. The fastest route is London Bri
 
 ### How long does the train from Berwick (Sussex) to London take?
 
-The fastest train from Berwick (Sussex) reaches London London Bridge in 82 minutes. Berwick (Sussex) connects to 2 London terminals: London Bridge, Victoria.
+The fastest train from Berwick (Sussex) reaches London Bridge in 82 minutes. Berwick (Sussex) connects to 2 London terminals: London Bridge, Victoria.
 
 ### Which London station should I travel to from Berwick (Sussex)?
 
@@ -28,7 +28,7 @@ London Bridge is the quickest at 82 minutes, though it requires a change. Direct
 
 ### Is Berwick (Sussex) a good commuter town for London?
 
-At 82 minutes to London London Bridge, Berwick (Sussex) is a longer commute, typically traded off against more space and lower housing costs. Most services require one change.
+At 82 minutes to London Bridge, Berwick (Sussex) is a longer commute, typically traded off against more space and lower housing costs. Most services require one change.
 
 ### Are there direct trains from Berwick (Sussex) to London?
 

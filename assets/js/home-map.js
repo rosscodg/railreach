@@ -107,7 +107,7 @@
     markerBySlug = {};
 
     var t = RR.terminalMarker(terminalLayer, terminal.lat, terminal.lng,
-      '<strong>London ' + RR.esc(terminal.name) + '</strong><br>London terminal' +
+      '<strong>' + RR.london(terminal.name) + '</strong><br>London terminal' +
       '<br><a class="popup-link" href="/terminals/' + slugFor(code) + '/">Terminal guide &rarr;</a>');
 
     list.forEach(function (s) {

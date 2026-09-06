@@ -100,12 +100,20 @@
 
 <h2>Royston to Kings Cross</h2>
 <p>The fastest train from Royston to London Kings Cross takes <strong>37 minutes</strong> and involves a direct train with no change. The route is operated by Great Northern, LNER, Hull Trains, Lumo. That makes Royston the 23rd quickest of the 71 stations with a service into Kings Cross inside 90 minutes.</p>
+<p>That is the quickest train of the day. For a morning arrival the median journey is <strong>46 minutes</strong>, 9 minutes longer. That median covers 32 services arriving at Kings Cross between 07:00 and 09:30 across three sampled weekdays, roughly 4.3 an hour.</p>
+
 <h2>Royston to St Pancras</h2>
 <p>The fastest train from Royston to London St Pancras takes <strong>51 minutes</strong> and involves a direct train with no change. The route is operated by Thameslink, East Midlands Railway, Southeastern high speed. That makes Royston the 101st quickest of the 231 stations with a service into St Pancras inside 90 minutes.</p>
+<p>That is the quickest train of the day. For a morning arrival the median journey is <strong>52 minutes</strong>, 1 minute longer. That median covers 15 services arriving at St Pancras between 07:00 and 09:30 across three sampled weekdays, roughly 2 an hour.</p>
+
 <h2>Royston to London Bridge</h2>
-<p>The fastest train from Royston to London London Bridge takes <strong>66 minutes</strong> and involves a direct train with no change. The route is operated by Southeastern, Southern, Thameslink. That makes Royston the 165th quickest of the 234 stations with a service into London Bridge inside 90 minutes.</p>
+<p>The fastest train from Royston to London Bridge takes <strong>66 minutes</strong> and involves a direct train with no change. The route is operated by Southeastern, Southern, Thameslink. That makes Royston the 165th quickest of the 234 stations with a service into London Bridge inside 90 minutes.</p>
+<p>That is the quickest train of the day. For a morning arrival the median journey is <strong>67 minutes</strong>, 1 minute longer. That median covers 15 services arriving at London Bridge between 07:00 and 09:30 across three sampled weekdays, roughly 2 an hour.</p>
+
 <h2>Royston to Moorgate</h2>
 <p>The fastest train from Royston to London Moorgate takes <strong>66 minutes</strong> and involves one change of train en route. The route is operated by Great Northern. That makes Royston the 34th quickest of the 55 stations with a service into Moorgate inside 90 minutes.</p>
+<p>No direct train runs from Royston to London Moorgate. The quickest route changes at Finsbury Park.</p>
+
 <h2>Frequently asked questions</h2>
 <h3>How long does the train from Royston to London take?</h3>
 <p>The fastest train from Royston reaches London Kings Cross in 37 minutes. Royston connects to 4 London terminals: Kings Cross, St Pancras, London Bridge, Moorgate.</p>
@@ -131,6 +139,7 @@
 <p><a href="/?to=KGX&amp;max=45">See all of them on the map &rarr;</a></p>
 <h2>Nearby stations</h2>
 <p>Alternative departure points close to Royston, for comparing platforms rather than places.</p>
+<p><a href="/stations/hitchin/">Hitchin</a> is quicker: 20 km away and 28 minutes into London Kings Cross, saving 9 minutes on the journey above. It is one of 4 stations within 20 km that beat Royston.</p>
 <ul class="link-grid">
 <li><a class="card" href="/stations/meldreth/"><span class="card-title">Meldreth</span><span class="card-meta"><span class="t-badge t-mid">51 min</span> fastest to London &middot; 5 km away</span></a></li>
 <li><a class="card" href="/stations/ashwell-and-morden/"><span class="card-title">Ashwell &amp; Morden</span><span class="card-meta"><span class="t-badge t-mid">42 min</span> fastest to London &middot; 6 km away</span></a></li>
@@ -268,13 +277,13 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="/assets/js/stations-data.js?v=b001d929"></script>
-<script src="/assets/js/map-ui.js?v=887114e8"></script>
+<script src="/assets/js/map-ui.js?v=e4f361ec"></script>
 <script>
 const map=RR.createMap('map');
 L.circleMarker([52.05308,-0.026921],{radius:RR.stationRadius()+2,fillColor:RR.COLOURS.focus,color:'#fff',weight:3,opacity:1,fillOpacity:0.95}).bindPopup('<strong>Royston</strong><br>This station').addTo(map);
 RR.terminalMarker(map,51.530883,-0.122926,'<strong>London Kings Cross</strong><div class="pop-sub">from Royston</div><div class="pop-hero"><b>37</b> min</div><dl class="pop-stats"><div><dt>Typical peak</dt><dd>46 min</dd></div><div><dt>Peak trains</dt><dd>4.3/hr</dd></div></dl><a class="popup-link" href="/terminals/kings-cross/">Terminal guide &rarr;</a>');
 RR.terminalMarker(map,51.532514,-0.126463,'<strong>London St Pancras</strong><div class="pop-sub">from Royston</div><div class="pop-hero"><b>51</b> min</div><dl class="pop-stats"><div><dt>Typical peak</dt><dd>52 min</dd></div><div><dt>Peak trains</dt><dd>2.0/hr</dd></div></dl><a class="popup-link" href="/terminals/st-pancras/">Terminal guide &rarr;</a>');
-RR.terminalMarker(map,51.505019,-0.086092,'<strong>London London Bridge</strong><div class="pop-sub">from Royston</div><div class="pop-hero"><b>66</b> min</div><dl class="pop-stats"><div><dt>Typical peak</dt><dd>67 min</dd></div><div><dt>Peak trains</dt><dd>2.0/hr</dd></div></dl><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
+RR.terminalMarker(map,51.505019,-0.086092,'<strong>London Bridge</strong><div class="pop-sub">from Royston</div><div class="pop-hero"><b>66</b> min</div><dl class="pop-stats"><div><dt>Typical peak</dt><dd>67 min</dd></div><div><dt>Peak trains</dt><dd>2.0/hr</dd></div></dl><a class="popup-link" href="/terminals/london-bridge/">Terminal guide &rarr;</a>');
 RR.terminalMarker(map,51.518491,-0.088943,'<strong>London Moorgate</strong><div class="pop-sub">from Royston</div><div class="pop-hero"><b>66</b> min</div><div class="pop-change">change at Finsbury Park</div><dl class="pop-stats"><div><dt>Direct train</dt><dd class="pop-none">none</dd></div></dl><a class="popup-link" href="/terminals/moorgate/">Terminal guide &rarr;</a>');
 L.polyline([[52.05308,-0.026921],[51.530883,-0.122926]],{color:RR.colour(37),weight:3,opacity:0.75,}).addTo(map);
 L.polyline([[52.05308,-0.026921],[51.532514,-0.126463]],{color:RR.colour(51),weight:3,opacity:0.75,}).addTo(map);

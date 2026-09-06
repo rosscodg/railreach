@@ -21,7 +21,7 @@ Hither Green connects to 3 London terminals. The fastest route is London Bridge 
 
 ### How long does the train from Hither Green to London take?
 
-The fastest train from Hither Green reaches London London Bridge in 9 minutes. Hither Green connects to 3 London terminals: London Bridge, St Pancras, Victoria.
+The fastest train from Hither Green reaches London Bridge in 9 minutes. Hither Green connects to 3 London terminals: London Bridge, St Pancras, Victoria.
 
 ### Which London station should I travel to from Hither Green?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 9 minutes, on a direct service. Direct trains r
 
 ### Is Hither Green a good commuter town for London?
 
-At 9 minutes to London London Bridge, Hither Green is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
+At 9 minutes to London Bridge, Hither Green is an excellent commuter base, with a sub-30-minute journey into central London. Direct trains keep the journey simple.
 
 ### Are there direct trains from Hither Green to London?
 

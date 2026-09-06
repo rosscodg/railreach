@@ -267,13 +267,13 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="/assets/js/stations-data.js?v=b001d929"></script>
-<script src="/assets/js/map-ui.js?v=887114e8"></script>
+<script src="/assets/js/map-ui.js?v=e4f361ec"></script>
 <script>
 const code='MYB';
 const t=TERMINALS[code];
 const map=RR.createMap('map');
 const pts=[[t.lat,t.lng]];
-RR.terminalMarker(map,t.lat,t.lng,'<strong>London '+RR.esc(t.name)+'</strong><br>London terminal');
+RR.terminalMarker(map,t.lat,t.lng,'<strong>'+RR.london(t.name)+'</strong><br>London terminal');
 let count=0;
 STATIONS.forEach(function(s){
   const j=s.journeys[code];

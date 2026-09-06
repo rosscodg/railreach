@@ -21,7 +21,7 @@ Hildenborough connects to 3 London terminals. The fastest route is London Bridge
 
 ### How long does the train from Hildenborough to London take?
 
-The fastest train from Hildenborough reaches London London Bridge in 32 minutes. Hildenborough connects to 3 London terminals: London Bridge, Victoria, St Pancras.
+The fastest train from Hildenborough reaches London Bridge in 32 minutes. Hildenborough connects to 3 London terminals: London Bridge, Victoria, St Pancras.
 
 ### Which London station should I travel to from Hildenborough?
 
@@ -29,7 +29,7 @@ London Bridge is the quickest at 32 minutes, on a direct service. Direct trains 
 
 ### Is Hildenborough a good commuter town for London?
 
-At 32 minutes to London London Bridge, Hildenborough is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
+At 32 minutes to London Bridge, Hildenborough is a practical commuter choice, with the fastest journey under an hour. Direct trains keep the journey simple.
 
 ### Are there direct trains from Hildenborough to London?
 
