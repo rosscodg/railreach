@@ -328,7 +328,7 @@ a:focus-visible, button:focus-visible, select:focus-visible {
   font-weight: 500; font-size: 11px;
 }
 .muted { color: var(--text-muted); }
-.gap-wide { color: #a34700; font-weight: 600; }
+.page-content .gap-wide { color: #a34700; font-weight: 600; }
 
 /* === Key facts (citable, dated summary block) === */
 .key-facts {
@@ -523,7 +523,7 @@ a:focus-visible, button:focus-visible, select:focus-visible {
   .t-fast { background: rgba(0,114,178,0.28); color: #7cc4f0; }
   .t-mid  { background: rgba(230,159,0,0.22); color: #f0bd5c; }
   .t-slow { background: rgba(213,94,0,0.24); color: #ff9a5c; }
-  .gap-wide { color: #ff9a5c; }
+  .page-content .gap-wide { color: #ff9a5c; }
   .leaflet-popup-content .pop-gap dd { color: #ff9a5c; }
   .page-content tbody tr:hover td { background: rgba(255,255,255,0.03); }
   .skip-link { background: var(--blue); }
@@ -982,6 +982,19 @@ a:focus-visible, button:focus-visible, select:focus-visible {
 .lede-links { margin: -4px 0 18px; font-size: 15px; color: var(--text-body); }
 .lede-links a { font-weight: 600; }
 .cta-line { margin: 18px 0; font-size: 15px; }
+
+/* The lead statistics on the peak-penalty page. A short list of findings
+   rather than a paragraph, because each line is a number someone may want to
+   quote on its own. Uses tokens throughout so it inverts with the theme. */
+.page-content ul.finding-list {
+  margin: 14px 0 16px; padding: 14px 20px 14px 36px;
+  background: var(--page-alt); border-left: 3px solid var(--blue);
+  border-radius: 0 8px 8px 0;
+  color: var(--text-body); line-height: 1.65;
+  list-style: disc;
+}
+.page-content ul.finding-list li { margin: 2px 0; padding: 3px 0; }
+.page-content ul.finding-list strong { color: var(--text-primary); }
 
 /* Citation line on the commuter-towns ranking: there so a journalist can copy
    it without composing one, which is the difference between being used as a

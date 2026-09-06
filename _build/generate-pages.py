@@ -24,6 +24,7 @@ import hashlib
 import urllib.parse
 import math
 import datetime
+import statistics
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -292,7 +293,8 @@ def minutes(n):
     which is the sort of thing that reads like a template with the nouns
     knocked out.
     """
-    return f'{n} minute' + ('' if n == 1 else 's')
+    # :g so a median of 5.0 reads "5 minutes" and one of 8.5 keeps its half.
+    return f'{n:g} minute' + ('' if n == 1 else 's')
 
 
 # ── Per-station prose ──────────────────────────────────────────────────────
@@ -1744,6 +1746,63 @@ def _best_towns(stations):
     return rows
 
 
+PEAK_GAP_SLUG = 'peak-commute-penalty'
+
+
+def peak_gaps(stations):
+    """How much longer the morning peak takes than the timetable's best train.
+
+    Restricted to journeys whose fastest service is itself direct, and that is
+    the whole methodological point. "Typical peak" is the median of DIRECT
+    services arriving 07:00-09:30, while "fastest" allows one change. Comparing
+    the two across a route where the quickest option involves a change measures
+    the change, not the peak: it put Higham at +39 minutes, when 42 is a
+    one-change time and 81 is the direct median. Like for like, the worst is
+    +31.
+
+    One row per station, taking its quickest direct route, plus a per-terminal
+    breakdown.
+    """
+    rows = []
+    for s2 in stations:
+        best = None
+        for code, j in s2['journeys'].items():
+            if not j.get('direct'):
+                continue
+            tp, m = j.get('typicalPeakMins'), j.get('mins')
+            if tp is None or m is None:
+                continue
+            if best is None or m < best['fastest']:
+                best = {'name': s2['name'], 'slug': s2['slug'], 'fastest': m,
+                        'typical': tp, 'gap': tp - m, 'code': code,
+                        'tph': j.get('peakTrainsPerHour')}
+        if best:
+            rows.append(best)
+    rows.sort(key=lambda r: (-r['gap'], r['name']))
+    return rows
+
+
+def peak_gap_stats(rows):
+    """The figures the page quotes, computed once so prose and tables agree."""
+    gaps = sorted(r['gap'] for r in rows)
+    n = len(gaps)
+    bands = [(0, 0), (1, 4), (5, 9), (10, 14), (15, 99)]
+    return {
+        'n': n,
+        'slower': sum(1 for g in gaps if g > 0),
+        'same': sum(1 for g in gaps if g == 0),
+        'faster': sum(1 for g in gaps if g < 0),
+        # The true median, not the upper-middle element: on an even count
+        # those differ, and Euston's 26 routes read as +9 rather than +8.5.
+        'median': statistics.median(gaps),
+        'mean': sum(gaps) / n,
+        'max': gaps[-1],
+        'ten_plus': sum(1 for g in gaps if g >= 10),
+        'fifteen_plus': sum(1 for g in gaps if g >= 15),
+        'bands': [(lo, hi, sum(1 for g in gaps if lo <= g <= hi)) for lo, hi in bands],
+    }
+
+
 def generate_best_towns(terminals, stations, total):
     global REPORT_SUBJECT
     REPORT_SUBJECT = ''
@@ -1754,8 +1813,19 @@ def generate_best_towns(terminals, stations, total):
     top = rows[:BEST_LIST]
 
     # The finding: where the advertised time most overstates the real journey.
-    gaps = sorted((r for r in rows if r['typical'] - r['fastest'] > 0),
-                  key=lambda r: -(r['typical'] - r['fastest']))[:12]
+    # Direct-only, because the peak median counts direct services alone - see
+    # peak_gaps(). Nothing enforced that before and the table was correct by
+    # luck: one data refresh could have put a one-change time in it.
+    # Direct rows only, because the peak median counts direct services alone
+    # and comparing it against a one-change fastest measures the change rather
+    # than the peak - see peak_gaps(). Computed on each town's own ranked
+    # route, so the terminal named here is the one named in the ranking; taking
+    # the station's quickest direct route instead put Chatham in this table
+    # against St Pancras while the ranking listed it against London Bridge.
+    town_gaps = [dict(r, gap=r['typical'] - r['fastest'])
+                 for r in rows if r['direct']]
+    gaps = sorted((g for g in town_gaps if g['gap'] > 0),
+                  key=lambda g: -g['gap'])[:12]
 
     # Best town for each terminal, which is the question most people arrive with.
     per_term = {}
@@ -1779,7 +1849,7 @@ def generate_best_towns(terminals, stations, total):
         '<tr><td>' + town_link(r) + '</td>'
         '<td>' + str(r['fastest']) + ' min</td>'
         '<td><strong>' + str(r['typical']) + ' min</strong></td>'
-        '<td class="gap-wide">+' + str(r['typical'] - r['fastest']) + ' min</td>'
+        '<td class="gap-wide">+' + str(r['gap']) + ' min</td>'
         '<td>' + TERMINAL_META[r['code']]['name'] + '</td></tr>'
         for r in gaps)
 
@@ -1794,7 +1864,7 @@ def generate_best_towns(terminals, stations, total):
     # A median is always at least the minimum, so "the typical journey is
     # longer than the fastest" is arithmetic, not a finding. What is worth
     # reporting is how big the gap is, and it varies enormously.
-    spread = sorted(r['typical'] - r['fastest'] for r in rows)
+    spread = sorted(g['gap'] for g in town_gaps)
     gap_10 = sum(1 for g in spread if g >= 10)
     gap_15 = sum(1 for g in spread if g >= 15)
     gap_med = spread[len(spread) // 2]
@@ -1962,6 +2032,244 @@ def generate_best_towns(terminals, stations, total):
     write_html(os.path.join(outdir, 'index.html'), html)
     print("  wrote /" + slug + "/ (" + str(len(rows)) + " towns ranked, "
           + str(len(gaps)) + " gap rows)")
+    return slug
+
+
+def generate_peak_gap(terminals, stations, total):
+    """The one statistic this site has that nobody else publishes.
+
+    Every property listing and town guide quotes the fastest train of the day.
+    Nothing quotes the one people actually catch, because computing it needs
+    the whole timetable rather than a single best-case lookup. This page is
+    that comparison, and it is the page most likely to be worth citing.
+    """
+    global REPORT_SUBJECT
+    REPORT_SUBJECT = ''
+    slug = PEAK_GAP_SLUG
+    rows = peak_gaps(stations)
+    if not rows:
+        return
+    st = peak_gap_stats(rows)
+    worst = rows[:25]
+
+    def town_link(r):
+        return '<a href="/stations/' + r['slug'] + '/">' + esc(r['name']) + '</a>'
+
+    worst_rows = '\n'.join(
+        '<tr><td>' + town_link(r) + '</td>'
+        '<td>' + str(r['fastest']) + ' min</td>'
+        '<td><strong>' + str(r['typical']) + ' min</strong></td>'
+        '<td class="gap-wide">+' + str(r['gap']) + ' min</td>'
+        '<td><a href="/terminals/' + TERMINAL_META[r['code']]['slug'] + '/">'
+        + TERMINAL_META[r['code']]['name'] + '</a></td></tr>'
+        for r in worst)
+
+    def band_label(lo, hi):
+        if lo == hi:
+            return 'No difference'
+        if hi >= 99:
+            return str(lo) + ' minutes or more'
+        return str(lo) + ' to ' + str(hi) + ' minutes'
+
+    band_rows = '\n'.join(
+        '<tr><td>' + band_label(lo, hi) + '</td><td>' + str(n) + '</td>'
+        '<td>' + ('%.0f' % (100.0 * n / st['n'])) + '%</td></tr>'
+        for lo, hi, n in st['bands'])
+
+    # Per terminal, over every direct route rather than one row per station:
+    # the question is which approaches into London degrade, and a terminal with
+    # 136 measured routes should not be represented by 30 of them.
+    per_term = {}
+    for s2 in stations:
+        for code, j in s2['journeys'].items():
+            if not j.get('direct'):
+                continue
+            tp, m = j.get('typicalPeakMins'), j.get('mins')
+            if tp is None or m is None:
+                continue
+            per_term.setdefault(code, []).append(tp - m)
+    term_stats = []
+    for code, v in per_term.items():
+        term_stats.append((statistics.median(v), sum(v) / len(v), len(v), code))
+    term_stats.sort(key=lambda t: (-t[0], -t[1]))
+    term_rows = '\n'.join(
+        '<tr><td><a href="/terminals/' + TERMINAL_META[c]['slug'] + '/">'
+        + TERMINAL_META[c]['name'] + '</a></td>'
+        '<td><strong>+' + ('%g' % med) + ' min</strong></td>'
+        '<td>+' + ('%.1f' % mean) + ' min</td><td>' + str(n) + '</td>'
+        '<td>' + TERMINAL_META[c]['operators'] + '</td></tr>'
+        for med, mean, n, c in term_stats)
+
+    top = rows[0]
+    headline = (str(st['slower']) + ' of ' + str(st['n'])
+                + ' direct commuter routes into London are slower in the morning '
+                'peak than the fastest train the timetable advertises. None are faster.')
+
+    faqs_html = (
+        '<h3>How much longer does a London commute take in rush hour?</h3>\n'
+        '<p>On the median route, ' + minutes(st['median']) + ' longer than the fastest '
+        'train of the day. That is the middle of a wide spread: ' + str(st['same'])
+        + ' routes match their best train in the peak, while ' + str(st['ten_plus'])
+        + ' lose ten minutes or more and ' + str(st['fifteen_plus']) + ' lose fifteen '
+        'or more. The widest is ' + esc(top['name']) + ', at +' + str(top['gap'])
+        + '.</p>\n'
+        '<h3>Why is the advertised journey time different from the real one?</h3>\n'
+        '<p>Because the advertised figure is the quickest service of the day, and that '
+        'train is usually not one you can commute on. It may be a single fast working, '
+        'or run outside the peak, or skip the stops that make the peak services slower. '
+        'The figure on this page is the median of direct trains arriving in London '
+        'between 07:00 and 09:30, which is the service a commuter actually boards.</p>\n'
+        '<h3>Which London terminal has the worst peak penalty?</h3>\n'
+        '<p>' + TERMINAL_META[term_stats[0][3]]['name'] + ', at a median of +'
+        + str(term_stats[0][0]) + ' minutes across ' + str(term_stats[0][2])
+        + ' measured routes. Terminals with few routes are noisier than the large ones: '
+        'read the count column alongside the median.</p>\n'
+        '<h3>Does this account for delays?</h3>\n'
+        '<p>No, and that matters. Every figure here is scheduled time from published '
+        'timetables. Actual performance is worse again, because cancellations and '
+        'delays fall hardest on exactly the peak services measured here. Treat this as '
+        'the gap that exists even when everything runs to plan.</p>\n'
+        '<h3>How was this measured?</h3>\n'
+        '<p>From Darwin timetable files published by the Rail Delivery Group under the '
+        'Open Government Licence, across three midweek days. For each station the '
+        'quickest direct route into a London terminal is compared with the median '
+        'direct service arriving there between 07:00 and 09:30. Routes whose quickest '
+        'option requires a change are excluded, because the peak median counts direct '
+        'services only and comparing the two would measure the change rather than the '
+        'peak.</p>')
+
+    ld = json.dumps([
+        json.loads(breadcrumb_ld([("RailReach", "/"),
+                                  ("Peak commute penalty", "/" + slug + "/")])),
+        json.loads(faq_ld_from_html(faqs_html)),
+        {"@context": "https://schema.org", "@type": "Dataset",
+         "name": "The peak commute penalty: advertised against actual London train times",
+         "description": headline,
+         "url": SITE + "/" + slug + "/",
+         "license": "https://creativecommons.org/licenses/by/4.0/",
+         "isAccessibleForFree": True,
+         "creator": {"@type": "Organization", "name": "RailReach", "url": SITE + "/"},
+         "dateModified": REVIEW_DATE,
+         "distribution": [
+             {"@type": "DataDownload", "encodingFormat": "text/csv",
+              "contentUrl": SITE + "/data/journey-times.csv"},
+             {"@type": "DataDownload", "encodingFormat": "application/json",
+              "contentUrl": SITE + "/data/journey-times.json"}]},
+    ], indent=0)
+
+    body = (
+        '\n<body>\n' + site_header('') + '\n'
+        + crumbs([("RailReach", "/"), ("Peak commute penalty", None)]) + '\n'
+        '<main id="content" class="page-content">\n<div class="wrap">\n'
+        '<h1>The peak commute penalty</h1>\n'
+        '<p class="lede">' + headline + ' The median route loses '
+        + minutes(st['median']) + '; ' + str(st['fifteen_plus'])
+        + ' lose fifteen or more.</p>\n'
+        '<p class="lede-links">Every property listing quotes the fastest train of the '
+        'day. This is what the same journey costs at eight in the morning, measured '
+        'across ' + str(st['n']) + ' stations. Browse the '
+        '<a href="/">interactive map</a> or the '
+        '<a href="/best-commuter-towns-to-london/">town ranking</a>.</p>\n\n'
+
+        '<h2>The finding</h2>\n'
+        '<p>For every station with a direct London service, RailReach holds two '
+        'numbers: the quickest direct train of the day, which is the figure that ends '
+        'up in listings, and the median direct train arriving in London between 07:00 '
+        'and 09:30, which is the one a commuter catches. Comparing them across '
+        + str(st['n']) + ' stations:</p>\n'
+        '<ul class="finding-list">\n'
+        '<li><strong>' + str(st['slower']) + ' of ' + str(st['n'])
+        + '</strong> routes are slower in the peak than advertised.</li>\n'
+        '<li><strong>None</strong> are faster.</li>\n'
+        '<li>The median penalty is <strong>' + minutes(st['median'])
+        + '</strong>; the mean is ' + ('%.1f' % st['mean']) + '.</li>\n'
+        '<li><strong>' + str(st['fifteen_plus']) + ' stations</strong> lose fifteen '
+        'minutes or more. The worst is ' + esc(top['name']) + ', advertised at '
+        + str(top['fastest']) + ' minutes into '
+        + london(TERMINAL_META[top['code']]['name']) + ' and typically taking '
+        + str(top['typical']) + '.</li>\n'
+        '</ul>\n'
+        '<p>A median is always at least as long as the minimum, so some gap is '
+        'arithmetic rather than a finding. What is worth reporting is the size, and '
+        'the spread.</p>\n'
+        '<div class="table-scroll">\n<table>\n'
+        '<caption>How far the typical peak journey exceeds the advertised fastest</caption>\n'
+        '<thead><tr><th>Difference</th><th>Stations</th><th>Share</th></tr></thead>\n'
+        '<tbody>\n' + band_rows + '\n</tbody>\n</table>\n</div>\n\n'
+
+        '<h2>Where the gap is widest</h2>\n'
+        '<p>The twenty-five stations whose advertised journey most overstates the '
+        'commute. Each links to its own page, where the peak figure sits beside the '
+        'frequency it is drawn from.</p>\n'
+        '<div class="table-scroll">\n<table>\n'
+        '<caption>Stations ranked by the gap between advertised and typical peak journey time</caption>\n'
+        '<thead><tr><th>Station</th><th>Advertised fastest</th><th>Typical peak</th>'
+        '<th>Difference</th><th>Terminal</th></tr></thead>\n'
+        '<tbody>\n' + worst_rows + '\n</tbody>\n</table>\n</div>\n\n'
+
+        '<h2>By London terminal</h2>\n'
+        '<p>Measured across every direct route into each terminal, not one row per '
+        'station, so a terminal with many routes is represented by all of them. The '
+        'count column matters: a median over twenty-six routes is a much weaker claim '
+        'than one over a hundred and thirty-six.</p>\n'
+        '<div class="table-scroll">\n<table>\n'
+        '<caption>Median and mean peak penalty by London terminal</caption>\n'
+        '<thead><tr><th>Terminal</th><th>Median penalty</th><th>Mean</th>'
+        '<th>Routes measured</th><th>Operators</th></tr></thead>\n'
+        '<tbody>\n' + term_rows + '\n</tbody>\n</table>\n</div>\n\n'
+
+        '<h2>What this does not measure</h2>\n'
+        '<p>Scheduled time only. Delays and cancellations are not in the timetable '
+        'feed, so the real gap is wider than this page reports: disruption falls '
+        'hardest on the peak services measured here, not on the off-peak fast train '
+        'that sets the advertised figure.</p>\n'
+        '<p>Nor does it measure crowding, whether you get a seat, or what a season '
+        'ticket costs. It is one comparison, made carefully, between two numbers drawn '
+        'from the same timetable.</p>\n'
+        '<p>Routes whose quickest option involves a change are excluded throughout. The '
+        'peak median counts direct services only, so including them would compare a '
+        'changed journey against a direct one and report the change as a peak penalty. '
+        'That exclusion drops ' + str(total - st['n']) + ' of the ' + str(total)
+        + ' stations from this analysis.</p>\n\n'
+
+        '<h2>Citing this analysis</h2>\n'
+        '<p>The underlying dataset is published under a '
+        '<a href="https://creativecommons.org/licenses/by/4.0/" rel="license noopener" target="_blank">'
+        'Creative Commons Attribution 4.0</a> licence, as '
+        '<a href="/data/journey-times.csv">CSV</a> and '
+        '<a href="/data/journey-times.json">JSON</a>; both carry the fastest, fastest '
+        'direct and typical peak figures this page compares, so the analysis can be '
+        'reproduced in full. Journalists and researchers are welcome to reuse it with '
+        'a link to RailReach. The <a href="/about/">methodology</a> sets out how each '
+        'figure is measured and where it should not be relied on.</p>\n'
+        '<p class="cite-block">RailReach, &ldquo;The peak commute penalty&rdquo;, '
+        + REVIEW_DATE + '. ' + SITE + '/' + slug + '/</p>\n\n'
+
+        '<h2>Frequently asked questions</h2>\n' + faqs_html + '\n\n'
+        '<p class="cta-line">See the '
+        '<a href="/best-commuter-towns-to-london/">towns ranked by real peak time</a>, '
+        'or explore all ' + str(total) + ' stations on the '
+        '<a href="/">map</a>.</p>\n'
+        + data_note() + '\n</div>\n</main>\n'
+        '<script type="application/ld+json">' + ld + '</script>\n'
+        + site_footer(total))
+
+    html = head(
+        title="The Peak Commute Penalty | Advertised vs Real London Train Times",
+        desc=headline + " Median penalty " + minutes(st['median'])
+             + ", measured from 2026 timetables across " + str(st['n']) + " stations.",
+        canonical=SITE + "/" + slug + "/",
+        og_title="The peak commute penalty: what London trains really take at 8am",
+        og_desc=headline,
+        md=False,
+        leaflet=False,
+    ) + body
+
+    outdir = os.path.join(BASE, slug)
+    os.makedirs(outdir, exist_ok=True)
+    write_html(os.path.join(outdir, 'index.html'), html)
+    print("  wrote /" + slug + "/ (" + str(st['n']) + " stations, median +"
+          + ('%g' % st['median']) + ", " + str(st['fifteen_plus']) + " at 15+)")
     return slug
 
 
@@ -2303,6 +2611,10 @@ def generate_about(stations, counts, total, n_station_pages):
 
 <h2>Licence and reuse</h2>
 <p>The RailReach journey time dataset is published under a <a href="https://creativecommons.org/licenses/by/4.0/" rel="license noopener" target="_blank">Creative Commons Attribution 4.0</a> licence. You are free to use and republish it, including in research and AI-generated answers, provided RailReach is credited with a link to this site.</p>
+<p>The full dataset is available as <a href="/data/journey-times.csv">CSV</a>, <a href="/data/journey-times.json">JSON</a> and <a href="/llms-full.txt">plain text</a>. Each row carries the fastest journey, the fastest direct service, the median peak journey and the peak frequency, so any figure quoted on this site can be reproduced from the download.</p>
+<h3>How to cite</h3>
+<p>A licence that asks for attribution should say what the attribution looks like, rather than leaving each person to invent one:</p>
+<p class="cite-block">RailReach ({REVIEW_DATE[:4]}). <em>UK train journey times to London terminals</em>. Dataset, reviewed {REVIEW_DATE}. CC BY 4.0. {SITE}/</p>
 
 <h2 id="corrections">Corrections</h2>
 <p>If a journey time looks wrong, please say so. Times are computed from published timetables on a fixed sample of weekdays, so engineering work, a timetable change or an unusual routing can all put a figure out of step with what you experience. Corrections are welcome and are the fastest way to improve the site.</p>
@@ -2373,6 +2685,8 @@ Licence: Creative Commons Attribution 4.0. Reuse permitted with attribution to R
 - {SITE}/terminals/ : All {len(TERMINAL_META)} London terminals compared by commuter catchment
 - {SITE}/stations/ : {len(page_info)} commuter towns ranked by fastest journey into London
 - {SITE}/about/ : Methodology, sources, limitations and licensing
+- {SITE}/best-commuter-towns-to-london/ : Towns ranked by the journey a commuter actually gets in the morning peak, not the fastest train of the day
+- {SITE}/{PEAK_GAP_SLUG}/ : Analysis. How far advertised journey times overstate the real peak commute, measured across every direct route
 
 ## Terminal Pages
 
@@ -2911,6 +3225,7 @@ def generate_sitemap():
     urls += [(f"/{cap}-minute-commute-to-london/", "monthly", "0.8")
              for cap, _framing in COMMUTE_BANDS]
     urls += [("/best-commuter-towns-to-london/", "monthly", "0.9")]
+    urls += [(f"/{PEAK_GAP_SLUG}/", "monthly", "0.9")]
     urls += [(f"/terminals/{m['slug']}/", "monthly", "0.8") for m in TERMINAL_META.values()]
     urls += [(f"/stations/{s}/", "monthly", "0.7") for s in STATION_SLUGS.values()]
 
@@ -3205,6 +3520,7 @@ def main():
     generate_station_hub(page_info, total)
     generate_commute_pages(terminals, stations, total)
     generate_best_towns(terminals, stations, total)
+    generate_peak_gap(terminals, stations, total)
     generate_about(stations, counts, total, len(page_info))
 
     print("\nService worker, sitemap, llms.txt and dataset exports...")

@@ -12,6 +12,8 @@ Licence: Creative Commons Attribution 4.0. Reuse permitted with attribution to R
 - https://railreach.co.uk/terminals/ : All 11 London terminals compared by commuter catchment
 - https://railreach.co.uk/stations/ : 568 commuter towns ranked by fastest journey into London
 - https://railreach.co.uk/about/ : Methodology, sources, limitations and licensing
+- https://railreach.co.uk/best-commuter-towns-to-london/ : Towns ranked by the journey a commuter actually gets in the morning peak, not the fastest train of the day
+- https://railreach.co.uk/peak-commute-penalty/ : Analysis. How far advertised journey times overstate the real peak commute, measured across every direct route
 
 ## Terminal Pages
 
