@@ -45,6 +45,8 @@ BUILD_DATE = datetime.date.today().isoformat()
 REVIEW_DATE = BUILD_DATE
 GEO_SOURCE = 'unspecified'
 GEO_UPDATED = 'unknown'
+SAMPLE_DAYS = []
+MAX_MINUTES = 90
 SOURCE_LABEL = ''
 BASIS_LABEL = ''
 METHOD_LABEL = ''
@@ -3466,13 +3468,152 @@ def export_dataset(terminals, stations):
 
 
 # ── Main ───────────────────────────────────────────────────────────────────
+# ── External deposit metadata ──────────────────────────────────────────────
+# Zenodo and Hugging Face descriptors, written by the build rather than kept
+# by hand. Every figure in them - station counts, journey counts, sample dates,
+# the review date - is one that has already rotted somewhere else on this site
+# at least once. A deposit that says 345 stations after the catchment grew to
+# 571 is worse than no deposit: it is a permanent, citable record of a number
+# that was never true.
+#
+# Uploading is a person's job. Both platforms need an account and acceptance of
+# their terms, so this produces the package and stops.
+DEPOSIT_DIR = os.path.join(BASE, '_build', 'deposit')
+
+
+def generate_deposit(terminals, stations, total, counts):
+    os.makedirs(DEPOSIT_DIR, exist_ok=True)
+    n_journeys = sum(1 for s in stations for j in s['journeys'].values()
+                     if j.get('mins') is not None)
+    n_direct = sum(1 for s in stations for j in s['journeys'].values()
+                   if j.get('mins') is not None and j.get('direct'))
+    n_peak = sum(1 for s in stations for j in s['journeys'].values()
+                 if j.get('typicalPeakMins') is not None)
+    # The headline finding, computed rather than spelled out in words that
+    # would still say "five" after the next timetable change.
+    gap = peak_gap_stats(peak_gaps(stations))
+    days = ', '.join(SAMPLE_DAYS) if SAMPLE_DAYS else 'three midweek days'
+    year = REVIEW_DATE[:4]
+
+    blurb = (
+        f"Scheduled train journey times from {total} British railway stations to the "
+        f"{len(TERMINAL_META)} London main line terminals, covering {n_journeys} "
+        f"station-to-terminal pairs of 90 minutes or less.\n\n"
+        f"Each pair carries the fastest weekday journey allowing at most one change "
+        f"(naming the interchange where it uses one), the fastest direct service, the "
+        f"median journey of direct services arriving in London between 07:00 and 09:30, "
+        f"and how many such services run per hour. {n_direct} of the pairs are direct "
+        f"and {n_peak} carry a peak median.\n\n"
+        f"The peak median is the reason this dataset exists. Published journey times "
+        f"are almost always the fastest service of the day, which is rarely the one a "
+        f"commuter can catch; holding both figures makes the difference measurable. "
+        f"Across the {gap['n']} direct routes the peak is slower than the advertised "
+        f"best on {gap['slower']} of them and faster on none, by a median of "
+        f"{minutes(gap['median'])} and by as much as {gap['max']}.\n\n"
+        f"Computed from Darwin Timetable Files published by the Rail Delivery Group "
+        f"under the Open Government Licence v3.0, sampled across {days}. Station "
+        f"coordinates come from NaPTAN. Only passenger services are counted; passing "
+        f"points, operational stops and cancelled services are excluded, and stations "
+        f"are matched to timetable records on TIPLOC.\n\n"
+        f"Limitations: these are scheduled times, not observed ones. They exclude "
+        f"delays, cancellations, engineering work and crowding, and they are not live "
+        f"departure times. Connections allow a uniform 8 minutes because "
+        f"station-by-station minimum connection times are not published in the feed. "
+        f"Fares are not included."
+    )
+
+    zenodo = {
+        "metadata": {
+            "title": f"UK train journey times to London terminals ({year})",
+            "upload_type": "dataset",
+            "description": ''.join(f"<p>{esc(par)}</p>"
+                                   for par in blurb.split('\n\n')),
+            "creators": [{"name": "RailReach"}],
+            "access_right": "open",
+            "license": "cc-by-4.0",
+            "version": REVIEW_DATE,
+            "language": "eng",
+            "keywords": ["rail transport", "United Kingdom", "London", "commuting",
+                         "journey time", "railway timetable", "public transport",
+                         "accessibility", "open data"],
+            "related_identifiers": [
+                {"identifier": SITE + "/", "relation": "isDocumentedBy", "scheme": "url"},
+                {"identifier": SITE + "/about/", "relation": "isDocumentedBy",
+                 "scheme": "url"},
+            ],
+            "notes": ("Derived from Darwin Timetable Files published by the Rail "
+                      "Delivery Group under the Open Government Licence v3.0. "
+                      "Station coordinates from NaPTAN (Department for Transport)."),
+        }
+    }
+    with open(os.path.join(DEPOSIT_DIR, 'zenodo.json'), 'w') as f:
+        json.dump(zenodo, f, indent=2)
+        f.write('\n')
+
+    # Hugging Face reads the YAML front matter; the body is the dataset card.
+    cols = [
+        ("station", "Station name as published by NaPTAN"),
+        ("station_slug", "URL-safe identifier, stable across releases"),
+        ("latitude, longitude", "Station coordinates (NaPTAN, WGS84)"),
+        ("london_terminal", "Destination terminal name"),
+        ("terminal_code", "Three-letter terminal code, e.g. WAT"),
+        ("fastest_minutes", "Quickest weekday journey, at most one change"),
+        ("fastest_direct_minutes", "Quickest journey with no change; empty if none runs"),
+        ("change_at", "Interchange used by the fastest journey; empty when direct"),
+        ("typical_peak_minutes", "Median of direct services arriving 07:00-09:30"),
+        ("peak_trains_per_hour", "Direct arrivals per hour in that window"),
+        ("direct", "Whether the fastest journey is direct"),
+        ("operators", "Train operating companies on the route"),
+    ]
+    card = (
+        "---\n"
+        "license: cc-by-4.0\n"
+        "language:\n  - en\n"
+        f"pretty_name: UK train journey times to London terminals ({year})\n"
+        "size_categories:\n  - 1K<n<10K\n"
+        "tags:\n  - rail\n  - transport\n  - united-kingdom\n  - london\n"
+        "  - commuting\n  - open-data\n"
+        "configs:\n"
+        "  - config_name: default\n"
+        "    data_files:\n"
+        "      - split: train\n        path: journey-times.csv\n"
+        "---\n\n"
+        f"# UK train journey times to London terminals ({year})\n\n"
+        + blurb + "\n\n"
+        "## Columns\n\n"
+        "| Column | Meaning |\n| --- | --- |\n"
+        + ''.join(f"| `{c}` | {d} |\n" for c, d in cols) +
+        "\n## Provenance\n\n"
+        f"- Source: Darwin Timetable Files (Rail Delivery Group), via the Rail Data "
+        f"Marketplace, under the Open Government Licence v3.0\n"
+        f"- Sample days: {days}\n"
+        f"- Coordinates: {GEO_SOURCE}, updated {GEO_UPDATED}\n"
+        f"- Threshold: journeys of {MAX_MINUTES} minutes or less\n"
+        f"- Last reviewed: {REVIEW_DATE}\n\n"
+        "## Citation\n\n"
+        "```\n"
+        f"RailReach ({year}). UK train journey times to London terminals. "
+        f"Dataset, reviewed {REVIEW_DATE}. CC BY 4.0. {SITE}/\n"
+        "```\n\n"
+        "## Documentation\n\n"
+        f"Full methodology, including what the figures do not cover: {SITE}/about/\n"
+    )
+    with open(os.path.join(DEPOSIT_DIR, 'README.md'), 'w') as f:
+        f.write(card)
+
+    print(f"  wrote _build/deposit/ (zenodo.json, README.md; "
+          f"{n_journeys} journeys, {n_peak} with a peak median)")
+
+
 def main():
     global REVIEW_DATE
     print("Loading dataset...")
     terminals, stations = load_data()
-    global GEO_SOURCE, GEO_UPDATED
+    global GEO_SOURCE, GEO_UPDATED, SAMPLE_DAYS, MAX_MINUTES
     with open(DATA_PATH) as f:
         _meta = json.load(f)
+    SAMPLE_DAYS = _meta.get('sampleDays', [])
+    MAX_MINUTES = _meta.get('maxMinutes', 90)
     REVIEW_DATE = _meta.get('lastReviewed', BUILD_DATE)
     GEO_SOURCE = _meta.get('geoSource', 'unspecified')
     GEO_UPDATED = _meta.get('geoUpdated', 'unknown')
@@ -3528,6 +3669,7 @@ def main():
     generate_llms(stations, counts, page_info, total)
     generate_llms_full(terminals, stations, counts, total)
     export_dataset(terminals, stations)
+    generate_deposit(terminals, stations, total, counts)
 
     # Checks run last, against what this build actually wrote. They used to sit
     # ahead of the llms.txt files, so extending check_published_figures to
