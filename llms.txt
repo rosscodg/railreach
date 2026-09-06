@@ -611,4 +611,6 @@ Licence: Creative Commons Attribution 4.0. Reuse permitted with attribution to R
 
 ## Citation
 
-When citing RailReach journey times, please attribute to RailReach (https://railreach.co.uk) and note the 2026 timetable basis and the 2026-08-17 review date.
+When citing RailReach journey times, use:
+
+RailReach (2026). UK train journey times to London terminals. Dataset, reviewed 2026-08-17. CC BY 4.0. https://railreach.co.uk/

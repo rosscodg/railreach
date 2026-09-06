@@ -47,6 +47,12 @@ GEO_SOURCE = 'unspecified'
 GEO_UPDATED = 'unknown'
 SAMPLE_DAYS = []
 MAX_MINUTES = 90
+
+# The dataset's own name and permanent identifier. DOI is loaded from
+# stations.json in main() and is empty until a deposit exists; every use below
+# degrades cleanly without one.
+DATASET_TITLE = 'UK train journey times to London terminals'
+DOI = ''
 SOURCE_LABEL = ''
 BASIS_LABEL = ''
 METHOD_LABEL = ''
@@ -403,6 +409,28 @@ def faster_nearby(station_name, sdata, stations, fastest_mins):
     return (f'<p>{link} is quicker: {dist:.0f} km away and {best} minutes into '
             f'{london(term)}, saving {minutes(fastest_mins - best)} on the journey '
             f'above.{others}</p>\n')
+
+
+def doi_url():
+    """The DOI as a resolvable link, or empty when none is deposited."""
+    return f'https://doi.org/{DOI}' if DOI else ''
+
+
+def dataset_citation(italic=False):
+    """The one citation string for the dataset.
+
+    There were four of these, already drifting: two capitalisations of the
+    title, one hardcoded year that would have outlived the data, and only one
+    of them mentioning the licence. A licence that asks for attribution has to
+    say what the attribution is, and say the same thing everywhere it says it.
+
+    The DOI is the point of depositing at all - it resolves after the site
+    moves or stops - so it leads the identifier when one exists.
+    """
+    title = f'<em>{DATASET_TITLE}</em>' if italic else DATASET_TITLE
+    where = doi_url() or f'{SITE}/'
+    return (f'RailReach ({REVIEW_DATE[:4]}). {title}. Dataset, reviewed '
+            f'{REVIEW_DATE}. CC BY 4.0. {where}')
 
 
 # ── Shared chrome ──────────────────────────────────────────────────────────
@@ -2538,8 +2566,8 @@ def generate_about(stations, counts, total, n_station_pages):
          ],
          "measurementTechnique": METHOD_LABEL or
              "Computed from published Darwin timetable files",
-         "citation": ("RailReach (2026). UK Train Journey Times to London "
-                      f"Terminals. Reviewed {REVIEW_DATE}. {SITE}/"),
+         "citation": dataset_citation(),
+         **({"identifier": doi_url()} if DOI else {}),
          "variableMeasured": [
              {"@type": "PropertyValue", "name": "Journey time", "unitText": "minutes",
               "description": "Fastest scheduled weekday journey, up to one change"},
@@ -2616,7 +2644,7 @@ def generate_about(stations, counts, total, n_station_pages):
 <p>The full dataset is available as <a href="/data/journey-times.csv">CSV</a>, <a href="/data/journey-times.json">JSON</a> and <a href="/llms-full.txt">plain text</a>. Each row carries the fastest journey, the fastest direct service, the median peak journey and the peak frequency, so any figure quoted on this site can be reproduced from the download.</p>
 <h3>How to cite</h3>
 <p>A licence that asks for attribution should say what the attribution looks like, rather than leaving each person to invent one:</p>
-<p class="cite-block">RailReach ({REVIEW_DATE[:4]}). <em>UK train journey times to London terminals</em>. Dataset, reviewed {REVIEW_DATE}. CC BY 4.0. {SITE}/</p>
+<p class="cite-block">{dataset_citation(italic=True)}</p>
 
 <h2 id="corrections">Corrections</h2>
 <p>If a journey time looks wrong, please say so. Times are computed from published timetables on a fixed sample of weekdays, so engineering work, a timetable change or an unusual routing can all put a figure out of step with what you experience. Corrections are welcome and are the fastest way to improve the site.</p>
@@ -2709,7 +2737,9 @@ Licence: Creative Commons Attribution 4.0. Reuse permitted with attribution to R
 
 ## Citation
 
-When citing RailReach journey times, please attribute to RailReach ({SITE}) and note the 2026 timetable basis and the {REVIEW_DATE} review date.
+When citing RailReach journey times, use:
+
+{dataset_citation()}
 """
     with open(os.path.join(BASE, 'llms.txt'), 'w') as f:
         f.write(txt)
@@ -2764,6 +2794,7 @@ Basis: fastest typical weekday service on each route
 Threshold: journeys of 90 minutes or less
 Last reviewed: {REVIEW_DATE}
 Licence: CC BY 4.0. Reuse permitted with attribution to RailReach ({SITE}/)
+Cite as: {dataset_citation()}
 Machine-readable: {SITE}/data/journey-times.json and {SITE}/data/journey-times.csv
 
 ## What this data is and is not
@@ -3457,6 +3488,8 @@ def export_dataset(terminals, stations):
             'coordinatesUpdated': GEO_UPDATED,
             'licence': 'CC BY 4.0',
             'attribution': f'RailReach ({SITE}/)',
+            'citation': dataset_citation(),
+            **({'doi': DOI} if DOI else {}),
             'terminals': {c: {**terminals[c], 'slug': TERMINAL_META[c]['slug'],
                               'operators': TERMINAL_META[c]['operators']}
                           for c in TERMINAL_META},
@@ -3592,8 +3625,7 @@ def generate_deposit(terminals, stations, total, counts):
         f"- Last reviewed: {REVIEW_DATE}\n\n"
         "## Citation\n\n"
         "```\n"
-        f"RailReach ({year}). UK train journey times to London terminals. "
-        f"Dataset, reviewed {REVIEW_DATE}. CC BY 4.0. {SITE}/\n"
+        + dataset_citation() + "\n"
         "```\n\n"
         "## Documentation\n\n"
         f"Full methodology, including what the figures do not cover: {SITE}/about/\n"
@@ -3609,11 +3641,12 @@ def main():
     global REVIEW_DATE
     print("Loading dataset...")
     terminals, stations = load_data()
-    global GEO_SOURCE, GEO_UPDATED, SAMPLE_DAYS, MAX_MINUTES
+    global GEO_SOURCE, GEO_UPDATED, SAMPLE_DAYS, MAX_MINUTES, DOI
     with open(DATA_PATH) as f:
         _meta = json.load(f)
     SAMPLE_DAYS = _meta.get('sampleDays', [])
     MAX_MINUTES = _meta.get('maxMinutes', 90)
+    DOI = _meta.get('doi', '')
     REVIEW_DATE = _meta.get('lastReviewed', BUILD_DATE)
     GEO_SOURCE = _meta.get('geoSource', 'unspecified')
     GEO_UPDATED = _meta.get('geoUpdated', 'unknown')

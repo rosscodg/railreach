@@ -7,6 +7,7 @@ Basis: fastest typical weekday service on each route
 Threshold: journeys of 90 minutes or less
 Last reviewed: 2026-08-17
 Licence: CC BY 4.0. Reuse permitted with attribution to RailReach (https://railreach.co.uk/)
+Cite as: RailReach (2026). UK train journey times to London terminals. Dataset, reviewed 2026-08-17. CC BY 4.0. https://railreach.co.uk/
 Machine-readable: https://railreach.co.uk/data/journey-times.json and https://railreach.co.uk/data/journey-times.csv
 
 ## What this data is and is not

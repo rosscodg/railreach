@@ -25,10 +25,21 @@ is the layer academic search and citation tools read.
    related identifiers, notes. Access right is **Open**.
 4. Publish. The DOI appears immediately.
 
-**After publishing**, feed the DOI back into the site — it belongs in the
-`Dataset` JSON-LD as `identifier`, and in the citation line on `/about/`. Both
-are generated, so it is a one-line change in `generate-pages.py`. Ask and it
-gets wired in.
+**After publishing**, feed the DOI back into the site. The wiring already
+exists: add a `doi` field to `_build/data/stations.json` and rebuild.
+
+```json
+"doi": "10.5281/zenodo.1234567",
+```
+
+Use the **concept DOI** — the one Zenodo describes as representing all
+versions — not the DOI of a specific version. It always resolves to the
+latest, which is what a citation on a live site should do.
+
+That one field then appears as the `Dataset` JSON-LD `identifier`, in the
+citation line on `/about/`, in `llms.txt` and `llms-full.txt`, and in the
+`doi` key of the JSON export. Without it every one of those degrades to the
+site URL, which is why the field is optional rather than required.
 
 Reserving a DOI before publishing is possible if you want it to appear in the
 files themselves, but it makes the deposit un-editable in ways that are

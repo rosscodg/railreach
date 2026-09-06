@@ -9,6 +9,7 @@
   "coordinatesUpdated": "2026-08-13",
   "licence": "CC BY 4.0",
   "attribution": "RailReach (https://railreach.co.uk/)",
+  "citation": "RailReach (2026). UK train journey times to London terminals. Dataset, reviewed 2026-08-17. CC BY 4.0. https://railreach.co.uk/",
   "terminals": {
     "KGX": {
       "name": "Kings Cross",
