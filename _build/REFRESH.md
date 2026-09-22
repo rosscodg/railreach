@@ -56,12 +56,17 @@ commands.
    `_v8.xml.gz` per sample day, plus one `_ref_v4.xml.gz`. Keep Darwin's
    filenames; the date is in them.
 
-   Pick a normal working week. The August 2026 sample was taken on 11–13
-   August and caught the Brighton Main Line mid-engineering: Brighton came out
-   at 60 minutes to Victoria on 2.0 peak trains an hour, against a real fast
-   service of about 52 and far more than two an hour. Nothing in the pipeline
-   can detect that, because a reduced timetable is still a valid timetable.
-   Avoid August, and the weeks either side of Christmas and Easter.
+   Pick a normal working week — avoid August, and the weeks either side of
+   Christmas and Easter. Nothing in the pipeline can detect engineering work,
+   because a reduced timetable is still a valid timetable, and the three
+   sampled days come out near-identical whether or not the line is blocked.
+
+   That is a precaution, not a diagnosis. The August 2026 sample was checked
+   against Realtime Trains and holds up: Brighton's 60 minutes to Victoria on
+   2.0 peak trains an hour is simply what the timetable does — the Gatwick
+   Express runs twice an hour and takes 65 in the peak, which is the figure
+   the dataset publishes. An earlier note here claimed that sample had caught
+   engineering work. It had not.
 
    **Five days beats three.** The floor is three, but 26 routes currently rest
    on two peak trains a day, where a median is an anecdote. Five days nearly
@@ -100,10 +105,15 @@ commands.
    ```
 
 6. **Check the output.** It should report the new review date, the timetable in
-   force, and 100 quoted figures agreeing with the data. Spot-check a few
-   journeys you know — Reading to Paddington is 23 minutes, Watford Junction to
-   Euston 15, Brighton to Victoria about 52. A figure well off those is the
-   signal that the sample caught disruption.
+   force, and 100 quoted figures agreeing with the data.
+
+   Spot-check against <https://www.realtimetrains.co.uk>, which shows the
+   working timetable rather than a journey planner's suggestion. Verified
+   against the August sample: Reading to Paddington 23 minutes, Watford
+   Junction to Euston 15, Brighton to Victoria 60 fastest with a 65-minute
+   peak median, Chatham to St Pancras 39 fastest against a 68-minute median.
+   Check memory against the feed rather than the other way round — three of
+   those looked wrong to me and were not.
 
 7. **Run the tests:** `python3 _build/test_journey_times.py`
 

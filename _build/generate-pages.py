@@ -1821,6 +1821,10 @@ def _best_towns(stations):
 
 PEAK_GAP_SLUG = 'peak-commute-penalty'
 
+# Filled by peak_gaps(), so the page can say what it left out and why rather
+# than quietly reporting a smaller number than the site's station count.
+PEAK_GAP_EXCLUDED = {'thin': 0, 'indirect': 0}
+
 
 def peak_gaps(stations):
     """How much longer the morning peak takes than the timetable's best train.
@@ -1836,14 +1840,27 @@ def peak_gaps(stations):
     One row per station, taking its quickest direct route, plus a per-terminal
     breakdown.
     """
-    rows = []
+    rows, thin, indirect = [], 0, 0
     for s2 in stations:
         best = None
+        had_route = False
         for code, j in s2['journeys'].items():
-            if not j.get('direct'):
-                continue
             tp, m = j.get('typicalPeakMins'), j.get('mins')
             if tp is None or m is None:
+                continue
+            if not j.get('direct'):
+                continue
+            had_route = True
+            # A median over two trains a day is an anecdote, and this page
+            # ranks on that median. Chestfield & Swalecliffe led the table at
+            # +31 on six services across three days - two a day, one of which
+            # is the only stopping service to St Pancras in the peak. The
+            # figure is correct and it is not a statistic.
+            #
+            # The bar is BEST_MIN_TPH, already declared on the commuter-towns
+            # ranking as the point below which a service is not a commute.
+            # One standard, applied twice, beats a second one invented here.
+            if not j.get('peakTrainsPerHour') or j['peakTrainsPerHour'] < BEST_MIN_TPH:
                 continue
             if best is None or m < best['fastest']:
                 best = {'name': s2['name'], 'slug': s2['slug'], 'fastest': m,
@@ -1851,7 +1868,12 @@ def peak_gaps(stations):
                         'tph': j.get('peakTrainsPerHour')}
         if best:
             rows.append(best)
+        elif had_route:
+            thin += 1
+        else:
+            indirect += 1
     rows.sort(key=lambda r: (-r['gap'], r['name']))
+    PEAK_GAP_EXCLUDED.update(thin=thin, indirect=indirect)
     return rows
 
 
@@ -2204,12 +2226,14 @@ def generate_peak_gap(terminals, stations, total):
         'the gap that exists even when everything runs to plan.</p>\n'
         '<h3>How was this measured?</h3>\n'
         '<p>From Darwin timetable files published by the Rail Delivery Group under the '
-        'Open Government Licence, across three midweek days. For each station the '
-        'quickest direct route into a London terminal is compared with the median '
-        'direct service arriving there between 07:00 and 09:30. Routes whose quickest '
-        'option requires a change are excluded, because the peak median counts direct '
-        'services only and comparing the two would measure the change rather than the '
-        'peak.</p>')
+        'Open Government Licence, across ' + str(len(SAMPLE_DAYS)) + ' midweek days '
+        '(' + ', '.join(SAMPLE_DAYS) + '). For each station the quickest direct route '
+        'into a London terminal is compared with the median direct service arriving '
+        'there between 07:00 and 09:30. Routes whose quickest option requires a change '
+        'are excluded, because the peak median counts direct services only and '
+        'comparing the two would measure the change rather than the peak. Routes with '
+        'fewer than ' + ('%g' % BEST_MIN_TPH) + ' peak trains an hour are excluded too, '
+        'because a median over a handful of services is not one.</p>')
 
     ld = json.dumps([
         json.loads(breadcrumb_ld([("RailReach", "/"),
@@ -2245,7 +2269,8 @@ def generate_peak_gap(terminals, stations, total):
         '<a href="/best-commuter-towns-to-london/">town ranking</a>.</p>\n\n'
 
         '<h2>The finding</h2>\n'
-        '<p>For every station with a direct London service, RailReach holds two '
+        '<p>For every station with a direct London service running at least '
+        + ('%g' % BEST_MIN_TPH) + ' trains an hour in the peak, RailReach holds two '
         'numbers: the quickest direct train of the day, which is the figure that ends '
         'up in listings, and the median direct train arriving in London between 07:00 '
         'and 09:30, which is the one a commuter catches. Comparing them across '
@@ -2299,11 +2324,23 @@ def generate_peak_gap(terminals, stations, total):
         '<p>Nor does it measure crowding, whether you get a seat, or what a season '
         'ticket costs. It is one comparison, made carefully, between two numbers drawn '
         'from the same timetable.</p>\n'
-        '<p>Routes whose quickest option involves a change are excluded throughout. The '
-        'peak median counts direct services only, so including them would compare a '
-        'changed journey against a direct one and report the change as a peak penalty. '
-        'That exclusion drops ' + str(total - st['n']) + ' of the ' + str(total)
-        + ' stations from this analysis.</p>\n\n'
+        '<p>Two exclusions, both of which shrink the table and are worth stating '
+        'rather than burying. Routes whose quickest option involves a change are out: '
+        'the peak median counts direct services only, so including them would compare '
+        'a changed journey against a direct one and report the change as a peak '
+        'penalty. That drops '
+        + str(PEAK_GAP_EXCLUDED['indirect']) + ' stations.</p>\n'
+        '<p>Routes with fewer than ' + ('%g' % BEST_MIN_TPH) + ' trains an hour in the '
+        'peak are also out, dropping a further '
+        + str(PEAK_GAP_EXCLUDED['thin']) + '. This page ranks on a median, and a median '
+        'over two trains a day is an anecdote wearing a statistic\u2019s clothes. An '
+        'earlier version of this table was led by a station whose figure rested on six '
+        'services across three days; the number was correct and it should not have been '
+        'the headline. The threshold is the one the '
+        '<a href="/best-commuter-towns-to-london/">town ranking</a> already uses for the '
+        'same reason.</p>\n'
+        '<p>Between them the two exclusions leave ' + str(st['n']) + ' of the '
+        + str(total) + ' stations on the site.</p>\n\n'
 
         '<h2>Citing this analysis</h2>\n'
         '<p>The underlying dataset is published under a '
