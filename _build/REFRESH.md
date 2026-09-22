@@ -46,37 +46,84 @@ statement of intent rather than a traceable citation.
 
 ## How
 
-1. **Re-check the times.** For each terminal, the value is the fastest typical
-   weekday service, not an average and not a one-off record. National Rail's
-   journey planner is the reference. Where no direct service exists, the figure
-   is the quickest one-change routing including a realistic interchange
-   allowance, and `direct` must be `false`.
+The sample is whatever `PPTimetable_*.xml.gz` files are sitting in
+`_build/data/`. `feed.py` finds them, reads the date out of each filename and
+refuses anything that cannot support an honest measurement. Nothing about the
+sample is written in code any more, so a refresh is: swap the files, run three
+commands.
 
-2. **Edit `_build/data/stations.json`.** It is the single source of truth. Do
-   not edit `index.html`, the station pages or `assets/js/stations-data.js` by
-   hand: the generator overwrites all of them.
+1. **Download the timetable files** from the Rail Data Marketplace — one
+   `_v8.xml.gz` per sample day, plus one `_ref_v4.xml.gz`. Keep Darwin's
+   filenames; the date is in them.
 
-3. **Set `lastReviewed`** to the date the review actually happened.
+   Pick a normal working week. The August 2026 sample was taken on 11–13
+   August and caught the Brighton Main Line mid-engineering: Brighton came out
+   at 60 minutes to Victoria on 2.0 peak trains an hour, against a real fast
+   service of about 52 and far more than two an hour. Nothing in the pipeline
+   can detect that, because a reduced timetable is still a valid timetable.
+   Avoid August, and the weeks either side of Christmas and Easter.
 
-4. **Record what you did.** Add or update a `method` field alongside `source`
-   describing how the times were obtained, so the next refresh does not start
-   from the same blank page this one did.
+   **Five days beats three.** The floor is three, but 26 routes currently rest
+   on two peak trains a day, where a median is an anecdote. Five days nearly
+   doubles the services behind every figure.
 
-5. **Regenerate:**
+2. **Replace the old files.** Delete the previous `_v8` and `_ref` files —
+   leaving them in means measuring the old days as well, and `feed.py` will
+   refuse a duplicate day but happily pool two separate weeks.
+
+3. **Measure:**
+
+   ```bash
+   python3 _build/recompute.py --write
+   ```
+
+   Prints the sample it found before doing anything, then writes
+   `measured.json`. Takes about 20 seconds. Read the comparison it prints —
+   that is the point of the step.
+
+4. **Rebuild the dataset:**
+
+   ```bash
+   python3 _build/build_dataset.py --write
+   ```
+
+   `lastReviewed` is set to today. Pass `--reviewed YYYY-MM-DD` to record a
+   different date, which is only right if the review genuinely happened then.
+   The `method` string, `sampleDays` and the "N midweek days" phrasing all come
+   from the files found in step 1, so they cannot describe days that were not
+   measured.
+
+5. **Regenerate the site:**
 
    ```bash
    python3 _build/generate-pages.py
    ```
 
-   This rewrites all 358 pages, the sitemap, `llms.txt`, `llms-full.txt`, the
-   markdown alternates, the CSV and JSON exports, and re-stamps the service
-   worker cache so returning visitors get the new data.
+6. **Check the output.** It should report the new review date, the timetable in
+   force, and 100 quoted figures agreeing with the data. Spot-check a few
+   journeys you know — Reading to Paddington is 23 minutes, Watford Junction to
+   Euston 15, Brighton to Victoria about 52. A figure well off those is the
+   signal that the sample caught disruption.
 
-6. **Check the build output.** It should report the new review date and confirm
-   the timetable in force. The station and terminal counts should match what
-   you expect.
+7. **Run the tests:** `python3 _build/test_journey_times.py`
 
-7. **Verify, commit, push.** Pushing to `main` deploys to GitHub Pages.
+8. **Verify, commit, push.** Pushing to `main` deploys to GitHub Pages.
+
+### What the sample check refuses
+
+`feed.py` stops the run rather than publishing a measurement it cannot stand
+behind:
+
+| Situation | Why |
+| --- | --- |
+| No `_v8` files | Nothing to measure |
+| No `_ref_v4` file | TIPLOC codes cannot be matched to stations |
+| Fewer than three days | A median over fewer is an anecdote |
+| Any Saturday or Sunday | The site publishes weekday commutes |
+| Two files covering one day | Measuring a day twice weights it double |
+
+Non-consecutive days are allowed, and noted in the output so the choice is
+visible.
 
 ## What must stay in step
 

@@ -18,6 +18,7 @@ import unicodedata
 from collections import defaultdict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import feed
 from darwin_adapter import load
 from journey_times import (measure, build_terminal_index, fastest_one_change,
                            calling_points_abs, MIN_INTERCHANGE_MINS)
@@ -26,14 +27,11 @@ BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(BASE, '_build', 'data')
 STATIONS = os.path.join(DATA, 'stations.json')
 
-# Three consecutive midweek days. A single day can be skewed by engineering
-# work on one route; three lets that show up as an outlier instead of becoming
-# the published figure.
-FILES = [
-    ('PPTimetable_20260811020500_v8.xml.gz', '2026-08-11'),   # Tuesday
-    ('PPTimetable_20260812020537_v8.xml.gz', '2026-08-12'),   # Wednesday
-    ('PPTimetable_20260813023858_v8.xml.gz', '2026-08-13'),   # Thursday
-]
+# The sample is whatever timetable files are sitting in _build/data/, found
+# by feed.discover(). A single day can be skewed by engineering work on one
+# route; several let that show up as an outlier instead of becoming the
+# published figure. More days is strictly better - five roughly doubles the
+# services behind every median compared with three.
 
 # Kings Cross and St Pancras are adjacent but separate stations, and the
 # original data merged them: St Albans and Bedford have no Kings Cross service
@@ -51,7 +49,7 @@ TERMINAL_CRS = {
     'FST': 'Fenchurch Street', 'MOG': 'Moorgate',
 }
 TERMINAL_NAMES = dict(TERMINAL_CRS)
-REF_FILE = 'PPTimetable_20260812020537_ref_v4.xml.gz'
+
 
 
 def load_reference():
@@ -65,7 +63,8 @@ def load_reference():
     """
     import gzip
     import xml.etree.ElementTree as ET
-    with gzip.open(os.path.join(DATA, REF_FILE), 'rb') as f:
+    _samples, ref = feed.discover(DATA)
+    with gzip.open(ref, 'rb') as f:
         root = ET.fromstring(f.read())
     tpl_to_crs = {}
     crs_to_tpls = defaultdict(set)
@@ -111,13 +110,12 @@ def main():
     print()
 
     print("Loading timetables")
+    samples, _ref = feed.discover(DATA)
+    feed.report(samples, _ref)
     services = []
     per_day = []          # kept separate as well: see the note on connections
-    for fname, date in FILES:
-        path = os.path.join(DATA, fname)
-        if not os.path.exists(path):
-            print(f"  MISSING {fname}")
-            continue
+    for path, day in samples:
+        date = day.isoformat()
         svcs, skipped = load(path, service_date=date)
         print(f"  {date}: {len(svcs):,} passenger services")
         services.extend(svcs)

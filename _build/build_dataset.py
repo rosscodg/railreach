@@ -33,8 +33,14 @@ MEASURED = os.path.join(DATA, 'measured.json')
 STATIONS = os.path.join(DATA, 'stations.json')
 NAPTAN = os.path.join(DATA, 'naptan-rail-stations.csv')
 
-MEASURED_ON = '2026-08-17'
-SAMPLE_DAYS = ['2026-08-11', '2026-08-12', '2026-08-13']
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import feed                                             # noqa: E402
+
+# Discovered from the files present, not written here: see feed.py. The review
+# date defaults to today because that is when the review is happening; pass
+# --reviewed YYYY-MM-DD to record a different one.
+SAMPLES, REF_FILE = feed.discover(DATA)
+SAMPLE_DAYS = feed.sample_days(SAMPLES)
 
 TERMINALS = {
     'KGX': {'name': 'Kings Cross', 'naptan': 'London Kings Cross Rail Station'},
@@ -83,8 +89,7 @@ def tiploc_names():
     """
     import gzip
     import xml.etree.ElementTree as ET
-    ref = os.path.join(DATA, 'PPTimetable_20260812020537_ref_v4.xml.gz')
-    with gzip.open(ref, 'rb') as f:
+    with gzip.open(REF_FILE, 'rb') as f:
         root = ET.fromstring(f.read())
     out = {}
     for c in root:
@@ -102,8 +107,23 @@ def tiploc_names():
     return out
 
 
+def _arg(flag, default):
+    """The value after a flag on the command line, or a default."""
+    if flag in sys.argv:
+        i = sys.argv.index(flag)
+        if i + 1 < len(sys.argv):
+            return sys.argv[i + 1]
+    return default
+
+
 def main():
     write = '--write' in sys.argv
+    reviewed = _arg('--reviewed', datetime.date.today().isoformat())
+    if not re.fullmatch(r'\d{4}-\d{2}-\d{2}', reviewed):
+        print(f"ERROR: --reviewed must be YYYY-MM-DD, got {reviewed!r}")
+        return 1
+    feed.report(SAMPLES, REF_FILE)
+    print(f"  review date:      {reviewed}")
     names = tiploc_names()
     measured = json.load(open(MEASURED))['results']
     data = json.load(open(STATIONS))
@@ -192,8 +212,8 @@ def main():
                      'fastest direct service and the median peak service alongside, '
                      'measured from published timetables')
     data['method'] = (
-        'Journey times computed from Darwin PPTimetable files for three midweek days '
-        f'({", ".join(SAMPLE_DAYS)}). Only passenger services are counted; passing '
+        'Journey times computed from Darwin PPTimetable files for '
+        f'{feed.describe(SAMPLES)}. Only passenger services are counted; passing '
         'points, operational stops and cancelled services are excluded. Stations and '
         'terminals are matched on TIPLOC using Darwin reference data. "Fastest" is the '
         'quickest journey of the day allowing at most one change, and names the '
@@ -206,7 +226,7 @@ def main():
         'services arriving at the London terminal between 07:00 and 09:30, and the '
         'peak frequency counts those same direct services.'
     )
-    data['lastReviewed'] = MEASURED_ON
+    data['lastReviewed'] = reviewed
     data['sampleDays'] = SAMPLE_DAYS
     data['maxMinutes'] = MAX_MINUTES
 
