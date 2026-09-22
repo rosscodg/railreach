@@ -9,6 +9,24 @@ upload is a person's job. Everything up to that point is done.
 
 ---
 
+## Status: drafted, held for an October sample
+
+The record is filled in and saved as a draft at
+<https://zenodo.org/uploads/22556236>. Files uploaded, metadata complete,
+concept DOI reserved as **10.5281/zenodo.22556235** — it registers on publish,
+not before.
+
+Held deliberately, as of 2026-09-22. The August data is accurate — spot-checked
+against Realtime Trains at four points — but a DOI is permanent and a five-day
+October sample would be a better thing to make permanent: more services behind
+every median, and it would bring back some of the 113 stations currently
+excluded for running fewer than two peak trains an hour.
+
+So the order is: new sample → rebuild → check the spot-check figures in
+REFRESH.md → publish → paste the DOI into `stations.json`.
+
+Publishing now would not be wrong, just second-best.
+
 ## 1. Zenodo — the one worth doing first
 
 Gets the dataset a DOI, which is a permanent identifier that survives the site
