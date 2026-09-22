@@ -831,12 +831,16 @@ def check_timetable_currency(review_date):
 
 
 def check_prose_figures(stations):
-    """Catch hand-written times that have drifted from the dataset.
+    """Check every journey time quoted in homepage prose against the dataset.
 
-    The homepage FAQ and terminal summaries quote specific figures in prose
-    the generator does not own - 137 of them. A data refresh silently leaves
-    those stale, which is precisely the kind of quiet inaccuracy the review
-    date is supposed to rule out. Compare and report.
+    Written when that prose was hand-maintained and a refresh left it stale.
+    sync_index() now regenerates it, so this no longer guards against human
+    drift - it guards against the generator, which is a narrower job but not
+    an empty one: it is the only thing that would notice sync_index writing a
+    figure the dataset does not support.
+
+    Verified to fail by corrupting the dataset and watching it report the
+    disagreement, which is the only way left to make it fire.
     """
     path = os.path.join(BASE, 'index.html')
     with open(path) as f:
@@ -858,21 +862,60 @@ def check_prose_figures(stations):
 
     checked = 0
     mismatches = []
-    for m in re.finditer(r'([A-Z][A-Za-z\'\- ]{2,28}?) \((\d+) min\)', html):
-        name, mins = m.group(1).strip(), int(m.group(2))
-        if name not in valid:
+    # Match on the figure, then take the LONGEST station name that ends where
+    # it starts. A non-greedy name pattern finds the shortest one instead, and
+    # "&" was not even in its character class, so "Hayes & Harlington (16 min)"
+    # was read as Harlington - a different station 40 miles away in
+    # Bedfordshire - and reported as a 30-minute error on a correct page. A
+    # check that cries wolf is worse than no check: it trains you to skip the
+    # build output.
+    # The page is escaped and the station names are not, so "Hayes &amp;
+    # Harlington" never matches "Hayes & Harlington". Unescaping is what makes
+    # the 11 ampersand stations checkable at all; without it they are silently
+    # skipped, which is how this check reported success on a figure it had
+    # never looked at.
+    html = html.replace('&amp;', '&').replace('&#38;', '&')
+
+    # Per-terminal times, so "(5 min to St Pancras)" can be checked against
+    # St Pancras rather than against every terminal the station serves.
+    per_term = {}
+    for s2 in stations:
+        per_term[s2['name']] = {TERMINAL_META[c]['name']: j['mins']
+                                for c, j in s2['journeys'].items()
+                                if j.get('mins') is not None}
+
+    # Two forms are in use: "Stevenage (20 min)" and "Kentish Town (5 min to
+    # St Pancras)". Only the first was ever matched, so the whole 30-minute
+    # FAQ - the most specific prose on the homepage, naming both a time and a
+    # terminal - was never checked, and the check reported success without
+    # having looked at it.
+    by_length = sorted(valid, key=len, reverse=True)
+    for m in re.finditer(r'\((\d+) min(?: to ([A-Za-z\'\- ]+?))?\)', html):
+        before = html[:m.start()].rstrip()
+        name = next((n for n in by_length if before.endswith(n)), None)
+        if name is None:
             continue
+        mins, term = int(m.group(1)), m.group(2)
         checked += 1
-        if mins not in valid[name]:
+        if term:
+            term = term.strip()
+            actual = per_term[name].get(term)
+            if actual is None:
+                mismatches.append((f'{name} to {term}', mins,
+                                   ['no service in the data']))
+            elif actual != mins:
+                mismatches.append((f'{name} to {term}', mins, [actual]))
+        elif mins not in valid[name]:
             mismatches.append((name, mins, sorted(valid[name])))
 
     if mismatches:
-        print(f"  WARNING: {len(mismatches)} hand-written figure(s) disagree with the data:")
+        print(f"  WARNING: {len(mismatches)} quoted figure(s) disagree with the data:")
         for name, quoted, actual in mismatches[:12]:
             print(f"    index.html says {name} ({quoted} min); data has {actual}")
-        print("    These sit in prose the generator does not own. Edit index.html by hand.")
+        print("    sync_index() writes this prose, so a disagreement here is a")
+        print("    generator bug, not a stale edit. Do not patch index.html by hand.")
     else:
-        print(f"  {checked} hand-written figures in prose all agree with the data")
+        print(f"  {checked} journey times quoted in prose all agree with the data")
 
 
 # ── Discovery ──────────────────────────────────────────────────────────────

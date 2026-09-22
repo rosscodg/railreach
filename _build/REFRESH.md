@@ -21,9 +21,16 @@ Between those dates the published times do not go out of date in any
 structural sense. Short-term disruption, engineering works and strikes are
 explicitly out of scope and disclaimed on `/about/`.
 
-## Known gap in provenance
+## Provenance
 
-**How the original numbers were compiled is not documented, and cannot be
+Resolved. `build_dataset.py`, `journey_times.py` and `darwin_adapter.py`
+compute the dataset from Darwin PPTimetable files, and `method` in
+`stations.json` records exactly how. The gap described below applied to the
+pre-August data and is kept for history.
+
+### The original gap
+
+**How the original numbers were compiled was not documented, and cannot be
 reconstructed from this repository.**
 
 `london_commute_comprehensive_90min.csv` in this directory is the earliest
@@ -85,7 +92,11 @@ Changing the journey data touches more than the pages:
 | `sw.js` cache name | yes (content-hashed) |
 | Hand-written FAQ prose on the homepage | **no — check manually** |
 
-The last row matters. The homepage FAQ and terminal summaries quote specific
-times ("Stevenage 20 min", "Cambridge 49 min") in hand-written prose that the
-generator does not touch. After a refresh, grep the homepage for any figure
-that has moved.
+The last row is out of date: `sync_index()` now regenerates the homepage FAQ
+and terminal summaries from the dataset, so those figures cannot drift and do
+not need grepping. `check_prose_figures()` verifies all 100 of them on every
+build and fails loudly if the generator writes one the data does not support.
+
+Both forms are checked - "Stevenage (20 min)" against every terminal it
+serves, and "Kentish Town (5 min to St Pancras)" against St Pancras
+specifically.
